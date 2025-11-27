@@ -1,0 +1,63 @@
+{
+  "today_profit": 125430,
+  "today_profit_percent": 2.3,
+  "total_profit": 1234567,
+  "total_profit_percent": 15.2,
+  "recent_trades": [
+    {
+      "time": "23:20:15",
+      "market": "KRW-BTC",
+      "action": "sell",
+      "profit": 12345,
+      "profit_rate": 0.025
+    },
+    {
+      "time": "23:18:22",
+      "market": "KRW-ETH",
+      "action": "sell",
+      "profit": -3210,
+      "profit_rate": -0.015
+    },
+    {
+      "time": "23:15:08",
+      "market": "KRW-XRP",
+      "action": "buy",
+      "profit": 0,
+      "profit_rate": 0
+    }
+  ],
+  "latest_trade": {
+    "time": "23:20:15",
+    "market": "KRW-BTC",
+    "action": "sell",
+    "profit": 12345,
+    "profit_rate": 0.025
+  },
+  "holdings": [
+    {
+      "market": "KRW-XRP",
+      "amount": 1000,
+      "avg_price": 650,
+      "current_price": 670,
+      "value": 670000,
+      "profit_rate": 0.0308
+    },
+    {
+      "market": "KRW-DOGE",
+      "amount": 5000,
+      "avg_price": 120,
+      "current_price": 118,
+      "value": 590000,
+      "profit_rate": -0.0167
+    },
+    {
+      "market": "KRW-ADA",
+      "amount": 2000,
+      "avg_price": 500,
+      "current_price": 504,
+      "value": 1008000,
+      "profit_rate": 0.008
+    }
+  ],
+  "last_update": "2025-11-27T23:20:15.123456"
+}
