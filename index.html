@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🤖 Jarvis Trading Bot</title>
+    <title>🤖 Jarvis Trading Bot - Live Dashboard</title>
     <style>
         * {
             margin: 0;
@@ -16,6 +16,7 @@
             color: #ffffff;
             padding: 20px;
             min-height: 100vh;
+            overflow-x: hidden;
         }
         .container {
             max-width: 1200px;
@@ -41,6 +42,55 @@
             margin-top: 10px;
             color: #6ee7b7;
         }
+        
+        /* 워드클라우드 */
+        .wordcloud-container {
+            position: relative;
+            height: 200px;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 15px;
+            margin-bottom: 30px;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .wordcloud-word {
+            position: absolute;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.3s;
+            white-space: nowrap;
+        }
+        .wordcloud-word:hover {
+            transform: scale(1.2);
+        }
+        .word-profit {
+            color: #10b981;
+        }
+        .word-loss {
+            color: #ef4444;
+        }
+        .word-neutral {
+            color: #9ca3af;
+        }
+        
+        @keyframes drift {
+            0%, 100% {
+                transform: translate(0, 0) rotate(0deg);
+            }
+            25% {
+                transform: translate(20px, -10px) rotate(5deg);
+            }
+            50% {
+                transform: translate(-10px, 10px) rotate(-3deg);
+            }
+            75% {
+                transform: translate(15px, 5px) rotate(2deg);
+            }
+        }
+        .coin-drift {
+            animation: drift 8s ease-in-out infinite;
+        }
+        
         .stats-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -100,6 +150,11 @@
             border-radius: 10px;
             text-align: center;
             border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s;
+        }
+        .holding-card:hover {
+            transform: translateY(-5px);
+            background: rgba(255, 255, 255, 0.12);
         }
         .holding-card .coin {
             font-size: 1.2rem;
@@ -123,6 +178,11 @@
             border-radius: 8px;
             margin-bottom: 10px;
             border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: all 0.3s;
+        }
+        .trade-item:hover {
+            background: rgba(255, 255, 255, 0.08);
+            border-color: rgba(102, 126, 234, 0.3);
         }
         .trade-time {
             color: #9ca3af;
@@ -147,17 +207,86 @@
             background: rgba(168, 85, 247, 0.2);
             color: #a855f7;
         }
+        
+        /* 추천 코드 */
+        .referral-section {
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.1), rgba(118, 75, 162, 0.1));
+            border: 1px solid rgba(102, 126, 234, 0.3);
+        }
+        .referral-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .referral-item {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        .referral-item:hover {
+            background: rgba(102, 126, 234, 0.2);
+            transform: scale(1.05);
+        }
+        .referral-label {
+            color: #9ca3af;
+            font-size: 0.85rem;
+            margin-bottom: 8px;
+        }
+        .referral-value {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #667eea;
+        }
+        
+        /* 음악 컨트롤 */
+        .music-control {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            z-index: 1000;
+        }
+        .music-btn {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+            transition: all 0.3s;
+        }
+        .music-btn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 20px rgba(102, 126, 234, 0.6);
+        }
+        .volume-slider {
+            display: none;
+            position: absolute;
+            bottom: 70px;
+            right: 0;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 15px;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+        }
+        .volume-slider.show {
+            display: block;
+        }
+        
         .loading {
             text-align: center;
             color: #9ca3af;
             padding: 20px;
+            animation: pulse 2s infinite;
         }
         @keyframes pulse {
             0%, 100% { opacity: 1; }
             50% { opacity: 0.5; }
-        }
-        .loading {
-            animation: pulse 2s infinite;
         }
     </style>
 </head>
@@ -166,10 +295,15 @@
         <!-- Header -->
         <div class="header">
             <h1>🤖 Jarvis Trading Bot</h1>
-            <p>실시간 거래 대시보드 - 불멍 모드 🔥</p>
+            <p>실시간 거래 대시보드 - 불멍 모드 🔥🎵</p>
             <div class="status">
                 🟢 Live | Last update: <span id="lastUpdate">Loading...</span>
             </div>
+        </div>
+
+        <!-- 워드클라우드 -->
+        <div class="wordcloud-container" id="wordcloud">
+            <div class="loading">거래 데이터 로딩 중...</div>
         </div>
 
         <!-- Stats -->
@@ -203,9 +337,44 @@
                 <div class="loading">데이터 로딩 중...</div>
             </div>
         </div>
+
+        <!-- 추천 코드 -->
+        <div class="section referral-section">
+            <div class="section-title">🎁 빗썸 친구 초대</div>
+            <p style="color: #9ca3af; margin-bottom: 15px;">
+                추천인 코드로 가입하면 수수료 할인 혜택을 받을 수 있습니다!
+            </p>
+            <div class="referral-grid">
+                <div class="referral-item" onclick="copyToClipboard('YOUR_REFERRAL_CODE')">
+                    <div class="referral-label">추천인 코드</div>
+                    <div class="referral-value">YOUR_CODE</div>
+                </div>
+                <div class="referral-item" onclick="window.open('https://www.bithumb.com', '_blank')">
+                    <div class="referral-label">빗썸 가입하기</div>
+                    <div class="referral-value">🔗 초대 링크</div>
+                </div>
+            </div>
+        </div>
     </div>
 
+    <!-- 음악 컨트롤 -->
+    <div class="music-control">
+        <button class="music-btn" id="musicBtn" onclick="toggleMusic()">🎵</button>
+        <div class="volume-slider" id="volumeSlider">
+            <input type="range" min="0" max="100" value="30" id="volumeControl" 
+                   onchange="setVolume(this.value)" style="width: 100px;">
+        </div>
+    </div>
+
+    <!-- 배경음악 -->
+    <audio id="bgMusic" loop>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+    </audio>
+
     <script>
+        let wordCloudWords = [];
+        const maxWords = 50;
+
         async function loadData() {
             try {
                 const response = await fetch('dashboard_data.json');
@@ -238,6 +407,9 @@
             document.getElementById('totalProfit').innerHTML = 
                 `<span class="${totalClass}">${totalProfit >= 0 ? '+' : ''}${totalProfit.toLocaleString()}원 (${totalPercent >= 0 ? '+' : ''}${totalPercent.toFixed(2)}%)</span>`;
 
+            // 워드클라우드 업데이트
+            updateWordCloud(data);
+
             // 보유 코인
             const holdings = data.holdings || [];
             if (holdings.length > 0) {
@@ -262,12 +434,13 @@
                 document.getElementById('recentTrades').innerHTML = trades.slice(0, 10).map(t => {
                     const profitClass = t.profit >= 0 ? 'positive' : 'negative';
                     const actionClass = t.action === 'buy' ? 'action-buy' : 'action-sell';
+                    const emoji = t.profit >= 0 ? '😊' : '😢';
                     return `
                         <div class="trade-item">
                             <span class="trade-time">${t.time}</span>
                             <span class="trade-market">${t.market.replace('KRW-', '')}</span>
                             <span class="trade-action ${actionClass}">${t.action === 'buy' ? '매수' : '매도'}</span>
-                            <span class="${profitClass}">${t.profit >= 0 ? '+' : ''}${t.profit.toLocaleString()}원</span>
+                            <span class="${profitClass}">${t.profit >= 0 ? '+' : ''}${t.profit.toLocaleString()}원 ${emoji}</span>
                         </div>
                     `;
                 }).join('');
@@ -277,6 +450,74 @@
             }
         }
 
+        function updateWordCloud(data) {
+            const container = document.getElementById('wordcloud');
+            
+            // 최근 거래에서 단어 추가
+            if (data.recent_trades && data.recent_trades.length > 0) {
+                data.recent_trades.slice(0, 5).forEach(trade => {
+                    const coin = trade.market.replace('KRW-', '');
+                    const rate = trade.profit_rate || 0;
+                    const text = `${coin} ${rate >= 0 ? '+' : ''}${(rate * 100).toFixed(1)}%`;
+                    addWordToCloud(text, rate >= 0 ? 'profit' : 'loss', false);
+                });
+            }
+            
+            // 보유 코인에서 단어 추가
+            if (data.holdings && data.holdings.length > 0) {
+                data.holdings.forEach(holding => {
+                    const coin = holding.market.replace('KRW-', '');
+                    const rate = holding.profit_rate || 0;
+                    const text = `${coin} ${rate >= 0 ? '+' : ''}${(rate * 100).toFixed(1)}%`;
+                    addWordToCloud(text, rate >= 0 ? 'profit' : rate < 0 ? 'loss' : 'neutral', true);
+                });
+            }
+            
+            renderWordCloud();
+        }
+
+        function addWordToCloud(text, type, isPersistent) {
+            // 중복 제거
+            wordCloudWords = wordCloudWords.filter(w => !w.text.startsWith(text.split(' ')[0]));
+            
+            wordCloudWords.push({
+                text: text,
+                type: type,
+                isPersistent: isPersistent,
+                timestamp: Date.now()
+            });
+            
+            // 최대 개수 유지
+            if (wordCloudWords.length > maxWords) {
+                wordCloudWords = wordCloudWords.filter(w => w.isPersistent).concat(
+                    wordCloudWords.filter(w => !w.isPersistent).slice(-20)
+                );
+            }
+        }
+
+        function renderWordCloud() {
+            const container = document.getElementById('wordcloud');
+            container.innerHTML = '';
+            
+            wordCloudWords.forEach((word, index) => {
+                const wordEl = document.createElement('div');
+                wordEl.className = `wordcloud-word word-${word.type} coin-drift`;
+                wordEl.textContent = word.text;
+                
+                // 랜덤 위치
+                const left = Math.random() * 80 + 5;
+                const top = Math.random() * 60 + 20;
+                const size = word.isPersistent ? 1.2 + Math.random() * 0.5 : 1 + Math.random() * 0.3;
+                
+                wordEl.style.left = left + '%';
+                wordEl.style.top = top + '%';
+                wordEl.style.fontSize = size + 'rem';
+                wordEl.style.animationDelay = (index * 0.5) + 's';
+                
+                container.appendChild(wordEl);
+            });
+        }
+
         function getTestData() {
             return {
                 today_profit: 125430,
@@ -284,19 +525,54 @@
                 total_profit: 1234567,
                 total_profit_percent: 15.2,
                 recent_trades: [
-                    { time: "23:45:15", market: "KRW-BTC", action: "sell", profit: 12345 },
-                    { time: "23:42:22", market: "KRW-ETH", action: "sell", profit: -3210 }
+                    { time: "23:45:15", market: "KRW-BTC", action: "sell", profit: 12345, profit_rate: 0.025 },
+                    { time: "23:42:22", market: "KRW-ETH", action: "sell", profit: -3210, profit_rate: -0.015 },
+                    { time: "23:40:08", market: "KRW-XRP", action: "buy", profit: 0, profit_rate: 0 }
                 ],
                 holdings: [
                     { market: "KRW-XRP", value: 670000, profit_rate: 0.0308 },
-                    { market: "KRW-DOGE", value: 590000, profit_rate: -0.0167 }
+                    { market: "KRW-DOGE", value: 590000, profit_rate: -0.0167 },
+                    { market: "KRW-ADA", value: 1008000, profit_rate: 0.008 }
                 ],
                 last_update: new Date().toISOString()
             };
         }
 
+        // 음악 컨트롤
+        function toggleMusic() {
+            const music = document.getElementById('bgMusic');
+            const btn = document.getElementById('musicBtn');
+            const slider = document.getElementById('volumeSlider');
+            
+            if (music.paused) {
+                music.play();
+                btn.textContent = '🎵';
+                slider.classList.add('show');
+            } else {
+                music.pause();
+                btn.textContent = '🔇';
+                slider.classList.remove('show');
+            }
+        }
+
+        function setVolume(value) {
+            const music = document.getElementById('bgMusic');
+            music.volume = value / 100;
+        }
+
+        // 클립보드 복사
+        function copyToClipboard(text) {
+            navigator.clipboard.writeText(text).then(() => {
+                alert('추천인 코드가 복사되었습니다: ' + text);
+            });
+        }
+
+        // 초기 로드
         loadData();
         setInterval(loadData, 30000);
+        
+        // 초기 볼륨 설정
+        document.getElementById('bgMusic').volume = 0.3;
     </script>
 </body>
 </html>
