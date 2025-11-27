@@ -37,7 +37,7 @@ vercel
 ### 추천인 코드 변경
 `index.html` 파일 열어서 수정:
 ```javascript
-referralCode: ''JJCDWMIYMV'
+referralCode: 'JJCDWMIYMV'
 referralLink: 'https://www.bithumb.com/react/JJCDWMIYMV'
 ```
 
