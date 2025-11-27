@@ -37,8 +37,8 @@ vercel
 ### 추천인 코드 변경
 `index.html` 파일 열어서 수정:
 ```javascript
-referralCode: 'YOUR_CODE_HERE',
-referralLink: 'https://www.bithumb.com/react/member/join/YOUR_CODE_HERE'
+referralCode: ''JJCDWMIYMV'
+referralLink: 'https://www.bithumb.com/react/JJCDWMIYMV'
 ```
 
 ### 효과음 변경
