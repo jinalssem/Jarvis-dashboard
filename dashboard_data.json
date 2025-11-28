@@ -5,6 +5,13 @@
   "total_profit_percent": 0,
   "recent_trades": [
     {
+      "time": "01:18:10",
+      "market": "KRW-AWE",
+      "action": "sell",
+      "profit": 0,
+      "profit_rate": 0.031715575620767524
+    },
+    {
       "time": "01:06:32",
       "market": "KRW-AWE",
       "action": "sell",
@@ -125,11 +132,11 @@
     }
   ],
   "latest_trade": {
-    "time": "01:06:32",
+    "time": "01:18:10",
     "market": "KRW-AWE",
     "action": "sell",
     "profit": 0,
-    "profit_rate": 0.03069977426636568
+    "profit_rate": 0.031715575620767524
   },
   "holdings": [],
   "last_update": "2025-11-29T01:13:21.681741"
