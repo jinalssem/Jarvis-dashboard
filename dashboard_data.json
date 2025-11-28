@@ -5,6 +5,13 @@
   "total_profit_percent": 0,
   "recent_trades": [
     {
+      "time": "23:40:49",
+      "market": "KRW-DVI",
+      "action": "sell",
+      "profit": 0,
+      "profit_rate": 0.03015267175572509
+    },
+    {
       "time": "23:05:32",
       "market": "KRW-GRS",
       "action": "sell",
@@ -97,11 +104,11 @@
     }
   ],
   "latest_trade": {
-    "time": "23:05:32",
-    "market": "KRW-GRS",
+    "time": "23:40:49",
+    "market": "KRW-DVI",
     "action": "sell",
     "profit": 0,
-    "profit_rate": -0.0338680926916221
+    "profit_rate": 0.03015267175572509
   },
   "holdings": [],
   "last_update": "2025-11-28T23:37:17.992023"
