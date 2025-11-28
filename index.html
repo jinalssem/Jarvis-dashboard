@@ -43,11 +43,11 @@
             color: #6ee7b7;
         }
         
-        /* 워드클라우드 */
+        /* 워드클라우드 - 개선된 버전 */
         .wordcloud-container {
             position: relative;
-            height: 200px;
-            background: rgba(0, 0, 0, 0.2);
+            height: 250px;
+            background: rgba(0, 0, 0, 0.3);
             border-radius: 15px;
             margin-bottom: 30px;
             overflow: hidden;
@@ -57,20 +57,24 @@
             position: absolute;
             font-weight: bold;
             cursor: pointer;
-            transition: transform 0.3s;
+            transition: transform 0.3s, color 0.3s;
             white-space: nowrap;
+            text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
         }
         .wordcloud-word:hover {
-            transform: scale(1.2);
+            transform: scale(1.3) !important;
+            z-index: 100;
         }
+        
+        /* 수익 = 빨강/크게, 손실 = 파랑/작게 */
         .word-profit {
-            color: #10b981;
+            color: #ef4444;  /* 빨강 */
         }
         .word-loss {
-            color: #ef4444;
+            color: #3b82f6;  /* 파랑 */
         }
         .word-neutral {
-            color: #9ca3af;
+            color: #9ca3af;  /* 회색 */
         }
         
         @keyframes drift {
@@ -78,17 +82,29 @@
                 transform: translate(0, 0) rotate(0deg);
             }
             25% {
-                transform: translate(20px, -10px) rotate(5deg);
+                transform: translate(30px, -15px) rotate(5deg);
             }
             50% {
-                transform: translate(-10px, 10px) rotate(-3deg);
+                transform: translate(-15px, 15px) rotate(-3deg);
             }
             75% {
-                transform: translate(15px, 5px) rotate(2deg);
+                transform: translate(20px, 8px) rotate(2deg);
             }
         }
         .coin-drift {
-            animation: drift 8s ease-in-out infinite;
+            animation: drift 10s ease-in-out infinite;
+        }
+        
+        @keyframes glow-profit {
+            0%, 100% {
+                text-shadow: 0 0 5px rgba(239, 68, 68, 0.5);
+            }
+            50% {
+                text-shadow: 0 0 20px rgba(239, 68, 68, 0.8), 0 0 30px rgba(239, 68, 68, 0.6);
+            }
+        }
+        .word-profit {
+            animation: glow-profit 2s ease-in-out infinite;
         }
         
         .stats-grid {
@@ -345,9 +361,9 @@
                 추천인 코드로 가입하면 수수료 할인 혜택을 받을 수 있습니다!
             </p>
             <div class="referral-grid">
-                <div class="referral-item" onclick="copyToClipboard('YOUR_REFERRAL_CODE')">
+                <div class="referral-item" onclick="copyToClipboard('JJCDWMIYMV')">
                     <div class="referral-label">추천인 코드</div>
-                    <div class="referral-value">YOUR_CODE</div>
+                    <div class="referral-value">JJCDWMIYMV</div>
                 </div>
                 <div class="referral-item" onclick="window.open('https://www.bithumb.com', '_blank')">
                     <div class="referral-label">빗썸 가입하기</div>
@@ -388,7 +404,6 @@
         }
 
         function updateDashboard(data) {
-            // Last Update
             const lastUpdate = data.last_update ? 
                 new Date(data.last_update).toLocaleString('ko-KR') : '방금 전';
             document.getElementById('lastUpdate').textContent = lastUpdate;
@@ -459,7 +474,7 @@
                     const coin = trade.market.replace('KRW-', '');
                     const rate = trade.profit_rate || 0;
                     const text = `${coin} ${rate >= 0 ? '+' : ''}${(rate * 100).toFixed(1)}%`;
-                    addWordToCloud(text, rate >= 0 ? 'profit' : 'loss', false);
+                    addWordToCloud(text, rate, false);
                 });
             }
             
@@ -469,20 +484,20 @@
                     const coin = holding.market.replace('KRW-', '');
                     const rate = holding.profit_rate || 0;
                     const text = `${coin} ${rate >= 0 ? '+' : ''}${(rate * 100).toFixed(1)}%`;
-                    addWordToCloud(text, rate >= 0 ? 'profit' : rate < 0 ? 'loss' : 'neutral', true);
+                    addWordToCloud(text, rate, true);
                 });
             }
             
             renderWordCloud();
         }
 
-        function addWordToCloud(text, type, isPersistent) {
+        function addWordToCloud(text, profitRate, isPersistent) {
             // 중복 제거
             wordCloudWords = wordCloudWords.filter(w => !w.text.startsWith(text.split(' ')[0]));
             
             wordCloudWords.push({
                 text: text,
-                type: type,
+                profitRate: profitRate,
                 isPersistent: isPersistent,
                 timestamp: Date.now()
             });
@@ -501,18 +516,39 @@
             
             wordCloudWords.forEach((word, index) => {
                 const wordEl = document.createElement('div');
-                wordEl.className = `wordcloud-word word-${word.type} coin-drift`;
+                
+                // 수익률에 따른 클래스와 크기 결정
+                let wordClass = 'word-neutral';
+                let sizeMultiplier = 1.0;
+                
+                if (word.profitRate > 0) {
+                    // 수익 = 빨강 + 크게
+                    wordClass = 'word-profit';
+                    // 수익률이 클수록 크게 (최대 2.5배)
+                    sizeMultiplier = 1.2 + Math.min(word.profitRate * 10, 1.3);
+                } else if (word.profitRate < 0) {
+                    // 손실 = 파랑 + 작게
+                    wordClass = 'word-loss';
+                    // 손실률이 클수록 작게 (최소 0.6배)
+                    sizeMultiplier = Math.max(0.6, 1.0 + (word.profitRate * 5));
+                }
+                
+                wordEl.className = `wordcloud-word ${wordClass} coin-drift`;
                 wordEl.textContent = word.text;
                 
                 // 랜덤 위치
-                const left = Math.random() * 80 + 5;
+                const left = Math.random() * 75 + 5;
                 const top = Math.random() * 60 + 20;
-                const size = word.isPersistent ? 1.2 + Math.random() * 0.5 : 1 + Math.random() * 0.3;
+                const baseSize = word.isPersistent ? 1.1 : 0.95;
+                const finalSize = baseSize * sizeMultiplier;
                 
                 wordEl.style.left = left + '%';
                 wordEl.style.top = top + '%';
-                wordEl.style.fontSize = size + 'rem';
-                wordEl.style.animationDelay = (index * 0.5) + 's';
+                wordEl.style.fontSize = finalSize + 'rem';
+                wordEl.style.animationDelay = (index * 0.3) + 's';
+                
+                // 수익이 높을수록 더 앞에 표시
+                wordEl.style.zIndex = Math.floor(word.profitRate * 100) + 10;
                 
                 container.appendChild(wordEl);
             });
