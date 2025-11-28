@@ -5,6 +5,55 @@
   "total_profit_percent": 0,
   "recent_trades": [
     {
+      "time": "19:48:55",
+      "market": "KRW-SXP",
+      "action": "sell",
+      "profit": 0,
+      "profit_rate": 0.016
+    },
+    {
+      "time": "18:31:12",
+      "market": "KRW-AI16Z",
+      "action": "sell",
+      "profit": 0,
+      "profit_rate": 0.018096272167933407
+    },
+    {
+      "time": "14:02:14",
+      "market": "KRW-STRK",
+      "action": "sell",
+      "profit": 0,
+      "profit_rate": 0.0
+    },
+    {
+      "time": "14:02:13",
+      "market": "KRW-AI16Z",
+      "action": "sell",
+      "profit": 0,
+      "profit_rate": 0.03344827586206893
+    },
+    {
+      "time": "13:22:43",
+      "market": "KRW-SD",
+      "action": "sell",
+      "profit": 0,
+      "profit_rate": -0.002398081534772182
+    },
+    {
+      "time": "12:38:55",
+      "market": "KRW-PLUME",
+      "action": "sell",
+      "profit": 0,
+      "profit_rate": 0.014985590778097867
+    },
+    {
+      "time": "10:51:33",
+      "market": "KRW-CTXC",
+      "action": "sell",
+      "profit": 0,
+      "profit_rate": 0.014864864864864788
+    },
+    {
       "time": "09:26:57",
       "market": "KRW-H",
       "action": "sell",
@@ -41,12 +90,12 @@
     }
   ],
   "latest_trade": {
-    "time": "09:26:57",
-    "market": "KRW-H",
+    "time": "19:48:55",
+    "market": "KRW-SXP",
     "action": "sell",
     "profit": 0,
-    "profit_rate": 0.017241379310344827
+    "profit_rate": 0.016
   },
   "holdings": [],
-  "last_update": "2025-11-28T10:15:18.777785"
+  "last_update": "2025-11-28T20:57:36.241909"
 }
