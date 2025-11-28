@@ -5,6 +5,13 @@
   "total_profit_percent": 0,
   "recent_trades": [
     {
+      "time": "03:27:01",
+      "market": "KRW-XION",
+      "action": "sell",
+      "profit": 0,
+      "profit_rate": 0.03254437869822485
+    },
+    {
       "time": "03:15:20",
       "market": "KRW-XION",
       "action": "sell",
@@ -136,21 +143,14 @@
       "action": "sell",
       "profit": 0,
       "profit_rate": 0.017241379310344827
-    },
-    {
-      "time": "09:21:12",
-      "market": "KRW-SD",
-      "action": "sell",
-      "profit": 0,
-      "profit_rate": 0.019184652278177457
     }
   ],
   "latest_trade": {
-    "time": "03:15:20",
+    "time": "03:27:01",
     "market": "KRW-XION",
     "action": "sell",
     "profit": 0,
-    "profit_rate": 0.026627218934911243
+    "profit_rate": 0.03254437869822485
   },
   "holdings": [],
   "last_update": "2025-11-29T03:22:17.922546"
