@@ -5,6 +5,13 @@
   "total_profit_percent": 0,
   "recent_trades": [
     {
+      "time": "04:18:31",
+      "market": "KRW-INJ",
+      "action": "sell",
+      "profit": 0,
+      "profit_rate": 0.010050251256281407
+    },
+    {
       "time": "04:12:50",
       "market": "KRW-AIOZ",
       "action": "sell",
@@ -136,21 +143,14 @@
       "action": "sell",
       "profit": 0,
       "profit_rate": -0.002398081534772182
-    },
-    {
-      "time": "12:38:55",
-      "market": "KRW-PLUME",
-      "action": "sell",
-      "profit": 0,
-      "profit_rate": 0.014985590778097867
     }
   ],
   "latest_trade": {
-    "time": "04:12:50",
-    "market": "KRW-AIOZ",
+    "time": "04:18:31",
+    "market": "KRW-INJ",
     "action": "sell",
     "profit": 0,
-    "profit_rate": 0.010416666666666666
+    "profit_rate": 0.010050251256281407
   },
   "holdings": [],
   "last_update": "2025-11-29T04:13:51.403510"
