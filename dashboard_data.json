@@ -5,6 +5,20 @@
   "total_profit_percent": 15.2,
   "recent_trades": [
     {
+      "time": "09:26:57",
+      "market": "KRW-H",
+      "action": "sell",
+      "profit": 0,
+      "profit_rate": 0.017241379310344827
+    },
+    {
+      "time": "09:21:12",
+      "market": "KRW-SD",
+      "action": "sell",
+      "profit": 0,
+      "profit_rate": 0.019184652278177457
+    },
+    {
       "time": "23:45:15",
       "market": "KRW-BTC",
       "action": "sell",
@@ -27,11 +41,11 @@
     }
   ],
   "latest_trade": {
-    "time": "23:45:15",
-    "market": "KRW-BTC",
+    "time": "09:26:57",
+    "market": "KRW-H",
     "action": "sell",
-    "profit": 12345,
-    "profit_rate": 0.025
+    "profit": 0,
+    "profit_rate": 0.017241379310344827
   },
   "holdings": [
     {
