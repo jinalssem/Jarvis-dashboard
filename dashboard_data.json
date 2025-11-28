@@ -5,6 +5,13 @@
   "total_profit_percent": 0,
   "recent_trades": [
     {
+      "time": "02:23:31",
+      "market": "KRW-XION",
+      "action": "sell",
+      "profit": 0,
+      "profit_rate": 0.017467248908296942
+    },
+    {
       "time": "01:59:52",
       "market": "KRW-MERL",
       "action": "sell",
@@ -136,21 +143,14 @@
       "action": "sell",
       "profit": 12345,
       "profit_rate": 0.025
-    },
-    {
-      "time": "23:42:22",
-      "market": "KRW-ETH",
-      "action": "sell",
-      "profit": -3210,
-      "profit_rate": -0.015
     }
   ],
   "latest_trade": {
-    "time": "01:59:52",
-    "market": "KRW-MERL",
+    "time": "02:23:31",
+    "market": "KRW-XION",
     "action": "sell",
     "profit": 0,
-    "profit_rate": 0.04819277108433735
+    "profit_rate": 0.017467248908296942
   },
   "holdings": [],
   "last_update": "2025-11-29T02:18:38.294598"
