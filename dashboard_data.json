@@ -5,6 +5,13 @@
   "total_profit_percent": 0,
   "recent_trades": [
     {
+      "time": "01:47:40",
+      "market": "KRW-MERL",
+      "action": "sell",
+      "profit": 0,
+      "profit_rate": 0.03815261044176707
+    },
+    {
       "time": "01:29:53",
       "market": "KRW-AI16Z",
       "action": "sell",
@@ -139,11 +146,11 @@
     }
   ],
   "latest_trade": {
-    "time": "01:29:53",
-    "market": "KRW-AI16Z",
+    "time": "01:47:40",
+    "market": "KRW-MERL",
     "action": "sell",
     "profit": 0,
-    "profit_rate": -0.035580524344569264
+    "profit_rate": 0.03815261044176707
   },
   "holdings": [],
   "last_update": "2025-11-29T01:42:48.263989"
