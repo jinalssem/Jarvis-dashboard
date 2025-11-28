@@ -5,6 +5,13 @@
   "total_profit_percent": 0,
   "recent_trades": [
     {
+      "time": "04:35:29",
+      "market": "KRW-APT",
+      "action": "sell",
+      "profit": 0,
+      "profit_rate": -0.007776049766718507
+    },
+    {
       "time": "04:18:31",
       "market": "KRW-INJ",
       "action": "sell",
@@ -136,21 +143,14 @@
       "action": "sell",
       "profit": 0,
       "profit_rate": 0.03344827586206893
-    },
-    {
-      "time": "13:22:43",
-      "market": "KRW-SD",
-      "action": "sell",
-      "profit": 0,
-      "profit_rate": -0.002398081534772182
     }
   ],
   "latest_trade": {
-    "time": "04:18:31",
-    "market": "KRW-INJ",
+    "time": "04:35:29",
+    "market": "KRW-APT",
     "action": "sell",
     "profit": 0,
-    "profit_rate": 0.010050251256281407
+    "profit_rate": -0.007776049766718507
   },
   "holdings": [],
   "last_update": "2025-11-29T04:30:54.383725"
