@@ -5,6 +5,13 @@
   "total_profit_percent": 0,
   "recent_trades": [
     {
+      "time": "01:00:45",
+      "market": "KRW-ELX",
+      "action": "sell",
+      "profit": 0,
+      "profit_rate": 0.018151447661470043
+    },
+    {
       "time": "23:51:15",
       "market": "KRW-DVI",
       "action": "sell",
@@ -111,11 +118,11 @@
     }
   ],
   "latest_trade": {
-    "time": "23:51:15",
-    "market": "KRW-DVI",
+    "time": "01:00:45",
+    "market": "KRW-ELX",
     "action": "sell",
     "profit": 0,
-    "profit_rate": 0.019083969465648786
+    "profit_rate": 0.018151447661470043
   },
   "holdings": [],
   "last_update": "2025-11-29T00:56:03.504906"
