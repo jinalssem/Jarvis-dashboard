@@ -1,8 +1,8 @@
 {
   "today_profit": 7138.651415019602,
   "today_profit_percent": 0.14277302830039204,
-  "total_profit": -1897.4699878174977,
-  "total_profit_percent": -0.03794939975634995,
+  "total_profit": -1828.3541304584926,
+  "total_profit_percent": -0.036567082609169854,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -154,15 +154,31 @@
   },
   "holdings": [
     {
+      "market": "KRW-BAT",
+      "amount": 24.9375,
+      "avg_price": 392.0,
+      "current_price": 390.0,
+      "value": 9725.625,
+      "profit_rate": -0.00510204081632653
+    },
+    {
+      "market": "KRW-SXP",
+      "amount": 85.99137931,
+      "avg_price": 113.0,
+      "current_price": 114.0,
+      "value": 9803.01724134,
+      "profit_rate": 0.008849557522123894
+    },
+    {
       "market": "KRW-PLUME",
       "amount": 1649.97390245,
       "avg_price": 34.4,
-      "current_price": 33.25,
-      "value": 54861.6322564625,
-      "profit_rate": -0.0334302325581395
+      "current_price": 33.27,
+      "value": 54894.6317345115,
+      "profit_rate": -0.03284883720930219
     }
   ],
-  "last_update": "2025-11-29T23:31:59.786381",
+  "last_update": "2025-11-29T23:38:31.075537",
   "trades": [
     {
       "type": "sell",
