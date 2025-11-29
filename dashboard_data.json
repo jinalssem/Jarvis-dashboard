@@ -1,8 +1,8 @@
 {
   "today_profit": -520.34170796,
   "today_profit_percent": -0.0104068341592,
-  "total_profit": -1676.11617242518,
-  "total_profit_percent": -0.0335223234485036,
+  "total_profit": -1325.2322726852974,
+  "total_profit_percent": -0.026504645453705948,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,29 +157,37 @@
       "market": "KRW-IOST",
       "amount": 14550.94758558,
       "avg_price": 3.251,
-      "current_price": 3.15,
-      "value": 45835.484894577,
-      "profit_rate": -0.031067363888034445
+      "current_price": 3.176,
+      "value": 46213.80953180208,
+      "profit_rate": -0.023069824669332432
     },
     {
       "market": "KRW-AWE",
       "amount": 108.66013072,
       "avg_price": 89.9,
-      "current_price": 89.37,
-      "value": 9710.9558824464,
-      "profit_rate": -0.005895439377085663
+      "current_price": 89.46,
+      "value": 9720.7352942112,
+      "profit_rate": -0.004894327030033503
     },
     {
       "market": "KRW-GRS",
       "amount": 37.22014925,
       "avg_price": 262.0,
-      "current_price": 258.0,
-      "value": 9602.7985065,
-      "profit_rate": -0.015267175572519083
+      "current_price": 257.0,
+      "value": 9565.57835725,
+      "profit_rate": -0.019083969465648856
     }
   ],
-  "last_update": "2025-11-29T14:13:37.332492",
+  "last_update": "2025-11-29T14:21:03.627075",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-BAT",
+      "profit": 0,
+      "price": 392.0,
+      "amount": 24.9375,
+      "time": "2025-11-29T14:19:49.648883"
+    },
     {
       "type": "buy",
       "market": "KRW-GRS",
