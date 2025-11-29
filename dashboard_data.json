@@ -1,7 +1,7 @@
 {
-  "today_profit": 701.2182338243206,
+  "today_profit": 867.525215504321,
   "today_profit_percent": 0,
-  "total_profit": 6141.689546281919,
+  "total_profit": 6139.841690929919,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -152,18 +152,17 @@
     "profit": 0,
     "profit_rate": 0.0
   },
-  "holdings": [
-    {
-      "market": "KRW-MAY",
-      "amount": 184.7855352,
-      "avg_price": 27.4,
-      "current_price": 28.31,
-      "value": 5231.278501512,
-      "profit_rate": 0.033211678832116794
-    }
-  ],
-  "last_update": "2025-11-30T08:29:33.163840",
+  "holdings": [],
+  "last_update": "2025-11-30T08:34:57.038946",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-MAY",
+      "profit": 166.3069816800004,
+      "price": 28.3,
+      "amount": 184.7855352,
+      "time": "2025-11-30T08:33:48.963078"
+    },
     {
       "type": "buy",
       "market": "KRW-SXP",
