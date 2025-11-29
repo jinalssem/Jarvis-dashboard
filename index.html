@@ -202,68 +202,122 @@
             text-align: right;
         }
 
-        /* 🔥 워드클라우드 개선 */
+        /* 🔥🔥🔥 완전 재설계된 워드클라우드 */
         .wordcloud-container {
             background: rgba(255, 255, 255, 0.05);
             backdrop-filter: blur(10px);
             border: 1px solid rgba(255, 107, 53, 0.2);
             border-radius: 20px;
-            padding: 40px 30px;
+            padding: 50px 30px;
             margin-bottom: 30px;
             box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-            min-height: 250px;
+            min-height: 300px;
+            position: relative;
+            overflow: hidden;
         }
 
         .wordcloud {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
-            gap: 20px;
-            max-width: 100%;
+            width: 100%;
+            height: 250px;
             position: relative;
+            display: block;
         }
 
         .word {
-            padding: 10px 20px;
-            border-radius: 12px;
-            font-weight: 600;
-            transition: all 0.3s ease;
+            position: absolute;
+            padding: 12px 24px;
+            border-radius: 16px;
+            font-weight: 700;
             cursor: default;
             white-space: nowrap;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s ease;
+            transform-origin: center;
         }
 
         .word:hover {
-            transform: scale(1.15) rotate(5deg);
-            box-shadow: 0 4px 16px rgba(255, 107, 53, 0.4);
+            transform: scale(1.3) rotate(10deg) !important;
+            box-shadow: 0 8px 24px rgba(255, 107, 53, 0.6);
+            z-index: 100;
         }
 
-        /* 🆕 애니메이션 강화 */
-        @keyframes float1 {
-            0%, 100% { transform: translateY(0px) rotate(0deg); }
-            25% { transform: translateY(-15px) rotate(2deg); }
-            50% { transform: translateY(-10px) rotate(-2deg); }
-            75% { transform: translateY(-20px) rotate(1deg); }
+        /* 🔥 강력한 불멍 애니메이션 */
+        @keyframes fireFloat1 {
+            0% { 
+                transform: translate(0, 0) rotate(0deg); 
+            }
+            25% { 
+                transform: translate(-15px, -30px) rotate(5deg); 
+            }
+            50% { 
+                transform: translate(10px, -50px) rotate(-3deg); 
+            }
+            75% { 
+                transform: translate(-5px, -35px) rotate(4deg); 
+            }
+            100% { 
+                transform: translate(0, 0) rotate(0deg); 
+            }
         }
 
-        @keyframes float2 {
-            0%, 100% { transform: translateY(0px) rotate(0deg); }
-            33% { transform: translateY(-12px) rotate(-3deg); }
-            66% { transform: translateY(-18px) rotate(3deg); }
+        @keyframes fireFloat2 {
+            0% { 
+                transform: translate(0, 0) rotate(0deg); 
+            }
+            33% { 
+                transform: translate(20px, -40px) rotate(-6deg); 
+            }
+            66% { 
+                transform: translate(-10px, -55px) rotate(5deg); 
+            }
+            100% { 
+                transform: translate(0, 0) rotate(0deg); 
+            }
         }
 
-        @keyframes float3 {
-            0%, 100% { transform: translateY(0px) rotate(0deg); }
-            20% { transform: translateY(-8px) rotate(1deg); }
-            40% { transform: translateY(-16px) rotate(-1deg); }
-            60% { transform: translateY(-12px) rotate(2deg); }
-            80% { transform: translateY(-10px) rotate(-2deg); }
+        @keyframes fireFloat3 {
+            0% { 
+                transform: translate(0, 0) rotate(0deg); 
+            }
+            20% { 
+                transform: translate(-8px, -25px) rotate(3deg); 
+            }
+            40% { 
+                transform: translate(12px, -45px) rotate(-4deg); 
+            }
+            60% { 
+                transform: translate(-15px, -38px) rotate(6deg); 
+            }
+            80% { 
+                transform: translate(8px, -28px) rotate(-3deg); 
+            }
+            100% { 
+                transform: translate(0, 0) rotate(0deg); 
+            }
         }
 
-        .word.anim1 { animation: float1 4s ease-in-out infinite; }
-        .word.anim2 { animation: float2 5s ease-in-out infinite; }
-        .word.anim3 { animation: float3 3.5s ease-in-out infinite; }
+        @keyframes fireFloat4 {
+            0% { 
+                transform: translate(0, 0) rotate(0deg) scale(1); 
+            }
+            25% { 
+                transform: translate(15px, -35px) rotate(-5deg) scale(1.1); 
+            }
+            50% { 
+                transform: translate(-12px, -60px) rotate(4deg) scale(0.95); 
+            }
+            75% { 
+                transform: translate(18px, -42px) rotate(-3deg) scale(1.05); 
+            }
+            100% { 
+                transform: translate(0, 0) rotate(0deg) scale(1); 
+            }
+        }
+
+        .word.fire-anim-1 { animation: fireFloat1 5s ease-in-out infinite; }
+        .word.fire-anim-2 { animation: fireFloat2 6s ease-in-out infinite; }
+        .word.fire-anim-3 { animation: fireFloat3 4.5s ease-in-out infinite; }
+        .word.fire-anim-4 { animation: fireFloat4 5.5s ease-in-out infinite; }
 
         .profit-grid {
             display: grid;
@@ -595,12 +649,12 @@
             }
 
             .wordcloud {
-                gap: 15px;
+                height: 200px;
             }
 
             .word {
-                font-size: 0.9em !important;
-                padding: 8px 16px;
+                font-size: 0.85em !important;
+                padding: 8px 16px !important;
             }
         }
     </style>
@@ -868,69 +922,107 @@
             });
         }
 
-        // 🔥 개선된 워드클라우드 생성
+        // 🔥🔥🔥 완전 재설계된 워드클라우드
         function generateWordcloud(holdings) {
             const wordcloud = document.getElementById('wordcloud');
             wordcloud.innerHTML = '';
 
-            const animations = ['anim1', 'anim2', 'anim3'];
-            const emotions = [];
+            const animations = ['fire-anim-1', 'fire-anim-2', 'fire-anim-3', 'fire-anim-4'];
+            const allWords = [];
             
+            // 감정 워드 생성
+            const emotions = [];
             if (holdings.length === 0) {
-                emotions.push('심심해', '코인이나 살까', '🤔', '대기 중', '🌙');
+                emotions.push('심심해', '코인 살까?', '🤔', '대기 중', '🌙', '언제 오를까');
             } else {
                 holdings.forEach(h => {
                     const profitRate = h.profit_rate * 100;
                     if (profitRate > 5) {
-                        emotions.push('앗싸!', '대박!', 'Good!', '🚀', '💰');
+                        emotions.push('앗싸!', '대박!', 'Good!', '🚀', '💰', '잭팟!');
                     } else if (profitRate > 0) {
-                        emotions.push('좋아!', '오예!', '🎉', '👍');
+                        emotions.push('좋아!', '오예!', '🎉', '👍', 'Nice!');
                     } else if (profitRate < -5) {
-                        emotions.push('억!', '안돼!', '😱', '💥');
+                        emotions.push('억!', '안돼!', '😱', '💥', '아악!');
                     } else if (profitRate < 0) {
-                        emotions.push('앗!', '흠...', '😅');
+                        emotions.push('앗!', '흠...', '😅', '기다려');
                     } else {
-                        emotions.push('흠...', '기다려', '⏳');
+                        emotions.push('흠...', '보류', '⏳', '관망');
                     }
                 });
             }
 
             // 코인 워드 추가
-            holdings.forEach((h, idx) => {
+            holdings.forEach(h => {
                 const coin = h.market.replace('KRW-', '');
                 const profitRate = h.profit_rate * 100;
-                const size = 1.2 + Math.min(Math.abs(profitRate) / 10, 1);
-                
+                const size = 1.3 + Math.min(Math.abs(profitRate) / 8, 0.9);
                 const color = profitRate > 0 ? '#ff6b6b' : 
                              profitRate < 0 ? '#4ecdc4' : '#95a5a6';
                 
-                const word = document.createElement('div');
-                word.className = `word ${animations[idx % 3]}`;
-                word.textContent = `${coin} ${formatPercent(profitRate)}`;
-                word.style.fontSize = `${size}em`;
-                word.style.color = color;
-                word.style.backgroundColor = `${color}20`;
-                word.style.animationDelay = `${(idx * 0.3)}s`;
-                
-                wordcloud.appendChild(word);
+                allWords.push({
+                    text: `${coin} ${formatPercent(profitRate)}`,
+                    size: size,
+                    color: color,
+                    type: 'coin'
+                });
             });
 
-            // 감정 워드 추가 (중복 제거하고 랜덤 6개)
-            const uniqueEmotions = [...new Set(emotions)];
-            const selectedEmotions = uniqueEmotions
+            // 감정 워드 추가 (중복 제거)
+            const uniqueEmotions = [...new Set(emotions)]
                 .sort(() => Math.random() - 0.5)
-                .slice(0, 6);
+                .slice(0, Math.min(8, 12 - allWords.length));
 
-            selectedEmotions.forEach((emotion, idx) => {
+            uniqueEmotions.forEach(emotion => {
+                allWords.push({
+                    text: emotion,
+                    size: 1.1 + Math.random() * 0.6,
+                    color: '#f7931a',
+                    type: 'emotion'
+                });
+            });
+
+            // 랜덤 배치 (겹치지 않게)
+            const containerWidth = wordcloud.offsetWidth || 800;
+            const containerHeight = 250;
+            const usedPositions = [];
+
+            function isOverlapping(x, y, width, height) {
+                return usedPositions.some(pos => {
+                    return !(x > pos.x + pos.width + 20 ||
+                            x + width + 20 < pos.x ||
+                            y > pos.y + pos.height + 20 ||
+                            y + height + 20 < pos.y);
+                });
+            }
+
+            allWords.forEach((wordData, idx) => {
                 const word = document.createElement('div');
-                word.className = `word ${animations[(idx + 1) % 3]}`;
-                word.textContent = emotion;
-                word.style.fontSize = `${1 + Math.random() * 0.7}em`;
-                word.style.color = '#f7931a';
-                word.style.backgroundColor = 'rgba(247, 147, 26, 0.15)';
-                word.style.animationDelay = `${(idx * 0.4 + 0.5)}s`;
+                word.className = `word ${animations[idx % 4]}`;
+                word.textContent = wordData.text;
+                word.style.fontSize = `${wordData.size}em`;
+                word.style.color = wordData.color;
+                word.style.backgroundColor = `${wordData.color}20`;
+                word.style.animationDelay = `${(idx * 0.4)}s`;
                 
+                // 임시로 추가해서 크기 측정
+                word.style.visibility = 'hidden';
                 wordcloud.appendChild(word);
+                const wordWidth = word.offsetWidth;
+                const wordHeight = word.offsetHeight;
+                
+                // 겹치지 않는 위치 찾기
+                let x, y, attempts = 0;
+                do {
+                    x = Math.random() * (containerWidth - wordWidth - 40) + 20;
+                    y = Math.random() * (containerHeight - wordHeight - 40) + 20;
+                    attempts++;
+                } while (isOverlapping(x, y, wordWidth, wordHeight) && attempts < 50);
+                
+                word.style.left = `${x}px`;
+                word.style.top = `${y}px`;
+                word.style.visibility = 'visible';
+                
+                usedPositions.push({ x, y, width: wordWidth, height: wordHeight });
             });
         }
 
