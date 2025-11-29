@@ -1,8 +1,8 @@
 {
   "today_profit": -3081.4437579508,
   "today_profit_percent": -0.061628875159016,
-  "total_profit": -466.50483282984936,
-  "total_profit_percent": -0.009330096656596986,
+  "total_profit": -346.84766253848915,
+  "total_profit_percent": -0.006936953250769783,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,33 +157,33 @@
       "market": "KRW-CKB",
       "amount": 2485.67156741,
       "avg_price": 3.93,
-      "current_price": 3.951,
-      "value": 9820.888362836911,
-      "profit_rate": 0.005343511450381656
+      "current_price": 3.963,
+      "value": 9850.716421645831,
+      "profit_rate": 0.008396946564885476
     },
     {
       "market": "KRW-AWE",
       "amount": 111.55222545,
       "avg_price": 87.6,
-      "current_price": 87.6,
-      "value": 9771.974949419999,
-      "profit_rate": 0.0
+      "current_price": 87.74,
+      "value": 9787.592260983,
+      "profit_rate": 0.0015981735159817417
     },
     {
       "market": "KRW-MED",
       "amount": 3963.89085293,
       "avg_price": 4.438,
-      "current_price": 4.316,
-      "value": 17108.15292124588,
-      "profit_rate": -0.02748986029743125
+      "current_price": 4.324,
+      "value": 17139.86404806932,
+      "profit_rate": -0.025687246507435757
     },
     {
       "market": "KRW-MAY",
       "amount": 184.7855352,
       "avg_price": 27.4,
-      "current_price": 27.21,
-      "value": 5028.014412792,
-      "profit_rate": -0.006934306569342983
+      "current_price": 27.44,
+      "value": 5070.515085888001,
+      "profit_rate": 0.0014598540145986387
     },
     {
       "market": "KRW-WCT",
@@ -194,8 +194,16 @@
       "profit_rate": 0.0
     }
   ],
-  "last_update": "2025-11-30T02:20:22.064128",
+  "last_update": "2025-11-30T02:26:24.621971",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-MED",
+      "profit": 0,
+      "price": 4.23,
+      "amount": 1480.64947956,
+      "time": "2025-11-30T02:25:12.595271"
+    },
     {
       "type": "buy",
       "market": "KRW-CKB",
