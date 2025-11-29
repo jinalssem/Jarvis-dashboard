@@ -1,8 +1,8 @@
 {
-  "today_profit": -904.8704920876019,
-  "today_profit_percent": -0.018097409841752038,
-  "total_profit": -9.231270555809319,
-  "total_profit_percent": -0.0001846254111161864,
+  "today_profit": -2545.639479427602,
+  "today_profit_percent": -0.05091278958855205,
+  "total_profit": 104.28285101865102,
+  "total_profit_percent": 0.00208565702037302,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -173,21 +173,29 @@
       "market": "KRW-MED",
       "amount": 1739.81058537,
       "avg_price": 4.5,
-      "current_price": 4.487,
-      "value": 7806.53009655519,
-      "profit_rate": -0.0028888888888888666
+      "current_price": 4.445,
+      "value": 7733.45805196965,
+      "profit_rate": -0.012222222222222159
     },
     {
       "market": "KRW-WCT",
       "amount": 186.58616616,
       "avg_price": 152.0,
-      "current_price": 152.0,
-      "value": 28361.09725632,
-      "profit_rate": 0.0
+      "current_price": 153.0,
+      "value": 28547.68342248,
+      "profit_rate": 0.006578947368421052
     }
   ],
-  "last_update": "2025-11-30T01:43:58.489800",
+  "last_update": "2025-11-30T01:49:53.056357",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-UMA",
+      "profit": 0,
+      "price": 1230.0,
+      "amount": 6.77816748,
+      "time": "2025-11-30T01:48:42.913587"
+    },
     {
       "type": "buy",
       "market": "KRW-MED",
