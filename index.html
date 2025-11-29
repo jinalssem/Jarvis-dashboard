@@ -55,351 +55,500 @@
             z-index: 1;
         }
 
+        /* 🆕 로딩 인디케이터 */
+        .loading-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(26, 26, 46, 0.9);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+        }
+
+        .loading-overlay.active {
+            display: flex;
+        }
+
+        .loading-spinner {
+            font-size: 4em;
+            animation: spin 2s linear infinite;
+        }
+
+        @keyframes spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
         /* 헤더 */
         .header {
             text-align: center;
-            margin-bottom: 40px;
-            animation: fadeIn 1s ease-in;
+            margin-bottom: 30px;
+            animation: glow 3s ease-in-out infinite;
         }
 
         .header h1 {
             font-size: 3em;
-            margin-bottom: 10px;
-            background: linear-gradient(135deg, #ff6b35, #f7931a, #ff4757);
+            font-weight: bold;
+            background: linear-gradient(135deg, #ff6b35, #f7931a);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
-            text-shadow: 0 0 30px rgba(255, 107, 53, 0.3);
-            animation: glow 2s ease-in-out infinite alternate;
+            margin-bottom: 10px;
+            text-shadow: 0 0 30px rgba(255, 107, 53, 0.5);
         }
 
-        @keyframes glow {
-            from { filter: drop-shadow(0 0 10px rgba(255, 107, 53, 0.5)); }
-            to { filter: drop-shadow(0 0 20px rgba(255, 107, 53, 0.8)); }
+        .status-row {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
         }
 
         .status {
             display: inline-flex;
             align-items: center;
             gap: 8px;
-            background: rgba(0, 0, 0, 0.3);
-            padding: 8px 20px;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 8px 16px;
             border-radius: 20px;
             backdrop-filter: blur(10px);
-            margin-bottom: 10px;
         }
 
         .status-dot {
             width: 10px;
             height: 10px;
-            background: #00ff00;
+            background: #4ade80;
             border-radius: 50%;
             animation: pulse 2s ease-in-out infinite;
         }
 
-        @keyframes pulse {
-            0%, 100% { opacity: 1; transform: scale(1); }
-            50% { opacity: 0.6; transform: scale(1.2); }
-        }
-
-        .last-update {
-            color: rgba(255, 255, 255, 0.7);
-            font-size: 0.9em;
-        }
-
-        /* 워드클라우드 영역 */
-        .wordcloud-container {
-            background: rgba(0, 0, 0, 0.3);
+        /* 🆕 실시간 시계 */
+        .clock {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 8px 16px;
             border-radius: 20px;
-            padding: 40px;
-            margin-bottom: 30px;
-            min-height: 300px;
-            position: relative;
-            overflow: hidden;
             backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 107, 53, 0.2);
-            box-shadow: 0 8px 32px rgba(255, 107, 53, 0.1);
+            font-size: 1.1em;
+            font-weight: 600;
         }
 
-        .wordcloud-container::before {
-            content: '🔥';
-            position: absolute;
+        /* 🆕 마지막 업데이트 */
+        .last-update {
+            text-align: center;
+            color: #95a5a6;
+            font-size: 0.9em;
+            margin-top: 10px;
+        }
+
+        /* 🎵 볼륨 컨트롤 */
+        .volume-control {
+            position: fixed;
             top: 20px;
             right: 20px;
-            font-size: 3em;
-            opacity: 0.1;
+            z-index: 1000;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 12px 16px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
         }
 
-        #wordcloud {
-            position: relative;
-            width: 100%;
-            height: 250px;
-        }
-
-        .coin-word, .emotion-word {
-            position: absolute;
-            font-weight: bold;
+        .volume-icon {
+            font-size: 1.2em;
             cursor: pointer;
+            user-select: none;
+        }
+
+        .volume-slider {
+            width: 100px;
+            height: 6px;
+            -webkit-appearance: none;
+            appearance: none;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 3px;
+            outline: none;
+        }
+
+        .volume-slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 16px;
+            height: 16px;
+            background: #ff6b35;
+            border-radius: 50%;
+            cursor: pointer;
+            box-shadow: 0 0 10px rgba(255, 107, 53, 0.5);
+        }
+
+        .volume-slider::-moz-range-thumb {
+            width: 16px;
+            height: 16px;
+            background: #ff6b35;
+            border-radius: 50%;
+            cursor: pointer;
+            border: none;
+            box-shadow: 0 0 10px rgba(255, 107, 53, 0.5);
+        }
+
+        .volume-value {
+            font-size: 0.9em;
+            color: #fff;
+            min-width: 35px;
+            text-align: right;
+        }
+
+        /* 워드클라우드 */
+        .wordcloud-container {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 107, 53, 0.2);
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+
+        .wordcloud {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            min-height: 200px;
+        }
+
+        .word {
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-weight: 600;
             transition: all 0.3s ease;
-            text-shadow: 0 0 10px currentColor;
             animation: float 3s ease-in-out infinite;
         }
 
-        .coin-word:hover, .emotion-word:hover {
-            transform: scale(1.2) !important;
-            filter: brightness(1.5);
+        .word:hover {
+            transform: scale(1.2);
         }
 
-        @keyframes float {
-            0%, 100% { transform: translateY(0px); }
-            50% { transform: translateY(-10px); }
-        }
-
-        /* 손익 카드들 */
-        .profit-section {
+        /* 손익 카드 그리드 */
+        .profit-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 20px;
             margin-bottom: 30px;
         }
 
         .profit-card {
-            background: rgba(0, 0, 0, 0.3);
-            border-radius: 15px;
-            padding: 25px;
+            background: rgba(255, 255, 255, 0.05);
             backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            transition: all 0.3s ease;
+            border: 1px solid rgba(255, 107, 53, 0.2);
+            border-radius: 16px;
+            padding: 25px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
         }
 
-        .profit-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-        }
-
-        .profit-card-title {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            font-size: 0.9em;
-            color: rgba(255, 255, 255, 0.7);
+        .profit-card h3 {
+            font-size: 0.95em;
+            color: #95a5a6;
             margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
         }
 
-        .profit-card-value {
-            font-size: 2em;
+        .profit-amount {
+            font-size: 2.2em;
             font-weight: bold;
             margin-bottom: 5px;
         }
 
-        .profit-card-percent {
-            font-size: 1.2em;
+        .profit-percent {
+            font-size: 1.1em;
             opacity: 0.8;
         }
 
-        .profit-positive {
-            color: #ff6b6b;
-        }
-
-        .profit-negative {
-            color: #4ecdc4;
-        }
-
-        .profit-neutral {
-            color: #95a5a6;
-        }
-
-        /* 보유 코인 */
-        .holdings-section {
-            background: rgba(0, 0, 0, 0.3);
-            border-radius: 20px;
-            padding: 30px;
-            margin-bottom: 30px;
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-        }
-
-        .section-title {
+        /* 🆕 정렬 버튼 */
+        .sort-controls {
             display: flex;
-            align-items: center;
+            justify-content: center;
             gap: 10px;
-            font-size: 1.5em;
             margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .sort-btn {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 107, 53, 0.3);
+            color: #fff;
+            padding: 8px 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 0.9em;
+            backdrop-filter: blur(10px);
+        }
+
+        .sort-btn:hover {
+            background: rgba(255, 107, 53, 0.2);
+            border-color: #ff6b35;
+        }
+
+        .sort-btn.active {
+            background: #ff6b35;
+            border-color: #ff6b35;
+            font-weight: bold;
+        }
+
+        /* 보유 코인 그리드 */
+        .holdings-section {
+            margin-bottom: 30px;
+        }
+
+        .holdings-section h2 {
+            font-size: 1.8em;
+            margin-bottom: 15px;
             color: #ff6b35;
+            text-align: center;
         }
 
         .holdings-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-            gap: 15px;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
         }
 
-        .holding-card {
+        .coin-card {
             background: rgba(255, 255, 255, 0.05);
-            border-radius: 12px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 107, 53, 0.2);
+            border-radius: 16px;
             padding: 20px;
-            text-align: center;
-            transition: all 0.3s ease;
-            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
-        .holding-card:hover {
-            background: rgba(255, 255, 255, 0.1);
-            transform: translateY(-3px);
+        .coin-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 40px rgba(255, 107, 53, 0.4);
         }
 
-        .holding-coin {
-            font-size: 1.3em;
+        .coin-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .coin-name {
+            font-size: 1.5em;
             font-weight: bold;
-            margin-bottom: 8px;
+            color: #ff6b35;
         }
 
-        .holding-amount {
+        .coin-profit-badge {
+            padding: 4px 12px;
+            border-radius: 12px;
             font-size: 0.9em;
-            color: rgba(255, 255, 255, 0.7);
-            margin-bottom: 5px;
+            font-weight: 600;
         }
 
-        .holding-value {
-            font-size: 1.1em;
-            margin-bottom: 5px;
-        }
-
-        .holding-profit {
+        .coin-details {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
             font-size: 0.95em;
-            font-weight: bold;
-            padding: 4px 8px;
-            border-radius: 6px;
-            display: inline-block;
+        }
+
+        .coin-detail-row {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .coin-label {
+            color: #95a5a6;
         }
 
         /* 최근 거래 */
         .trades-section {
-            background: rgba(0, 0, 0, 0.3);
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 107, 53, 0.2);
             border-radius: 20px;
             padding: 30px;
             margin-bottom: 30px;
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+
+        .trades-section h2 {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            color: #ff6b35;
+        }
+
+        .trades-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
         }
 
         .trade-item {
-            background: rgba(255, 255, 255, 0.05);
+            background: rgba(255, 255, 255, 0.03);
             border-radius: 12px;
             padding: 15px 20px;
-            margin-bottom: 12px;
-            display: grid;
-            grid-template-columns: 80px 1fr 80px 120px;
+            display: flex;
+            justify-content: space-between;
             align-items: center;
-            gap: 15px;
-            transition: all 0.3s ease;
-            border-left: 3px solid transparent;
+            border-left: 4px solid;
+            transition: transform 0.2s ease;
         }
 
         .trade-item:hover {
-            background: rgba(255, 255, 255, 0.1);
             transform: translateX(5px);
         }
 
+        .trade-buy {
+            border-left-color: #4ecdc4;
+            background: rgba(78, 205, 196, 0.05);
+        }
+
+        .trade-sell {
+            border-left-color: #ff6b6b;
+            background: rgba(255, 107, 107, 0.05);
+        }
+
+        .trade-info {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
         .trade-time {
-            color: rgba(255, 255, 255, 0.6);
-            font-size: 0.85em;
+            color: #95a5a6;
+            font-size: 0.9em;
+            min-width: 60px;
         }
 
-        .trade-coin {
-            font-weight: bold;
+        .trade-market {
+            font-weight: 600;
             font-size: 1.1em;
+            min-width: 100px;
         }
 
-        .trade-type {
-            text-align: center;
-            padding: 6px 12px;
+        .trade-action {
+            padding: 4px 12px;
             border-radius: 8px;
-            font-weight: bold;
             font-size: 0.85em;
-        }
-
-        .trade-type.buy {
-            background: rgba(255, 107, 107, 0.2);
-            color: #ff6b6b;
-            border: 1px solid rgba(255, 107, 107, 0.3);
-        }
-
-        .trade-type.sell {
-            background: rgba(78, 205, 196, 0.2);
-            color: #4ecdc4;
-            border: 1px solid rgba(78, 205, 196, 0.3);
+            font-weight: 600;
         }
 
         .trade-profit {
+            font-weight: 600;
+            font-size: 1.1em;
             text-align: right;
-            font-weight: bold;
-            font-size: 1em;
         }
 
         /* 추천 코드 섹션 */
         .referral-section {
-            background: linear-gradient(135deg, rgba(255, 107, 53, 0.2), rgba(247, 147, 26, 0.2));
+            background: linear-gradient(135deg, rgba(255, 107, 53, 0.15), rgba(247, 147, 26, 0.1));
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(255, 107, 53, 0.3);
             border-radius: 20px;
             padding: 30px;
-            text-align: center;
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 107, 53, 0.3);
             margin-bottom: 30px;
+            box-shadow: 0 8px 32px rgba(255, 107, 53, 0.2);
+            text-align: center;
         }
 
-        .referral-title {
-            font-size: 1.5em;
+        .referral-section h2 {
+            font-size: 1.8em;
             margin-bottom: 15px;
             color: #ff6b35;
         }
 
-        .referral-codes {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            flex-wrap: wrap;
+        .referral-description {
+            color: #e0e0e0;
+            font-size: 1.05em;
+            line-height: 1.6;
+            margin-bottom: 20px;
         }
 
         .referral-code {
-            background: rgba(0, 0, 0, 0.3);
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.1);
             padding: 15px 30px;
             border-radius: 12px;
-            border: 2px solid rgba(255, 107, 53, 0.5);
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #f7931a;
+            letter-spacing: 3px;
+            margin-top: 10px;
+            cursor: pointer;
             transition: all 0.3s ease;
+            border: 2px solid rgba(247, 147, 26, 0.5);
         }
 
         .referral-code:hover {
+            background: rgba(255, 255, 255, 0.15);
             transform: scale(1.05);
-            border-color: #ff6b35;
-            box-shadow: 0 0 20px rgba(255, 107, 53, 0.4);
-        }
-
-        .referral-platform {
-            font-size: 0.9em;
-            color: rgba(255, 255, 255, 0.7);
-            margin-bottom: 5px;
-        }
-
-        .referral-code-text {
-            font-size: 1.3em;
-            font-weight: bold;
-            color: #ff6b35;
-            font-family: 'Courier New', monospace;
-            cursor: pointer;
+            box-shadow: 0 0 20px rgba(247, 147, 26, 0.4);
         }
 
         /* 푸터 */
         .footer {
             text-align: center;
-            color: rgba(255, 255, 255, 0.5);
-            padding: 20px;
+            padding: 30px;
+            color: #95a5a6;
             font-size: 0.9em;
         }
 
         .footer a {
             color: #ff6b35;
             text-decoration: none;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+
+        .footer a:hover {
+            color: #f7931a;
+        }
+
+        /* 애니메이션 */
+        @keyframes glow {
+            0%, 100% {
+                filter: drop-shadow(0 0 10px rgba(255, 107, 53, 0.5));
+            }
+            50% {
+                filter: drop-shadow(0 0 20px rgba(255, 107, 53, 0.8));
+            }
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+            50% {
+                opacity: 0.6;
+                transform: scale(1.2);
+            }
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
         }
 
         /* 반응형 */
@@ -407,377 +556,454 @@
             .header h1 {
                 font-size: 2em;
             }
-            
-            .trade-item {
+
+            .profit-grid {
                 grid-template-columns: 1fr;
-                gap: 8px;
             }
-            
+
             .holdings-grid {
-                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+                grid-template-columns: 1fr;
             }
-        }
 
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(-20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
+            .trade-info {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 5px;
+            }
 
-        .no-data {
-            text-align: center;
-            padding: 40px;
-            color: rgba(255, 255, 255, 0.5);
-            font-size: 1.1em;
+            .volume-control {
+                top: 10px;
+                right: 10px;
+                padding: 8px 12px;
+            }
+
+            .volume-slider {
+                width: 80px;
+            }
+
+            .status-row {
+                flex-direction: column;
+                gap: 10px;
+            }
         }
     </style>
 </head>
 <body>
+    <!-- 🆕 로딩 오버레이 -->
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-spinner">🔥</div>
+    </div>
+
+    <!-- 🎵 배경음악 -->
+    <audio id="bgMusic" loop>
+        <source src="background-music.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- 🎵 볼륨 컨트롤 -->
+    <div class="volume-control">
+        <span class="volume-icon" id="volumeIcon">🔊</span>
+        <input type="range" min="0" max="100" value="30" class="volume-slider" id="volumeSlider">
+        <span class="volume-value" id="volumeValue">30%</span>
+    </div>
+
     <div class="container">
         <!-- 헤더 -->
         <div class="header">
             <h1>🔥 빗썸 불멍 대시보드</h1>
-            <div class="status">
-                <span class="status-dot"></span>
-                <span id="status-text">Live</span>
-                <span class="last-update">| Last update: <span id="last-update">-</span></span>
+            <div class="status-row">
+                <div class="status">
+                    <span class="status-dot"></span>
+                    <span>Live</span>
+                </div>
+                <!-- 🆕 실시간 시계 -->
+                <div class="clock">
+                    <span>⏰</span>
+                    <span id="currentTime">00:00:00</span>
+                </div>
+            </div>
+            <!-- 🆕 마지막 업데이트 시간 -->
+            <div class="last-update" id="lastUpdate">
+                데이터 불러오는 중...
             </div>
         </div>
 
         <!-- 워드클라우드 -->
         <div class="wordcloud-container">
-            <div id="wordcloud"></div>
+            <div class="wordcloud" id="wordcloud">
+                <!-- JavaScript로 동적 생성 -->
+            </div>
         </div>
 
         <!-- 손익 카드 -->
-        <div class="profit-section">
+        <div class="profit-grid">
             <div class="profit-card">
-                <div class="profit-card-title">
-                    🔥 오늘 손익
-                </div>
-                <div class="profit-card-value" id="today-profit">+0원</div>
-                <div class="profit-card-percent" id="today-profit-percent">(+0.00%)</div>
+                <h3>🌅 오늘 손익</h3>
+                <div class="profit-amount" id="todayProfit">0원</div>
+                <div class="profit-percent" id="todayProfitPercent">(0.00%)</div>
             </div>
             <div class="profit-card">
-                <div class="profit-card-title">
-                    📊 누적 손익
-                </div>
-                <div class="profit-card-value" id="total-profit">+0원</div>
-                <div class="profit-card-percent" id="total-profit-percent">(+0.00%)</div>
+                <h3>📊 누적 손익</h3>
+                <div class="profit-amount" id="totalProfit">0원</div>
+                <div class="profit-percent" id="totalProfitPercent">(0.00%)</div>
             </div>
         </div>
 
         <!-- 보유 코인 -->
         <div class="holdings-section">
-            <div class="section-title">
-                💼 보유 코인 (<span id="holdings-count">0</span>개)
+            <h2>💼 보유 코인</h2>
+            
+            <!-- 🆕 정렬 버튼 -->
+            <div class="sort-controls">
+                <button class="sort-btn active" onclick="sortHoldings('name')">이름순</button>
+                <button class="sort-btn" onclick="sortHoldings('profit')">수익률순</button>
+                <button class="sort-btn" onclick="sortHoldings('value')">평가액순</button>
             </div>
-            <div class="holdings-grid" id="holdings-grid">
-                <div class="no-data">보유 중인 코인이 없습니다</div>
+            
+            <div class="holdings-grid" id="holdingsGrid">
+                <!-- JavaScript로 동적 생성 -->
             </div>
         </div>
 
         <!-- 최근 거래 -->
         <div class="trades-section">
-            <div class="section-title">
-                📜 최근 거래 (6개)
-            </div>
-            <div id="trades-list">
-                <div class="no-data">거래 내역이 없습니다</div>
+            <h2>📜 최근 거래 (6개)</h2>
+            <div class="trades-list" id="tradesList">
+                <!-- JavaScript로 동적 생성 -->
             </div>
         </div>
 
         <!-- 추천 코드 -->
         <div class="referral-section">
-            <div class="referral-title">🎁 빗썸 초대 코드</div>
-            <p style="color: rgba(255,255,255,0.8); margin-bottom: 20px;">
-                초대 받고 가입 시 계좌 연결은 5만원, 첫 거래 후에는 2만원을 받을 수 있습니다. (빗썸 정책에 따라 변동이 있을 수 있음)
+            <h2>🎁 빗썸 초대 코드</h2>
+            <p class="referral-description">
+                초대 받고 가입 시 계좌 연결은 5만원, 첫 거래 후에는 2만원을 받을 수 있습니다.<br>
+                (빗썸 정책에 따라 변동이 있을 수 있음)
             </p>
-            <div class="referral-codes">
-                <div class="referral-code">
-                    <div class="referral-platform">빗썸 초대 코드</div>
-                    <div class="referral-code-text" onclick="copyCode('JJCDWMIYMV')" title="클릭하여 복사">
-                        JJCDWMIYMV
-                    </div>
-                </div>
+            <div class="referral-code" onclick="copyReferralCode()">
+                JJCDWMIYMV
             </div>
+            <p style="margin-top: 15px; color: #95a5a6; font-size: 0.9em;">
+                클릭하면 코드가 복사됩니다
+            </p>
         </div>
 
         <!-- 푸터 -->
         <div class="footer">
-            <p>🤖 Powered by Jarvis AI Trading Bot</p>
-            <p>빗썸 | Bithumb | 비트코인 | 암호화폐 실시간 거래 대시보드</p>
-            <p style="margin-top: 10px; font-size: 0.85em;">
-                <a href="https://www.bithumb.com" target="_blank">빗썸 거래소</a> | 
-                <a href="https://upbit.com" target="_blank">업비트 거래소</a>
-            </p>
+            <p>Powered by Jarvis AI Trading Bot</p>
+            <div style="margin-top: 10px;">
+                <a href="https://www.bithumb.com/" target="_blank">빗썸</a>
+                <a href="https://www.upbit.com/" target="_blank">업비트</a>
+                <a href="https://bitcoin.org/" target="_blank">비트코인</a>
+            </div>
         </div>
     </div>
 
-    <!-- 오디오 -->
-    <audio id="background-music" loop>
-        <source src="https://cdn.pixabay.com/download/audio/2022/03/10/audio_4a456a6d92.mp3" type="audio/mpeg">
-    </audio>
-
     <script>
-        let holdings = [];
-        let trades = [];
-        let emotions = [];
+        // 전역 변수
+        let currentHoldings = [];
+        let currentSortOrder = 'name';
 
-        // 데이터 로드
-        async function loadDashboard() {
-            try {
-                const response = await fetch('dashboard_data.json?' + Date.now());
-                const data = await response.json();
+        // 🆕 실시간 시계
+        function updateClock() {
+            const now = new Date();
+            const timeStr = now.toLocaleTimeString('ko-KR', { hour12: false });
+            document.getElementById('currentTime').textContent = timeStr;
+        }
+        setInterval(updateClock, 1000);
+        updateClock(); // 즉시 실행
+
+        // 🆕 마지막 업데이트 시간 계산
+        function getTimeAgo(dateString) {
+            const now = new Date();
+            const past = new Date(dateString);
+            const diffMs = now - past;
+            const diffMins = Math.floor(diffMs / 60000);
+            
+            if (diffMins < 1) return '방금 전';
+            if (diffMins < 60) return `${diffMins}분 전`;
+            const diffHours = Math.floor(diffMins / 60);
+            if (diffHours < 24) return `${diffHours}시간 전`;
+            const diffDays = Math.floor(diffHours / 24);
+            return `${diffDays}일 전`;
+        }
+
+        // 🆕 로딩 표시
+        function showLoading() {
+            document.getElementById('loadingOverlay').classList.add('active');
+        }
+
+        function hideLoading() {
+            document.getElementById('loadingOverlay').classList.remove('active');
+        }
+
+        // 🎵 배경음악 컨트롤
+        const bgMusic = document.getElementById('bgMusic');
+        const volumeSlider = document.getElementById('volumeSlider');
+        const volumeValue = document.getElementById('volumeValue');
+        const volumeIcon = document.getElementById('volumeIcon');
+
+        if (bgMusic) {
+            bgMusic.volume = 0.3;
+
+            volumeSlider.addEventListener('input', (e) => {
+                const volume = e.target.value / 100;
+                bgMusic.volume = volume;
+                volumeValue.textContent = e.target.value + '%';
                 
-                updateStatus(data.last_update);
-                updateProfits(data);
-                updateHoldings(data.holdings || []);
-                updateTrades(data.trades || []);
-                updateWordcloud(data.holdings || []);
-                
-            } catch (error) {
-                console.error('Error loading dashboard:', error);
-            }
+                if (volume === 0) {
+                    volumeIcon.textContent = '🔇';
+                } else if (volume < 0.5) {
+                    volumeIcon.textContent = '🔉';
+                } else {
+                    volumeIcon.textContent = '🔊';
+                }
+            });
+
+            volumeIcon.addEventListener('click', () => {
+                if (bgMusic.volume > 0) {
+                    bgMusic.volume = 0;
+                    volumeSlider.value = 0;
+                    volumeValue.textContent = '0%';
+                    volumeIcon.textContent = '🔇';
+                } else {
+                    bgMusic.volume = 0.3;
+                    volumeSlider.value = 30;
+                    volumeValue.textContent = '30%';
+                    volumeIcon.textContent = '🔊';
+                }
+            });
+
+            document.addEventListener('click', () => {
+                if (bgMusic.paused) {
+                    bgMusic.play().catch(e => console.log('음악 재생 실패:', e));
+                }
+            }, { once: true });
         }
 
-        // 상태 업데이트
-        function updateStatus(lastUpdate) {
-            if (lastUpdate) {
-                document.getElementById('last-update').textContent = new Date(lastUpdate).toLocaleString('ko-KR');
-            }
+        // 초대 코드 복사
+        function copyReferralCode() {
+            const code = 'JJCDWMIYMV';
+            navigator.clipboard.writeText(code).then(() => {
+                alert('초대 코드가 복사되었습니다! 🎉\n' + code);
+            });
         }
 
-        // 손익 업데이트
-        function updateProfits(data) {
-            const todayProfit = data.today_profit || 0;
-            const todayPercent = data.today_profit_percent || 0;
-            const totalProfit = data.total_profit || todayProfit; // 누적 손익
-            const totalPercent = data.total_profit_percent || todayPercent;
-
-            // 오늘 손익
-            const todayProfitEl = document.getElementById('today-profit');
-            const todayPercentEl = document.getElementById('today-profit-percent');
-            
-            todayProfitEl.textContent = formatCurrency(todayProfit);
-            todayPercentEl.textContent = `(${formatPercent(todayPercent)})`;
-            
-            todayProfitEl.className = 'profit-card-value ' + getProfitClass(todayProfit);
-            todayPercentEl.className = 'profit-card-percent ' + getProfitClass(todayProfit);
-
-            // 누적 손익
-            const totalProfitEl = document.getElementById('total-profit');
-            const totalPercentEl = document.getElementById('total-profit-percent');
-            
-            totalProfitEl.textContent = formatCurrency(totalProfit);
-            totalPercentEl.textContent = `(${formatPercent(totalPercent)})`;
-            
-            totalProfitEl.className = 'profit-card-value ' + getProfitClass(totalProfit);
-            totalPercentEl.className = 'profit-card-percent ' + getProfitClass(totalProfit);
+        // 숫자 포맷팅
+        function formatNumber(num) {
+            return new Intl.NumberFormat('ko-KR').format(Math.round(num));
         }
 
-        // 보유 코인 업데이트
-        function updateHoldings(newHoldings) {
-            holdings = newHoldings;
-            const grid = document.getElementById('holdings-grid');
-            const count = document.getElementById('holdings-count');
+        function formatPercent(num) {
+            return (num >= 0 ? '+' : '') + num.toFixed(2) + '%';
+        }
+
+        // 🆕 코인 정렬 함수
+        function sortHoldings(criteria) {
+            currentSortOrder = criteria;
             
-            count.textContent = holdings.length;
+            // 버튼 활성화 상태 변경
+            document.querySelectorAll('.sort-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
             
+            // 정렬
+            const sorted = [...currentHoldings].sort((a, b) => {
+                if (criteria === 'name') {
+                    return a.market.localeCompare(b.market);
+                } else if (criteria === 'profit') {
+                    return b.profit_rate - a.profit_rate;
+                } else if (criteria === 'value') {
+                    return b.value - a.value;
+                }
+                return 0;
+            });
+            
+            // 재렌더링
+            renderHoldings(sorted);
+        }
+
+        // 보유 코인 렌더링
+        function renderHoldings(holdings) {
+            const grid = document.getElementById('holdingsGrid');
+            grid.innerHTML = '';
+
             if (holdings.length === 0) {
-                grid.innerHTML = '<div class="no-data">보유 중인 코인이 없습니다</div>';
+                grid.innerHTML = '<p style="text-align: center; color: #95a5a6; grid-column: 1/-1;">보유 중인 코인이 없습니다</p>';
                 return;
             }
-            
-            grid.innerHTML = holdings.map(h => `
-                <div class="holding-card">
-                    <div class="holding-coin">${h.market.replace('KRW-', '')}</div>
-                    <div class="holding-amount">${h.amount.toFixed(4)}</div>
-                    <div class="holding-value">${formatCurrency(h.value)}</div>
-                    <div class="holding-profit ${getProfitClass(h.profit_rate)}">
-                        ${formatPercent(h.profit_rate * 100)}
-                    </div>
-                </div>
-            `).join('');
-        }
 
-        // 거래 내역 업데이트 (최대 6개)
-        function updateTrades(newTrades) {
-            trades = (newTrades || []).slice(0, 6); // 최대 6개만
-            const list = document.getElementById('trades-list');
-            
-            if (trades.length === 0) {
-                list.innerHTML = '<div class="no-data">거래 내역이 없습니다</div>';
-                return;
-            }
-            
-            list.innerHTML = trades.map(t => {
-                const profitClass = getProfitClass(t.profit || 0);
-                const profitText = t.profit ? formatCurrency(t.profit) : '-';
-                
-                return `
-                    <div class="trade-item" style="border-left-color: ${t.type === 'buy' ? '#ff6b6b' : '#4ecdc4'}">
-                        <div class="trade-time">${formatTime(t.time)}</div>
-                        <div class="trade-coin">${t.market.replace('KRW-', '')}</div>
-                        <div class="trade-type ${t.type}">${t.type === 'buy' ? '매수' : '매도'}</div>
-                        <div class="trade-profit ${profitClass}">${profitText}</div>
+            holdings.forEach(h => {
+                const profitRate = h.profit_rate * 100;
+                const profitColor = profitRate >= 0 ? '#ff6b6b' : '#4ecdc4';
+
+                const card = document.createElement('div');
+                card.className = 'coin-card';
+                card.innerHTML = `
+                    <div class="coin-header">
+                        <div class="coin-name">${h.market.replace('KRW-', '')}</div>
+                        <div class="coin-profit-badge" style="background: ${profitColor}20; color: ${profitColor};">
+                            ${formatPercent(profitRate)}
+                        </div>
+                    </div>
+                    <div class="coin-details">
+                        <div class="coin-detail-row">
+                            <span class="coin-label">보유량</span>
+                            <span>${h.amount.toFixed(4)}</span>
+                        </div>
+                        <div class="coin-detail-row">
+                            <span class="coin-label">평균가</span>
+                            <span>${formatNumber(h.avg_price)}원</span>
+                        </div>
+                        <div class="coin-detail-row">
+                            <span class="coin-label">현재가</span>
+                            <span>${formatNumber(h.current_price)}원</span>
+                        </div>
+                        <div class="coin-detail-row">
+                            <span class="coin-label">평가액</span>
+                            <span style="font-weight: bold; color: ${profitColor};">
+                                ${formatNumber(h.value)}원
+                            </span>
+                        </div>
                     </div>
                 `;
-            }).join('');
-        }
-
-        // 워드클라우드 업데이트
-        function updateWordcloud(holdings) {
-            const container = document.getElementById('wordcloud');
-            container.innerHTML = '';
-            
-            // 감정 단어 결정
-            updateEmotions(holdings);
-            
-            // 보유 코인 워드
-            holdings.forEach((h, i) => {
-                const coin = h.market.replace('KRW-', '');
-                const profitRate = (h.profit_rate || 0) * 100;
-                const isProfit = profitRate > 0;
-                
-                const word = createWordElement(
-                    coin,
-                    isProfit ? 'profit-positive' : 'profit-negative',
-                    Math.abs(profitRate) + 1,
-                    i
-                );
-                word.classList.add('coin-word');
-                container.appendChild(word);
-                
-                // 수익률 표시
-                const percent = createWordElement(
-                    `${formatPercent(profitRate)}`,
-                    isProfit ? 'profit-positive' : 'profit-negative',
-                    Math.abs(profitRate) * 0.5 + 0.8,
-                    i + 0.5
-                );
-                percent.classList.add('coin-word');
-                container.appendChild(percent);
-            });
-            
-            // 감정 단어
-            emotions.forEach((emotion, i) => {
-                const word = createWordElement(
-                    emotion.text,
-                    emotion.color,
-                    emotion.size,
-                    holdings.length + i
-                );
-                word.classList.add('emotion-word');
-                container.appendChild(word);
+                grid.appendChild(card);
             });
         }
 
-        // 감정 단어 생성
-        function updateEmotions(holdings) {
-            emotions = [];
+        // 워드클라우드 생성
+        function generateWordcloud(holdings) {
+            const wordcloud = document.getElementById('wordcloud');
+            wordcloud.innerHTML = '';
+
+            const emotions = [];
             
             if (holdings.length === 0) {
-                // 거래 없음
-                const idleWords = ['심심해', '코인이나 살까', '🤔', '어떤 코인?'];
-                emotions = idleWords.map(text => ({
-                    text,
-                    color: 'profit-neutral',
-                    size: Math.random() * 1.5 + 1
-                }));
+                emotions.push('심심해', '코인이나 살까', '🤔');
             } else {
                 holdings.forEach(h => {
-                    const profitRate = (h.profit_rate || 0) * 100;
-                    
+                    const profitRate = h.profit_rate * 100;
                     if (profitRate > 0) {
-                        // 상승
-                        const upWords = ['앗싸!', '좋아!', 'Good!', '최고!', '🚀', '💰'];
-                        const word = upWords[Math.floor(Math.random() * upWords.length)];
-                        emotions.push({
-                            text: word,
-                            color: 'profit-positive',
-                            size: Math.min(profitRate * 0.1 + 1, 3)
-                        });
+                        emotions.push('앗싸!', '좋아!', 'Good!', '🚀');
                     } else if (profitRate < 0) {
-                        // 하락
-                        const downWords = ['앗!', '억!', '욱!', '안돼!', '😱', '💸'];
-                        const word = downWords[Math.floor(Math.random() * downWords.length)];
-                        emotions.push({
-                            text: word,
-                            color: 'profit-negative',
-                            size: Math.min(Math.abs(profitRate) * 0.1 + 1, 3)
-                        });
+                        emotions.push('앗!', '억!', '안돼!', '😱');
+                    } else {
+                        emotions.push('흠...', '기다려', '⏳');
                     }
                 });
             }
-        }
 
-        // 워드 요소 생성
-        function createWordElement(text, colorClass, sizeMultiplier, index) {
-            const word = document.createElement('div');
-            word.textContent = text;
-            word.className = colorClass;
-            
-            const fontSize = Math.max(12, sizeMultiplier * 16);
-            word.style.fontSize = `${fontSize}px`;
-            
-            const container = document.getElementById('wordcloud');
-            const maxX = container.clientWidth - 100;
-            const maxY = container.clientHeight - 50;
-            
-            const x = (index * 137.5) % maxX;
-            const y = ((index * 73) % maxY);
-            
-            word.style.left = `${x}px`;
-            word.style.top = `${y}px`;
-            
-            word.style.animationDelay = `${index * 0.2}s`;
-            
-            return word;
-        }
+            holdings.forEach(h => {
+                const coin = h.market.replace('KRW-', '');
+                const profitRate = h.profit_rate * 100;
+                const size = 1.2 + Math.min(Math.abs(profitRate) / 10, 1);
+                
+                const color = profitRate > 0 ? '#ff6b6b' : 
+                             profitRate < 0 ? '#4ecdc4' : '#95a5a6';
+                
+                const word = document.createElement('div');
+                word.className = 'word';
+                word.textContent = `${coin} ${formatPercent(profitRate)}`;
+                word.style.fontSize = `${size}em`;
+                word.style.color = color;
+                word.style.backgroundColor = `${color}20`;
+                word.style.animationDelay = `${Math.random() * 2}s`;
+                
+                wordcloud.appendChild(word);
+            });
 
-        // 유틸리티 함수
-        function formatCurrency(value) {
-            const sign = value >= 0 ? '+' : '';
-            return sign + Math.round(value).toLocaleString() + '원';
-        }
-
-        function formatPercent(value) {
-            const sign = value >= 0 ? '+' : '';
-            return sign + value.toFixed(2) + '%';
-        }
-
-        function getProfitClass(value) {
-            if (value > 0) return 'profit-positive';
-            if (value < 0) return 'profit-negative';
-            return 'profit-neutral';
-        }
-
-        function formatTime(timestamp) {
-            const date = new Date(timestamp);
-            return date.toLocaleTimeString('ko-KR', { 
-                hour: '2-digit', 
-                minute: '2-digit' 
+            emotions.slice(0, 6).forEach(emotion => {
+                const word = document.createElement('div');
+                word.className = 'word';
+                word.textContent = emotion;
+                word.style.fontSize = `${1 + Math.random() * 0.5}em`;
+                word.style.color = '#f7931a';
+                word.style.backgroundColor = 'rgba(247, 147, 26, 0.1)';
+                word.style.animationDelay = `${Math.random() * 2}s`;
+                
+                wordcloud.appendChild(word);
             });
         }
 
-        function copyCode(code) {
-            navigator.clipboard.writeText(code).then(() => {
-                alert('초대 코드가 복사되었습니다: ' + code);
-            });
-        }
+        // 대시보드 업데이트
+        async function updateDashboard() {
+            try {
+                showLoading(); // 로딩 표시
+                
+                const response = await fetch('dashboard_data.json?t=' + new Date().getTime());
+                const data = await response.json();
 
-        // 초기 로드 및 자동 갱신
-        loadDashboard();
-        setInterval(loadDashboard, 10000); // 10초마다
+                // 🆕 마지막 업데이트 시간
+                if (data.last_update) {
+                    const timeAgo = getTimeAgo(data.last_update);
+                    document.getElementById('lastUpdate').textContent = `마지막 업데이트: ${timeAgo}`;
+                }
 
-        // 배경음악 (클릭 시 재생)
-        document.body.addEventListener('click', () => {
-            const music = document.getElementById('background-music');
-            if (music.paused) {
-                music.volume = 0.1;
-                music.play().catch(() => {});
+                // 손익 업데이트
+                const todayProfit = data.today_profit || 0;
+                const todayPercent = data.today_profit_percent || 0;
+                const totalProfit = data.total_profit || 0;
+                const totalPercent = data.total_profit_percent || 0;
+
+                document.getElementById('todayProfit').textContent = (todayProfit >= 0 ? '+' : '') + formatNumber(todayProfit) + '원';
+                document.getElementById('todayProfit').style.color = todayProfit >= 0 ? '#ff6b6b' : '#4ecdc4';
+                document.getElementById('todayProfitPercent').textContent = '(' + formatPercent(todayPercent) + ')';
+
+                document.getElementById('totalProfit').textContent = (totalProfit >= 0 ? '+' : '') + formatNumber(totalProfit) + '원';
+                document.getElementById('totalProfit').style.color = totalProfit >= 0 ? '#ff6b6b' : '#4ecdc4';
+                document.getElementById('totalProfitPercent').textContent = '(' + formatPercent(totalPercent) + ')';
+
+                // 보유 코인
+                currentHoldings = data.holdings || [];
+                
+                // 워드클라우드
+                generateWordcloud(currentHoldings);
+                
+                // 현재 정렬 기준으로 보유 코인 표시
+                sortHoldings(currentSortOrder);
+
+                // 최근 거래
+                const trades = (data.trades || []).slice(0, 6);
+                const tradesList = document.getElementById('tradesList');
+                tradesList.innerHTML = '';
+
+                if (trades.length === 0) {
+                    tradesList.innerHTML = '<p style="text-align: center; color: #95a5a6;">아직 거래 내역이 없습니다</p>';
+                } else {
+                    trades.forEach(t => {
+                        const isBuy = t.type === 'buy';
+                        const profit = t.profit || 0;
+
+                        const item = document.createElement('div');
+                        item.className = `trade-item ${isBuy ? 'trade-buy' : 'trade-sell'}`;
+                        item.innerHTML = `
+                            <div class="trade-info">
+                                <span class="trade-time">${t.time || ''}</span>
+                                <span class="trade-market">${t.market.replace('KRW-', '')}</span>
+                                <span class="trade-action" style="background: ${isBuy ? '#4ecdc4' : '#ff6b6b'}; color: white;">
+                                    ${isBuy ? '매수' : '매도'}
+                                </span>
+                            </div>
+                            <div class="trade-profit" style="color: ${profit >= 0 ? '#ff6b6b' : '#4ecdc4'};">
+                                ${isBuy ? '-' : (profit >= 0 ? '+' : '') + formatNumber(profit) + '원'}
+                            </div>
+                        `;
+                        tradesList.appendChild(item);
+                    });
+                }
+
+                hideLoading(); // 로딩 숨김
+
+            } catch (error) {
+                console.error('Dashboard update failed:', error);
+                hideLoading();
+                document.getElementById('lastUpdate').textContent = '업데이트 실패 - 재시도 중...';
             }
-        }, { once: true });
+        }
+
+        // 초기 로드 및 주기적 업데이트
+        updateDashboard();
+        setInterval(updateDashboard, 10000); // 10초마다
     </script>
 </body>
 </html>
