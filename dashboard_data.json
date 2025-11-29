@@ -1,8 +1,8 @@
 {
   "today_profit": -297.02081246,
   "today_profit_percent": -0.0059404162492000005,
-  "total_profit": -133.65196078560044,
-  "total_profit_percent": -0.002673039215712009,
+  "total_profit": 65.48800115080005,
+  "total_profit_percent": 0.0013097600230160009,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,12 +157,20 @@
       "market": "KRW-AWE",
       "amount": 108.66013072,
       "avg_price": 89.9,
-      "current_price": 88.67,
-      "value": 9634.8937909424,
-      "profit_rate": -0.013681868743047875
+      "current_price": 88.79,
+      "value": 9647.9330066288,
+      "profit_rate": -0.01234705228031145
+    },
+    {
+      "market": "KRW-GRS",
+      "amount": 37.22014925,
+      "avg_price": 262.0,
+      "current_price": 267.0,
+      "value": 9937.779849749999,
+      "profit_rate": 0.019083969465648856
     }
   ],
-  "last_update": "2025-11-29T15:01:42.973028",
+  "last_update": "2025-11-29T15:07:40.293721",
   "trades": [
     {
       "type": "sell",
