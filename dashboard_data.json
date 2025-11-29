@@ -1,8 +1,8 @@
 {
-  "today_profit": -561.4067697076018,
-  "today_profit_percent": -0.011228135394152038,
-  "total_profit": -145.73611231628934,
-  "total_profit_percent": -0.002914722246325787,
+  "today_profit": -904.8704920876019,
+  "today_profit_percent": -0.018097409841752038,
+  "total_profit": -65.70482538926888,
+  "total_profit_percent": -0.0013140965077853776,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -173,13 +173,21 @@
       "market": "KRW-MED",
       "amount": 1739.81058537,
       "avg_price": 4.5,
-      "current_price": 4.483,
-      "value": 7799.570854213709,
-      "profit_rate": -0.003777777777777855
+      "current_price": 4.529,
+      "value": 7879.602141140729,
+      "profit_rate": 0.006444444444444425
     }
   ],
-  "last_update": "2025-11-30T01:14:18.810961",
+  "last_update": "2025-11-30T01:20:06.962632",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-MED",
+      "profit": 0,
+      "price": 4.39,
+      "amount": 2224.08026756,
+      "time": "2025-11-30T01:18:56.407468"
+    },
     {
       "type": "buy",
       "market": "KRW-MTL",
