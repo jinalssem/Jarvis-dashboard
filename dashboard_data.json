@@ -1,8 +1,8 @@
 {
   "today_profit": 0.7403815399999871,
   "today_profit_percent": 1.4807630799999743e-05,
-  "total_profit": -88.37028258680131,
-  "total_profit_percent": -0.0017674056517360261,
+  "total_profit": 66.7916360031987,
+  "total_profit_percent": 0.001335832720063974,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -173,13 +173,21 @@
       "market": "KRW-LSK",
       "amount": 22.16598837,
       "avg_price": 344.0,
-      "current_price": 336.0,
-      "value": 7447.77209232,
-      "profit_rate": -0.023255813953488372
+      "current_price": 343.0,
+      "value": 7602.93401091,
+      "profit_rate": -0.0029069767441860465
     }
   ],
-  "last_update": "2025-11-29T15:37:47.502955",
+  "last_update": "2025-11-29T15:43:48.983321",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-SXP",
+      "profit": 0,
+      "price": 116.0,
+      "amount": 83.82352941,
+      "time": "2025-11-29T15:42:38.000536"
+    },
     {
       "type": "buy",
       "market": "KRW-BTC",
