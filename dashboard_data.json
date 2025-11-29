@@ -1,7 +1,7 @@
 {
-  "today_profit": 1068.5341987738404,
+  "today_profit": 1232.9933251018406,
   "today_profit_percent": 0,
-  "total_profit": 5524.210686159278,
+  "total_profit": 5904.7448442551195,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -157,29 +157,29 @@
       "market": "KRW-CKB",
       "amount": 3400.53814936,
       "avg_price": 3.931,
-      "current_price": 3.925,
-      "value": 13347.112236238,
-      "profit_rate": -0.0015263291783261836
-    },
-    {
-      "market": "KRW-MAY",
-      "amount": 184.7855352,
-      "avg_price": 27.4,
-      "current_price": 27.13,
-      "value": 5013.231569976,
-      "profit_rate": -0.00985401459854013
+      "current_price": 3.919,
+      "value": 13326.709007341839,
+      "profit_rate": -0.003052658356652254
     },
     {
       "market": "KRW-WCT",
       "amount": 186.58616616,
       "avg_price": 152.0,
-      "current_price": 148.0,
-      "value": 27614.75259168,
-      "profit_rate": -0.02631578947368421
+      "current_price": 149.0,
+      "value": 27801.33875784,
+      "profit_rate": -0.019736842105263157
     }
   ],
-  "last_update": "2025-11-30T08:06:55.542762",
+  "last_update": "2025-11-30T08:12:31.743629",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-MAY",
+      "profit": 164.4591263280001,
+      "price": 28.29,
+      "amount": 184.7855352,
+      "time": "2025-11-30T08:11:11.993677"
+    },
     {
       "type": "buy",
       "market": "KRW-MAY",
