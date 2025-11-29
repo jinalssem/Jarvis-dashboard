@@ -1,8 +1,8 @@
 {
   "today_profit": -2366.039500354927,
   "today_profit_percent": -0.047320790007098545,
-  "total_profit": -1567.7519893121314,
-  "total_profit_percent": -0.03135503978624263,
+  "total_profit": -2023.86579955496,
+  "total_profit_percent": -0.040477315991099196,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,9 +157,17 @@
       "market": "KRW-CKB",
       "amount": 3400.53814936,
       "avg_price": 3.931,
-      "current_price": 3.927,
-      "value": 13353.913312536719,
-      "profit_rate": -0.0010175527855507513
+      "current_price": 3.93,
+      "value": 13364.1149269848,
+      "profit_rate": -0.0002543881963876596
+    },
+    {
+      "market": "KRW-MED",
+      "amount": 3963.89085293,
+      "avg_price": 4.438,
+      "current_price": 4.318,
+      "value": 17116.08070295174,
+      "profit_rate": -0.027039206849932426
     },
     {
       "market": "KRW-MAY",
@@ -181,12 +189,12 @@
       "market": "KRW-ELX",
       "amount": 935.14776607,
       "avg_price": 87.02,
-      "current_price": 86.01,
-      "value": 80432.0593596807,
-      "profit_rate": -0.01160652723511826
+      "current_price": 86.02,
+      "value": 80441.41083734139,
+      "profit_rate": -0.011491611123879569
     }
   ],
-  "last_update": "2025-11-30T04:10:50.382639",
+  "last_update": "2025-11-30T04:16:42.087859",
   "trades": [
     {
       "type": "buy",
