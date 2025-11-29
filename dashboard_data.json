@@ -1,8 +1,8 @@
 {
   "today_profit": 0.7403815399999871,
   "today_profit_percent": 1.4807630799999743e-05,
-  "total_profit": -60.84967320320025,
-  "total_profit_percent": -0.0012169934640640049,
+  "total_profit": -59.763071896001236,
+  "total_profit_percent": -0.0011952614379200247,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -165,13 +165,21 @@
       "market": "KRW-AWE",
       "amount": 108.66013072,
       "avg_price": 89.9,
-      "current_price": 89.34,
-      "value": 9707.6960785248,
-      "profit_rate": -0.006229143492769769
+      "current_price": 89.35,
+      "value": 9708.782679831998,
+      "profit_rate": -0.006117908787541839
     }
   ],
-  "last_update": "2025-11-29T15:25:30.202983",
+  "last_update": "2025-11-29T15:31:42.702226",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-ETH",
+      "profit": 0,
+      "price": 4430000.0,
+      "amount": 0.00336522,
+      "time": "2025-11-29T15:30:21.359140"
+    },
     {
       "type": "sell",
       "market": "KRW-GRS",
