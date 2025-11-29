@@ -1,7 +1,7 @@
 {
-  "today_profit": -1538.5065884569235,
+  "today_profit": -628.2203853691198,
   "today_profit_percent": 0,
-  "total_profit": 2989.743656318391,
+  "total_profit": 3628.4576482241555,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -157,25 +157,25 @@
       "market": "KRW-CKB",
       "amount": 3400.53814936,
       "avg_price": 3.931,
-      "current_price": 3.925,
-      "value": 13347.112236238,
-      "profit_rate": -0.0015263291783261836
+      "current_price": 3.93,
+      "value": 13364.1149269848,
+      "profit_rate": -0.0002543881963876596
     },
     {
       "market": "KRW-MED",
       "amount": 3963.89085293,
       "avg_price": 4.438,
-      "current_price": 4.3,
-      "value": 17044.730667599,
-      "profit_rate": -0.031095087877422243
+      "current_price": 4.312,
+      "value": 17092.297357834163,
+      "profit_rate": -0.028391167192428898
     },
     {
       "market": "KRW-WCT",
       "amount": 186.58616616,
       "avg_price": 152.0,
-      "current_price": 149.0,
-      "value": 27801.33875784,
-      "profit_rate": -0.019736842105263157
+      "current_price": 151.0,
+      "value": 28174.511090160002,
+      "profit_rate": -0.006578947368421052
     },
     {
       "market": "KRW-ELX",
@@ -184,18 +184,18 @@
       "current_price": 85.76,
       "value": 121630.6077696256,
       "profit_rate": -0.0026747296197231047
-    },
-    {
-      "market": "KRW-SAHARA",
-      "amount": 591.09493707,
-      "avg_price": 68.8,
-      "current_price": 70.0,
-      "value": 41376.6455949,
-      "profit_rate": 0.01744186046511632
     }
   ],
-  "last_update": "2025-11-30T05:32:13.036205",
+  "last_update": "2025-11-30T05:37:46.874963",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-SAHARA",
+      "profit": 910.2862030878038,
+      "price": 70.34,
+      "amount": 591.09493707,
+      "time": "2025-11-30T05:36:36.119163"
+    },
     {
       "type": "sell",
       "market": "KRW-SAHARA",
