@@ -153,8 +153,16 @@
     "profit_rate": 0.0
   },
   "holdings": [],
-  "last_update": "2025-11-29T20:28:03.984237",
+  "last_update": "2025-11-29T20:37:13.963035",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-SXP",
+      "profit": 0,
+      "price": 113.0,
+      "amount": 85.99137931,
+      "time": "2025-11-29T20:35:49.035565"
+    },
     {
       "type": "buy",
       "market": "KRW-CKB",
