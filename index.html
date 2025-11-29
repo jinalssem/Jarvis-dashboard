@@ -32,7 +32,6 @@
             overflow-x: hidden;
         }
 
-        /* 불멍 배경 효과 */
         body::before {
             content: '';
             position: fixed;
@@ -55,7 +54,6 @@
             z-index: 1;
         }
 
-        /* 🆕 로딩 인디케이터 */
         .loading-overlay {
             position: fixed;
             top: 0;
@@ -83,7 +81,6 @@
             to { transform: rotate(360deg); }
         }
 
-        /* 헤더 */
         .header {
             text-align: center;
             margin-bottom: 30px;
@@ -127,7 +124,6 @@
             animation: pulse 2s ease-in-out infinite;
         }
 
-        /* 🆕 실시간 시계 */
         .clock {
             display: inline-flex;
             align-items: center;
@@ -140,7 +136,6 @@
             font-weight: 600;
         }
 
-        /* 🆕 마지막 업데이트 */
         .last-update {
             text-align: center;
             color: #95a5a6;
@@ -148,7 +143,6 @@
             margin-top: 10px;
         }
 
-        /* 🎵 볼륨 컨트롤 */
         .volume-control {
             position: fixed;
             top: 20px;
@@ -208,7 +202,6 @@
             text-align: right;
         }
 
-        /* 워드클라우드 */
         .wordcloud-container {
             background: rgba(255, 255, 255, 0.05);
             backdrop-filter: blur(10px);
@@ -240,7 +233,6 @@
             transform: scale(1.2);
         }
 
-        /* 손익 카드 그리드 */
         .profit-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -276,7 +268,6 @@
             opacity: 0.8;
         }
 
-        /* 🆕 정렬 버튼 */
         .sort-controls {
             display: flex;
             justify-content: center;
@@ -308,7 +299,6 @@
             font-weight: bold;
         }
 
-        /* 보유 코인 그리드 */
         .holdings-section {
             margin-bottom: 30px;
         }
@@ -377,7 +367,6 @@
             color: #95a5a6;
         }
 
-        /* 최근 거래 */
         .trades-section {
             background: rgba(255, 255, 255, 0.05);
             backdrop-filter: blur(10px);
@@ -456,7 +445,6 @@
             text-align: right;
         }
 
-        /* 추천 코드 섹션 */
         .referral-section {
             background: linear-gradient(135deg, rgba(255, 107, 53, 0.15), rgba(247, 147, 26, 0.1));
             backdrop-filter: blur(10px);
@@ -502,7 +490,6 @@
             box-shadow: 0 0 20px rgba(247, 147, 26, 0.4);
         }
 
-        /* 푸터 */
         .footer {
             text-align: center;
             padding: 30px;
@@ -521,7 +508,6 @@
             color: #f7931a;
         }
 
-        /* 애니메이션 */
         @keyframes glow {
             0%, 100% {
                 filter: drop-shadow(0 0 10px rgba(255, 107, 53, 0.5));
@@ -551,7 +537,6 @@
             }
         }
 
-        /* 반응형 */
         @media (max-width: 768px) {
             .header h1 {
                 font-size: 2em;
@@ -589,17 +574,14 @@
     </style>
 </head>
 <body>
-    <!-- 🆕 로딩 오버레이 -->
     <div class="loading-overlay" id="loadingOverlay">
         <div class="loading-spinner">🔥</div>
     </div>
 
-    <!-- 🎵 배경음악 -->
     <audio id="bgMusic" loop>
         <source src="background-music.mp3" type="audio/mpeg">
     </audio>
 
-    <!-- 🎵 볼륨 컨트롤 -->
     <div class="volume-control">
         <span class="volume-icon" id="volumeIcon">🔊</span>
         <input type="range" min="0" max="100" value="30" class="volume-slider" id="volumeSlider">
@@ -607,7 +589,6 @@
     </div>
 
     <div class="container">
-        <!-- 헤더 -->
         <div class="header">
             <h1>🔥 빗썸 불멍 대시보드</h1>
             <div class="status-row">
@@ -615,26 +596,20 @@
                     <span class="status-dot"></span>
                     <span>Live</span>
                 </div>
-                <!-- 🆕 실시간 시계 -->
                 <div class="clock">
                     <span>⏰</span>
                     <span id="currentTime">00:00:00</span>
                 </div>
             </div>
-            <!-- 🆕 마지막 업데이트 시간 -->
             <div class="last-update" id="lastUpdate">
                 데이터 불러오는 중...
             </div>
         </div>
 
-        <!-- 워드클라우드 -->
         <div class="wordcloud-container">
-            <div class="wordcloud" id="wordcloud">
-                <!-- JavaScript로 동적 생성 -->
-            </div>
+            <div class="wordcloud" id="wordcloud"></div>
         </div>
 
-        <!-- 손익 카드 -->
         <div class="profit-grid">
             <div class="profit-card">
                 <h3>🌅 오늘 손익</h3>
@@ -648,31 +623,23 @@
             </div>
         </div>
 
-        <!-- 보유 코인 -->
         <div class="holdings-section">
             <h2>💼 보유 코인</h2>
             
-            <!-- 🆕 정렬 버튼 -->
             <div class="sort-controls">
-                <button class="sort-btn active" onclick="sortHoldings('name')">이름순</button>
-                <button class="sort-btn" onclick="sortHoldings('profit')">수익률순</button>
-                <button class="sort-btn" onclick="sortHoldings('value')">평가액순</button>
+                <button class="sort-btn active" data-sort="name">이름순</button>
+                <button class="sort-btn" data-sort="profit">수익률순</button>
+                <button class="sort-btn" data-sort="value">평가액순</button>
             </div>
             
-            <div class="holdings-grid" id="holdingsGrid">
-                <!-- JavaScript로 동적 생성 -->
-            </div>
+            <div class="holdings-grid" id="holdingsGrid"></div>
         </div>
 
-        <!-- 최근 거래 -->
         <div class="trades-section">
             <h2>📜 최근 거래 (6개)</h2>
-            <div class="trades-list" id="tradesList">
-                <!-- JavaScript로 동적 생성 -->
-            </div>
+            <div class="trades-list" id="tradesList"></div>
         </div>
 
-        <!-- 추천 코드 -->
         <div class="referral-section">
             <h2>🎁 빗썸 초대 코드</h2>
             <p class="referral-description">
@@ -687,7 +654,6 @@
             </p>
         </div>
 
-        <!-- 푸터 -->
         <div class="footer">
             <p>Powered by Jarvis AI Trading Bot</p>
             <div style="margin-top: 10px;">
@@ -699,20 +665,19 @@
     </div>
 
     <script>
-        // 전역 변수
         let currentHoldings = [];
         let currentSortOrder = 'name';
 
-        // 🆕 실시간 시계
+        // 실시간 시계
         function updateClock() {
             const now = new Date();
             const timeStr = now.toLocaleTimeString('ko-KR', { hour12: false });
             document.getElementById('currentTime').textContent = timeStr;
         }
         setInterval(updateClock, 1000);
-        updateClock(); // 즉시 실행
+        updateClock();
 
-        // 🆕 마지막 업데이트 시간 계산
+        // 마지막 업데이트 시간
         function getTimeAgo(dateString) {
             const now = new Date();
             const past = new Date(dateString);
@@ -727,7 +692,6 @@
             return `${diffDays}일 전`;
         }
 
-        // 🆕 로딩 표시
         function showLoading() {
             document.getElementById('loadingOverlay').classList.add('active');
         }
@@ -736,7 +700,7 @@
             document.getElementById('loadingOverlay').classList.remove('active');
         }
 
-        // 🎵 배경음악 컨트롤
+        // 배경음악
         const bgMusic = document.getElementById('bgMusic');
         const volumeSlider = document.getElementById('volumeSlider');
         const volumeValue = document.getElementById('volumeValue');
@@ -780,7 +744,6 @@
             }, { once: true });
         }
 
-        // 초대 코드 복사
         function copyReferralCode() {
             const code = 'JJCDWMIYMV';
             navigator.clipboard.writeText(code).then(() => {
@@ -788,7 +751,6 @@
             });
         }
 
-        // 숫자 포맷팅
         function formatNumber(num) {
             return new Intl.NumberFormat('ko-KR').format(Math.round(num));
         }
@@ -797,15 +759,17 @@
             return (num >= 0 ? '+' : '') + num.toFixed(2) + '%';
         }
 
-        // 🆕 코인 정렬 함수
+        // 🔧 수정된 정렬 함수
         function sortHoldings(criteria) {
             currentSortOrder = criteria;
             
             // 버튼 활성화 상태 변경
             document.querySelectorAll('.sort-btn').forEach(btn => {
                 btn.classList.remove('active');
+                if (btn.dataset.sort === criteria) {
+                    btn.classList.add('active');
+                }
             });
-            event.target.classList.add('active');
             
             // 정렬
             const sorted = [...currentHoldings].sort((a, b) => {
@@ -819,11 +783,19 @@
                 return 0;
             });
             
-            // 재렌더링
             renderHoldings(sorted);
         }
 
-        // 보유 코인 렌더링
+        // 정렬 버튼 이벤트 리스너
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('.sort-btn').forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    const criteria = e.currentTarget.dataset.sort;
+                    sortHoldings(criteria);
+                });
+            });
+        });
+
         function renderHoldings(holdings) {
             const grid = document.getElementById('holdingsGrid');
             grid.innerHTML = '';
@@ -871,7 +843,6 @@
             });
         }
 
-        // 워드클라우드 생성
         function generateWordcloud(holdings) {
             const wordcloud = document.getElementById('wordcloud');
             wordcloud.innerHTML = '';
@@ -925,21 +896,18 @@
             });
         }
 
-        // 대시보드 업데이트
         async function updateDashboard() {
             try {
-                showLoading(); // 로딩 표시
+                showLoading();
                 
                 const response = await fetch('dashboard_data.json?t=' + new Date().getTime());
                 const data = await response.json();
 
-                // 🆕 마지막 업데이트 시간
                 if (data.last_update) {
                     const timeAgo = getTimeAgo(data.last_update);
                     document.getElementById('lastUpdate').textContent = `마지막 업데이트: ${timeAgo}`;
                 }
 
-                // 손익 업데이트
                 const todayProfit = data.today_profit || 0;
                 const todayPercent = data.today_profit_percent || 0;
                 const totalProfit = data.total_profit || 0;
@@ -953,16 +921,11 @@
                 document.getElementById('totalProfit').style.color = totalProfit >= 0 ? '#ff6b6b' : '#4ecdc4';
                 document.getElementById('totalProfitPercent').textContent = '(' + formatPercent(totalPercent) + ')';
 
-                // 보유 코인
                 currentHoldings = data.holdings || [];
                 
-                // 워드클라우드
                 generateWordcloud(currentHoldings);
-                
-                // 현재 정렬 기준으로 보유 코인 표시
                 sortHoldings(currentSortOrder);
 
-                // 최근 거래
                 const trades = (data.trades || []).slice(0, 6);
                 const tradesList = document.getElementById('tradesList');
                 tradesList.innerHTML = '';
@@ -992,7 +955,7 @@
                     });
                 }
 
-                hideLoading(); // 로딩 숨김
+                hideLoading();
 
             } catch (error) {
                 console.error('Dashboard update failed:', error);
@@ -1001,9 +964,8 @@
             }
         }
 
-        // 초기 로드 및 주기적 업데이트
         updateDashboard();
-        setInterval(updateDashboard, 10000); // 10초마다
+        setInterval(updateDashboard, 10000);
     </script>
 </body>
 </html>
