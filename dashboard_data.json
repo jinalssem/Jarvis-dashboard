@@ -1,8 +1,8 @@
 {
-  "today_profit": -2545.639479427602,
-  "today_profit_percent": -0.05091278958855205,
-  "total_profit": -353.3904628311085,
-  "total_profit_percent": -0.00706780925662217,
+  "today_profit": -3081.4437579508,
+  "today_profit_percent": -0.061628875159016,
+  "total_profit": -513.4485193546697,
+  "total_profit_percent": -0.010268970387093393,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -154,36 +154,28 @@
   },
   "holdings": [
     {
-      "market": "KRW-BAT",
-      "amount": 24.9375,
-      "avg_price": 392.0,
-      "current_price": 395.0,
-      "value": 9850.3125,
-      "profit_rate": 0.007653061224489796
-    },
-    {
       "market": "KRW-CKB",
       "amount": 2485.67156741,
       "avg_price": 3.93,
-      "current_price": 3.931,
-      "value": 9771.174931488711,
-      "profit_rate": 0.00025445292620862337
+      "current_price": 3.929,
+      "value": 9766.20358835389,
+      "profit_rate": -0.00025445292620873634
     },
     {
       "market": "KRW-AWE",
       "amount": 111.55222545,
       "avg_price": 87.6,
-      "current_price": 87.79,
-      "value": 9793.169872255501,
-      "profit_rate": 0.002168949771689634
+      "current_price": 87.71,
+      "value": 9784.245694219499,
+      "profit_rate": 0.0012557077625570713
     },
     {
       "market": "KRW-MED",
       "amount": 3963.89085293,
       "avg_price": 4.438,
-      "current_price": 4.324,
-      "value": 17139.86404806932,
-      "profit_rate": -0.025687246507435757
+      "current_price": 4.306,
+      "value": 17068.51401271658,
+      "profit_rate": -0.02974312753492557
     },
     {
       "market": "KRW-WCT",
@@ -194,8 +186,24 @@
       "profit_rate": 0.0
     }
   ],
-  "last_update": "2025-11-30T02:01:51.056932",
+  "last_update": "2025-11-30T02:08:06.008972",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-CKB",
+      "profit": 0,
+      "price": 3.85,
+      "amount": 1406.87576643,
+      "time": "2025-11-30T02:06:42.121491"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-BAT",
+      "profit": 74.8125,
+      "price": 395.0,
+      "amount": 24.9375,
+      "time": "2025-11-30T02:06:40.823883"
+    },
     {
       "type": "buy",
       "market": "KRW-IOST",
