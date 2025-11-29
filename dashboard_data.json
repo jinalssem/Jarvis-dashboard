@@ -1,8 +1,8 @@
 {
-  "today_profit": 1766.6108174072033,
-  "today_profit_percent": 0.03533221634814407,
-  "total_profit": 408.53479069,
-  "total_profit_percent": 0.0081706958138,
+  "today_profit": 2255.755978647203,
+  "today_profit_percent": 0.045115119572944055,
+  "total_profit": 2255.755978647203,
+  "total_profit_percent": 0.045115119572944055,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -155,23 +155,23 @@
   "holdings": [
     {
       "market": "KRW-SXP",
-      "amount": 82.43801653,
-      "avg_price": 118.0,
-      "current_price": 119.0,
-      "value": 9810.12396707,
-      "profit_rate": 0.00847457627118644
-    },
-    {
-      "market": "KRW-LSK",
-      "amount": 81.52419354,
-      "avg_price": 310.0,
-      "current_price": 314.0,
-      "value": 25598.596771559998,
-      "profit_rate": 0.012903225806451613
+      "amount": 166.26154594,
+      "avg_price": 117.0,
+      "current_price": 117.0,
+      "value": 19452.60087498,
+      "profit_rate": 0.0
     }
   ],
-  "last_update": "2025-11-29T18:06:35.310643",
+  "last_update": "2025-11-29T18:12:27.244482",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-LSK",
+      "profit": 489.14516124,
+      "price": 316.0,
+      "amount": 81.52419354,
+      "time": "2025-11-29T18:11:18.184188"
+    },
     {
       "type": "sell",
       "market": "KRW-IOST",
