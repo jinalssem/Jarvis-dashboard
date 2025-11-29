@@ -1,8 +1,8 @@
 {
-  "today_profit": 6915.330519519602,
-  "today_profit_percent": 0.13830661039039202,
-  "total_profit": -1975.1189807555004,
-  "total_profit_percent": -0.03950237961511001,
+  "today_profit": 6789.552084139601,
+  "today_profit_percent": 0.13579104168279202,
+  "total_profit": -1823.2175096384992,
+  "total_profit_percent": -0.03646435019276999,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,37 +157,45 @@
       "market": "KRW-BAT",
       "amount": 24.9375,
       "avg_price": 392.0,
-      "current_price": 385.0,
-      "value": 9600.9375,
-      "profit_rate": -0.017857142857142856
-    },
-    {
-      "market": "KRW-SXP",
-      "amount": 85.99137931,
-      "avg_price": 113.0,
-      "current_price": 114.0,
-      "value": 9803.01724134,
-      "profit_rate": 0.008849557522123894
+      "current_price": 384.0,
+      "value": 9576.0,
+      "profit_rate": -0.02040816326530612
     },
     {
       "market": "KRW-AWE",
       "amount": 111.55222545,
       "avg_price": 87.6,
-      "current_price": 87.55,
-      "value": 9766.397338147499,
-      "profit_rate": -0.0005707762557077301
+      "current_price": 86.8,
+      "value": 9682.733169059999,
+      "profit_rate": -0.00913242009132417
     },
     {
       "market": "KRW-PLUME",
       "amount": 1649.97390245,
       "avg_price": 34.4,
-      "current_price": 33.26,
-      "value": 54878.131995487,
-      "profit_rate": -0.03313953488372095
+      "current_price": 33.47,
+      "value": 55224.626515001495,
+      "profit_rate": -0.027034883720930224
     }
   ],
-  "last_update": "2025-11-29T23:44:33.124748",
+  "last_update": "2025-11-29T23:50:25.823511",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-BAT",
+      "profit": 0,
+      "price": 376.0,
+      "amount": 19.8534739,
+      "time": "2025-11-29T23:49:14.417504"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-SXP",
+      "profit": 171.98275862,
+      "price": 115.0,
+      "amount": 85.99137931,
+      "time": "2025-11-29T23:49:13.121087"
+    },
     {
       "type": "buy",
       "market": "KRW-SXP",
