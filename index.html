@@ -202,7 +202,6 @@
             text-align: right;
         }
 
-        /* 🔥🔥🔥 완전 재설계된 워드클라우드 */
         .wordcloud-container {
             background: rgba(255, 255, 255, 0.05);
             backdrop-filter: blur(10px);
@@ -241,7 +240,6 @@
             z-index: 100;
         }
 
-        /* 🔥 강력한 불멍 애니메이션 */
         @keyframes fireFloat1 {
             0% { 
                 transform: translate(0, 0) rotate(0deg); 
@@ -922,7 +920,7 @@
             });
         }
 
-        // 🔥🔥🔥 완전 재설계된 워드클라우드
+        // 🎨 색상 정확히 매칭된 워드클라우드
         function generateWordcloud(holdings) {
             const wordcloud = document.getElementById('wordcloud');
             wordcloud.innerHTML = '';
@@ -930,23 +928,65 @@
             const animations = ['fire-anim-1', 'fire-anim-2', 'fire-anim-3', 'fire-anim-4'];
             const allWords = [];
             
-            // 감정 워드 생성
-            const emotions = [];
+            // 🎨 감정 워드 객체 (텍스트 + 색상)
+            const emotionWords = [];
+            
             if (holdings.length === 0) {
-                emotions.push('심심해', '코인 살까?', '🤔', '대기 중', '🌙', '언제 오를까');
+                emotionWords.push(
+                    { text: '심심해', color: '#95a5a6' },
+                    { text: '코인 살까?', color: '#95a5a6' },
+                    { text: '🤔', color: '#f7931a' },
+                    { text: '대기 중', color: '#95a5a6' },
+                    { text: '🌙', color: '#f7931a' }
+                );
             } else {
                 holdings.forEach(h => {
                     const profitRate = h.profit_rate * 100;
+                    
                     if (profitRate > 5) {
-                        emotions.push('앗싸!', '대박!', 'Good!', '🚀', '💰', '잭팟!');
+                        // 🔴 큰 수익: 빨강
+                        emotionWords.push(
+                            { text: '앗싸!', color: '#ff6b6b' },
+                            { text: '대박!', color: '#ff6b6b' },
+                            { text: 'Good!', color: '#ff6b6b' },
+                            { text: '🚀', color: '#ff6b6b' },
+                            { text: '💰', color: '#ff6b6b' },
+                            { text: '잭팟!', color: '#ff6b6b' }
+                        );
                     } else if (profitRate > 0) {
-                        emotions.push('좋아!', '오예!', '🎉', '👍', 'Nice!');
+                        // 🔴 작은 수익: 빨강
+                        emotionWords.push(
+                            { text: '좋아!', color: '#ff6b6b' },
+                            { text: '오예!', color: '#ff6b6b' },
+                            { text: '🎉', color: '#ff6b6b' },
+                            { text: '👍', color: '#ff6b6b' },
+                            { text: 'Nice!', color: '#ff6b6b' }
+                        );
                     } else if (profitRate < -5) {
-                        emotions.push('억!', '안돼!', '😱', '💥', '아악!');
+                        // 🔵 큰 손실: 파랑
+                        emotionWords.push(
+                            { text: '억!', color: '#4ecdc4' },
+                            { text: '안돼!', color: '#4ecdc4' },
+                            { text: '😱', color: '#4ecdc4' },
+                            { text: '💥', color: '#4ecdc4' },
+                            { text: '아악!', color: '#4ecdc4' }
+                        );
                     } else if (profitRate < 0) {
-                        emotions.push('앗!', '흠...', '😅', '기다려');
+                        // 🔵 작은 손실: 파랑
+                        emotionWords.push(
+                            { text: '앗!', color: '#4ecdc4' },
+                            { text: '흠...', color: '#4ecdc4' },
+                            { text: '😅', color: '#4ecdc4' },
+                            { text: '기다려', color: '#4ecdc4' }
+                        );
                     } else {
-                        emotions.push('흠...', '보류', '⏳', '관망');
+                        // 🟡 중립: 주황
+                        emotionWords.push(
+                            { text: '흠...', color: '#f7931a' },
+                            { text: '보류', color: '#f7931a' },
+                            { text: '⏳', color: '#f7931a' },
+                            { text: '관망', color: '#f7931a' }
+                        );
                     }
                 });
             }
@@ -967,19 +1007,29 @@
                 });
             });
 
-            // 감정 워드 추가 (중복 제거)
-            const uniqueEmotions = [...new Set(emotions)]
-                .sort(() => Math.random() - 0.5)
-                .slice(0, Math.min(8, 12 - allWords.length));
-
-            uniqueEmotions.forEach(emotion => {
-                allWords.push({
-                    text: emotion,
-                    size: 1.1 + Math.random() * 0.6,
-                    color: '#f7931a',
-                    type: 'emotion'
-                });
+            // 감정 워드 추가 (중복 제거, 색상 보존)
+            const uniqueEmotions = [];
+            const seenTexts = new Set();
+            
+            emotionWords.forEach(emo => {
+                if (!seenTexts.has(emo.text)) {
+                    seenTexts.add(emo.text);
+                    uniqueEmotions.push(emo);
+                }
             });
+            
+            // 랜덤 선택
+            uniqueEmotions
+                .sort(() => Math.random() - 0.5)
+                .slice(0, Math.min(8, 12 - allWords.length))
+                .forEach(emo => {
+                    allWords.push({
+                        text: emo.text,
+                        size: 1.1 + Math.random() * 0.6,
+                        color: emo.color,  // ✅ 정확한 색상!
+                        type: 'emotion'
+                    });
+                });
 
             // 랜덤 배치 (겹치지 않게)
             const containerWidth = wordcloud.offsetWidth || 800;
