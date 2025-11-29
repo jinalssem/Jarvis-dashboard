@@ -1,8 +1,8 @@
 {
   "today_profit": 4596.251350047203,
   "today_profit_percent": 0.09192502700094406,
-  "total_profit": 4596.251350047203,
-  "total_profit_percent": 0.09192502700094406,
+  "total_profit": 234.39556962,
+  "total_profit_percent": 0.0046879113924,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -152,8 +152,17 @@
     "profit": 0,
     "profit_rate": 0.0
   },
-  "holdings": [],
-  "last_update": "2025-11-29T19:39:45.155284",
+  "holdings": [
+    {
+      "market": "KRW-LSK",
+      "amount": 234.39556962,
+      "avg_price": 316.0,
+      "current_price": 317.0,
+      "value": 74303.39556954,
+      "profit_rate": 0.0031645569620253164
+    }
+  ],
+  "last_update": "2025-11-29T19:45:23.118269",
   "trades": [
     {
       "type": "sell",
