@@ -1,8 +1,8 @@
 {
-  "today_profit": 2713.0063909308024,
-  "today_profit_percent": 0.05426012781861605,
-  "total_profit": -161.0565289086995,
-  "total_profit_percent": -0.00322113057817399,
+  "today_profit": 1195.7421945883978,
+  "today_profit_percent": 0.023914843891767956,
+  "total_profit": -74.25008538909978,
+  "total_profit_percent": -0.0014850017077819957,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -165,21 +165,29 @@
       "market": "KRW-AWE",
       "amount": 111.55222545,
       "avg_price": 87.6,
-      "current_price": 87.77,
-      "value": 9790.938827746499,
-      "profit_rate": 0.0019406392694064122
+      "current_price": 88.05,
+      "value": 9822.173450872499,
+      "profit_rate": 0.005136986301369896
     },
     {
       "market": "KRW-STAT",
       "amount": 88.20923872,
       "avg_price": 71.5,
-      "current_price": 70.59,
-      "value": 6226.6901612448,
-      "profit_rate": -0.012727272727272679
+      "current_price": 71.22,
+      "value": 6282.2619816384,
+      "profit_rate": -0.003916083916083932
     }
   ],
-  "last_update": "2025-11-30T00:56:11.915413",
+  "last_update": "2025-11-30T01:02:03.763214",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-STAT",
+      "profit": 0,
+      "price": 69.0,
+      "amount": 141.4893617,
+      "time": "2025-11-30T01:00:52.861766"
+    },
     {
       "type": "sell",
       "market": "KRW-PLUME",
