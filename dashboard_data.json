@@ -1,8 +1,8 @@
 {
-  "today_profit": -3681.857057109499,
-  "today_profit_percent": -0.07363714114218999,
-  "total_profit": -2067.7943998836554,
-  "total_profit_percent": -0.04135588799767311,
+  "today_profit": -2366.039500354927,
+  "today_profit_percent": -0.047320790007098545,
+  "total_profit": -1567.7519893121314,
+  "total_profit_percent": -0.03135503978624263,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,25 +157,17 @@
       "market": "KRW-CKB",
       "amount": 3400.53814936,
       "avg_price": 3.931,
-      "current_price": 3.926,
-      "value": 13350.51277438736,
-      "profit_rate": -0.0012719409819384108
-    },
-    {
-      "market": "KRW-MED",
-      "amount": 3963.89085293,
-      "avg_price": 4.438,
-      "current_price": 4.316,
-      "value": 17108.15292124588,
-      "profit_rate": -0.02748986029743125
+      "current_price": 3.927,
+      "value": 13353.913312536719,
+      "profit_rate": -0.0010175527855507513
     },
     {
       "market": "KRW-MAY",
       "amount": 184.7855352,
       "avg_price": 27.4,
-      "current_price": 27.11,
-      "value": 5009.5358592719995,
-      "profit_rate": -0.010583941605839385
+      "current_price": 27.13,
+      "value": 5013.231569976,
+      "profit_rate": -0.00985401459854013
     },
     {
       "market": "KRW-WCT",
@@ -189,13 +181,29 @@
       "market": "KRW-ELX",
       "amount": 935.14776607,
       "avg_price": 87.02,
-      "current_price": 86.0,
-      "value": 80422.70788202,
-      "profit_rate": -0.011721443346357115
+      "current_price": 86.01,
+      "value": 80432.0593596807,
+      "profit_rate": -0.01160652723511826
     }
   ],
-  "last_update": "2025-11-30T04:05:21.132646",
+  "last_update": "2025-11-30T04:10:50.382639",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-CKB",
+      "profit": 0,
+      "price": 3.84,
+      "amount": 4133.72698418,
+      "time": "2025-11-30T04:09:40.125135"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-MED",
+      "profit": -202.15843349943063,
+      "price": 4.387,
+      "amount": 3963.89085293,
+      "time": "2025-11-30T04:09:38.947440"
+    },
     {
       "type": "buy",
       "market": "KRW-WCT",
