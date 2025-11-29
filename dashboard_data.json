@@ -153,8 +153,16 @@
     "profit_rate": 0.0
   },
   "holdings": [],
-  "last_update": "2025-11-30T08:45:50.698032",
+  "last_update": "2025-11-30T08:51:12.563036",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-EL",
+      "profit": 0,
+      "price": 3.51,
+      "amount": 2780.10033445,
+      "time": "2025-11-30T08:50:04.499753"
+    },
     {
       "type": "sell",
       "market": "KRW-MAY",
