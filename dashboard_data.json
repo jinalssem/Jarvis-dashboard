@@ -1,7 +1,7 @@
 {
   "today_profit": 1068.5341987738404,
   "today_profit_percent": 0,
-  "total_profit": 6212.073656578558,
+  "total_profit": 6045.890719314719,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -157,21 +157,29 @@
       "market": "KRW-CKB",
       "amount": 3400.53814936,
       "avg_price": 3.931,
-      "current_price": 3.948,
-      "value": 13425.32461367328,
-      "profit_rate": 0.004324599338590665
+      "current_price": 3.954,
+      "value": 13445.72784256944,
+      "profit_rate": 0.005850928516916849
     },
     {
       "market": "KRW-WCT",
       "amount": 186.58616616,
       "avg_price": 152.0,
-      "current_price": 151.0,
-      "value": 28174.511090160002,
-      "profit_rate": -0.006578947368421052
+      "current_price": 150.0,
+      "value": 27987.924924,
+      "profit_rate": -0.013157894736842105
     }
   ],
-  "last_update": "2025-11-30T06:27:37.624248",
+  "last_update": "2025-11-30T06:33:05.338608",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-FCT2",
+      "profit": 0,
+      "price": 20.5,
+      "amount": 369.19856162,
+      "time": "2025-11-30T06:31:55.715496"
+    },
     {
       "type": "sell",
       "market": "KRW-MED",
