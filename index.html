@@ -234,12 +234,33 @@
             transform-origin: center;
         }
 
+        /* 🎭 보유 코인: 항상 표시 */
+        .word.coin-word {
+            opacity: 1;
+        }
+
+        /* 🎭 감탄사: 나타났다 사라짐 */
+        .word.emotion-word {
+            opacity: 0;
+            animation: fadeInOut 6s ease-in-out infinite;
+        }
+
         .word:hover {
             transform: scale(1.3) rotate(10deg) !important;
             box-shadow: 0 8px 24px rgba(255, 107, 53, 0.6);
             z-index: 100;
         }
 
+        /* 🔥 나타났다 사라지는 애니메이션 */
+        @keyframes fadeInOut {
+            0% { opacity: 0; transform: translate(0, 0) rotate(0deg) scale(0.8); }
+            10% { opacity: 1; transform: translate(0, 0) rotate(0deg) scale(1); }
+            50% { opacity: 1; }
+            90% { opacity: 1; }
+            100% { opacity: 0; transform: translate(0, 0) rotate(0deg) scale(0.8); }
+        }
+
+        /* 불멍 애니메이션 */
         @keyframes fireFloat1 {
             0% { 
                 transform: translate(0, 0) rotate(0deg); 
@@ -312,10 +333,10 @@
             }
         }
 
-        .word.fire-anim-1 { animation: fireFloat1 5s ease-in-out infinite; }
-        .word.fire-anim-2 { animation: fireFloat2 6s ease-in-out infinite; }
-        .word.fire-anim-3 { animation: fireFloat3 4.5s ease-in-out infinite; }
-        .word.fire-anim-4 { animation: fireFloat4 5.5s ease-in-out infinite; }
+        .word.coin-word.fire-anim-1 { animation: fireFloat1 5s ease-in-out infinite; }
+        .word.coin-word.fire-anim-2 { animation: fireFloat2 6s ease-in-out infinite; }
+        .word.coin-word.fire-anim-3 { animation: fireFloat3 4.5s ease-in-out infinite; }
+        .word.coin-word.fire-anim-4 { animation: fireFloat4 5.5s ease-in-out infinite; }
 
         .profit-grid {
             display: grid;
@@ -920,24 +941,21 @@
             });
         }
 
-        // 🎨 색상 정확히 매칭된 워드클라우드
+        // 🎭 동적 워드클라우드 생성
         function generateWordcloud(holdings) {
             const wordcloud = document.getElementById('wordcloud');
             wordcloud.innerHTML = '';
 
             const animations = ['fire-anim-1', 'fire-anim-2', 'fire-anim-3', 'fire-anim-4'];
-            const allWords = [];
             
-            // 🎨 감정 워드 객체 (텍스트 + 색상)
-            const emotionWords = [];
+            // 🎯 감탄사 풀 생성
+            const allEmotionWords = [];
             
             if (holdings.length === 0) {
-                emotionWords.push(
+                allEmotionWords.push(
                     { text: '심심해', color: '#95a5a6' },
                     { text: '코인 살까?', color: '#95a5a6' },
-                    { text: '🤔', color: '#f7931a' },
-                    { text: '대기 중', color: '#95a5a6' },
-                    { text: '🌙', color: '#f7931a' }
+                    { text: '🤔', color: '#f7931a' }
                 );
             } else {
                 holdings.forEach(h => {
@@ -945,135 +963,157 @@
                     
                     if (profitRate > 5) {
                         // 🔴 큰 수익: 빨강
-                        emotionWords.push(
+                        allEmotionWords.push(
                             { text: '앗싸!', color: '#ff6b6b' },
                             { text: '대박!', color: '#ff6b6b' },
-                            { text: 'Good!', color: '#ff6b6b' },
                             { text: '🚀', color: '#ff6b6b' },
-                            { text: '💰', color: '#ff6b6b' },
-                            { text: '잭팟!', color: '#ff6b6b' }
+                            { text: '💰', color: '#ff6b6b' }
                         );
                     } else if (profitRate > 0) {
                         // 🔴 작은 수익: 빨강
-                        emotionWords.push(
+                        allEmotionWords.push(
                             { text: '좋아!', color: '#ff6b6b' },
                             { text: '오예!', color: '#ff6b6b' },
-                            { text: '🎉', color: '#ff6b6b' },
-                            { text: '👍', color: '#ff6b6b' },
-                            { text: 'Nice!', color: '#ff6b6b' }
+                            { text: '👍', color: '#ff6b6b' }
                         );
                     } else if (profitRate < -5) {
                         // 🔵 큰 손실: 파랑
-                        emotionWords.push(
+                        allEmotionWords.push(
                             { text: '억!', color: '#4ecdc4' },
                             { text: '안돼!', color: '#4ecdc4' },
                             { text: '😱', color: '#4ecdc4' },
-                            { text: '💥', color: '#4ecdc4' },
-                            { text: '아악!', color: '#4ecdc4' }
+                            { text: '기다려', color: '#4ecdc4' }
                         );
                     } else if (profitRate < 0) {
                         // 🔵 작은 손실: 파랑
-                        emotionWords.push(
+                        allEmotionWords.push(
                             { text: '앗!', color: '#4ecdc4' },
-                            { text: '흠...', color: '#4ecdc4' },
-                            { text: '😅', color: '#4ecdc4' },
-                            { text: '기다려', color: '#4ecdc4' }
-                        );
-                    } else {
-                        // 🟡 중립: 주황
-                        emotionWords.push(
-                            { text: '흠...', color: '#f7931a' },
-                            { text: '보류', color: '#f7931a' },
-                            { text: '⏳', color: '#f7931a' },
-                            { text: '관망', color: '#f7931a' }
+                            { text: '기다려', color: '#4ecdc4' },
+                            { text: '😅', color: '#4ecdc4' }
                         );
                     }
                 });
             }
 
-            // 코인 워드 추가
-            holdings.forEach(h => {
-                const coin = h.market.replace('KRW-', '');
-                const profitRate = h.profit_rate * 100;
-                const size = 1.3 + Math.min(Math.abs(profitRate) / 8, 0.9);
-                const color = profitRate > 0 ? '#ff6b6b' : 
-                             profitRate < 0 ? '#4ecdc4' : '#95a5a6';
-                
-                allWords.push({
-                    text: `${coin} ${formatPercent(profitRate)}`,
-                    size: size,
-                    color: color,
-                    type: 'coin'
-                });
-            });
-
-            // 감정 워드 추가 (중복 제거, 색상 보존)
+            // 중복 제거
             const uniqueEmotions = [];
             const seenTexts = new Set();
-            
-            emotionWords.forEach(emo => {
+            allEmotionWords.forEach(emo => {
                 if (!seenTexts.has(emo.text)) {
                     seenTexts.add(emo.text);
                     uniqueEmotions.push(emo);
                 }
             });
-            
-            // 랜덤 선택
-            uniqueEmotions
-                .sort(() => Math.random() - 0.5)
-                .slice(0, Math.min(8, 12 - allWords.length))
-                .forEach(emo => {
-                    allWords.push({
-                        text: emo.text,
-                        size: 1.1 + Math.random() * 0.6,
-                        color: emo.color,  // ✅ 정확한 색상!
-                        type: 'emotion'
-                    });
-                });
 
-            // 랜덤 배치 (겹치지 않게)
+            // 💾 전역 저장 (rotation용)
+            window.emotionWordsPool = uniqueEmotions;
+
+            // 랜덤 배치 헬퍼
             const containerWidth = wordcloud.offsetWidth || 800;
             const containerHeight = 250;
             const usedPositions = [];
 
-            function isOverlapping(x, y, width, height) {
-                return usedPositions.some(pos => {
-                    return !(x > pos.x + pos.width + 20 ||
-                            x + width + 20 < pos.x ||
-                            y > pos.y + pos.height + 20 ||
-                            y + height + 20 < pos.y);
-                });
-            }
-
-            allWords.forEach((wordData, idx) => {
-                const word = document.createElement('div');
-                word.className = `word ${animations[idx % 4]}`;
-                word.textContent = wordData.text;
-                word.style.fontSize = `${wordData.size}em`;
-                word.style.color = wordData.color;
-                word.style.backgroundColor = `${wordData.color}20`;
-                word.style.animationDelay = `${(idx * 0.4)}s`;
-                
-                // 임시로 추가해서 크기 측정
-                word.style.visibility = 'hidden';
-                wordcloud.appendChild(word);
-                const wordWidth = word.offsetWidth;
-                const wordHeight = word.offsetHeight;
-                
-                // 겹치지 않는 위치 찾기
+            function getRandomPosition(wordWidth, wordHeight) {
                 let x, y, attempts = 0;
                 do {
                     x = Math.random() * (containerWidth - wordWidth - 40) + 20;
                     y = Math.random() * (containerHeight - wordHeight - 40) + 20;
                     attempts++;
-                } while (isOverlapping(x, y, wordWidth, wordHeight) && attempts < 50);
-                
-                word.style.left = `${x}px`;
-                word.style.top = `${y}px`;
-                word.style.visibility = 'visible';
+                    
+                    const overlapping = usedPositions.some(pos => {
+                        return !(x > pos.x + pos.width + 20 ||
+                                x + wordWidth + 20 < pos.x ||
+                                y > pos.y + pos.height + 20 ||
+                                y + wordHeight + 20 < pos.y);
+                    });
+                    
+                    if (!overlapping || attempts >= 50) break;
+                } while (true);
                 
                 usedPositions.push({ x, y, width: wordWidth, height: wordHeight });
+                return { x, y };
+            }
+
+            // 📌 1. 보유 코인 워드 (항상 표시)
+            holdings.forEach((h, idx) => {
+                const coin = h.market.replace('KRW-', '');
+                const profitRate = h.profit_rate * 100;
+                
+                // 🔥 큰 수익/손실 → 큰 글자
+                let size;
+                if (Math.abs(profitRate) > 5) {
+                    size = 1.8;  // 큰 글자
+                } else if (Math.abs(profitRate) > 2) {
+                    size = 1.4;  // 중간 글자
+                } else {
+                    size = 1.2;  // 작은 글자
+                }
+                
+                const color = profitRate > 0 ? '#ff6b6b' : 
+                             profitRate < 0 ? '#4ecdc4' : '#95a5a6';
+                
+                const word = document.createElement('div');
+                word.className = `word coin-word ${animations[idx % 4]}`;
+                word.textContent = `${coin} ${formatPercent(profitRate)}`;
+                word.style.fontSize = `${size}em`;
+                word.style.color = color;
+                word.style.backgroundColor = `${color}20`;
+                
+                // 위치 계산
+                word.style.visibility = 'hidden';
+                wordcloud.appendChild(word);
+                const wordWidth = word.offsetWidth;
+                const wordHeight = word.offsetHeight;
+                const pos = getRandomPosition(wordWidth, wordHeight);
+                
+                word.style.left = `${pos.x}px`;
+                word.style.top = `${pos.y}px`;
+                word.style.visibility = 'visible';
             });
+
+            // 📌 2. 감탄사 워드 (1-2개만, 나타났다 사라짐)
+            function addEmotionWords() {
+                // 기존 감탄사 제거
+                document.querySelectorAll('.emotion-word').forEach(el => el.remove());
+                
+                if (uniqueEmotions.length === 0) return;
+                
+                // 랜덤 1-2개 선택
+                const count = Math.random() > 0.5 ? 2 : 1;
+                const selected = uniqueEmotions
+                    .sort(() => Math.random() - 0.5)
+                    .slice(0, count);
+                
+                selected.forEach((emo, idx) => {
+                    const word = document.createElement('div');
+                    word.className = 'word emotion-word';
+                    word.textContent = emo.text;
+                    word.style.fontSize = `${1.3 + Math.random() * 0.4}em`;
+                    word.style.color = emo.color;
+                    word.style.backgroundColor = `${emo.color}20`;
+                    word.style.animationDelay = `${idx * 0.5}s`;
+                    
+                    // 위치 계산
+                    word.style.visibility = 'hidden';
+                    wordcloud.appendChild(word);
+                    const wordWidth = word.offsetWidth;
+                    const wordHeight = word.offsetHeight;
+                    
+                    // 간단한 랜덤 위치 (겹침 허용)
+                    const x = Math.random() * (containerWidth - wordWidth - 40) + 20;
+                    const y = Math.random() * (containerHeight - wordHeight - 40) + 20;
+                    
+                    word.style.left = `${x}px`;
+                    word.style.top = `${y}px`;
+                    word.style.visibility = 'visible';
+                });
+            }
+
+            // 초기 감탄사 추가
+            addEmotionWords();
+            
+            // 🔄 6초마다 감탄사 rotation
+            setInterval(addEmotionWords, 6000);
         }
 
         async function updateDashboard() {
