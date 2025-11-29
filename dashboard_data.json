@@ -1,8 +1,8 @@
 {
-  "today_profit": 6744.802064370401,
-  "today_profit_percent": 0.134896041287408,
-  "total_profit": -1774.7822129030278,
-  "total_profit_percent": -0.03549564425806055,
+  "today_profit": 7138.651415019602,
+  "today_profit_percent": 0.14277302830039204,
+  "total_profit": -1814.9712926950024,
+  "total_profit_percent": -0.03629942585390005,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -154,24 +154,24 @@
   },
   "holdings": [
     {
-      "market": "KRW-TT",
-      "amount": 9846.23376623,
-      "avg_price": 1.925,
-      "current_price": 1.914,
-      "value": 18845.69142856422,
-      "profit_rate": -0.005714285714285777
-    },
-    {
       "market": "KRW-PLUME",
       "amount": 1649.97390245,
       "avg_price": 34.4,
-      "current_price": 33.39,
-      "value": 55092.6286028055,
-      "profit_rate": -0.029360465116279013
+      "current_price": 33.3,
+      "value": 54944.13095158499,
+      "profit_rate": -0.031976744186046555
     }
   ],
-  "last_update": "2025-11-29T23:13:09.980512",
+  "last_update": "2025-11-29T23:19:24.111863",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-TT",
+      "profit": 393.84935064920035,
+      "price": 1.965,
+      "amount": 9846.23376623,
+      "time": "2025-11-29T23:18:13.757957"
+    },
     {
       "type": "buy",
       "market": "KRW-PLUME",
