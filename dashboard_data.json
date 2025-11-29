@@ -1,8 +1,8 @@
 {
   "today_profit": 5271.576093885598,
   "today_profit_percent": 0.10543152187771196,
-  "total_profit": -1224.4901701844997,
-  "total_profit_percent": -0.024489803403689996,
+  "total_profit": -1692.6895793369936,
+  "total_profit_percent": -0.03385379158673987,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,29 +157,37 @@
       "market": "KRW-BAT",
       "amount": 24.9375,
       "avg_price": 392.0,
-      "current_price": 391.0,
-      "value": 9750.5625,
-      "profit_rate": -0.002551020408163265
+      "current_price": 390.0,
+      "value": 9725.625,
+      "profit_rate": -0.00510204081632653
     },
     {
       "market": "KRW-AWE",
       "amount": 111.55222545,
       "avg_price": 87.6,
-      "current_price": 87.94,
-      "value": 9809.902706072999,
-      "profit_rate": 0.0038812785388128244
+      "current_price": 87.96,
+      "value": 9812.133750582,
+      "profit_rate": 0.004109589041095884
     },
     {
       "market": "KRW-PLUME",
       "amount": 1649.97390245,
       "avg_price": 34.4,
-      "current_price": 33.65,
-      "value": 55521.621817442494,
-      "profit_rate": -0.02180232558139535
+      "current_price": 33.38,
+      "value": 55076.12886378101,
+      "profit_rate": -0.02965116279069756
     }
   ],
-  "last_update": "2025-11-30T00:20:42.196337",
+  "last_update": "2025-11-30T00:26:30.671363",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-MED",
+      "profit": 0,
+      "price": 4.5,
+      "amount": 1739.81058463,
+      "time": "2025-11-30T00:25:20.280603"
+    },
     {
       "type": "buy",
       "market": "KRW-LSK",
