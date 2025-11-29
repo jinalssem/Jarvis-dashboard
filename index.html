@@ -202,14 +202,16 @@
             text-align: right;
         }
 
+        /* 🔥 워드클라우드 개선 */
         .wordcloud-container {
             background: rgba(255, 255, 255, 0.05);
             backdrop-filter: blur(10px);
             border: 1px solid rgba(255, 107, 53, 0.2);
             border-radius: 20px;
-            padding: 30px;
+            padding: 40px 30px;
             margin-bottom: 30px;
             box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            min-height: 250px;
         }
 
         .wordcloud {
@@ -217,21 +219,51 @@
             flex-wrap: wrap;
             justify-content: center;
             align-items: center;
-            gap: 15px;
-            min-height: 200px;
+            gap: 20px;
+            max-width: 100%;
+            position: relative;
         }
 
         .word {
-            padding: 8px 16px;
-            border-radius: 8px;
+            padding: 10px 20px;
+            border-radius: 12px;
             font-weight: 600;
             transition: all 0.3s ease;
-            animation: float 3s ease-in-out infinite;
+            cursor: default;
+            white-space: nowrap;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
         }
 
         .word:hover {
-            transform: scale(1.2);
+            transform: scale(1.15) rotate(5deg);
+            box-shadow: 0 4px 16px rgba(255, 107, 53, 0.4);
         }
+
+        /* 🆕 애니메이션 강화 */
+        @keyframes float1 {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            25% { transform: translateY(-15px) rotate(2deg); }
+            50% { transform: translateY(-10px) rotate(-2deg); }
+            75% { transform: translateY(-20px) rotate(1deg); }
+        }
+
+        @keyframes float2 {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            33% { transform: translateY(-12px) rotate(-3deg); }
+            66% { transform: translateY(-18px) rotate(3deg); }
+        }
+
+        @keyframes float3 {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            20% { transform: translateY(-8px) rotate(1deg); }
+            40% { transform: translateY(-16px) rotate(-1deg); }
+            60% { transform: translateY(-12px) rotate(2deg); }
+            80% { transform: translateY(-10px) rotate(-2deg); }
+        }
+
+        .word.anim1 { animation: float1 4s ease-in-out infinite; }
+        .word.anim2 { animation: float2 5s ease-in-out infinite; }
+        .word.anim3 { animation: float3 3.5s ease-in-out infinite; }
 
         .profit-grid {
             display: grid;
@@ -528,15 +560,6 @@
             }
         }
 
-        @keyframes float {
-            0%, 100% {
-                transform: translateY(0px);
-            }
-            50% {
-                transform: translateY(-10px);
-            }
-        }
-
         @media (max-width: 768px) {
             .header h1 {
                 font-size: 2em;
@@ -569,6 +592,15 @@
             .status-row {
                 flex-direction: column;
                 gap: 10px;
+            }
+
+            .wordcloud {
+                gap: 15px;
+            }
+
+            .word {
+                font-size: 0.9em !important;
+                padding: 8px 16px;
             }
         }
     </style>
@@ -668,7 +700,6 @@
         let currentHoldings = [];
         let currentSortOrder = 'name';
 
-        // 실시간 시계
         function updateClock() {
             const now = new Date();
             const timeStr = now.toLocaleTimeString('ko-KR', { hour12: false });
@@ -677,7 +708,6 @@
         setInterval(updateClock, 1000);
         updateClock();
 
-        // 마지막 업데이트 시간
         function getTimeAgo(dateString) {
             const now = new Date();
             const past = new Date(dateString);
@@ -700,7 +730,6 @@
             document.getElementById('loadingOverlay').classList.remove('active');
         }
 
-        // 배경음악
         const bgMusic = document.getElementById('bgMusic');
         const volumeSlider = document.getElementById('volumeSlider');
         const volumeValue = document.getElementById('volumeValue');
@@ -759,11 +788,9 @@
             return (num >= 0 ? '+' : '') + num.toFixed(2) + '%';
         }
 
-        // 🔧 수정된 정렬 함수
         function sortHoldings(criteria) {
             currentSortOrder = criteria;
             
-            // 버튼 활성화 상태 변경
             document.querySelectorAll('.sort-btn').forEach(btn => {
                 btn.classList.remove('active');
                 if (btn.dataset.sort === criteria) {
@@ -771,7 +798,6 @@
                 }
             });
             
-            // 정렬
             const sorted = [...currentHoldings].sort((a, b) => {
                 if (criteria === 'name') {
                     return a.market.localeCompare(b.market);
@@ -786,7 +812,6 @@
             renderHoldings(sorted);
         }
 
-        // 정렬 버튼 이벤트 리스너
         document.addEventListener('DOMContentLoaded', () => {
             document.querySelectorAll('.sort-btn').forEach(btn => {
                 btn.addEventListener('click', (e) => {
@@ -843,28 +868,35 @@
             });
         }
 
+        // 🔥 개선된 워드클라우드 생성
         function generateWordcloud(holdings) {
             const wordcloud = document.getElementById('wordcloud');
             wordcloud.innerHTML = '';
 
+            const animations = ['anim1', 'anim2', 'anim3'];
             const emotions = [];
             
             if (holdings.length === 0) {
-                emotions.push('심심해', '코인이나 살까', '🤔');
+                emotions.push('심심해', '코인이나 살까', '🤔', '대기 중', '🌙');
             } else {
                 holdings.forEach(h => {
                     const profitRate = h.profit_rate * 100;
-                    if (profitRate > 0) {
-                        emotions.push('앗싸!', '좋아!', 'Good!', '🚀');
+                    if (profitRate > 5) {
+                        emotions.push('앗싸!', '대박!', 'Good!', '🚀', '💰');
+                    } else if (profitRate > 0) {
+                        emotions.push('좋아!', '오예!', '🎉', '👍');
+                    } else if (profitRate < -5) {
+                        emotions.push('억!', '안돼!', '😱', '💥');
                     } else if (profitRate < 0) {
-                        emotions.push('앗!', '억!', '안돼!', '😱');
+                        emotions.push('앗!', '흠...', '😅');
                     } else {
                         emotions.push('흠...', '기다려', '⏳');
                     }
                 });
             }
 
-            holdings.forEach(h => {
+            // 코인 워드 추가
+            holdings.forEach((h, idx) => {
                 const coin = h.market.replace('KRW-', '');
                 const profitRate = h.profit_rate * 100;
                 const size = 1.2 + Math.min(Math.abs(profitRate) / 10, 1);
@@ -873,24 +905,30 @@
                              profitRate < 0 ? '#4ecdc4' : '#95a5a6';
                 
                 const word = document.createElement('div');
-                word.className = 'word';
+                word.className = `word ${animations[idx % 3]}`;
                 word.textContent = `${coin} ${formatPercent(profitRate)}`;
                 word.style.fontSize = `${size}em`;
                 word.style.color = color;
                 word.style.backgroundColor = `${color}20`;
-                word.style.animationDelay = `${Math.random() * 2}s`;
+                word.style.animationDelay = `${(idx * 0.3)}s`;
                 
                 wordcloud.appendChild(word);
             });
 
-            emotions.slice(0, 6).forEach(emotion => {
+            // 감정 워드 추가 (중복 제거하고 랜덤 6개)
+            const uniqueEmotions = [...new Set(emotions)];
+            const selectedEmotions = uniqueEmotions
+                .sort(() => Math.random() - 0.5)
+                .slice(0, 6);
+
+            selectedEmotions.forEach((emotion, idx) => {
                 const word = document.createElement('div');
-                word.className = 'word';
+                word.className = `word ${animations[(idx + 1) % 3]}`;
                 word.textContent = emotion;
-                word.style.fontSize = `${1 + Math.random() * 0.5}em`;
+                word.style.fontSize = `${1 + Math.random() * 0.7}em`;
                 word.style.color = '#f7931a';
-                word.style.backgroundColor = 'rgba(247, 147, 26, 0.1)';
-                word.style.animationDelay = `${Math.random() * 2}s`;
+                word.style.backgroundColor = 'rgba(247, 147, 26, 0.15)';
+                word.style.animationDelay = `${(idx * 0.4 + 0.5)}s`;
                 
                 wordcloud.appendChild(word);
             });
