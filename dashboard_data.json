@@ -1,8 +1,8 @@
 {
-  "today_profit": 6237.020337387203,
-  "today_profit_percent": 0.12474040674774406,
-  "total_profit": 6237.020337387203,
-  "total_profit_percent": 0.12474040674774406,
+  "today_profit": 6134.185285847203,
+  "today_profit_percent": 0.12268370571694405,
+  "total_profit": 6134.185285847203,
+  "total_profit_percent": 0.12268370571694405,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -153,8 +153,16 @@
     "profit_rate": 0.0
   },
   "holdings": [],
-  "last_update": "2025-11-29T20:02:56.478035",
+  "last_update": "2025-11-29T20:08:40.046561",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-CKB",
+      "profit": 0,
+      "price": 3.93,
+      "amount": 2485.67156741,
+      "time": "2025-11-29T20:07:31.288913"
+    },
     {
       "type": "sell",
       "market": "KRW-LSK",
