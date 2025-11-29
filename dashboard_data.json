@@ -1,8 +1,8 @@
 {
-  "today_profit": -3081.4437579508,
-  "today_profit_percent": -0.061628875159016,
-  "total_profit": -676.4879153953902,
-  "total_profit_percent": -0.013529758307907805,
+  "today_profit": -3475.2931086000003,
+  "today_profit_percent": -0.069505862172,
+  "total_profit": -895.4924447199897,
+  "total_profit_percent": -0.017909848894399796,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,17 +157,17 @@
       "market": "KRW-CKB",
       "amount": 2485.67156741,
       "avg_price": 3.93,
-      "current_price": 3.957,
-      "value": 9835.80239224137,
-      "profit_rate": 0.006870229007633509
+      "current_price": 3.947,
+      "value": 9810.945676567271,
+      "profit_rate": 0.004325699745547049
     },
     {
       "market": "KRW-AWE",
       "amount": 111.55222545,
       "avg_price": 87.6,
-      "current_price": 87.24,
-      "value": 9731.816148257998,
-      "profit_rate": -0.004109589041095884
+      "current_price": 86.99,
+      "value": 9703.9280918955,
+      "profit_rate": -0.006963470319634697
     },
     {
       "market": "KRW-MED",
@@ -181,21 +181,29 @@
       "market": "KRW-MAY",
       "amount": 184.7855352,
       "avg_price": 27.4,
-      "current_price": 27.22,
-      "value": 5029.862268144,
-      "profit_rate": -0.00656934306569342
+      "current_price": 27.33,
+      "value": 5050.188677016,
+      "profit_rate": -0.0025547445255474557
     },
     {
       "market": "KRW-WCT",
       "amount": 186.58616616,
       "avg_price": 152.0,
-      "current_price": 151.0,
-      "value": 28174.511090160002,
-      "profit_rate": -0.006578947368421052
+      "current_price": 150.0,
+      "value": 27987.924924,
+      "profit_rate": -0.013157894736842105
     }
   ],
-  "last_update": "2025-11-30T02:32:24.473419",
+  "last_update": "2025-11-30T02:38:29.517931",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-AWE",
+      "profit": 0,
+      "price": 85.2,
+      "amount": 59.25079852,
+      "time": "2025-11-30T02:37:05.331786"
+    },
     {
       "type": "buy",
       "market": "KRW-MED",
