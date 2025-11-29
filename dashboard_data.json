@@ -153,8 +153,16 @@
     "profit_rate": 0.0
   },
   "holdings": [],
-  "last_update": "2025-11-30T08:51:12.563036",
+  "last_update": "2025-11-30T08:56:45.871706",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-EGG",
+      "profit": 0,
+      "price": 1.66,
+      "amount": 5871.10064744,
+      "time": "2025-11-30T08:55:29.694542"
+    },
     {
       "type": "buy",
       "market": "KRW-EL",
