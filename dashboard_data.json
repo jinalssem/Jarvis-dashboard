@@ -1,5 +1,5 @@
 {
-  "today_profit": 1375.133391199641,
+  "today_profit": 1627.5907190395617,
   "today_profit_percent": 0,
   "total_profit": 6899.9071944651605,
   "total_profit_percent": 0,
@@ -152,18 +152,25 @@
     "profit": 0,
     "profit_rate": 0.0
   },
-  "holdings": [
-    {
-      "market": "KRW-EGG",
-      "amount": 5871.10064744,
-      "avg_price": 1.66,
-      "current_price": 1.703,
-      "value": 9998.48440259032,
-      "profit_rate": 0.025903614457831417
-    }
-  ],
-  "last_update": "2025-11-30T09:46:32.867825",
+  "holdings": [],
+  "last_update": "2025-11-30T09:51:59.850236",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-IOST",
+      "profit": 0,
+      "price": 3.01,
+      "amount": 3237.58519961,
+      "time": "2025-11-30T09:50:50.212833"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-EGG",
+      "profit": 252.45732783992088,
+      "price": 1.703,
+      "amount": 5871.10064744,
+      "time": "2025-11-30T09:50:48.931927"
+    },
     {
       "type": "sell",
       "market": "KRW-EGG",
