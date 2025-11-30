@@ -153,8 +153,16 @@
     "profit_rate": 0.0
   },
   "holdings": [],
-  "last_update": "2025-11-30T14:11:13.265414",
+  "last_update": "2025-11-30T14:16:32.347381",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-IOST",
+      "profit": 0,
+      "price": 2.96,
+      "amount": 3295.3419227,
+      "time": "2025-11-30T14:15:24.366241"
+    },
     {
       "type": "sell",
       "market": "KRW-SAHARA",
