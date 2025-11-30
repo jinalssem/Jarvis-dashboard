@@ -1,7 +1,7 @@
 {
   "today_profit": 1308.47529736,
   "today_profit_percent": 0,
-  "total_profit": 479.881416475278,
+  "total_profit": 593.8786429934685,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -157,21 +157,29 @@
       "market": "KRW-BAL",
       "amount": 8.49659284,
       "avg_price": 1162.0,
-      "current_price": 1204.0,
-      "value": 10229.89777936,
-      "profit_rate": 0.03614457831325301
+      "current_price": 1207.0,
+      "value": 10255.38755788,
+      "profit_rate": 0.0387263339070568
     },
     {
       "market": "KRW-ZTX",
       "amount": 36878.10333258,
       "avg_price": 0.8942,
-      "current_price": 0.891,
-      "value": 32858.39006932878,
-      "profit_rate": -0.0035786177588906067
+      "current_price": 0.8934,
+      "value": 32946.89751732697,
+      "profit_rate": -0.0008946544397226828
     }
   ],
-  "last_update": "2025-12-01T00:48:45.963440",
+  "last_update": "2025-12-01T00:54:14.669919",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-STAT",
+      "profit": 0,
+      "price": 67.4,
+      "amount": 103.51080438,
+      "time": "2025-12-01T00:53:05.426931"
+    },
     {
       "type": "buy",
       "market": "KRW-ETH",
@@ -963,14 +971,6 @@
       "price": 132936000.0,
       "amount": 9.363e-05,
       "time": "2025-11-29T15:36:36.799462"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-ETH",
-      "profit": 0,
-      "price": 4430000.0,
-      "amount": 0.00336522,
-      "time": "2025-11-29T15:30:21.359140"
     }
   ]
 }
