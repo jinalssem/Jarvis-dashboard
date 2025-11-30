@@ -765,7 +765,7 @@
         </div>
 
         <div class="trades-section">
-            <h2>📜 최근 거래 (12개)</h2>
+            <h2>📜 최근 거래 (6개)</h2>
             <div class="trades-list" id="tradesList"></div>
         </div>
 
@@ -1223,7 +1223,7 @@
                     const timeB = new Date(b.time || 0);
                     return timeB - timeA; // 최신순
                 });
-                const trades = sortedTrades.slice(0, 12);
+                const trades = sortedTrades.slice(0, 6);
                 
                 const tradesList = document.getElementById('tradesList');
                 tradesList.innerHTML = '';
