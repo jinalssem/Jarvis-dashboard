@@ -1,7 +1,7 @@
 {
-  "today_profit": 1308.47529736,
+  "today_profit": 1682.32538232,
   "today_profit_percent": 0,
-  "total_profit": 593.8786429934685,
+  "total_profit": 1044.7662596709574,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -157,21 +157,45 @@
       "market": "KRW-BAL",
       "amount": 8.49659284,
       "avg_price": 1162.0,
-      "current_price": 1207.0,
-      "value": 10255.38755788,
-      "profit_rate": 0.0387263339070568
+      "current_price": 1203.0,
+      "value": 10221.40118652,
+      "profit_rate": 0.035283993115318414
+    },
+    {
+      "market": "KRW-STAT",
+      "amount": 103.51080438,
+      "avg_price": 67.4,
+      "current_price": 67.19,
+      "value": 6954.890946292199,
+      "profit_rate": -0.003115727002967477
     },
     {
       "market": "KRW-ZTX",
       "amount": 36878.10333258,
       "avg_price": 0.8942,
-      "current_price": 0.8934,
-      "value": 32946.89751732697,
-      "profit_rate": -0.0008946544397226828
+      "current_price": 0.897,
+      "value": 33079.658689324264,
+      "profit_rate": 0.0031312905390293274
     }
   ],
-  "last_update": "2025-12-01T00:54:14.669919",
+  "last_update": "2025-12-01T00:59:40.389860",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-BNT",
+      "profit": 0,
+      "price": 698.0,
+      "amount": 8.03379682,
+      "time": "2025-12-01T00:58:29.622197"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-BAL",
+      "profit": 373.85008496,
+      "price": 1206.0,
+      "amount": 8.49659284,
+      "time": "2025-12-01T00:58:28.416330"
+    },
     {
       "type": "buy",
       "market": "KRW-STAT",
@@ -955,22 +979,6 @@
       "price": 356.0,
       "amount": 22.16598837,
       "time": "2025-11-29T15:48:38.403013"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-SXP",
-      "profit": 0,
-      "price": 116.0,
-      "amount": 83.82352941,
-      "time": "2025-11-29T15:42:38.000536"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-BTC",
-      "profit": 0,
-      "price": 132936000.0,
-      "amount": 9.363e-05,
-      "time": "2025-11-29T15:36:36.799462"
     }
   ]
 }
