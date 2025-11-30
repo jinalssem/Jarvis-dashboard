@@ -153,8 +153,16 @@
     "profit_rate": 0.0
   },
   "holdings": [],
-  "last_update": "2025-11-30T14:16:32.347381",
+  "last_update": "2025-11-30T14:21:47.764770",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-BTC",
+      "profit": 0,
+      "price": 133178000.0,
+      "amount": 0.00013212,
+      "time": "2025-11-30T14:20:39.714563"
+    },
     {
       "type": "buy",
       "market": "KRW-IOST",
