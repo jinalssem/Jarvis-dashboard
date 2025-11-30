@@ -1,7 +1,7 @@
 {
   "today_profit": -6488.641943386066,
   "today_profit_percent": 0,
-  "total_profit": -1124.8879679604668,
+  "total_profit": -1116.5754679604668,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -157,13 +157,21 @@
       "market": "KRW-BAL",
       "amount": 8.3125,
       "avg_price": 1175.0,
-      "current_price": 1186.0,
-      "value": 9858.625,
-      "profit_rate": 0.009361702127659575
+      "current_price": 1187.0,
+      "value": 9866.9375,
+      "profit_rate": 0.010212765957446808
     }
   ],
-  "last_update": "2025-11-30T23:35:09.081073",
+  "last_update": "2025-11-30T23:42:07.673563",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-BTC",
+      "profit": 0,
+      "price": 134064000.0,
+      "amount": 7.292e-05,
+      "time": "2025-11-30T23:40:48.946482"
+    },
     {
       "type": "buy",
       "market": "KRW-CKB",
