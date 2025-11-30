@@ -882,8 +882,48 @@
             return new Intl.NumberFormat('ko-KR').format(Math.round(num));
         }
 
+        function formatAvgPrice(price) {
+            // 100원 이상이면 정수로, 미만이면 소수점 표시
+            if (price >= 100) {
+                return new Intl.NumberFormat('ko-KR').format(Math.round(price));
+            } else {
+                // 소수점 있으면 그대로, 없으면 정수로
+                return price.toLocaleString('ko-KR', {
+                    minimumFractionDigits: 0,
+                    maximumFractionDigits: 8
+                });
+            }
+        }
+
         function formatPercent(num) {
-            return (num >= 0 ? '+' : '') + num.toFixed(2) + '%';
+            // 절댓값이 매우 작으면 소수점 자리 늘리기
+            const absNum = Math.abs(num);
+            let decimals;
+            
+            if (absNum < 0.01) {
+                decimals = 4; // 0.0001%까지 표시
+            } else if (absNum < 1) {
+                decimals = 3; // 0.001%까지 표시
+            } else {
+                decimals = 2; // 0.01%까지 표시
+            }
+            
+            return (num >= 0 ? '+' : '') + num.toFixed(decimals) + '%';
+        }
+
+        function formatTradeTime(timeStr) {
+            if (!timeStr) return '';
+            try {
+                const date = new Date(timeStr);
+                return date.toLocaleTimeString('ko-KR', { 
+                    hour: '2-digit', 
+                    minute: '2-digit',
+                    second: '2-digit',
+                    hour12: false 
+                });
+            } catch {
+                return timeStr;
+            }
         }
 
         function sortHoldings(criteria) {
@@ -947,8 +987,8 @@
                             <span>${h.amount.toFixed(4)}</span>
                         </div>
                         <div class="coin-detail-row">
-                            <span class="coin-label">평균가</span>
-                            <span>${formatNumber(h.avg_price)}원</span>
+                            <span class="coin-label">매수 평균</span>
+                            <span>${formatAvgPrice(h.avg_price)}원</span>
                         </div>
                         <div class="coin-detail-row">
                             <span class="coin-label">현재가</span>
@@ -1150,9 +1190,18 @@
                 }
 
                 const todayProfit = data.today_profit || 0;
-                const todayPercent = data.today_profit_percent || 0;
+                let todayPercent = data.today_profit_percent || 0;
                 const totalProfit = data.total_profit || 0;
-                const totalPercent = data.total_profit_percent || 0;
+                let totalPercent = data.total_profit_percent || 0;
+
+                // 백분율 변환: 소수(0.0736)를 퍼센트(7.36)로 변환
+                // JSON에 -0.0736으로 저장되어 있으면 -7.36%로 표시되도록
+                if (Math.abs(todayPercent) < 1 && todayPercent !== 0) {
+                    todayPercent = todayPercent * 100;
+                }
+                if (Math.abs(totalPercent) < 1 && totalPercent !== 0) {
+                    totalPercent = totalPercent * 100;
+                }
 
                 document.getElementById('todayProfit').textContent = (todayProfit >= 0 ? '+' : '') + formatNumber(todayProfit) + '원';
                 document.getElementById('todayProfit').style.color = todayProfit >= 0 ? '#ff6b6b' : '#4ecdc4';
@@ -1167,7 +1216,15 @@
                 generateWordcloud(currentHoldings);
                 sortHoldings(currentSortOrder);
 
-                const trades = (data.trades || []).slice(0, 6);
+                // 최근 거래 시간순 정렬 (최신순)
+                const allTrades = data.trades || [];
+                const sortedTrades = [...allTrades].sort((a, b) => {
+                    const timeA = new Date(a.time || 0);
+                    const timeB = new Date(b.time || 0);
+                    return timeB - timeA; // 최신순
+                });
+                const trades = sortedTrades.slice(0, 6);
+                
                 const tradesList = document.getElementById('tradesList');
                 tradesList.innerHTML = '';
 
@@ -1182,7 +1239,7 @@
                         item.className = `trade-item ${isBuy ? 'trade-buy' : 'trade-sell'}`;
                         item.innerHTML = `
                             <div class="trade-info">
-                                <span class="trade-time">${t.time || ''}</span>
+                                <span class="trade-time">${formatTradeTime(t.time)}</span>
                                 <span class="trade-market">${t.market.replace('KRW-', '')}</span>
                                 <span class="trade-action" style="background: ${isBuy ? '#4ecdc4' : '#ff6b6b'}; color: white;">
                                     ${isBuy ? '매수' : '매도'}
