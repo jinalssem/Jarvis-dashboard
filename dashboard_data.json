@@ -1,7 +1,7 @@
 {
   "today_profit": 1042.889767474493,
   "today_profit_percent": 0,
-  "total_profit": -1508.9553117251774,
+  "total_profit": -2048.044921961377,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -157,21 +157,29 @@
       "market": "KRW-BAL",
       "amount": 8.49659284,
       "avg_price": 1162.0,
-      "current_price": 1200.0,
-      "value": 10195.911408,
-      "profit_rate": 0.03270223752151463
+      "current_price": 1194.0,
+      "value": 10144.93185096,
+      "profit_rate": 0.027538726333907058
     },
     {
       "market": "KRW-STAT",
       "amount": 103.51080438,
       "avg_price": 67.4,
-      "current_price": 67.0,
-      "value": 6935.22389346,
-      "profit_rate": -0.005934718100890291
+      "current_price": 67.01,
+      "value": 6936.2590015038,
+      "profit_rate": -0.00578635014836796
     }
   ],
-  "last_update": "2025-12-01T01:38:05.535142",
+  "last_update": "2025-12-01T01:43:39.904689",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-STAT",
+      "profit": 0,
+      "price": 65.6,
+      "amount": 148.85837935,
+      "time": "2025-12-01T01:42:21.260115"
+    },
     {
       "type": "sell",
       "market": "KRW-BAL",
@@ -963,14 +971,6 @@
       "price": 117.0,
       "amount": 166.26154594,
       "time": "2025-11-29T18:29:44.304710"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-LSK",
-      "profit": 489.14516124,
-      "price": 316.0,
-      "amount": 81.52419354,
-      "time": "2025-11-29T18:11:18.184188"
     }
   ]
 }
