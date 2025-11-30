@@ -1,7 +1,7 @@
 {
   "today_profit": 1110.862510194493,
   "today_profit_percent": 0,
-  "total_profit": -3666.1872533495766,
+  "total_profit": -4009.6509757295767,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -162,8 +162,16 @@
       "profit_rate": -0.01157270029673592
     }
   ],
-  "last_update": "2025-12-01T03:40:42.798161",
+  "last_update": "2025-12-01T03:46:03.816073",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-ZTX",
+      "profit": 0,
+      "price": 0.83,
+      "amount": 11700.8797654,
+      "time": "2025-12-01T03:44:55.036396"
+    },
     {
       "type": "buy",
       "market": "KRW-NCT",
@@ -955,14 +963,6 @@
       "price": 323.0,
       "amount": 234.39556962,
       "time": "2025-11-29T19:55:40.706432"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-LSK",
-      "profit": 343.46372238,
-      "price": 318.0,
-      "amount": 171.73186119,
-      "time": "2025-11-29T19:27:06.372819"
     }
   ]
 }
