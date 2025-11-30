@@ -1,7 +1,7 @@
 {
   "today_profit": -6488.641943386066,
   "today_profit_percent": 0,
-  "total_profit": -1216.3254679604668,
+  "total_profit": -1224.6379679604668,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -152,9 +152,26 @@
     "profit": 0,
     "profit_rate": 0.0
   },
-  "holdings": [],
-  "last_update": "2025-11-30T22:59:56.314911",
+  "holdings": [
+    {
+      "market": "KRW-BAL",
+      "amount": 8.3125,
+      "avg_price": 1175.0,
+      "current_price": 1174.0,
+      "value": 9758.875,
+      "profit_rate": -0.000851063829787234
+    }
+  ],
+  "last_update": "2025-11-30T23:07:11.200843",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-BAL",
+      "profit": 0,
+      "price": 1175.0,
+      "amount": 8.3125,
+      "time": "2025-11-30T23:05:47.976061"
+    },
     {
       "type": "buy",
       "market": "KRW-STEEM",
