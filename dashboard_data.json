@@ -1,7 +1,7 @@
 {
   "today_profit": 917.63202672,
   "today_profit_percent": 0,
-  "total_profit": 598.910513600438,
+  "total_profit": 1097.1898987236955,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -157,20 +157,28 @@
       "market": "KRW-BAL",
       "amount": 8.49659284,
       "avg_price": 1162.0,
-      "current_price": 1194.0,
-      "value": 10144.93185096,
-      "profit_rate": 0.027538726333907058
+      "current_price": 1234.0,
+      "value": 10484.79556456,
+      "profit_rate": 0.06196213425129088
     },
     {
       "market": "KRW-ZTX",
       "amount": 36878.10333258,
       "avg_price": 0.8942,
-      "current_price": 0.893,
-      "value": 32932.14627599394,
-      "profit_rate": -0.001341981659583962
+      "current_price": 0.8931,
+      "value": 32935.8340863272,
+      "profit_rate": -0.0012301498546186422
+    },
+    {
+      "market": "KRW-PARTI",
+      "amount": 51.57595373,
+      "avg_price": 160.0,
+      "current_price": 163.0,
+      "value": 8406.88045799,
+      "profit_rate": 0.01875
     }
   ],
-  "last_update": "2025-12-01T00:37:28.527359",
+  "last_update": "2025-12-01T00:43:04.383224",
   "trades": [
     {
       "type": "buy",
