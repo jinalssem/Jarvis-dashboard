@@ -1,7 +1,7 @@
 {
   "today_profit": 1074.6337286614921,
   "today_profit_percent": 0,
-  "total_profit": -5715.631769828979,
+  "total_profit": -5659.434586730378,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -154,6 +154,14 @@
   },
   "holdings": [
     {
+      "market": "KRW-FANC",
+      "amount": 2809.85915493,
+      "avg_price": 3.47,
+      "current_price": 3.49,
+      "value": 9806.4084507057,
+      "profit_rate": 0.005763688760806921
+    },
+    {
       "market": "KRW-STAT",
       "amount": 103.51080438,
       "avg_price": 67.4,
@@ -162,7 +170,7 @@
       "profit_rate": -0.015727002967359082
     }
   ],
-  "last_update": "2025-12-01T04:57:13.991301",
+  "last_update": "2025-12-01T05:02:33.292832",
   "trades": [
     {
       "type": "buy",
