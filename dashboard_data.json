@@ -1,7 +1,7 @@
 {
-  "today_profit": 645.74105584,
+  "today_profit": 917.63202672,
   "today_profit_percent": 0,
-  "total_profit": 330.70735305369567,
+  "total_profit": 598.910513600438,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -165,13 +165,29 @@
       "market": "KRW-ZTX",
       "amount": 36878.10333258,
       "avg_price": 0.8942,
-      "current_price": 0.8931,
-      "value": 32935.8340863272,
-      "profit_rate": -0.0012301498546186422
+      "current_price": 0.893,
+      "value": 32932.14627599394,
+      "profit_rate": -0.001341981659583962
     }
   ],
-  "last_update": "2025-12-01T00:30:47.460015",
+  "last_update": "2025-12-01T00:37:28.527359",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-PARTI",
+      "profit": 0,
+      "price": 160.0,
+      "amount": 51.57595373,
+      "time": "2025-12-01T00:36:16.203017"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-BAL",
+      "profit": 271.89097088,
+      "price": 1194.0,
+      "amount": 8.49659284,
+      "time": "2025-12-01T00:36:14.563814"
+    },
     {
       "type": "sell",
       "market": "KRW-BAL",
@@ -955,22 +971,6 @@
       "price": 268.0,
       "amount": 37.22014925,
       "time": "2025-11-29T15:00:22.883712"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-SXP",
-      "profit": 0,
-      "price": 118.0,
-      "amount": 82.43801653,
-      "time": "2025-11-29T14:54:25.071559"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-AWE",
-      "profit": 0,
-      "price": 87.6,
-      "amount": 111.55222545,
-      "time": "2025-11-29T14:27:23.194475"
     }
   ]
 }
