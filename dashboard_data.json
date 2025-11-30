@@ -153,8 +153,16 @@
     "profit_rate": 0.0
   },
   "holdings": [],
-  "last_update": "2025-11-30T14:32:19.111044",
+  "last_update": "2025-11-30T14:37:45.386328",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-FCT2",
+      "profit": 0,
+      "price": 19.5,
+      "amount": 499.49924887,
+      "time": "2025-11-30T14:36:29.643651"
+    },
     {
       "type": "buy",
       "market": "KRW-ETH",
