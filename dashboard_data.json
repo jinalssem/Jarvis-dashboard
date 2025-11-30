@@ -1,7 +1,7 @@
 {
-  "today_profit": 1159.6769913859614,
+  "today_profit": 619.6024703977614,
   "today_profit_percent": 0,
-  "total_profit": -6316.054746158707,
+  "total_profit": -6851.254921958706,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -154,24 +154,24 @@
   },
   "holdings": [
     {
-      "market": "KRW-MAY",
-      "amount": 255.95948862,
-      "avg_price": 34.3,
-      "current_price": 33.87,
-      "value": 8669.3478795594,
-      "profit_rate": -0.012536443148688039
-    },
-    {
       "market": "KRW-ELX",
       "amount": 146.09477072,
       "avg_price": 78.26,
-      "current_price": 77.75,
-      "value": 11358.86842348,
-      "profit_rate": -0.006516739074878675
+      "current_price": 77.03,
+      "value": 11253.6801885616,
+      "profit_rate": -0.015716841298236698
     }
   ],
-  "last_update": "2025-12-01T07:33:31.070667",
+  "last_update": "2025-12-01T07:38:49.669800",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-MAY",
+      "profit": -540.0745209881999,
+      "price": 32.19,
+      "amount": 255.95948862,
+      "time": "2025-12-01T07:37:41.197659"
+    },
     {
       "type": "sell",
       "market": "KRW-FANC",
@@ -963,14 +963,6 @@
       "price": 1.965,
       "amount": 9846.23376623,
       "time": "2025-11-29T23:18:13.757957"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-PLUME",
-      "profit": 0,
-      "price": 32.9,
-      "amount": 205.98497249,
-      "time": "2025-11-29T22:52:57.828420"
     }
   ]
 }
