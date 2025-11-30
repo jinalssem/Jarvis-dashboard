@@ -13,10 +13,9 @@
 
 ## 🚀 Quick Start
 
-### 로컬 실행
+### 접속 URL
 ```bash
-# 브라우저에서 index.html 열기
-open index.html
+[# 브라우저에서 index.html 열기](https://jinalssem.github.io/Jarvis-dashboard/)
 ```
 
 ### Netlify 배포
