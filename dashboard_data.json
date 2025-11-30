@@ -1,7 +1,7 @@
 {
   "today_profit": 2150.118676661723,
   "today_profit_percent": 0,
-  "total_profit": 7301.013571712921,
+  "total_profit": 7650.100615289323,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -157,13 +157,21 @@
       "market": "KRW-SAHARA",
       "amount": 252.96162578,
       "avg_price": 67.0,
-      "current_price": 66.52,
-      "value": 16827.0073468856,
-      "profit_rate": -0.007164179104477671
+      "current_price": 67.9,
+      "value": 17176.094390462,
+      "profit_rate": 0.013432835820895607
     }
   ],
-  "last_update": "2025-11-30T10:19:40.950618",
+  "last_update": "2025-11-30T10:24:57.954635",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-WAXP",
+      "profit": 0,
+      "price": 13.8,
+      "amount": 705.9447983,
+      "time": "2025-11-30T10:23:49.521540"
+    },
     {
       "type": "sell",
       "market": "KRW-EGG",
