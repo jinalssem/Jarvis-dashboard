@@ -1,7 +1,7 @@
 {
   "today_profit": 3331.4494690543233,
   "today_profit_percent": 0,
-  "total_profit": 8603.765944479923,
+  "total_profit": 8569.617874960722,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -152,8 +152,17 @@
     "profit": 0,
     "profit_rate": 0.0
   },
-  "holdings": [],
-  "last_update": "2025-11-30T15:37:13.553763",
+  "holdings": [
+    {
+      "market": "KRW-SAHARA",
+      "amount": 487.82956456,
+      "avg_price": 62.68,
+      "current_price": 62.61,
+      "value": 30543.009037101598,
+      "profit_rate": -0.0011167836630504194
+    }
+  ],
+  "last_update": "2025-11-30T15:42:40.238870",
   "trades": [
     {
       "type": "buy",
