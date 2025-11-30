@@ -1,7 +1,7 @@
 {
-  "today_profit": -2689.800532774068,
+  "today_profit": -6488.641943386066,
   "today_profit_percent": 0,
-  "total_profit": 529.5444747243346,
+  "total_profit": -840.4646236188679,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -154,24 +154,24 @@
   },
   "holdings": [
     {
-      "market": "KRW-LSK",
-      "amount": 220.86287271,
-      "avg_price": 436.2,
-      "current_price": 424.0,
-      "value": 93645.85802904,
-      "profit_rate": -0.02796882164144885
-    },
-    {
       "market": "KRW-IRYS",
       "amount": 648.03593852,
       "avg_price": 56.4,
-      "current_price": 57.39,
-      "value": 37190.782511662794,
-      "profit_rate": 0.017553191489361738
+      "current_price": 56.98,
+      "value": 36925.087776869594,
+      "profit_rate": 0.010283687943262381
     }
   ],
-  "last_update": "2025-11-30T22:26:04.848394",
+  "last_update": "2025-11-30T22:32:44.073227",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-LSK",
+      "profit": -3798.8414106119976,
+      "price": 419.0,
+      "amount": 220.86287271,
+      "time": "2025-11-30T22:31:22.673364"
+    },
     {
       "type": "sell",
       "market": "KRW-IRYS",
