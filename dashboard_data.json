@@ -1,7 +1,7 @@
 {
   "today_profit": -6488.641943386066,
   "today_profit_percent": 0,
-  "total_profit": -1300.5701399680638,
+  "total_profit": -1216.3254679604668,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -152,18 +152,17 @@
     "profit": 0,
     "profit_rate": 0.0
   },
-  "holdings": [
-    {
-      "market": "KRW-IRYS",
-      "amount": 648.03593852,
-      "avg_price": 56.4,
-      "current_price": 56.27,
-      "value": 36464.982260520395,
-      "profit_rate": -0.002304964539007012
-    }
-  ],
-  "last_update": "2025-11-30T22:39:23.700689",
+  "holdings": [],
+  "last_update": "2025-11-30T22:46:08.362004",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-STEEM",
+      "profit": 0,
+      "price": 112.0,
+      "amount": 86.73913043,
+      "time": "2025-11-30T22:44:57.883640"
+    },
     {
       "type": "sell",
       "market": "KRW-LSK",
