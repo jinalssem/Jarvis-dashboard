@@ -162,8 +162,16 @@
       "profit_rate": -0.000851063829787234
     }
   ],
-  "last_update": "2025-11-30T23:13:59.556583",
+  "last_update": "2025-11-30T23:20:55.359853",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-CKB",
+      "profit": 0,
+      "price": 3.78,
+      "amount": 2579.51900698,
+      "time": "2025-11-30T23:19:43.285908"
+    },
     {
       "type": "buy",
       "market": "KRW-BAL",
