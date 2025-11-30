@@ -1,7 +1,7 @@
 {
-  "today_profit": -3273.032877442067,
+  "today_profit": -2689.800532774068,
   "today_profit_percent": 0,
-  "total_profit": 888.6175089763358,
+  "total_profit": 529.5444747243346,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -157,21 +157,29 @@
       "market": "KRW-LSK",
       "amount": 220.86287271,
       "avg_price": 436.2,
-      "current_price": 429.0,
-      "value": 94750.17239259,
-      "profit_rate": -0.016506189821182918
+      "current_price": 424.0,
+      "value": 93645.85802904,
+      "profit_rate": -0.02796882164144885
     },
     {
       "market": "KRW-IRYS",
       "amount": 648.03593852,
       "avg_price": 56.4,
-      "current_price": 57.14,
-      "value": 37028.7735270328,
-      "profit_rate": 0.013120567375886561
+      "current_price": 57.39,
+      "value": 37190.782511662794,
+      "profit_rate": 0.017553191489361738
     }
   ],
-  "last_update": "2025-11-30T22:19:40.174728",
+  "last_update": "2025-11-30T22:26:04.848394",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-IRYS",
+      "profit": 583.232344667999,
+      "price": 57.3,
+      "amount": 648.03593852,
+      "time": "2025-11-30T22:24:53.296139"
+    },
     {
       "type": "buy",
       "market": "KRW-FCT2",
