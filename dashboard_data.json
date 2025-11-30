@@ -1,7 +1,7 @@
 {
-  "today_profit": 619.6024703977614,
+  "today_profit": 794.9161952617598,
   "today_profit_percent": 0,
-  "total_profit": -6746.0666870403065,
+  "total_profit": -6714.78025489431,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -157,13 +157,21 @@
       "market": "KRW-ELX",
       "amount": 146.09477072,
       "avg_price": 78.26,
-      "current_price": 77.75,
-      "value": 11358.86842348,
-      "profit_rate": -0.006516739074878675
+      "current_price": 79.46,
+      "value": 11608.6904814112,
+      "profit_rate": 0.015333503705596583
     }
   ],
-  "last_update": "2025-12-01T07:44:10.887731",
+  "last_update": "2025-12-01T07:49:28.142122",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-ELX",
+      "profit": 175.31372486399835,
+      "price": 79.46,
+      "amount": 146.09477072,
+      "time": "2025-12-01T07:48:19.659846"
+    },
     {
       "type": "sell",
       "market": "KRW-MAY",
@@ -955,14 +963,6 @@
       "price": 111.0,
       "amount": 82.99703313,
       "time": "2025-11-29T23:43:21.625069"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-TT",
-      "profit": 393.84935064920035,
-      "price": 1.965,
-      "amount": 9846.23376623,
-      "time": "2025-11-29T23:18:13.757957"
     }
   ]
 }
