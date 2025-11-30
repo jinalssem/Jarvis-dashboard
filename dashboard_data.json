@@ -153,8 +153,16 @@
     "profit_rate": 0.0
   },
   "holdings": [],
-  "last_update": "2025-11-30T14:37:45.386328",
+  "last_update": "2025-11-30T14:43:03.781597",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-CKB",
+      "profit": 0,
+      "price": 3.76,
+      "amount": 2596.97995314,
+      "time": "2025-11-30T14:41:55.514240"
+    },
     {
       "type": "buy",
       "market": "KRW-FCT2",
