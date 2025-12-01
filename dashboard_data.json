@@ -1,7 +1,7 @@
 {
   "today_profit": -4529.445461299881,
   "today_profit_percent": 0,
-  "total_profit": -13774.493774350321,
+  "total_profit": -12578.344255964206,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -157,41 +157,33 @@
       "market": "KRW-BTC",
       "amount": 7.569e-05,
       "avg_price": 129154000.0,
-      "current_price": 128359000.0,
-      "value": 9715.49271,
-      "profit_rate": -0.006155442340152067
+      "current_price": 128272000.0,
+      "value": 9708.90768,
+      "profit_rate": -0.006829056784923425
     },
     {
       "market": "KRW-ETH",
       "amount": 0.00231492,
       "avg_price": 4222001.0,
-      "current_price": 4223000.0,
-      "value": 9775.907159999999,
-      "profit_rate": 0.00023661766067795814
+      "current_price": 4214000.0,
+      "value": 9755.07288,
+      "profit_rate": -0.0018950729760604035
     },
     {
       "market": "KRW-SXP",
       "amount": 70.69779453,
       "avg_price": 90.9,
-      "current_price": 90.75,
-      "value": 6415.8248535975,
-      "profit_rate": -0.0016501650165017126
+      "current_price": 91.4,
+      "value": 6461.778420042,
+      "profit_rate": 0.0055005500550055
     },
     {
       "market": "KRW-CKB",
       "amount": 2332.9127801,
       "avg_price": 3.59,
-      "current_price": 3.573,
-      "value": 8335.4973632973,
-      "profit_rate": -0.004735376044568218
-    },
-    {
-      "market": "KRW-GRACY",
-      "amount": 3733.01885147,
-      "avg_price": 11.44,
-      "current_price": 11.13,
-      "value": 41548.4998168611,
-      "profit_rate": -0.02709790209790199
+      "current_price": 3.571,
+      "value": 8330.8315377371,
+      "profit_rate": -0.00529247910863501
     },
     {
       "market": "KRW-BNT",
@@ -200,9 +192,17 @@
       "current_price": 674.0,
       "value": 9786.24454484,
       "profit_rate": 0.0014858841010401188
+    },
+    {
+      "market": "KRW-ZTX",
+      "amount": 8944.7298379,
+      "avg_price": 0.79,
+      "current_price": 0.7928,
+      "value": 7091.38181548712,
+      "profit_rate": 0.003544303797468245
     }
   ],
-  "last_update": "2025-12-01T14:01:50.826365",
+  "last_update": "2025-12-01T14:08:34.444360",
   "trades": [
     {
       "type": "sell",
