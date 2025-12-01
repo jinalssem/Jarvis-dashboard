@@ -1,7 +1,7 @@
 {
   "today_profit": -2768.297742259446,
   "today_profit_percent": 0,
-  "total_profit": -9705.033578585491,
+  "total_profit": -9765.704638061272,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -157,29 +157,45 @@
       "market": "KRW-BTC",
       "amount": 7.292e-05,
       "avg_price": 134064000.0,
-      "current_price": 132124000.0,
-      "value": 9634.48208,
-      "profit_rate": -0.014470700560926125
+      "current_price": 131769000.0,
+      "value": 9608.59548,
+      "profit_rate": -0.017118689581095595
     },
     {
       "market": "KRW-ETH",
       "amount": 0.00150375,
       "avg_price": 4439998.0,
-      "current_price": 4321000.0,
-      "value": 6497.703750000001,
-      "profit_rate": -0.026801363424037578
+      "current_price": 4314000.0,
+      "value": 6487.177500000001,
+      "profit_rate": -0.028377940710784103
+    },
+    {
+      "market": "KRW-BNT",
+      "amount": 8.03379682,
+      "avg_price": 698.0,
+      "current_price": 696.0,
+      "value": 5591.52258672,
+      "profit_rate": -0.0028653295128939827
     },
     {
       "market": "KRW-ZTX",
       "amount": 11700.8797654,
       "avg_price": 0.83,
-      "current_price": 0.8063,
-      "value": 9434.41935484202,
-      "profit_rate": -0.02855421686746981
+      "current_price": 0.8056,
+      "value": 9426.228739006241,
+      "profit_rate": -0.029397590361445756
     }
   ],
-  "last_update": "2025-12-01T09:32:17.607864",
+  "last_update": "2025-12-01T09:37:38.426674",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-ETH",
+      "profit": 0,
+      "price": 4222000.0,
+      "amount": 0.00231492,
+      "time": "2025-12-01T09:36:28.130790"
+    },
     {
       "type": "sell",
       "market": "KRW-NCT",
@@ -971,14 +987,6 @@
       "price": 27.4,
       "amount": 184.7855352,
       "time": "2025-11-30T00:37:11.980999"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-STAT",
-      "profit": 0,
-      "price": 71.5,
-      "amount": 88.20923872,
-      "time": "2025-11-30T00:31:15.263438"
     }
   ]
 }
