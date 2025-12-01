@@ -1,7 +1,7 @@
 {
   "today_profit": -3143.8493747799253,
   "today_profit_percent": 0,
-  "total_profit": -7670.310454454893,
+  "total_profit": -7457.7958371078685,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -157,17 +157,25 @@
       "market": "KRW-BTC",
       "amount": 7.292e-05,
       "avg_price": 134064000.0,
-      "current_price": 130200000.0,
-      "value": 9494.184,
-      "profit_rate": -0.02882205513784461
+      "current_price": 130100000.0,
+      "value": 9486.892,
+      "profit_rate": -0.02956796753789235
+    },
+    {
+      "market": "KRW-BAL",
+      "amount": 6.28123776,
+      "avg_price": 1070.0,
+      "current_price": 1089.0,
+      "value": 6840.26792064,
+      "profit_rate": 0.017757009345794394
     },
     {
       "market": "KRW-GRACY",
       "amount": 3733.01885147,
       "avg_price": 11.44,
-      "current_price": 11.37,
-      "value": 42444.4243412139,
-      "profit_rate": -0.006118881118881144
+      "current_price": 11.38,
+      "value": 42481.7545297286,
+      "profit_rate": -0.005244755244755133
     },
     {
       "market": "KRW-BNT",
@@ -181,13 +189,21 @@
       "market": "KRW-FANC",
       "amount": 2869.67779056,
       "avg_price": 3.4,
-      "current_price": 3.45,
-      "value": 9900.388377432002,
-      "profit_rate": 0.014705882352941256
+      "current_price": 3.472,
+      "value": 9963.52128882432,
+      "profit_rate": 0.021176470588235314
     }
   ],
-  "last_update": "2025-12-01T11:42:04.075864",
+  "last_update": "2025-12-01T11:45:27.791714",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-BAL",
+      "profit": 0,
+      "price": 1070.0,
+      "amount": 6.28123776,
+      "time": "2025-12-01T11:44:21.740281"
+    },
     {
       "type": "buy",
       "market": "KRW-CKB",
@@ -979,14 +995,6 @@
       "price": 3.01,
       "amount": 2231.42495338,
       "time": "2025-11-30T01:54:42.973812"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-UMA",
-      "profit": 0,
-      "price": 1230.0,
-      "amount": 6.77816748,
-      "time": "2025-11-30T01:48:42.913587"
     }
   ]
 }
