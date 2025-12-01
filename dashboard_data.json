@@ -1,7 +1,7 @@
 {
-  "today_profit": -3376.293275815285,
+  "today_profit": -3143.8493747799253,
   "today_profit_percent": 0,
-  "total_profit": -7726.334785134713,
+  "total_profit": -7317.321211544633,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -157,29 +157,45 @@
       "market": "KRW-BTC",
       "amount": 7.292e-05,
       "avg_price": 134064000.0,
-      "current_price": 131027000.0,
-      "value": 9554.48884,
-      "profit_rate": -0.022653359589449817
+      "current_price": 131339000.0,
+      "value": 9577.23988,
+      "profit_rate": -0.02032611290130087
     },
     {
       "market": "KRW-BNT",
       "amount": 8.03379682,
       "avg_price": 698.0,
-      "current_price": 692.0,
-      "value": 5559.387399439999,
-      "profit_rate": -0.008595988538681949
+      "current_price": 689.0,
+      "value": 5535.28600898,
+      "profit_rate": -0.012893982808022923
     },
     {
       "market": "KRW-FANC",
       "amount": 2869.67779056,
       "avg_price": 3.4,
-      "current_price": 3.419,
-      "value": 9811.428365924641,
-      "profit_rate": 0.005588235294117685
+      "current_price": 3.481,
+      "value": 9989.348388939361,
+      "profit_rate": 0.023823529411764695
     }
   ],
-  "last_update": "2025-12-01T10:31:02.538251",
+  "last_update": "2025-12-01T10:37:48.317460",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-BNT",
+      "profit": 0,
+      "price": 673.0,
+      "amount": 14.51965066,
+      "time": "2025-12-01T10:36:34.681603"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-FANC",
+      "profit": 232.44390103535991,
+      "price": 3.481,
+      "amount": 2869.67779056,
+      "time": "2025-12-01T10:36:33.116570"
+    },
     {
       "type": "sell",
       "market": "KRW-ETH",
@@ -963,22 +979,6 @@
       "price": 4.39,
       "amount": 2224.08026756,
       "time": "2025-11-30T01:18:56.407468"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-MTL",
-      "profit": 0,
-      "price": 637.0,
-      "amount": 15.32258065,
-      "time": "2025-11-30T01:13:07.955993"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-FCT2",
-      "profit": 0,
-      "price": 20.6,
-      "amount": 472.30113636,
-      "time": "2025-11-30T01:06:53.629259"
     }
   ]
 }
