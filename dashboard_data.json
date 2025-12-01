@@ -1,7 +1,7 @@
 {
-  "today_profit": -3143.8493747799253,
+  "today_profit": -2937.232573859605,
   "today_profit_percent": 0,
-  "total_profit": -7457.7958371078685,
+  "total_profit": -7384.811991527548,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -157,17 +157,17 @@
       "market": "KRW-BTC",
       "amount": 7.292e-05,
       "avg_price": 134064000.0,
-      "current_price": 130100000.0,
-      "value": 9486.892,
-      "profit_rate": -0.02956796753789235
+      "current_price": 129900000.0,
+      "value": 9472.307999999999,
+      "profit_rate": -0.031059792337987828
     },
     {
       "market": "KRW-BAL",
       "amount": 6.28123776,
       "avg_price": 1070.0,
-      "current_price": 1089.0,
-      "value": 6840.26792064,
-      "profit_rate": 0.017757009345794394
+      "current_price": 1079.0,
+      "value": 6777.45554304,
+      "profit_rate": 0.008411214953271028
     },
     {
       "market": "KRW-GRACY",
@@ -181,9 +181,9 @@
       "market": "KRW-BNT",
       "amount": 8.03379682,
       "avg_price": 698.0,
-      "current_price": 699.0,
-      "value": 5615.623977179999,
-      "profit_rate": 0.0014326647564469914
+      "current_price": 692.0,
+      "value": 5559.387399439999,
+      "profit_rate": -0.008595988538681949
     },
     {
       "market": "KRW-FANC",
@@ -194,8 +194,16 @@
       "profit_rate": 0.021176470588235314
     }
   ],
-  "last_update": "2025-12-01T11:45:27.791714",
+  "last_update": "2025-12-01T11:48:54.379120",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-FANC",
+      "profit": 206.6168009203202,
+      "price": 3.472,
+      "amount": 2869.67779056,
+      "time": "2025-12-01T11:47:43.940647"
+    },
     {
       "type": "buy",
       "market": "KRW-BAL",
@@ -987,14 +995,6 @@
       "price": 395.0,
       "amount": 24.9375,
       "time": "2025-11-30T02:06:40.823883"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-IOST",
-      "profit": 0,
-      "price": 3.01,
-      "amount": 2231.42495338,
-      "time": "2025-11-30T01:54:42.973812"
     }
   ]
 }
