@@ -1,7 +1,7 @@
 {
   "today_profit": -3376.293275815285,
   "today_profit_percent": 0,
-  "total_profit": -7891.493560895353,
+  "total_profit": -7865.364653845432,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -157,20 +157,28 @@
       "market": "KRW-BTC",
       "amount": 7.292e-05,
       "avg_price": 134064000.0,
-      "current_price": 130281000.0,
-      "value": 9500.09052,
-      "profit_rate": -0.028217866093805943
+      "current_price": 130907000.0,
+      "value": 9545.73844,
+      "profit_rate": -0.0235484544695071
     },
     {
       "market": "KRW-BNT",
       "amount": 8.03379682,
       "avg_price": 698.0,
-      "current_price": 685.0,
-      "value": 5503.150821699999,
-      "profit_rate": -0.01862464183381089
+      "current_price": 689.0,
+      "value": 5535.28600898,
+      "profit_rate": -0.012893982808022923
+    },
+    {
+      "market": "KRW-FANC",
+      "amount": 2869.67779056,
+      "avg_price": 3.4,
+      "current_price": 3.382,
+      "value": 9705.250287673922,
+      "profit_rate": -0.0052941176470587634
     }
   ],
-  "last_update": "2025-12-01T09:59:14.207392",
+  "last_update": "2025-12-01T10:04:37.831711",
   "trades": [
     {
       "type": "sell",
