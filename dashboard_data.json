@@ -1,7 +1,7 @@
 {
   "today_profit": -2971.727111415285,
   "today_profit_percent": 0,
-  "total_profit": -7501.255105601624,
+  "total_profit": -8360.218897499628,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -157,17 +157,17 @@
       "market": "KRW-BTC",
       "amount": 7.569e-05,
       "avg_price": 129154000.0,
-      "current_price": 129264000.0,
-      "value": 9783.99216,
-      "profit_rate": 0.0008516964244235564
+      "current_price": 129124000.0,
+      "value": 9773.39556,
+      "profit_rate": -0.00023228084302460628
     },
     {
       "market": "KRW-ETH",
       "amount": 0.00231492,
       "avg_price": 4222001.0,
-      "current_price": 4236000.0,
-      "value": 9806.001119999999,
-      "profit_rate": 0.0033157263581889253
+      "current_price": 4227000.0,
+      "value": 9785.16684,
+      "profit_rate": 0.0011840357214505633
     },
     {
       "market": "KRW-GRACY",
@@ -178,8 +178,16 @@
       "profit_rate": -0.013986013986014
     }
   ],
-  "last_update": "2025-12-01T13:12:26.416552",
+  "last_update": "2025-12-01T13:15:30.380797",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-GRACY",
+      "profit": 0,
+      "price": 11.0,
+      "amount": 722.14065187,
+      "time": "2025-12-01T13:14:25.778129"
+    },
     {
       "type": "buy",
       "market": "KRW-ETH",
@@ -971,14 +979,6 @@
       "price": 70.34,
       "amount": 591.09493707,
       "time": "2025-11-30T05:36:36.119163"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-SAHARA",
-      "profit": 827.5329118980034,
-      "price": 70.2,
-      "amount": 591.09493707,
-      "time": "2025-11-30T05:25:25.205525"
     }
   ]
 }
