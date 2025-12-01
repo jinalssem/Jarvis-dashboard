@@ -1,7 +1,7 @@
 {
   "today_profit": -3114.6437833152854,
   "today_profit_percent": 0,
-  "total_profit": -7506.259255771353,
+  "total_profit": -7602.953765771354,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -157,17 +157,17 @@
       "market": "KRW-BTC",
       "amount": 7.292e-05,
       "avg_price": 134064000.0,
-      "current_price": 131814000.0,
-      "value": 9611.87688,
-      "profit_rate": -0.016783029001074114
+      "current_price": 131086000.0,
+      "value": 9558.79112,
+      "profit_rate": -0.02221327127342165
     },
     {
       "market": "KRW-ETH",
       "amount": 0.00150375,
       "avg_price": 4439998.0,
-      "current_price": 4308000.0,
-      "value": 6478.155000000001,
-      "profit_rate": -0.029729292670852555
+      "current_price": 4279000.0,
+      "value": 6434.54625,
+      "profit_rate": -0.036260827144516734
     },
     {
       "market": "KRW-BNT",
@@ -178,8 +178,16 @@
       "profit_rate": 0.0
     }
   ],
-  "last_update": "2025-12-01T09:43:01.680412",
+  "last_update": "2025-12-01T09:48:30.554980",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-CVC",
+      "profit": 0,
+      "price": 64.9,
+      "amount": 150.49788775,
+      "time": "2025-12-01T09:47:10.549163"
+    },
     {
       "type": "buy",
       "market": "KRW-BTC",
@@ -971,14 +979,6 @@
       "price": 72.7,
       "amount": 88.20923872,
       "time": "2025-11-30T01:06:52.344698"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-STAT",
-      "profit": 0,
-      "price": 69.0,
-      "amount": 141.4893617,
-      "time": "2025-11-30T01:00:52.861766"
     }
   ]
 }
