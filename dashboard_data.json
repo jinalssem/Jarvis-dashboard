@@ -1,7 +1,7 @@
 {
-  "today_profit": -2827.1187686552853,
+  "today_profit": -2971.727111415285,
   "today_profit_percent": 0,
-  "total_profit": -7141.1143213805535,
+  "total_profit": -7435.041895788121,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -157,25 +157,25 @@
       "market": "KRW-BTC",
       "amount": 7.569e-05,
       "avg_price": 129154000.0,
-      "current_price": 129295000.0,
-      "value": 9786.33855,
-      "profit_rate": 0.0010917199622156495
+      "current_price": 129461000.0,
+      "value": 9798.90309,
+      "profit_rate": 0.002377007293618471
     },
     {
       "market": "KRW-ETH",
       "amount": 0.00231492,
       "avg_price": 4222001.0,
-      "current_price": 4236000.0,
-      "value": 9806.001119999999,
-      "profit_rate": 0.0033157263581889253
+      "current_price": 4240000.0,
+      "value": 9815.2608,
+      "profit_rate": 0.00426314441896153
     },
     {
       "market": "KRW-GRACY",
       "amount": 3733.01885147,
       "avg_price": 11.44,
-      "current_price": 11.43,
-      "value": 42668.405472302096,
-      "profit_rate": -0.0008741258741258555
+      "current_price": 11.33,
+      "value": 42295.1035871551,
+      "profit_rate": -0.009615384615384566
     },
     {
       "market": "KRW-BNT",
@@ -186,8 +186,24 @@
       "profit_rate": -0.025787965616045846
     }
   ],
-  "last_update": "2025-12-01T12:41:39.173141",
+  "last_update": "2025-12-01T12:44:43.502937",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-ETH",
+      "profit": 0,
+      "price": 4154000.0,
+      "amount": 0.00207032,
+      "time": "2025-12-01T12:43:38.279934"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-BNT",
+      "profit": -144.60834275999997,
+      "price": 680.0,
+      "amount": 8.03379682,
+      "time": "2025-12-01T12:43:37.716971"
+    },
     {
       "type": "buy",
       "market": "KRW-SXP",
@@ -971,22 +987,6 @@
       "price": 70.2,
       "amount": 591.09493707,
       "time": "2025-11-30T05:25:25.205525"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-CKB",
-      "profit": 0,
-      "price": 3.84,
-      "amount": 4133.72698418,
-      "time": "2025-11-30T04:09:40.125135"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-MED",
-      "profit": -202.15843349943063,
-      "price": 4.387,
-      "amount": 3963.89085293,
-      "time": "2025-11-30T04:09:38.947440"
     }
   ]
 }
