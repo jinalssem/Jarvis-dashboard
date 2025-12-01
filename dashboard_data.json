@@ -1,7 +1,7 @@
 {
-  "today_profit": 442.4627694326389,
+  "today_profit": 726.2646467959984,
   "today_profit_percent": 0,
-  "total_profit": -10426.11745413401,
+  "total_profit": -10142.31557677065,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -178,8 +178,24 @@
       "profit_rate": 0.0056872037914692
     }
   ],
-  "last_update": "2025-12-02T08:19:37.868412",
+  "last_update": "2025-12-02T08:25:33.525006",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-EL",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-02T08:24:11.206478"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-EL",
+      "profit": 283.8018773633595,
+      "price": 3.207,
+      "amount": 2234.66045168,
+      "time": "2025-12-02T08:24:11.204159"
+    },
     {
       "type": "sell",
       "market": "KRW-EL",
@@ -963,22 +979,6 @@
       "price": 84.7,
       "amount": 115.34458834,
       "time": "2025-11-30T09:11:47.047760"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-EGG",
-      "profit": 0,
-      "price": 1.66,
-      "amount": 5871.10064744,
-      "time": "2025-11-30T08:55:29.694542"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-EL",
-      "profit": 0,
-      "price": 3.51,
-      "amount": 2780.10033445,
-      "time": "2025-11-30T08:50:04.499753"
     }
   ]
 }
