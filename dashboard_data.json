@@ -1,7 +1,7 @@
 {
   "today_profit": -3143.8493747799253,
   "today_profit_percent": 0,
-  "total_profit": -7507.552117739353,
+  "total_profit": -7838.437685971993,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -157,9 +157,17 @@
       "market": "KRW-BTC",
       "amount": 7.292e-05,
       "avg_price": 134064000.0,
-      "current_price": 131060000.0,
-      "value": 9556.8952,
-      "profit_rate": -0.02240720849743406
+      "current_price": 130972000.0,
+      "value": 9550.47824,
+      "profit_rate": -0.023063611409476072
+    },
+    {
+      "market": "KRW-GRACY",
+      "amount": 3733.01885147,
+      "avg_price": 11.44,
+      "current_price": 11.36,
+      "value": 42407.094152699196,
+      "profit_rate": -0.006993006993007
     },
     {
       "market": "KRW-BNT",
@@ -173,12 +181,12 @@
       "market": "KRW-FANC",
       "amount": 2869.67779056,
       "avg_price": 3.4,
-      "current_price": 3.419,
-      "value": 9811.428365924641,
-      "profit_rate": 0.005588235294117685
+      "current_price": 3.41,
+      "value": 9785.6012658096,
+      "profit_rate": 0.0029411764705883033
     }
   ],
-  "last_update": "2025-12-01T10:54:15.087087",
+  "last_update": "2025-12-01T10:57:20.449508",
   "trades": [
     {
       "type": "buy",
