@@ -1,7 +1,7 @@
 {
   "today_profit": 794.9161952617598,
   "today_profit_percent": 0,
-  "total_profit": -8660.906558487746,
+  "total_profit": -9021.965876867489,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -154,23 +154,31 @@
   },
   "holdings": [
     {
+      "market": "KRW-CKB",
+      "amount": 2579.51900698,
+      "avg_price": 3.78,
+      "current_price": 3.761,
+      "value": 9701.570985251781,
+      "profit_rate": -0.005026455026454943
+    },
+    {
       "market": "KRW-STAT",
       "amount": 960.38300643,
       "avg_price": 66.2,
-      "current_price": 64.4,
-      "value": 61848.66561409201,
-      "profit_rate": -0.027190332326283945
+      "current_price": 64.03,
+      "value": 61493.3239017129,
+      "profit_rate": -0.0327794561933535
     },
     {
       "market": "KRW-ZTX",
       "amount": 11700.8797654,
       "avg_price": 0.83,
-      "current_price": 0.8264,
-      "value": 9669.607038126562,
-      "profit_rate": -0.004337349397590285
+      "current_price": 0.8301,
+      "value": 9712.90029325854,
+      "profit_rate": 0.00012048192771083011
     }
   ],
-  "last_update": "2025-12-01T08:59:05.351011",
+  "last_update": "2025-12-01T09:04:30.889572",
   "trades": [
     {
       "type": "sell",
