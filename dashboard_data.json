@@ -1,7 +1,7 @@
 {
   "today_profit": -2971.727111415285,
   "today_profit_percent": 0,
-  "total_profit": -8332.928520470223,
+  "total_profit": -8529.977442003723,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -157,17 +157,33 @@
       "market": "KRW-BTC",
       "amount": 7.569e-05,
       "avg_price": 129154000.0,
-      "current_price": 128804000.0,
-      "value": 9749.17476,
-      "profit_rate": -0.0027099431686204065
+      "current_price": 128582000.0,
+      "value": 9732.37158,
+      "profit_rate": -0.004428821407002493
     },
     {
       "market": "KRW-ETH",
       "amount": 0.00231492,
       "avg_price": 4222001.0,
-      "current_price": 4217000.0,
-      "value": 9762.01764,
-      "profit_rate": -0.0011845094304809498
+      "current_price": 4211000.0,
+      "value": 9748.12812,
+      "profit_rate": -0.0026056365216398573
+    },
+    {
+      "market": "KRW-SXP",
+      "amount": 102.95180101,
+      "avg_price": 94.9,
+      "current_price": 93.76,
+      "value": 9652.7608626976,
+      "profit_rate": -0.012012644889357223
+    },
+    {
+      "market": "KRW-CKB",
+      "amount": 2332.9127801,
+      "avg_price": 3.59,
+      "current_price": 3.569,
+      "value": 8326.1657121769,
+      "profit_rate": -0.005849582172701925
     },
     {
       "market": "KRW-GRACY",
@@ -178,7 +194,7 @@
       "profit_rate": -0.012237762237762132
     }
   ],
-  "last_update": "2025-12-01T13:24:44.364764",
+  "last_update": "2025-12-01T13:31:30.405741",
   "trades": [
     {
       "type": "buy",

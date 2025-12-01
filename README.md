@@ -13,10 +13,9 @@
 
 ## 🚀 Quick Start
 
-### 로컬 실행
+### 접속 URL
 ```bash
-# 브라우저에서 index.html 열기
-open index.html
+[# 브라우저에서 index.html 열기](https://jinalssem.github.io/Jarvis-dashboard/)
 ```
 
 ### Netlify 배포
@@ -49,8 +48,7 @@ const lossSounds = ['억!', '윽!', ...];
 
 ## 📝 Note
 
-현재는 시뮬레이션 모드로 작동합니다.
-실제 봇 데이터와 연동하려면 DEPLOYMENT_GUIDE.md를 참고하세요.
+봇과 연동한 실시간 거래를 2분 정도 뒤에 보여줍니다.
 
 ## 🎉 Enjoy!
 
