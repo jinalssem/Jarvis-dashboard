@@ -1,7 +1,7 @@
 {
-  "today_profit": 6613.378290818938,
+  "today_profit": 6962.503290819147,
   "today_profit_percent": 0,
-  "total_profit": 5543.682852982931,
+  "total_profit": 6048.499529076481,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -157,13 +157,29 @@
       "market": "KRW-APM",
       "amount": 5541.66666667,
       "avg_price": 1.76,
-      "current_price": 1.821,
-      "value": 10091.37500000607,
-      "profit_rate": 0.034659090909090876
+      "current_price": 1.823,
+      "value": 10102.45833333941,
+      "profit_rate": 0.03579545454545451
     }
   ],
-  "last_update": "2025-12-02T23:23:40.611219",
+  "last_update": "2025-12-02T23:26:50.187368",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-APM",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-02T23:25:45.562083"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-APM",
+      "profit": 349.1250000002097,
+      "price": 1.823,
+      "amount": 5541.66666667,
+      "time": "2025-12-02T23:25:45.558526"
+    },
     {
       "type": "sell",
       "market": "KRW-APM",
@@ -947,22 +963,6 @@
       "price": 4154000.0,
       "amount": 0.00207032,
       "time": "2025-12-01T12:43:38.279934"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-BNT",
-      "profit": -144.60834275999997,
-      "price": 680.0,
-      "amount": 8.03379682,
-      "time": "2025-12-01T12:43:37.716971"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-SXP",
-      "profit": 0,
-      "price": 94.9,
-      "amount": 102.95180101,
-      "time": "2025-12-01T12:25:14.333617"
     }
   ]
 }
