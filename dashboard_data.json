@@ -1,7 +1,7 @@
 {
   "today_profit": 4895.461624151238,
   "today_profit_percent": 0,
-  "total_profit": 3061.4346875505216,
+  "total_profit": 3428.903493252521,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -153,8 +153,16 @@
     "profit_rate": 0.0
   },
   "holdings": [],
-  "last_update": "2025-12-02T21:35:43.593867",
+  "last_update": "2025-12-02T21:38:57.698656",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-IOST",
+      "profit": 0,
+      "price": 3.25,
+      "amount": 3005.42332028,
+      "time": "2025-12-02T21:37:49.623715"
+    },
     {
       "type": "buy",
       "market": "KRW-ETH",
@@ -946,14 +954,6 @@
       "price": 4222000.0,
       "amount": 0.00231492,
       "time": "2025-12-01T09:36:28.130790"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-NCT",
-      "profit": -367.46880570199954,
-      "price": 15.78,
-      "amount": 592.6916221,
-      "time": "2025-12-01T09:31:07.593977"
     }
   ]
 }
