@@ -153,8 +153,16 @@
     "profit_rate": 0.0
   },
   "holdings": [],
-  "last_update": "2025-12-03T05:46:28.572967",
+  "last_update": "2025-12-03T05:51:45.606820",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-MERL",
+      "profit": 0,
+      "price": 470.0,
+      "amount": 20.78125,
+      "time": "2025-12-03T05:50:37.680965"
+    },
     {
       "type": "buy",
       "market": "KRW-MAY",
@@ -946,14 +954,6 @@
       "price": 14.5,
       "amount": 639.12889403,
       "time": "2025-12-02T11:04:27.332827"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-POL",
-      "profit": 0,
-      "price": 172.0,
-      "amount": 56.67613636,
-      "time": "2025-12-02T10:48:47.812517"
     }
   ]
 }
