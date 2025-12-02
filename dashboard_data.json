@@ -1,7 +1,7 @@
 {
-  "today_profit": 2082.7035409657556,
+  "today_profit": 2537.882715449751,
   "today_profit_percent": 0,
-  "total_profit": -10538.632119844133,
+  "total_profit": -11369.9084417488,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -157,29 +157,29 @@
       "market": "KRW-XRP",
       "amount": 1.2344358,
       "avg_price": 3020.0,
-      "current_price": 3022.0,
-      "value": 3730.4649876,
-      "profit_rate": 0.0006622516556291391
-    },
-    {
-      "market": "KRW-EL",
-      "amount": 2234.66045168,
-      "avg_price": 3.08,
-      "current_price": 3.179,
-      "value": 7103.985575890719,
-      "profit_rate": 0.03214285714285706
-    },
-    {
-      "market": "KRW-OBSR",
-      "amount": 41379.92495309,
-      "avg_price": 1.055,
-      "current_price": 1.061,
-      "value": 43904.10037522849,
-      "profit_rate": 0.0056872037914692
+      "current_price": 3018.0,
+      "value": 3725.5272443999997,
+      "profit_rate": -0.0006622516556291391
     }
   ],
-  "last_update": "2025-12-02T09:24:29.923908",
+  "last_update": "2025-12-02T09:30:54.191263",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-OBSR",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-02T09:29:39.459571"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-OBSR",
+      "profit": 455.179174483995,
+      "price": 1.066,
+      "amount": 41379.92495309,
+      "time": "2025-12-02T09:29:39.456739"
+    },
     {
       "type": "sell",
       "market": "KRW-EL",
@@ -963,22 +963,6 @@
       "price": 2.96,
       "amount": 3295.3419227,
       "time": "2025-11-30T14:15:24.366241"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-SAHARA",
-      "profit": 493.2751702710007,
-      "price": 68.95,
-      "amount": 252.96162578,
-      "time": "2025-11-30T10:50:43.257279"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-SAHARA",
-      "profit": 318.7316484828013,
-      "price": 68.26,
-      "amount": 252.96162578,
-      "time": "2025-11-30T10:40:03.333572"
     }
   ]
 }
