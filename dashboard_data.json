@@ -153,8 +153,16 @@
     "profit_rate": 0.0
   },
   "holdings": [],
-  "last_update": "2025-12-03T06:02:24.433289",
+  "last_update": "2025-12-03T06:07:34.371987",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-ORCA",
+      "profit": 0,
+      "price": 1925.0,
+      "amount": 5.07633588,
+      "time": "2025-12-03T06:06:26.509292"
+    },
     {
       "type": "buy",
       "market": "KRW-OAS",
@@ -946,14 +954,6 @@
       "price": 48310.0,
       "amount": 0.20233266,
       "time": "2025-12-02T13:26:17.627633"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-COMP",
-      "profit": 0,
-      "price": 48350.0,
-      "amount": 0.15518394,
-      "time": "2025-12-02T11:37:56.100017"
     }
   ]
 }
