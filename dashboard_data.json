@@ -1,7 +1,7 @@
 {
   "today_profit": 4895.461624151238,
   "today_profit_percent": 0,
-  "total_profit": 3428.903493252521,
+  "total_profit": 3775.2495343083606,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -153,8 +153,16 @@
     "profit_rate": 0.0
   },
   "holdings": [],
-  "last_update": "2025-12-02T22:07:27.558805",
+  "last_update": "2025-12-02T22:10:41.910719",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-BTC",
+      "profit": 0,
+      "price": 127458000.0,
+      "amount": 7.67e-05,
+      "time": "2025-12-02T22:09:33.895709"
+    },
     {
       "type": "buy",
       "market": "KRW-APM",
@@ -946,14 +954,6 @@
       "price": 129154000.0,
       "amount": 7.569e-05,
       "time": "2025-12-01T09:41:51.879365"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-ZTX",
-      "profit": -346.3460410558396,
-      "price": 0.8004,
-      "amount": 11700.8797654,
-      "time": "2025-12-01T09:41:50.707740"
     }
   ]
 }
