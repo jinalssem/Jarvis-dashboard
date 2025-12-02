@@ -759,7 +759,7 @@
             <div class="sort-controls">
                 <button class="sort-btn active" data-sort="name">이름순</button>
                 <button class="sort-btn" data-sort="profit">수익률순</button>
-                <button class="sort-btn" data-sort="value">평가액순</button>
+                <button class="sort-btn" data-sort="profit_amount">손익순</button>
             </div>
             
             <div class="holdings-grid" id="holdingsGrid"></div>
@@ -942,8 +942,8 @@
                     return a.market.localeCompare(b.market);
                 } else if (criteria === 'profit') {
                     return b.profit_rate - a.profit_rate;
-                } else if (criteria === 'value') {
-                    return b.value - a.value;
+                } else if (criteria === 'profit_amount') {
+                    return b.profit - a.profit;
                 }
                 return 0;
             });
