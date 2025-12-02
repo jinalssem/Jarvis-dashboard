@@ -153,8 +153,16 @@
     "profit_rate": 0.0
   },
   "holdings": [],
-  "last_update": "2025-12-03T05:41:18.219468",
+  "last_update": "2025-12-03T05:46:28.572967",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-MAY",
+      "profit": 0,
+      "price": 27.5,
+      "amount": 354.35168739,
+      "time": "2025-12-03T05:45:20.712302"
+    },
     {
       "type": "buy",
       "market": "KRW-BOA",
@@ -946,14 +954,6 @@
       "price": 172.0,
       "amount": 56.67613636,
       "time": "2025-12-02T10:48:47.812517"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-BAT",
-      "profit": 0,
-      "price": 356.0,
-      "amount": 27.40384615,
-      "time": "2025-12-02T09:52:37.424416"
     }
   ]
 }
