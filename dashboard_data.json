@@ -1,7 +1,7 @@
 {
   "today_profit": 0,
   "today_profit_percent": 0,
-  "total_profit": 5699.374529076271,
+  "total_profit": 5478.84946940267,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -152,8 +152,17 @@
     "profit": 0,
     "profit_rate": 0.0
   },
-  "holdings": [],
-  "last_update": "2025-12-03T00:29:00.011605",
+  "holdings": [
+    {
+      "market": "KRW-A8",
+      "amount": 125.29832936,
+      "avg_price": 78.0,
+      "current_price": 76.24,
+      "value": 9552.7446304064,
+      "profit_rate": -0.02256410256410263
+    }
+  ],
+  "last_update": "2025-12-03T00:32:06.155406",
   "trades": [
     {
       "type": "buy",
