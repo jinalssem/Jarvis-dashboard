@@ -153,8 +153,16 @@
     "profit_rate": 0.0
   },
   "holdings": [],
-  "last_update": "2025-12-03T05:57:06.790153",
+  "last_update": "2025-12-03T06:02:24.433289",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-OAS",
+      "profit": 0,
+      "price": 3.2,
+      "amount": 3053.25987144,
+      "time": "2025-12-03T06:01:16.692965"
+    },
     {
       "type": "buy",
       "market": "KRW-MERL",
@@ -946,14 +954,6 @@
       "price": 48350.0,
       "amount": 0.15518394,
       "time": "2025-12-02T11:37:56.100017"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-UOS",
-      "profit": 0,
-      "price": 14.5,
-      "amount": 639.12889403,
-      "time": "2025-12-02T11:04:27.332827"
     }
   ]
 }
