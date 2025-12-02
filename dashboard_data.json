@@ -1,7 +1,7 @@
 {
-  "today_profit": 14433.975405650828,
+  "today_profit": 14507.96011895773,
   "today_profit_percent": 0,
-  "total_profit": 9556.064161351891,
+  "total_profit": 9483.869290384662,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -157,21 +157,37 @@
       "market": "KRW-EVZ",
       "amount": 9731.70731707,
       "avg_price": 1.0,
-      "current_price": 0.9803,
-      "value": 9539.992682923721,
-      "profit_rate": -0.01970000000000005
+      "current_price": 0.9765,
+      "value": 9503.012195118856,
+      "profit_rate": -0.023499999999999965
     },
     {
       "market": "KRW-AI16Z",
-      "amount": 2466.15711023,
-      "avg_price": 24.93,
-      "current_price": 25.15,
-      "value": 62023.85132228449,
-      "profit_rate": 0.00882470918571997
+      "amount": 2953.1318467,
+      "avg_price": 24.87,
+      "current_price": 24.89,
+      "value": 73503.451664363,
+      "profit_rate": 0.0008041817450743697
     }
   ],
-  "last_update": "2025-12-02T19:57:20.868604",
+  "last_update": "2025-12-02T20:00:47.647921",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-AI16Z",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-02T19:59:41.222003"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-AI16Z",
+      "profit": 73.9847133069028,
+      "price": 24.96,
+      "amount": 2466.15711023,
+      "time": "2025-12-02T19:59:41.220280"
+    },
     {
       "type": "buy",
       "market": "KRW-CKB",
@@ -955,22 +971,6 @@
       "price": 79.46,
       "amount": 146.09477072,
       "time": "2025-12-01T07:48:19.659846"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-MAY",
-      "profit": -540.0745209881999,
-      "price": 32.19,
-      "amount": 255.95948862,
-      "time": "2025-12-01T07:37:41.197659"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-FANC",
-      "profit": 165.78169014086922,
-      "price": 3.529,
-      "amount": 2809.85915493,
-      "time": "2025-12-01T07:10:30.798815"
     }
   ]
 }
