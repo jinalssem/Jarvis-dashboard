@@ -1,7 +1,7 @@
 {
   "today_profit": 14075.698111950827,
   "today_profit_percent": 0,
-  "total_profit": 8447.38723651073,
+  "total_profit": 8077.2404589507305,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -157,9 +157,9 @@
       "market": "KRW-XRP",
       "amount": 1.2344358,
       "avg_price": 3020.0,
-      "current_price": 2989.0,
-      "value": 3689.7286062,
-      "profit_rate": -0.010264900662251655
+      "current_price": 2992.0,
+      "value": 3693.4319136,
+      "profit_rate": -0.009271523178807948
     },
     {
       "market": "KRW-EVZ",
@@ -170,8 +170,16 @@
       "profit_rate": -0.0048000000000000265
     }
   ],
-  "last_update": "2025-12-02T17:30:24.690145",
+  "last_update": "2025-12-02T17:33:48.507802",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-BAT",
+      "profit": 0,
+      "price": 357.0,
+      "amount": 27.32876712,
+      "time": "2025-12-02T17:32:43.643246"
+    },
     {
       "type": "sell",
       "market": "KRW-A8",
@@ -963,14 +971,6 @@
       "price": 698.0,
       "amount": 8.03379682,
       "time": "2025-12-01T00:58:29.622197"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-BAL",
-      "profit": 373.85008496,
-      "price": 1206.0,
-      "amount": 8.49659284,
-      "time": "2025-12-01T00:58:28.416330"
     }
   ]
 }
