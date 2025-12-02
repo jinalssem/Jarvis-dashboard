@@ -1,7 +1,7 @@
 {
   "today_profit": -7205.068012620891,
   "today_profit_percent": 0,
-  "total_profit": -2457.412702966394,
+  "total_profit": -2642.8402461100936,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -157,21 +157,29 @@
       "market": "KRW-YFI",
       "amount": 0.00909879,
       "avg_price": 5456002.0,
-      "current_price": 5488000.0,
-      "value": 49934.15952,
-      "profit_rate": 0.005864733920552082
+      "current_price": 5461000.0,
+      "value": 49688.492190000004,
+      "profit_rate": 0.0009160553826776457
     },
     {
       "market": "KRW-MAY",
       "amount": 354.35168739,
       "avg_price": 27.5,
-      "current_price": 27.59,
-      "value": 9776.5630550901,
-      "profit_rate": 0.0032727272727272674
+      "current_price": 27.76,
+      "value": 9836.8028419464,
+      "profit_rate": 0.00945454545454551
     }
   ],
-  "last_update": "2025-12-03T06:49:29.477159",
+  "last_update": "2025-12-03T06:54:46.038585",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-MAY",
+      "profit": 0,
+      "price": 27.2,
+      "amount": 356.81026983,
+      "time": "2025-12-03T06:53:36.717914"
+    },
     {
       "type": "buy",
       "market": "KRW-H",
@@ -963,14 +971,6 @@
       "price": 333.0,
       "amount": 29.33823529,
       "time": "2025-12-02T14:12:50.050092"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-BAL",
-      "profit": 0,
-      "price": 922.0,
-      "amount": 10.60042508,
-      "time": "2025-12-02T13:33:03.163301"
     }
   ]
 }
