@@ -1,7 +1,7 @@
 {
   "today_profit": -191.76384454880062,
   "today_profit_percent": 0,
-  "total_profit": 6770.739446270347,
+  "total_profit": 6894.188062506347,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -152,8 +152,17 @@
     "profit": 0,
     "profit_rate": 0.0
   },
-  "holdings": [],
-  "last_update": "2025-12-03T01:30:49.607857",
+  "holdings": [
+    {
+      "market": "KRW-MON",
+      "amount": 181.5420827,
+      "avg_price": 45.3,
+      "current_price": 45.98,
+      "value": 8347.304962545999,
+      "profit_rate": 0.015011037527593814
+    }
+  ],
+  "last_update": "2025-12-03T01:33:56.994669",
   "trades": [
     {
       "type": "sell",
