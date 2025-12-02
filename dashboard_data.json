@@ -1,7 +1,7 @@
 {
   "today_profit": 11430.487568015451,
   "today_profit_percent": 0,
-  "total_profit": 7178.694338514599,
+  "total_profit": 6336.840502749109,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -157,37 +157,37 @@
       "market": "KRW-XRP",
       "amount": 1.2344358,
       "avg_price": 3020.0,
-      "current_price": 3011.0,
-      "value": 3716.8861938,
-      "profit_rate": -0.002980132450331126
-    },
-    {
-      "market": "KRW-BOA",
-      "amount": 22869.33794358,
-      "avg_price": 4.999,
-      "current_price": 5.01,
-      "value": 114575.3830973358,
-      "profit_rate": 0.002200440088017628
+      "current_price": 3008.0,
+      "value": 3713.1828864,
+      "profit_rate": -0.003973509933774834
     },
     {
       "market": "KRW-EVZ",
       "amount": 30712.63588601,
       "avg_price": 1.03,
-      "current_price": 1.023,
-      "value": 31419.026511388227,
-      "profit_rate": -0.0067961165048544825
+      "current_price": 1.012,
+      "value": 31081.18751664212,
+      "profit_rate": -0.01747572815533982
     },
     {
       "market": "KRW-BAL",
       "amount": 10.60042508,
       "avg_price": 922.0,
-      "current_price": 918.0,
-      "value": 9731.19022344,
-      "profit_rate": -0.004338394793926247
+      "current_price": 929.0,
+      "value": 9847.79489932,
+      "profit_rate": 0.007592190889370932
     }
   ],
-  "last_update": "2025-12-02T16:33:26.599202",
+  "last_update": "2025-12-02T16:36:57.016213",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-ETH",
+      "profit": 0,
+      "price": 4105000.0,
+      "amount": 0.00428623,
+      "time": "2025-12-02T16:35:50.327937"
+    },
     {
       "type": "buy",
       "market": "KRW-EVZ",
@@ -979,14 +979,6 @@
       "price": 3.47,
       "amount": 2809.85915493,
       "time": "2025-12-01T00:10:43.717644"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-BAL",
-      "profit": 365.35349212,
-      "price": 1205.0,
-      "amount": 8.49659284,
-      "time": "2025-12-01T00:10:42.073407"
     }
   ]
 }
