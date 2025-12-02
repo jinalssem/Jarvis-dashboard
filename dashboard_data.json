@@ -1,7 +1,7 @@
 {
   "today_profit": -191.76384454880062,
   "today_profit_percent": 0,
-  "total_profit": 6894.188062506347,
+  "total_profit": 6912.3422707763475,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -157,13 +157,21 @@
       "market": "KRW-MON",
       "amount": 181.5420827,
       "avg_price": 45.3,
-      "current_price": 45.98,
-      "value": 8347.304962545999,
-      "profit_rate": 0.015011037527593814
+      "current_price": 46.08,
+      "value": 8365.459170816,
+      "profit_rate": 0.017218543046357643
     }
   ],
-  "last_update": "2025-12-03T01:33:56.994669",
+  "last_update": "2025-12-03T01:37:03.111212",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-ELX",
+      "profit": 0,
+      "price": 54.6,
+      "amount": 154.96326226,
+      "time": "2025-12-03T01:35:58.509639"
+    },
     {
       "type": "sell",
       "market": "KRW-A8",
@@ -955,14 +963,6 @@
       "price": 3.179,
       "amount": 2234.66045168,
       "time": "2025-12-02T08:00:19.050825"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-BNT",
-      "profit": 0,
-      "price": 647.0,
-      "amount": 15.09077156,
-      "time": "2025-12-01T16:09:13.140991"
     }
   ]
 }
