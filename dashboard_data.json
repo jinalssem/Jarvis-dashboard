@@ -1,7 +1,7 @@
 {
-  "today_profit": 7359.745414058212,
+  "today_profit": 9669.548546359792,
   "today_profit_percent": 0,
-  "total_profit": 5250.190585527673,
+  "total_profit": 7639.9244642611375,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -157,25 +157,25 @@
       "market": "KRW-XRP",
       "amount": 1.2344358,
       "avg_price": 3020.0,
-      "current_price": 3017.0,
-      "value": 3724.2928085999997,
-      "profit_rate": -0.0009933774834437086
+      "current_price": 3014.0,
+      "value": 3720.5895012,
+      "profit_rate": -0.001986754966887417
     },
     {
       "market": "KRW-BOA",
       "amount": 22869.33794358,
       "avg_price": 4.999,
-      "current_price": 5.095,
-      "value": 116519.27682254011,
-      "profit_rate": 0.019203840768153648
+      "current_price": 5.1,
+      "value": 116633.623512258,
+      "profit_rate": 0.02020404080816163
     },
     {
       "market": "KRW-EVZ",
       "amount": 30712.63588601,
       "avg_price": 1.03,
-      "current_price": 1.024,
-      "value": 31449.739147274242,
-      "profit_rate": -0.005825242718446607
+      "current_price": 1.023,
+      "value": 31419.026511388227,
+      "profit_rate": -0.0067961165048544825
     },
     {
       "market": "KRW-BAL",
@@ -186,8 +186,24 @@
       "profit_rate": -0.0032537960954446853
     }
   ],
-  "last_update": "2025-12-02T16:15:16.954705",
+  "last_update": "2025-12-02T16:19:11.431145",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-BOA",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-02T16:18:04.311570"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-BOA",
+      "profit": 2309.80313230158,
+      "price": 5.1,
+      "amount": 22869.33794358,
+      "time": "2025-12-02T16:18:04.310405"
+    },
     {
       "type": "buy",
       "market": "KRW-BOA",
@@ -971,22 +987,6 @@
       "price": 134064000.0,
       "amount": 7.292e-05,
       "time": "2025-11-30T23:40:48.946482"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-CKB",
-      "profit": 0,
-      "price": 3.78,
-      "amount": 2579.51900698,
-      "time": "2025-11-30T23:19:43.285908"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-BAL",
-      "profit": 0,
-      "price": 1150.0,
-      "amount": 8.49659284,
-      "time": "2025-11-30T23:12:48.015696"
     }
   ]
 }
