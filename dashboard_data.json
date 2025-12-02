@@ -1,7 +1,7 @@
 {
   "today_profit": -7205.068012620891,
   "today_profit_percent": 0,
-  "total_profit": -2780.447437251494,
+  "total_profit": -2780.463837251494,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -152,8 +152,17 @@
     "profit": 0,
     "profit_rate": 0.0
   },
-  "holdings": [],
-  "last_update": "2025-12-03T06:07:34.371987",
+  "holdings": [
+    {
+      "market": "KRW-YFI",
+      "amount": 0.0082,
+      "avg_price": 5456002.0,
+      "current_price": 5456000.0,
+      "value": 44739.200000000004,
+      "profit_rate": -3.6656878058329156e-07
+    }
+  ],
+  "last_update": "2025-12-03T06:12:44.784414",
   "trades": [
     {
       "type": "buy",
