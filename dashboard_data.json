@@ -1,7 +1,7 @@
 {
   "today_profit": 154.1169451128005,
   "today_profit_percent": 0,
-  "total_profit": 7562.820802599266,
+  "total_profit": 7294.558463099167,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -152,18 +152,17 @@
     "profit": 0,
     "profit_rate": 0.0
   },
-  "holdings": [
-    {
-      "market": "KRW-A8",
-      "amount": 125.29832936,
-      "avg_price": 78.0,
-      "current_price": 79.21,
-      "value": 9924.8806686056,
-      "profit_rate": 0.015512820512820432
-    }
-  ],
-  "last_update": "2025-12-03T00:38:15.648757",
+  "holdings": [],
+  "last_update": "2025-12-03T00:41:25.189498",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-XPR",
+      "profit": 0,
+      "price": 5.05,
+      "amount": 1932.01626961,
+      "time": "2025-12-03T00:40:21.094145"
+    },
     {
       "type": "buy",
       "market": "KRW-H",
@@ -955,14 +954,6 @@
       "price": 0.8018,
       "amount": 8944.7298379,
       "time": "2025-12-01T15:18:58.197766"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-SXP",
-      "profit": 116.6513609744994,
-      "price": 92.55,
-      "amount": 70.69779453,
-      "time": "2025-12-01T15:11:44.832831"
     }
   ]
 }
