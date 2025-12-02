@@ -1,7 +1,7 @@
 {
-  "today_profit": 14075.698111950827,
+  "today_profit": 14433.975405650828,
   "today_profit_percent": 0,
-  "total_profit": 9768.300417566374,
+  "total_profit": 10166.287140292481,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -157,9 +157,9 @@
       "market": "KRW-XRP",
       "amount": 9.6831701,
       "avg_price": 2993.0,
-      "current_price": 3020.0,
-      "value": 29243.173702,
-      "profit_rate": 0.009021049114600735
+      "current_price": 3028.0,
+      "value": 29320.6390628,
+      "profit_rate": 0.011693952555963916
     },
     {
       "market": "KRW-EVZ",
@@ -173,13 +173,29 @@
       "market": "KRW-AI16Z",
       "amount": 2466.15711023,
       "avg_price": 24.93,
-      "current_price": 25.29,
-      "value": 62369.1133177167,
-      "profit_rate": 0.014440433212996368
+      "current_price": 25.26,
+      "value": 62295.1286044098,
+      "profit_rate": 0.013237063778580098
     }
   ],
-  "last_update": "2025-12-02T19:46:40.121683",
+  "last_update": "2025-12-02T19:50:12.187503",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-XRP",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-02T19:49:07.003546"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-XRP",
+      "profit": 358.2772937,
+      "price": 3030.0,
+      "amount": 9.6831701,
+      "time": "2025-12-02T19:49:07.001963"
+    },
     {
       "type": "buy",
       "market": "KRW-ETH",
@@ -963,22 +979,6 @@
       "price": 66.62,
       "amount": 103.51080438,
       "time": "2025-12-01T07:10:29.689328"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-MAY",
-      "profit": 0,
-      "price": 34.3,
-      "amount": 255.95948862,
-      "time": "2025-12-01T04:06:22.282510"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-STAT",
-      "profit": -36.228781533000884,
-      "price": 67.05,
-      "amount": 103.51080438,
-      "time": "2025-12-01T04:00:57.631057"
     }
   ]
 }
