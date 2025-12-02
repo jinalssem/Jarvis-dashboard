@@ -170,8 +170,24 @@
       "profit_rate": 0.016000000000000045
     }
   ],
-  "last_update": "2025-12-03T07:23:59.466437",
+  "last_update": "2025-12-03T07:26:18.996696",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-MAY",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-03T07:26:18.996352"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-MAY",
+      "profit": 194.89342806450026,
+      "price": 28.05,
+      "amount": 354.35168739,
+      "time": "2025-12-03T07:26:18.995166"
+    },
     {
       "type": "buy",
       "market": "KRW-JST",
@@ -955,22 +971,6 @@
       "price": 73.13,
       "amount": 5233.89184345,
       "time": "2025-12-02T14:43:09.924628"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-COMP",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-02T14:32:08.987966"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-COMP",
-      "profit": -45.6567158,
-      "price": 49010.0,
-      "amount": 0.19850746,
-      "time": "2025-12-02T14:32:08.924728"
     }
   ]
 }
