@@ -1,7 +1,7 @@
 {
-  "today_profit": 14342.52109456754,
+  "today_profit": 4895.461624151238,
   "today_profit_percent": 0,
-  "total_profit": 3052.6714149022173,
+  "total_profit": 2305.062392063522,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -152,18 +152,25 @@
     "profit": 0,
     "profit_rate": 0.0
   },
-  "holdings": [
-    {
-      "market": "KRW-AI16Z",
-      "amount": 6796.44566217,
-      "avg_price": 24.76,
-      "current_price": 23.48,
-      "value": 159580.5441477516,
-      "profit_rate": -0.05169628432956386
-    }
-  ],
-  "last_update": "2025-12-02T21:23:06.174172",
+  "holdings": [],
+  "last_update": "2025-12-02T21:26:17.936358",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-AI16Z",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-02T21:25:12.328120"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-AI16Z",
+      "profit": -9447.059470416303,
+      "price": 23.37,
+      "amount": 6796.44566217,
+      "time": "2025-12-02T21:25:12.325087"
+    },
     {
       "type": "sell",
       "market": "KRW-EVZ",
@@ -947,22 +954,6 @@
       "price": 101.0,
       "amount": 92.36111111,
       "time": "2025-12-01T09:20:02.405560"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-FANC",
-      "profit": 0,
-      "price": 3.4,
-      "amount": 2869.67779056,
-      "time": "2025-12-01T09:14:29.300607"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-ZTX",
-      "profit": 0,
-      "price": 0.79,
-      "amount": 8944.7298379,
-      "time": "2025-12-01T09:08:50.318483"
     }
   ]
 }
