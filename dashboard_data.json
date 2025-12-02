@@ -1,7 +1,7 @@
 {
-  "today_profit": 1861.4721562494365,
+  "today_profit": 2082.7035409657556,
   "today_profit_percent": 0,
-  "total_profit": -10379.429608721653,
+  "total_profit": -10538.632119844133,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -157,9 +157,9 @@
       "market": "KRW-XRP",
       "amount": 1.2344358,
       "avg_price": 3020.0,
-      "current_price": 3031.0,
-      "value": 3741.5749098,
-      "profit_rate": 0.003642384105960265
+      "current_price": 3022.0,
+      "value": 3730.4649876,
+      "profit_rate": 0.0006622516556291391
     },
     {
       "market": "KRW-EL",
@@ -178,8 +178,24 @@
       "profit_rate": 0.0056872037914692
     }
   ],
-  "last_update": "2025-12-02T09:18:34.110282",
+  "last_update": "2025-12-02T09:24:29.923908",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-EL",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-02T09:23:12.865056"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-EL",
+      "profit": 221.23138471631944,
+      "price": 3.179,
+      "amount": 2234.66045168,
+      "time": "2025-12-02T09:23:12.863014"
+    },
     {
       "type": "sell",
       "market": "KRW-EL",
@@ -963,22 +979,6 @@
       "price": 68.26,
       "amount": 252.96162578,
       "time": "2025-11-30T10:40:03.333572"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-SAHARA",
-      "profit": 369.3239736387984,
-      "price": 68.46,
-      "amount": 252.96162578,
-      "time": "2025-11-30T10:29:07.690568"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-WAXP",
-      "profit": 0,
-      "price": 13.8,
-      "amount": 705.9447983,
-      "time": "2025-11-30T10:23:49.521540"
     }
   ]
 }
