@@ -1,7 +1,7 @@
 {
-  "today_profit": 11061.133266489238,
+  "today_profit": 14075.698111950827,
   "today_profit_percent": 0,
-  "total_profit": 1911.453724768509,
+  "total_profit": 7405.780042233488,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -157,29 +157,45 @@
       "market": "KRW-XRP",
       "amount": 1.2344358,
       "avg_price": 3020.0,
-      "current_price": 2990.0,
-      "value": 3690.963042,
-      "profit_rate": -0.009933774834437087
+      "current_price": 2989.0,
+      "value": 3689.7286062,
+      "profit_rate": -0.010264900662251655
     },
     {
       "market": "KRW-EVZ",
       "amount": 9731.70731707,
       "avg_price": 1.0,
-      "current_price": 0.9834,
-      "value": 9570.16097560664,
-      "profit_rate": -0.016599999999999948
+      "current_price": 0.9802,
+      "value": 9539.019512192013,
+      "profit_rate": -0.01980000000000004
     },
     {
       "market": "KRW-A8",
       "amount": 2184.46727932,
       "avg_price": 91.81,
-      "current_price": 90.25,
-      "value": 197148.17195863003,
-      "profit_rate": -0.016991613114039888
+      "current_price": 91.4,
+      "value": 199660.30932984804,
+      "profit_rate": -0.004465744472279671
     }
   ],
-  "last_update": "2025-12-02T17:23:21.525480",
+  "last_update": "2025-12-02T17:26:54.924112",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-A8",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-02T17:25:43.764345"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-A8",
+      "profit": 3014.5648454615903,
+      "price": 93.19,
+      "amount": 2184.46727932,
+      "time": "2025-12-02T17:25:43.762970"
+    },
     {
       "type": "buy",
       "market": "KRW-BTC",
@@ -963,22 +979,6 @@
       "price": 1206.0,
       "amount": 8.49659284,
       "time": "2025-12-01T00:58:28.416330"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-STAT",
-      "profit": 0,
-      "price": 67.4,
-      "amount": 103.51080438,
-      "time": "2025-12-01T00:53:05.426931"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-ETH",
-      "profit": 0,
-      "price": 4440000.0,
-      "amount": 0.00150375,
-      "time": "2025-12-01T00:47:27.274172"
     }
   ]
 }
