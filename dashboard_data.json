@@ -1,7 +1,7 @@
 {
-  "today_profit": 154.1169451128005,
+  "today_profit": -191.76384454880062,
   "today_profit_percent": 0,
-  "total_profit": 6792.636315414347,
+  "total_profit": 6770.739446270347,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -152,18 +152,25 @@
     "profit": 0,
     "profit_rate": 0.0
   },
-  "holdings": [
-    {
-      "market": "KRW-A8",
-      "amount": 126.23386484,
-      "avg_price": 77.4,
-      "current_price": 74.26,
-      "value": 9374.1268030184,
-      "profit_rate": -0.040568475452196384
-    }
-  ],
-  "last_update": "2025-12-03T01:21:39.205701",
+  "holdings": [],
+  "last_update": "2025-12-03T01:24:44.475910",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-A8",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-03T01:23:40.190214"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-A8",
+      "profit": -345.8807896616011,
+      "price": 74.66,
+      "amount": 126.23386484,
+      "time": "2025-12-03T01:23:40.187534"
+    },
     {
       "type": "buy",
       "market": "KRW-MON",
@@ -947,22 +954,6 @@
       "price": 647.0,
       "amount": 15.09077156,
       "time": "2025-12-01T16:09:13.140991"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-ETH",
-      "profit": 53.24084507999999,
-      "price": 4245000.0,
-      "amount": 0.00231492,
-      "time": "2025-12-01T15:47:29.884108"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-BTC",
-      "profit": 19.14957,
-      "price": 129407000.0,
-      "amount": 7.569e-05,
-      "time": "2025-12-01T15:47:28.172023"
     }
   ]
 }
