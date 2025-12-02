@@ -1,7 +1,7 @@
 {
   "today_profit": 2537.882715449751,
   "today_profit_percent": 0,
-  "total_profit": -11414.4977903488,
+  "total_profit": -11375.5968237488,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -157,21 +157,29 @@
       "market": "KRW-XRP",
       "amount": 1.2344358,
       "avg_price": 3020.0,
-      "current_price": 3006.0,
-      "value": 3710.7140148,
-      "profit_rate": -0.004635761589403974
+      "current_price": 3015.0,
+      "value": 3721.823937,
+      "profit_rate": -0.0016556291390728477
     },
     {
       "market": "KRW-COMP",
       "amount": 0.19850746,
       "avg_price": 49240.0,
-      "current_price": 49090.0,
-      "value": 9744.7312114,
-      "profit_rate": -0.0030463038180341185
+      "current_price": 49230.0,
+      "value": 9772.5222558,
+      "profit_rate": -0.00020308692120227456
     }
   ],
-  "last_update": "2025-12-02T14:07:23.897551",
+  "last_update": "2025-12-02T14:14:00.377662",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-GLM",
+      "profit": 0,
+      "price": 333.0,
+      "amount": 29.33823529,
+      "time": "2025-12-02T14:12:50.050092"
+    },
     {
       "type": "buy",
       "market": "KRW-BAL",
@@ -963,14 +971,6 @@
       "price": 62.93,
       "amount": 3669.35224373,
       "time": "2025-11-30T17:40:22.388890"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-SAHARA",
-      "profit": 0,
-      "price": 60.7,
-      "amount": 160.86115143,
-      "time": "2025-11-30T17:22:52.775456"
     }
   ]
 }
