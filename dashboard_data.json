@@ -153,8 +153,16 @@
     "profit_rate": 0.0
   },
   "holdings": [],
-  "last_update": "2025-12-03T00:04:27.573212",
+  "last_update": "2025-12-03T00:07:32.495283",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-A8",
+      "profit": 0,
+      "price": 78.0,
+      "amount": 125.29832936,
+      "time": "2025-12-03T00:06:28.563105"
+    },
     {
       "type": "buy",
       "market": "KRW-AI16Z",
@@ -946,14 +954,6 @@
       "price": 3.51,
       "amount": 1471.9696439,
       "time": "2025-12-01T13:41:54.535573"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-SXP",
-      "profit": 0,
-      "price": 90.9,
-      "amount": 70.69779453,
-      "time": "2025-12-01T13:36:12.929184"
     }
   ]
 }
