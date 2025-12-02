@@ -1,7 +1,7 @@
 {
   "today_profit": -236.60587748009647,
   "today_profit_percent": 0,
-  "total_profit": 4975.877771049614,
+  "total_profit": 5301.487402380511,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -154,15 +154,23 @@
   },
   "holdings": [
     {
+      "market": "KRW-TURBO",
+      "amount": 12711.19627703,
+      "avg_price": 3.653,
+      "current_price": 3.683,
+      "value": 46815.33588830149,
+      "profit_rate": 0.008212428141253711
+    },
+    {
       "market": "KRW-H",
       "amount": 55.72625698,
       "avg_price": 175.0,
-      "current_price": 177.0,
-      "value": 9863.54748546,
-      "profit_rate": 0.011428571428571429
+      "current_price": 176.0,
+      "value": 9807.821228480001,
+      "profit_rate": 0.005714285714285714
     }
   ],
-  "last_update": "2025-12-03T03:13:08.936981",
+  "last_update": "2025-12-03T03:16:11.683408",
   "trades": [
     {
       "type": "sell",
