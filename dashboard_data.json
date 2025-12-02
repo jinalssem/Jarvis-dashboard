@@ -1,7 +1,7 @@
 {
   "today_profit": -7205.068012620891,
   "today_profit_percent": 0,
-  "total_profit": -2780.463837251494,
+  "total_profit": -2953.342644831494,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -155,15 +155,23 @@
   "holdings": [
     {
       "market": "KRW-YFI",
-      "amount": 0.0082,
+      "amount": 0.00909879,
       "avg_price": 5456002.0,
-      "current_price": 5456000.0,
-      "value": 44739.200000000004,
-      "profit_rate": -3.6656878058329156e-07
+      "current_price": 5437000.0,
+      "value": 49470.121230000004,
+      "profit_rate": -0.0034827699843218533
     }
   ],
-  "last_update": "2025-12-03T06:12:44.784414",
+  "last_update": "2025-12-03T06:17:57.522664",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-H",
+      "profit": 0,
+      "price": 170.0,
+      "amount": 57.32758621,
+      "time": "2025-12-03T06:16:49.065433"
+    },
     {
       "type": "buy",
       "market": "KRW-ORCA",
@@ -955,14 +963,6 @@
       "price": 922.0,
       "amount": 10.60042508,
       "time": "2025-12-02T13:33:03.163301"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-COMP",
-      "profit": 0,
-      "price": 48310.0,
-      "amount": 0.20233266,
-      "time": "2025-12-02T13:26:17.627633"
     }
   ]
 }
