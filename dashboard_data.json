@@ -1,7 +1,7 @@
 {
-  "today_profit": 5360.961624151518,
+  "today_profit": 5804.294957485118,
   "today_profit_percent": 0,
-  "total_profit": 4596.9134591068105,
+  "total_profit": 4950.004991520162,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -157,13 +157,29 @@
       "market": "KRW-APM",
       "amount": 5541.66666667,
       "avg_price": 1.76,
-      "current_price": 1.819,
-      "value": 10080.29166667273,
-      "profit_rate": 0.03352272727272724
+      "current_price": 1.84,
+      "value": 10196.666666672802,
+      "profit_rate": 0.0454545454545455
     }
   ],
-  "last_update": "2025-12-02T23:04:40.863096",
+  "last_update": "2025-12-02T23:07:49.103924",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-APM",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-02T23:06:44.778656"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-APM",
+      "profit": 443.3333333336004,
+      "price": 1.84,
+      "amount": 5541.66666667,
+      "time": "2025-12-02T23:06:44.777466"
+    },
     {
       "type": "sell",
       "market": "KRW-APM",
@@ -947,22 +963,6 @@
       "price": 1106.0,
       "amount": 6.28123776,
       "time": "2025-12-01T11:50:56.301624"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-FANC",
-      "profit": 206.6168009203202,
-      "price": 3.472,
-      "amount": 2869.67779056,
-      "time": "2025-12-01T11:47:43.940647"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-BAL",
-      "profit": 0,
-      "price": 1070.0,
-      "amount": 6.28123776,
-      "time": "2025-12-01T11:44:21.740281"
     }
   ]
 }
