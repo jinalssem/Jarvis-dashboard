@@ -1,7 +1,7 @@
 {
   "today_profit": 4895.461624151238,
   "today_profit_percent": 0,
-  "total_profit": 2674.5068365035218,
+  "total_profit": 3061.4346875505216,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -153,8 +153,16 @@
     "profit_rate": 0.0
   },
   "holdings": [],
-  "last_update": "2025-12-02T21:32:34.881679",
+  "last_update": "2025-12-02T21:35:43.593867",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-ETH",
+      "profit": 0,
+      "price": 4135000.0,
+      "amount": 0.00236374,
+      "time": "2025-12-02T21:34:39.721957"
+    },
     {
       "type": "buy",
       "market": "KRW-GLM",
@@ -946,14 +954,6 @@
       "price": 15.78,
       "amount": 592.6916221,
       "time": "2025-12-01T09:31:07.593977"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-CKB",
-      "profit": -386.92785104699976,
-      "price": 3.63,
-      "amount": 2579.51900698,
-      "time": "2025-12-01T09:31:05.051658"
     }
   ]
 }
