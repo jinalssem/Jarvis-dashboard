@@ -996,9 +996,9 @@
                             <span>${formatAvgPrice(h.current_price)}원</span>
                         </div>
                         <div class="coin-detail-row">
-                            <span class="coin-label">평가액</span>
+                            <span class="coin-label">손익</span>
                             <span style="font-weight: bold; color: ${profitColor};">
-                                ${formatNumber(h.value)}원
+                                ${h.profit >= 0 ? '+' : ''}${formatNumber(h.profit)}원 (${formatPercent(profitRate)})
                             </span>
                         </div>
                     </div>
