@@ -993,7 +993,7 @@
                         </div>
                         <div class="coin-detail-row">
                             <span class="coin-label">현재가</span>
-                            <span>${formatNumber(h.current_price)}원</span>
+                            <span>${formatAvgPrice(h.current_price)}원</span>
                         </div>
                         <div class="coin-detail-row">
                             <span class="coin-label">평가액</span>
@@ -1239,7 +1239,47 @@
                 tradesList.innerHTML = '';
 
                 if (trades.length === 0) {
-                    tradesList.innerHTML = '<p style="text-align: center; color: #95a5a6;">아직 거래 내역이 없습니다</p>';
+                    // 재미있는 메시지들
+                    const messages = [
+                        '심심해', '허전해', '코인이나 살까?', '🤔', 
+                        '뭐 살까', '기다리는 중', '언제 살까', '타이밍은?',
+                        '고민 중...', '기회를 노린다', '분석 중', '관망',
+                        '차트 보는 중', '🔥', '💎', '🚀'
+                    ];
+                    
+                    // 워드 클라우드 스타일
+                    const wordCloud = messages.map(msg => {
+                        const size = 14 + Math.random() * 20; // 14-34px
+                        const opacity = 0.4 + Math.random() * 0.6; // 0.4-1.0
+                        const colors = ['#ff6b6b', '#4ecdc4', '#45b7d1', '#f7931a', '#95a5a6', '#e67e22'];
+                        const color = colors[Math.floor(Math.random() * colors.length)];
+                        const rotation = -15 + Math.random() * 30; // -15~15도
+                        
+                        return `<span style="
+                            font-size: ${size}px;
+                            color: ${color};
+                            opacity: ${opacity};
+                            margin: 5px 10px;
+                            display: inline-block;
+                            transform: rotate(${rotation}deg);
+                            font-weight: ${Math.random() > 0.5 ? 'bold' : 'normal'};
+                        ">${msg}</span>`;
+                    }).join('');
+                    
+                    tradesList.innerHTML = `
+                        <div style="
+                            text-align: center; 
+                            padding: 40px 20px;
+                            line-height: 2;
+                            min-height: 200px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            flex-wrap: wrap;
+                        ">
+                            ${wordCloud}
+                        </div>
+                    `;
                 } else {
                     trades.forEach(t => {
                         const isBuy = t.type === 'buy';
