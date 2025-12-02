@@ -153,8 +153,16 @@
     "profit_rate": 0.0
   },
   "holdings": [],
-  "last_update": "2025-12-03T05:36:05.967692",
+  "last_update": "2025-12-03T05:41:18.219468",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-BOA",
+      "profit": 0,
+      "price": 4.52,
+      "amount": 2158.62367453,
+      "time": "2025-12-03T05:40:10.241910"
+    },
     {
       "type": "sell",
       "market": "KRW-ZRC",
@@ -946,14 +954,6 @@
       "price": 356.0,
       "amount": 27.40384615,
       "time": "2025-12-02T09:52:37.424416"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-COMP",
-      "profit": 0,
-      "price": 49240.0,
-      "amount": 0.19850746,
-      "time": "2025-12-02T09:35:29.391596"
     }
   ]
 }
