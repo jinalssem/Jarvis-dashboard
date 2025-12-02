@@ -153,8 +153,16 @@
     "profit_rate": 0.0
   },
   "holdings": [],
-  "last_update": "2025-12-02T23:36:19.190546",
+  "last_update": "2025-12-02T23:39:26.270947",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-YFI",
+      "profit": 0,
+      "price": 5216000.0,
+      "amount": 0.00187394,
+      "time": "2025-12-02T23:38:22.345129"
+    },
     {
       "type": "sell",
       "market": "KRW-APM",
@@ -946,14 +954,6 @@
       "price": 11.0,
       "amount": 722.14065187,
       "time": "2025-12-01T13:14:25.778129"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-ETH",
-      "profit": 0,
-      "price": 4154000.0,
-      "amount": 0.00207032,
-      "time": "2025-12-01T12:43:38.279934"
     }
   ]
 }
