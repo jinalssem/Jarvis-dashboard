@@ -1,5 +1,5 @@
 {
-  "today_profit": 5699.374529076271,
+  "today_profit": 0,
   "today_profit_percent": 0,
   "total_profit": 5699.374529076271,
   "total_profit_percent": 0,
@@ -153,8 +153,16 @@
     "profit_rate": 0.0
   },
   "holdings": [],
-  "last_update": "2025-12-03T00:01:21.607375",
+  "last_update": "2025-12-03T00:04:27.573212",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-AI16Z",
+      "profit": 0,
+      "price": 21.2,
+      "amount": 459.04279798,
+      "time": "2025-12-03T00:03:23.654186"
+    },
     {
       "type": "buy",
       "market": "KRW-YFI",
@@ -946,14 +954,6 @@
       "price": 90.9,
       "amount": 70.69779453,
       "time": "2025-12-01T13:36:12.929184"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-GRACY",
-      "profit": 0,
-      "price": 11.0,
-      "amount": 722.14065187,
-      "time": "2025-12-01T13:14:25.778129"
     }
   ]
 }
