@@ -1,7 +1,7 @@
 {
   "today_profit": -7205.068012620891,
   "today_profit_percent": 0,
-  "total_profit": -2480.205564831494,
+  "total_profit": -2457.412702966394,
   "total_profit_percent": 0,
   "recent_trades": [
     {
@@ -157,12 +157,20 @@
       "market": "KRW-YFI",
       "amount": 0.00909879,
       "avg_price": 5456002.0,
-      "current_price": 5489000.0,
-      "value": 49943.258310000005,
-      "profit_rate": 0.006048018310843728
+      "current_price": 5488000.0,
+      "value": 49934.15952,
+      "profit_rate": 0.005864733920552082
+    },
+    {
+      "market": "KRW-MAY",
+      "amount": 354.35168739,
+      "avg_price": 27.5,
+      "current_price": 27.59,
+      "value": 9776.5630550901,
+      "profit_rate": 0.0032727272727272674
     }
   ],
-  "last_update": "2025-12-03T06:44:08.584168",
+  "last_update": "2025-12-03T06:49:29.477159",
   "trades": [
     {
       "type": "buy",
