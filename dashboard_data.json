@@ -1,8 +1,8 @@
 {
-  "today_profit": 2492.225999649751,
-  "today_profit_percent": 4.025966914458225,
-  "total_profit": -8488.166373398446,
-  "total_profit_percent": -13.711869223947415,
+  "today_profit": 7359.745414058212,
+  "today_profit_percent": 0,
+  "total_profit": 45.326681156052175,
+  "total_profit_percent": 0,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,29 +157,29 @@
       "market": "KRW-XRP",
       "amount": 1.2344358,
       "avg_price": 3020.0,
-      "current_price": 3006.0,
-      "value": 3710.7140148,
-      "profit_rate": -0.004635761589403974
-    },
-    {
-      "market": "KRW-COMP",
-      "amount": 0.19850746,
-      "avg_price": 49240.0,
-      "current_price": 48720.0,
-      "value": 9671.283451199999,
-      "profit_rate": -0.010560519902518278
-    },
-    {
-      "market": "KRW-A8",
-      "amount": 5233.89184345,
-      "avg_price": 72.2,
-      "current_price": 71.52,
-      "value": 374327.944643544,
-      "profit_rate": -0.009418282548476549
+      "current_price": 3009.0,
+      "value": 3714.4173222,
+      "profit_rate": -0.003642384105960265
     }
   ],
-  "last_update": "2025-12-02T14:38:50.970640",
+  "last_update": "2025-12-02T14:44:18.645476",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-A8",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-02T14:43:09.927370"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-A8",
+      "profit": 4867.519414408462,
+      "price": 73.13,
+      "amount": 5233.89184345,
+      "time": "2025-12-02T14:43:09.924628"
+    },
     {
       "type": "sell",
       "market": "KRW-COMP",
@@ -963,22 +963,6 @@
       "price": 57.3,
       "amount": 648.03593852,
       "time": "2025-11-30T22:24:53.296139"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-FCT2",
-      "profit": 0,
-      "price": 20.0,
-      "amount": 487.77506112,
-      "time": "2025-11-30T22:00:06.328863"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-IOST",
-      "profit": 0,
-      "price": 2.95,
-      "amount": 3305.16898608,
-      "time": "2025-11-30T21:54:32.338105"
     }
   ]
 }
