@@ -181,8 +181,24 @@
       "profit_rate": 0.007792207792207792
     }
   ],
-  "last_update": "2025-12-03T11:07:32.204152",
+  "last_update": "2025-12-03T11:11:59.744013",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-OAS",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-03T11:11:59.743657"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-OAS",
+      "profit": 149.6097337005598,
+      "price": 3.249,
+      "amount": 3053.25987144,
+      "time": "2025-12-03T11:11:59.740334"
+    },
     {
       "type": "buy",
       "market": "KRW-BAT",
@@ -966,22 +982,6 @@
       "price": 93.19,
       "amount": 2184.46727932,
       "time": "2025-12-02T17:25:43.762970"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-BTC",
-      "profit": 0,
-      "price": 127135000.0,
-      "amount": 0.00012036,
-      "time": "2025-12-02T17:14:55.370622"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-BAL",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-02T17:08:08.983443"
     }
   ]
 }
