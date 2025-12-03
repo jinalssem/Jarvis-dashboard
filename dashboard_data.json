@@ -1,8 +1,8 @@
 {
   "today_profit": -5475.831778157691,
-  "today_profit_percent": -31.153333943363442,
-  "total_profit": -9575.594798795782,
-  "total_profit_percent": -54.47787926267964,
+  "today_profit_percent": -20.023178992074914,
+  "total_profit": -9514.529601366981,
+  "total_profit_percent": -34.79126769260661,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -163,6 +163,15 @@
       "profit_rate": -0.009900990099009924
     },
     {
+      "market": "KRW-OAS",
+      "amount": 3053.25987144,
+      "avg_price": 3.2,
+      "current_price": 3.22,
+      "value": 9831.496786036801,
+      "profit": 61.065197428800055,
+      "profit_rate": 0.0062500000000000056
+    },
+    {
       "market": "KRW-ORCA",
       "amount": 5.07633588,
       "avg_price": 1925.0,
@@ -172,7 +181,7 @@
       "profit_rate": 0.007792207792207792
     }
   ],
-  "last_update": "2025-12-03T10:56:12.660324",
+  "last_update": "2025-12-03T11:01:52.624842",
   "trades": [
     {
       "type": "buy",
