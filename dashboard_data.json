@@ -1,8 +1,8 @@
 {
   "today_profit": -2161.0045176628055,
-  "today_profit_percent": -1.9899129657327204,
-  "total_profit": -9037.329045904195,
-  "total_profit_percent": -8.321823530238333,
+  "today_profit_percent": -1.5301490685090324,
+  "total_profit": -8863.313366095967,
+  "total_profit_percent": -6.275873363607467,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,32 +157,49 @@
       "market": "KRW-IOST",
       "amount": 6457.18713823,
       "avg_price": 3.025,
-      "current_price": 3.005,
-      "value": 19403.847350381147,
-      "profit": -129.14374276460012,
-      "profit_rate": -0.00661157024793389
+      "current_price": 3.006,
+      "value": 19410.304537519376,
+      "profit": -122.68655562637082,
+      "profit_rate": -0.006280991735537232
+    },
+    {
+      "market": "KRW-A8",
+      "amount": 271.9201995,
+      "avg_price": 120.0,
+      "current_price": 120.0,
+      "value": 32630.423940000004,
+      "profit": 0.0,
+      "profit_rate": 0.0
     },
     {
       "market": "KRW-SYRUP",
       "amount": 153.04722222,
       "avg_price": 364.7,
-      "current_price": 362.0,
-      "value": 55403.09444364,
-      "profit": -413.22749999399826,
-      "profit_rate": -0.007403345215245377
+      "current_price": 364.0,
+      "value": 55709.18888808,
+      "profit": -107.13305555399826,
+      "profit_rate": -0.0019193857965450745
     },
     {
       "market": "KRW-PIEVERSE",
       "amount": 46.17865059,
       "avg_price": 720.0,
-      "current_price": 719.0,
-      "value": 33202.44977421,
-      "profit": -46.17865059,
-      "profit_rate": -0.001388888888888889
+      "current_price": 716.0,
+      "value": 33063.913822439994,
+      "profit": -184.71460236,
+      "profit_rate": -0.005555555555555556
     }
   ],
-  "last_update": "2025-12-04T05:51:01.376313",
+  "last_update": "2025-12-04T05:54:12.039531",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-EVZ",
+      "profit": 0,
+      "price": 0.96,
+      "amount": 10176.49459294,
+      "time": "2025-12-04T05:53:06.775873"
+    },
     {
       "type": "sell",
       "market": "KRW-BOB",
@@ -974,14 +991,6 @@
       "price": 127458000.0,
       "amount": 7.67e-05,
       "time": "2025-12-02T22:09:33.895709"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-APM",
-      "profit": 0,
-      "price": 1.76,
-      "amount": 5541.66666667,
-      "time": "2025-12-02T22:06:23.470141"
     }
   ]
 }
