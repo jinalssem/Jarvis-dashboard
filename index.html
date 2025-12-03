@@ -136,6 +136,29 @@
             font-weight: 600;
         }
 
+        .visitor-counter {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 8px 16px;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            font-size: 0.95em;
+        }
+
+        .visitor-counter .counter-label {
+            color: #95a5a6;
+            font-size: 0.9em;
+        }
+
+        .visitor-counter .counter-value {
+            color: #4ade80;
+            font-weight: bold;
+            min-width: 40px;
+            text-align: right;
+        }
+
         .last-update {
             text-align: center;
             color: #95a5a6;
@@ -728,6 +751,16 @@
                     <span>⏰</span>
                     <span id="currentTime">00:00:00</span>
                 </div>
+                <div class="visitor-counter">
+                    <span>👥</span>
+                    <span class="counter-label">오늘</span>
+                    <span class="counter-value" id="todayVisitors">-</span>
+                </div>
+                <div class="visitor-counter">
+                    <span>📊</span>
+                    <span class="counter-label">누적</span>
+                    <span class="counter-value" id="totalVisitors">-</span>
+                </div>
             </div>
             <div class="last-update" id="lastUpdate">
                 데이터 불러오는 중...
@@ -806,6 +839,33 @@
         }
         setInterval(updateClock, 1000);
         updateClock();
+
+        // 방문자 카운터
+        async function updateVisitorCount() {
+            try {
+                const today = new Date().toISOString().split('T')[0]; // YYYY-MM-DD
+                const namespace = 'jinalssem-dashboard';
+                
+                // 오늘 방문자 수 증가 및 조회
+                const todayResponse = await fetch(`https://api.countapi.xyz/hit/${namespace}/today-${today}`);
+                const todayData = await todayResponse.json();
+                
+                // 누적 방문자 수 증가 및 조회
+                const totalResponse = await fetch(`https://api.countapi.xyz/hit/${namespace}/total`);
+                const totalData = await totalResponse.json();
+                
+                // 표시
+                document.getElementById('todayVisitors').textContent = todayData.value || '-';
+                document.getElementById('totalVisitors').textContent = totalData.value || '-';
+            } catch (error) {
+                console.error('방문자 수 업데이트 실패:', error);
+                document.getElementById('todayVisitors').textContent = '-';
+                document.getElementById('totalVisitors').textContent = '-';
+            }
+        }
+        
+        // 페이지 로드 시 방문자 수 업데이트
+        updateVisitorCount();
 
         function getTimeAgo(dateString) {
             const now = new Date();
