@@ -1,8 +1,8 @@
 {
   "today_profit": -5475.831778157691,
-  "today_profit_percent": -547583.1778157691,
-  "total_profit": -9298.85070174778,
-  "total_profit_percent": -929885.070174778,
+  "today_profit_percent": -56.03624354157775,
+  "total_profit": -9273.469022347781,
+  "total_profit_percent": -94.89889201570584,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -152,8 +152,18 @@
     "profit": 0,
     "profit_rate": 0.0
   },
-  "holdings": [],
-  "last_update": "2025-12-03T09:26:20.425801",
+  "holdings": [
+    {
+      "market": "KRW-ORCA",
+      "amount": 5.07633588,
+      "avg_price": 1925.0,
+      "current_price": 1930.0,
+      "value": 9797.328248400001,
+      "profit": 25.381679400000003,
+      "profit_rate": 0.0025974025974025974
+    }
+  ],
+  "last_update": "2025-12-03T09:31:53.359969",
   "trades": [
     {
       "type": "sell",
