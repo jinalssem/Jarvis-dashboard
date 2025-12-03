@@ -1,8 +1,8 @@
 {
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": -6166.29949166555,
-  "total_profit_percent": -8.1836173989478,
+  "total_profit": -6582.166117455459,
+  "total_profit_percent": -8.735535670036635,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,23 +157,31 @@
       "market": "KRW-IOST",
       "amount": 6457.18713823,
       "avg_price": 3.025,
-      "current_price": 3.013,
-      "value": 19455.504847486987,
-      "profit": -77.48624565876007,
-      "profit_rate": -0.003966942148760334
+      "current_price": 2.996,
+      "value": 19345.73266613708,
+      "profit": -187.25842700866943,
+      "profit_rate": -0.009586776859504105
     },
     {
       "market": "KRW-SYRUP",
       "amount": 153.04722222,
       "avg_price": 364.7,
-      "current_price": 366.0,
-      "value": 56015.283332520004,
-      "profit": 198.96138888600174,
-      "profit_rate": 0.003564573622155227
+      "current_price": 364.0,
+      "value": 55709.18888808,
+      "profit": -107.13305555399826,
+      "profit_rate": -0.0019193857965450745
     }
   ],
-  "last_update": "2025-12-04T03:54:09.160200",
+  "last_update": "2025-12-04T04:00:06.973489",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-TURBO",
+      "profit": 0,
+      "price": 3.5,
+      "amount": 2786.31284916,
+      "time": "2025-12-04T03:58:55.943876"
+    },
     {
       "type": "buy",
       "market": "KRW-BOA",
@@ -965,14 +973,6 @@
       "price": 4135000.0,
       "amount": 0.00236374,
       "time": "2025-12-02T21:34:39.721957"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-GLM",
-      "profit": 0,
-      "price": 332.0,
-      "amount": 29.42477876,
-      "time": "2025-12-02T21:28:22.834174"
     }
   ]
 }
