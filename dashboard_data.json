@@ -1,8 +1,8 @@
 {
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": -15326.636079056545,
-  "total_profit_percent": -20.340777455496188,
+  "total_profit": -5879.57660864024,
+  "total_profit_percent": -7.803092518932829,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -172,8 +172,16 @@
       "profit_rate": 0.009048533040855528
     }
   ],
-  "last_update": "2025-12-04T03:36:09.498564",
+  "last_update": "2025-12-04T03:42:22.927278",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-GRS",
+      "profit": 0,
+      "price": 253.0,
+      "amount": 38.51351351,
+      "time": "2025-12-04T03:41:11.946456"
+    },
     {
       "type": "buy",
       "market": "KRW-TRAC",
@@ -965,14 +973,6 @@
       "price": 0,
       "amount": 0,
       "time": "2025-12-02T21:25:12.328120"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-AI16Z",
-      "profit": -9447.059470416303,
-      "price": 23.37,
-      "amount": 6796.44566217,
-      "time": "2025-12-02T21:25:12.325087"
     }
   ]
 }
