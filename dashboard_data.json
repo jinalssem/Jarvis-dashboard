@@ -1,8 +1,8 @@
 {
   "today_profit": -647.4124562728055,
-  "today_profit_percent": -0.596155366814066,
-  "total_profit": -6873.613776788496,
-  "total_profit_percent": -6.329414429296776,
+  "today_profit_percent": -0.5469402793066039,
+  "total_profit": -6694.864158419096,
+  "total_profit_percent": -5.655885729795962,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -163,6 +163,15 @@
       "profit_rate": -0.003966942148760334
     },
     {
+      "market": "KRW-BOA",
+      "amount": 2010.68332997,
+      "avg_price": 4.86,
+      "current_price": 4.88,
+      "value": 9812.1346502536,
+      "profit": 40.21366659939914,
+      "profit_rate": 0.0041152263374484715
+    },
+    {
       "market": "KRW-SYRUP",
       "amount": 153.04722222,
       "avg_price": 364.7,
@@ -175,13 +184,13 @@
       "market": "KRW-PIEVERSE",
       "amount": 46.17865059,
       "avg_price": 720.0,
-      "current_price": 737.0,
-      "value": 34033.665484829995,
-      "profit": 785.0370600299999,
-      "profit_rate": 0.02361111111111111
+      "current_price": 740.0,
+      "value": 34172.2014366,
+      "profit": 923.5730117999999,
+      "profit_rate": 0.027777777777777776
     }
   ],
-  "last_update": "2025-12-04T06:26:19.338794",
+  "last_update": "2025-12-04T06:29:28.992331",
   "trades": [
     {
       "type": "sell",
