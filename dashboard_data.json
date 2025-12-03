@@ -181,8 +181,24 @@
       "profit_rate": 0.015584415584415584
     }
   ],
-  "last_update": "2025-12-03T11:13:09.730657",
+  "last_update": "2025-12-03T11:17:39.635515",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-ORCA",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-03T11:17:39.635183"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ORCA",
+      "profit": 121.83206112,
+      "price": 1949.0,
+      "amount": 5.07633588,
+      "time": "2025-12-03T11:17:39.633458"
+    },
     {
       "type": "sell",
       "market": "KRW-OAS",
@@ -966,22 +982,6 @@
       "price": 357.0,
       "amount": 27.32876712,
       "time": "2025-12-02T17:32:43.643246"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-A8",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-02T17:25:43.764345"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-A8",
-      "profit": 3014.5648454615903,
-      "price": 93.19,
-      "amount": 2184.46727932,
-      "time": "2025-12-02T17:25:43.762970"
     }
   ]
 }
