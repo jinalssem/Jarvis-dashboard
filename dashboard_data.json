@@ -181,8 +181,24 @@
       "profit_rate": 0.03888888888888889
     }
   ],
-  "last_update": "2025-12-04T06:45:27.546226",
+  "last_update": "2025-12-04T06:47:31.886904",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-BOA",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-04T06:47:31.886478"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-BOA",
+      "profit": 400.12598266402966,
+      "price": 5.059,
+      "amount": 2010.68332997,
+      "time": "2025-12-04T06:47:31.884994"
+    },
     {
       "type": "sell",
       "market": "KRW-PIEVERSE",
@@ -966,22 +982,6 @@
       "price": 21.2,
       "amount": 459.04279798,
       "time": "2025-12-03T00:03:23.654186"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-YFI",
-      "profit": 0,
-      "price": 5216000.0,
-      "amount": 0.00187394,
-      "time": "2025-12-02T23:38:22.345129"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-APM",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-02T23:25:45.562083"
     }
   ]
 }
