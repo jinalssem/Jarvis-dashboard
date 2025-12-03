@@ -172,8 +172,16 @@
       "profit_rate": 0.009048533040855528
     }
   ],
-  "last_update": "2025-12-04T03:29:53.350356",
+  "last_update": "2025-12-04T03:36:09.498564",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-TRAC",
+      "profit": 0,
+      "price": 858.0,
+      "amount": 11.3869863,
+      "time": "2025-12-04T03:34:58.512309"
+    },
     {
       "type": "buy",
       "market": "KRW-APM",
@@ -965,14 +973,6 @@
       "price": 23.37,
       "amount": 6796.44566217,
       "time": "2025-12-02T21:25:12.325087"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-EVZ",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-02T20:10:49.906496"
     }
   ]
 }
