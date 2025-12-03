@@ -1,8 +1,8 @@
 {
   "today_profit": -83.45240723502305,
-  "today_profit_percent": -0.07050139749349957,
-  "total_profit": -6971.716279859853,
-  "total_profit_percent": -5.889773068787209,
+  "today_profit_percent": -0.13340956653426925,
+  "total_profit": -6766.435026228575,
+  "total_profit_percent": -10.817029654869028,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -166,32 +166,31 @@
       "market": "KRW-BOA",
       "amount": 2010.68332997,
       "avg_price": 4.86,
-      "current_price": 4.866,
-      "value": 9783.98508363402,
-      "profit": 12.064099979818671,
-      "profit_rate": 0.001234567901234432
-    },
-    {
-      "market": "KRW-SYRUP",
-      "amount": 153.04722222,
-      "avg_price": 364.7,
-      "current_price": 362.0,
-      "value": 55403.09444364,
-      "profit": -413.22749999399826,
-      "profit_rate": -0.007403345215245377
+      "current_price": 4.837,
+      "value": 9725.67526706489,
+      "profit": -46.24571658931116,
+      "profit_rate": -0.004732510288065961
     },
     {
       "market": "KRW-PIEVERSE",
       "amount": 46.17865059,
       "avg_price": 720.0,
-      "current_price": 739.0,
-      "value": 34126.02278601,
-      "profit": 877.3943612099999,
-      "profit_rate": 0.02638888888888889
+      "current_price": 745.0,
+      "value": 34403.094689549995,
+      "profit": 1154.46626475,
+      "profit_rate": 0.034722222222222224
     }
   ],
-  "last_update": "2025-12-04T06:32:39.337461",
+  "last_update": "2025-12-04T06:36:02.195850",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-BOA",
+      "profit": 0,
+      "price": 4.74,
+      "amount": 2060.95041322,
+      "time": "2025-12-04T06:34:53.134998"
+    },
     {
       "type": "sell",
       "market": "KRW-SYRUP",
@@ -983,14 +982,6 @@
       "price": 0,
       "amount": 0,
       "time": "2025-12-02T23:13:03.012678"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-APM",
-      "profit": 426.7083333335898,
-      "price": 1.837,
-      "amount": 5541.66666667,
-      "time": "2025-12-02T23:13:03.009170"
     }
   ]
 }
