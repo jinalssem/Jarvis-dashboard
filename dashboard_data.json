@@ -172,8 +172,16 @@
       "profit_rate": -0.004524886877828055
     }
   ],
-  "last_update": "2025-12-03T22:10:10.117278",
+  "last_update": "2025-12-03T22:16:10.470481",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-IOST",
+      "profit": 0,
+      "price": 2.99,
+      "amount": 3266.20825147,
+      "time": "2025-12-03T22:14:59.960301"
+    },
     {
       "type": "sell",
       "market": "KRW-BOA",
@@ -965,14 +973,6 @@
       "price": 0.983,
       "amount": 9731.70731707,
       "time": "2025-12-02T20:10:49.904132"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-AI16Z",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-02T19:59:41.222003"
     }
   ]
 }
