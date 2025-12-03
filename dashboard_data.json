@@ -1,8 +1,8 @@
 {
   "today_profit": -8648.430485677132,
-  "today_profit_percent": -864843.0485677132,
-  "total_profit": -15761.625306808812,
-  "total_profit_percent": -1576162.530680881,
+  "today_profit_percent": -10.104532419734644,
+  "total_profit": -15648.758801139262,
+  "total_profit_percent": -18.283478244589162,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -152,9 +152,36 @@
     "profit": 0,
     "profit_rate": 0.0
   },
-  "holdings": [],
-  "last_update": "2025-12-03T21:22:19.538287",
+  "holdings": [
+    {
+      "market": "KRW-BOA",
+      "amount": 1970.56499407,
+      "avg_price": 4.96,
+      "current_price": 5.025,
+      "value": 9902.08909520175,
+      "profit": 128.08672461455077,
+      "profit_rate": 0.013104838709677498
+    },
+    {
+      "market": "KRW-A8",
+      "amount": 686.11414951,
+      "avg_price": 110.5,
+      "current_price": 111.0,
+      "value": 76158.67059560999,
+      "profit": 343.057074755,
+      "profit_rate": 0.004524886877828055
+    }
+  ],
+  "last_update": "2025-12-03T21:28:32.930383",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-JST",
+      "profit": 0,
+      "price": 57.7,
+      "amount": 169.38359654,
+      "time": "2025-12-03T21:27:22.536000"
+    },
     {
       "type": "buy",
       "market": "KRW-IOST",
@@ -946,14 +973,6 @@
       "price": 0,
       "amount": 0,
       "time": "2025-12-02T19:49:07.003546"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-XRP",
-      "profit": 358.2772937,
-      "price": 3030.0,
-      "amount": 9.6831701,
-      "time": "2025-12-02T19:49:07.001963"
     }
   ]
 }
