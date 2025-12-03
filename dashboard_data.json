@@ -1,8 +1,8 @@
 {
   "today_profit": -2161.0045176628055,
-  "today_profit_percent": -2.867981711535935,
-  "total_profit": -8971.778833899505,
-  "total_profit_percent": -11.906915235604298,
+  "today_profit_percent": -1.9899129657327204,
+  "total_profit": -9051.840316354195,
+  "total_profit_percent": -8.335185911011576,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,22 +157,31 @@
       "market": "KRW-IOST",
       "amount": 6457.18713823,
       "avg_price": 3.025,
-      "current_price": 3.008,
-      "value": 19423.21891179584,
-      "profit": -109.77218134990937,
-      "profit_rate": -0.00561983471074377
+      "current_price": 3.005,
+      "value": 19403.847350381147,
+      "profit": -129.14374276460012,
+      "profit_rate": -0.00661157024793389
     },
     {
       "market": "KRW-SYRUP",
       "amount": 153.04722222,
       "avg_price": 364.7,
-      "current_price": 362.0,
-      "value": 55403.09444364,
-      "profit": -413.22749999399826,
-      "profit_rate": -0.007403345215245377
+      "current_price": 361.0,
+      "value": 55250.047221420005,
+      "profit": -566.2747222139983,
+      "profit_rate": -0.010145324924595528
+    },
+    {
+      "market": "KRW-PIEVERSE",
+      "amount": 46.17865059,
+      "avg_price": 720.0,
+      "current_price": 722.0,
+      "value": 33340.98572598,
+      "profit": 92.35730118,
+      "profit_rate": 0.002777777777777778
     }
   ],
-  "last_update": "2025-12-04T05:38:38.414035",
+  "last_update": "2025-12-04T05:41:42.203610",
   "trades": [
     {
       "type": "sell",
