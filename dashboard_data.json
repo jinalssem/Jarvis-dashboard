@@ -1,8 +1,8 @@
 {
   "today_profit": -8648.430485677132,
-  "today_profit_percent": -4.242296497589325,
-  "total_profit": -14869.450252128812,
-  "total_profit_percent": -7.293880297720384,
+  "today_profit_percent": -864843.0485677132,
+  "total_profit": -15761.625306808812,
+  "total_profit_percent": -1576162.530680881,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -152,19 +152,17 @@
     "profit": 0,
     "profit_rate": 0.0
   },
-  "holdings": [
-    {
-      "market": "KRW-TRAC",
-      "amount": 223.04376367,
-      "avg_price": 914.0,
-      "current_price": 918.0,
-      "value": 204754.17504906,
-      "profit": 892.17505468,
-      "profit_rate": 0.00437636761487965
-    }
-  ],
-  "last_update": "2025-12-03T21:13:30.673120",
+  "holdings": [],
+  "last_update": "2025-12-03T21:16:49.453008",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-BOA",
+      "profit": 0,
+      "price": 4.96,
+      "amount": 1970.56499407,
+      "time": "2025-12-03T21:15:41.516841"
+    },
     {
       "type": "sell",
       "market": "KRW-TRAC",
@@ -956,14 +954,6 @@
       "price": 4096000.0,
       "amount": 0.00365884,
       "time": "2025-12-02T18:56:14.455926"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-EVZ",
-      "profit": 0,
-      "price": 0.96,
-      "amount": 10107.40703212,
-      "time": "2025-12-02T18:52:33.202904"
     }
   ]
 }
