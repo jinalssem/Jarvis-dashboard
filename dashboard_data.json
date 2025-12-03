@@ -1,8 +1,8 @@
 {
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": -6442.033269511918,
-  "total_profit_percent": -8.549558064805995,
+  "total_profit": -6544.242942644618,
+  "total_profit_percent": -5.022661995085798,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -163,6 +163,15 @@
       "profit_rate": -0.01024793388429742
     },
     {
+      "market": "KRW-BOB",
+      "amount": 1460.13818761,
+      "avg_price": 37.63,
+      "current_price": 37.56,
+      "value": 54842.7903266316,
+      "profit": -102.20967313270042,
+      "profit_rate": -0.0018602179112410385
+    },
+    {
       "market": "KRW-SYRUP",
       "amount": 153.04722222,
       "avg_price": 364.7,
@@ -172,7 +181,7 @@
       "profit_rate": 0.0008225939128050765
     }
   ],
-  "last_update": "2025-12-04T05:04:35.484810",
+  "last_update": "2025-12-04T05:07:40.101158",
   "trades": [
     {
       "type": "buy",
