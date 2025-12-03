@@ -1,8 +1,8 @@
 {
-  "today_profit": -5204.3899833371315,
-  "today_profit_percent": -66.67946665341806,
-  "total_profit": -12394.862887636811,
-  "total_profit_percent": -158.80494145058572,
+  "today_profit": -8648.430485677132,
+  "today_profit_percent": -2.534103278263199,
+  "total_profit": -20941.87530680881,
+  "total_profit_percent": -6.136243443923376,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -154,17 +154,90 @@
   },
   "holdings": [
     {
-      "market": "KRW-JST",
-      "amount": 128.79680528,
-      "avg_price": 60.6,
-      "current_price": 60.0,
-      "value": 7727.8083168,
-      "profit": -77.27808316800018,
-      "profit_rate": -0.009900990099009924
+      "market": "KRW-TRAC",
+      "amount": 345.35,
+      "avg_price": 960.0,
+      "current_price": 945.0,
+      "value": 326355.75,
+      "profit": -5180.25,
+      "profit_rate": -0.015625
+    },
+    {
+      "market": "KRW-H",
+      "amount": 57.32758621,
+      "avg_price": 170.0,
+      "current_price": 170.0,
+      "value": 9745.6896557,
+      "profit": 0.0,
+      "profit_rate": 0.0
     }
   ],
-  "last_update": "2025-12-03T12:34:15.876507",
+  "last_update": "2025-12-03T18:49:30.384988",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-TRAC",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-03T18:23:10.087699"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-TRAC",
+      "profit": -6497.054187000001,
+      "price": 976.0,
+      "amount": 166.591133,
+      "time": "2025-12-03T18:23:10.084283"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-H",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-03T18:13:41.511015"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-H",
+      "profit": 229.31034484,
+      "price": 174.0,
+      "amount": 57.32758621,
+      "time": "2025-12-03T18:13:41.508232"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-TRAC",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-03T18:07:22.294702"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-TRAC",
+      "profit": 2823.70333982,
+      "price": 1035.0,
+      "amount": 166.10019646,
+      "time": "2025-12-03T18:07:22.293442"
+    },
+    {
+      "type": "buy",
+      "market": "KRW-JST",
+      "profit": 0,
+      "price": 58.9,
+      "amount": 165.75274177,
+      "time": "2025-12-03T17:58:07.731263"
+    },
+    {
+      "type": "buy",
+      "market": "KRW-IOST",
+      "profit": 0,
+      "price": 3.11,
+      "amount": 3140.74307305,
+      "time": "2025-12-03T17:55:03.550173"
+    },
     {
       "type": "sell",
       "market": "KRW-ORCA",
@@ -900,70 +973,6 @@
       "price": 0.96,
       "amount": 10107.40703212,
       "time": "2025-12-02T18:52:33.202904"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-BOA",
-      "profit": 0,
-      "price": 5.07,
-      "amount": 1927.16383308,
-      "time": "2025-12-02T18:27:52.260802"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-CKB",
-      "profit": 0,
-      "price": 3.56,
-      "amount": 2740.38461538,
-      "time": "2025-12-02T18:20:58.174132"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-IOST",
-      "profit": 0,
-      "price": 3.23,
-      "amount": 3017.24137931,
-      "time": "2025-12-02T18:11:01.498541"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-BAT",
-      "profit": 0,
-      "price": 358.0,
-      "amount": 27.25409836,
-      "time": "2025-12-02T18:07:20.758535"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-GLM",
-      "profit": 0,
-      "price": 331.0,
-      "amount": 29.51183432,
-      "time": "2025-12-02T18:03:50.903704"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-XRP",
-      "profit": 0,
-      "price": 2935.0,
-      "amount": 5.99499165,
-      "time": "2025-12-02T17:53:09.011448"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-APM",
-      "profit": 0,
-      "price": 1.67,
-      "amount": 5829.92402104,
-      "time": "2025-12-02T17:49:39.117019"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-BAT",
-      "profit": 0,
-      "price": 357.0,
-      "amount": 27.32876712,
-      "time": "2025-12-02T17:32:43.643246"
     }
   ]
 }
