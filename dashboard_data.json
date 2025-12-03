@@ -1,8 +1,8 @@
 {
   "today_profit": -5475.831778157691,
   "today_profit_percent": -31.153333943363442,
-  "total_profit": -9572.838207211782,
-  "total_profit_percent": -54.46219634515388,
+  "total_profit": -9527.151184291783,
+  "total_profit_percent": -54.20227180043317,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -166,14 +166,22 @@
       "market": "KRW-ORCA",
       "amount": 5.07633588,
       "avg_price": 1925.0,
-      "current_price": 1931.0,
-      "value": 9802.40458428,
-      "profit": 30.45801528,
-      "profit_rate": 0.003116883116883117
+      "current_price": 1940.0,
+      "value": 9848.0916072,
+      "profit": 76.1450382,
+      "profit_rate": 0.007792207792207792
     }
   ],
-  "last_update": "2025-12-03T10:44:47.139151",
+  "last_update": "2025-12-03T10:50:31.311478",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-ORCA",
+      "profit": 0,
+      "price": 1900.0,
+      "amount": 5.14175258,
+      "time": "2025-12-03T10:49:12.307501"
+    },
     {
       "type": "buy",
       "market": "KRW-JST",
@@ -965,14 +973,6 @@
       "price": 929.0,
       "amount": 10.60042508,
       "time": "2025-12-02T17:08:08.979979"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-BAL",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-02T16:57:13.725084"
     }
   ]
 }
