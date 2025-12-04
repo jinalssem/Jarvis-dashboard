@@ -163,8 +163,24 @@
       "profit_rate": 0.009265175718849814
     }
   ],
-  "last_update": "2025-12-05T06:12:21.821433",
+  "last_update": "2025-12-05T06:17:38.435963",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-XAN",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-05T06:17:38.435371"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-XAN",
+      "profit": 481.5580856141998,
+      "price": 31.64,
+      "amount": 1416.34731063,
+      "time": "2025-12-05T06:17:38.432482"
+    },
     {
       "type": "sell",
       "market": "KRW-TRAC",
@@ -948,22 +964,6 @@
       "price": 746.0,
       "amount": 46.17865059,
       "time": "2025-12-04T06:50:38.792704"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-BOA",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-04T06:47:31.886478"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-BOA",
-      "profit": 400.12598266402966,
-      "price": 5.059,
-      "amount": 2010.68332997,
-      "time": "2025-12-04T06:47:31.884994"
     }
   ]
 }
