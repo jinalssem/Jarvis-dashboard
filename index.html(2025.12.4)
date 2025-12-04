@@ -3,59 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🔥 빗썸 불멍 대시보드 | 실시간 암호화폐 거래 현황 | Bithumb Trading Dashboard</title>
+    <title>🔥 빗썸 불멍 대시보드 | Bithumb Trading Dashboard</title>
     
     <!-- SEO Meta Tags -->
-    <meta name="description" content="빗썸 불멍 대시보드 - 실시간 암호화폐 거래 현황을 따뜻한 불멍 감성으로. 비트코인, 이더리움, 리플 실시간 시세와 AI 자동매매 현황. 빗썸 초대코드 JJCDWMIYMV로 가입하면 최대 7만원 혜택!">
-    <meta name="keywords" content="빗썸,bithumb,불멍,비트코인,BTC,이더리움,ETH,리플,XRP,암호화폐,가상화폐,코인,실시간시세,자동매매,AI트레이딩,트레이딩봇,코인거래,암호화폐거래,빗썸초대코드,JJCDWMIYMV,업비트,upbit,바이낸스,binance,코인원,coinone,실시간차트,비트코인시세,이더리움시세,알트코인,디지털자산,블록체인,크립토,crypto,trading,dashboard">
+    <meta name="description" content="빗썸 불멍 대시보드 - 실시간 암호화폐 거래 현황을 따뜻한 불멍 감성으로. 비트코인, 이더리움 실시간 시세와 AI 자동매매 현황. 빗썸 초대코드 JJCDWMIYMV">
+    <meta name="keywords" content="빗썸,bithumb,불멍,비트코인,암호화폐,가상화폐,초대코드,업비트,upbit,코인,실시간시세,자동매매,AI트레이딩,JJCDWMIYMV">
     <meta name="author" content="Jarvis Trading Bot">
-    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-    <meta name="googlebot" content="index, follow">
-    <link rel="canonical" href="https://jinalssem.github.io/Jarvis-dashboard/">
     
-    <!-- Open Graph / Facebook -->
+    <!-- Open Graph -->
+    <meta property="og:title" content="🔥 빗썸 불멍 대시보드">
+    <meta property="og:description" content="실시간 암호화폐 거래를 따뜻한 불멍 감성으로 지켜보세요">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://jinalssem.github.io/Jarvis-dashboard/">
-    <meta property="og:title" content="🔥 빗썸 불멍 대시보드 | 실시간 암호화폐 거래">
-    <meta property="og:description" content="실시간 암호화폐 거래를 따뜻한 불멍 감성으로 지켜보세요. AI 자동매매 봇과 함께하는 스마트한 코인 투자">
-    <meta property="og:site_name" content="빗썸 불멍 대시보드">
-    <meta property="og:locale" content="ko_KR">
-    
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="🔥 빗썸 불멍 대시보드 | 실시간 암호화폐 거래">
-    <meta name="twitter:description" content="실시간 암호화폐 거래를 따뜻한 불멍 감성으로 지켜보세요">
-    
-    <!-- 추가 SEO -->
-    <meta name="theme-color" content="#1a1a2e">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="format-detection" content="telephone=no">
-    
-    <!-- 구조화된 데이터 (JSON-LD) -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebApplication",
-      "name": "빗썸 불멍 대시보드",
-      "alternateName": "Bithumb Trading Dashboard",
-      "description": "실시간 암호화폐 거래 현황을 모니터링하는 대시보드. AI 자동매매 봇의 거래 내역과 수익률을 실시간으로 확인할 수 있습니다.",
-      "url": "https://jinalssem.github.io/Jarvis-dashboard/",
-      "applicationCategory": "FinanceApplication",
-      "operatingSystem": "Any",
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "KRW"
-      },
-      "keywords": "빗썸, 비트코인, 암호화폐, 실시간시세, 자동매매, AI트레이딩, 코인거래",
-      "inLanguage": "ko-KR",
-      "potentialAction": {
-        "@type": "ViewAction",
-        "target": "https://jinalssem.github.io/Jarvis-dashboard/"
-      }
-    }
-    </script>
     
     <style>
         * {
@@ -94,10 +52,6 @@
             margin: 0 auto;
             position: relative;
             z-index: 1;
-        }
-
-        .main-content {
-            display: block;
         }
 
         .loading-overlay {
@@ -203,196 +157,6 @@
             font-weight: bold;
             min-width: 40px;
             text-align: right;
-        }
-
-        /* 레이아웃 선택 드롭다운 */
-        .layout-selector {
-            position: fixed;
-            top: 20px;
-            left: 20px;
-            z-index: 1000;
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
-            padding: 8px 12px;
-            border-radius: 12px;
-        }
-
-        .layout-selector select {
-            background: rgba(0, 0, 0, 0.3);
-            color: #fff;
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            padding: 6px 12px;
-            border-radius: 8px;
-            font-size: 0.9em;
-            cursor: pointer;
-            outline: none;
-        }
-
-        .layout-selector select:hover {
-            background: rgba(0, 0, 0, 0.5);
-            border-color: rgba(255, 255, 255, 0.4);
-        }
-
-        .layout-selector option {
-            background: #1a1a2e;
-            color: #fff;
-        }
-
-        /* YouTube Layout 스타일 */
-        body.youtube-layout {
-            padding: 10px;
-            overflow: hidden;
-        }
-
-        body.youtube-layout .container {
-            max-width: 100%;
-            height: calc(100vh - 20px);
-            display: grid;
-            grid-template-rows: auto 1fr;
-            gap: 10px;
-            overflow: hidden;
-        }
-
-        body.youtube-layout .header {
-            margin-bottom: 5px;
-        }
-
-        body.youtube-layout .header h1 {
-            font-size: 1.8em;
-            margin-bottom: 5px;
-        }
-
-        body.youtube-layout .status-row {
-            gap: 10px;
-        }
-
-        body.youtube-layout .visitor-counter,
-        body.youtube-layout .clock,
-        body.youtube-layout .status {
-            font-size: 0.8em;
-            padding: 4px 10px;
-        }
-
-        body.youtube-layout .last-update {
-            font-size: 0.75em;
-            margin-top: 3px;
-        }
-
-        body.youtube-layout .wordcloud-container {
-            display: none;
-        }
-
-        body.youtube-layout .main-content {
-            display: grid;
-            grid-template-columns: 1fr 2fr 1fr;
-            gap: 10px;
-            height: 100%;
-            overflow: hidden;
-        }
-
-        body.youtube-layout .profit-grid {
-            grid-template-columns: 1fr;
-            gap: 8px;
-            height: fit-content;
-        }
-
-        body.youtube-layout .profit-card {
-            padding: 12px;
-        }
-
-        body.youtube-layout .profit-card h3 {
-            font-size: 0.9em;
-            margin-bottom: 6px;
-        }
-
-        body.youtube-layout .profit-amount {
-            font-size: 1.3em;
-        }
-
-        body.youtube-layout .profit-percent {
-            font-size: 0.85em;
-        }
-
-        body.youtube-layout .holdings-section {
-            overflow-y: auto;
-            height: 100%;
-        }
-
-        body.youtube-layout .holdings-section h2 {
-            font-size: 1.1em;
-            margin-bottom: 8px;
-        }
-
-        body.youtube-layout .sort-controls {
-            gap: 6px;
-            margin-bottom: 8px;
-        }
-
-        body.youtube-layout .sort-btn {
-            padding: 4px 10px;
-            font-size: 0.75em;
-        }
-
-        body.youtube-layout .holdings-grid {
-            grid-template-columns: 1fr;
-            gap: 8px;
-        }
-
-        body.youtube-layout .coin-card {
-            padding: 10px;
-        }
-
-        body.youtube-layout .coin-name {
-            font-size: 1em;
-        }
-
-        body.youtube-layout .coin-profit-badge {
-            font-size: 0.8em;
-            padding: 3px 8px;
-        }
-
-        body.youtube-layout .coin-detail-row {
-            font-size: 0.8em;
-            padding: 3px 0;
-        }
-
-        body.youtube-layout .trades-section {
-            overflow-y: auto;
-            height: 100%;
-        }
-
-        body.youtube-layout .trades-section h2 {
-            font-size: 1.1em;
-            margin-bottom: 8px;
-        }
-
-        body.youtube-layout .trades-list {
-            gap: 6px;
-        }
-
-        body.youtube-layout .trade-item {
-            padding: 8px;
-        }
-
-        body.youtube-layout .trade-time {
-            font-size: 0.75em;
-        }
-
-        body.youtube-layout .trade-market {
-            font-size: 0.9em;
-        }
-
-        body.youtube-layout .trade-action {
-            font-size: 0.75em;
-            padding: 3px 8px;
-        }
-
-        body.youtube-layout .trade-profit {
-            font-size: 0.85em;
-        }
-
-        body.youtube-layout .referral-section {
-            display: none;
         }
 
         .last-update {
@@ -975,13 +739,6 @@
         <span class="volume-value" id="volumeValue">30%</span>
     </div>
 
-    <div class="layout-selector">
-        <select id="layoutSelector">
-            <option value="tablet">📱 Tablet Layout</option>
-            <option value="youtube">📺 YouTube Layout</option>
-        </select>
-    </div>
-
     <div class="container">
         <div class="header">
             <h1>🔥 빗썸 불멍 대시보드</h1>
@@ -1014,7 +771,6 @@
             <div class="wordcloud" id="wordcloud"></div>
         </div>
 
-        <div class="main-content">
         <div class="profit-grid">
             <div class="profit-card">
                 <h3>🌅 오늘 손익</h3>
@@ -1046,7 +802,6 @@
             <h2>📜 최근 거래 (6개)</h2>
             <div class="trades-list" id="tradesList"></div>
         </div>
-        </div><!-- main-content 끝 -->
 
         <div class="referral-section">
             <h2>🎁 빗썸 초대 코드</h2>
@@ -1270,30 +1025,6 @@
         }
 
         document.addEventListener('DOMContentLoaded', () => {
-            // 레이아웃 전환 기능
-            const layoutSelector = document.getElementById('layoutSelector');
-            
-            // 저장된 레이아웃 불러오기
-            const savedLayout = localStorage.getItem('dashboardLayout') || 'tablet';
-            layoutSelector.value = savedLayout;
-            applyLayout(savedLayout);
-            
-            // 레이아웃 변경 이벤트
-            layoutSelector.addEventListener('change', (e) => {
-                const layout = e.target.value;
-                localStorage.setItem('dashboardLayout', layout);
-                applyLayout(layout);
-            });
-            
-            function applyLayout(layout) {
-                if (layout === 'youtube') {
-                    document.body.classList.add('youtube-layout');
-                } else {
-                    document.body.classList.remove('youtube-layout');
-                }
-            }
-            
-            // 정렬 버튼 이벤트
             document.querySelectorAll('.sort-btn').forEach(btn => {
                 btn.addEventListener('click', (e) => {
                     const criteria = e.currentTarget.dataset.sort;
@@ -1353,48 +1084,6 @@
             const wordcloud = document.getElementById('wordcloud');
             wordcloud.innerHTML = '';
             coinPositions = [];
-
-            // 보유 코인이 없을 때 재미있는 메시지 표시
-            if (holdings.length === 0) {
-                const messages = [
-                    '심심해', '허전해', '코인이나 살까?', '🤔', 
-                    '뭐 살까', '기다리는 중', '언제 살까', '타이밍은?',
-                    '고민 중...', '기회를 노린다', '분석 중', '관망',
-                    '차트 보는 중', '🔥', '💎', '🚀', '언제 사지?',
-                    '대기 중', '준비 중', '고민이야', '분석 타임'
-                ];
-                
-                const wordCloudHTML = messages.map(msg => {
-                    const size = 14 + Math.random() * 20;
-                    const opacity = 0.4 + Math.random() * 0.6;
-                    const colors = ['#ff6b6b', '#4ecdc4', '#45b7d1', '#f7931a', '#95a5a6', '#e67e22'];
-                    const color = colors[Math.floor(Math.random() * colors.length)];
-                    const rotation = -15 + Math.random() * 30;
-                    
-                    return `<span style="
-                        font-size: ${size}px;
-                        color: ${color};
-                        opacity: ${opacity};
-                        margin: 5px 10px;
-                        display: inline-block;
-                        transform: rotate(${rotation}deg);
-                        font-weight: ${Math.random() > 0.5 ? 'bold' : 'normal'};
-                    ">${msg}</span>`;
-                }).join('');
-                
-                wordcloud.innerHTML = `
-                    <div style="
-                        text-align: center; 
-                        padding: 40px 20px;
-                        line-height: 2;
-                        display: flex;
-                        flex-wrap: wrap;
-                        justify-content: center;
-                        align-items: center;
-                    ">${wordCloudHTML}</div>
-                `;
-                return;
-            }
 
             const animations = ['fire-anim-1', 'fire-anim-2', 'fire-anim-3', 'fire-anim-4'];
             const containerWidth = wordcloud.offsetWidth || 800;
@@ -1699,41 +1388,5 @@
         updateDashboard();
         setInterval(updateDashboard, 10000);
     </script>
-
-    <!-- SEO를 위한 키워드 콘텐츠 (검색 엔진용) -->
-    <div style="position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden;">
-        <h1>빗썸 불멍 대시보드 - 실시간 암호화폐 거래 현황</h1>
-        <p>빗썸(Bithumb) 거래소의 실시간 암호화폐 거래 현황을 확인할 수 있는 대시보드입니다. 비트코인(BTC), 이더리움(ETH), 리플(XRP) 등 주요 코인의 실시간 시세와 AI 자동매매 봇의 거래 내역을 모니터링할 수 있습니다.</p>
-        
-        <h2>주요 기능</h2>
-        <ul>
-            <li>실시간 암호화폐 시세 확인</li>
-            <li>AI 자동매매 봇 거래 내역</li>
-            <li>손익 현황 실시간 업데이트</li>
-            <li>보유 코인 포트폴리오 관리</li>
-            <li>최근 거래 내역 확인</li>
-        </ul>
-        
-        <h2>지원 코인</h2>
-        <p>비트코인(BTC), 이더리움(ETH), 리플(XRP), 에이다(ADA), 도지코인(DOGE), 솔라나(SOL), 폴카닷(DOT), 체인링크(LINK), 라이트코인(LTC), 비트코인캐시(BCH), 이더리움클래식(ETC), 스텔라루멘(XLM), 트론(TRX), 이오스(EOS), 테더(USDT), 바이낸스코인(BNB) 등 빗썸 거래소에서 거래 가능한 모든 암호화폐를 지원합니다.</p>
-        
-        <h2>빗썸 초대코드</h2>
-        <p>빗썸 초대코드 JJCDWMIYMV를 사용하여 가입하시면 계좌 연결 시 5만원, 첫 거래 후 2만원, 총 최대 7만원의 혜택을 받으실 수 있습니다. 빗썸은 대한민국 최대 규모의 암호화폐 거래소로, 다양한 코인과 안전한 거래 환경을 제공합니다.</p>
-        
-        <h2>자동매매 트레이딩 봇</h2>
-        <p>Jarvis AI 트레이딩 봇은 머신러닝과 딥러닝 알고리즘을 활용하여 암호화폐 시장을 분석하고 자동으로 매수/매도를 실행합니다. 실시간 시장 분석, 기술적 지표 분석, 뉴스 감성 분석 등을 통해 최적의 거래 타이밍을 포착합니다.</p>
-        
-        <h2>암호화폐 거래 전략</h2>
-        <p>데이트레이딩, 스윙트레이딩, 포지션트레이딩 등 다양한 거래 전략을 지원하며, RSI, MACD, 볼린저밴드 등의 기술적 지표를 활용합니다. 리스크 관리와 포트폴리오 분산 투자를 통해 안정적인 수익을 추구합니다.</p>
-        
-        <h2>실시간 시세 정보</h2>
-        <p>빗썸 거래소의 실시간 호가, 체결가, 거래량, 24시간 변동률 등의 정보를 제공합니다. 차트 분석을 통해 매수/매도 타이밍을 결정하고, 손절/익절 전략을 수립할 수 있습니다.</p>
-        
-        <h2>관련 키워드</h2>
-        <p>암호화폐, 가상화폐, 디지털자산, 블록체인, 비트코인, 알트코인, 코인거래, 코인투자, 가상자산, 크립토, 디파이, NFT, 웹3, 메타버스, 가상화폐거래소, 코인시세, 암호화폐시세, 비트코인시세, 코인차트, 암호화폐차트, 가상화폐뉴스, 코인뉴스, 암호화폐투자, 코인자동매매, 트레이딩봇, 퀀트트레이딩, 알고리즘트레이딩</p>
-        
-        <h2>거래소</h2>
-        <p>빗썸(Bithumb), 업비트(Upbit), 코인원(Coinone), 코빗(Korbit), 바이낸스(Binance), 후오비(Huobi), 크라켄(Kraken), 코인베이스(Coinbase), FTX, OKX, 바이비트(Bybit), 게이트아이오(Gate.io)</p>
-    </div>
 </body>
 </html>

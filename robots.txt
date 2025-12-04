@@ -1,0 +1,40 @@
+# robots.txt for 빗썸 불멍 대시보드
+# https://jinalssem.github.io/Jarvis-dashboard/
+
+User-agent: *
+Allow: /
+Disallow: /dashboard_data.json
+
+# Sitemap
+Sitemap: https://jinalssem.github.io/Jarvis-dashboard/sitemap.xml
+
+# 주요 검색엔진
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+User-agent: NaverBot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+# 크롤링 속도 조절 (초 단위)
+Crawl-delay: 1
