@@ -1,8 +1,8 @@
 {
   "today_profit": 9815.251732672034,
-  "today_profit_percent": 100.64762249335122,
-  "total_profit": 8654.358192335583,
-  "total_profit_percent": 88.74357988853204,
+  "today_profit_percent": 50.34414858179367,
+  "total_profit": 8711.593403663743,
+  "total_profit_percent": 44.68329133508895,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -154,17 +154,34 @@
   },
   "holdings": [
     {
+      "market": "KRW-REI",
+      "amount": 854.75578406,
+      "avg_price": 11.4,
+      "current_price": 11.48,
+      "value": 9812.596401008801,
+      "profit": 68.38046272480005,
+      "profit_rate": 0.007017543859649129
+    },
+    {
       "market": "KRW-TURBO",
       "amount": 2786.31284916,
       "avg_price": 3.5,
-      "current_price": 3.496,
-      "value": 9740.94972066336,
-      "profit": -11.14525139664001,
-      "profit_rate": -0.0011428571428571438
+      "current_price": 3.492,
+      "value": 9729.80446926672,
+      "profit": -22.29050279328002,
+      "profit_rate": -0.0022857142857142876
     }
   ],
-  "last_update": "2025-12-04T16:10:01.911016",
+  "last_update": "2025-12-04T16:15:23.205106",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-TURBO",
+      "profit": 0,
+      "price": 3.41,
+      "amount": 2861.44578313,
+      "time": "2025-12-04T16:14:13.725885"
+    },
     {
       "type": "buy",
       "market": "KRW-AWE",
@@ -956,14 +973,6 @@
       "price": 470.0,
       "amount": 20.78125,
       "time": "2025-12-03T05:50:37.680965"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-MAY",
-      "profit": 0,
-      "price": 27.5,
-      "amount": 354.35168739,
-      "time": "2025-12-03T05:45:20.712302"
     }
   ]
 }
