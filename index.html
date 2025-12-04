@@ -54,6 +54,10 @@
             z-index: 1;
         }
 
+        .main-content {
+            display: block;
+        }
+
         .loading-overlay {
             position: fixed;
             top: 0;
@@ -157,6 +161,196 @@
             font-weight: bold;
             min-width: 40px;
             text-align: right;
+        }
+
+        /* 레이아웃 선택 드롭다운 */
+        .layout-selector {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 1000;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 8px 12px;
+            border-radius: 12px;
+        }
+
+        .layout-selector select {
+            background: rgba(0, 0, 0, 0.3);
+            color: #fff;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 6px 12px;
+            border-radius: 8px;
+            font-size: 0.9em;
+            cursor: pointer;
+            outline: none;
+        }
+
+        .layout-selector select:hover {
+            background: rgba(0, 0, 0, 0.5);
+            border-color: rgba(255, 255, 255, 0.4);
+        }
+
+        .layout-selector option {
+            background: #1a1a2e;
+            color: #fff;
+        }
+
+        /* YouTube Layout 스타일 */
+        body.youtube-layout {
+            padding: 10px;
+            overflow: hidden;
+        }
+
+        body.youtube-layout .container {
+            max-width: 100%;
+            height: calc(100vh - 20px);
+            display: grid;
+            grid-template-rows: auto 1fr;
+            gap: 10px;
+            overflow: hidden;
+        }
+
+        body.youtube-layout .header {
+            margin-bottom: 5px;
+        }
+
+        body.youtube-layout .header h1 {
+            font-size: 1.8em;
+            margin-bottom: 5px;
+        }
+
+        body.youtube-layout .status-row {
+            gap: 10px;
+        }
+
+        body.youtube-layout .visitor-counter,
+        body.youtube-layout .clock,
+        body.youtube-layout .status {
+            font-size: 0.8em;
+            padding: 4px 10px;
+        }
+
+        body.youtube-layout .last-update {
+            font-size: 0.75em;
+            margin-top: 3px;
+        }
+
+        body.youtube-layout .wordcloud-container {
+            display: none;
+        }
+
+        body.youtube-layout .main-content {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            gap: 10px;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        body.youtube-layout .profit-grid {
+            grid-template-columns: 1fr;
+            gap: 8px;
+            height: fit-content;
+        }
+
+        body.youtube-layout .profit-card {
+            padding: 12px;
+        }
+
+        body.youtube-layout .profit-card h3 {
+            font-size: 0.9em;
+            margin-bottom: 6px;
+        }
+
+        body.youtube-layout .profit-amount {
+            font-size: 1.3em;
+        }
+
+        body.youtube-layout .profit-percent {
+            font-size: 0.85em;
+        }
+
+        body.youtube-layout .holdings-section {
+            overflow-y: auto;
+            height: 100%;
+        }
+
+        body.youtube-layout .holdings-section h2 {
+            font-size: 1.1em;
+            margin-bottom: 8px;
+        }
+
+        body.youtube-layout .sort-controls {
+            gap: 6px;
+            margin-bottom: 8px;
+        }
+
+        body.youtube-layout .sort-btn {
+            padding: 4px 10px;
+            font-size: 0.75em;
+        }
+
+        body.youtube-layout .holdings-grid {
+            grid-template-columns: 1fr;
+            gap: 8px;
+        }
+
+        body.youtube-layout .coin-card {
+            padding: 10px;
+        }
+
+        body.youtube-layout .coin-name {
+            font-size: 1em;
+        }
+
+        body.youtube-layout .coin-profit-badge {
+            font-size: 0.8em;
+            padding: 3px 8px;
+        }
+
+        body.youtube-layout .coin-detail-row {
+            font-size: 0.8em;
+            padding: 3px 0;
+        }
+
+        body.youtube-layout .trades-section {
+            overflow-y: auto;
+            height: 100%;
+        }
+
+        body.youtube-layout .trades-section h2 {
+            font-size: 1.1em;
+            margin-bottom: 8px;
+        }
+
+        body.youtube-layout .trades-list {
+            gap: 6px;
+        }
+
+        body.youtube-layout .trade-item {
+            padding: 8px;
+        }
+
+        body.youtube-layout .trade-time {
+            font-size: 0.75em;
+        }
+
+        body.youtube-layout .trade-market {
+            font-size: 0.9em;
+        }
+
+        body.youtube-layout .trade-action {
+            font-size: 0.75em;
+            padding: 3px 8px;
+        }
+
+        body.youtube-layout .trade-profit {
+            font-size: 0.85em;
+        }
+
+        body.youtube-layout .referral-section {
+            display: none;
         }
 
         .last-update {
@@ -739,6 +933,13 @@
         <span class="volume-value" id="volumeValue">30%</span>
     </div>
 
+    <div class="layout-selector">
+        <select id="layoutSelector">
+            <option value="tablet">📱 Tablet Layout</option>
+            <option value="youtube">📺 YouTube Layout</option>
+        </select>
+    </div>
+
     <div class="container">
         <div class="header">
             <h1>🔥 빗썸 불멍 대시보드</h1>
@@ -771,6 +972,7 @@
             <div class="wordcloud" id="wordcloud"></div>
         </div>
 
+        <div class="main-content">
         <div class="profit-grid">
             <div class="profit-card">
                 <h3>🌅 오늘 손익</h3>
@@ -802,6 +1004,7 @@
             <h2>📜 최근 거래 (6개)</h2>
             <div class="trades-list" id="tradesList"></div>
         </div>
+        </div><!-- main-content 끝 -->
 
         <div class="referral-section">
             <h2>🎁 빗썸 초대 코드</h2>
@@ -1025,6 +1228,30 @@
         }
 
         document.addEventListener('DOMContentLoaded', () => {
+            // 레이아웃 전환 기능
+            const layoutSelector = document.getElementById('layoutSelector');
+            
+            // 저장된 레이아웃 불러오기
+            const savedLayout = localStorage.getItem('dashboardLayout') || 'tablet';
+            layoutSelector.value = savedLayout;
+            applyLayout(savedLayout);
+            
+            // 레이아웃 변경 이벤트
+            layoutSelector.addEventListener('change', (e) => {
+                const layout = e.target.value;
+                localStorage.setItem('dashboardLayout', layout);
+                applyLayout(layout);
+            });
+            
+            function applyLayout(layout) {
+                if (layout === 'youtube') {
+                    document.body.classList.add('youtube-layout');
+                } else {
+                    document.body.classList.remove('youtube-layout');
+                }
+            }
+            
+            // 정렬 버튼 이벤트
             document.querySelectorAll('.sort-btn').forEach(btn => {
                 btn.addEventListener('click', (e) => {
                     const criteria = e.currentTarget.dataset.sort;
