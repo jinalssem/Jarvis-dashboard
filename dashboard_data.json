@@ -1,8 +1,8 @@
 {
   "today_profit": 11052.274495134594,
-  "today_profit_percent": 29.98124362105888,
-  "total_profit": 9849.064162789504,
-  "total_profit_percent": 26.71732341012911,
+  "today_profit_percent": 1105227.4495134593,
+  "total_profit": 9250.519101397183,
+  "total_profit_percent": 925051.9101397183,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -152,19 +152,17 @@
     "profit": 0,
     "profit_rate": 0.0
   },
-  "holdings": [
-    {
-      "market": "KRW-TURBO",
-      "amount": 10688.30466772,
-      "avg_price": 3.449,
-      "current_price": 3.505,
-      "value": 37462.5078603586,
-      "profit": 598.5450613923206,
-      "profit_rate": 0.01623659031603365
-    }
-  ],
-  "last_update": "2025-12-04T19:00:09.898051",
+  "holdings": [],
+  "last_update": "2025-12-04T19:05:47.368910",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-WAVES",
+      "profit": 0,
+      "price": 1080.0,
+      "amount": 9.01898734,
+      "time": "2025-12-04T19:04:38.795680"
+    },
     {
       "type": "sell",
       "market": "KRW-TURBO",
@@ -956,14 +954,6 @@
       "price": 28.24,
       "amount": 354.35168739,
       "time": "2025-12-03T08:09:44.025867"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-MAY",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-03T07:58:27.790063"
     }
   ]
 }
