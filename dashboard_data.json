@@ -199,8 +199,24 @@
       "profit_rate": 0.005750798722044719
     }
   ],
-  "last_update": "2025-12-05T05:45:28.364861",
+  "last_update": "2025-12-05T05:50:58.894025",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-WAVES",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-05T05:50:58.893610"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-WAVES",
+      "profit": 117.24683542000001,
+      "price": 1093.0,
+      "amount": 9.01898734,
+      "time": "2025-12-05T05:50:58.891584"
+    },
     {
       "type": "sell",
       "market": "KRW-ETH",
@@ -984,22 +1000,6 @@
       "price": 749.0,
       "amount": 46.17865059,
       "time": "2025-12-04T06:44:22.167351"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-PIEVERSE",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-04T06:38:05.155531"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-PIEVERSE",
-      "profit": 1015.9303129799999,
-      "price": 742.0,
-      "amount": 46.17865059,
-      "time": "2025-12-04T06:38:05.152173"
     }
   ]
 }
