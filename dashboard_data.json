@@ -1,8 +1,8 @@
 {
-  "today_profit": 70.50091608604205,
-  "today_profit_percent": 0.04529997595956033,
-  "total_profit": 10804.661024141764,
-  "total_profit_percent": 6.9424755282254145,
+  "today_profit": 618.9510912515499,
+  "today_profit_percent": 0.4187059051691474,
+  "total_profit": 15150.622482713581,
+  "total_profit_percent": 10.249040982662198,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,86 +157,94 @@
       "market": "KRW-BTC",
       "amount": 0.0001294,
       "avg_price": 135981000.0,
-      "current_price": 136374000.0,
-      "value": 17646.7956,
-      "profit": 50.8542,
-      "profit_rate": 0.002890109647671366
+      "current_price": 136777000.0,
+      "value": 17698.9438,
+      "profit": 103.0024,
+      "profit_rate": 0.005853758981034115
     },
     {
       "market": "KRW-ETH",
       "amount": 0.00381048,
       "avg_price": 4616999.0,
-      "current_price": 4613000.0,
-      "value": 17577.74424,
-      "profit": -15.23810952,
-      "profit_rate": -0.0008661470362025203
+      "current_price": 4641000.0,
+      "value": 17684.437680000003,
+      "profit": 91.45533048,
+      "profit_rate": 0.005198398353562563
     },
     {
       "market": "KRW-WAVES",
       "amount": 9.01898734,
       "avg_price": 1080.0,
-      "current_price": 1080.0,
-      "value": 9740.5063272,
-      "profit": 0.0,
-      "profit_rate": 0.0
+      "current_price": 1094.0,
+      "value": 9866.772149960001,
+      "profit": 126.26582276,
+      "profit_rate": 0.012962962962962963
     },
     {
       "market": "KRW-BOA",
       "amount": 4406.16756137,
       "avg_price": 4.434,
-      "current_price": 4.493,
-      "value": 19796.91085323541,
-      "profit": 259.9638861208307,
-      "profit_rate": 0.013306269733874642
+      "current_price": 4.503,
+      "value": 19840.97252884911,
+      "profit": 304.0255617345298,
+      "profit_rate": 0.015561569688768595
     },
     {
       "market": "KRW-APM",
       "amount": 5208.8772846,
       "avg_price": 1.87,
-      "current_price": 1.885,
-      "value": 9818.733681471,
-      "profit": 78.13315926899949,
-      "profit_rate": 0.008021390374331498
-    },
-    {
-      "market": "KRW-COTI",
-      "amount": 435.06178822,
-      "avg_price": 40.4,
-      "current_price": 39.47,
-      "value": 17171.8887810434,
-      "profit": -404.60746304459985,
-      "profit_rate": -0.023019801980198012
+      "current_price": 1.922,
+      "value": 10011.4621410012,
+      "profit": 270.8616187991991,
+      "profit_rate": 0.027807486631015947
     },
     {
       "market": "KRW-REI",
       "amount": 886.66666667,
       "avg_price": 11.0,
-      "current_price": 10.67,
-      "value": 9460.7333333689,
-      "profit": -292.60000000110006,
-      "profit_rate": -0.030000000000000006
+      "current_price": 10.8,
+      "value": 9576.000000036001,
+      "profit": -177.33333333399938,
+      "profit_rate": -0.01818181818181812
+    },
+    {
+      "market": "KRW-TRAC",
+      "amount": 11.3869863,
+      "avg_price": 858.0,
+      "current_price": 858.0,
+      "value": 9770.0342454,
+      "profit": 0.0,
+      "profit_rate": 0.0
     },
     {
       "market": "KRW-BERA",
       "amount": 7.07446809,
       "avg_price": 1380.0,
-      "current_price": 1351.0,
-      "value": 9557.60638959,
-      "profit": -205.15957461,
-      "profit_rate": -0.021014492753623187
+      "current_price": 1369.0,
+      "value": 9684.94681521,
+      "profit": -77.81914899,
+      "profit_rate": -0.007971014492753623
     },
     {
       "market": "KRW-XAN",
       "amount": 1416.34731063,
       "avg_price": 31.3,
-      "current_price": 31.15,
-      "value": 44119.2187261245,
-      "profit": -212.45209659450302,
-      "profit_rate": -0.004792332268370675
+      "current_price": 31.48,
+      "value": 44586.6133386324,
+      "profit": 254.9425159133996,
+      "profit_rate": 0.005750798722044719
     }
   ],
-  "last_update": "2025-12-05T04:33:14.081967",
+  "last_update": "2025-12-05T04:34:32.421909",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-ETH",
+      "profit": 0,
+      "price": 4541000.0,
+      "amount": 0.00365937,
+      "time": "2025-12-05T04:33:15.592991"
+    },
     {
       "type": "sell",
       "market": "KRW-BOA",
@@ -1028,14 +1036,6 @@
       "price": 0,
       "amount": 0,
       "time": "2025-12-04T05:19:01.337903"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-BOB",
-      "profit": -2161.0045176628055,
-      "price": 36.15,
-      "amount": 1460.13818761,
-      "time": "2025-12-04T05:19:01.334719"
     }
   ]
 }
