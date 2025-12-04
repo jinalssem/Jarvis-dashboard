@@ -181,8 +181,24 @@
       "profit_rate": 0.024154589371980676
     }
   ],
-  "last_update": "2025-12-04T16:47:56.812342",
+  "last_update": "2025-12-04T16:52:17.953940",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-RECALL",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-04T16:52:17.953395"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-RECALL",
+      "profit": 314.65298104,
+      "price": 211.0,
+      "amount": 78.66324526,
+      "time": "2025-12-04T16:52:17.949828"
+    },
     {
       "type": "buy",
       "market": "KRW-TURBO",
@@ -966,22 +982,6 @@
       "price": 1925.0,
       "amount": 5.07633588,
       "time": "2025-12-03T06:06:26.509292"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-OAS",
-      "profit": 0,
-      "price": 3.2,
-      "amount": 3053.25987144,
-      "time": "2025-12-03T06:01:16.692965"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-MERL",
-      "profit": 0,
-      "price": 470.0,
-      "amount": 20.78125,
-      "time": "2025-12-03T05:50:37.680965"
     }
   ]
 }
