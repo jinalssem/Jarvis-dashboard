@@ -1,8 +1,8 @@
 {
-  "today_profit": 8744.834384951886,
-  "today_profit_percent": 31.975180862227386,
-  "total_profit": 8744.834384951886,
-  "total_profit_percent": 31.975180862227386,
+  "today_profit": 8778.829314968785,
+  "today_profit_percent": 18.730405582247133,
+  "total_profit": 8778.829314968785,
+  "total_profit_percent": 18.730405582247133,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -154,13 +154,31 @@
   },
   "holdings": [
     {
+      "market": "KRW-BAT",
+      "amount": 24.81343284,
+      "avg_price": 393.0,
+      "current_price": 393.0,
+      "value": 9751.67910612,
+      "profit": 0.0,
+      "profit_rate": 0.0
+    },
+    {
+      "market": "KRW-BOA",
+      "amount": 2060.95041322,
+      "avg_price": 4.74,
+      "current_price": 4.765,
+      "value": 9820.428718993298,
+      "profit": 51.5237603304989,
+      "profit_rate": 0.0052742616033754144
+    },
+    {
       "market": "KRW-AWE",
       "amount": 109.55518946,
       "avg_price": 89.2,
-      "current_price": 90.0,
-      "value": 9859.967051399999,
-      "profit": 87.64415156799969,
-      "profit_rate": 0.00896860986547082
+      "current_price": 89.84,
+      "value": 9842.4382210864,
+      "profit": 70.11532125440006,
+      "profit_rate": 0.007174887892376688
     },
     {
       "market": "KRW-COTI",
@@ -172,7 +190,7 @@
       "profit_rate": 0.0034653465346534797
     }
   ],
-  "last_update": "2025-12-05T00:24:41.626610",
+  "last_update": "2025-12-05T00:30:23.887932",
   "trades": [
     {
       "type": "sell",
