@@ -172,8 +172,24 @@
       "profit_rate": -0.006285714285714228
     }
   ],
-  "last_update": "2025-12-04T17:04:38.849975",
+  "last_update": "2025-12-04T17:08:54.448693",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-REI",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-04T17:08:54.448157"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-REI",
+      "profit": 170.9511568119994,
+      "price": 11.6,
+      "amount": 854.75578406,
+      "time": "2025-12-04T17:08:54.445673"
+    },
     {
       "type": "sell",
       "market": "KRW-RECALL",
@@ -957,22 +973,6 @@
       "price": 27.2,
       "amount": 356.81026983,
       "time": "2025-12-03T06:53:36.717914"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-H",
-      "profit": 0,
-      "price": 170.0,
-      "amount": 57.32758621,
-      "time": "2025-12-03T06:16:49.065433"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-ORCA",
-      "profit": 0,
-      "price": 1925.0,
-      "amount": 5.07633588,
-      "time": "2025-12-03T06:06:26.509292"
     }
   ]
 }
