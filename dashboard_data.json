@@ -199,8 +199,40 @@
       "profit_rate": 0.004153354632587827
     }
   ],
-  "last_update": "2025-12-05T05:38:49.580620",
+  "last_update": "2025-12-05T05:44:14.377373",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-ETH",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-05T05:44:14.377049"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ETH",
+      "profit": 209.58021048,
+      "price": 4672000.0,
+      "amount": 0.00381048,
+      "time": "2025-12-05T05:44:14.374315"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-BTC",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-05T05:44:12.841949"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-BTC",
+      "profit": 205.6166,
+      "price": 137570000.0,
+      "amount": 0.0001294,
+      "time": "2025-12-05T05:44:12.839899"
+    },
     {
       "type": "sell",
       "market": "KRW-APM",
@@ -968,38 +1000,6 @@
       "price": 742.0,
       "amount": 46.17865059,
       "time": "2025-12-04T06:38:05.152173"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-BOA",
-      "profit": 0,
-      "price": 4.74,
-      "amount": 2060.95041322,
-      "time": "2025-12-04T06:34:53.134998"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-SYRUP",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-04T06:31:34.024170"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-SYRUP",
-      "profit": -413.22749999399826,
-      "price": 362.0,
-      "amount": 153.04722222,
-      "time": "2025-12-04T06:31:34.020628"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-IOST",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-04T06:31:33.704615"
     }
   ]
 }
