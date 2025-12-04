@@ -1,8 +1,8 @@
 {
   "today_profit": 12126.478158487806,
   "today_profit_percent": 125.62769145471344,
-  "total_profit": 4214.490206533603,
-  "total_profit_percent": 43.661207185264026,
+  "total_profit": 4262.354889835003,
+  "total_profit_percent": 44.15707495385906,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,14 +157,22 @@
       "market": "KRW-IOST",
       "amount": 3190.97888676,
       "avg_price": 3.025,
-      "current_price": 2.94,
-      "value": 9381.4779270744,
-      "profit": -271.2332053745999,
-      "profit_rate": -0.028099173553718996
+      "current_price": 2.955,
+      "value": 9429.342610375801,
+      "profit": -223.3685220731995,
+      "profit_rate": -0.02314049586776854
     }
   ],
-  "last_update": "2025-12-04T09:03:34.435025",
+  "last_update": "2025-12-04T09:09:17.492080",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-BTC",
+      "profit": 0,
+      "price": 135981000.0,
+      "amount": 0.0001294,
+      "time": "2025-12-04T09:08:08.069986"
+    },
     {
       "type": "buy",
       "market": "KRW-BAT",
@@ -956,14 +964,6 @@
       "price": 46.44,
       "amount": 181.5420827,
       "time": "2025-12-03T02:34:54.154880"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-MON",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-03T02:28:45.184065"
     }
   ]
 }
