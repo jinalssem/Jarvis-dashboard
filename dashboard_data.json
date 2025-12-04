@@ -1,8 +1,8 @@
 {
   "today_profit": 475.1083791306419,
   "today_profit_percent": 1.0139613223593356,
-  "total_profit": 12377.148259534177,
-  "total_profit_percent": 26.41491955843601,
+  "total_profit": 12277.440302263267,
+  "total_profit_percent": 26.202125979865254,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,10 +157,10 @@
       "market": "KRW-BOA",
       "amount": 2174.62393721,
       "avg_price": 4.49,
-      "current_price": 4.471,
-      "value": 9722.74362326591,
-      "profit": -41.317854806990276,
-      "profit_rate": -0.004231625835189338
+      "current_price": 4.47,
+      "value": 9720.5689993287,
+      "profit": -43.492478744201,
+      "profit_rate": -0.004454342984409903
     },
     {
       "market": "KRW-COTI",
@@ -175,10 +175,10 @@
       "market": "KRW-REI",
       "amount": 886.66666667,
       "avg_price": 11.0,
-      "current_price": 11.16,
-      "value": 9895.2000000372,
-      "profit": 141.86666666720012,
-      "profit_rate": 0.014545454545454558
+      "current_price": 11.05,
+      "value": 9797.6666667035,
+      "profit": 44.33333333350063,
+      "profit_rate": 0.00454545454545461
     },
     {
       "market": "KRW-BERA",
@@ -190,8 +190,16 @@
       "profit_rate": -0.002898550724637681
     }
   ],
-  "last_update": "2025-12-05T03:03:26.183078",
+  "last_update": "2025-12-05T03:09:14.969758",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-BOA",
+      "profit": 0,
+      "price": 4.38,
+      "amount": 2231.54362416,
+      "time": "2025-12-05T03:07:53.872650"
+    },
     {
       "type": "buy",
       "market": "KRW-APM",
@@ -983,14 +991,6 @@
       "price": 4.88,
       "amount": 2001.40449438,
       "time": "2025-12-03T21:33:15.554878"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-JST",
-      "profit": 0,
-      "price": 57.7,
-      "amount": 169.38359654,
-      "time": "2025-12-03T21:27:22.536000"
     }
   ]
 }
