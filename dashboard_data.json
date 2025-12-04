@@ -1,8 +1,8 @@
 {
   "today_profit": 1843.432266945048,
-  "today_profit_percent": 3.025539693102645,
-  "total_profit": 11311.88317542644,
-  "total_profit_percent": 18.56566805555048,
+  "today_profit_percent": 6.995390299836989,
+  "total_profit": 11081.525522228456,
+  "total_profit_percent": 42.051773496435054,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -154,6 +154,15 @@
   },
   "holdings": [
     {
+      "market": "KRW-APM",
+      "amount": 5244.47949527,
+      "avg_price": 1.86,
+      "current_price": 1.916,
+      "value": 10048.422712937321,
+      "profit": 293.6908517351191,
+      "profit_rate": 0.030107526881720335
+    },
+    {
       "market": "KRW-REI",
       "amount": 1565.78947368,
       "avg_price": 10.6,
@@ -161,18 +170,9 @@
       "value": 16738.289473639197,
       "profit": 140.92105263119976,
       "profit_rate": 0.008490566037735837
-    },
-    {
-      "market": "KRW-XAN",
-      "amount": 1416.34731063,
-      "avg_price": 31.3,
-      "current_price": 31.67,
-      "value": 44855.71932765211,
-      "profit": 524.0485049331014,
-      "profit_rate": 0.011821086261980862
     }
   ],
-  "last_update": "2025-12-05T06:31:53.298614",
+  "last_update": "2025-12-05T06:38:19.728111",
   "trades": [
     {
       "type": "sell",
