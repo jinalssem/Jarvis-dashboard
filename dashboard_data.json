@@ -153,8 +153,16 @@
     "profit_rate": 0.0
   },
   "holdings": [],
-  "last_update": "2025-12-04T15:13:50.598991",
+  "last_update": "2025-12-04T15:19:28.850944",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-AWE",
+      "profit": 0,
+      "price": 89.2,
+      "amount": 109.55518946,
+      "time": "2025-12-04T15:18:20.215342"
+    },
     {
       "type": "sell",
       "market": "KRW-APM",
@@ -946,14 +954,6 @@
       "price": 27.5,
       "amount": 354.35168739,
       "time": "2025-12-03T05:45:20.712302"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-BOA",
-      "profit": 0,
-      "price": 4.52,
-      "amount": 2158.62367453,
-      "time": "2025-12-03T05:40:10.241910"
     }
   ]
 }
