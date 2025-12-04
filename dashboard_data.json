@@ -1,8 +1,8 @@
 {
   "today_profit": 475.1083791306419,
-  "today_profit_percent": 1.7378244354619452,
-  "total_profit": 12334.292274927368,
-  "total_profit_percent": 45.115673499002405,
+  "today_profit_percent": 1.2808712148414003,
+  "total_profit": 12369.758941594166,
+  "total_profit_percent": 33.34832400095033,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -163,6 +163,15 @@
       "profit_rate": 0.0027227722772277087
     },
     {
+      "market": "KRW-REI",
+      "amount": 886.66666667,
+      "avg_price": 11.0,
+      "current_price": 11.04,
+      "value": 9788.8000000368,
+      "profit": 35.46666666679925,
+      "profit_rate": 0.0036363636363635587
+    },
+    {
       "market": "KRW-BERA",
       "amount": 7.07446809,
       "avg_price": 1380.0,
@@ -172,8 +181,16 @@
       "profit_rate": 0.004347826086956522
     }
   ],
-  "last_update": "2025-12-05T02:04:43.255426",
+  "last_update": "2025-12-05T02:10:44.673621",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-ETH",
+      "profit": 0,
+      "price": 4617000.0,
+      "amount": 0.00381048,
+      "time": "2025-12-05T02:09:23.254526"
+    },
     {
       "type": "sell",
       "market": "KRW-EVZ",
@@ -965,14 +982,6 @@
       "price": 4.96,
       "amount": 1970.56499407,
       "time": "2025-12-03T21:15:41.516841"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-TRAC",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-03T18:23:10.087699"
     }
   ]
 }
