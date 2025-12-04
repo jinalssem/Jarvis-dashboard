@@ -290,13 +290,13 @@
         body.youtube-layout .main-content {
             display: grid;
             grid-template-columns: 1fr 1.5fr 1fr;
-            grid-template-rows: auto 1fr;
+            grid-template-rows: 1fr 1fr;
             gap: 10px;
             height: 100%;
             overflow: hidden;
             grid-template-areas:
                 "holdings wordcloud profit"
-                "holdings wordcloud trades";
+                "trades wordcloud chart";
         }
 
         body.youtube-layout .holdings-section {
@@ -330,6 +330,26 @@
         body.youtube-layout .trades-section {
             grid-area: trades;
             overflow-y: auto;
+        }
+
+        body.youtube-layout .chart-section {
+            display: block;
+            grid-area: chart;
+            overflow-y: auto;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 107, 53, 0.2);
+            border-radius: 15px;
+        }
+
+        body.youtube-layout .chart-section h2 {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+
+        body.youtube-layout #profitChart {
+            max-height: 250px;
         }
 
         body.youtube-layout .profit-card {
@@ -863,6 +883,27 @@
             text-align: right;
         }
 
+        .chart-section {
+            display: none; /* Tablet 모드에서 숨김 */
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 107, 53, 0.2);
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+
+        .chart-section h2 {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            color: #ff6b35;
+        }
+
+        #profitChart {
+            max-height: 300px;
+        }
+
         .referral-section {
             background: linear-gradient(135deg, rgba(255, 107, 53, 0.15), rgba(247, 147, 26, 0.1));
             backdrop-filter: blur(10px);
@@ -990,6 +1031,9 @@
             }
         }
     </style>
+    
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 </head>
 <body>
     <div class="loading-overlay" id="loadingOverlay">
@@ -1077,6 +1121,11 @@
             <h2>📜 최근 거래 (6개)</h2>
             <div class="trades-list" id="tradesList"></div>
         </div>
+
+        <div class="chart-section">
+            <h2>📈 수익 추이</h2>
+            <canvas id="profitChart"></canvas>
+        </div>
         </div><!-- main-content 끝 -->
 
         <div class="referral-section">
@@ -1155,6 +1204,183 @@
         
         // 페이지 로드 시 방문자 수 업데이트
         updateVisitorCount();
+
+        // 수익 차트 초기화
+        let profitChart = null;
+        
+        function initProfitChart() {
+            const ctx = document.getElementById('profitChart');
+            if (!ctx) return;
+            
+            if (profitChart) {
+                profitChart.destroy();
+            }
+            
+            profitChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: [],
+                    datasets: [
+                        {
+                            type: 'bar',
+                            label: '일일 수익금',
+                            data: [],
+                            backgroundColor: 'rgba(255, 107, 107, 0.7)',
+                            borderColor: 'rgba(255, 107, 107, 1)',
+                            borderWidth: 1,
+                            yAxisID: 'y'
+                        },
+                        {
+                            type: 'line',
+                            label: '누적 수익률',
+                            data: [],
+                            borderColor: 'rgba(78, 205, 196, 1)',
+                            backgroundColor: 'rgba(78, 205, 196, 0.2)',
+                            borderWidth: 2,
+                            fill: true,
+                            tension: 0.4,
+                            yAxisID: 'y1'
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    interaction: {
+                        mode: 'index',
+                        intersect: false,
+                    },
+                    plugins: {
+                        legend: {
+                            display: true,
+                            position: 'top',
+                            labels: {
+                                color: '#fff',
+                                font: {
+                                    size: 10
+                                },
+                                padding: 8
+                            }
+                        },
+                        tooltip: {
+                            backgroundColor: 'rgba(0, 0, 0, 0.8)',
+                            titleColor: '#fff',
+                            bodyColor: '#fff',
+                            callbacks: {
+                                label: function(context) {
+                                    let label = context.dataset.label || '';
+                                    if (label) {
+                                        label += ': ';
+                                    }
+                                    if (context.parsed.y !== null) {
+                                        if (context.datasetIndex === 0) {
+                                            label += context.parsed.y >= 0 ? '+' : '';
+                                            label += context.parsed.y.toLocaleString() + '원';
+                                        } else {
+                                            label += context.parsed.y >= 0 ? '+' : '';
+                                            label += context.parsed.y.toFixed(2) + '%';
+                                        }
+                                    }
+                                    return label;
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        x: {
+                            grid: {
+                                color: 'rgba(255, 255, 255, 0.1)'
+                            },
+                            ticks: {
+                                color: '#95a5a6',
+                                font: {
+                                    size: 9
+                                }
+                            }
+                        },
+                        y: {
+                            type: 'linear',
+                            display: true,
+                            position: 'left',
+                            title: {
+                                display: true,
+                                text: '수익금 (원)',
+                                color: '#ff6b6b',
+                                font: {
+                                    size: 10
+                                }
+                            },
+                            grid: {
+                                color: 'rgba(255, 255, 255, 0.1)'
+                            },
+                            ticks: {
+                                color: '#ff6b6b',
+                                font: {
+                                    size: 9
+                                },
+                                callback: function(value) {
+                                    return value >= 0 ? '+' : '';
+                                    return value + '원';
+                                }
+                            }
+                        },
+                        y1: {
+                            type: 'linear',
+                            display: true,
+                            position: 'right',
+                            title: {
+                                display: true,
+                                text: '수익률 (%)',
+                                color: '#4ecdc4',
+                                font: {
+                                    size: 10
+                                }
+                            },
+                            grid: {
+                                drawOnChartArea: false,
+                            },
+                            ticks: {
+                                color: '#4ecdc4',
+                                font: {
+                                    size: 9
+                                },
+                                callback: function(value) {
+                                    return (value >= 0 ? '+' : '') + value.toFixed(1) + '%';
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+        }
+        
+        function updateProfitChart(data) {
+            if (!profitChart || !data.daily_profits) return;
+            
+            // 최근 7일 데이터만 표시
+            const entries = Object.entries(data.daily_profits).slice(-7);
+            const dates = entries.map(([date]) => {
+                const d = new Date(date);
+                return `${d.getMonth() + 1}/${d.getDate()}`;
+            });
+            const profits = entries.map(([, profit]) => profit);
+            
+            // 누적 수익률 계산
+            let cumulativeRates = [];
+            let cumulativeProfit = 0;
+            const totalInvestment = data.total_investment || 1;
+            
+            for (const profit of profits) {
+                cumulativeProfit += profit;
+                const rate = (cumulativeProfit / totalInvestment) * 100;
+                cumulativeRates.push(rate);
+            }
+            
+            profitChart.data.labels = dates;
+            profitChart.data.datasets[0].data = profits;
+            profitChart.data.datasets[1].data = cumulativeRates;
+            profitChart.update();
+        }
 
         function getTimeAgo(dateString) {
             const now = new Date();
@@ -1319,8 +1545,17 @@
             function applyLayout(layout) {
                 if (layout === 'youtube') {
                     document.body.classList.add('youtube-layout');
+                    // 차트 초기화 (DOM 렌더링 후)
+                    setTimeout(() => {
+                        initProfitChart();
+                    }, 300);
                 } else {
                     document.body.classList.remove('youtube-layout');
+                    // 차트 제거
+                    if (profitChart) {
+                        profitChart.destroy();
+                        profitChart = null;
+                    }
                 }
             }
             
@@ -1429,7 +1664,7 @@
 
             const animations = ['fire-anim-1', 'fire-anim-2', 'fire-anim-3', 'fire-anim-4'];
             const containerWidth = wordcloud.offsetWidth || 800;
-            const containerHeight = 250;
+            const containerHeight = wordcloud.offsetHeight || 250;
             const usedPositions = [];
 
             function getRandomPosition(wordWidth, wordHeight) {
@@ -1718,6 +1953,9 @@
                     });
                 }
 
+                // 차트 업데이트
+                updateProfitChart(data);
+
                 hideLoading();
 
             } catch (error) {
@@ -1729,6 +1967,13 @@
 
         updateDashboard();
         setInterval(updateDashboard, 10000);
+        
+        // 차트 초기화 (YouTube 모드에서만)
+        setTimeout(() => {
+            if (document.body.classList.contains('youtube-layout')) {
+                initProfitChart();
+            }
+        }, 500);
     </script>
 
     <!-- SEO를 위한 키워드 콘텐츠 (검색 엔진용) -->
