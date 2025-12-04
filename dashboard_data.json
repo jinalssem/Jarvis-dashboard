@@ -1,8 +1,8 @@
 {
   "today_profit": 11052.274495134594,
-  "today_profit_percent": 1105227.4495134593,
-  "total_profit": 9250.519101397183,
-  "total_profit_percent": 925051.9101397183,
+  "today_profit_percent": 80.84703301352039,
+  "total_profit": 9243.926094404185,
+  "total_profit_percent": 67.61902253312942,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -152,8 +152,18 @@
     "profit": 0,
     "profit_rate": 0.0
   },
-  "holdings": [],
-  "last_update": "2025-12-04T19:44:44.745024",
+  "holdings": [
+    {
+      "market": "KRW-COTI",
+      "amount": 329.65034965,
+      "avg_price": 41.47,
+      "current_price": 41.45,
+      "value": 13664.006992992501,
+      "profit": -6.5930069929986885,
+      "profit_rate": -0.0004822763443452139
+    }
+  ],
+  "last_update": "2025-12-04T19:50:34.372046",
   "trades": [
     {
       "type": "buy",
