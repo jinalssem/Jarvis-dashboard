@@ -226,8 +226,24 @@
       "profit_rate": -0.011182108626198128
     }
   ],
-  "last_update": "2025-12-05T04:21:11.579707",
+  "last_update": "2025-12-05T04:26:26.214834",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-COTI",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-05T04:26:26.214314"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-COTI",
+      "profit": -404.60746304459985,
+      "price": 39.47,
+      "amount": 435.06178822,
+      "time": "2025-12-05T04:26:26.211755"
+    },
     {
       "type": "buy",
       "market": "KRW-BERA",
@@ -1011,22 +1027,6 @@
       "price": 858.0,
       "amount": 11.3869863,
       "time": "2025-12-04T03:34:58.512309"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-APM",
-      "profit": 0,
-      "price": 2.06,
-      "amount": 4729.72972973,
-      "time": "2025-12-04T03:28:42.349554"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-IOST",
-      "profit": 0,
-      "price": 2.99,
-      "amount": 3266.20825147,
-      "time": "2025-12-03T22:14:59.960301"
     }
   ]
 }
