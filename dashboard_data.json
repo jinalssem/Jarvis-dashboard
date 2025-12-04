@@ -1,8 +1,8 @@
 {
   "today_profit": 1843.432266945048,
-  "today_profit_percent": 6.995390299836989,
-  "total_profit": 11081.525522228456,
-  "total_profit_percent": 42.051773496435054,
+  "today_profit_percent": 4.23883744451421,
+  "total_profit": 9822.947150323467,
+  "total_profit_percent": 22.58714732452737,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,23 +157,40 @@
       "market": "KRW-APM",
       "amount": 5244.47949527,
       "avg_price": 1.86,
-      "current_price": 1.916,
-      "value": 10048.422712937321,
-      "profit": 293.6908517351191,
-      "profit_rate": 0.030107526881720335
+      "current_price": 1.919,
+      "value": 10064.15615142313,
+      "profit": 309.4242902209297,
+      "profit_rate": 0.03172043010752685
     },
     {
       "market": "KRW-REI",
       "amount": 1565.78947368,
       "avg_price": 10.6,
-      "current_price": 10.69,
-      "value": 16738.289473639197,
-      "profit": 140.92105263119976,
-      "profit_rate": 0.008490566037735837
+      "current_price": 10.63,
+      "value": 16644.3421052184,
+      "profit": 46.97368421040178,
+      "profit_rate": 0.0028301886792453904
+    },
+    {
+      "market": "KRW-TRAC",
+      "amount": 20.28047337,
+      "avg_price": 845.0,
+      "current_price": 846.0,
+      "value": 17157.28047102,
+      "profit": 20.28047337,
+      "profit_rate": 0.001183431952662722
     }
   ],
-  "last_update": "2025-12-05T06:38:19.728111",
+  "last_update": "2025-12-05T06:44:47.637672",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-EVZ",
+      "profit": 0,
+      "price": 0.93,
+      "amount": 10500.0,
+      "time": "2025-12-05T06:43:35.078650"
+    },
     {
       "type": "sell",
       "market": "KRW-XAN",
@@ -965,14 +982,6 @@
       "price": 0,
       "amount": 0,
       "time": "2025-12-04T06:50:38.795469"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-PIEVERSE",
-      "profit": 1200.64491534,
-      "price": 746.0,
-      "amount": 46.17865059,
-      "time": "2025-12-04T06:50:38.792704"
     }
   ]
 }
