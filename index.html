@@ -663,25 +663,15 @@
         .word.coin-word.fire-anim-3 { animation: fireFloat3 4.5s ease-in-out infinite; }
         .word.coin-word.fire-anim-4 { animation: fireFloat4 5.5s ease-in-out infinite; }
 
-        /* 보유 코인 없을 때 워드클라우드 애니메이션 */
-        @keyframes floatFade {
+        /* 보유 코인 없을 때 워드클라우드 - 그룹 전환 애니메이션 */
+        @keyframes groupFadeIn {
             0% { 
                 opacity: 0; 
-                transform: translateY(20px) rotate(0deg);
-            }
-            10% { 
-                opacity: 0.6; 
-            }
-            50% { 
-                opacity: 1; 
-                transform: translateY(-10px) rotate(5deg);
-            }
-            90% { 
-                opacity: 0.6; 
+                transform: scale(0.5);
             }
             100% { 
-                opacity: 0; 
-                transform: translateY(20px) rotate(0deg);
+                opacity: 1; 
+                transform: scale(1);
             }
         }
 
@@ -1652,44 +1642,66 @@
                     '대기 중', '준비 중', '고민이야', '분석 타임'
                 ];
                 
+                // 3개 그룹으로 나누기
+                const groupSize = Math.ceil(messages.length / 3);
+                const groups = [
+                    messages.slice(0, groupSize),
+                    messages.slice(groupSize, groupSize * 2),
+                    messages.slice(groupSize * 2)
+                ];
+                
                 wordcloud.innerHTML = '';
                 const containerWidth = wordcloud.offsetWidth || 800;
                 const containerHeight = wordcloud.offsetHeight || 400;
                 
-                // 각 메시지를 절대 위치로 배치하고 애니메이션 추가
-                messages.forEach((msg, idx) => {
-                    const span = document.createElement('span');
-                    span.textContent = msg;
+                let currentGroupIndex = 0;
+                
+                function showGroup() {
+                    // 기존 단어들 제거
+                    wordcloud.innerHTML = '';
                     
-                    const size = 14 + Math.random() * 20;
-                    const colors = ['#ff6b6b', '#4ecdc4', '#45b7d1', '#f7931a', '#95a5a6', '#e67e22'];
-                    const color = colors[Math.floor(Math.random() * colors.length)];
-                    const rotation = -15 + Math.random() * 30;
+                    const currentGroup = groups[currentGroupIndex];
                     
-                    // 랜덤 위치
-                    const x = Math.random() * (containerWidth - 150);
-                    const y = Math.random() * (containerHeight - 50);
+                    // 현재 그룹의 단어들 표시
+                    currentGroup.forEach((msg, idx) => {
+                        const span = document.createElement('span');
+                        span.textContent = msg;
+                        
+                        const size = 16 + Math.random() * 24;
+                        const colors = ['#ff6b6b', '#4ecdc4', '#45b7d1', '#f7931a', '#95a5a6', '#e67e22'];
+                        const color = colors[Math.floor(Math.random() * colors.length)];
+                        const rotation = -15 + Math.random() * 30;
+                        
+                        // 랜덤 위치
+                        const x = Math.random() * (containerWidth - 150);
+                        const y = Math.random() * (containerHeight - 50);
+                        
+                        span.style.cssText = `
+                            position: absolute;
+                            left: ${x}px;
+                            top: ${y}px;
+                            font-size: ${size}px;
+                            color: ${color};
+                            margin: 5px 10px;
+                            display: inline-block;
+                            transform: rotate(${rotation}deg) scale(1);
+                            font-weight: ${Math.random() > 0.5 ? 'bold' : 'normal'};
+                            opacity: 0;
+                            animation: groupFadeIn 0.5s ease-out forwards;
+                        `;
+                        
+                        wordcloud.appendChild(span);
+                    });
                     
-                    // 랜덤 애니메이션 지연
-                    const delay = Math.random() * 3;
-                    const duration = 3 + Math.random() * 3;
-                    
-                    span.style.cssText = `
-                        position: absolute;
-                        left: ${x}px;
-                        top: ${y}px;
-                        font-size: ${size}px;
-                        color: ${color};
-                        margin: 5px 10px;
-                        display: inline-block;
-                        transform: rotate(${rotation}deg);
-                        font-weight: ${Math.random() > 0.5 ? 'bold' : 'normal'};
-                        animation: floatFade ${duration}s ease-in-out ${delay}s infinite;
-                        opacity: 0;
-                    `;
-                    
-                    wordcloud.appendChild(span);
-                });
+                    // 다음 그룹으로 전환
+                    currentGroupIndex = (currentGroupIndex + 1) % groups.length;
+                }
+                
+                // 첫 그룹 표시
+                showGroup();
+                
+                // 3.5초마다 그룹 전환 (0.5초 나타남 + 2.5초 보임 + 0.5초 사라짐)
+                setInterval(showGroup, 3500);
                 
                 return;
             }
