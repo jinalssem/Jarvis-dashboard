@@ -153,8 +153,16 @@
     "profit_rate": 0.0
   },
   "holdings": [],
-  "last_update": "2025-12-05T18:12:12.857940",
+  "last_update": "2025-12-05T18:15:26.386414",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-BOA",
+      "profit": 0,
+      "price": 4.33,
+      "amount": 2255.25661316,
+      "time": "2025-12-05T18:14:21.952736"
+    },
     {
       "type": "buy",
       "market": "KRW-TRAC",
@@ -946,14 +954,6 @@
       "price": 2.9,
       "amount": 9791.42046284,
       "time": "2025-12-04T09:36:36.583010"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-IOST",
-      "profit": 0,
-      "price": 2.84,
-      "amount": 3438.46949328,
-      "time": "2025-12-04T09:25:18.891679"
     }
   ]
 }
