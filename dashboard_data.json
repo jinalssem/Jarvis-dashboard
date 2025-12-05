@@ -1,8 +1,8 @@
 {
   "today_profit": 596.5302690908437,
   "today_profit_percent": 59653.02690908437,
-  "total_profit": 889.5262244413452,
-  "total_profit_percent": 88952.62244413453,
+  "total_profit": 1097.2059447208437,
+  "total_profit_percent": 109720.59447208437,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -153,8 +153,16 @@
     "profit_rate": 0.0
   },
   "holdings": [],
-  "last_update": "2025-12-05T23:34:00.638991",
+  "last_update": "2025-12-05T23:38:22.340708",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-COMP",
+      "profit": 0,
+      "price": 46710.0,
+      "amount": 0.2092511,
+      "time": "2025-12-05T23:37:16.363643"
+    },
     {
       "type": "sell",
       "market": "KRW-BAT",
@@ -946,14 +954,6 @@
       "price": 0,
       "amount": 0,
       "time": "2025-12-04T22:56:11.133371"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-COTI",
-      "profit": -207.6797202794985,
-      "price": 40.84,
-      "amount": 329.65034965,
-      "time": "2025-12-04T22:56:11.114470"
     }
   ]
 }
