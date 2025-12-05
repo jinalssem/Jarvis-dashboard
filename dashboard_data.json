@@ -1,8 +1,8 @@
 {
-  "today_profit": 5450.814468581513,
-  "today_profit_percent": 21.31881563775258,
-  "total_profit": 5719.59361737151,
-  "total_profit_percent": 22.37004443178951,
+  "today_profit": 5884.171965911514,
+  "today_profit_percent": 23.01373089198987,
+  "total_profit": 5737.75430422151,
+  "total_profit_percent": 22.441073144478548,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -163,8 +163,16 @@
       "profit_rate": 0.01694915254237291
     }
   ],
-  "last_update": "2025-12-06T08:07:33.924935",
+  "last_update": "2025-12-06T08:08:43.939870",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-CVC",
+      "profit": 0,
+      "price": 77.8,
+      "amount": 125.53486031,
+      "time": "2025-12-06T08:07:35.111108"
+    },
     {
       "type": "sell",
       "market": "KRW-GTC",
@@ -956,14 +964,6 @@
       "price": 0,
       "amount": 0,
       "time": "2025-12-05T05:44:14.377049"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-ETH",
-      "profit": 209.58021048,
-      "price": 4672000.0,
-      "amount": 0.00381048,
-      "time": "2025-12-05T05:44:14.374315"
     }
   ]
 }
