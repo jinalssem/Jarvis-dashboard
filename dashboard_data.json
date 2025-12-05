@@ -199,8 +199,24 @@
       "profit_rate": -0.019861431870669813
     }
   ],
-  "last_update": "2025-12-06T01:27:14.219652",
+  "last_update": "2025-12-06T01:31:37.810011",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-CVC",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-06T01:31:37.809505"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-CVC",
+      "profit": 182.57071548099904,
+      "price": 83.94,
+      "amount": 118.55241265,
+      "time": "2025-12-06T01:31:37.807316"
+    },
     {
       "type": "buy",
       "market": "KRW-PUMPBTC",
@@ -984,22 +1000,6 @@
       "price": 0,
       "amount": 0,
       "time": "2025-12-05T00:41:05.139001"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-COTI",
-      "profit": 400.25684516240074,
-      "price": 41.32,
-      "amount": 435.06178822,
-      "time": "2025-12-05T00:41:05.135729"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-AWE",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-05T00:41:03.658169"
     }
   ]
 }
