@@ -153,8 +153,16 @@
     "profit_rate": 0.0
   },
   "holdings": [],
-  "last_update": "2025-12-05T18:19:57.012226",
+  "last_update": "2025-12-05T18:25:45.276477",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-XPR",
+      "profit": 0,
+      "price": 4.97,
+      "amount": 1965.13002364,
+      "time": "2025-12-05T18:24:35.500273"
+    },
     {
       "type": "buy",
       "market": "KRW-APM",
@@ -946,14 +954,6 @@
       "price": 11.4,
       "amount": 854.75578406,
       "time": "2025-12-04T11:42:50.936254"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-IOST",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-04T09:36:36.585378"
     }
   ]
 }
