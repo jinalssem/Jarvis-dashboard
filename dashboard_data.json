@@ -163,8 +163,24 @@
       "profit_rate": 0.01694915254237291
     }
   ],
-  "last_update": "2025-12-06T08:03:17.291998",
+  "last_update": "2025-12-06T08:07:33.924935",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-GTC",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-06T08:07:33.924343"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-GTC",
+      "profit": 433.3574973300007,
+      "price": 204.0,
+      "amount": 127.45808745,
+      "time": "2025-12-06T08:07:33.920686"
+    },
     {
       "type": "sell",
       "market": "KRW-SAPIEN",
@@ -948,22 +964,6 @@
       "price": 4672000.0,
       "amount": 0.00381048,
       "time": "2025-12-05T05:44:14.374315"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-BTC",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-05T05:44:12.841949"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-BTC",
-      "profit": 205.6166,
-      "price": 137570000.0,
-      "amount": 0.0001294,
-      "time": "2025-12-05T05:44:12.839899"
     }
   ]
 }
