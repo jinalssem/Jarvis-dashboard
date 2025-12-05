@@ -163,8 +163,24 @@
       "profit_rate": 0.021505376344086023
     }
   ],
-  "last_update": "2025-12-05T22:27:26.347740",
+  "last_update": "2025-12-05T22:30:32.942447",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-BAT",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-05T22:30:32.942214"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-BAT",
+      "profit": 210.0,
+      "price": 380.0,
+      "amount": 26.25,
+      "time": "2025-12-05T22:30:32.939378"
+    },
     {
       "type": "sell",
       "market": "KRW-BAT",
@@ -948,22 +964,6 @@
       "price": 40.4,
       "amount": 435.06178822,
       "time": "2025-12-04T21:51:42.603616"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-REI",
-      "profit": 0,
-      "price": 11.0,
-      "amount": 886.66666667,
-      "time": "2025-12-04T20:30:10.338463"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-WAVES",
-      "profit": 0,
-      "price": 1080.0,
-      "amount": 9.01898734,
-      "time": "2025-12-04T19:04:38.795680"
     }
   ]
 }
