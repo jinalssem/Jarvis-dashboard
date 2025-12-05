@@ -1,8 +1,8 @@
 {
   "today_profit": -1083.4697309091564,
-  "today_profit_percent": -108346.97309091564,
-  "total_profit": 675.8689671792353,
-  "total_profit_percent": 67586.89671792352,
+  "today_profit_percent": -11.095440152679533,
+  "total_profit": 728.3689671792353,
+  "total_profit_percent": 7.458975598353663,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -152,8 +152,18 @@
     "profit": 0,
     "profit_rate": 0.0
   },
-  "holdings": [],
-  "last_update": "2025-12-05T20:39:14.929338",
+  "holdings": [
+    {
+      "market": "KRW-BAT",
+      "amount": 26.25,
+      "avg_price": 372.0,
+      "current_price": 374.0,
+      "value": 9817.5,
+      "profit": 52.5,
+      "profit_rate": 0.005376344086021506
+    }
+  ],
+  "last_update": "2025-12-05T20:44:49.151713",
   "trades": [
     {
       "type": "buy",
