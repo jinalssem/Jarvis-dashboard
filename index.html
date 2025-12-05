@@ -1031,7 +1031,7 @@
             margin-top: 10px;
         }
 
-        .btn-buy, .btn-sell {
+        .btn-hold, .btn-sell {
             padding: 15px 20px;
             border: none;
             border-radius: 12px;
@@ -1042,18 +1042,18 @@
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
         }
 
-        .btn-buy {
-            background: linear-gradient(135deg, #4ecdc4 0%, #44a3a3 100%);
+        .btn-hold {
+            background: linear-gradient(135deg, #f39c12 0%, #e67e22 100%);
             color: white;
         }
 
-        .btn-buy:hover {
-            background: linear-gradient(135deg, #44a3a3 0%, #3a8a8a 100%);
+        .btn-hold:hover {
+            background: linear-gradient(135deg, #e67e22 0%, #d35400 100%);
             transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(78, 205, 196, 0.4);
+            box-shadow: 0 6px 20px rgba(243, 156, 18, 0.4);
         }
 
-        .btn-buy:active {
+        .btn-hold:active {
             transform: translateY(0);
         }
 
@@ -1342,36 +1342,31 @@
         </div>
         </div><!-- main-content 끝 -->
 
-        <!-- 수동 거래 컨트롤 패널 -->
+        <!-- 보유 코인 관리 패널 -->
         <div class="control-panel">
-            <h2>🎮 수동 거래</h2>
+            <h2>🎯 보유 코인 관리</h2>
             
             <div class="control-content">
                 <div class="control-group">
                     <label>🔐 보안 토큰:</label>
                     <input type="password" id="securityToken" placeholder="토큰을 입력하세요">
-                    <small>※ 봇 설정에서 지정한 토큰 (환경변수 JARVIS_SECRET_TOKEN)</small>
+                    <small>※ 봇 설정에서 지정한 토큰</small>
                 </div>
                 
                 <div class="control-group">
-                    <label>📊 코인 선택:</label>
-                    <select id="coinSelect">
-                        <option value="">선택하세요...</option>
+                    <label>💼 보유 코인 선택:</label>
+                    <select id="holdingCoinSelect">
+                        <option value="">코인을 선택하세요...</option>
                     </select>
-                </div>
-                
-                <div class="control-group">
-                    <label>💰 금액 (원):</label>
-                    <input type="number" id="tradeAmount" placeholder="5000" min="5000" max="100000" step="1000">
-                    <small>※ 매수 시 사용할 금액 (최소 5,000원, 최대 100,000원)</small>
+                    <small id="coinInfo" style="color: #4ecdc4; margin-top: 5px;"></small>
                 </div>
                 
                 <div class="control-buttons">
-                    <button onclick="sendBuyCommand()" class="btn-buy">
-                        🛒 매수 주문
+                    <button onclick="sendHoldCommand()" class="btn-hold">
+                        ✋ 계속 보유
                     </button>
                     <button onclick="sendSellCommand()" class="btn-sell">
-                        💸 매도 주문
+                        💸 전량 매도
                     </button>
                 </div>
                 
@@ -2206,8 +2201,8 @@
                 generateWordcloud(currentHoldings);
                 sortHoldings(currentSortOrder);
                 
-                // 수동 거래용 코인 선택 업데이트
-                updateCoinSelect(currentHoldings);
+                // 보유 코인 관리용 드롭다운 업데이트
+                updateHoldingCoinSelect(currentHoldings);
 
                 // 최근 거래 시간순 정렬 (최신순)
                 const allTrades = data.trades || [];
@@ -2307,37 +2302,59 @@
             }
         }
 
-        // ============ 수동 거래 기능 ============
+        // ============ 보유 코인 관리 기능 ============
         
-        // 코인 선택 드롭다운 업데이트
-        function updateCoinSelect(holdings) {
-            const select = document.getElementById('coinSelect');
-            const currentValue = select.value;
+        // 보유 코인 선택 드롭다운 업데이트
+        function updateHoldingCoinSelect(holdings) {
+            const select = document.getElementById('holdingCoinSelect');
+            const coinInfo = document.getElementById('coinInfo');
             
-            // 기존 옵션 유지하고 새로운 코인만 추가
-            const existingOptions = Array.from(select.options).map(opt => opt.value);
+            // 기존 옵션 제거 (첫 번째 "선택하세요" 제외)
+            while (select.options.length > 1) {
+                select.remove(1);
+            }
             
+            // 보유 코인 추가
             holdings.forEach(coin => {
                 const symbol = coin.market.replace('KRW-', '');
-                if (!existingOptions.includes(symbol)) {
-                    const option = document.createElement('option');
-                    option.value = symbol;
-                    option.textContent = `${symbol} (${coin.korean_name})`;
-                    select.appendChild(option);
-                }
+                const option = document.createElement('option');
+                option.value = symbol;
+                
+                // 수익률 색상
+                const profitColor = coin.profit_percent >= 0 ? '🟢' : '🔴';
+                const profitSign = coin.profit_percent >= 0 ? '+' : '';
+                
+                option.textContent = `${symbol} (${coin.korean_name}) - ${profitSign}${coin.profit_percent.toFixed(2)}%`;
+                option.dataset.profit = coin.profit;
+                option.dataset.profitPercent = coin.profit_percent;
+                option.dataset.value = coin.value;
+                
+                select.appendChild(option);
             });
             
-            // 이전 선택값 복원
-            if (currentValue && existingOptions.includes(currentValue)) {
-                select.value = currentValue;
-            }
+            // 코인 정보 업데이트
+            select.addEventListener('change', function() {
+                const selectedOption = select.options[select.selectedIndex];
+                if (select.value) {
+                    const profit = parseFloat(selectedOption.dataset.profit);
+                    const profitPercent = parseFloat(selectedOption.dataset.profitPercent);
+                    const value = parseFloat(selectedOption.dataset.value);
+                    
+                    const profitSign = profit >= 0 ? '+' : '';
+                    const profitColor = profit >= 0 ? '#4ecdc4' : '#ff6b6b';
+                    
+                    coinInfo.innerHTML = `💰 평가금액: ${formatNumber(value)}원 | 손익: <span style="color: ${profitColor}">${profitSign}${formatNumber(profit)}원 (${profitSign}${profitPercent.toFixed(2)}%)</span>`;
+                    coinInfo.style.display = 'block';
+                } else {
+                    coinInfo.style.display = 'none';
+                }
+            });
         }
         
-        // 매수 명령
-        async function sendBuyCommand() {
+        // 계속 보유 명령
+        async function sendHoldCommand() {
             const token = document.getElementById('securityToken').value;
-            const coin = document.getElementById('coinSelect').value;
-            const amount = document.getElementById('tradeAmount').value;
+            const coin = document.getElementById('holdingCoinSelect').value;
             
             // 🔐 토큰 검증
             if (!token || token.trim() === '') {
@@ -2346,44 +2363,32 @@
             }
             
             if (!coin) {
-                showStatus('코인을 선택하세요!', 'error');
-                return;
-            }
-            
-            if (!amount || parseInt(amount) < 5000) {
-                showStatus('금액을 입력하세요! (최소 5,000원)', 'error');
-                return;
-            }
-            
-            // 💰 최대 금액 검증
-            if (parseInt(amount) > 100000) {
-                showStatus('금액이 너무 큽니다! (최대 100,000원)', 'error');
+                showStatus('💼 보유 코인을 선택하세요!', 'error');
                 return;
             }
             
             const command = {
-                token: token,  // 🔐 토큰 추가
-                action: 'buy',
+                token: token,
+                action: 'hold',
                 market: `KRW-${coin}`,
-                amount: parseInt(amount),
                 timestamp: new Date().toISOString(),
                 status: 'pending'
             };
             
-            console.log('📤 매수 명령 전송 (토큰 포함)');
+            console.log('📤 계속 보유 명령 전송');
             
-            // command.json 다운로드 링크 생성
+            // command.json 다운로드
             createCommandFile(command);
             
-            showStatus(`✅ ${coin} 매수 명령 생성! (${formatNumber(amount)}원)
-<br><small>🔐 보안 토큰이 포함되었습니다.</small>
-<br><small>command.json 파일을 다운로드하여 봇 폴더에 넣어주세요.</small>`, 'success');
+            showStatus(`✅ ${coin} 계속 보유 명령 생성!
+<br><small>🔐 이 코인은 자동 매도하지 않습니다.</small>
+<br><small>command.json 파일을 봇 폴더에 넣어주세요.</small>`, 'success');
         }
         
-        // 매도 명령
+        // 전량 매도 명령
         async function sendSellCommand() {
             const token = document.getElementById('securityToken').value;
-            const coin = document.getElementById('coinSelect').value;
+            const coin = document.getElementById('holdingCoinSelect').value;
             
             // 🔐 토큰 검증
             if (!token || token.trim() === '') {
@@ -2392,26 +2397,36 @@
             }
             
             if (!coin) {
-                showStatus('코인을 선택하세요!', 'error');
+                showStatus('💼 보유 코인을 선택하세요!', 'error');
+                return;
+            }
+            
+            // 확인 메시지
+            const selectedOption = document.getElementById('holdingCoinSelect').options[document.getElementById('holdingCoinSelect').selectedIndex];
+            const profit = parseFloat(selectedOption.dataset.profit);
+            const profitPercent = parseFloat(selectedOption.dataset.profitPercent);
+            const profitSign = profit >= 0 ? '+' : '';
+            
+            if (!confirm(`${coin} 전량 매도하시겠습니까?\n\n현재 손익: ${profitSign}${formatNumber(profit)}원 (${profitSign}${profitPercent.toFixed(2)}%)`)) {
                 return;
             }
             
             const command = {
-                token: token,  // 🔐 토큰 추가
+                token: token,
                 action: 'sell',
                 market: `KRW-${coin}`,
                 timestamp: new Date().toISOString(),
                 status: 'pending'
             };
             
-            console.log('📤 매도 명령 전송 (토큰 포함)');
+            console.log('📤 전량 매도 명령 전송');
             
-            // command.json 다운로드 링크 생성
+            // command.json 다운로드
             createCommandFile(command);
             
             showStatus(`✅ ${coin} 전량 매도 명령 생성!
-<br><small>🔐 보안 토큰이 포함되었습니다.</small>
-<br><small>command.json 파일을 다운로드하여 봇 폴더에 넣어주세요.</small>`, 'success');
+<br><small>🔐 즉시 시장가로 매도합니다.</small>
+<br><small>command.json 파일을 봇 폴더에 넣어주세요.</small>`, 'success');
         }
         
         // command.json 파일 생성 및 다운로드
