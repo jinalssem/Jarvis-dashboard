@@ -172,8 +172,24 @@
       "profit_rate": 0.011904761904761904
     }
   ],
-  "last_update": "2025-12-06T05:39:00.434795",
+  "last_update": "2025-12-06T05:43:36.516242",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-SAPIEN",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-06T05:43:36.515821"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-SAPIEN",
+      "profit": 5169.28571418,
+      "price": 258.0,
+      "amount": 861.54761903,
+      "time": "2025-12-06T05:43:36.513041"
+    },
     {
       "type": "sell",
       "market": "KRW-SAPIEN",
@@ -957,22 +973,6 @@
       "price": 1.885,
       "amount": 5208.8772846,
       "time": "2025-12-05T05:37:35.104475"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-REI",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-05T05:17:24.918020"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-REI",
-      "profit": -274.86666666770043,
-      "price": 10.69,
-      "amount": 886.66666667,
-      "time": "2025-12-05T05:17:24.916254"
     }
   ]
 }
