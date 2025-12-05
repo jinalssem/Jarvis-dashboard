@@ -962,6 +962,162 @@
             max-height: 300px;
         }
 
+        /* 수동 거래 컨트롤 패널 */
+        .control-panel {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(15px);
+            border: 2px solid rgba(255, 107, 53, 0.4);
+            border-radius: 20px;
+            padding: 25px;
+            margin: 20px auto;
+            max-width: 600px;
+            box-shadow: 0 8px 32px rgba(255, 107, 53, 0.3);
+        }
+
+        .control-panel h2 {
+            color: #ff6b35;
+            margin-bottom: 20px;
+            text-align: center;
+            font-size: 1.5em;
+            text-shadow: 0 0 10px rgba(255, 107, 53, 0.5);
+        }
+
+        .control-content {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .control-group {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .control-group label {
+            color: #95a5a6;
+            font-size: 0.95em;
+            font-weight: 600;
+        }
+
+        .control-group select,
+        .control-group input {
+            width: 100%;
+            padding: 12px 15px;
+            background: rgba(0, 0, 0, 0.4);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            color: white;
+            font-size: 1em;
+            transition: all 0.3s;
+        }
+
+        .control-group select:focus,
+        .control-group input:focus {
+            outline: none;
+            border-color: #ff6b35;
+            box-shadow: 0 0 10px rgba(255, 107, 53, 0.3);
+        }
+
+        .control-group small {
+            color: #7f8c8d;
+            font-size: 0.85em;
+        }
+
+        .control-buttons {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-top: 10px;
+        }
+
+        .btn-buy, .btn-sell {
+            padding: 15px 20px;
+            border: none;
+            border-radius: 12px;
+            font-size: 1.1em;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .btn-buy {
+            background: linear-gradient(135deg, #4ecdc4 0%, #44a3a3 100%);
+            color: white;
+        }
+
+        .btn-buy:hover {
+            background: linear-gradient(135deg, #44a3a3 0%, #3a8a8a 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(78, 205, 196, 0.4);
+        }
+
+        .btn-buy:active {
+            transform: translateY(0);
+        }
+
+        .btn-sell {
+            background: linear-gradient(135deg, #ff6b6b 0%, #ee5a52 100%);
+            color: white;
+        }
+
+        .btn-sell:hover {
+            background: linear-gradient(135deg, #ee5a52 0%, #d63031 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(255, 107, 107, 0.4);
+        }
+
+        .btn-sell:active {
+            transform: translateY(0);
+        }
+
+        #commandStatus {
+            min-height: 40px;
+        }
+
+        .status-message {
+            padding: 12px 20px;
+            border-radius: 10px;
+            text-align: center;
+            font-weight: 600;
+            animation: statusFadeIn 0.3s ease-out;
+        }
+
+        .status-success {
+            background: rgba(78, 205, 196, 0.2);
+            border: 1px solid #4ecdc4;
+            color: #4ecdc4;
+        }
+
+        .status-error {
+            background: rgba(255, 107, 107, 0.2);
+            border: 1px solid #ff6b6b;
+            color: #ff6b6b;
+        }
+
+        .status-info {
+            background: rgba(255, 193, 7, 0.2);
+            border: 1px solid #ffc107;
+            color: #ffc107;
+        }
+
+        @keyframes statusFadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* YouTube 레이아웃에서 컨트롤 패널 위치 */
+        body.youtube-layout .control-panel {
+            margin: 20px 10px;
+        }
+
         .referral-section {
             background: linear-gradient(135deg, rgba(255, 107, 53, 0.15), rgba(247, 147, 26, 0.1));
             backdrop-filter: blur(10px);
@@ -1185,6 +1341,37 @@
             <canvas id="profitChart"></canvas>
         </div>
         </div><!-- main-content 끝 -->
+
+        <!-- 수동 거래 컨트롤 패널 -->
+        <div class="control-panel">
+            <h2>🎮 수동 거래</h2>
+            
+            <div class="control-content">
+                <div class="control-group">
+                    <label>📊 코인 선택:</label>
+                    <select id="coinSelect">
+                        <option value="">선택하세요...</option>
+                    </select>
+                </div>
+                
+                <div class="control-group">
+                    <label>💰 금액 (원):</label>
+                    <input type="number" id="tradeAmount" placeholder="5000" min="5000" step="1000">
+                    <small>※ 매수 시 사용할 금액 (최소 5,000원)</small>
+                </div>
+                
+                <div class="control-buttons">
+                    <button onclick="sendBuyCommand()" class="btn-buy">
+                        🛒 매수 주문
+                    </button>
+                    <button onclick="sendSellCommand()" class="btn-sell">
+                        💸 매도 주문
+                    </button>
+                </div>
+                
+                <div id="commandStatus"></div>
+            </div>
+        </div>
 
         <div class="referral-section">
             <h2>🎁 빗썸 초대 코드</h2>
@@ -2012,6 +2199,9 @@
                 
                 generateWordcloud(currentHoldings);
                 sortHoldings(currentSortOrder);
+                
+                // 수동 거래용 코인 선택 업데이트
+                updateCoinSelect(currentHoldings);
 
                 // 최근 거래 시간순 정렬 (최신순)
                 const allTrades = data.trades || [];
@@ -2110,6 +2300,122 @@
                 document.getElementById('lastUpdate').textContent = '업데이트 실패 - 재시도 중...';
             }
         }
+
+        // ============ 수동 거래 기능 ============
+        
+        // 코인 선택 드롭다운 업데이트
+        function updateCoinSelect(holdings) {
+            const select = document.getElementById('coinSelect');
+            const currentValue = select.value;
+            
+            // 기존 옵션 유지하고 새로운 코인만 추가
+            const existingOptions = Array.from(select.options).map(opt => opt.value);
+            
+            holdings.forEach(coin => {
+                const symbol = coin.market.replace('KRW-', '');
+                if (!existingOptions.includes(symbol)) {
+                    const option = document.createElement('option');
+                    option.value = symbol;
+                    option.textContent = `${symbol} (${coin.korean_name})`;
+                    select.appendChild(option);
+                }
+            });
+            
+            // 이전 선택값 복원
+            if (currentValue && existingOptions.includes(currentValue)) {
+                select.value = currentValue;
+            }
+        }
+        
+        // 매수 명령
+        async function sendBuyCommand() {
+            const coin = document.getElementById('coinSelect').value;
+            const amount = document.getElementById('tradeAmount').value;
+            
+            if (!coin) {
+                showStatus('코인을 선택하세요!', 'error');
+                return;
+            }
+            
+            if (!amount || parseInt(amount) < 5000) {
+                showStatus('금액을 입력하세요! (최소 5,000원)', 'error');
+                return;
+            }
+            
+            const command = {
+                action: 'buy',
+                market: `KRW-${coin}`,
+                amount: parseInt(amount),
+                timestamp: new Date().toISOString(),
+                status: 'pending'
+            };
+            
+            console.log('📤 매수 명령 전송:', command);
+            
+            // command.json 다운로드 링크 생성
+            createCommandFile(command);
+            
+            showStatus(`✅ ${coin} 매수 명령 생성! (${formatNumber(amount)}원)
+<br><small>command.json 파일을 다운로드하여 봇 폴더에 넣어주세요.</small>`, 'success');
+        }
+        
+        // 매도 명령
+        async function sendSellCommand() {
+            const coin = document.getElementById('coinSelect').value;
+            
+            if (!coin) {
+                showStatus('코인을 선택하세요!', 'error');
+                return;
+            }
+            
+            const command = {
+                action: 'sell',
+                market: `KRW-${coin}`,
+                timestamp: new Date().toISOString(),
+                status: 'pending'
+            };
+            
+            console.log('📤 매도 명령 전송:', command);
+            
+            // command.json 다운로드 링크 생성
+            createCommandFile(command);
+            
+            showStatus(`✅ ${coin} 전량 매도 명령 생성!
+<br><small>command.json 파일을 다운로드하여 봇 폴더에 넣어주세요.</small>`, 'success');
+        }
+        
+        // command.json 파일 생성 및 다운로드
+        function createCommandFile(command) {
+            const jsonStr = JSON.stringify(command, null, 2);
+            const blob = new Blob([jsonStr], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'command.json';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+            
+            console.log('📥 command.json 다운로드 완료');
+        }
+        
+        // 상태 메시지 표시
+        function showStatus(message, type = 'info') {
+            const statusDiv = document.getElementById('commandStatus');
+            const className = type === 'success' ? 'status-success' : 
+                            type === 'error' ? 'status-error' : 'status-info';
+            
+            statusDiv.innerHTML = `<div class="status-message ${className}">${message}</div>`;
+            
+            // 5초 후 자동 삭제 (에러는 10초)
+            setTimeout(() => {
+                statusDiv.innerHTML = '';
+            }, type === 'error' ? 10000 : 5000);
+        }
+        
+        // ============ 수동 거래 기능 끝 ============
 
         updateDashboard();
         setInterval(updateDashboard, 10000);
