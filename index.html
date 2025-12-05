@@ -302,6 +302,7 @@
 
         body.youtube-layout .holdings-section {
             grid-area: holdings;
+            height: 100%;
             overflow-y: auto;
             display: flex;
             flex-direction: column;
@@ -332,6 +333,7 @@
 
         body.youtube-layout .trades-section {
             grid-area: trades;
+            height: 100%;
             overflow-y: auto;
             display: flex;
             flex-direction: column;
@@ -341,6 +343,7 @@
             display: flex;
             flex-direction: column;
             grid-area: chart;
+            height: 100%;
             overflow-y: auto;
             padding: 15px;
             background: rgba(255, 255, 255, 0.05);
@@ -553,7 +556,7 @@
         }
 
         .word.coin-word {
-            opacity: 0;
+            opacity: 1;
         }
 
         .word.emotion-word {
@@ -596,92 +599,82 @@
 
         @keyframes fireFloat1 {
             0% { 
-                transform: translate(0, 0) rotate(0deg);
-                opacity: 0;
+                transform: translate(0, 0) rotate(0deg) scale(0);
             }
             10% {
-                opacity: 1;
-            }
-            85% {
-                opacity: 1;
+                transform: scale(1);
             }
             25% { 
-                transform: translate(-15px, -30px) rotate(5deg); 
+                transform: translate(-15px, -30px) rotate(5deg) scale(1); 
             }
             50% { 
-                transform: translate(10px, -50px) rotate(-3deg); 
+                transform: translate(10px, -50px) rotate(-3deg) scale(1); 
             }
             75% { 
-                transform: translate(-5px, -35px) rotate(4deg); 
+                transform: translate(-5px, -35px) rotate(4deg) scale(1); 
+            }
+            90% {
+                transform: scale(1);
             }
             100% { 
-                transform: translate(0, 0) rotate(0deg);
-                opacity: 0;
+                transform: translate(0, 0) rotate(0deg) scale(0);
             }
         }
 
         @keyframes fireFloat2 {
             0% { 
-                transform: translate(0, 0) rotate(0deg);
-                opacity: 0;
+                transform: translate(0, 0) rotate(0deg) scale(0);
             }
             10% {
-                opacity: 1;
-            }
-            85% {
-                opacity: 1;
+                transform: scale(1);
             }
             33% { 
-                transform: translate(20px, -40px) rotate(-6deg); 
+                transform: translate(20px, -40px) rotate(-6deg) scale(1); 
             }
             66% { 
-                transform: translate(-10px, -55px) rotate(5deg); 
+                transform: translate(-10px, -55px) rotate(5deg) scale(1); 
+            }
+            90% {
+                transform: scale(1);
             }
             100% { 
-                transform: translate(0, 0) rotate(0deg);
-                opacity: 0;
+                transform: translate(0, 0) rotate(0deg) scale(0);
             }
         }
 
         @keyframes fireFloat3 {
             0% { 
-                transform: translate(0, 0) rotate(0deg);
-                opacity: 0;
+                transform: translate(0, 0) rotate(0deg) scale(0);
             }
             10% {
-                opacity: 1;
-            }
-            85% {
-                opacity: 1;
+                transform: scale(1);
             }
             20% { 
-                transform: translate(-8px, -25px) rotate(3deg); 
+                transform: translate(-8px, -25px) rotate(3deg) scale(1); 
             }
             40% { 
-                transform: translate(12px, -45px) rotate(-4deg); 
+                transform: translate(12px, -45px) rotate(-4deg) scale(1); 
             }
             60% { 
-                transform: translate(-15px, -38px) rotate(6deg); 
+                transform: translate(-15px, -38px) rotate(6deg) scale(1); 
             }
             80% { 
-                transform: translate(8px, -28px) rotate(-3deg); 
+                transform: translate(8px, -28px) rotate(-3deg) scale(1); 
+            }
+            90% {
+                transform: scale(1);
             }
             100% { 
-                transform: translate(0, 0) rotate(0deg);
-                opacity: 0;
+                transform: translate(0, 0) rotate(0deg) scale(0);
             }
         }
 
         @keyframes fireFloat4 {
             0% { 
-                transform: translate(0, 0) rotate(0deg) scale(1);
-                opacity: 0;
+                transform: translate(0, 0) rotate(0deg) scale(0);
             }
             10% {
-                opacity: 1;
-            }
-            85% {
-                opacity: 1;
+                transform: scale(1);
             }
             25% { 
                 transform: translate(15px, -35px) rotate(-5deg) scale(1.1); 
@@ -692,9 +685,11 @@
             75% { 
                 transform: translate(18px, -42px) rotate(-3deg) scale(1.05); 
             }
+            90% {
+                transform: scale(1);
+            }
             100% { 
-                transform: translate(0, 0) rotate(0deg) scale(1);
-                opacity: 0;
+                transform: translate(0, 0) rotate(0deg) scale(0);
             }
         }
 
