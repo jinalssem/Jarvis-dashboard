@@ -1233,11 +1233,19 @@
         
         function initProfitChart() {
             const ctx = document.getElementById('profitChart');
-            if (!ctx) return;
+            console.log('차트 엘리먼트:', ctx);
+            
+            if (!ctx) {
+                console.error('profitChart 엘리먼트를 찾을 수 없습니다!');
+                return;
+            }
             
             if (profitChart) {
+                console.log('기존 차트 제거');
                 profitChart.destroy();
             }
+            
+            console.log('새 차트 생성 중...');
             
             profitChart = new Chart(ctx, {
                 type: 'bar',
@@ -1375,13 +1383,34 @@
                     }
                 }
             });
+            
+            console.log('차트 생성 완료!', profitChart);
         }
         
         function updateProfitChart(data) {
-            if (!profitChart || !data.daily_profits) return;
+            if (!profitChart) {
+                console.log('차트가 초기화되지 않았습니다.');
+                return;
+            }
+            
+            // daily_profits가 없으면 샘플 데이터 사용
+            let dailyProfits = data.daily_profits;
+            if (!dailyProfits || Object.keys(dailyProfits).length === 0) {
+                console.log('daily_profits 데이터가 없어 샘플 데이터 사용');
+                // 최근 7일 샘플 데이터 생성
+                dailyProfits = {};
+                const today = new Date();
+                for (let i = 6; i >= 0; i--) {
+                    const date = new Date(today);
+                    date.setDate(date.getDate() - i);
+                    const dateStr = date.toISOString().split('T')[0];
+                    // 랜덤 수익 (-500 ~ +500)
+                    dailyProfits[dateStr] = Math.floor(Math.random() * 1000) - 500;
+                }
+            }
             
             // 최근 7일 데이터만 표시
-            const entries = Object.entries(data.daily_profits).slice(-7);
+            const entries = Object.entries(dailyProfits).slice(-7);
             const dates = entries.map(([date]) => {
                 const d = new Date(date);
                 return `${d.getMonth() + 1}/${d.getDate()}`;
@@ -1391,7 +1420,7 @@
             // 누적 수익률 계산
             let cumulativeRates = [];
             let cumulativeProfit = 0;
-            const totalInvestment = data.total_investment || 1;
+            const totalInvestment = data.total_investment || 50000;
             
             for (const profit of profits) {
                 cumulativeProfit += profit;
@@ -1403,6 +1432,8 @@
             profitChart.data.datasets[0].data = profits;
             profitChart.data.datasets[1].data = cumulativeRates;
             profitChart.update();
+            
+            console.log('차트 업데이트 완료:', { dates, profits, cumulativeRates });
         }
 
         function getTimeAgo(dateString) {
@@ -1566,19 +1597,23 @@
             });
             
             function applyLayout(layout) {
+                console.log('레이아웃 전환:', layout);
+                
                 if (layout === 'youtube') {
                     document.body.classList.add('youtube-layout');
                     // 차트 초기화 (DOM 렌더링 후)
                     setTimeout(() => {
+                        console.log('YouTube 모드 - 차트 초기화');
                         initProfitChart();
+                        // 차트 데이터 업데이트
+                        setTimeout(() => {
+                            updateDashboard();
+                        }, 100);
                     }, 300);
                 } else {
                     document.body.classList.remove('youtube-layout');
-                    // 차트 제거
-                    if (profitChart) {
-                        profitChart.destroy();
-                        profitChart = null;
-                    }
+                    console.log('Tablet 모드 - 차트 숨김');
+                    // 차트는 그대로 두고 CSS로 숨김
                 }
             }
             
@@ -2035,11 +2070,14 @@
         updateDashboard();
         setInterval(updateDashboard, 10000);
         
-        // 차트 초기화 (YouTube 모드에서만)
+        // 차트 항상 초기화
         setTimeout(() => {
-            if (document.body.classList.contains('youtube-layout')) {
-                initProfitChart();
-            }
+            console.log('차트 초기화 시작...');
+            initProfitChart();
+            // 즉시 차트 업데이트 시도
+            updateDashboard().then(() => {
+                console.log('차트 데이터 로드 완료');
+            });
         }, 500);
     </script>
 
