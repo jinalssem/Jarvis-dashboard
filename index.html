@@ -1348,6 +1348,12 @@
             
             <div class="control-content">
                 <div class="control-group">
+                    <label>🔐 보안 토큰:</label>
+                    <input type="password" id="securityToken" placeholder="토큰을 입력하세요">
+                    <small>※ 봇 설정에서 지정한 토큰 (환경변수 JARVIS_SECRET_TOKEN)</small>
+                </div>
+                
+                <div class="control-group">
                     <label>📊 코인 선택:</label>
                     <select id="coinSelect">
                         <option value="">선택하세요...</option>
@@ -1356,8 +1362,8 @@
                 
                 <div class="control-group">
                     <label>💰 금액 (원):</label>
-                    <input type="number" id="tradeAmount" placeholder="5000" min="5000" step="1000">
-                    <small>※ 매수 시 사용할 금액 (최소 5,000원)</small>
+                    <input type="number" id="tradeAmount" placeholder="5000" min="5000" max="100000" step="1000">
+                    <small>※ 매수 시 사용할 금액 (최소 5,000원, 최대 100,000원)</small>
                 </div>
                 
                 <div class="control-buttons">
@@ -2329,8 +2335,15 @@
         
         // 매수 명령
         async function sendBuyCommand() {
+            const token = document.getElementById('securityToken').value;
             const coin = document.getElementById('coinSelect').value;
             const amount = document.getElementById('tradeAmount').value;
+            
+            // 🔐 토큰 검증
+            if (!token || token.trim() === '') {
+                showStatus('🔒 보안 토큰을 입력하세요!', 'error');
+                return;
+            }
             
             if (!coin) {
                 showStatus('코인을 선택하세요!', 'error');
@@ -2342,7 +2355,14 @@
                 return;
             }
             
+            // 💰 최대 금액 검증
+            if (parseInt(amount) > 100000) {
+                showStatus('금액이 너무 큽니다! (최대 100,000원)', 'error');
+                return;
+            }
+            
             const command = {
+                token: token,  // 🔐 토큰 추가
                 action: 'buy',
                 market: `KRW-${coin}`,
                 amount: parseInt(amount),
@@ -2350,18 +2370,26 @@
                 status: 'pending'
             };
             
-            console.log('📤 매수 명령 전송:', command);
+            console.log('📤 매수 명령 전송 (토큰 포함)');
             
             // command.json 다운로드 링크 생성
             createCommandFile(command);
             
             showStatus(`✅ ${coin} 매수 명령 생성! (${formatNumber(amount)}원)
+<br><small>🔐 보안 토큰이 포함되었습니다.</small>
 <br><small>command.json 파일을 다운로드하여 봇 폴더에 넣어주세요.</small>`, 'success');
         }
         
         // 매도 명령
         async function sendSellCommand() {
+            const token = document.getElementById('securityToken').value;
             const coin = document.getElementById('coinSelect').value;
+            
+            // 🔐 토큰 검증
+            if (!token || token.trim() === '') {
+                showStatus('🔒 보안 토큰을 입력하세요!', 'error');
+                return;
+            }
             
             if (!coin) {
                 showStatus('코인을 선택하세요!', 'error');
@@ -2369,18 +2397,20 @@
             }
             
             const command = {
+                token: token,  // 🔐 토큰 추가
                 action: 'sell',
                 market: `KRW-${coin}`,
                 timestamp: new Date().toISOString(),
                 status: 'pending'
             };
             
-            console.log('📤 매도 명령 전송:', command);
+            console.log('📤 매도 명령 전송 (토큰 포함)');
             
             // command.json 다운로드 링크 생성
             createCommandFile(command);
             
             showStatus(`✅ ${coin} 전량 매도 명령 생성!
+<br><small>🔐 보안 토큰이 포함되었습니다.</small>
 <br><small>command.json 파일을 다운로드하여 봇 폴더에 넣어주세요.</small>`, 'success');
         }
         
