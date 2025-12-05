@@ -153,8 +153,16 @@
     "profit_rate": 0.0
   },
   "holdings": [],
-  "last_update": "2025-12-05T13:15:48.374218",
+  "last_update": "2025-12-05T13:22:23.251180",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-TRAC",
+      "profit": 0,
+      "price": 815.0,
+      "amount": 11.619495,
+      "time": "2025-12-05T13:21:14.397026"
+    },
     {
       "type": "buy",
       "market": "KRW-GRS",
@@ -946,14 +954,6 @@
       "price": 2.84,
       "amount": 3438.46949328,
       "time": "2025-12-04T09:25:18.891679"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-BERA",
-      "profit": 0,
-      "price": 1380.0,
-      "amount": 7.07446809,
-      "time": "2025-12-04T09:13:52.641185"
     }
   ]
 }
