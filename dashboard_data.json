@@ -208,8 +208,24 @@
       "profit_rate": 0.010213776722090255
     }
   ],
-  "last_update": "2025-12-06T04:18:05.600034",
+  "last_update": "2025-12-06T04:21:12.956522",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-BTC",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-06T04:21:12.956295"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-BTC",
+      "profit": 29.25069,
+      "price": 133744000.0,
+      "amount": 7.331e-05,
+      "time": "2025-12-06T04:21:12.954722"
+    },
     {
       "type": "sell",
       "market": "KRW-BAT",
@@ -993,22 +1009,6 @@
       "price": 0,
       "amount": 0,
       "time": "2025-12-05T04:33:12.523825"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-APM",
-      "profit": 270.8616187991991,
-      "price": 1.922,
-      "amount": 5208.8772846,
-      "time": "2025-12-05T04:33:12.520098"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-COTI",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-05T04:26:26.214314"
     }
   ]
 }
