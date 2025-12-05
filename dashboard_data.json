@@ -1,8 +1,8 @@
 {
   "today_profit": 193.68932038,
-  "today_profit_percent": 0.660994979726944,
-  "total_profit": 1379.9030641880838,
-  "total_profit_percent": 4.709134175021521,
+  "today_profit_percent": 0.49564527853307794,
+  "total_profit": 1472.0749958764843,
+  "total_profit_percent": 3.766996651758191,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -154,34 +154,43 @@
   },
   "holdings": [
     {
+      "market": "KRW-BTC",
+      "amount": 7.331e-05,
+      "avg_price": 133345000.0,
+      "current_price": 133419000.0,
+      "value": 9780.94689,
+      "profit": 5.42494,
+      "profit_rate": 0.000554951441748847
+    },
+    {
       "market": "KRW-ETH",
       "amount": 0.00213735,
       "avg_price": 4573000.0,
-      "current_price": 4575000.0,
-      "value": 9778.376250000001,
-      "profit": 4.2747,
-      "profit_rate": 0.0004373496610540127
+      "current_price": 4589000.0,
+      "value": 9808.29915,
+      "profit": 34.1976,
+      "profit_rate": 0.0034987972884321017
     },
     {
       "market": "KRW-BAT",
       "amount": 26.45888594,
       "avg_price": 369.0,
-      "current_price": 371.0,
-      "value": 9816.246683739999,
-      "profit": 52.91777188,
-      "profit_rate": 0.005420054200542005
+      "current_price": 374.0,
+      "value": 9895.62334156,
+      "profit": 132.2944297,
+      "profit_rate": 0.013550135501355014
     },
     {
       "market": "KRW-BOA",
       "amount": 2255.25661316,
       "avg_price": 4.33,
-      "current_price": 4.245,
-      "value": 9573.5643228642,
-      "profit": -191.69681211859992,
-      "profit_rate": -0.019630484988452646
+      "current_price": 4.235,
+      "value": 9551.011756732601,
+      "profit": -214.24937825019944,
+      "profit_rate": -0.0219399538106235
     }
   ],
-  "last_update": "2025-12-06T01:15:57.935200",
+  "last_update": "2025-12-06T01:21:25.543889",
   "trades": [
     {
       "type": "buy",
