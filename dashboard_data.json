@@ -172,8 +172,24 @@
       "profit_rate": -0.01772915880799694
     }
   ],
-  "last_update": "2025-12-05T20:00:37.400813",
+  "last_update": "2025-12-05T20:05:05.974708",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-BOBA",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-05T20:05:05.971446"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-BOBA",
+      "profit": -4027.321452448003,
+      "price": 76.33,
+      "amount": 1258.53795389,
+      "time": "2025-12-05T20:05:05.968061"
+    },
     {
       "type": "buy",
       "market": "KRW-BAT",
@@ -957,22 +973,6 @@
       "price": 2.04,
       "amount": 4777.29885057,
       "time": "2025-12-04T13:59:09.074222"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-IOST",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-04T12:45:53.038699"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-IOST",
-      "profit": -1725.1513177412992,
-      "price": 2.845,
-      "amount": 20295.89785578,
-      "time": "2025-12-04T12:45:53.034988"
     }
   ]
 }
