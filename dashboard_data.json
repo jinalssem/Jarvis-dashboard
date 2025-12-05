@@ -199,8 +199,24 @@
       "profit_rate": -0.010989010989010903
     }
   ],
-  "last_update": "2025-12-06T04:36:24.091588",
+  "last_update": "2025-12-06T04:42:48.207048",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-APM",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-06T04:42:48.206653"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-APM",
+      "profit": -177.75157232692018,
+      "price": 1.826,
+      "amount": 5227.98742138,
+      "time": "2025-12-06T04:42:48.204342"
+    },
     {
       "type": "sell",
       "market": "KRW-PUMPBTC",
@@ -984,22 +1000,6 @@
       "price": 1.95,
       "amount": 5208.8772846,
       "time": "2025-12-05T04:47:17.693166"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-ETH",
-      "profit": 0,
-      "price": 4541000.0,
-      "amount": 0.00365937,
-      "time": "2025-12-05T04:33:15.592991"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-BOA",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-05T04:33:14.081523"
     }
   ]
 }
