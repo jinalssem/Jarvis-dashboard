@@ -2015,7 +2015,16 @@
 
                 // 최근 거래 시간순 정렬 (최신순)
                 const allTrades = data.trades || [];
-                const sortedTrades = [...allTrades].sort((a, b) => {
+                
+                // 매도 거래 중 profit이 0인 것은 제외 (중복 방지)
+                const filteredTrades = allTrades.filter(t => {
+                    if (t.type === 'sell' && (!t.profit || t.profit === 0)) {
+                        return false; // 매도인데 수익이 0이면 제외
+                    }
+                    return true;
+                });
+                
+                const sortedTrades = [...filteredTrades].sort((a, b) => {
                     const timeA = new Date(a.time || 0);
                     const timeB = new Date(b.time || 0);
                     return timeB - timeA; // 최신순
