@@ -667,11 +667,22 @@
         @keyframes groupFadeIn {
             0% { 
                 opacity: 0; 
-                transform: scale(0.5);
+                transform: scale(0.8) translateY(20px);
             }
             100% { 
                 opacity: 1; 
-                transform: scale(1);
+                transform: scale(1) translateY(0);
+            }
+        }
+        
+        @keyframes groupFadeOut {
+            0% { 
+                opacity: 1; 
+                transform: scale(1) translateY(0);
+            }
+            100% { 
+                opacity: 0; 
+                transform: scale(0.8) translateY(-20px);
             }
         }
 
@@ -1657,15 +1668,13 @@
                 let currentGroupIndex = 0;
                 
                 function showGroup() {
-                    // 기존 단어들 제거
-                    wordcloud.innerHTML = '';
-                    
                     const currentGroup = groups[currentGroupIndex];
                     
                     // 현재 그룹의 단어들 표시
                     currentGroup.forEach((msg, idx) => {
                         const span = document.createElement('span');
                         span.textContent = msg;
+                        span.className = 'wordcloud-item';
                         
                         const size = 16 + Math.random() * 24;
                         const colors = ['#ff6b6b', '#4ecdc4', '#45b7d1', '#f7931a', '#95a5a6', '#e67e22'];
@@ -1684,10 +1693,10 @@
                             color: ${color};
                             margin: 5px 10px;
                             display: inline-block;
-                            transform: rotate(${rotation}deg) scale(1);
+                            transform: rotate(${rotation}deg);
                             font-weight: ${Math.random() > 0.5 ? 'bold' : 'normal'};
                             opacity: 0;
-                            animation: groupFadeIn 0.5s ease-out forwards;
+                            animation: groupFadeIn 0.6s ease-out forwards;
                         `;
                         
                         wordcloud.appendChild(span);
@@ -1697,11 +1706,25 @@
                     currentGroupIndex = (currentGroupIndex + 1) % groups.length;
                 }
                 
+                function hideGroup() {
+                    // 현재 보이는 모든 단어에 fadeOut 애니메이션 추가
+                    const items = wordcloud.querySelectorAll('.wordcloud-item');
+                    items.forEach(item => {
+                        item.style.animation = 'groupFadeOut 0.6s ease-in forwards';
+                    });
+                    
+                    // fadeOut 완료 후 제거하고 다음 그룹 표시
+                    setTimeout(() => {
+                        wordcloud.innerHTML = '';
+                        showGroup();
+                    }, 600);
+                }
+                
                 // 첫 그룹 표시
                 showGroup();
                 
-                // 3.5초마다 그룹 전환 (0.5초 나타남 + 2.5초 보임 + 0.5초 사라짐)
-                setInterval(showGroup, 3500);
+                // 3초마다 교체 (나타남 0.6초 + 보임 2.4초 + 사라짐 0.6초)
+                setInterval(hideGroup, 3000);
                 
                 return;
             }
