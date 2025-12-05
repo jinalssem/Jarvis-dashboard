@@ -1,8 +1,8 @@
 {
-  "today_profit": 166.83063291843317,
-  "today_profit_percent": 0.09836814550705539,
-  "total_profit": -1257.6211778918228,
-  "total_profit_percent": -0.7415296630811286,
+  "today_profit": -10.920939408487015,
+  "today_profit_percent": -0.006204187854237177,
+  "total_profit": -356.3001628871145,
+  "total_profit_percent": -0.20241419353806425,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -154,22 +154,13 @@
   },
   "holdings": [
     {
-      "market": "KRW-BTC",
-      "amount": 7.331e-05,
-      "avg_price": 133345000.0,
-      "current_price": 133800000.0,
-      "value": 9808.878,
-      "profit": 33.35605,
-      "profit_rate": 0.003412201432374667
-    },
-    {
       "market": "KRW-APM",
       "amount": 5227.98742138,
       "avg_price": 1.86,
-      "current_price": 1.823,
-      "value": 9530.62106917574,
-      "profit": -193.43553459106076,
-      "profit_rate": -0.019892473118279647
+      "current_price": 1.826,
+      "value": 9546.30503143988,
+      "profit": -177.75157232692018,
+      "profit_rate": -0.018279569892473133
     },
     {
       "market": "KRW-COMP",
@@ -181,25 +172,34 @@
       "profit_rate": 0.004281738385784628
     },
     {
+      "market": "KRW-GTC",
+      "amount": 8.5,
+      "avg_price": 200.0,
+      "current_price": 200.0,
+      "value": 1700.0,
+      "profit": 0.0,
+      "profit_rate": 0.0
+    },
+    {
       "market": "KRW-PUMPBTC",
       "amount": 232.08469055,
       "avg_price": 42.1,
-      "current_price": 42.75,
-      "value": 9921.6205210125,
-      "profit": 150.85504885749967,
-      "profit_rate": 0.015439429928741059
+      "current_price": 42.48,
+      "value": 9858.957654564,
+      "profit": 88.19218240899895,
+      "profit_rate": 0.009026128266033146
     },
     {
       "market": "KRW-SAPIEN",
-      "amount": 494.70923204,
-      "avg_price": 263.9,
-      "current_price": 261.0,
-      "value": 129119.10956244,
-      "profit": -1434.6567729159888,
-      "profit_rate": -0.010989010989010903
+      "amount": 550.4984628,
+      "avg_price": 263.5,
+      "current_price": 263.0,
+      "value": 144781.09571639998,
+      "profit": -275.2492314,
+      "profit_rate": -0.0018975332068311196
     }
   ],
-  "last_update": "2025-12-06T04:42:48.207048",
+  "last_update": "2025-12-06T04:44:06.799740",
   "trades": [
     {
       "type": "sell",
