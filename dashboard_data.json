@@ -208,8 +208,40 @@
       "profit_rate": 0.0033254156769596333
     }
   ],
-  "last_update": "2025-12-06T04:14:07.162602",
+  "last_update": "2025-12-06T04:16:57.909244",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-BAT",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-06T04:16:57.908937"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-BAT",
+      "profit": -52.91777188,
+      "price": 367.0,
+      "amount": 26.45888594,
+      "time": "2025-12-06T04:16:57.906874"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ETH",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-06T04:16:57.146811"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ETH",
+      "profit": -138.92775,
+      "price": 4508000.0,
+      "amount": 0.00213735,
+      "time": "2025-12-06T04:16:57.144862"
+    },
     {
       "type": "buy",
       "market": "KRW-A",
@@ -977,38 +1009,6 @@
       "price": 0,
       "amount": 0,
       "time": "2025-12-05T04:26:26.214314"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-COTI",
-      "profit": -404.60746304459985,
-      "price": 39.47,
-      "amount": 435.06178822,
-      "time": "2025-12-05T04:26:26.211755"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-BERA",
-      "profit": 0,
-      "price": 1325.0,
-      "amount": 13.23139278,
-      "time": "2025-12-05T04:19:55.604143"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-APM",
-      "profit": 0,
-      "price": 1.86,
-      "amount": 5244.47949527,
-      "time": "2025-12-05T03:39:02.388130"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-BOA",
-      "profit": 0,
-      "price": 4.28,
-      "amount": 2283.13115129,
-      "time": "2025-12-05T03:31:08.942490"
     }
   ]
 }
