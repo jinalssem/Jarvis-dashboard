@@ -1,8 +1,8 @@
 {
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": 477.0016685933639,
-  "total_profit_percent": 4.884679088453317,
+  "total_profit": 679.7120154260028,
+  "total_profit_percent": 3.4947123424649966,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,13 +157,22 @@
       "market": "KRW-BOA",
       "amount": 2255.25661316,
       "avg_price": 4.33,
-      "current_price": 4.277,
-      "value": 9645.732534485322,
-      "profit": -119.52860049747986,
-      "profit_rate": -0.012240184757505759
+      "current_price": 4.281,
+      "value": 9654.75356093796,
+      "profit": -110.50757404484085,
+      "profit_rate": -0.0113163972286375
+    },
+    {
+      "market": "KRW-A8",
+      "amount": 96.84466019,
+      "avg_price": 100.0,
+      "current_price": 102.0,
+      "value": 9878.15533938,
+      "profit": 193.68932038,
+      "profit_rate": 0.02
     }
   ],
-  "last_update": "2025-12-06T00:14:01.930196",
+  "last_update": "2025-12-06T00:18:41.419706",
   "trades": [
     {
       "type": "buy",
