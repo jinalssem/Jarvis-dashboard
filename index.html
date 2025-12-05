@@ -663,6 +663,28 @@
         .word.coin-word.fire-anim-3 { animation: fireFloat3 4.5s ease-in-out infinite; }
         .word.coin-word.fire-anim-4 { animation: fireFloat4 5.5s ease-in-out infinite; }
 
+        /* 보유 코인 없을 때 워드클라우드 애니메이션 */
+        @keyframes floatFade {
+            0% { 
+                opacity: 0; 
+                transform: translateY(20px) rotate(0deg);
+            }
+            10% { 
+                opacity: 0.6; 
+            }
+            50% { 
+                opacity: 1; 
+                transform: translateY(-10px) rotate(5deg);
+            }
+            90% { 
+                opacity: 0.6; 
+            }
+            100% { 
+                opacity: 0; 
+                transform: translateY(20px) rotate(0deg);
+            }
+        }
+
         .profit-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -1630,35 +1652,45 @@
                     '대기 중', '준비 중', '고민이야', '분석 타임'
                 ];
                 
-                const wordCloudHTML = messages.map(msg => {
+                wordcloud.innerHTML = '';
+                const containerWidth = wordcloud.offsetWidth || 800;
+                const containerHeight = wordcloud.offsetHeight || 400;
+                
+                // 각 메시지를 절대 위치로 배치하고 애니메이션 추가
+                messages.forEach((msg, idx) => {
+                    const span = document.createElement('span');
+                    span.textContent = msg;
+                    
                     const size = 14 + Math.random() * 20;
-                    const opacity = 0.4 + Math.random() * 0.6;
                     const colors = ['#ff6b6b', '#4ecdc4', '#45b7d1', '#f7931a', '#95a5a6', '#e67e22'];
                     const color = colors[Math.floor(Math.random() * colors.length)];
                     const rotation = -15 + Math.random() * 30;
                     
-                    return `<span style="
+                    // 랜덤 위치
+                    const x = Math.random() * (containerWidth - 150);
+                    const y = Math.random() * (containerHeight - 50);
+                    
+                    // 랜덤 애니메이션 지연
+                    const delay = Math.random() * 3;
+                    const duration = 3 + Math.random() * 3;
+                    
+                    span.style.cssText = `
+                        position: absolute;
+                        left: ${x}px;
+                        top: ${y}px;
                         font-size: ${size}px;
                         color: ${color};
-                        opacity: ${opacity};
                         margin: 5px 10px;
                         display: inline-block;
                         transform: rotate(${rotation}deg);
                         font-weight: ${Math.random() > 0.5 ? 'bold' : 'normal'};
-                    ">${msg}</span>`;
-                }).join('');
+                        animation: floatFade ${duration}s ease-in-out ${delay}s infinite;
+                        opacity: 0;
+                    `;
+                    
+                    wordcloud.appendChild(span);
+                });
                 
-                wordcloud.innerHTML = `
-                    <div style="
-                        text-align: center; 
-                        padding: 40px 20px;
-                        line-height: 2;
-                        display: flex;
-                        flex-wrap: wrap;
-                        justify-content: center;
-                        align-items: center;
-                    ">${wordCloudHTML}</div>
-                `;
                 return;
             }
 
