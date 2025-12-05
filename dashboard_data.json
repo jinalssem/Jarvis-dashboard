@@ -1,8 +1,8 @@
 {
   "today_profit": 193.68932038,
-  "today_profit_percent": 0.49564527853307794,
-  "total_profit": 1472.0749958764843,
-  "total_profit_percent": 3.766996651758191,
+  "today_profit_percent": 0.3965229975862774,
+  "total_profit": 1480.5825657677228,
+  "total_profit_percent": 3.031065605477856,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,41 +157,58 @@
       "market": "KRW-BTC",
       "amount": 7.331e-05,
       "avg_price": 133345000.0,
-      "current_price": 133419000.0,
-      "value": 9780.94689,
-      "profit": 5.42494,
-      "profit_rate": 0.000554951441748847
+      "current_price": 133463000.0,
+      "value": 9784.17253,
+      "profit": 8.65058,
+      "profit_rate": 0.0008849225692751884
     },
     {
       "market": "KRW-ETH",
       "amount": 0.00213735,
       "avg_price": 4573000.0,
-      "current_price": 4589000.0,
-      "value": 9808.29915,
-      "profit": 34.1976,
-      "profit_rate": 0.0034987972884321017
+      "current_price": 4594000.0,
+      "value": 9818.9859,
+      "profit": 44.884350000000005,
+      "profit_rate": 0.004592171441067133
     },
     {
       "market": "KRW-BAT",
       "amount": 26.45888594,
       "avg_price": 369.0,
-      "current_price": 374.0,
-      "value": 9895.62334156,
-      "profit": 132.2944297,
-      "profit_rate": 0.013550135501355014
+      "current_price": 373.0,
+      "value": 9869.164455619999,
+      "profit": 105.83554376,
+      "profit_rate": 0.01084010840108401
+    },
+    {
+      "market": "KRW-CVC",
+      "amount": 118.55241265,
+      "avg_price": 82.4,
+      "current_price": 83.58,
+      "value": 9908.610649286999,
+      "profit": 139.8918469269991,
+      "profit_rate": 0.014320388349514473
     },
     {
       "market": "KRW-BOA",
       "amount": 2255.25661316,
       "avg_price": 4.33,
-      "current_price": 4.235,
-      "value": 9551.011756732601,
-      "profit": -214.24937825019944,
-      "profit_rate": -0.0219399538106235
+      "current_price": 4.244,
+      "value": 9571.30906625104,
+      "profit": -193.95206873176068,
+      "profit_rate": -0.019861431870669813
     }
   ],
-  "last_update": "2025-12-06T01:21:25.543889",
+  "last_update": "2025-12-06T01:27:14.219652",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-PUMPBTC",
+      "profit": 0,
+      "price": 42.1,
+      "amount": 232.08469055,
+      "time": "2025-12-06T01:25:53.128521"
+    },
     {
       "type": "buy",
       "market": "KRW-CVC",
@@ -983,14 +1000,6 @@
       "price": 0,
       "amount": 0,
       "time": "2025-12-05T00:41:03.658169"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-AWE",
-      "profit": 139.13509061419956,
-      "price": 90.47,
-      "amount": 109.55518946,
-      "time": "2025-12-05T00:41:03.654559"
     }
   ]
 }
