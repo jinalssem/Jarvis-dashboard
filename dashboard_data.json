@@ -1,8 +1,8 @@
 {
-  "today_profit": 15.9755840609335,
-  "today_profit_percent": 0.04091638832122684,
-  "total_profit": 286.1779619311161,
-  "total_profit_percent": 0.7329540237583405,
+  "today_profit": 166.83063291843317,
+  "today_profit_percent": 0.09836814550705539,
+  "total_profit": -1257.6211778918228,
+  "total_profit_percent": -0.7415296630811286,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,19 +157,19 @@
       "market": "KRW-BTC",
       "amount": 7.331e-05,
       "avg_price": 133345000.0,
-      "current_price": 133726000.0,
-      "value": 9803.45306,
-      "profit": 27.93111,
-      "profit_rate": 0.00285724999062582
+      "current_price": 133800000.0,
+      "value": 9808.878,
+      "profit": 33.35605,
+      "profit_rate": 0.003412201432374667
     },
     {
       "market": "KRW-APM",
       "amount": 5227.98742138,
       "avg_price": 1.86,
-      "current_price": 1.826,
-      "value": 9546.30503143988,
-      "profit": -177.75157232692018,
-      "profit_rate": -0.018279569892473133
+      "current_price": 1.823,
+      "value": 9530.62106917574,
+      "profit": -193.43553459106076,
+      "profit_rate": -0.019892473118279647
     },
     {
       "market": "KRW-COMP",
@@ -184,13 +184,22 @@
       "market": "KRW-PUMPBTC",
       "amount": 232.08469055,
       "avg_price": 42.1,
-      "current_price": 42.63,
-      "value": 9893.770358146501,
-      "profit": 123.00488599150026,
-      "profit_rate": 0.012589073634204303
+      "current_price": 42.75,
+      "value": 9921.6205210125,
+      "profit": 150.85504885749967,
+      "profit_rate": 0.015439429928741059
+    },
+    {
+      "market": "KRW-SAPIEN",
+      "amount": 494.70923204,
+      "avg_price": 263.9,
+      "current_price": 261.0,
+      "value": 129119.10956244,
+      "profit": -1434.6567729159888,
+      "profit_rate": -0.010989010989010903
     }
   ],
-  "last_update": "2025-12-06T04:35:06.836737",
+  "last_update": "2025-12-06T04:36:24.091588",
   "trades": [
     {
       "type": "sell",
