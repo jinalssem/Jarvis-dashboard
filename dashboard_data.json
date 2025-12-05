@@ -1,8 +1,8 @@
 {
   "today_profit": -5749.304578808486,
-  "today_profit_percent": -57.40509776292115,
-  "total_profit": -6095.720072930191,
-  "total_profit_percent": -60.86395353131191,
+  "today_profit_percent": -5.337411597259177,
+  "total_profit": -5662.573184207192,
+  "total_profit_percent": -5.256893832885081,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -155,15 +155,24 @@
   "holdings": [
     {
       "market": "KRW-GTC",
-      "amount": 49.65453939,
-      "avg_price": 201.7,
-      "current_price": 202.0,
-      "value": 10030.21695678,
-      "profit": 14.896361817000564,
-      "profit_rate": 0.0014873574615766553
+      "amount": 127.45808745,
+      "avg_price": 200.6,
+      "current_price": 199.0,
+      "value": 25364.159402549998,
+      "profit": -203.93293991999926,
+      "profit_rate": -0.007976071784646033
+    },
+    {
+      "market": "KRW-SAPIEN",
+      "amount": 325.98809523,
+      "avg_price": 252.0,
+      "current_price": 254.0,
+      "value": 82800.97618842,
+      "profit": 651.97619046,
+      "profit_rate": 0.007936507936507936
     }
   ],
-  "last_update": "2025-12-06T05:27:01.995356",
+  "last_update": "2025-12-06T05:34:42.596713",
   "trades": [
     {
       "type": "sell",
