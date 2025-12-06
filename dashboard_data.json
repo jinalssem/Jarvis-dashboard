@@ -1,8 +1,8 @@
 {
   "today_profit": 18445.299405971822,
-  "today_profit_percent": 122.16203860065697,
-  "total_profit": 19486.421180171823,
-  "total_profit_percent": 129.05732154340103,
+  "today_profit_percent": 62.88464398020833,
+  "total_profit": 19425.042954371824,
+  "total_profit_percent": 66.22483504336304,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,13 +157,22 @@
       "market": "KRW-HUNT",
       "amount": 61.3782258,
       "avg_price": 246.0,
-      "current_price": 245.0,
-      "value": 15037.665321,
-      "profit": -61.3782258,
-      "profit_rate": -0.0040650406504065045
+      "current_price": 244.0,
+      "value": 14976.287095200001,
+      "profit": -122.7564516,
+      "profit_rate": -0.008130081300813009
+    },
+    {
+      "market": "KRW-CPOOL",
+      "amount": 225.91932866,
+      "avg_price": 63.0,
+      "current_price": 63.0,
+      "value": 14232.91770558,
+      "profit": 0.0,
+      "profit_rate": 0.0
     }
   ],
-  "last_update": "2025-12-06T22:01:13.118674",
+  "last_update": "2025-12-06T22:07:39.265294",
   "trades": [
     {
       "type": "sell",
