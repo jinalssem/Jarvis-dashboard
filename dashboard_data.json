@@ -181,8 +181,24 @@
       "profit_rate": 0.011964107676969121
     }
   ],
-  "last_update": "2025-12-06T11:01:06.564222",
+  "last_update": "2025-12-06T11:06:35.520763",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-CVC",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-06T11:06:35.519640"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-CVC",
+      "profit": 191.5745856305992,
+      "price": 75.86,
+      "amount": 131.21546961,
+      "time": "2025-12-06T11:06:35.425234"
+    },
     {
       "type": "buy",
       "market": "KRW-BOA",
@@ -966,22 +982,6 @@
       "price": 0,
       "amount": 0,
       "time": "2025-12-05T06:49:59.377588"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-APM",
-      "profit": 335.64668769727916,
-      "price": 1.924,
-      "amount": 5244.47949527,
-      "time": "2025-12-05T06:49:59.375550"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-EVZ",
-      "profit": 0,
-      "price": 0.93,
-      "amount": 10500.0,
-      "time": "2025-12-05T06:43:35.078650"
     }
   ]
 }
