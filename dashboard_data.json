@@ -172,8 +172,24 @@
       "profit_rate": 0.00998336106489193
     }
   ],
-  "last_update": "2025-12-07T02:45:43.439560",
+  "last_update": "2025-12-07T02:53:27.023785",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-LINEA",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-07T02:53:27.023354"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-LINEA",
+      "profit": 142.2765880634006,
+      "price": 12.16,
+      "amount": 1016.26134331,
+      "time": "2025-12-07T02:53:27.019296"
+    },
     {
       "type": "buy",
       "market": "KRW-XION",
@@ -957,22 +973,6 @@
       "price": 83.94,
       "amount": 118.55241265,
       "time": "2025-12-06T01:31:37.807316"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-PUMPBTC",
-      "profit": 0,
-      "price": 42.1,
-      "amount": 232.08469055,
-      "time": "2025-12-06T01:25:53.128521"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-CVC",
-      "profit": 0,
-      "price": 82.4,
-      "amount": 118.55241265,
-      "time": "2025-12-06T01:14:47.794363"
     }
   ]
 }
