@@ -1,8 +1,8 @@
 {
   "today_profit": 18015.65182537182,
-  "today_profit_percent": 1801565.182537182,
-  "total_profit": 19301.90182537182,
-  "total_profit_percent": 1930190.182537182,
+  "today_profit_percent": 119.31651014537239,
+  "total_profit": 19240.52359957182,
+  "total_profit_percent": 127.42875758941392,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -152,8 +152,18 @@
     "profit": 0,
     "profit_rate": 0.0
   },
-  "holdings": [],
-  "last_update": "2025-12-06T19:44:09.943761",
+  "holdings": [
+    {
+      "market": "KRW-HUNT",
+      "amount": 61.3782258,
+      "avg_price": 246.0,
+      "current_price": 245.0,
+      "value": 15037.665321,
+      "profit": -61.3782258,
+      "profit_rate": -0.0040650406504065045
+    }
+  ],
+  "last_update": "2025-12-06T19:50:22.132632",
   "trades": [
     {
       "type": "buy",
