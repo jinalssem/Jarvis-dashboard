@@ -190,8 +190,24 @@
       "profit_rate": 0.0
     }
   ],
-  "last_update": "2025-12-07T08:02:45.889090",
+  "last_update": "2025-12-07T08:07:22.436420",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-MOODENG",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-07T08:07:22.435762"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-MOODENG",
+      "profit": 5046.03642408,
+      "price": 134.0,
+      "amount": 2523.01821204,
+      "time": "2025-12-07T08:07:22.431133"
+    },
     {
       "type": "sell",
       "market": "KRW-PUFFER",
@@ -975,22 +991,6 @@
       "price": 0,
       "amount": 0,
       "time": "2025-12-06T04:16:57.908937"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-BAT",
-      "profit": -52.91777188,
-      "price": 367.0,
-      "amount": 26.45888594,
-      "time": "2025-12-06T04:16:57.906874"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-ETH",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-06T04:16:57.146811"
     }
   ]
 }
