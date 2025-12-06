@@ -1,8 +1,8 @@
 {
   "today_profit": 16945.209448214522,
-  "today_profit_percent": 1694520.9448214523,
-  "total_profit": 18625.209448214522,
-  "total_profit_percent": 1862520.9448214523,
+  "today_profit_percent": 153.8655175544652,
+  "total_profit": 18592.169126601773,
+  "total_profit_percent": 168.8202045461383,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -152,8 +152,18 @@
     "profit": 0,
     "profit_rate": 0.0
   },
-  "holdings": [],
-  "last_update": "2025-12-06T16:42:12.000784",
+  "holdings": [
+    {
+      "market": "KRW-XYO",
+      "amount": 1321.61286451,
+      "avg_price": 8.333,
+      "current_price": 8.308,
+      "value": 10979.95967834908,
+      "profit": -33.04032161275047,
+      "profit_rate": -0.0030001200048002346
+    }
+  ],
+  "last_update": "2025-12-06T16:49:33.125639",
   "trades": [
     {
       "type": "buy",
