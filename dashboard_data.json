@@ -181,8 +181,24 @@
       "profit_rate": -0.009467455621301784
     }
   ],
-  "last_update": "2025-12-07T08:25:57.724293",
+  "last_update": "2025-12-07T08:30:28.785405",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-UOS",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-07T08:30:28.785113"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-UOS",
+      "profit": 7411.50631514365,
+      "price": 17.87,
+      "amount": 19503.96398722,
+      "time": "2025-12-07T08:30:28.782488"
+    },
     {
       "type": "sell",
       "market": "KRW-MOODENG",
@@ -966,22 +982,6 @@
       "price": 0,
       "amount": 0,
       "time": "2025-12-06T04:21:12.956295"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-BTC",
-      "profit": 29.25069,
-      "price": 133744000.0,
-      "amount": 7.331e-05,
-      "time": "2025-12-06T04:21:12.954722"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-BAT",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-06T04:16:57.908937"
     }
   ]
 }
