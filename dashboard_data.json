@@ -1,8 +1,8 @@
 {
-  "today_profit": 16374.179960200521,
-  "today_profit_percent": 46.89679439635971,
-  "total_profit": 13817.949661167017,
-  "total_profit_percent": 39.57557238372151,
+  "today_profit": 16604.28967670102,
+  "today_profit_percent": 32.39936221835345,
+  "total_profit": 13898.357739503219,
+  "total_profit_percent": 27.119373090333077,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,22 +157,31 @@
       "market": "KRW-ZRC",
       "amount": 1353.58656765,
       "avg_price": 10.86,
-      "current_price": 10.92,
-      "value": 14781.165318738,
-      "profit": 81.21519405900068,
-      "profit_rate": 0.005524861878453084
+      "current_price": 11.02,
+      "value": 14916.523975503,
+      "profit": 216.5738508240002,
+      "profit_rate": 0.014732965009208118
+    },
+    {
+      "market": "KRW-CPOOL",
+      "amount": 242.01313282,
+      "avg_price": 67.49,
+      "current_price": 67.2,
+      "value": 16263.282525504,
+      "profit": -70.18380851779807,
+      "profit_rate": -0.0042969328789449115
     },
     {
       "market": "KRW-SAPIEN",
       "amount": 82.51183673,
       "avg_price": 245.0,
-      "current_price": 242.0,
-      "value": 19967.86448866,
-      "profit": -247.53551019,
-      "profit_rate": -0.012244897959183673
+      "current_price": 241.0,
+      "value": 19885.35265193,
+      "profit": -330.04734692,
+      "profit_rate": -0.0163265306122449
     }
   ],
-  "last_update": "2025-12-06T14:58:44.935194",
+  "last_update": "2025-12-06T14:59:57.916367",
   "trades": [
     {
       "type": "sell",
