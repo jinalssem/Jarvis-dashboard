@@ -728,19 +728,40 @@
             margin-bottom: 30px;
         }
 
-        /* 3단 그리드: 보유 코인, 최근 거래, 차트 */
-        .three-column-grid {
+        /* 세로 3단 구조 */
+        .vertical-three-column {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: 1fr 2fr 1fr;
             gap: 20px;
-            margin-bottom: 30px;
+            align-items: start;
         }
 
         /* 반응형: 작은 화면에서는 1단 */
-        @media (max-width: 1200px) {
-            .three-column-grid {
+        @media (max-width: 1400px) {
+            .vertical-three-column {
                 grid-template-columns: 1fr;
             }
+        }
+
+        /* 왼쪽 열 */
+        .left-column {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        /* 중앙 열 */
+        .center-column {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        /* 오른쪽 열 */
+        .right-column {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
         }
 
         .profit-card {
@@ -826,17 +847,10 @@
             text-align: center;
         }
 
-        /* 3단 그리드 내부에서는 1열로 */
-        .three-column-grid .holdings-grid {
+        .holdings-grid {
             display: flex;
             flex-direction: column;
             gap: 15px;
-        }
-
-        .holdings-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-            gap: 20px;
         }
 
         .coin-card {
@@ -987,15 +1001,13 @@
             max-height: 250px;
         }
 
-        /* 보유 코인 관리 패널 */
+        /* 보유 코인 관리 패널 - 워드클라우드 너비에 맞춤 */
         .control-panel {
             background: rgba(255, 255, 255, 0.05);
             backdrop-filter: blur(15px);
             border: 2px solid rgba(255, 107, 53, 0.4);
             border-radius: 20px;
             padding: 25px;
-            margin: 20px 0 30px 0;
-            max-width: 100%;
             box-shadow: 0 8px 32px rgba(255, 107, 53, 0.3);
         }
 
@@ -1008,22 +1020,9 @@
         }
 
         .control-content {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
+            display: flex;
+            flex-direction: column;
             gap: 20px;
-            align-items: start;
-        }
-
-        /* 버튼과 상태는 전체 너비 */
-        .control-buttons,
-        #commandStatus {
-            grid-column: 1 / -1;
-        }
-
-        @media (max-width: 768px) {
-            .control-content {
-                grid-template-columns: 1fr;
-            }
         }
 
         .control-group {
@@ -1339,23 +1338,11 @@
 
         <div class="main-content">
         
-        <div class="profit-grid">
-            <div class="profit-card">
-                <h3>🌅 오늘 손익</h3>
-                <div class="profit-amount" id="todayProfit">0원</div>
-                <div class="profit-percent" id="todayProfitPercent">(0.00%)</div>
-                <div class="profit-percent" id="todayToTotalRatio" style="font-size: 0.85em; margin-top: 5px; color: #95a5a6;">오늘/누적: 0.00%</div>
-            </div>
-            <div class="profit-card">
-                <h3>📊 누적 손익</h3>
-                <div class="profit-date">2025.11.29부터</div>
-                <div class="profit-amount" id="totalProfit">0원</div>
-                <div class="profit-percent" id="totalProfitPercent">(0.00%)</div>
-            </div>
-        </div>
-
-        <!-- 3단 그리드: 보유 코인, 최근 거래, 차트 -->
-        <div class="three-column-grid">
+        <!-- 3단 세로 구조 -->
+        <div class="vertical-three-column">
+        
+        <!-- 왼쪽: 보유 코인 + 최근 거래 -->
+        <div class="left-column">
         <div class="holdings-section">
             <h2>💼 보유 코인</h2>
             
@@ -1372,21 +1359,16 @@
             <h2>📜 최근 거래</h2>
             <div class="trades-list" id="tradesList"></div>
         </div>
+        </div><!-- left-column 끝 -->
 
-        <div class="chart-section">
-            <h2>📈 수익 추이</h2>
-            <canvas id="profitChart"></canvas>
-        </div>
-        </div><!-- three-column-grid 끝 -->
-
+        <!-- 중앙: 워드클라우드 + 보유 코인 관리 -->
+        <div class="center-column">
         <!-- 워드클라우드 (높이 줄임) -->
         <div class="wordcloud-container">
             <div class="wordcloud" id="wordcloud"></div>
         </div>
-        
-        </div><!-- main-content 끝 -->
 
-        <!-- 보유 코인 관리 패널 -->
+        <!-- 보유 코인 관리 패널 (워드클라우드 너비에 맞춤) -->
         <div class="control-panel">
             <h2>🎯 보유 코인 관리</h2>
             
@@ -1417,6 +1399,33 @@
                 <div id="commandStatus"></div>
             </div>
         </div>
+        </div><!-- center-column 끝 -->
+
+        <!-- 오른쪽: 오늘 손익 + 누적 손익 + 차트 -->
+        <div class="right-column">
+        <div class="profit-card">
+            <h3>🌅 오늘 손익</h3>
+            <div class="profit-amount" id="todayProfit">0원</div>
+            <div class="profit-percent" id="todayProfitPercent">(0.00%)</div>
+            <div class="profit-percent" id="todayToTotalRatio" style="font-size: 0.85em; margin-top: 5px; color: #95a5a6;">오늘/누적: 0.00%</div>
+        </div>
+
+        <div class="profit-card">
+            <h3>📊 누적 손익</h3>
+            <div class="profit-date">2025.11.29부터</div>
+            <div class="profit-amount" id="totalProfit">0원</div>
+            <div class="profit-percent" id="totalProfitPercent">(0.00%)</div>
+        </div>
+
+        <div class="chart-section">
+            <h2>📈 수익 추이</h2>
+            <canvas id="profitChart"></canvas>
+        </div>
+        </div><!-- right-column 끝 -->
+
+        </div><!-- vertical-three-column 끝 -->
+        
+        </div><!-- main-content 끝 -->
 
         <div class="referral-section">
             <h2>🎁 빗썸 초대 코드</h2>
