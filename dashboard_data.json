@@ -1,8 +1,8 @@
 {
   "today_profit": -1390.680570413798,
-  "today_profit_percent": -5.176044640659559,
-  "total_profit": 16794.018301839722,
-  "total_profit_percent": 62.50650960091502,
+  "today_profit_percent": -6.337653170636691,
+  "total_profit": 16369.501163576624,
+  "total_profit_percent": 74.5996047965301,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -154,26 +154,34 @@
   },
   "holdings": [
     {
+      "market": "KRW-PUFFER",
+      "amount": 82.43801653,
+      "avg_price": 118.0,
+      "current_price": 118.0,
+      "value": 9727.68595054,
+      "profit": 0.0,
+      "profit_rate": 0.0
+    },
+    {
       "market": "KRW-LINEA",
       "amount": 1016.26134331,
       "avg_price": 12.02,
-      "current_price": 12.09,
-      "value": 12286.5996406179,
-      "profit": 71.1382940317003,
-      "profit_rate": 0.005823627287853601
-    },
-    {
-      "market": "KRW-SOMI",
-      "amount": 44.13304089,
-      "avg_price": 332.0,
-      "current_price": 337.0,
-      "value": 14872.834779929999,
-      "profit": 220.66520444999998,
-      "profit_rate": 0.015060240963855422
+      "current_price": 12.08,
+      "value": 12276.4370271848,
+      "profit": 60.975680598600505,
+      "profit_rate": 0.004991680532445965
     }
   ],
-  "last_update": "2025-12-07T02:08:56.800829",
+  "last_update": "2025-12-07T02:18:12.357305",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-TURBO",
+      "profit": 0,
+      "price": 3.19,
+      "amount": 2547.29337573,
+      "time": "2025-12-07T02:16:55.849220"
+    },
     {
       "type": "buy",
       "market": "KRW-PUFFER",
@@ -965,14 +973,6 @@
       "price": 0,
       "amount": 0,
       "time": "2025-12-06T00:21:58.906876"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-A8",
-      "profit": 193.68932038,
-      "price": 102.0,
-      "amount": 96.84466019,
-      "time": "2025-12-06T00:21:58.904298"
     }
   ]
 }
