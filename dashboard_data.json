@@ -1,8 +1,8 @@
 {
   "today_profit": 16374.179960200521,
-  "today_profit_percent": 1637417.996020052,
-  "total_profit": 13984.269977298016,
-  "total_profit_percent": 1398426.9977298016,
+  "today_profit_percent": 46.89679439635971,
+  "total_profit": 13942.365737597518,
+  "total_profit_percent": 39.93190871141211,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -152,8 +152,27 @@
     "profit": 0,
     "profit_rate": 0.0
   },
-  "holdings": [],
-  "last_update": "2025-12-06T14:39:25.084162",
+  "holdings": [
+    {
+      "market": "KRW-ZRC",
+      "amount": 1353.58656765,
+      "avg_price": 10.86,
+      "current_price": 10.89,
+      "value": 14740.557721708501,
+      "profit": 40.60759702950154,
+      "profit_rate": 0.002762430939226624
+    },
+    {
+      "market": "KRW-SAPIEN",
+      "amount": 82.51183673,
+      "avg_price": 245.0,
+      "current_price": 244.0,
+      "value": 20132.888162119998,
+      "profit": -82.51183673,
+      "profit_rate": -0.004081632653061225
+    }
+  ],
+  "last_update": "2025-12-06T14:46:47.476147",
   "trades": [
     {
       "type": "sell",
