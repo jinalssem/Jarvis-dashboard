@@ -455,7 +455,7 @@
         /* 세로 3단 구조 */
         .vertical-three-column {
             display: grid;
-            grid-template-columns: 340px 1fr 340px;
+            grid-template-columns: 400px 1fr 400px;
             gap: 20px;
             align-items: start;
         }
@@ -500,7 +500,7 @@
 
         @media (min-width: 1800px) {
             .vertical-three-column {
-                grid-template-columns: 380px 1fr 380px;
+                grid-template-columns: 450px 1fr 450px;
             }
         }
 
@@ -566,8 +566,9 @@
             display: flex;
             justify-content: center;
             gap: 10px;
-            margin-bottom: 20px;
+            margin-bottom: 15px;
             flex-wrap: wrap;
+            flex-shrink: 0;
         }
 
         .sort-btn {
@@ -600,22 +601,26 @@
             border-radius: 20px;
             padding: 20px;
             box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-            min-height: 400px;
+            min-height: 300px;
+            max-height: 300px;
+            display: flex;
+            flex-direction: column;
         }
 
         .holdings-section h2 {
             font-size: 1.3em;
-            margin-bottom: 15px;
+            margin-bottom: 12px;
             color: #ff6b35;
             text-align: center;
+            flex-shrink: 0;
         }
 
         .holdings-grid {
             display: flex;
             flex-direction: column;
             gap: 10px;
-            max-height: 600px;
             overflow-y: auto;
+            flex: 1;
         }
 
         /* 스크롤바 스타일 */
@@ -691,19 +696,40 @@
             border-radius: 20px;
             padding: 20px;
             box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-            min-height: 280px;
+            min-height: 230px;
+            max-height: 230px;
+            display: flex;
+            flex-direction: column;
         }
 
         .trades-section h2 {
             font-size: 1.3em;
-            margin-bottom: 15px;
+            margin-bottom: 12px;
             color: #ff6b35;
+            flex-shrink: 0;
         }
 
         .trades-list {
             display: flex;
             flex-direction: column;
-            gap: 12px;
+            gap: 10px;
+            overflow-y: auto;
+            flex: 1;
+        }
+
+        /* 최근 거래 스크롤바 스타일 */
+        .trades-list::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .trades-list::-webkit-scrollbar-track {
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+        }
+
+        .trades-list::-webkit-scrollbar-thumb {
+            background: rgba(255, 107, 53, 0.5);
+            border-radius: 10px;
         }
 
         .trade-item {
@@ -1576,6 +1602,9 @@
             // 차트 초기화
             initProfitChart();
             
+            // 보유 코인 선택 이벤트 리스너 설정 (한 번만)
+            setupCoinSelectListener();
+            
             // 정렬 버튼 이벤트
             document.querySelectorAll('.sort-btn').forEach(btn => {
                 btn.addEventListener('click', (e) => {
@@ -1918,7 +1947,7 @@
             
             // 최근 거래 생성
             const trades = [];
-            for (let i = 0; i < 6; i++) {
+            for (let i = 0; i < 4; i++) {
                 const time = new Date(today.getTime() - i * 3600000); // 1시간 간격
                 const coin = sampleCoins[i % sampleCoins.length];
                 const type = i % 2 === 0 ? 'sell' : 'buy';
@@ -2033,7 +2062,7 @@
                     const timeB = new Date(b.time || 0);
                     return timeB - timeA; // 최신순
                 });
-                const trades = sortedTrades.slice(0, 6);
+                const trades = sortedTrades.slice(0, 4);
                 
                 const tradesList = document.getElementById('tradesList');
                 tradesList.innerHTML = '';
@@ -2110,8 +2139,65 @@
 
             } catch (error) {
                 console.error('Dashboard update failed:', error);
+                console.log('에러 발생, 샘플 데이터로 재시도');
+                
+                // 에러 발생 시에도 샘플 데이터로 동작
+                try {
+                    const data = generateSampleData();
+                    
+                    document.getElementById('lastUpdate').textContent = `데모 모드 - 샘플 데이터`;
+                    
+                    const todayProfit = data.today_profit || 0;
+                    const todayPercent = data.today_profit_percent || 0;
+                    const totalProfit = data.total_profit || 0;
+                    const totalPercent = data.total_profit_percent || 0;
+                    
+                    document.getElementById('todayProfit').textContent = (todayProfit >= 0 ? '+' : '') + formatNumber(todayProfit) + '원';
+                    document.getElementById('todayProfit').style.color = todayProfit >= 0 ? '#ff6b6b' : '#4ecdc4';
+                    document.getElementById('todayProfitPercent').textContent = '(' + formatPercent(todayPercent) + ')';
+                    
+                    document.getElementById('totalProfit').textContent = (totalProfit >= 0 ? '+' : '') + formatNumber(totalProfit) + '원';
+                    document.getElementById('totalProfit').style.color = totalProfit >= 0 ? '#ff6b6b' : '#4ecdc4';
+                    document.getElementById('totalProfitPercent').textContent = '(' + formatPercent(totalPercent) + ')';
+                    
+                    currentHoldings = data.holdings || [];
+                    generateWordcloud(currentHoldings);
+                    sortHoldings('name');
+                    updateHoldingCoinSelect(currentHoldings);
+                    
+                    // 최근 거래
+                    const tradesList = document.getElementById('tradesList');
+                    tradesList.innerHTML = '';
+                    const trades = data.trades.slice(0, 4);
+                    trades.forEach(t => {
+                        const isBuy = t.type === 'buy';
+                        const profit = t.profit || 0;
+                        const item = document.createElement('div');
+                        item.className = `trade-item ${isBuy ? 'trade-buy' : 'trade-sell'}`;
+                        item.innerHTML = `
+                            <div class="trade-info">
+                                <span class="trade-time">${formatTradeTime(t.time)}</span>
+                                <span class="trade-market">${t.market.replace('KRW-', '')}</span>
+                                <span class="trade-action" style="background: ${isBuy ? '#4ecdc4' : '#ff6b6b'}; color: white;">
+                                    ${isBuy ? '매수' : '매도'}
+                                </span>
+                            </div>
+                            <div class="trade-profit" style="color: ${profit >= 0 ? '#ff6b6b' : '#4ecdc4'};">
+                                ${isBuy ? '-' : (profit >= 0 ? '+' : '') + formatNumber(profit) + '원'}
+                            </div>
+                        `;
+                        tradesList.appendChild(item);
+                    });
+                    
+                    // 차트 업데이트
+                    updateProfitChart(data);
+                    
+                } catch (fallbackError) {
+                    console.error('샘플 데이터로도 실패:', fallbackError);
+                    document.getElementById('lastUpdate').textContent = '데이터 로드 실패';
+                }
+                
                 hideLoading();
-                document.getElementById('lastUpdate').textContent = '업데이트 실패 - 재시도 중...';
             }
         }
 
@@ -2122,46 +2208,73 @@
             const select = document.getElementById('holdingCoinSelect');
             const coinInfo = document.getElementById('coinInfo');
             
+            if (!select || !coinInfo) {
+                console.error('보유 코인 선택 엘리먼트를 찾을 수 없습니다');
+                return;
+            }
+            
             // 기존 옵션 제거 (첫 번째 "선택하세요" 제외)
             while (select.options.length > 1) {
                 select.remove(1);
             }
             
             // 보유 코인 추가
-            holdings.forEach(coin => {
-                const symbol = coin.market.replace('KRW-', '');
-                const option = document.createElement('option');
-                option.value = symbol;
-                
-                // 수익률 색상
-                const profitColor = coin.profit_percent >= 0 ? '🟢' : '🔴';
-                const profitSign = coin.profit_percent >= 0 ? '+' : '';
-                
-                option.textContent = `${symbol} (${coin.korean_name}) - ${profitSign}${coin.profit_percent.toFixed(2)}%`;
-                option.dataset.profit = coin.profit;
-                option.dataset.profitPercent = coin.profit_percent;
-                option.dataset.value = coin.value;
-                
-                select.appendChild(option);
-            });
+            if (holdings && holdings.length > 0) {
+                holdings.forEach(coin => {
+                    try {
+                        const symbol = coin.market.replace('KRW-', '');
+                        const option = document.createElement('option');
+                        option.value = symbol;
+                        
+                        // 수익률 색상
+                        const profitSign = coin.profit_percent >= 0 ? '+' : '';
+                        
+                        option.textContent = `${symbol} (${coin.korean_name}) - ${profitSign}${coin.profit_percent.toFixed(2)}%`;
+                        option.dataset.profit = coin.profit;
+                        option.dataset.profitPercent = coin.profit_percent;
+                        option.dataset.value = coin.value;
+                        
+                        select.appendChild(option);
+                    } catch (err) {
+                        console.error('코인 옵션 추가 실패:', coin, err);
+                    }
+                });
+            }
+        }
+        
+        // 보유 코인 선택 이벤트 리스너 (한 번만 등록)
+        let coinSelectListenerAdded = false;
+        function setupCoinSelectListener() {
+            if (coinSelectListenerAdded) return;
             
-            // 코인 정보 업데이트
+            const select = document.getElementById('holdingCoinSelect');
+            const coinInfo = document.getElementById('coinInfo');
+            
+            if (!select || !coinInfo) return;
+            
             select.addEventListener('change', function() {
                 const selectedOption = select.options[select.selectedIndex];
-                if (select.value) {
-                    const profit = parseFloat(selectedOption.dataset.profit);
-                    const profitPercent = parseFloat(selectedOption.dataset.profitPercent);
-                    const value = parseFloat(selectedOption.dataset.value);
-                    
-                    const profitSign = profit >= 0 ? '+' : '';
-                    const profitColor = profit >= 0 ? '#4ecdc4' : '#ff6b6b';
-                    
-                    coinInfo.innerHTML = `💰 평가금액: ${formatNumber(value)}원 | 손익: <span style="color: ${profitColor}">${profitSign}${formatNumber(profit)}원 (${profitSign}${profitPercent.toFixed(2)}%)</span>`;
-                    coinInfo.style.display = 'block';
+                if (select.value && selectedOption) {
+                    try {
+                        const profit = parseFloat(selectedOption.dataset.profit) || 0;
+                        const profitPercent = parseFloat(selectedOption.dataset.profitPercent) || 0;
+                        const value = parseFloat(selectedOption.dataset.value) || 0;
+                        
+                        const profitSign = profit >= 0 ? '+' : '';
+                        const profitColor = profit >= 0 ? '#4ecdc4' : '#ff6b6b';
+                        
+                        coinInfo.innerHTML = `💰 평가금액: ${formatNumber(value)}원 | 손익: <span style="color: ${profitColor}">${profitSign}${formatNumber(profit)}원 (${profitSign}${profitPercent.toFixed(2)}%)</span>`;
+                        coinInfo.style.display = 'block';
+                    } catch (err) {
+                        console.error('코인 정보 표시 실패:', err);
+                        coinInfo.style.display = 'none';
+                    }
                 } else {
                     coinInfo.style.display = 'none';
                 }
             });
+            
+            coinSelectListenerAdded = true;
         }
         
         // 계속 보유 명령
