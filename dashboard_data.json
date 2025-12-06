@@ -163,8 +163,24 @@
       "profit_rate": 0.023255813953488372
     }
   ],
-  "last_update": "2025-12-06T17:23:22.518166",
+  "last_update": "2025-12-06T17:28:49.799478",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-PUFFER",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-06T17:28:49.798761"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-PUFFER",
+      "profit": 191.61785458,
+      "price": 130.0,
+      "amount": 191.61785458,
+      "time": "2025-12-06T17:28:49.794928"
+    },
     {
       "type": "sell",
       "market": "KRW-XYO",
@@ -948,22 +964,6 @@
       "price": 380.0,
       "amount": 26.25,
       "time": "2025-12-05T21:45:51.814549"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-BAT",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-05T21:37:31.222810"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-BAT",
-      "profit": 183.75,
-      "price": 379.0,
-      "amount": 26.25,
-      "time": "2025-12-05T21:37:31.200383"
     }
   ]
 }
