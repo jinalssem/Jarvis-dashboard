@@ -1,8 +1,8 @@
 {
   "today_profit": 18015.65182537182,
-  "today_profit_percent": 1801565.182537182,
-  "total_profit": 19511.90182537182,
-  "total_profit_percent": 1951190.182537182,
+  "today_profit_percent": 32.714712500738294,
+  "total_profit": 19715.860935172215,
+  "total_profit_percent": 35.80213075001433,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -152,8 +152,18 @@
     "profit": 0,
     "profit_rate": 0.0
   },
-  "holdings": [],
-  "last_update": "2025-12-06T17:52:03.235510",
+  "holdings": [
+    {
+      "market": "KRW-ZRC",
+      "amount": 5098.97774501,
+      "avg_price": 10.8,
+      "current_price": 10.84,
+      "value": 55272.9187559084,
+      "profit": 203.95910980039565,
+      "profit_rate": 0.0037037037037036245
+    }
+  ],
+  "last_update": "2025-12-06T17:59:14.853611",
   "trades": [
     {
       "type": "sell",
