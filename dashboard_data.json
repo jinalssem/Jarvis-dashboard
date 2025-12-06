@@ -1,8 +1,8 @@
 {
   "today_profit": 5884.171965911514,
-  "today_profit_percent": 23.01373089198987,
-  "total_profit": 5424.72746355151,
-  "total_profit_percent": 21.216786105472334,
+  "today_profit_percent": 16.654641424459975,
+  "total_profit": 5401.108679021709,
+  "total_profit_percent": 15.287372439957336,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -154,6 +154,15 @@
   },
   "holdings": [
     {
+      "market": "KRW-CVC",
+      "amount": 131.21546961,
+      "avg_price": 74.4,
+      "current_price": 74.22,
+      "value": 9738.812154454201,
+      "profit": -23.618784529800898,
+      "profit_rate": -0.002419354838709769
+    },
+    {
       "market": "KRW-GTC",
       "amount": 127.45808745,
       "avg_price": 200.6,
@@ -163,7 +172,7 @@
       "profit_rate": 0.011964107676969121
     }
   ],
-  "last_update": "2025-12-06T10:33:22.962475",
+  "last_update": "2025-12-06T10:40:22.631985",
   "trades": [
     {
       "type": "buy",
