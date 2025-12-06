@@ -181,8 +181,24 @@
       "profit_rate": 0.008695652173913044
     }
   ],
-  "last_update": "2025-12-07T07:50:58.975402",
+  "last_update": "2025-12-07T07:55:30.167847",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-PUFFER",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-07T07:55:30.167317"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-PUFFER",
+      "profit": 169.06779662,
+      "price": 117.0,
+      "amount": 84.53389831,
+      "time": "2025-12-07T07:55:30.162153"
+    },
     {
       "type": "sell",
       "market": "KRW-A8",
@@ -966,22 +982,6 @@
       "price": 0,
       "amount": 0,
       "time": "2025-12-06T04:16:57.146811"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-ETH",
-      "profit": -138.92775,
-      "price": 4508000.0,
-      "amount": 0.00213735,
-      "time": "2025-12-06T04:16:57.144862"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-A",
-      "profit": 0,
-      "price": 257.0,
-      "amount": 37.92775665,
-      "time": "2025-12-06T03:42:58.295687"
     }
   ]
 }
