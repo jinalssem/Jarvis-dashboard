@@ -528,17 +528,16 @@
             backdrop-filter: blur(10px);
             border: 1px solid rgba(255, 107, 53, 0.2);
             border-radius: 20px;
-            padding: 30px 20px;
-            margin-bottom: 30px;
+            padding: 20px 15px;
             box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-            min-height: 180px;
+            min-height: 140px;
             position: relative;
             overflow: hidden;
         }
 
         .wordcloud {
             width: 100%;
-            height: 150px;
+            height: 120px;
             position: relative;
             display: block;
         }
@@ -731,7 +730,7 @@
         /* 세로 3단 구조 */
         .vertical-three-column {
             display: grid;
-            grid-template-columns: 1fr 2fr 1fr;
+            grid-template-columns: 280px 1fr 280px;
             gap: 20px;
             align-items: start;
         }
@@ -740,6 +739,12 @@
         @media (max-width: 1400px) {
             .vertical-three-column {
                 grid-template-columns: 1fr;
+            }
+        }
+
+        @media (min-width: 1600px) {
+            .vertical-three-column {
+                grid-template-columns: 320px 1fr 320px;
             }
         }
 
@@ -769,12 +774,13 @@
             backdrop-filter: blur(10px);
             border: 1px solid rgba(255, 107, 53, 0.2);
             border-radius: 16px;
-            padding: 25px;
+            padding: 20px;
             box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            min-height: 140px;
         }
 
         .profit-card h3 {
-            font-size: 0.95em;
+            font-size: 0.9em;
             color: #95a5a6;
             margin-bottom: 10px;
             text-transform: uppercase;
@@ -790,13 +796,13 @@
         }
 
         .profit-amount {
-            font-size: 2.2em;
+            font-size: 1.8em;
             font-weight: bold;
             margin-bottom: 5px;
         }
 
         .profit-percent {
-            font-size: 1.1em;
+            font-size: 1em;
             opacity: 0.8;
         }
 
@@ -838,10 +844,11 @@
             border-radius: 20px;
             padding: 20px;
             box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            min-height: 400px;
         }
 
         .holdings-section h2 {
-            font-size: 1.5em;
+            font-size: 1.3em;
             margin-bottom: 15px;
             color: #ff6b35;
             text-align: center;
@@ -850,49 +857,66 @@
         .holdings-grid {
             display: flex;
             flex-direction: column;
-            gap: 15px;
+            gap: 10px;
+            max-height: 600px;
+            overflow-y: auto;
+        }
+
+        /* 스크롤바 스타일 */
+        .holdings-grid::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .holdings-grid::-webkit-scrollbar-track {
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+        }
+
+        .holdings-grid::-webkit-scrollbar-thumb {
+            background: rgba(255, 107, 53, 0.5);
+            border-radius: 10px;
         }
 
         .coin-card {
             background: rgba(255, 255, 255, 0.05);
             backdrop-filter: blur(10px);
             border: 1px solid rgba(255, 107, 53, 0.2);
-            border-radius: 16px;
-            padding: 15px;
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            border-radius: 12px;
+            padding: 10px 12px;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
         .coin-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 12px 40px rgba(255, 107, 53, 0.4);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 24px rgba(255, 107, 53, 0.4);
         }
 
         .coin-header {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 12px;
+            margin-bottom: 8px;
         }
 
         .coin-name {
-            font-size: 1.3em;
+            font-size: 1.1em;
             font-weight: bold;
             color: #ff6b35;
         }
 
         .coin-profit-badge {
-            padding: 4px 10px;
-            border-radius: 12px;
-            font-size: 0.85em;
+            padding: 3px 8px;
+            border-radius: 8px;
+            font-size: 0.8em;
             font-weight: 600;
         }
 
         .coin-details {
             display: flex;
             flex-direction: column;
-            gap: 6px;
-            font-size: 0.9em;
+            gap: 4px;
+            font-size: 0.85em;
         }
 
         .coin-detail-row {
@@ -911,10 +935,11 @@
             border-radius: 20px;
             padding: 20px;
             box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            min-height: 300px;
         }
 
         .trades-section h2 {
-            font-size: 1.5em;
+            font-size: 1.3em;
             margin-bottom: 15px;
             color: #ff6b35;
         }
@@ -982,23 +1007,24 @@
         }
 
         .chart-section {
-            display: block; /* 항상 표시 */
+            display: block;
             background: rgba(255, 255, 255, 0.05);
             backdrop-filter: blur(10px);
             border: 1px solid rgba(255, 107, 53, 0.2);
             border-radius: 20px;
             padding: 20px;
             box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            min-height: 280px;
         }
 
         .chart-section h2 {
-            font-size: 1.5em;
+            font-size: 1.3em;
             margin-bottom: 15px;
             color: #ff6b35;
         }
 
         #profitChart {
-            max-height: 250px;
+            max-height: 220px;
         }
 
         /* 보유 코인 관리 패널 - 워드클라우드 너비에 맞춤 */
@@ -1007,22 +1033,23 @@
             backdrop-filter: blur(15px);
             border: 2px solid rgba(255, 107, 53, 0.4);
             border-radius: 20px;
-            padding: 25px;
+            padding: 20px;
             box-shadow: 0 8px 32px rgba(255, 107, 53, 0.3);
+            min-height: 280px;
         }
 
         .control-panel h2 {
             color: #ff6b35;
-            margin-bottom: 20px;
+            margin-bottom: 15px;
             text-align: center;
-            font-size: 1.5em;
+            font-size: 1.3em;
             text-shadow: 0 0 10px rgba(255, 107, 53, 0.5);
         }
 
         .control-content {
             display: flex;
             flex-direction: column;
-            gap: 20px;
+            gap: 15px;
         }
 
         .control-group {
