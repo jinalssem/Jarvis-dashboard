@@ -172,8 +172,24 @@
       "profit_rate": 0.006240249609984352
     }
   ],
-  "last_update": "2025-12-06T17:03:16.211330",
+  "last_update": "2025-12-06T17:08:47.166594",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-PUFFER",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-06T17:08:47.166204"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-PUFFER",
+      "profit": 574.85356374,
+      "price": 132.0,
+      "amount": 191.61785458,
+      "time": "2025-12-06T17:08:47.163279"
+    },
     {
       "type": "buy",
       "market": "KRW-BTC",
@@ -957,22 +973,6 @@
       "price": 369.0,
       "amount": 26.45888594,
       "time": "2025-12-05T20:54:45.476246"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-BTC",
-      "profit": 0,
-      "price": 133345000.0,
-      "amount": 7.331e-05,
-      "time": "2025-12-05T20:49:10.537031"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-EVZ",
-      "profit": 0,
-      "price": 0.93,
-      "amount": 10458.16733068,
-      "time": "2025-12-05T20:10:43.523694"
     }
   ]
 }
