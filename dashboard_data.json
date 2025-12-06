@@ -1,8 +1,8 @@
 {
   "today_profit": 16945.209448214522,
   "today_profit_percent": 47.42345847335474,
-  "total_profit": 18943.70213778748,
-  "total_profit_percent": 53.01651032455228,
+  "total_profit": 19077.16902632904,
+  "total_profit_percent": 53.3900354477242,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,23 +157,31 @@
       "market": "KRW-PUFFER",
       "amount": 191.61785458,
       "avg_price": 129.0,
-      "current_price": 130.0,
-      "value": 24910.3210954,
-      "profit": 191.61785458,
-      "profit_rate": 0.007751937984496124
+      "current_price": 131.0,
+      "value": 25101.938949979998,
+      "profit": 383.23570916,
+      "profit_rate": 0.015503875968992248
     },
     {
       "market": "KRW-XYO",
       "amount": 1321.61286451,
       "avg_price": 8.333,
-      "current_price": 8.429,
-      "value": 11139.87483495479,
-      "profit": 126.87483499296012,
-      "profit_rate": 0.011520460818432747
+      "current_price": 8.385,
+      "value": 11081.72386891635,
+      "profit": 68.72386895451947,
+      "profit_rate": 0.006240249609984352
     }
   ],
-  "last_update": "2025-12-06T16:56:31.413786",
+  "last_update": "2025-12-06T17:03:16.211330",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-BTC",
+      "profit": 0,
+      "price": 131324000.0,
+      "amount": 0.00011076,
+      "time": "2025-12-06T17:02:04.270458"
+    },
     {
       "type": "buy",
       "market": "KRW-ETH",
@@ -965,14 +973,6 @@
       "price": 0.93,
       "amount": 10458.16733068,
       "time": "2025-12-05T20:10:43.523694"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-BOBA",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-05T20:05:05.971446"
     }
   ]
 }
