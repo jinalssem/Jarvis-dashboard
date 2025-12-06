@@ -1,8 +1,8 @@
 {
-  "today_profit": -1611.345774863798,
-  "today_profit_percent": -5.9973496715723105,
-  "total_profit": 16485.087015609723,
-  "total_profit_percent": 61.356682557637164,
+  "today_profit": -1390.680570413798,
+  "today_profit_percent": -5.176044640659559,
+  "total_profit": 16794.018301839722,
+  "total_profit_percent": 62.50650960091502,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -166,14 +166,22 @@
       "market": "KRW-SOMI",
       "amount": 44.13304089,
       "avg_price": 332.0,
-      "current_price": 335.0,
-      "value": 14784.568698149998,
-      "profit": 132.39912267,
-      "profit_rate": 0.009036144578313253
+      "current_price": 337.0,
+      "value": 14872.834779929999,
+      "profit": 220.66520444999998,
+      "profit_rate": 0.015060240963855422
     }
   ],
-  "last_update": "2025-12-07T02:07:20.627449",
+  "last_update": "2025-12-07T02:08:56.800829",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-PUFFER",
+      "profit": 0,
+      "price": 118.0,
+      "amount": 82.43801653,
+      "time": "2025-12-07T02:07:22.591758"
+    },
     {
       "type": "sell",
       "market": "KRW-SOMI",
@@ -965,14 +973,6 @@
       "price": 102.0,
       "amount": 96.84466019,
       "time": "2025-12-06T00:21:58.904298"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-A8",
-      "profit": 0,
-      "price": 100.0,
-      "amount": 96.84466019,
-      "time": "2025-12-06T00:12:48.303286"
     }
   ]
 }
