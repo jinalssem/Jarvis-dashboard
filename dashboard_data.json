@@ -199,8 +199,24 @@
       "profit_rate": 0.02512626262626256
     }
   ],
-  "last_update": "2025-12-07T07:28:04.949872",
+  "last_update": "2025-12-07T07:32:38.794919",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-A8",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-07T07:32:38.794485"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-A8",
+      "profit": 164.79554882979977,
+      "price": 81.61,
+      "amount": 68.37989578,
+      "time": "2025-12-07T07:32:38.792136"
+    },
     {
       "type": "sell",
       "market": "KRW-UOS",
@@ -984,22 +1000,6 @@
       "price": 257.0,
       "amount": 37.92775665,
       "time": "2025-12-06T03:42:58.295687"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-BOA",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-06T03:11:58.801916"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-BOA",
-      "profit": -377.8892871480634,
-      "price": 4.156,
-      "amount": 4608.40594083,
-      "time": "2025-12-06T03:11:58.796518"
     }
   ]
 }
