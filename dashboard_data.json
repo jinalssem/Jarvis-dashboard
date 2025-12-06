@@ -163,8 +163,24 @@
       "profit_rate": 0.018282208588956992
     }
   ],
-  "last_update": "2025-12-07T03:40:43.451171",
+  "last_update": "2025-12-07T03:48:34.408263",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-A8",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-07T03:48:34.407416"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-A8",
+      "profit": 202.27612286569988,
+      "price": 84.33,
+      "amount": 71.47566179,
+      "time": "2025-12-07T03:48:34.402618"
+    },
     {
       "type": "buy",
       "market": "KRW-BOBA",
@@ -948,22 +964,6 @@
       "price": 1.81,
       "amount": 5371.56704362,
       "time": "2025-12-06T01:42:49.709134"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-BTC",
-      "profit": 0,
-      "price": 130406000.0,
-      "amount": 0.00013493,
-      "time": "2025-12-06T01:31:39.000684"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-CVC",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-06T01:31:37.809505"
     }
   ]
 }
