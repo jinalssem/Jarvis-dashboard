@@ -777,19 +777,19 @@
             backdrop-filter: blur(10px);
             border: 1px solid rgba(255, 107, 53, 0.2);
             border-radius: 20px;
-            padding: 20px;
+            padding: 15px;
             box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-            min-height: 350px;
+            min-height: 300px;
         }
 
         .chart-section h2 {
-            font-size: 1.3em;
-            margin-bottom: 15px;
+            font-size: 1.2em;
+            margin-bottom: 12px;
             color: #ff6b35;
         }
 
         #profitChart {
-            max-height: 300px;
+            max-height: 250px;
         }
 
         /* 보유 코인 관리 패널 - 워드클라우드 너비에 맞춤 */
@@ -798,16 +798,16 @@
             backdrop-filter: blur(15px);
             border: 2px solid rgba(255, 107, 53, 0.4);
             border-radius: 20px;
-            padding: 18px;
+            padding: 15px;
             box-shadow: 0 8px 32px rgba(255, 107, 53, 0.3);
-            min-height: 330px;
+            min-height: 280px;
             display: flex;
             flex-direction: column;
         }
 
         .control-panel h2 {
             color: #ff6b35;
-            margin-bottom: 12px;
+            margin-bottom: 10px;
             text-align: center;
             font-size: 1.3em;
             text-shadow: 0 0 10px rgba(255, 107, 53, 0.5);
@@ -817,31 +817,31 @@
         .control-content {
             display: flex;
             flex-direction: column;
-            gap: 12px;
+            gap: 10px;
             flex: 1;
         }
 
         .control-group {
             display: flex;
             flex-direction: column;
-            gap: 5px;
+            gap: 4px;
         }
 
         .control-group label {
             color: #95a5a6;
-            font-size: 0.9em;
+            font-size: 0.85em;
             font-weight: 600;
         }
 
         .control-group select,
         .control-group input {
             width: 100%;
-            padding: 10px 12px;
+            padding: 8px 10px;
             background: rgba(0, 0, 0, 0.4);
             border: 1px solid rgba(255, 255, 255, 0.1);
             border-radius: 10px;
             color: white;
-            font-size: 0.95em;
+            font-size: 0.9em;
             transition: all 0.3s;
         }
 
@@ -860,15 +860,15 @@
         .control-buttons {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 10px;
+            gap: 8px;
             margin-top: 5px;
         }
 
         .btn-hold, .btn-sell {
-            padding: 12px 18px;
+            padding: 10px 15px;
             border: none;
             border-radius: 12px;
-            font-size: 1.05em;
+            font-size: 1em;
             font-weight: bold;
             cursor: pointer;
             transition: all 0.3s;
@@ -1153,8 +1153,9 @@
                 
                 <div class="control-group">
                     <label>💼 보유 코인 선택:</label>
-                    <input type="text" id="holdingCoinSelect" placeholder="코인 심볼 입력 (예: BTC)" list="coinList">
-                    <datalist id="coinList"></datalist>
+                    <select id="holdingCoinSelect">
+                        <option value="">코인을 선택하세요...</option>
+                    </select>
                     <small id="coinInfo" style="color: #4ecdc4; margin-top: 5px; display: none;"></small>
                 </div>
                 
@@ -2188,43 +2189,38 @@
 
         // ============ 보유 코인 관리 기능 ============
         
-        // 보유 코인 선택 드롭다운 업데이트 (datalist 방식)
-        let currentHoldingsMap = new Map(); // 코인 심볼 -> 코인 데이터 매핑
-        
+        // 보유 코인 선택 드롭다운 업데이트
         function updateHoldingCoinSelect(holdings) {
-            const input = document.getElementById('holdingCoinSelect');
-            const datalist = document.getElementById('coinList');
+            const select = document.getElementById('holdingCoinSelect');
             const coinInfo = document.getElementById('coinInfo');
             
-            if (!input || !datalist || !coinInfo) {
+            if (!select || !coinInfo) {
                 console.error('보유 코인 선택 엘리먼트를 찾을 수 없습니다');
                 return;
             }
             
-            // 기존 옵션 제거
-            datalist.innerHTML = '';
-            currentHoldingsMap.clear();
+            // 기존 옵션 제거 (첫 번째 "선택하세요" 제외)
+            while (select.options.length > 1) {
+                select.remove(1);
+            }
             
             // 보유 코인 추가
             if (holdings && holdings.length > 0) {
                 holdings.forEach(coin => {
                     try {
                         const symbol = coin.market.replace('KRW-', '');
-                        
-                        // datalist 옵션 추가
                         const option = document.createElement('option');
-                        const profitSign = coin.profit_percent >= 0 ? '+' : '';
                         option.value = symbol;
-                        option.textContent = `${symbol} (${coin.korean_name}) - ${profitSign}${coin.profit_percent.toFixed(2)}%`;
-                        datalist.appendChild(option);
                         
-                        // Map에 저장
-                        currentHoldingsMap.set(symbol, {
-                            profit: coin.profit,
-                            profitPercent: coin.profit_percent,
-                            value: coin.value,
-                            korean_name: coin.korean_name
-                        });
+                        // 수익률 색상
+                        const profitSign = coin.profit_percent >= 0 ? '+' : '';
+                        
+                        option.textContent = `${symbol} (${coin.korean_name}) - ${profitSign}${coin.profit_percent.toFixed(2)}%`;
+                        option.dataset.profit = coin.profit;
+                        option.dataset.profitPercent = coin.profit_percent;
+                        option.dataset.value = coin.value;
+                        
+                        select.appendChild(option);
                     } catch (err) {
                         console.error('코인 옵션 추가 실패:', coin, err);
                     }
@@ -2237,21 +2233,18 @@
         function setupCoinSelectListener() {
             if (coinSelectListenerAdded) return;
             
-            const input = document.getElementById('holdingCoinSelect');
+            const select = document.getElementById('holdingCoinSelect');
             const coinInfo = document.getElementById('coinInfo');
             
-            if (!input || !coinInfo) return;
+            if (!select || !coinInfo) return;
             
-            // input 이벤트로 실시간 검증
-            input.addEventListener('input', function() {
-                const symbol = input.value.trim().toUpperCase();
-                
-                if (symbol && currentHoldingsMap.has(symbol)) {
+            select.addEventListener('change', function() {
+                const selectedOption = select.options[select.selectedIndex];
+                if (select.value && selectedOption) {
                     try {
-                        const coinData = currentHoldingsMap.get(symbol);
-                        const profit = coinData.profit || 0;
-                        const profitPercent = coinData.profitPercent || 0;
-                        const value = coinData.value || 0;
+                        const profit = parseFloat(selectedOption.dataset.profit) || 0;
+                        const profitPercent = parseFloat(selectedOption.dataset.profitPercent) || 0;
+                        const value = parseFloat(selectedOption.dataset.value) || 0;
                         
                         const profitSign = profit >= 0 ? '+' : '';
                         const profitColor = profit >= 0 ? '#4ecdc4' : '#ff6b6b';
@@ -2273,7 +2266,7 @@
         // 계속 보유 명령
         async function sendHoldCommand() {
             const token = document.getElementById('securityToken').value;
-            const coinInput = document.getElementById('holdingCoinSelect').value.trim().toUpperCase();
+            const coin = document.getElementById('holdingCoinSelect').value;
             
             // 🔐 토큰 검증
             if (!token || token.trim() === '') {
@@ -2281,21 +2274,15 @@
                 return;
             }
             
-            if (!coinInput) {
-                showStatus('💼 보유 코인을 입력하세요!', 'error');
-                return;
-            }
-            
-            // 보유 코인 목록에 있는지 확인
-            if (!currentHoldingsMap.has(coinInput)) {
-                showStatus(`❌ ${coinInput}는 보유하지 않은 코인입니다!`, 'error');
+            if (!coin) {
+                showStatus('💼 보유 코인을 선택하세요!', 'error');
                 return;
             }
             
             const command = {
                 token: token,
                 action: 'hold',
-                market: `KRW-${coinInput}`,
+                market: `KRW-${coin}`,
                 timestamp: new Date().toISOString(),
                 status: 'pending'
             };
@@ -2305,7 +2292,7 @@
             // command.json 다운로드
             createCommandFile(command);
             
-            showStatus(`✅ ${coinInput} 계속 보유 명령 생성!
+            showStatus(`✅ ${coin} 계속 보유 명령 생성!
 <br><small>🔐 이 코인은 자동 매도하지 않습니다.</small>
 <br><small>command.json 파일을 봇 폴더에 넣어주세요.</small>`, 'success');
         }
@@ -2313,7 +2300,7 @@
         // 전량 매도 명령
         async function sendSellCommand() {
             const token = document.getElementById('securityToken').value;
-            const coinInput = document.getElementById('holdingCoinSelect').value.trim().toUpperCase();
+            const coin = document.getElementById('holdingCoinSelect').value;
             
             // 🔐 토큰 검증
             if (!token || token.trim() === '') {
@@ -2321,31 +2308,25 @@
                 return;
             }
             
-            if (!coinInput) {
-                showStatus('💼 보유 코인을 입력하세요!', 'error');
-                return;
-            }
-            
-            // 보유 코인 목록에 있는지 확인
-            if (!currentHoldingsMap.has(coinInput)) {
-                showStatus(`❌ ${coinInput}는 보유하지 않은 코인입니다!`, 'error');
+            if (!coin) {
+                showStatus('💼 보유 코인을 선택하세요!', 'error');
                 return;
             }
             
             // 확인 메시지
-            const coinData = currentHoldingsMap.get(coinInput);
-            const profit = coinData.profit || 0;
-            const profitPercent = coinData.profitPercent || 0;
+            const selectedOption = document.getElementById('holdingCoinSelect').options[document.getElementById('holdingCoinSelect').selectedIndex];
+            const profit = parseFloat(selectedOption.dataset.profit) || 0;
+            const profitPercent = parseFloat(selectedOption.dataset.profitPercent) || 0;
             const profitSign = profit >= 0 ? '+' : '';
             
-            if (!confirm(`${coinInput} 전량 매도하시겠습니까?\n\n현재 손익: ${profitSign}${formatNumber(profit)}원 (${profitSign}${profitPercent.toFixed(2)}%)`)) {
+            if (!confirm(`${coin} 전량 매도하시겠습니까?\n\n현재 손익: ${profitSign}${formatNumber(profit)}원 (${profitSign}${profitPercent.toFixed(2)}%)`)) {
                 return;
             }
             
             const command = {
                 token: token,
                 action: 'sell',
-                market: `KRW-${coinInput}`,
+                market: `KRW-${coin}`,
                 timestamp: new Date().toISOString(),
                 status: 'pending'
             };
@@ -2355,7 +2336,7 @@
             // command.json 다운로드
             createCommandFile(command);
             
-            showStatus(`✅ ${coinInput} 전량 매도 명령 생성!
+            showStatus(`✅ ${coin} 전량 매도 명령 생성!
 <br><small>🔐 즉시 시장가로 매도합니다.</small>
 <br><small>command.json 파일을 봇 폴더에 넣어주세요.</small>`, 'success');
         }
