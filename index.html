@@ -182,281 +182,6 @@
             font-weight: 600;
         }
 
-        .visitor-counter {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            background: rgba(255, 255, 255, 0.1);
-            padding: 8px 16px;
-            border-radius: 20px;
-            backdrop-filter: blur(10px);
-            font-size: 0.95em;
-        }
-
-        .visitor-counter .counter-label {
-            color: #95a5a6;
-            font-size: 0.9em;
-        }
-
-        .visitor-counter .counter-value {
-            color: #4ade80;
-            font-weight: bold;
-            min-width: 40px;
-            text-align: right;
-        }
-
-        /* Tablet 모드에서 방문자 카운터 숨김 */
-        body:not(.youtube-layout) .visitor-counter {
-            display: none;
-        }
-
-        /* 레이아웃 선택 드롭다운 */
-        .layout-selector {
-            position: fixed;
-            top: 20px;
-            left: 20px;
-            z-index: 1000;
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
-            padding: 8px 12px;
-            border-radius: 12px;
-        }
-
-        .layout-selector select {
-            background: rgba(0, 0, 0, 0.3);
-            color: #fff;
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            padding: 6px 12px;
-            border-radius: 8px;
-            font-size: 0.9em;
-            cursor: pointer;
-            outline: none;
-        }
-
-        .layout-selector select:hover {
-            background: rgba(0, 0, 0, 0.5);
-            border-color: rgba(255, 255, 255, 0.4);
-        }
-
-        .layout-selector option {
-            background: #1a1a2e;
-            color: #fff;
-        }
-
-        /* YouTube Layout 스타일 */
-        body.youtube-layout {
-            padding: 10px;
-            overflow: hidden;
-        }
-
-        body.youtube-layout .container {
-            max-width: 100%;
-            height: calc(100vh - 20px);
-            display: grid;
-            grid-template-rows: auto 1fr;
-            gap: 10px;
-            overflow: hidden;
-        }
-
-        body.youtube-layout .header {
-            margin-bottom: 5px;
-        }
-
-        body.youtube-layout .header h1 {
-            font-size: 1.8em;
-            margin-bottom: 5px;
-        }
-
-        body.youtube-layout .status-row {
-            gap: 10px;
-        }
-
-        body.youtube-layout .visitor-counter,
-        body.youtube-layout .clock,
-        body.youtube-layout .status {
-            font-size: 0.8em;
-            padding: 4px 10px;
-        }
-
-        body.youtube-layout .last-update {
-            font-size: 0.75em;
-            margin-top: 3px;
-        }
-
-        body.youtube-layout .wordcloud-container {
-            display: block;
-        }
-
-        body.youtube-layout .main-content {
-            display: grid;
-            grid-template-columns: 1fr 1.5fr 1fr;
-            grid-template-rows: 1fr 1fr;
-            gap: 10px;
-            height: 100%;
-            overflow: hidden;
-            align-items: stretch;
-            grid-template-areas:
-                "holdings wordcloud profit"
-                "trades wordcloud chart";
-        }
-
-        body.youtube-layout .holdings-section {
-            grid-area: holdings;
-            height: 100%;
-            overflow-y: auto;
-            display: flex;
-            flex-direction: column;
-        }
-
-        body.youtube-layout .wordcloud-container {
-            grid-area: wordcloud;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 20px;
-            margin-bottom: 0;
-            min-height: unset;
-            height: 100%;
-        }
-
-        body.youtube-layout .wordcloud {
-            height: 100%;
-            min-height: 400px;
-        }
-
-        body.youtube-layout .profit-grid {
-            grid-area: profit;
-            grid-template-columns: 1fr;
-            gap: 8px;
-            height: fit-content;
-        }
-
-        body.youtube-layout .trades-section {
-            grid-area: trades;
-            height: 100%;
-            overflow-y: auto;
-            display: flex;
-            flex-direction: column;
-        }
-
-        body.youtube-layout .chart-section {
-            display: flex;
-            flex-direction: column;
-            grid-area: chart;
-            height: 100%;
-            overflow-y: auto;
-            padding: 15px;
-            background: rgba(255, 255, 255, 0.05);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 107, 53, 0.2);
-            border-radius: 15px;
-        }
-
-        body.youtube-layout .chart-section h2 {
-            font-size: 1.1em;
-            margin-bottom: 10px;
-            flex-shrink: 0;
-        }
-
-        body.youtube-layout #profitChart {
-            flex: 1;
-            min-height: 0;
-        }
-
-        body.youtube-layout .profit-card {
-            padding: 12px;
-        }
-
-        body.youtube-layout .profit-card h3 {
-            font-size: 0.9em;
-            margin-bottom: 6px;
-        }
-
-        body.youtube-layout .profit-amount {
-            font-size: 1.3em;
-        }
-
-        body.youtube-layout .profit-percent {
-            font-size: 0.85em;
-        }
-
-        body.youtube-layout .holdings-section h2 {
-            font-size: 1.1em;
-            margin-bottom: 8px;
-        }
-
-        body.youtube-layout .sort-controls {
-            gap: 6px;
-            margin-bottom: 8px;
-        }
-
-        body.youtube-layout .sort-btn {
-            padding: 4px 10px;
-            font-size: 0.75em;
-        }
-
-        body.youtube-layout .holdings-grid {
-            grid-template-columns: 1fr;
-            gap: 8px;
-        }
-
-        body.youtube-layout .coin-card {
-            padding: 10px;
-        }
-
-        body.youtube-layout .coin-name {
-            font-size: 1em;
-        }
-
-        body.youtube-layout .coin-profit-badge {
-            font-size: 0.8em;
-            padding: 3px 8px;
-        }
-
-        body.youtube-layout .coin-detail-row {
-            font-size: 0.8em;
-            padding: 3px 0;
-        }
-
-        body.youtube-layout .trades-section {
-            overflow-y: auto;
-            height: 100%;
-        }
-
-        body.youtube-layout .trades-section h2 {
-            font-size: 1.1em;
-            margin-bottom: 8px;
-        }
-
-        body.youtube-layout .trades-list {
-            gap: 6px;
-        }
-
-        body.youtube-layout .trade-item {
-            padding: 8px;
-        }
-
-        body.youtube-layout .trade-time {
-            font-size: 0.75em;
-        }
-
-        body.youtube-layout .trade-market {
-            font-size: 0.9em;
-        }
-
-        body.youtube-layout .trade-action {
-            font-size: 0.75em;
-            padding: 3px 8px;
-        }
-
-        body.youtube-layout .trade-profit {
-            font-size: 0.85em;
-        }
-
-        body.youtube-layout .referral-section {
-            display: none;
-        }
-
         .last-update {
             text-align: center;
             color: #95a5a6;
@@ -528,16 +253,16 @@
             backdrop-filter: blur(10px);
             border: 1px solid rgba(255, 107, 53, 0.2);
             border-radius: 20px;
-            padding: 20px 15px;
+            padding: 25px 20px;
             box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-            min-height: 140px;
+            min-height: 200px;
             position: relative;
             overflow: hidden;
         }
 
         .wordcloud {
             width: 100%;
-            height: 120px;
+            height: 180px;
             position: relative;
             display: block;
         }
@@ -730,7 +455,7 @@
         /* 세로 3단 구조 */
         .vertical-three-column {
             display: grid;
-            grid-template-columns: 280px 1fr 280px;
+            grid-template-columns: 340px 1fr 340px;
             gap: 20px;
             align-items: start;
         }
@@ -740,11 +465,42 @@
             .vertical-three-column {
                 grid-template-columns: 1fr;
             }
+            
+            /* 태블릿 순서: 워드클라우드 → 보유 → 관리 → 손익 → 차트 → 거래 */
+            .center-column {
+                order: 1;
+            }
+            
+            .center-column .wordcloud-container {
+                order: 1;
+            }
+            
+            .left-column {
+                order: 2;
+            }
+            
+            .left-column .holdings-section {
+                order: 1;
+            }
+            
+            .center-column .control-panel {
+                order: 2;
+            }
+            
+            .right-column {
+                order: 3;
+                display: flex;
+                flex-direction: column;
+            }
+            
+            .left-column .trades-section {
+                order: 3;
+            }
         }
 
-        @media (min-width: 1600px) {
+        @media (min-width: 1800px) {
             .vertical-three-column {
-                grid-template-columns: 320px 1fr 320px;
+                grid-template-columns: 380px 1fr 380px;
             }
         }
 
@@ -1177,45 +933,39 @@
             }
         }
 
-        /* YouTube 레이아웃에서 컨트롤 패널 위치 */
-        body.youtube-layout .control-panel {
-            margin: 20px 10px;
-        }
-
         .referral-section {
             background: linear-gradient(135deg, rgba(255, 107, 53, 0.15), rgba(247, 147, 26, 0.1));
             backdrop-filter: blur(10px);
             border: 2px solid rgba(255, 107, 53, 0.3);
             border-radius: 20px;
-            padding: 30px;
-            margin-bottom: 30px;
+            padding: 20px;
+            margin-bottom: 20px;
             box-shadow: 0 8px 32px rgba(255, 107, 53, 0.2);
             text-align: center;
         }
 
         .referral-section h2 {
-            font-size: 1.8em;
-            margin-bottom: 15px;
+            font-size: 1.5em;
+            margin-bottom: 10px;
             color: #ff6b35;
         }
 
         .referral-description {
             color: #e0e0e0;
-            font-size: 1.05em;
-            line-height: 1.6;
-            margin-bottom: 20px;
+            font-size: 0.9em;
+            line-height: 1.4;
+            margin-bottom: 15px;
         }
 
         .referral-code {
             display: inline-block;
             background: rgba(255, 255, 255, 0.1);
-            padding: 15px 30px;
+            padding: 12px 25px;
             border-radius: 12px;
-            font-size: 1.8em;
+            font-size: 1.5em;
             font-weight: bold;
             color: #f7931a;
             letter-spacing: 3px;
-            margin-top: 10px;
             cursor: pointer;
             transition: all 0.3s ease;
             border: 2px solid rgba(247, 147, 26, 0.5);
@@ -1328,13 +1078,6 @@
         <span class="volume-value" id="volumeValue">30%</span>
     </div>
 
-    <div class="layout-selector">
-        <select id="layoutSelector">
-            <option value="tablet">📱 Tablet Layout</option>
-            <option value="youtube">📺 YouTube Layout</option>
-        </select>
-    </div>
-
     <div class="container">
         <div class="header">
             <h1>🔥 빗썸 불멍 대시보드</h1>
@@ -1346,16 +1089,6 @@
                 <div class="clock">
                     <span>⏰</span>
                     <span id="currentTime">00:00:00</span>
-                </div>
-                <div class="visitor-counter">
-                    <span>👥</span>
-                    <span class="counter-label">오늘</span>
-                    <span class="counter-value" id="todayVisitors">-</span>
-                </div>
-                <div class="visitor-counter">
-                    <span>📊</span>
-                    <span class="counter-label">누적</span>
-                    <span class="counter-value" id="totalVisitors">-</span>
                 </div>
             </div>
             <div class="last-update" id="lastUpdate">
@@ -1457,15 +1190,11 @@
         <div class="referral-section">
             <h2>🎁 빗썸 초대 코드</h2>
             <p class="referral-description">
-                초대 받고 가입 시 계좌 연결은 5만원, 첫 거래 후에는 2만원을 받을 수 있습니다.<br>
-                (빗썸 정책에 따라 변동이 있을 수 있음)
+                초대 받고 가입 시 계좌 연결은 5만원, 첫 거래 후에는 2만원을 받을 수 있습니다 (빗썸 정책에 따라 변동 가능)
             </p>
             <div class="referral-code" onclick="copyReferralCode()">
                 JJCDWMIYMV
             </div>
-            <p style="margin-top: 15px; color: #95a5a6; font-size: 0.9em;">
-                클릭하면 코드가 복사됩니다
-            </p>
         </div>
 
         <div class="footer">
@@ -1490,46 +1219,6 @@
         }
         setInterval(updateClock, 1000);
         updateClock();
-
-        // 방문자 카운터
-        // 방문자 카운터 (localStorage 기반)
-        function updateVisitorCount() {
-            try {
-                const today = new Date().toISOString().split('T')[0];
-                
-                // 오늘 방문 횟수
-                const todayKey = `visitor_today_${today}`;
-                let todayCount = parseInt(localStorage.getItem(todayKey) || '0');
-                todayCount++;
-                localStorage.setItem(todayKey, todayCount);
-                
-                // 이전 날짜 데이터 정리
-                const yesterday = new Date(Date.now() - 86400000).toISOString().split('T')[0];
-                localStorage.removeItem(`visitor_today_${yesterday}`);
-                
-                // 누적 방문 횟수
-                const totalKey = 'visitor_total';
-                let totalCount = parseInt(localStorage.getItem(totalKey) || '0');
-                totalCount++;
-                localStorage.setItem(totalKey, totalCount);
-                
-                // 표시 (시작 오프셋 추가로 더 현실적으로)
-                const todayOffset = 15; // 오늘 시작 수
-                const totalOffset = 127; // 누적 시작 수
-                
-                document.getElementById('todayVisitors').textContent = todayCount + todayOffset;
-                document.getElementById('totalVisitors').textContent = totalCount + totalOffset;
-                
-            } catch (error) {
-                console.error('방문자 수 업데이트 실패:', error);
-                // 에러 시 기본값
-                document.getElementById('todayVisitors').textContent = Math.floor(Math.random() * 20) + 10;
-                document.getElementById('totalVisitors').textContent = Math.floor(Math.random() * 100) + 100;
-            }
-        }
-        
-        // 페이지 로드 시 방문자 수 업데이트
-        updateVisitorCount();
 
         // 수익 차트 초기화
         let profitChart = null;
@@ -1884,41 +1573,8 @@
         }
 
         document.addEventListener('DOMContentLoaded', () => {
-            // 레이아웃 전환 기능
-            const layoutSelector = document.getElementById('layoutSelector');
-            
-            // 저장된 레이아웃 불러오기
-            const savedLayout = localStorage.getItem('dashboardLayout') || 'tablet';
-            layoutSelector.value = savedLayout;
-            applyLayout(savedLayout);
-            
-            // 레이아웃 변경 이벤트
-            layoutSelector.addEventListener('change', (e) => {
-                const layout = e.target.value;
-                localStorage.setItem('dashboardLayout', layout);
-                applyLayout(layout);
-            });
-            
-            function applyLayout(layout) {
-                console.log('레이아웃 전환:', layout);
-                
-                if (layout === 'youtube') {
-                    document.body.classList.add('youtube-layout');
-                    // 차트 초기화 (DOM 렌더링 후)
-                    setTimeout(() => {
-                        console.log('YouTube 모드 - 차트 초기화');
-                        initProfitChart();
-                        // 차트 데이터 업데이트
-                        setTimeout(() => {
-                            updateDashboard();
-                        }, 100);
-                    }, 300);
-                } else {
-                    document.body.classList.remove('youtube-layout');
-                    console.log('Tablet 모드 - 차트 숨김');
-                    // 차트는 그대로 두고 CSS로 숨김
-                }
-            }
+            // 차트 초기화
+            initProfitChart();
             
             // 정렬 버튼 이벤트
             document.querySelectorAll('.sort-btn').forEach(btn => {
@@ -2543,7 +2199,7 @@
         // ============ 수동 거래 기능 끝 ============
 
         updateDashboard();
-        setInterval(updateDashboard, 10000);
+        setInterval(updateDashboard, 30000);
         
         // 차트 항상 초기화
         setTimeout(() => {
