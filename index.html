@@ -2326,10 +2326,14 @@
                 action: 'hold',
                 market: `KRW-${coinInput}`,
                 timestamp: new Date().toISOString(),
-                status: 'pending'
+                status: 'pending',
+                force: true,              // 강제 실행
+                priority: 'immediate',    // 즉시 실행
+                override: true,           // 기존 예약 덮어쓰기
+                reason: 'manual_hold'     // 수동 보유
             };
             
-            console.log('📤 계속 보유 명령 생성:', command);
+            console.log('📤 계속 보유 명령 생성 (강제 실행):', command);
             
             // command.json 다운로드
             createCommandFile(command);
@@ -2369,7 +2373,7 @@
             const profitPercent = coinData.profitPercent || 0;
             const profitSign = profit >= 0 ? '+' : '';
             
-            if (!confirm(`${coinInput} (${coinData.korean_name}) 전량 매도하시겠습니까?\n\n현재 손익: ${profitSign}${formatNumber(profit)}원 (${profitSign}${profitPercent.toFixed(2)}%)`)) {
+            if (!confirm(`${coinInput} (${coinData.korean_name}) 전량 매도하시겠습니까?\n\n현재 손익: ${profitSign}${formatNumber(profit)}원 (${profitSign}${profitPercent.toFixed(2)}%)\n\n⚠️ 매도 예약이 있어도 즉시 실행됩니다!`)) {
                 return;
             }
             
@@ -2378,10 +2382,14 @@
                 action: 'sell',
                 market: `KRW-${coinInput}`,
                 timestamp: new Date().toISOString(),
-                status: 'pending'
+                status: 'pending',
+                force: true,              // 강제 실행
+                priority: 'immediate',    // 즉시 실행
+                override: true,           // 기존 예약 덮어쓰기
+                reason: 'manual_sell'     // 수동 매도
             };
             
-            console.log('📤 전량 매도 명령 생성:', command);
+            console.log('📤 전량 매도 명령 생성 (강제 실행):', command);
             
             // command.json 다운로드
             createCommandFile(command);
