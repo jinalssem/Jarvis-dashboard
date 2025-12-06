@@ -1,8 +1,8 @@
 {
   "today_profit": 16374.179960200521,
   "today_profit_percent": 46.89679439635971,
-  "total_profit": 13942.365737597518,
-  "total_profit_percent": 39.93190871141211,
+  "total_profit": 13817.949661167017,
+  "total_profit_percent": 39.57557238372151,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,23 +157,31 @@
       "market": "KRW-ZRC",
       "amount": 1353.58656765,
       "avg_price": 10.86,
-      "current_price": 10.89,
-      "value": 14740.557721708501,
-      "profit": 40.60759702950154,
-      "profit_rate": 0.002762430939226624
+      "current_price": 10.92,
+      "value": 14781.165318738,
+      "profit": 81.21519405900068,
+      "profit_rate": 0.005524861878453084
     },
     {
       "market": "KRW-SAPIEN",
       "amount": 82.51183673,
       "avg_price": 245.0,
-      "current_price": 244.0,
-      "value": 20132.888162119998,
-      "profit": -82.51183673,
-      "profit_rate": -0.004081632653061225
+      "current_price": 242.0,
+      "value": 19967.86448866,
+      "profit": -247.53551019,
+      "profit_rate": -0.012244897959183673
     }
   ],
-  "last_update": "2025-12-06T14:46:47.476147",
+  "last_update": "2025-12-06T14:53:24.107011",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-WAVES",
+      "profit": 0,
+      "price": 1005.0,
+      "amount": 9.69387755,
+      "time": "2025-12-06T14:52:12.500618"
+    },
     {
       "type": "sell",
       "market": "KRW-BOA",
@@ -965,14 +973,6 @@
       "price": 1.865,
       "amount": 5294.58598726,
       "time": "2025-12-05T09:56:43.388232"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-APM",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-05T09:37:00.512049"
     }
   ]
 }
