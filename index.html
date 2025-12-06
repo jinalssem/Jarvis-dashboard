@@ -696,15 +696,14 @@
             border-radius: 20px;
             padding: 20px;
             box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-            min-height: 230px;
-            max-height: 230px;
+            min-height: 330px;
             display: flex;
             flex-direction: column;
         }
 
         .trades-section h2 {
             font-size: 1.3em;
-            margin-bottom: 12px;
+            margin-bottom: 15px;
             color: #ff6b35;
             flex-shrink: 0;
         }
@@ -712,24 +711,8 @@
         .trades-list {
             display: flex;
             flex-direction: column;
-            gap: 10px;
-            overflow-y: auto;
+            gap: 12px;
             flex: 1;
-        }
-
-        /* 최근 거래 스크롤바 스타일 */
-        .trades-list::-webkit-scrollbar {
-            width: 6px;
-        }
-
-        .trades-list::-webkit-scrollbar-track {
-            background: rgba(0, 0, 0, 0.2);
-            border-radius: 10px;
-        }
-
-        .trades-list::-webkit-scrollbar-thumb {
-            background: rgba(255, 107, 53, 0.5);
-            border-radius: 10px;
         }
 
         .trade-item {
@@ -796,7 +779,7 @@
             border-radius: 20px;
             padding: 20px;
             box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-            min-height: 250px;
+            min-height: 350px;
         }
 
         .chart-section h2 {
@@ -806,7 +789,7 @@
         }
 
         #profitChart {
-            max-height: 200px;
+            max-height: 300px;
         }
 
         /* 보유 코인 관리 패널 - 워드클라우드 너비에 맞춤 */
@@ -817,27 +800,31 @@
             border-radius: 20px;
             padding: 20px;
             box-shadow: 0 8px 32px rgba(255, 107, 53, 0.3);
-            min-height: 250px;
+            min-height: 350px;
+            display: flex;
+            flex-direction: column;
         }
 
         .control-panel h2 {
             color: #ff6b35;
-            margin-bottom: 12px;
+            margin-bottom: 15px;
             text-align: center;
             font-size: 1.3em;
             text-shadow: 0 0 10px rgba(255, 107, 53, 0.5);
+            flex-shrink: 0;
         }
 
         .control-content {
             display: flex;
             flex-direction: column;
-            gap: 12px;
+            gap: 15px;
+            flex: 1;
         }
 
         .control-group {
             display: flex;
             flex-direction: column;
-            gap: 6px;
+            gap: 5px;
         }
 
         .control-group label {
@@ -873,8 +860,8 @@
         .control-buttons {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 12px;
-            margin-top: 8px;
+            gap: 10px;
+            margin-top: 5px;
         }
 
         .btn-hold, .btn-sell {
@@ -919,7 +906,7 @@
         }
 
         #commandStatus {
-            min-height: 30px;
+            min-height: 20px;
         }
 
         .status-message {
@@ -1162,7 +1149,6 @@
                 <div class="control-group">
                     <label>🔐 보안 토큰:</label>
                     <input type="password" id="securityToken" placeholder="토큰을 입력하세요">
-                    <small>※ 봇 설정에서 지정한 토큰</small>
                 </div>
                 
                 <div class="control-group">
@@ -1170,7 +1156,7 @@
                     <select id="holdingCoinSelect">
                         <option value="">코인을 선택하세요...</option>
                     </select>
-                    <small id="coinInfo" style="color: #4ecdc4; margin-top: 5px;"></small>
+                    <small id="coinInfo" style="color: #4ecdc4; margin-top: 5px; display: none;"></small>
                 </div>
                 
                 <div class="control-buttons">
