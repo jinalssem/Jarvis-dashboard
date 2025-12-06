@@ -1,8 +1,8 @@
 {
   "today_profit": -424.1241296466047,
-  "today_profit_percent": -0.4757584113019368,
-  "total_profit": 15248.803756893314,
-  "total_profit_percent": 17.105243824913906,
+  "today_profit_percent": -0.4064920967018047,
+  "total_profit": 15418.202084078419,
+  "total_profit_percent": 14.777224058794705,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -154,13 +154,22 @@
   },
   "holdings": [
     {
+      "market": "KRW-CVC",
+      "amount": 133.35561497,
+      "avg_price": 73.3,
+      "current_price": 73.2,
+      "value": 9761.631015804001,
+      "profit": -13.335561496999242,
+      "profit_rate": -0.0013642564802182036
+    },
+    {
       "market": "KRW-UOS",
       "amount": 3729.19898427,
       "avg_price": 18.68,
-      "current_price": 18.24,
-      "value": 68020.5894730848,
-      "profit": -1640.8475530788048,
-      "profit_rate": -0.023554603854389792
+      "current_price": 18.27,
+      "value": 68132.4654426129,
+      "profit": -1528.9715835507004,
+      "profit_rate": -0.021948608137044977
     },
     {
       "market": "KRW-BOBA",
@@ -175,13 +184,22 @@
       "market": "KRW-PUFFER",
       "amount": 84.53389831,
       "avg_price": 115.0,
-      "current_price": 115.0,
-      "value": 9721.39830565,
-      "profit": 0.0,
-      "profit_rate": 0.0
+      "current_price": 116.0,
+      "value": 9805.93220396,
+      "profit": 84.53389831,
+      "profit_rate": 0.008695652173913044
+    },
+    {
+      "market": "KRW-A8",
+      "amount": 68.37989578,
+      "avg_price": 79.2,
+      "current_price": 79.0,
+      "value": 5402.011766619999,
+      "profit": -13.675979156000194,
+      "profit_rate": -0.002525252525252561
     }
   ],
-  "last_update": "2025-12-07T06:47:17.307193",
+  "last_update": "2025-12-07T06:53:08.528606",
   "trades": [
     {
       "type": "buy",
