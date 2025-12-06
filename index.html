@@ -528,17 +528,17 @@
             backdrop-filter: blur(10px);
             border: 1px solid rgba(255, 107, 53, 0.2);
             border-radius: 20px;
-            padding: 50px 30px;
+            padding: 30px 20px;
             margin-bottom: 30px;
             box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-            min-height: 300px;
+            min-height: 180px;
             position: relative;
             overflow: hidden;
         }
 
         .wordcloud {
             width: 100%;
-            height: 250px;
+            height: 150px;
             position: relative;
             display: block;
         }
@@ -728,6 +728,21 @@
             margin-bottom: 30px;
         }
 
+        /* 3단 그리드: 보유 코인, 최근 거래, 차트 */
+        .three-column-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        /* 반응형: 작은 화면에서는 1단 */
+        @media (max-width: 1200px) {
+            .three-column-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
         .profit-card {
             background: rgba(255, 255, 255, 0.05);
             backdrop-filter: blur(10px);
@@ -796,14 +811,26 @@
         }
 
         .holdings-section {
-            margin-bottom: 30px;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 107, 53, 0.2);
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
         }
 
         .holdings-section h2 {
-            font-size: 1.8em;
+            font-size: 1.5em;
             margin-bottom: 15px;
             color: #ff6b35;
             text-align: center;
+        }
+
+        /* 3단 그리드 내부에서는 1열로 */
+        .three-column-grid .holdings-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
         }
 
         .holdings-grid {
@@ -817,7 +844,7 @@
             backdrop-filter: blur(10px);
             border: 1px solid rgba(255, 107, 53, 0.2);
             border-radius: 16px;
-            padding: 20px;
+            padding: 15px;
             box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
@@ -831,27 +858,27 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 15px;
+            margin-bottom: 12px;
         }
 
         .coin-name {
-            font-size: 1.5em;
+            font-size: 1.3em;
             font-weight: bold;
             color: #ff6b35;
         }
 
         .coin-profit-badge {
-            padding: 4px 12px;
+            padding: 4px 10px;
             border-radius: 12px;
-            font-size: 0.9em;
+            font-size: 0.85em;
             font-weight: 600;
         }
 
         .coin-details {
             display: flex;
             flex-direction: column;
-            gap: 8px;
-            font-size: 0.95em;
+            gap: 6px;
+            font-size: 0.9em;
         }
 
         .coin-detail-row {
@@ -868,14 +895,13 @@
             backdrop-filter: blur(10px);
             border: 1px solid rgba(255, 107, 53, 0.2);
             border-radius: 20px;
-            padding: 30px;
-            margin-bottom: 30px;
+            padding: 20px;
             box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
         }
 
         .trades-section h2 {
-            font-size: 1.8em;
-            margin-bottom: 20px;
+            font-size: 1.5em;
+            margin-bottom: 15px;
             color: #ff6b35;
         }
 
@@ -942,35 +968,34 @@
         }
 
         .chart-section {
-            display: none; /* Tablet 모드에서 숨김 */
+            display: block; /* 항상 표시 */
             background: rgba(255, 255, 255, 0.05);
             backdrop-filter: blur(10px);
             border: 1px solid rgba(255, 107, 53, 0.2);
             border-radius: 20px;
-            padding: 30px;
-            margin-bottom: 30px;
+            padding: 20px;
             box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
         }
 
         .chart-section h2 {
-            font-size: 1.8em;
-            margin-bottom: 20px;
+            font-size: 1.5em;
+            margin-bottom: 15px;
             color: #ff6b35;
         }
 
         #profitChart {
-            max-height: 300px;
+            max-height: 250px;
         }
 
-        /* 수동 거래 컨트롤 패널 */
+        /* 보유 코인 관리 패널 */
         .control-panel {
             background: rgba(255, 255, 255, 0.05);
             backdrop-filter: blur(15px);
             border: 2px solid rgba(255, 107, 53, 0.4);
             border-radius: 20px;
             padding: 25px;
-            margin: 20px auto;
-            max-width: 600px;
+            margin: 20px 0 30px 0;
+            max-width: 100%;
             box-shadow: 0 8px 32px rgba(255, 107, 53, 0.3);
         }
 
@@ -983,9 +1008,22 @@
         }
 
         .control-content {
-            display: flex;
-            flex-direction: column;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
             gap: 20px;
+            align-items: start;
+        }
+
+        /* 버튼과 상태는 전체 너비 */
+        .control-buttons,
+        #commandStatus {
+            grid-column: 1 / -1;
+        }
+
+        @media (max-width: 768px) {
+            .control-content {
+                grid-template-columns: 1fr;
+            }
         }
 
         .control-group {
@@ -1300,10 +1338,7 @@
         </div>
 
         <div class="main-content">
-        <div class="wordcloud-container">
-            <div class="wordcloud" id="wordcloud"></div>
-        </div>
-
+        
         <div class="profit-grid">
             <div class="profit-card">
                 <h3>🌅 오늘 손익</h3>
@@ -1319,6 +1354,8 @@
             </div>
         </div>
 
+        <!-- 3단 그리드: 보유 코인, 최근 거래, 차트 -->
+        <div class="three-column-grid">
         <div class="holdings-section">
             <h2>💼 보유 코인</h2>
             
@@ -1332,7 +1369,7 @@
         </div>
 
         <div class="trades-section">
-            <h2>📜 최근 거래 (6개)</h2>
+            <h2>📜 최근 거래</h2>
             <div class="trades-list" id="tradesList"></div>
         </div>
 
@@ -1340,6 +1377,13 @@
             <h2>📈 수익 추이</h2>
             <canvas id="profitChart"></canvas>
         </div>
+        </div><!-- three-column-grid 끝 -->
+
+        <!-- 워드클라우드 (높이 줄임) -->
+        <div class="wordcloud-container">
+            <div class="wordcloud" id="wordcloud"></div>
+        </div>
+        
         </div><!-- main-content 끝 -->
 
         <!-- 보유 코인 관리 패널 -->
