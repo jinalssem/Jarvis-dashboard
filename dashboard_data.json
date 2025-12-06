@@ -1,8 +1,8 @@
 {
   "today_profit": 16344.97771575068,
-  "today_profit_percent": 104.37511015670941,
-  "total_profit": 14548.015398058955,
-  "total_profit_percent": 92.90013948875978,
+  "today_profit_percent": 167.49620599359068,
+  "total_profit": 14226.078459792576,
+  "total_profit_percent": 145.78265015841683,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,23 +157,22 @@
       "market": "KRW-BOA",
       "amount": 2433.52037082,
       "avg_price": 4.01,
-      "current_price": 3.958,
-      "value": 9631.873627705561,
-      "profit": -126.54305928263904,
-      "profit_rate": -0.012967581047381448
-    },
-    {
-      "market": "KRW-GTC",
-      "amount": 29.41887176,
-      "avg_price": 200.6,
-      "current_price": 204.0,
-      "value": 6001.4498390399995,
-      "profit": 100.02416398400017,
-      "profit_rate": 0.01694915254237291
+      "current_price": 3.993,
+      "value": 9717.046840684261,
+      "profit": -41.36984630393977,
+      "profit_rate": -0.004239401496259328
     }
   ],
-  "last_update": "2025-12-06T12:25:41.788047",
+  "last_update": "2025-12-06T12:32:25.062201",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-APM",
+      "profit": 0,
+      "price": 1.77,
+      "amount": 5501.93050193,
+      "time": "2025-12-06T12:31:14.585432"
+    },
     {
       "type": "sell",
       "market": "KRW-ZRC",
@@ -965,14 +964,6 @@
       "price": 0,
       "amount": 0,
       "time": "2025-12-05T09:23:34.360612"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-APM",
-      "profit": 307.08598726107914,
-      "price": 1.898,
-      "amount": 5294.58598726,
-      "time": "2025-12-05T09:23:34.358252"
     }
   ]
 }
