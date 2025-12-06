@@ -1,8 +1,8 @@
 {
   "today_profit": -11814.094260392094,
-  "today_profit_percent": -34.06977758039473,
-  "total_profit": 5632.210936165033,
-  "total_profit_percent": 16.242309368085316,
+  "today_profit_percent": -3.323002858728117,
+  "total_profit": 2985.282155687021,
+  "total_profit_percent": 0.8396835947649508,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,40 +157,49 @@
       "market": "KRW-CVC",
       "amount": 133.35561497,
       "avg_price": 73.3,
-      "current_price": 73.15,
-      "value": 9754.9632350555,
-      "profit": -20.003342245498864,
-      "profit_rate": -0.0020463847203273052
+      "current_price": 73.33,
+      "value": 9778.9672457501,
+      "profit": 4.000668449100152,
+      "profit_rate": 0.00040927694406549985
+    },
+    {
+      "market": "KRW-UOS",
+      "amount": 18503.37246445,
+      "avg_price": 17.34,
+      "current_price": 17.2,
+      "value": 318258.00638854,
+      "profit": -2590.4721450230104,
+      "profit_rate": -0.00807381776239911
     },
     {
       "market": "KRW-BOBA",
       "amount": 144.43961772,
       "avg_price": 67.6,
-      "current_price": 67.36,
-      "value": 9729.4526496192,
-      "profit": -34.66550825279926,
-      "profit_rate": -0.0035502958579880905
+      "current_price": 67.0,
+      "value": 9677.45438724,
+      "profit": -86.66377063199918,
+      "profit_rate": -0.008875739644970331
     },
     {
       "market": "KRW-PUFFER",
       "amount": 84.53389831,
       "avg_price": 115.0,
-      "current_price": 116.0,
-      "value": 9805.93220396,
-      "profit": 84.53389831,
-      "profit_rate": 0.008695652173913044
+      "current_price": 115.0,
+      "value": 9721.39830565,
+      "profit": 0.0,
+      "profit_rate": 0.0
     },
     {
       "market": "KRW-A8",
       "amount": 68.37989578,
       "avg_price": 79.2,
-      "current_price": 80.37,
-      "value": 5495.6922238386005,
-      "profit": 80.00447806260011,
-      "profit_rate": 0.014772727272727293
+      "current_price": 81.19,
+      "value": 5551.763738378199,
+      "profit": 136.07599260219965,
+      "profit_rate": 0.02512626262626256
     }
   ],
-  "last_update": "2025-12-07T07:22:15.652137",
+  "last_update": "2025-12-07T07:28:04.949872",
   "trades": [
     {
       "type": "sell",
