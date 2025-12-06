@@ -1158,9 +1158,8 @@
                 
                 <div class="control-group">
                     <label>💼 보유 코인 선택:</label>
-                    <select id="holdingCoinSelect">
-                        <option value="">코인을 선택하세요...</option>
-                    </select>
+                    <input type="text" id="holdingCoinSelect" placeholder="코인 심볼 입력 (예: BTC)" list="coinList" autocomplete="off">
+                    <datalist id="coinList"></datalist>
                     <small id="coinInfo" style="color: #4ecdc4; margin-top: 5px; display: none;"></small>
                 </div>
                 
@@ -2199,14 +2198,24 @@
         
         // 보유 코인 선택 업데이트 (datalist 방식)
         function updateHoldingCoinSelect(holdings) {
+            console.log('📋 updateHoldingCoinSelect 호출, 보유 코인:', holdings ? holdings.length : 0);
+            
             const input = document.getElementById('holdingCoinSelect');
             const datalist = document.getElementById('coinList');
             const coinInfo = document.getElementById('coinInfo');
             
-            console.log('📋 updateHoldingCoinSelect 호출, 보유 코인:', holdings ? holdings.length : 0);
+            console.log('🔍 엘리먼트 찾기:', {
+                input: input ? 'OK' : 'NULL',
+                datalist: datalist ? 'OK' : 'NULL',
+                coinInfo: coinInfo ? 'OK' : 'NULL'
+            });
             
             if (!input || !datalist || !coinInfo) {
-                console.error('❌ 엘리먼트를 찾을 수 없습니다');
+                console.error('❌ 엘리먼트를 찾을 수 없습니다', {
+                    input: !!input,
+                    datalist: !!datalist,
+                    coinInfo: !!coinInfo
+                });
                 return;
             }
             
