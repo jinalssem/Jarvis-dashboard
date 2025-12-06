@@ -1,8 +1,8 @@
 {
   "today_profit": -539.9471954974001,
-  "today_profit_percent": -53994.71954974001,
+  "today_profit_percent": -3.6851006447603964,
   "total_profit": 18035.448178274422,
-  "total_profit_percent": 1803544.8178274422,
+  "total_profit_percent": 123.09063231465905,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -152,9 +152,27 @@
     "profit": 0,
     "profit_rate": 0.0
   },
-  "holdings": [],
-  "last_update": "2025-12-07T00:06:19.490967",
+  "holdings": [
+    {
+      "market": "KRW-SOMI",
+      "amount": 44.13304089,
+      "avg_price": 332.0,
+      "current_price": 332.0,
+      "value": 14652.169575479998,
+      "profit": 0.0,
+      "profit_rate": 0.0
+    }
+  ],
+  "last_update": "2025-12-07T00:11:34.795083",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-XYO",
+      "profit": 0,
+      "price": 7.39,
+      "amount": 1321.89239332,
+      "time": "2025-12-07T00:10:24.247260"
+    },
     {
       "type": "sell",
       "market": "KRW-CPOOL",
@@ -946,14 +964,6 @@
       "price": 379.0,
       "amount": 26.25,
       "time": "2025-12-05T22:22:04.122634"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-BAT",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-05T22:13:51.854496"
     }
   ]
 }
