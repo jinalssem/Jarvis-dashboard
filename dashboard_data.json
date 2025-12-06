@@ -172,8 +172,24 @@
       "profit_rate": 0.009036144578313253
     }
   ],
-  "last_update": "2025-12-07T01:59:28.016180",
+  "last_update": "2025-12-07T02:07:20.627449",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-SOMI",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-07T02:07:20.627101"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-SOMI",
+      "profit": 220.66520444999998,
+      "price": 337.0,
+      "amount": 44.13304089,
+      "time": "2025-12-07T02:07:20.623534"
+    },
     {
       "type": "sell",
       "market": "KRW-A8",
@@ -957,22 +973,6 @@
       "price": 100.0,
       "amount": 96.84466019,
       "time": "2025-12-06T00:12:48.303286"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-BOA",
-      "profit": 0,
-      "price": 4.15,
-      "amount": 2353.14932767,
-      "time": "2025-12-06T00:08:18.005590"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-COMP",
-      "profit": 0,
-      "price": 46710.0,
-      "amount": 0.2092511,
-      "time": "2025-12-05T23:37:16.363643"
     }
   ]
 }
