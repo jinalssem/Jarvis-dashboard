@@ -1,8 +1,8 @@
 {
   "today_profit": 16945.209448214522,
-  "today_profit_percent": 103.7453355073717,
-  "total_profit": 14082.400022859918,
-  "total_profit_percent": 86.21807358507225,
+  "today_profit_percent": 38.051869400214116,
+  "total_profit": 17231.012988974322,
+  "total_profit_percent": 38.693664890576535,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -155,16 +155,24 @@
   "holdings": [
     {
       "market": "KRW-CPOOL",
-      "amount": 242.01313282,
-      "avg_price": 67.49,
-      "current_price": 65.36,
-      "value": 15817.9783611152,
-      "profit": -515.4879729065989,
-      "profit_rate": -0.031560231145354806
+      "amount": 686.79628534,
+      "avg_price": 64.84,
+      "current_price": 62.81,
+      "value": 43137.674682205405,
+      "profit": -1394.196459240201,
+      "profit_rate": -0.03130783466995683
     }
   ],
-  "last_update": "2025-12-06T16:21:35.886785",
+  "last_update": "2025-12-06T16:28:19.736207",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-ETH",
+      "profit": 0,
+      "price": 4453000.0,
+      "amount": 0.00395136,
+      "time": "2025-12-06T16:27:08.599789"
+    },
     {
       "type": "sell",
       "market": "KRW-PUFFER",
@@ -956,14 +964,6 @@
       "price": 0,
       "amount": 0,
       "time": "2025-12-05T20:05:05.971446"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-BOBA",
-      "profit": -4027.321452448003,
-      "price": 76.33,
-      "amount": 1258.53795389,
-      "time": "2025-12-05T20:05:05.968061"
     }
   ]
 }
