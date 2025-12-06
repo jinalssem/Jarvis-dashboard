@@ -1,8 +1,8 @@
 {
   "today_profit": -539.9471954974001,
   "today_profit_percent": -1.163493542068534,
-  "total_profit": 17965.198980608122,
-  "total_profit_percent": 38.711920665980024,
+  "total_profit": 17782.087715801325,
+  "total_profit_percent": 38.317347315364785,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,32 +157,40 @@
       "market": "KRW-A8",
       "amount": 226.39065126,
       "avg_price": 86.31,
-      "current_price": 87.14,
-      "value": 19727.6813507964,
-      "profit": 187.9042405457996,
-      "profit_rate": 0.009616498667593539
+      "current_price": 87.09,
+      "value": 19716.3618182334,
+      "profit": 176.58470798280027,
+      "profit_rate": 0.009037191518943357
     },
     {
       "market": "KRW-LINEA",
       "amount": 1016.26134331,
       "avg_price": 12.02,
-      "current_price": 12.11,
-      "value": 12306.9248674841,
-      "profit": 91.46352089789985,
-      "profit_rate": 0.007487520798668873
+      "current_price": 12.13,
+      "value": 12327.250094350302,
+      "profit": 111.78874776410123,
+      "profit_rate": 0.009151414309484294
     },
     {
       "market": "KRW-SOMI",
       "amount": 44.13304089,
       "avg_price": 332.0,
-      "current_price": 333.0,
-      "value": 14696.30261637,
-      "profit": 44.13304089,
-      "profit_rate": 0.0030120481927710845
+      "current_price": 334.0,
+      "value": 14740.435657259999,
+      "profit": 88.26608178,
+      "profit_rate": 0.006024096385542169
     }
   ],
-  "last_update": "2025-12-07T01:02:28.350267",
+  "last_update": "2025-12-07T01:11:51.727932",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-ACE",
+      "profit": 0,
+      "price": 385.0,
+      "amount": 18.81146779,
+      "time": "2025-12-07T01:10:32.658684"
+    },
     {
       "type": "buy",
       "market": "KRW-A8",
@@ -974,14 +982,6 @@
       "price": 0,
       "amount": 0,
       "time": "2025-12-05T22:39:25.525383"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-BAT",
-      "profit": 236.25,
-      "price": 381.0,
-      "amount": 26.25,
-      "time": "2025-12-05T22:39:25.523217"
     }
   ]
 }
