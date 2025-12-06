@@ -1,8 +1,8 @@
 {
   "today_profit": -539.9471954974001,
-  "today_profit_percent": -1.4739312652650411,
-  "total_profit": 17243.38928654502,
-  "total_profit_percent": 47.070474299180496,
+  "today_profit_percent": -1.163493542068534,
+  "total_profit": 17471.905189829424,
+  "total_profit_percent": 37.64895720455338,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -155,21 +155,21 @@
   "holdings": [
     {
       "market": "KRW-A8",
-      "amount": 110.84564952,
-      "avg_price": 88.1,
-      "current_price": 84.69,
-      "value": 9387.5180578488,
-      "profit": -377.9836648631996,
-      "profit_rate": -0.03870601589103288
+      "amount": 226.39065126,
+      "avg_price": 86.31,
+      "current_price": 85.56,
+      "value": 19369.9841218056,
+      "profit": -169.792988445,
+      "profit_rate": -0.008689607229753215
     },
     {
       "market": "KRW-LINEA",
       "amount": 1016.26134331,
       "avg_price": 12.02,
-      "current_price": 12.0,
-      "value": 12195.13611972,
-      "profit": -20.325226866199568,
-      "profit_rate": -0.0016638935108152725
+      "current_price": 12.02,
+      "value": 12215.4613465862,
+      "profit": 0.0,
+      "profit_rate": 0.0
     },
     {
       "market": "KRW-SOMI",
@@ -181,8 +181,16 @@
       "profit_rate": 0.0
     }
   ],
-  "last_update": "2025-12-07T00:26:53.341286",
+  "last_update": "2025-12-07T00:34:29.856655",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-A8",
+      "profit": 0,
+      "price": 83.8,
+      "amount": 107.37837658,
+      "time": "2025-12-07T00:32:57.881078"
+    },
     {
       "type": "buy",
       "market": "KRW-A8",
@@ -974,14 +982,6 @@
       "price": 381.0,
       "amount": 26.25,
       "time": "2025-12-05T22:39:25.523217"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-BAT",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-05T22:30:32.942214"
     }
   ]
 }
