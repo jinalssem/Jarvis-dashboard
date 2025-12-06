@@ -1,8 +1,8 @@
 {
-  "today_profit": -11814.094260392094,
-  "today_profit_percent": -3.323002858728117,
-  "total_profit": 2985.282155687021,
-  "total_profit_percent": 0.8396835947649508,
+  "today_profit": -11649.298711562295,
+  "today_profit_percent": -33.59453609584913,
+  "total_profit": 6268.471011640196,
+  "total_profit_percent": 18.07717192944129,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,49 +157,40 @@
       "market": "KRW-CVC",
       "amount": 133.35561497,
       "avg_price": 73.3,
-      "current_price": 73.33,
-      "value": 9778.9672457501,
-      "profit": 4.000668449100152,
-      "profit_rate": 0.00040927694406549985
-    },
-    {
-      "market": "KRW-UOS",
-      "amount": 18503.37246445,
-      "avg_price": 17.34,
-      "current_price": 17.2,
-      "value": 318258.00638854,
-      "profit": -2590.4721450230104,
-      "profit_rate": -0.00807381776239911
+      "current_price": 73.4,
+      "value": 9788.302138798,
+      "profit": 13.335561497001137,
+      "profit_rate": 0.0013642564802183975
     },
     {
       "market": "KRW-BOBA",
       "amount": 144.43961772,
       "avg_price": 67.6,
-      "current_price": 67.0,
-      "value": 9677.45438724,
-      "profit": -86.66377063199918,
-      "profit_rate": -0.008875739644970331
+      "current_price": 67.19,
+      "value": 9704.8979146068,
+      "profit": -59.22024326519951,
+      "profit_rate": -0.0060650887573964
     },
     {
       "market": "KRW-PUFFER",
       "amount": 84.53389831,
       "avg_price": 115.0,
-      "current_price": 115.0,
-      "value": 9721.39830565,
-      "profit": 0.0,
-      "profit_rate": 0.0
+      "current_price": 116.0,
+      "value": 9805.93220396,
+      "profit": 84.53389831,
+      "profit_rate": 0.008695652173913044
     },
     {
       "market": "KRW-A8",
       "amount": 68.37989578,
       "avg_price": 79.2,
-      "current_price": 81.19,
-      "value": 5551.763738378199,
-      "profit": 136.07599260219965,
-      "profit_rate": 0.02512626262626256
+      "current_price": 81.61,
+      "value": 5580.4832946057995,
+      "profit": 164.79554882979977,
+      "profit_rate": 0.030429292929292886
     }
   ],
-  "last_update": "2025-12-07T07:32:38.794919",
+  "last_update": "2025-12-07T07:33:49.804580",
   "trades": [
     {
       "type": "sell",
