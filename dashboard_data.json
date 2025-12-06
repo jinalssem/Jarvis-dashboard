@@ -181,8 +181,24 @@
       "profit_rate": -0.008579881656804709
     }
   ],
-  "last_update": "2025-12-07T08:31:38.986017",
+  "last_update": "2025-12-07T08:36:20.565196",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-UOS",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-07T08:36:20.564291"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-UOS",
+      "profit": 138.4339004001016,
+      "price": 17.76,
+      "amount": 512.71814963,
+      "time": "2025-12-07T08:36:20.559139"
+    },
     {
       "type": "sell",
       "market": "KRW-UOS",
@@ -966,22 +982,6 @@
       "price": 0,
       "amount": 0,
       "time": "2025-12-06T04:35:06.836594"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-PUMPBTC",
-      "profit": 150.85504885749967,
-      "price": 42.75,
-      "amount": 232.08469055,
-      "time": "2025-12-06T04:35:06.835458"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-BTC",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-06T04:21:12.956295"
     }
   ]
 }
