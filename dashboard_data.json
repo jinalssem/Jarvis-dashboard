@@ -1,8 +1,8 @@
 {
   "today_profit": -539.9471954974001,
-  "today_profit_percent": -3.6851006447603964,
-  "total_profit": 18035.448178274422,
-  "total_profit_percent": 123.09063231465905,
+  "today_profit_percent": -2.009656888110463,
+  "total_profit": 17831.372951408222,
+  "total_profit_percent": 66.36749255314297,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -154,6 +154,15 @@
   },
   "holdings": [
     {
+      "market": "KRW-LINEA",
+      "amount": 1016.26134331,
+      "avg_price": 12.02,
+      "current_price": 12.0,
+      "value": 12195.13611972,
+      "profit": -20.325226866199568,
+      "profit_rate": -0.0016638935108152725
+    },
+    {
       "market": "KRW-SOMI",
       "amount": 44.13304089,
       "avg_price": 332.0,
@@ -163,8 +172,16 @@
       "profit_rate": 0.0
     }
   ],
-  "last_update": "2025-12-07T00:11:34.795083",
+  "last_update": "2025-12-07T00:17:28.938349",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-H",
+      "profit": 0,
+      "price": 90.4,
+      "amount": 108.03639121,
+      "time": "2025-12-07T00:16:17.286031"
+    },
     {
       "type": "buy",
       "market": "KRW-XYO",
@@ -956,14 +973,6 @@
       "price": 0,
       "amount": 0,
       "time": "2025-12-05T22:22:04.124864"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-BAT",
-      "profit": 183.75,
-      "price": 379.0,
-      "amount": 26.25,
-      "time": "2025-12-05T22:22:04.122634"
     }
   ]
 }
