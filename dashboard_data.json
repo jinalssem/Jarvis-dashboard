@@ -1,8 +1,8 @@
 {
   "today_profit": 16945.209448214522,
-  "today_profit_percent": 153.8655175544652,
-  "total_profit": 18592.169126601773,
-  "total_profit_percent": 168.8202045461383,
+  "today_profit_percent": 47.42345847335474,
+  "total_profit": 18943.70213778748,
+  "total_profit_percent": 53.01651032455228,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -154,16 +154,25 @@
   },
   "holdings": [
     {
+      "market": "KRW-PUFFER",
+      "amount": 191.61785458,
+      "avg_price": 129.0,
+      "current_price": 130.0,
+      "value": 24910.3210954,
+      "profit": 191.61785458,
+      "profit_rate": 0.007751937984496124
+    },
+    {
       "market": "KRW-XYO",
       "amount": 1321.61286451,
       "avg_price": 8.333,
-      "current_price": 8.308,
-      "value": 10979.95967834908,
-      "profit": -33.04032161275047,
-      "profit_rate": -0.0030001200048002346
+      "current_price": 8.429,
+      "value": 11139.87483495479,
+      "profit": 126.87483499296012,
+      "profit_rate": 0.011520460818432747
     }
   ],
-  "last_update": "2025-12-06T16:49:33.125639",
+  "last_update": "2025-12-06T16:56:31.413786",
   "trades": [
     {
       "type": "buy",
