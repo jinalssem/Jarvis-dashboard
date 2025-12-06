@@ -190,8 +190,40 @@
       "profit_rate": 0.0037037037037036245
     }
   ],
-  "last_update": "2025-12-06T11:21:28.967686",
+  "last_update": "2025-12-06T11:27:04.491501",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-ZRC",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-06T11:27:04.491125"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ZRC",
+      "profit": 3446.8458483419877,
+      "price": 11.0,
+      "amount": 17234.22924171,
+      "time": "2025-12-06T11:27:04.488778"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-CVC",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-06T11:27:02.855745"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-CVC",
+      "profit": 101.03591159969949,
+      "price": 75.17,
+      "amount": 131.21546961,
+      "time": "2025-12-06T11:27:02.851126"
+    },
     {
       "type": "sell",
       "market": "KRW-CVC",
@@ -959,38 +991,6 @@
       "price": 1.84,
       "amount": 5294.58598726,
       "time": "2025-12-05T08:50:45.184098"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-BTC",
-      "profit": 0,
-      "price": 134739000.0,
-      "amount": 0.00013059,
-      "time": "2025-12-05T08:43:59.758722"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-REI",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-05T07:35:04.331439"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-REI",
-      "profit": 187.89473684160154,
-      "price": 10.72,
-      "amount": 1565.78947368,
-      "time": "2025-12-05T07:35:04.329237"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-APM",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-05T06:49:59.377588"
     }
   ]
 }
