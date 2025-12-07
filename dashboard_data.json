@@ -153,8 +153,16 @@
     "profit_rate": 0.0
   },
   "holdings": [],
-  "last_update": "2025-12-07T14:57:29.863490",
+  "last_update": "2025-12-07T15:05:53.276231",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-BTC",
+      "profit": 0,
+      "price": 131250000.0,
+      "amount": 7.448e-05,
+      "time": "2025-12-07T15:04:40.178357"
+    },
     {
       "type": "buy",
       "market": "KRW-BOBA",
@@ -946,14 +954,6 @@
       "price": 354.0,
       "amount": 27.55524862,
       "time": "2025-12-06T09:07:42.273285"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-APM",
-      "profit": 0,
-      "price": 1.82,
-      "amount": 5365.7880581,
-      "time": "2025-12-06T08:46:03.201064"
     }
   ]
 }
