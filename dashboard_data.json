@@ -1,8 +1,8 @@
 {
   "today_profit": 2203.5311478445024,
   "today_profit_percent": 11.321826872444243,
-  "total_profit": -29444.754922438653,
-  "total_profit_percent": -151.28827103692285,
+  "total_profit": -29581.537705952855,
+  "total_profit_percent": -151.9910661826115,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,23 +157,31 @@
       "market": "KRW-REI",
       "amount": 1051.438811,
       "avg_price": 9.219,
-      "current_price": 9.303,
-      "value": 9781.535258733,
-      "profit": 88.32086012400148,
-      "profit_rate": 0.009111617312073047
+      "current_price": 9.266,
+      "value": 9742.632022726,
+      "profit": 49.41762411700063,
+      "profit_rate": 0.005098166829374183
     },
     {
       "market": "KRW-A8",
       "amount": 133.46267059,
       "avg_price": 73.2,
-      "current_price": 73.25,
-      "value": 9776.140620717499,
-      "profit": 6.67313352949962,
-      "profit_rate": 0.0006830601092895787
+      "current_price": 74.17,
+      "value": 9898.9262776603,
+      "profit": 129.45879047229982,
+      "profit_rate": 0.013251366120218563
     }
   ],
-  "last_update": "2025-12-08T02:59:54.672667",
+  "last_update": "2025-12-08T03:06:57.995542",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-ELX",
+      "profit": 0,
+      "price": 49.7,
+      "amount": 196.39692853,
+      "time": "2025-12-08T03:05:45.171113"
+    },
     {
       "type": "buy",
       "market": "KRW-NMR",
@@ -965,14 +973,6 @@
       "price": 0,
       "amount": 0,
       "time": "2025-12-07T02:07:20.627101"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-SOMI",
-      "profit": 220.66520444999998,
-      "price": 337.0,
-      "amount": 44.13304089,
-      "time": "2025-12-07T02:07:20.623534"
     }
   ]
 }
