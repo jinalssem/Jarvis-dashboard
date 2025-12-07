@@ -1,8 +1,8 @@
 {
   "today_profit": 756.7755316099999,
   "today_profit_percent": 2.5919530307154495,
-  "total_profit": -32295.105960208555,
-  "total_profit_percent": -110.61060284646899,
+  "total_profit": -32500.173047821852,
+  "total_profit_percent": -111.31295676389612,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,32 +157,40 @@
       "market": "KRW-REI",
       "amount": 1051.438811,
       "avg_price": 9.219,
-      "current_price": 9.203,
-      "value": 9676.391377633,
-      "profit": -16.823020976000016,
-      "profit_rate": -0.0017355461546805528
+      "current_price": 9.144,
+      "value": 9614.356487784,
+      "profit": -78.85791082499925,
+      "profit_rate": -0.008135372600065006
     },
     {
       "market": "KRW-HUNT",
       "amount": 47.27488152,
       "avg_price": 206.0,
-      "current_price": 210.0,
-      "value": 9927.7251192,
-      "profit": 189.09952608,
-      "profit_rate": 0.019417475728155338
+      "current_price": 211.0,
+      "value": 9975.00000072,
+      "profit": 236.3744076,
+      "profit_rate": 0.024271844660194174
     },
     {
       "market": "KRW-A8",
       "amount": 131.07752957,
       "avg_price": 74.5,
-      "current_price": 74.97,
-      "value": 9826.882391862899,
-      "profit": 61.60643889789985,
-      "profit_rate": 0.00630872483221475
+      "current_price": 74.98,
+      "value": 9828.1931671586,
+      "profit": 62.91721419360052,
+      "profit_rate": 0.006442953020134282
     }
   ],
-  "last_update": "2025-12-08T01:39:25.623842",
+  "last_update": "2025-12-08T01:47:01.031373",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-ANIME",
+      "profit": 0,
+      "price": 9.87,
+      "amount": 989.58333333,
+      "time": "2025-12-08T01:45:45.699540"
+    },
     {
       "type": "sell",
       "market": "KRW-HUNT",
@@ -974,14 +982,6 @@
       "price": 0,
       "amount": 0,
       "time": "2025-12-06T17:28:49.798761"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-PUFFER",
-      "profit": 191.61785458,
-      "price": 130.0,
-      "amount": 191.61785458,
-      "time": "2025-12-06T17:28:49.794928"
     }
   ]
 }
