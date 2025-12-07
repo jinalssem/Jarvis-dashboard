@@ -1,8 +1,8 @@
 {
-  "today_profit": 993.14993921,
-  "today_profit_percent": 3.401534388160983,
-  "total_profit": -32150.370084483653,
-  "total_profit_percent": -110.11488307743748,
+  "today_profit": 1382.8850564069003,
+  "today_profit_percent": 3.5488643194519685,
+  "total_profit": -31516.744631013924,
+  "total_profit_percent": -80.88065596492666,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -154,13 +154,22 @@
   },
   "holdings": [
     {
+      "market": "KRW-BOA",
+      "amount": 2564.26735219,
+      "avg_price": 3.81,
+      "current_price": 3.877,
+      "value": 9941.66452444063,
+      "profit": 171.8059125967293,
+      "profit_rate": 0.017585301837270268
+    },
+    {
       "market": "KRW-REI",
       "amount": 1051.438811,
       "avg_price": 9.219,
-      "current_price": 9.207,
-      "value": 9680.597132877001,
-      "profit": -12.61726573199861,
-      "profit_rate": -0.00130165961601027
+      "current_price": 9.18,
+      "value": 9652.208284979999,
+      "profit": -41.006113628999685,
+      "profit_rate": -0.004230393752033811
     },
     {
       "market": "KRW-HUNT",
@@ -175,13 +184,13 @@
       "market": "KRW-A8",
       "amount": 131.07752957,
       "avg_price": 74.5,
-      "current_price": 75.34,
-      "value": 9875.3810778038,
-      "profit": 110.10512483880045,
-      "profit_rate": 0.011275167785234946
+      "current_price": 75.17,
+      "value": 9853.0978977769,
+      "profit": 87.82194481190022,
+      "profit_rate": 0.00899328859060405
     }
   ],
-  "last_update": "2025-12-08T02:08:06.723079",
+  "last_update": "2025-12-08T02:09:37.858179",
   "trades": [
     {
       "type": "sell",
