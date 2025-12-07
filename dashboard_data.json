@@ -181,8 +181,24 @@
       "profit_rate": 0.0014765100671140863
     }
   ],
-  "last_update": "2025-12-08T01:32:09.762568",
+  "last_update": "2025-12-08T01:38:11.792064",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-HUNT",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-08T01:38:11.791104"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HUNT",
+      "profit": 189.09952608,
+      "price": 210.0,
+      "amount": 47.27488152,
+      "time": "2025-12-08T01:38:11.785686"
+    },
     {
       "type": "sell",
       "market": "KRW-HUNT",
@@ -966,22 +982,6 @@
       "price": 130.0,
       "amount": 191.61785458,
       "time": "2025-12-06T17:28:49.794928"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-XYO",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-06T17:15:25.446832"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-XYO",
-      "profit": 303.97095883730054,
-      "price": 8.563,
-      "amount": 1321.61286451,
-      "time": "2025-12-06T17:15:25.444534"
     }
   ]
 }
