@@ -1,8 +1,8 @@
 {
   "today_profit": -8297.258527799304,
   "today_profit_percent": -42.642601838850396,
-  "total_profit": -7131.07819229371,
-  "total_profit_percent": -36.649180812779065,
+  "total_profit": -7195.319995572109,
+  "total_profit_percent": -36.979342592050166,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,10 +157,10 @@
       "market": "KRW-BOBA",
       "amount": 146.00409836,
       "avg_price": 66.9,
-      "current_price": 67.03,
-      "value": 9786.6547130708,
-      "profit": 18.980532786799337,
-      "profit_rate": 0.0019431988041852832
+      "current_price": 66.59,
+      "value": 9722.4129097924,
+      "profit": -45.261270491600335,
+      "profit_rate": -0.004633781763826641
     },
     {
       "market": "KRW-PUFFER",
@@ -172,8 +172,16 @@
       "profit_rate": 0.0
     }
   ],
-  "last_update": "2025-12-08T08:02:27.394874",
+  "last_update": "2025-12-08T08:08:20.984788",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-NMR",
+      "profit": 0,
+      "price": 16020.0,
+      "amount": 0.61009174,
+      "time": "2025-12-08T08:07:09.925763"
+    },
     {
       "type": "sell",
       "market": "KRW-PUFFER",
@@ -965,14 +973,6 @@
       "price": 4463000.0,
       "amount": 0.0021899,
       "time": "2025-12-07T13:54:53.775205"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-HUNT",
-      "profit": 0,
-      "price": 206.0,
-      "amount": 47.27488152,
-      "time": "2025-12-07T13:21:18.871990"
     }
   ]
 }
