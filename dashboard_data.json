@@ -153,8 +153,16 @@
     "profit_rate": 0.0
   },
   "holdings": [],
-  "last_update": "2025-12-07T13:14:48.902252",
+  "last_update": "2025-12-07T13:22:44.314246",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-HUNT",
+      "profit": 0,
+      "price": 206.0,
+      "amount": 47.27488152,
+      "time": "2025-12-07T13:21:18.871990"
+    },
     {
       "type": "buy",
       "market": "KRW-REI",
@@ -946,14 +954,6 @@
       "price": 77.8,
       "amount": 125.53486031,
       "time": "2025-12-06T08:07:35.111108"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-GTC",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-06T08:07:33.924343"
     }
   ]
 }
