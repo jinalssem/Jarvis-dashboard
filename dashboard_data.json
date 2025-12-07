@@ -1,8 +1,8 @@
 {
   "today_profit": -8039.345594313304,
   "today_profit_percent": -27.578389497650768,
-  "total_profit": -683.6927257449158,
-  "total_profit_percent": -2.3453580973855823,
+  "total_profit": -7097.772930034309,
+  "total_profit_percent": -24.34839305438368,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,32 +157,40 @@
       "market": "KRW-BOBA",
       "amount": 146.00409836,
       "avg_price": 66.9,
-      "current_price": 66.74,
-      "value": 9744.3135245464,
-      "profit": -23.360655737601576,
-      "profit_rate": -0.002391629297459055
+      "current_price": 66.81,
+      "value": 9754.5338114316,
+      "profit": -13.140368852400497,
+      "profit_rate": -0.0013452914798206786
     },
     {
       "market": "KRW-REI",
       "amount": 1051.438811,
       "avg_price": 9.219,
-      "current_price": 9.071,
-      "value": 9537.601454581,
-      "profit": -155.61294402799967,
-      "profit_rate": -0.016053801930795066
+      "current_price": 9.026,
+      "value": 9490.286708086,
+      "profit": -202.9276905229996,
+      "profit_rate": -0.020935025490834105
     },
     {
       "market": "KRW-PUFFER",
       "amount": 95.0,
       "avg_price": 102.0,
-      "current_price": 102.0,
-      "value": 9690.0,
-      "profit": 0.0,
-      "profit_rate": 0.0
+      "current_price": 101.0,
+      "value": 9595.0,
+      "profit": -95.0,
+      "profit_rate": -0.00980392156862745
     }
   ],
-  "last_update": "2025-12-08T06:51:32.735297",
+  "last_update": "2025-12-08T06:57:27.910148",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-BOBA",
+      "profit": 0,
+      "price": 65.4,
+      "amount": 149.30399641,
+      "time": "2025-12-08T06:56:17.022596"
+    },
     {
       "type": "buy",
       "market": "KRW-REI",
@@ -974,14 +982,6 @@
       "price": 0,
       "amount": 0,
       "time": "2025-12-07T11:16:21.068705"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-UOS",
-      "profit": 6281.985744679594,
-      "price": 16.97,
-      "amount": 10298.33728636,
-      "time": "2025-12-07T11:16:21.065124"
     }
   ]
 }
