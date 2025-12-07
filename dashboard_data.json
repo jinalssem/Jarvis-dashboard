@@ -153,8 +153,16 @@
     "profit_rate": 0.0
   },
   "holdings": [],
-  "last_update": "2025-12-07T13:01:50.268933",
+  "last_update": "2025-12-07T13:08:16.747707",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-CVC",
+      "profit": 0,
+      "price": 69.0,
+      "amount": 141.60988075,
+      "time": "2025-12-07T13:07:07.453079"
+    },
     {
       "type": "sell",
       "market": "KRW-BOBA",
@@ -946,14 +954,6 @@
       "price": 204.0,
       "amount": 127.45808745,
       "time": "2025-12-06T08:07:33.920686"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-SAPIEN",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-06T06:16:46.509339"
     }
   ]
 }
