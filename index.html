@@ -2310,7 +2310,7 @@
             coinSelectListenerAdded = true;
         }
         
-        // 계속 보유 명령
+        // 계속 보유 명령 (HTTP 방식)
         async function sendHoldCommand() {
             const token = document.getElementById('securityToken').value;
             const coinInput = document.getElementById('holdingCoinSelect').value.trim().toUpperCase();
@@ -2346,17 +2346,38 @@
                 reason: 'manual_hold'     // 수동 보유
             };
             
-            console.log('📤 계속 보유 명령 생성 (강제 실행):', command);
+            console.log('📤 HTTP로 계속 보유 명령 전송:', command);
             
-            // command.json 다운로드
-            createCommandFile(command);
-            
-            showStatus(`✅ ${coinInput} 계속 보유 명령 생성!
+            try {
+                // HTTP POST 요청으로 명령 전송
+                const response = await fetch('http://localhost:8765/command', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(command)
+                });
+                
+                const result = await response.json();
+                
+                if (response.ok && result.status === 'success') {
+                    showStatus(`✅ ${coinInput} 계속 보유 명령 전송 성공!
 <br><small>🔐 이 코인은 자동 매도하지 않습니다.</small>
-<br><small>command.json 파일을 봇 폴더에 넣어주세요.</small>`, 'success');
+<br><small>${result.message}</small>`, 'success');
+                } else {
+                    showStatus(`❌ 명령 전송 실패: ${result.message || '알 수 없는 오류'}`, 'error');
+                }
+                
+            } catch (error) {
+                console.error('❌ HTTP 요청 오류:', error);
+                
+                // HTTP 서버 연결 실패 시 기존 방식 (파일 다운로드) 사용
+                showStatus(`⚠️ 봇 서버 연결 실패. 파일 다운로드 방식을 사용합니다.<br><small>command.json 파일을 봇 폴더에 넣어주세요.</small>`, 'warning');
+                createCommandFile(command);
+            }
         }
         
-        // 전량 매도 명령
+        // 전량 매도 명령 (HTTP 방식)
         async function sendSellCommand() {
             const token = document.getElementById('securityToken').value;
             const coinInput = document.getElementById('holdingCoinSelect').value.trim().toUpperCase();
@@ -2402,14 +2423,35 @@
                 reason: 'manual_sell'     // 수동 매도
             };
             
-            console.log('📤 전량 매도 명령 생성 (강제 실행):', command);
+            console.log('📤 HTTP로 전량 매도 명령 전송:', command);
             
-            // command.json 다운로드
-            createCommandFile(command);
-            
-            showStatus(`✅ ${coinInput} 전량 매도 명령 생성!
-<br><small>🔐 즉시 시장가로 매도합니다.</small>
-<br><small>command.json 파일을 봇 폴더에 넣어주세요.</small>`, 'success');
+            try {
+                // HTTP POST 요청으로 명령 전송
+                const response = await fetch('http://localhost:8765/command', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(command)
+                });
+                
+                const result = await response.json();
+                
+                if (response.ok && result.status === 'success') {
+                    showStatus(`✅ ${coinInput} 전량 매도 명령 전송 성공!
+<br><small>🔐 봇이 다음 사이클(60초 이내)에 즉시 매도합니다.</small>
+<br><small>${result.message}</small>`, 'success');
+                } else {
+                    showStatus(`❌ 명령 전송 실패: ${result.message || '알 수 없는 오류'}`, 'error');
+                }
+                
+            } catch (error) {
+                console.error('❌ HTTP 요청 오류:', error);
+                
+                // HTTP 서버 연결 실패 시 기존 방식 (파일 다운로드) 사용
+                showStatus(`⚠️ 봇 서버 연결 실패. 파일 다운로드 방식을 사용합니다.<br><small>command.json 파일을 봇 폴더에 넣어주세요.</small>`, 'warning');
+                createCommandFile(command);
+            }
         }
         
         // command.json 파일 생성 및 다운로드
