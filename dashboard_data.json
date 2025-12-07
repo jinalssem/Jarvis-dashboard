@@ -1,8 +1,8 @@
 {
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": -31830.097611455152,
-  "total_profit_percent": -108.93047367037272,
+  "total_profit": -32165.47021612515,
+  "total_profit_percent": -82.56196146134599,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,10 +157,10 @@
       "market": "KRW-ETH",
       "amount": 0.0021899,
       "avg_price": 4463000.0,
-      "current_price": 4464000.0,
-      "value": 9775.7136,
-      "profit": 2.1898999999999997,
-      "profit_rate": 0.00022406453058480843
+      "current_price": 4455000.0,
+      "value": 9756.0045,
+      "profit": -17.519199999999998,
+      "profit_rate": -0.0017925162446784674
     },
     {
       "market": "KRW-CTC",
@@ -175,14 +175,31 @@
       "market": "KRW-REI",
       "amount": 1051.438811,
       "avg_price": 9.219,
-      "current_price": 9.084,
-      "value": 9551.270159124,
-      "profit": -141.94423948499977,
-      "profit_rate": -0.014643670680117127
+      "current_price": 9.067,
+      "value": 9533.395699337,
+      "profit": -159.8186992719992,
+      "profit_rate": -0.016487688469465155
+    },
+    {
+      "market": "KRW-HUNT",
+      "amount": 47.27488152,
+      "avg_price": 206.0,
+      "current_price": 206.0,
+      "value": 9738.62559312,
+      "profit": 0.0,
+      "profit_rate": 0.0
     }
   ],
-  "last_update": "2025-12-08T00:39:39.447277",
+  "last_update": "2025-12-08T00:46:45.081745",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-A8",
+      "profit": 0,
+      "price": 74.5,
+      "amount": 131.07752957,
+      "time": "2025-12-08T00:45:29.409551"
+    },
     {
       "type": "buy",
       "market": "KRW-MOODENG",
@@ -974,14 +991,6 @@
       "price": 0,
       "amount": 0,
       "time": "2025-12-06T15:33:24.569834"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-ZRC",
-      "profit": 297.7890448830009,
-      "price": 11.08,
-      "amount": 1353.58656765,
-      "time": "2025-12-06T15:33:24.567478"
     }
   ]
 }
