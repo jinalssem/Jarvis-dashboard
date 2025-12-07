@@ -1,8 +1,8 @@
 {
   "today_profit": -8039.345594313304,
-  "today_profit_percent": -41.310269886816286,
-  "total_profit": -649.1643801185155,
-  "total_profit_percent": -3.335738640539723,
+  "today_profit_percent": -27.578389497650768,
+  "total_profit": -683.6927257449158,
+  "total_profit_percent": -2.3453580973855823,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,23 +157,40 @@
       "market": "KRW-BOBA",
       "amount": 146.00409836,
       "avg_price": 66.9,
-      "current_price": 66.53,
-      "value": 9713.6526638908,
-      "profit": -54.02151639320066,
-      "profit_rate": -0.005530642750373759
+      "current_price": 66.74,
+      "value": 9744.3135245464,
+      "profit": -23.360655737601576,
+      "profit_rate": -0.002391629297459055
     },
     {
       "market": "KRW-REI",
       "amount": 1051.438811,
       "avg_price": 9.219,
-      "current_price": 9.133,
-      "value": 9602.790660862998,
-      "profit": -90.42373774600031,
-      "profit_rate": -0.009328560581407994
+      "current_price": 9.071,
+      "value": 9537.601454581,
+      "profit": -155.61294402799967,
+      "profit_rate": -0.016053801930795066
+    },
+    {
+      "market": "KRW-PUFFER",
+      "amount": 95.0,
+      "avg_price": 102.0,
+      "current_price": 102.0,
+      "value": 9690.0,
+      "profit": 0.0,
+      "profit_rate": 0.0
     }
   ],
-  "last_update": "2025-12-08T06:45:41.285088",
+  "last_update": "2025-12-08T06:51:32.735297",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-REI",
+      "profit": 0,
+      "price": 8.89,
+      "amount": 1978.9485286,
+      "time": "2025-12-08T06:50:22.109126"
+    },
     {
       "type": "buy",
       "market": "KRW-PUFFER",
@@ -965,14 +982,6 @@
       "price": 16.97,
       "amount": 10298.33728636,
       "time": "2025-12-07T11:16:21.065124"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-BOA",
-      "profit": 0,
-      "price": 3.81,
-      "amount": 2564.26735219,
-      "time": "2025-12-07T11:00:22.832707"
     }
   ]
 }
