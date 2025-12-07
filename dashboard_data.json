@@ -163,8 +163,24 @@
       "profit_rate": 0.0044378698224853755
     }
   ],
-  "last_update": "2025-12-07T12:38:57.039320",
+  "last_update": "2025-12-07T12:43:25.726201",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-BOBA",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-07T12:43:25.725576"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-BOBA",
+      "profit": 105.44092093560057,
+      "price": 68.33,
+      "amount": 144.43961772,
+      "time": "2025-12-07T12:43:25.685581"
+    },
     {
       "type": "sell",
       "market": "KRW-UOS",
@@ -948,22 +964,6 @@
       "price": 0,
       "amount": 0,
       "time": "2025-12-06T06:16:46.509339"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-SAPIEN",
-      "profit": 6030.83333321,
-      "price": 259.0,
-      "amount": 861.54761903,
-      "time": "2025-12-06T06:16:46.507671"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-SAPIEN",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-06T05:43:36.515821"
     }
   ]
 }
