@@ -1,8 +1,8 @@
 {
-  "today_profit": 1115.7457246814577,
-  "today_profit_percent": 0.29190396621148734,
-  "total_profit": -17744.00163226343,
-  "total_profit_percent": -4.642226573979968,
+  "today_profit": -40889.25230713444,
+  "today_profit_percent": -22.9399262472127,
+  "total_profit": -19766.483790571732,
+  "total_profit_percent": -11.089507749285096,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -154,43 +154,25 @@
   },
   "holdings": [
     {
-      "market": "KRW-CVC",
-      "amount": 133.35561497,
-      "avg_price": 73.3,
-      "current_price": 70.53,
-      "value": 9405.5715238341,
-      "profit": -369.39505346689947,
-      "profit_rate": -0.037789904502046334
-    },
-    {
       "market": "KRW-UOS",
       "amount": 10298.33728636,
       "avg_price": 16.36,
-      "current_price": 16.35,
-      "value": 168377.81463198602,
-      "profit": -102.9833728635795,
-      "profit_rate": -0.0006112469437651596
+      "current_price": 16.68,
+      "value": 171776.2659364848,
+      "profit": 3295.467931635203,
+      "profit_rate": 0.019559902200489015
     },
     {
       "market": "KRW-BOBA",
       "amount": 144.43961772,
       "avg_price": 67.6,
-      "current_price": 67.59,
-      "value": 9762.673761694801,
-      "profit": -1.4443961771986864,
-      "profit_rate": -0.00014792899408270572
-    },
-    {
-      "market": "KRW-HEMI",
-      "amount": 6204.80915383,
-      "avg_price": 31.3,
-      "current_price": 25.48,
-      "value": 158098.5372395884,
-      "profit": -36111.9892752906,
-      "profit_rate": -0.18594249201277957
+      "current_price": 67.36,
+      "value": 9729.4526496192,
+      "profit": -34.66550825279926,
+      "profit_rate": -0.0035502958579880905
     }
   ],
-  "last_update": "2025-12-07T10:45:38.883882",
+  "last_update": "2025-12-07T10:46:51.135126",
   "trades": [
     {
       "type": "sell",
