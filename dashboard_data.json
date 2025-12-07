@@ -190,8 +190,24 @@
       "profit_rate": 0.0187122736418511
     }
   ],
-  "last_update": "2025-12-08T03:48:29.344427",
+  "last_update": "2025-12-08T03:54:00.590659",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-ELX",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-08T03:54:00.590027"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ELX",
+      "profit": 402.61370348649945,
+      "price": 51.75,
+      "amount": 196.39692853,
+      "time": "2025-12-08T03:54:00.571257"
+    },
     {
       "type": "buy",
       "market": "KRW-ELX",
@@ -975,22 +991,6 @@
       "price": 119.0,
       "amount": 82.43801653,
       "time": "2025-12-07T02:26:06.330831"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-TURBO",
-      "profit": 0,
-      "price": 3.19,
-      "amount": 2547.29337573,
-      "time": "2025-12-07T02:16:55.849220"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-PUFFER",
-      "profit": 0,
-      "price": 118.0,
-      "amount": 82.43801653,
-      "time": "2025-12-07T02:07:22.591758"
     }
   ]
 }
