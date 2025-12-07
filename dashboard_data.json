@@ -1,8 +1,8 @@
 {
   "today_profit": -40889.25230713444,
   "today_profit_percent": -22.9399262472127,
-  "total_profit": -22551.368046420528,
-  "total_profit_percent": -12.651899718605808,
+  "total_profit": -16082.027292873725,
+  "total_profit_percent": -9.02243252659856,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,23 +157,31 @@
       "market": "KRW-UOS",
       "amount": 10298.33728636,
       "avg_price": 16.36,
-      "current_price": 16.41,
-      "value": 168995.7148691676,
-      "profit": 514.9168643180074,
-      "profit_rate": 0.0030562347188264494
+      "current_price": 16.48,
+      "value": 169716.59847921281,
+      "profit": 1235.8004743632102,
+      "profit_rate": 0.007334963325183435
     },
     {
       "market": "KRW-BOBA",
       "amount": 144.43961772,
       "avg_price": 67.6,
-      "current_price": 67.33,
-      "value": 9725.1194610876,
-      "profit": -38.99869678439943,
-      "profit_rate": -0.003994082840236628
+      "current_price": 67.11,
+      "value": 9693.3427451892,
+      "profit": -70.77541268279926,
+      "profit_rate": -0.007248520710059096
     }
   ],
-  "last_update": "2025-12-07T10:53:43.839923",
+  "last_update": "2025-12-07T11:01:38.327136",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-BOA",
+      "profit": 0,
+      "price": 3.81,
+      "amount": 2564.26735219,
+      "time": "2025-12-07T11:00:22.832707"
+    },
     {
       "type": "buy",
       "market": "KRW-CTC",
@@ -965,14 +973,6 @@
       "price": 0,
       "amount": 0,
       "time": "2025-12-06T05:04:25.809774"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-SAPIEN",
-      "profit": -5780.233859399999,
-      "price": 253.0,
-      "amount": 550.4984628,
-      "time": "2025-12-06T05:04:25.805354"
     }
   ]
 }
