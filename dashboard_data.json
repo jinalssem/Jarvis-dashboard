@@ -1,8 +1,8 @@
 {
-  "today_profit": -35225.43976526845,
-  "today_profit_percent": -19.381760748676495,
-  "total_profit": -21920.159847417428,
-  "total_profit_percent": -12.06092234948573,
+  "today_profit": -32638.43332638201,
+  "today_profit_percent": -13.832786862236269,
+  "total_profit": -21548.39757978094,
+  "total_profit_percent": -9.132619447848949,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,22 +157,31 @@
       "market": "KRW-REI",
       "amount": 2119.08303662,
       "avg_price": 9.219,
-      "current_price": 9.201,
-      "value": 19497.683019940618,
-      "profit": -38.143494659157675,
-      "profit_rate": -0.0019524894240155013
+      "current_price": 9.22,
+      "value": 19537.9455976364,
+      "profit": 2.1190830366225897,
+      "profit_rate": 0.00010847163466766701
     },
     {
       "market": "KRW-DOOD",
       "amount": 20862.95515231,
       "avg_price": 7.775,
-      "current_price": 7.853,
-      "value": 163836.78681109045,
-      "profit": 1627.3105018801677,
-      "profit_rate": 0.010032154340835936
+      "current_price": 7.899,
+      "value": 164796.4827480967,
+      "profit": 2587.0064388864334,
+      "profit_rate": 0.015948553054662334
+    },
+    {
+      "market": "KRW-SAPIEN",
+      "amount": 231.64316239,
+      "avg_price": 234.0,
+      "current_price": 235.0,
+      "value": 54436.14316165,
+      "profit": 231.64316239,
+      "profit_rate": 0.004273504273504274
     }
   ],
-  "last_update": "2025-12-07T19:43:03.751165",
+  "last_update": "2025-12-07T19:44:44.755167",
   "trades": [
     {
       "type": "sell",
