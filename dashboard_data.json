@@ -1,8 +1,8 @@
 {
   "today_profit": -40889.25230713444,
   "today_profit_percent": -22.9399262472127,
-  "total_profit": -19766.483790571732,
-  "total_profit_percent": -11.089507749285096,
+  "total_profit": -22551.368046420528,
+  "total_profit_percent": -12.651899718605808,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,23 +157,31 @@
       "market": "KRW-UOS",
       "amount": 10298.33728636,
       "avg_price": 16.36,
-      "current_price": 16.68,
-      "value": 171776.2659364848,
-      "profit": 3295.467931635203,
-      "profit_rate": 0.019559902200489015
+      "current_price": 16.41,
+      "value": 168995.7148691676,
+      "profit": 514.9168643180074,
+      "profit_rate": 0.0030562347188264494
     },
     {
       "market": "KRW-BOBA",
       "amount": 144.43961772,
       "avg_price": 67.6,
-      "current_price": 67.36,
-      "value": 9729.4526496192,
-      "profit": -34.66550825279926,
-      "profit_rate": -0.0035502958579880905
+      "current_price": 67.33,
+      "value": 9725.1194610876,
+      "profit": -38.99869678439943,
+      "profit_rate": -0.003994082840236628
     }
   ],
-  "last_update": "2025-12-07T10:46:51.135126",
+  "last_update": "2025-12-07T10:53:43.839923",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-CTC",
+      "profit": 0,
+      "price": 441.0,
+      "amount": 22.11751663,
+      "time": "2025-12-07T10:52:30.511285"
+    },
     {
       "type": "sell",
       "market": "KRW-HEMI",
@@ -965,14 +973,6 @@
       "price": 253.0,
       "amount": 550.4984628,
       "time": "2025-12-06T05:04:25.805354"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-CVC",
-      "profit": 0,
-      "price": 79.0,
-      "amount": 72.29237675,
-      "time": "2025-12-06T04:50:35.551829"
     }
   ]
 }
