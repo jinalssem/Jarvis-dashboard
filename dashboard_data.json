@@ -1,8 +1,8 @@
 {
   "today_profit": -33354.62583880045,
   "today_profit_percent": -114.1477866662591,
-  "total_profit": -31768.48215278565,
-  "total_profit_percent": -108.7196103176989,
+  "total_profit": -31701.59504944765,
+  "total_profit_percent": -108.49070609195675,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,32 +157,40 @@
       "market": "KRW-ETH",
       "amount": 0.0021899,
       "avg_price": 4463000.0,
-      "current_price": 4395000.0,
-      "value": 9624.610499999999,
-      "profit": -148.9132,
-      "profit_rate": -0.015236388079766973
+      "current_price": 4402000.0,
+      "value": 9639.9398,
+      "profit": -133.5839,
+      "profit_rate": -0.013667936365673313
     },
     {
       "market": "KRW-CTC",
       "amount": 22.11751663,
       "avg_price": 441.0,
-      "current_price": 437.0,
-      "value": 9665.35476731,
-      "profit": -88.47006652,
-      "profit_rate": -0.009070294784580499
+      "current_price": 438.0,
+      "value": 9687.47228394,
+      "profit": -66.35254989,
+      "profit_rate": -0.006802721088435374
     },
     {
       "market": "KRW-REI",
       "amount": 1051.438811,
       "avg_price": 9.219,
-      "current_price": 8.943,
-      "value": 9403.017286773,
-      "profit": -290.1971118359998,
-      "profit_rate": -0.029938171168239484
+      "current_price": 8.971,
+      "value": 9432.457573481,
+      "profit": -260.7568251279993,
+      "profit_rate": -0.02690096539754847
     }
   ],
-  "last_update": "2025-12-07T23:33:10.213437",
+  "last_update": "2025-12-07T23:40:40.175327",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-ETH",
+      "profit": 0,
+      "price": 4323000.0,
+      "amount": 0.00226088,
+      "time": "2025-12-07T23:39:11.655514"
+    },
     {
       "type": "buy",
       "market": "KRW-CTC",
@@ -974,14 +982,6 @@
       "price": 11.03,
       "amount": 1353.58656765,
       "time": "2025-12-06T15:12:47.284768"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-SAPIEN",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-06T15:06:02.483298"
     }
   ]
 }
