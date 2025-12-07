@@ -1,8 +1,8 @@
 {
   "today_profit": 1382.8850564069003,
-  "today_profit_percent": 4.73563224927505,
-  "total_profit": -31764.753413829265,
-  "total_profit_percent": -108.77707439231898,
+  "today_profit_percent": 3.5508126477370636,
+  "total_profit": -31241.921856835073,
+  "total_profit_percent": -80.21940128350168,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,32 +157,49 @@
       "market": "KRW-BOA",
       "amount": 2564.26735219,
       "avg_price": 3.81,
-      "current_price": 3.801,
-      "value": 9746.780205674191,
-      "profit": -23.078406169709737,
-      "profit_rate": -0.002362204724409422
+      "current_price": 3.842,
+      "value": 9851.91516711398,
+      "profit": 82.05655527008008,
+      "profit_rate": 0.008398950131233603
+    },
+    {
+      "market": "KRW-UOS",
+      "amount": 624.6086412,
+      "avg_price": 15.6,
+      "current_price": 15.49,
+      "value": 9675.187852187999,
+      "profit": -68.70695053199964,
+      "profit_rate": -0.007051282051282015
     },
     {
       "market": "KRW-REI",
       "amount": 1051.438811,
       "avg_price": 9.219,
-      "current_price": 9.213,
-      "value": 9686.905765742998,
-      "profit": -6.308632866000239,
-      "profit_rate": -0.0006508298080052313
+      "current_price": 9.252,
+      "value": 9727.911879372,
+      "profit": 34.697480763001316,
+      "profit_rate": 0.0035795639440287723
     },
     {
       "market": "KRW-HUNT",
       "amount": 47.27488152,
       "avg_price": 206.0,
-      "current_price": 211.0,
-      "value": 9975.00000072,
-      "profit": 236.3744076,
-      "profit_rate": 0.024271844660194174
+      "current_price": 209.0,
+      "value": 9880.450237680001,
+      "profit": 141.82464456,
+      "profit_rate": 0.014563106796116505
     }
   ],
-  "last_update": "2025-12-08T02:17:07.862480",
+  "last_update": "2025-12-08T02:24:09.432479",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-BOA",
+      "profit": 0,
+      "price": 3.76,
+      "amount": 2596.30400833,
+      "time": "2025-12-08T02:22:54.867138"
+    },
     {
       "type": "sell",
       "market": "KRW-HUNT",
@@ -974,14 +991,6 @@
       "price": 0,
       "amount": 0,
       "time": "2025-12-07T00:04:57.413840"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-CPOOL",
-      "profit": -539.9471954974001,
-      "price": 60.61,
-      "amount": 225.91932866,
-      "time": "2025-12-07T00:04:57.400187"
     }
   ]
 }
