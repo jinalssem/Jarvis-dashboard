@@ -1034,73 +1034,6 @@
             }
         }
         
-        /* 🎥 YouTube 실시간 방송용 애니메이션 */
-        @keyframes newTrade {
-            0% {
-                background: rgba(255, 107, 53, 0.3);
-                transform: translateX(-10px);
-            }
-            50% {
-                background: rgba(255, 107, 53, 0.5);
-            }
-            100% {
-                background: transparent;
-                transform: translateX(0);
-            }
-        }
-        
-        @keyframes liveBlink {
-            0%, 100% {
-                opacity: 1;
-                color: #ff0000;
-            }
-            50% {
-                opacity: 0.3;
-                color: #ff6666;
-            }
-        }
-        
-        @keyframes tradeAlert {
-            0%, 100% {
-                transform: scale(1);
-            }
-            10%, 30%, 50% {
-                transform: scale(1.05);
-            }
-            20%, 40% {
-                transform: scale(0.95);
-            }
-        }
-        
-        .new-trade {
-            animation: newTrade 2s ease-out;
-            border-left: 3px solid #ff6b35 !important;
-        }
-        
-        .live-indicator {
-            animation: liveBlink 2s ease-in-out infinite;
-            font-weight: bold;
-            font-size: 0.9em;
-            margin-left: 5px;
-        }
-        
-        .trade-alert-banner {
-            position: fixed;
-            top: 80px;
-            left: 50%;
-            transform: translateX(-50%);
-            background: linear-gradient(135deg, #ff6b35, #f7931a);
-            color: white;
-            padding: 15px 30px;
-            border-radius: 10px;
-            font-size: 1.1em;
-            font-weight: bold;
-            z-index: 9999;
-            box-shadow: 0 4px 20px rgba(255, 107, 53, 0.5);
-            animation: tradeAlert 0.5s ease-out;
-            display: none;
-        }
-        
         .update-indicator {
             display: inline-block;
             width: 8px;
@@ -1160,7 +1093,6 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 </head>
 <body>
-    <!-- 🎥 YouTube 실시간 방송용: 거래 알림 배너 -->
     
     <div class="loading-overlay" id="loadingOverlay">
         <div class="loading-spinner">🔥</div>
@@ -1309,9 +1241,6 @@
         let currentHoldings = [];
         let currentSortOrder = 'name';
         let coinPositions = [];
-        
-        // 🎥 YouTube 실시간 방송용: 새 거래 감지
-        let lastTrades = [];
 
         function updateClock() {
             const now = new Date();
@@ -1320,56 +1249,6 @@
         }
         setInterval(updateClock, 1000);
         updateClock();
-        
-        // 🎥 YouTube 실시간 방송용: 거래 알림 표시
-        function showTradeAlert(trade) {
-            const banner = document.getElementById('tradeAlertBanner');
-            const isBuy = trade.type === 'buy';
-            const coin = trade.market.replace('KRW-', '');
-            const profit = trade.profit || 0;
-            
-            let message = '';
-            if (isBuy) {
-                message = `🔥 새 거래! ${coin} 매수!`;
-            } else {
-                const profitText = profit >= 0 ? `+${formatNumber(profit)}원 수익!` : `${formatNumber(profit)}원`;
-                message = `💰 새 거래! ${coin} 매도 ${profitText}`;
-            }
-            
-            banner.textContent = message;
-            banner.style.display = 'block';
-            
-            // 3초 후 자동 숨김
-            setTimeout(() => {
-                banner.style.display = 'none';
-            }, 3000);
-        }
-        
-        // 🎥 YouTube 실시간 방송용: 새 거래 감지
-        function detectNewTrades(trades) {
-            if (lastTrades.length === 0) {
-                lastTrades = [...trades];
-                return;
-            }
-            
-            // 새로운 거래 찾기
-            const newTrades = trades.filter(trade => {
-                return !lastTrades.some(lastTrade => 
-                    lastTrade.time === trade.time && 
-                    lastTrade.market === trade.market
-                );
-            });
-            
-            // 새 거래가 있으면 알림
-            if (newTrades.length > 0) {
-                console.log('🎥 새 거래 감지!', newTrades);
-                newTrades.forEach(trade => {
-                    showTradeAlert(trade);
-                });
-            }
-            
-            lastTrades = [...trades];
-        }
 
         // 수익 차트 초기화
         let profitChart = null;
@@ -2189,9 +2068,6 @@
                 });
                 const trades = sortedTrades.slice(0, 4);
                 
-                // 🎥 YouTube 실시간 방송용: 새 거래 감지
-                detectNewTrades(trades);
-                
                 const tradesList = document.getElementById('tradesList');
                 tradesList.innerHTML = '';
 
@@ -2571,7 +2447,7 @@
         // ============ 수동 거래 기능 끝 ============
 
         updateDashboard();
-        // 🎥 YouTube 실시간 방송용: 10초마다 업데이트
+        // 10초마다 자동 업데이트
         setInterval(updateDashboard, 10000);
         
         // 차트 항상 초기화
