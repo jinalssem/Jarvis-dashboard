@@ -1,8 +1,8 @@
 {
   "today_profit": 2203.5311478445024,
-  "today_profit_percent": 11.321826872444243,
-  "total_profit": -28912.570102403355,
-  "total_profit_percent": -148.55388518425337,
+  "today_profit_percent": 7.537066112375674,
+  "total_profit": -29371.377858474054,
+  "total_profit_percent": -100.46330270730888,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -154,25 +154,34 @@
   },
   "holdings": [
     {
+      "market": "KRW-NMR",
+      "amount": 0.59339679,
+      "avg_price": 16470.0,
+      "current_price": 16560.0,
+      "value": 9826.6508424,
+      "profit": 53.4057111,
+      "profit_rate": 0.00546448087431694
+    },
+    {
       "market": "KRW-REI",
       "amount": 1051.438811,
       "avg_price": 9.219,
-      "current_price": 9.312,
-      "value": 9790.998208031999,
-      "profit": 97.78380942299997,
-      "profit_rate": 0.0100878620240807
+      "current_price": 9.311,
+      "value": 9789.946769221,
+      "profit": 96.73237061200055,
+      "profit_rate": 0.009979390389413227
     },
     {
       "market": "KRW-A8",
       "amount": 133.46267059,
       "avg_price": 73.2,
-      "current_price": 78.82,
-      "value": 10519.527695903798,
-      "profit": 750.0602087157987,
-      "profit_rate": 0.07677595628415287
+      "current_price": 74.99,
+      "value": 10008.365667544098,
+      "profit": 238.89818035609892,
+      "profit_rate": 0.024453551912568195
     }
   ],
-  "last_update": "2025-12-08T03:27:49.179384",
+  "last_update": "2025-12-08T03:34:44.890774",
   "trades": [
     {
       "type": "buy",
