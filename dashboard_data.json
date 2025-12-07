@@ -1,8 +1,8 @@
 {
   "today_profit": -34501.82564151925,
-  "today_profit_percent": -353.2176187103973,
-  "total_profit": -22437.37597667594,
-  "total_profit_percent": -229.70600439920284,
+  "today_profit_percent": -55.30701630493006,
+  "total_profit": -23114.426436766615,
+  "total_profit_percent": -37.05282071447697,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,13 +157,22 @@
       "market": "KRW-REI",
       "amount": 1051.438811,
       "avg_price": 9.29,
-      "current_price": 9.343,
-      "value": 9823.592811172999,
-      "profit": 55.726256983000866,
-      "profit_rate": 0.005705059203444654
+      "current_price": 9.379,
+      "value": 9861.444608369,
+      "profit": 93.57805417900043,
+      "profit_rate": 0.009580193756727709
+    },
+    {
+      "market": "KRW-XYO",
+      "amount": 5765.34078457,
+      "avg_price": 9.126,
+      "current_price": 9.002,
+      "value": 51899.597742699145,
+      "profit": -714.902257286673,
+      "profit_rate": -0.013587552049090377
     }
   ],
-  "last_update": "2025-12-07T15:37:33.229543",
+  "last_update": "2025-12-07T15:45:27.660770",
   "trades": [
     {
       "type": "buy",
