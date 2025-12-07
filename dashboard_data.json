@@ -1,8 +1,8 @@
 {
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": -31631.599051054152,
-  "total_profit_percent": -108.2511624577176,
+  "total_profit": -31850.284373849154,
+  "total_profit_percent": -108.99955776858354,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,32 +157,40 @@
       "market": "KRW-ETH",
       "amount": 0.0021899,
       "avg_price": 4463000.0,
-      "current_price": 4430000.0,
-      "value": 9701.257,
-      "profit": -72.2667,
-      "profit_rate": -0.007394129509298678
+      "current_price": 4437000.0,
+      "value": 9716.586299999999,
+      "profit": -56.9374,
+      "profit_rate": -0.005825677795205019
     },
     {
       "market": "KRW-CTC",
       "amount": 22.11751663,
       "avg_price": 441.0,
-      "current_price": 441.0,
-      "value": 9753.82483383,
-      "profit": 0.0,
-      "profit_rate": 0.0
+      "current_price": 442.0,
+      "value": 9775.94235046,
+      "profit": 22.11751663,
+      "profit_rate": 0.0022675736961451248
     },
     {
       "market": "KRW-REI",
       "amount": 1051.438811,
       "avg_price": 9.219,
-      "current_price": 9.135,
-      "value": 9604.893538485,
-      "profit": -88.32086012399961,
-      "profit_rate": -0.009111617312072853
+      "current_price": 9.1,
+      "value": 9568.093180099999,
+      "profit": -125.12121850899976,
+      "profit_rate": -0.012908124525436574
     }
   ],
-  "last_update": "2025-12-08T00:25:02.068423",
+  "last_update": "2025-12-08T00:32:31.841904",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-XYO",
+      "profit": 0,
+      "price": 8.62,
+      "amount": 1133.52272727,
+      "time": "2025-12-08T00:31:18.559918"
+    },
     {
       "type": "buy",
       "market": "KRW-SUNDOG",
@@ -974,14 +982,6 @@
       "price": 0,
       "amount": 0,
       "time": "2025-12-06T15:19:43.309007"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-RECALL",
-      "profit": 219.33178103999998,
-      "price": 184.0,
-      "amount": 73.11059368,
-      "time": "2025-12-06T15:19:43.307186"
     }
   ]
 }
