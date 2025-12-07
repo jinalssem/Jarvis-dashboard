@@ -1,8 +1,8 @@
 {
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": -31850.284373849154,
-  "total_profit_percent": -108.99955776858354,
+  "total_profit": -31830.097611455152,
+  "total_profit_percent": -108.93047367037272,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,32 +157,40 @@
       "market": "KRW-ETH",
       "amount": 0.0021899,
       "avg_price": 4463000.0,
-      "current_price": 4437000.0,
-      "value": 9716.586299999999,
-      "profit": -56.9374,
-      "profit_rate": -0.005825677795205019
+      "current_price": 4464000.0,
+      "value": 9775.7136,
+      "profit": 2.1898999999999997,
+      "profit_rate": 0.00022406453058480843
     },
     {
       "market": "KRW-CTC",
       "amount": 22.11751663,
       "avg_price": 441.0,
-      "current_price": 442.0,
-      "value": 9775.94235046,
-      "profit": 22.11751663,
-      "profit_rate": 0.0022675736961451248
+      "current_price": 441.0,
+      "value": 9753.82483383,
+      "profit": 0.0,
+      "profit_rate": 0.0
     },
     {
       "market": "KRW-REI",
       "amount": 1051.438811,
       "avg_price": 9.219,
-      "current_price": 9.1,
-      "value": 9568.093180099999,
-      "profit": -125.12121850899976,
-      "profit_rate": -0.012908124525436574
+      "current_price": 9.084,
+      "value": 9551.270159124,
+      "profit": -141.94423948499977,
+      "profit_rate": -0.014643670680117127
     }
   ],
-  "last_update": "2025-12-08T00:32:31.841904",
+  "last_update": "2025-12-08T00:39:39.447277",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-MOODENG",
+      "profit": 0,
+      "price": 130.0,
+      "amount": 75.0,
+      "time": "2025-12-08T00:38:24.732631"
+    },
     {
       "type": "buy",
       "market": "KRW-XYO",
@@ -974,14 +982,6 @@
       "price": 11.08,
       "amount": 1353.58656765,
       "time": "2025-12-06T15:33:24.567478"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-RECALL",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-06T15:19:43.309007"
     }
   ]
 }
