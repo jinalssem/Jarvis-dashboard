@@ -181,8 +181,24 @@
       "profit_rate": 0.008547008547008548
     }
   ],
-  "last_update": "2025-12-07T19:58:41.611850",
+  "last_update": "2025-12-07T20:04:30.619191",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-REI",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-07T20:04:30.618529"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-REI",
+      "profit": -34.16461521984002,
+      "price": 9.187,
+      "amount": 1067.6442256199998,
+      "time": "2025-12-07T20:04:30.601570"
+    },
     {
       "type": "sell",
       "market": "KRW-DOOD",
@@ -966,22 +982,6 @@
       "price": 1.77,
       "amount": 5501.93050193,
       "time": "2025-12-06T12:31:14.585432"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-ZRC",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-06T11:50:25.583232"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-ZRC",
-      "profit": 6721.349404266879,
-      "price": 11.19,
-      "amount": 17234.22924171,
-      "time": "2025-12-06T11:50:25.580389"
     }
   ]
 }
