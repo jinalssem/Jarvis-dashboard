@@ -1,8 +1,8 @@
 {
   "today_profit": -3999.544633590702,
-  "today_profit_percent": -399954.4633590702,
-  "total_profit": -3999.544633590702,
-  "total_profit_percent": -399954.4633590702,
+  "today_profit_percent": -3.79355363543351,
+  "total_profit": -4132.086922419699,
+  "total_profit_percent": -3.9192695175399463,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -152,8 +152,18 @@
     "profit": 0,
     "profit_rate": 0.0
   },
-  "holdings": [],
-  "last_update": "2025-12-08T22:38:06.336076",
+  "holdings": [
+    {
+      "market": "KRW-ONDO",
+      "amount": 147.26920981,
+      "avg_price": 715.9,
+      "current_price": 715.0,
+      "value": 105297.48501415,
+      "profit": -132.54228882899665,
+      "profit_rate": -0.0012571588210643627
+    }
+  ],
+  "last_update": "2025-12-08T22:43:44.211826",
   "trades": [
     {
       "type": "buy",
