@@ -1,8 +1,8 @@
 {
   "today_profit": -3999.544633590702,
-  "today_profit_percent": -399954.4633590702,
-  "total_profit": -3999.544633590702,
-  "total_profit_percent": -399954.4633590702,
+  "today_profit_percent": -40.917318454329646,
+  "total_profit": -4029.589814310702,
+  "total_profit_percent": -41.22469550350998,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -152,8 +152,18 @@
     "profit": 0,
     "profit_rate": 0.0
   },
-  "holdings": [],
-  "last_update": "2025-12-08T22:49:23.149674",
+  "holdings": [
+    {
+      "market": "KRW-PIEVERSE",
+      "amount": 10.01506024,
+      "avg_price": 976.0,
+      "current_price": 973.0,
+      "value": 9744.65361352,
+      "profit": -30.04518072,
+      "profit_rate": -0.0030737704918032786
+    }
+  ],
+  "last_update": "2025-12-08T22:55:04.516709",
   "trades": [
     {
       "type": "buy",
