@@ -1,8 +1,8 @@
 {
   "today_profit": -1016.3844033997102,
   "today_profit_percent": -5.207658589502852,
-  "total_profit": -5670.244567490412,
-  "total_profit_percent": -29.05268688470879,
+  "total_profit": -5733.431092213812,
+  "total_profit_percent": -29.376436292035386,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,23 +157,31 @@
       "market": "KRW-ACE",
       "amount": 27.40384615,
       "avg_price": 356.0,
-      "current_price": 358.0,
-      "value": 9810.5769217,
-      "profit": 54.8076923,
-      "profit_rate": 0.0056179775280898875
+      "current_price": 356.0,
+      "value": 9755.7692294,
+      "profit": 0.0,
+      "profit_rate": 0.0
     },
     {
       "market": "KRW-HEMI",
       "amount": 418.94162117,
       "avg_price": 23.3,
-      "current_price": 23.3,
-      "value": 9761.339773261001,
-      "profit": 0.0,
-      "profit_rate": 0.0
+      "current_price": 23.28,
+      "value": 9752.960940837602,
+      "profit": -8.378832423399821,
+      "profit_rate": -0.000858369098712428
     }
   ],
-  "last_update": "2025-12-09T00:40:32.209826",
+  "last_update": "2025-12-09T00:46:23.270545",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-BLY",
+      "profit": 0,
+      "price": 2.86,
+      "amount": 3409.09090909,
+      "time": "2025-12-09T00:45:12.601147"
+    },
     {
       "type": "buy",
       "market": "KRW-ETH",
@@ -965,14 +973,6 @@
       "price": 75.67,
       "amount": 131.07752957,
       "time": "2025-12-08T02:08:04.984960"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-HUNT",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-08T01:53:05.684054"
     }
   ]
 }
