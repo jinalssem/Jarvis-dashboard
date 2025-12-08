@@ -1,8 +1,8 @@
 {
   "today_profit": -3829.429097849705,
-  "today_profit_percent": -14.09361720389267,
-  "total_profit": -5136.3036008781455,
-  "total_profit_percent": -18.903365212950384,
+  "today_profit_percent": -4.625033259100169,
+  "total_profit": -4531.759324104891,
+  "total_profit_percent": -5.4732799748118035,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -154,17 +154,34 @@
   },
   "holdings": [
     {
+      "market": "KRW-TEMCO",
+      "amount": 48923.92260334,
+      "avg_price": 1.137,
+      "current_price": 1.15,
+      "value": 56262.510993840995,
+      "profit": 636.0109938434151,
+      "profit_rate": 0.01143359718557599
+    },
+    {
       "market": "KRW-SUPER",
       "amount": 65.63133229,
       "avg_price": 414.0,
-      "current_price": 405.0,
-      "value": 26580.68957745,
-      "profit": -590.6819906100001,
-      "profit_rate": -0.021739130434782608
+      "current_price": 404.0,
+      "value": 26515.058245160002,
+      "profit": -656.3133229,
+      "profit_rate": -0.024154589371980676
     }
   ],
-  "last_update": "2025-12-08T15:56:26.812032",
+  "last_update": "2025-12-08T16:01:52.177628",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-EVZ",
+      "profit": 0,
+      "price": 0.83,
+      "amount": 11665.30230382,
+      "time": "2025-12-08T16:00:43.068747"
+    },
     {
       "type": "buy",
       "market": "KRW-XION",
@@ -956,14 +973,6 @@
       "price": 0,
       "amount": 0,
       "time": "2025-12-07T20:04:30.618529"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-REI",
-      "profit": -34.16461521984002,
-      "price": 9.187,
-      "amount": 1067.6442256199998,
-      "time": "2025-12-07T20:04:30.601570"
     }
   ]
 }
