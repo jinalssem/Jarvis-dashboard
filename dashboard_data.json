@@ -190,8 +190,40 @@
       "profit_rate": 0.015111111111111112
     }
   ],
-  "last_update": "2025-12-08T09:42:51.535815",
+  "last_update": "2025-12-08T09:47:26.351573",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-BOBA",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-08T09:47:26.351250"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-BOBA",
+      "profit": -46.72131147520108,
+      "price": 66.58,
+      "amount": 146.00409836,
+      "time": "2025-12-08T09:47:26.350177"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-PUFFER",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-08T09:47:25.069427"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-PUFFER",
+      "profit": 0.0,
+      "price": 102.0,
+      "amount": 95.0,
+      "time": "2025-12-08T09:47:25.065402"
+    },
     {
       "type": "sell",
       "market": "KRW-PIEVERSE",
@@ -959,38 +991,6 @@
       "price": 0,
       "amount": 0,
       "time": "2025-12-07T16:58:12.302637"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-XYO",
-      "profit": 313.8905310728003,
-      "price": 9.026,
-      "amount": 1783.46892655,
-      "time": "2025-12-07T16:58:12.298051"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-REI",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-07T16:51:34.114672"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-REI",
-      "profit": 250.2424370180014,
-      "price": 9.528,
-      "amount": 1051.438811,
-      "time": "2025-12-07T16:51:34.062109"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-REI",
-      "profit": 0,
-      "price": 9.15,
-      "amount": 1067.64422562,
-      "time": "2025-12-07T15:36:19.239114"
     }
   ]
 }
