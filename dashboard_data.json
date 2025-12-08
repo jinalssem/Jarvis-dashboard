@@ -1,8 +1,8 @@
 {
   "today_profit": 984.8833538859907,
-  "today_profit_percent": 2.4628493892316543,
-  "total_profit": 8043.8677260984905,
-  "total_profit_percent": 20.11490461090194,
+  "today_profit_percent": 4.049890288862283,
+  "total_profit": 7297.357030012589,
+  "total_profit_percent": 30.007102113769697,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,32 +157,31 @@
       "market": "KRW-DYDX",
       "amount": 15.78992407,
       "avg_price": 299.1,
-      "current_price": 304.0,
-      "value": 4800.13691728,
-      "profit": 77.37062794299963,
-      "profit_rate": 0.016382480775660235
+      "current_price": 302.0,
+      "value": 4768.55706914,
+      "profit": 45.79077980299964,
+      "profit_rate": 0.009695753928451945
     },
     {
       "market": "KRW-FXS",
       "amount": 17.08456843,
       "avg_price": 1147.0,
-      "current_price": 1156.0,
-      "value": 19749.76110508,
-      "profit": 153.76111587,
-      "profit_rate": 0.007846556233653008
-    },
-    {
-      "market": "KRW-PUMPBTC",
-      "amount": 351.75809074,
-      "avg_price": 44.55,
-      "current_price": 45.75,
-      "value": 16092.932651355,
-      "profit": 422.109708888001,
-      "profit_rate": 0.026936026936027
+      "current_price": 1153.0,
+      "value": 19698.50739979,
+      "profit": 102.50741058,
+      "profit_rate": 0.0052310374891020054
     }
   ],
-  "last_update": "2025-12-09T08:07:35.585607",
+  "last_update": "2025-12-09T08:13:28.661976",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-BTC",
+      "profit": 0,
+      "price": 132575000.0,
+      "amount": 7.958e-05,
+      "time": "2025-12-09T08:12:17.904607"
+    },
     {
       "type": "sell",
       "market": "KRW-PUMPBTC",
@@ -974,14 +973,6 @@
       "price": 0,
       "amount": 0,
       "time": "2025-12-08T05:06:45.442871"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-A8",
-      "profit": 241.56743376790027,
-      "price": 75.01,
-      "amount": 133.46267059,
-      "time": "2025-12-08T05:06:45.438928"
     }
   ]
 }
