@@ -1,8 +1,8 @@
 {
   "today_profit": -785.2759486604106,
-  "today_profit_percent": -4.030283734249096,
-  "total_profit": -6673.310428325614,
-  "total_profit_percent": -34.24953294285391,
+  "today_profit_percent": -2.6860708369907527,
+  "total_profit": -6616.756176122015,
+  "total_profit_percent": -22.6329048157894,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -163,16 +163,25 @@
       "profit_rate": -0.009836065573770493
     },
     {
+      "market": "KRW-XYO",
+      "amount": 975.07331378,
+      "avg_price": 10.0,
+      "current_price": 10.12,
+      "value": 9867.7419354536,
+      "profit": 117.00879765359925,
+      "profit_rate": 0.011999999999999922
+    },
+    {
       "market": "KRW-PARTI",
       "amount": 60.45454545,
       "avg_price": 161.0,
-      "current_price": 160.0,
-      "value": 9672.727272,
-      "profit": -60.45454545,
-      "profit_rate": -0.006211180124223602
+      "current_price": 159.0,
+      "value": 9612.27272655,
+      "profit": -120.9090909,
+      "profit_rate": -0.012422360248447204
     }
   ],
-  "last_update": "2025-12-09T03:53:43.927746",
+  "last_update": "2025-12-09T04:00:48.879286",
   "trades": [
     {
       "type": "buy",
