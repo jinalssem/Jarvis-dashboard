@@ -153,8 +153,16 @@
     "profit_rate": 0.0
   },
   "holdings": [],
-  "last_update": "2025-12-08T18:40:26.647038",
+  "last_update": "2025-12-08T18:45:45.830846",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-PARTI",
+      "profit": 0,
+      "price": 161.0,
+      "amount": 60.45454545,
+      "time": "2025-12-08T18:44:37.318146"
+    },
     {
       "type": "buy",
       "market": "KRW-ANIME",
@@ -946,14 +954,6 @@
       "price": 4522000.0,
       "amount": 0.0021899,
       "time": "2025-12-08T01:00:31.431458"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-A8",
-      "profit": 0,
-      "price": 74.5,
-      "amount": 131.07752957,
-      "time": "2025-12-08T00:45:29.409551"
     }
   ]
 }
