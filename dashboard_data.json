@@ -1,8 +1,8 @@
 {
-  "today_profit": -3844.7220171807016,
-  "today_profit_percent": -384472.20171807014,
-  "total_profit": -3844.7220171807016,
-  "total_profit_percent": -384472.20171807014,
+  "today_profit": -3999.544633590702,
+  "today_profit_percent": -399954.4633590702,
+  "total_profit": -3999.544633590702,
+  "total_profit_percent": -399954.4633590702,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -153,8 +153,16 @@
     "profit_rate": 0.0
   },
   "holdings": [],
-  "last_update": "2025-12-08T22:31:52.927720",
+  "last_update": "2025-12-08T22:38:06.336076",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-ACE",
+      "profit": 0,
+      "price": 356.0,
+      "amount": 27.40384615,
+      "time": "2025-12-08T22:36:57.099450"
+    },
     {
       "type": "buy",
       "market": "KRW-SUNDOG",
@@ -946,14 +954,6 @@
       "price": 0,
       "amount": 0,
       "time": "2025-12-08T01:00:33.371699"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-CTC",
-      "profit": 154.82261641,
-      "price": 448.0,
-      "amount": 22.11751663,
-      "time": "2025-12-08T01:00:33.369490"
     }
   ]
 }
