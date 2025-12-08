@@ -172,8 +172,24 @@
       "profit_rate": 0.017418032786885244
     }
   ],
-  "last_update": "2025-12-08T23:59:17.526335",
+  "last_update": "2025-12-09T00:03:57.603419",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-WIKEN",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-09T00:03:57.602938"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-WIKEN",
+      "profit": -1116.5350057997102,
+      "price": 3.291,
+      "amount": 7111.68793503,
+      "time": "2025-12-09T00:03:57.599586"
+    },
     {
       "type": "buy",
       "market": "KRW-ACE",
@@ -957,22 +973,6 @@
       "price": 212.0,
       "amount": 47.27488152,
       "time": "2025-12-08T01:23:06.906962"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-A8",
-      "profit": 0,
-      "price": 73.2,
-      "amount": 133.46267059,
-      "time": "2025-12-08T01:15:42.417227"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-CTC",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-08T01:00:33.371699"
     }
   ]
 }
