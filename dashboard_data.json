@@ -1,8 +1,8 @@
 {
   "today_profit": -894.8913332604106,
-  "today_profit_percent": -4.585163371985058,
-  "total_profit": -5898.859801310812,
-  "total_profit_percent": -30.22404496745163,
+  "today_profit_percent": -9.172944872082098,
+  "total_profit": -5856.2750760980125,
+  "total_profit_percent": -60.02883973976684,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,23 +157,22 @@
       "market": "KRW-ACE",
       "amount": 27.40384615,
       "avg_price": 356.0,
-      "current_price": 357.0,
-      "value": 9783.17307555,
-      "profit": 27.40384615,
-      "profit_rate": 0.0028089887640449437
-    },
-    {
-      "market": "KRW-HEMI",
-      "amount": 418.94162117,
-      "avg_price": 23.3,
-      "current_price": 23.46,
-      "value": 9828.3704326482,
-      "profit": 67.03065938720006,
-      "profit_rate": 0.0068669527896995765
+      "current_price": 361.0,
+      "value": 9892.788460149999,
+      "profit": 137.01923075,
+      "profit_rate": 0.014044943820224719
     }
   ],
-  "last_update": "2025-12-09T01:28:19.237279",
+  "last_update": "2025-12-09T01:34:15.529018",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-DYDX",
+      "profit": 0,
+      "price": 305.0,
+      "amount": 31.97115385,
+      "time": "2025-12-09T01:33:05.659396"
+    },
     {
       "type": "sell",
       "market": "KRW-HEMI",
@@ -965,14 +964,6 @@
       "price": 3.76,
       "amount": 2596.30400833,
       "time": "2025-12-08T02:22:54.867138"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-HUNT",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-08T02:08:06.721966"
     }
   ]
 }
