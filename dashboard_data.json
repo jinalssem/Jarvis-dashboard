@@ -163,8 +163,24 @@
       "profit_rate": 0.03833383640205255
     }
   ],
-  "last_update": "2025-12-08T18:18:54.172559",
+  "last_update": "2025-12-08T18:23:07.388368",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-PIEVERSE",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-08T18:23:07.387768"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-PIEVERSE",
+      "profit": 590.5537218980005,
+      "price": 1024.0,
+      "amount": 19.61972498,
+      "time": "2025-12-08T18:23:07.383775"
+    },
     {
       "type": "sell",
       "market": "KRW-PIEVERSE",
@@ -948,22 +964,6 @@
       "price": 130.0,
       "amount": 75.0,
       "time": "2025-12-08T00:38:24.732631"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-XYO",
-      "profit": 0,
-      "price": 8.62,
-      "amount": 1133.52272727,
-      "time": "2025-12-08T00:31:18.559918"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-SUNDOG",
-      "profit": 0,
-      "price": 16.5,
-      "amount": 591.63701068,
-      "time": "2025-12-08T00:16:17.791871"
     }
   ]
 }
