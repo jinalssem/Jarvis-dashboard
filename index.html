@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
     <title>🔥 빗썸 불멍 대시보드 | 실시간 암호화폐 거래 현황 | Bithumb Trading Dashboard</title>
     
     <!-- SEO Meta Tags -->
@@ -532,7 +535,7 @@
             border-radius: 16px;
             padding: 15px;
             box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-            min-height: 125px;
+            min-height: 90px;
         }
 
         .profit-card h3 {
@@ -695,7 +698,7 @@
             border-radius: 20px;
             padding: 15px;
             box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-            min-height: 240px;
+            min-height: 300px;
             display: flex;
             flex-direction: column;
         }
@@ -778,7 +781,7 @@
             border-radius: 20px;
             padding: 12px;
             box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-            min-height: 260px;
+            min-height: 350px;
         }
 
         .chart-section h2 {
@@ -788,7 +791,7 @@
         }
 
         #profitChart {
-            max-height: 210px;
+            max-height: 300px;
         }
 
         /* 보유 코인 관리 패널 - 워드클라우드 너비에 맞춤 */
@@ -1194,16 +1197,14 @@
         <div class="right-column">
         <div class="profit-card">
             <h3>🌅 오늘 손익</h3>
-            <div class="profit-amount" id="todayProfit">0원</div>
-            <div class="profit-percent" id="todayProfitPercent">(0.00%)</div>
-            <div class="profit-percent" id="todayToTotalRatio" style="font-size: 0.85em; margin-top: 5px; color: #95a5a6;">오늘/누적: 0.00%</div>
+            <div class="profit-date" id="todayProfitDate">2025.12.08부터</div>
+            <div class="profit-amount" id="todayProfit">0원 (0.00%)</div>
         </div>
 
         <div class="profit-card">
             <h3>📊 누적 손익</h3>
-            <div class="profit-date">2025.11.29부터</div>
-            <div class="profit-amount" id="totalProfit">0원</div>
-            <div class="profit-percent" id="totalProfitPercent">(0.00%)</div>
+            <div class="profit-date" id="totalProfitDate">2025.12.08부터</div>
+            <div class="profit-amount" id="totalProfit">0원 (0.00%)</div>
         </div>
 
         <div class="chart-section">
@@ -2024,22 +2025,16 @@
                     totalPercent = totalPercent * 100;
                 }
 
-                document.getElementById('todayProfit').textContent = (todayProfit >= 0 ? '+' : '') + formatNumber(todayProfit) + '원';
-                document.getElementById('todayProfit').style.color = todayProfit >= 0 ? '#ff6b6b' : '#4ecdc4';
-                document.getElementById('todayProfitPercent').textContent = '(' + formatPercent(todayPercent) + ')';
+                document.getElementById('todayProfit').textContent = (todayProfit >= 0 ? '+' : '') + formatNumber(todayProfit) + '원 (' + formatPercent(todayPercent) + ')';
+                document.getElementById('todayProfit').style.color = todayProfit >= 0 ? '#4ade80' : '#ff6b6b';
 
-                document.getElementById('totalProfit').textContent = (totalProfit >= 0 ? '+' : '') + formatNumber(totalProfit) + '원';
-                document.getElementById('totalProfit').style.color = totalProfit >= 0 ? '#ff6b6b' : '#4ecdc4';
-                document.getElementById('totalProfitPercent').textContent = '(' + formatPercent(totalPercent) + ')';
-
-                // 오늘 손익 / 누적 손익 비율 계산
-                let todayToTotalRatio = 0;
-                if (totalProfit !== 0) {
-                    todayToTotalRatio = (todayProfit / totalProfit) * 100;
-                }
-                const ratioElement = document.getElementById('todayToTotalRatio');
-                ratioElement.textContent = `오늘/누적: ${todayToTotalRatio >= 0 ? '+' : ''}${todayToTotalRatio.toFixed(4)}%`;
-                ratioElement.style.color = todayToTotalRatio >= 0 ? '#ff6b6b' : '#4ecdc4';
+                document.getElementById('totalProfit').textContent = (totalProfit >= 0 ? '+' : '') + formatNumber(totalProfit) + '원 (' + formatPercent(totalPercent) + ')';
+                document.getElementById('totalProfit').style.color = totalProfit >= 0 ? '#4ade80' : '#ff6b6b';
+                
+                // 날짜 업데이트 (오늘 날짜)
+                const todayDate = new Date().toLocaleDateString('ko-KR', {year: 'numeric', month: '2-digit', day: '2-digit'}).replace(/\. /g, '.').replace('.', '');
+                document.getElementById('todayProfitDate').textContent = todayDate + '부터';
+                document.getElementById('totalProfitDate').textContent = todayDate + '부터';
 
                 currentHoldings = data.holdings || [];
                 
@@ -2065,7 +2060,7 @@
                     const timeB = new Date(b.time || 0);
                     return timeB - timeA; // 최신순
                 });
-                const trades = sortedTrades.slice(0, 4);
+                const trades = sortedTrades.slice(0, 5);
                 
                 const tradesList = document.getElementById('tradesList');
                 tradesList.innerHTML = '';
@@ -2155,13 +2150,16 @@
                     const totalProfit = data.total_profit || 0;
                     const totalPercent = data.total_profit_percent || 0;
                     
-                    document.getElementById('todayProfit').textContent = (todayProfit >= 0 ? '+' : '') + formatNumber(todayProfit) + '원';
-                    document.getElementById('todayProfit').style.color = todayProfit >= 0 ? '#ff6b6b' : '#4ecdc4';
-                    document.getElementById('todayProfitPercent').textContent = '(' + formatPercent(todayPercent) + ')';
+                    document.getElementById('todayProfit').textContent = (todayProfit >= 0 ? '+' : '') + formatNumber(todayProfit) + '원 (' + formatPercent(todayPercent) + ')';
+                    document.getElementById('todayProfit').style.color = todayProfit >= 0 ? '#4ade80' : '#ff6b6b';
                     
-                    document.getElementById('totalProfit').textContent = (totalProfit >= 0 ? '+' : '') + formatNumber(totalProfit) + '원';
-                    document.getElementById('totalProfit').style.color = totalProfit >= 0 ? '#ff6b6b' : '#4ecdc4';
-                    document.getElementById('totalProfitPercent').textContent = '(' + formatPercent(totalPercent) + ')';
+                    document.getElementById('totalProfit').textContent = (totalProfit >= 0 ? '+' : '') + formatNumber(totalProfit) + '원 (' + formatPercent(totalPercent) + ')';
+                    document.getElementById('totalProfit').style.color = totalProfit >= 0 ? '#4ade80' : '#ff6b6b';
+                    
+                    // 날짜 업데이트 (오늘 날짜)
+                    const todayDate = new Date().toLocaleDateString('ko-KR', {year: 'numeric', month: '2-digit', day: '2-digit'}).replace(/\. /g, '.').replace('.', '');
+                    document.getElementById('todayProfitDate').textContent = todayDate + '부터';
+                    document.getElementById('totalProfitDate').textContent = todayDate + '부터';
                     
                     currentHoldings = data.holdings || [];
                     generateWordcloud(currentHoldings);
@@ -2171,7 +2169,7 @@
                     // 최근 거래
                     const tradesList = document.getElementById('tradesList');
                     tradesList.innerHTML = '';
-                    const trades = data.trades.slice(0, 4);
+                    const trades = data.trades.slice(0, 5);
                     trades.forEach(t => {
                         const isBuy = t.type === 'buy';
                         const profit = t.profit || 0;
