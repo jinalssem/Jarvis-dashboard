@@ -1,8 +1,8 @@
 {
-  "today_profit": -3715.5179171807017,
-  "today_profit_percent": -371551.79171807016,
-  "total_profit": -3715.5179171807017,
-  "total_profit_percent": -371551.79171807016,
+  "today_profit": -3844.7220171807016,
+  "today_profit_percent": -384472.20171807014,
+  "total_profit": -3844.7220171807016,
+  "total_profit_percent": -384472.20171807014,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -153,8 +153,16 @@
     "profit_rate": 0.0
   },
   "holdings": [],
-  "last_update": "2025-12-08T19:19:06.530336",
+  "last_update": "2025-12-08T19:24:56.661991",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-HEMI",
+      "profit": 0,
+      "price": 23.3,
+      "amount": 418.94162117,
+      "time": "2025-12-08T19:23:39.122228"
+    },
     {
       "type": "buy",
       "market": "KRW-PARTI",
@@ -946,14 +954,6 @@
       "price": 0,
       "amount": 0,
       "time": "2025-12-08T01:00:31.437407"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-ETH",
-      "profit": 129.20409999999998,
-      "price": 4522000.0,
-      "amount": 0.0021899,
-      "time": "2025-12-08T01:00:31.431458"
     }
   ]
 }
