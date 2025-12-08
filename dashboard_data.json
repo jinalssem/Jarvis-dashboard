@@ -1,8 +1,8 @@
 {
   "today_profit": -3829.429097849705,
-  "today_profit_percent": -14.09361720389267,
-  "total_profit": -4873.778271718145,
-  "total_profit_percent": -17.937181638071156,
+  "today_profit_percent": -4.275172219054209,
+  "total_profit": -4785.507747975946,
+  "total_profit_percent": -5.3425378184187995,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -154,16 +154,25 @@
   },
   "holdings": [
     {
+      "market": "KRW-TEMCO",
+      "amount": 54883.29708055,
+      "avg_price": 1.137,
+      "current_price": 1.141,
+      "value": 62621.84196890755,
+      "profit": 219.5331883222002,
+      "profit_rate": 0.003518029903254181
+    },
+    {
       "market": "KRW-SUPER",
       "amount": 65.63133229,
       "avg_price": 414.0,
-      "current_price": 409.0,
-      "value": 26843.214906610003,
-      "profit": -328.15666145,
-      "profit_rate": -0.012077294685990338
+      "current_price": 407.0,
+      "value": 26711.95224203,
+      "profit": -459.41932603000004,
+      "profit_rate": -0.016908212560386472
     }
   ],
-  "last_update": "2025-12-08T15:34:29.104253",
+  "last_update": "2025-12-08T15:39:51.893268",
   "trades": [
     {
       "type": "buy",
