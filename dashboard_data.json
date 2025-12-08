@@ -1,8 +1,8 @@
 {
   "today_profit": -785.2759486604106,
-  "today_profit_percent": -1.42518868734327,
-  "total_profit": -7278.6938427876175,
-  "total_profit_percent": -13.21002144669276,
+  "today_profit_percent": -1.0512988313535028,
+  "total_profit": -7113.584742583217,
+  "total_profit_percent": -9.523408095420853,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,40 +157,49 @@
       "market": "KRW-WOO",
       "amount": 244.06655248,
       "avg_price": 40.0,
-      "current_price": 39.9,
-      "value": 9738.255443952,
-      "profit": -24.406655248000348,
-      "profit_rate": -0.0025000000000000356
+      "current_price": 39.93,
+      "value": 9745.5774405264,
+      "profit": -17.08465867360007,
+      "profit_rate": -0.0017500000000000072
     },
     {
       "market": "KRW-DYDX",
       "amount": 86.36594844,
       "avg_price": 299.1,
-      "current_price": 295.0,
-      "value": 25477.9547898,
-      "profit": -354.100388604002,
-      "profit_rate": -0.013707790036777072
+      "current_price": 296.0,
+      "value": 25564.32073824,
+      "profit": -267.73444016400197,
+      "profit_rate": -0.010364426613172927
+    },
+    {
+      "market": "KRW-FXS",
+      "amount": 17.08456843,
+      "avg_price": 1147.0,
+      "current_price": 1145.0,
+      "value": 19561.83085235,
+      "profit": -34.16913686,
+      "profit_rate": -0.0017436791630340018
     },
     {
       "market": "KRW-XION",
       "amount": 22.5678733,
       "avg_price": 433.0,
-      "current_price": 427.0,
-      "value": 9636.4818991,
-      "profit": -135.40723979999999,
-      "profit_rate": -0.013856812933025405
+      "current_price": 429.0,
+      "value": 9681.6176457,
+      "profit": -90.2714932,
+      "profit_rate": -0.009237875288683603
     },
     {
       "market": "KRW-PARTI",
       "amount": 60.45454545,
       "avg_price": 161.0,
-      "current_price": 160.0,
-      "value": 9672.727272,
-      "profit": -60.45454545,
-      "profit_rate": -0.006211180124223602
+      "current_price": 161.0,
+      "value": 9733.18181745,
+      "profit": 0.0,
+      "profit_rate": 0.0
     }
   ],
-  "last_update": "2025-12-09T05:08:50.419302",
+  "last_update": "2025-12-09T05:14:50.960706",
   "trades": [
     {
       "type": "buy",
