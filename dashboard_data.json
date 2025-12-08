@@ -153,8 +153,16 @@
     "profit_rate": 0.0
   },
   "holdings": [],
-  "last_update": "2025-12-08T20:25:36.417154",
+  "last_update": "2025-12-08T20:32:03.486372",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-SUNDOG",
+      "profit": 0,
+      "price": 16.6,
+      "amount": 588.49557522,
+      "time": "2025-12-08T20:30:51.278086"
+    },
     {
       "type": "buy",
       "market": "KRW-HEMI",
@@ -946,14 +954,6 @@
       "price": 448.0,
       "amount": 22.11751663,
       "time": "2025-12-08T01:00:33.369490"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-ETH",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-08T01:00:31.437407"
     }
   ]
 }
