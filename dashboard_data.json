@@ -1,8 +1,8 @@
 {
   "today_profit": -785.2759486604106,
   "today_profit_percent": -2.012550955239926,
-  "total_profit": -6561.705876901615,
-  "total_profit_percent": -16.816722138363318,
+  "total_profit": -6644.100060788415,
+  "total_profit_percent": -17.027886753516075,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,10 +157,10 @@
       "market": "KRW-WOO",
       "amount": 244.06655248,
       "avg_price": 40.0,
-      "current_price": 40.05,
-      "value": 9774.865426824,
-      "profit": 12.203327623999307,
-      "profit_rate": 0.001249999999999929
+      "current_price": 40.14,
+      "value": 9796.8314165472,
+      "profit": 34.16931734720014,
+      "profit_rate": 0.0035000000000000144
     },
     {
       "market": "KRW-DYDX",
@@ -175,23 +175,31 @@
       "market": "KRW-XION",
       "amount": 22.5678733,
       "avg_price": 433.0,
-      "current_price": 433.0,
-      "value": 9771.8891389,
-      "profit": 0.0,
-      "profit_rate": 0.0
+      "current_price": 434.0,
+      "value": 9794.457012199999,
+      "profit": 22.5678733,
+      "profit_rate": 0.0023094688221709007
     },
     {
       "market": "KRW-PARTI",
       "amount": 60.45454545,
       "avg_price": 161.0,
-      "current_price": 159.0,
-      "value": 9612.27272655,
-      "profit": -120.9090909,
-      "profit_rate": -0.012422360248447204
+      "current_price": 160.0,
+      "value": 9672.727272,
+      "profit": -60.45454545,
+      "profit_rate": -0.006211180124223602
     }
   ],
-  "last_update": "2025-12-09T04:31:37.716577",
+  "last_update": "2025-12-09T04:38:27.754581",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-PARTI",
+      "profit": 0,
+      "price": 156.0,
+      "amount": 66.4459308,
+      "time": "2025-12-09T04:37:13.663544"
+    },
     {
       "type": "buy",
       "market": "KRW-WOO",
@@ -983,14 +991,6 @@
       "price": 0,
       "amount": 0,
       "time": "2025-12-08T02:44:15.706840"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-UOS",
-      "profit": 187.38259236000044,
-      "price": 15.9,
-      "amount": 624.6086412,
-      "time": "2025-12-08T02:44:15.702849"
     }
   ]
 }
