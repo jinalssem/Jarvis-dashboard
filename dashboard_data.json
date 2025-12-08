@@ -1,8 +1,8 @@
 {
   "today_profit": -3715.5179171807017,
-  "today_profit_percent": -19.053894400843916,
-  "total_profit": -3007.245845402701,
-  "total_profit_percent": -15.421738248313478,
+  "today_profit_percent": -371551.79171807016,
+  "total_profit": -3715.5179171807017,
+  "total_profit_percent": -371551.79171807016,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -152,19 +152,17 @@
     "profit": 0,
     "profit_rate": 0.0
   },
-  "holdings": [
-    {
-      "market": "KRW-PIEVERSE",
-      "amount": 19.61972498,
-      "avg_price": 993.9,
-      "current_price": 1030.0,
-      "value": 20208.3167294,
-      "profit": 708.2720717780005,
-      "profit_rate": 0.03632156152530438
-    }
-  ],
-  "last_update": "2025-12-08T18:24:17.892144",
+  "holdings": [],
+  "last_update": "2025-12-08T18:29:49.840386",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-ANIME",
+      "profit": 0,
+      "price": 9.89,
+      "amount": 987.62376238,
+      "time": "2025-12-08T18:28:33.682925"
+    },
     {
       "type": "sell",
       "market": "KRW-PIEVERSE",
@@ -956,14 +954,6 @@
       "price": 74.5,
       "amount": 131.07752957,
       "time": "2025-12-08T00:45:29.409551"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-MOODENG",
-      "profit": 0,
-      "price": 130.0,
-      "amount": 75.0,
-      "time": "2025-12-08T00:38:24.732631"
     }
   ]
 }
