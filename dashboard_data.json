@@ -190,8 +190,24 @@
       "profit_rate": 0.0031425364758698223
     }
   ],
-  "last_update": "2025-12-09T07:43:45.585667",
+  "last_update": "2025-12-09T07:48:28.123552",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-XION",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-09T07:48:28.123093"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-XION",
+      "profit": -112.8393665,
+      "price": 428.0,
+      "amount": 22.5678733,
+      "time": "2025-12-09T07:48:28.120741"
+    },
     {
       "type": "buy",
       "market": "KRW-XION",
@@ -975,22 +991,6 @@
       "price": 75.32,
       "amount": 133.46267059,
       "time": "2025-12-08T05:00:13.692863"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-PIEVERSE",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-08T05:00:13.116632"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-PIEVERSE",
-      "profit": -13464.11962968,
-      "price": 1160.0,
-      "amount": 264.00234568,
-      "time": "2025-12-08T05:00:13.113417"
     }
   ]
 }
