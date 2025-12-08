@@ -1,8 +1,8 @@
 {
-  "today_profit": 1105.2912058705879,
-  "today_profit_percent": 2.061239222987485,
-  "total_profit": -4392.938646386812,
-  "total_profit_percent": -8.192318362813639,
+  "today_profit": 840.9393141457894,
+  "today_profit_percent": 1.689940375290817,
+  "total_profit": -5969.814284717312,
+  "total_profit_percent": -11.996858778067118,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,19 +157,10 @@
       "market": "KRW-DYDX",
       "amount": 15.78992407,
       "avg_price": 299.1,
-      "current_price": 307.0,
-      "value": 4847.50668949,
-      "profit": 124.74040015299964,
-      "profit_rate": 0.026412571046472672
-    },
-    {
-      "market": "KRW-MAY",
-      "amount": 600.79975392,
-      "avg_price": 32.51,
-      "current_price": 33.88,
-      "value": 20355.0956628096,
-      "profit": 823.0956628704026,
-      "profit_rate": 0.0421408797293142
+      "current_price": 300.0,
+      "value": 4736.977221,
+      "profit": 14.210931662999641,
+      "profit_rate": 0.003009027081243655
     },
     {
       "market": "KRW-FXS",
@@ -184,13 +175,22 @@
       "market": "KRW-XION",
       "amount": 22.5678733,
       "avg_price": 433.0,
-      "current_price": 431.0,
-      "value": 9726.7533923,
-      "profit": -45.1357466,
-      "profit_rate": -0.004618937644341801
+      "current_price": 428.0,
+      "value": 9659.0497724,
+      "profit": -112.8393665,
+      "profit_rate": -0.011547344110854504
+    },
+    {
+      "market": "KRW-PUMPBTC",
+      "amount": 351.75809074,
+      "avg_price": 44.55,
+      "current_price": 44.39,
+      "value": 15614.5416479486,
+      "profit": -56.2812945183988,
+      "profit_rate": -0.0035914702581368485
     }
   ],
-  "last_update": "2025-12-09T07:12:49.451627",
+  "last_update": "2025-12-09T07:14:01.545582",
   "trades": [
     {
       "type": "sell",
