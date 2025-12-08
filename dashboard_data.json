@@ -190,8 +190,40 @@
       "profit_rate": 0.0
     }
   ],
-  "last_update": "2025-12-09T06:50:01.471617",
+  "last_update": "2025-12-09T06:54:47.187101",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-MAY",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-09T06:54:47.186455"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-MAY",
+      "profit": 390.5198400479991,
+      "price": 33.16,
+      "amount": 600.79975392,
+      "time": "2025-12-09T06:54:47.183732"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-DYDX",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-09T06:54:45.927272"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-DYDX",
+      "profit": 266.5344934909987,
+      "price": 304.0,
+      "amount": 54.39479459,
+      "time": "2025-12-09T06:54:45.924754"
+    },
     {
       "type": "sell",
       "market": "KRW-MAY",
@@ -959,38 +991,6 @@
       "price": 16210.0,
       "amount": 0.60271903,
       "time": "2025-12-08T04:05:57.924865"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-MAY",
-      "profit": 0,
-      "price": 26.5,
-      "amount": 368.62527716,
-      "time": "2025-12-08T04:00:37.624409"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-A8",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-08T04:00:36.099155"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-A8",
-      "profit": 198.8593791790993,
-      "price": 74.69,
-      "amount": 133.46267059,
-      "time": "2025-12-08T04:00:36.096158"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-ELX",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-08T03:54:00.590027"
     }
   ]
 }
