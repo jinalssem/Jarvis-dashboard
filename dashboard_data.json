@@ -1,8 +1,8 @@
 {
-  "today_profit": -6319.973342299305,
-  "today_profit_percent": -5.34681252791462,
-  "total_profit": -3804.161976186111,
-  "total_profit_percent": -3.2183903017996403,
+  "today_profit": -6366.694653774505,
+  "today_profit_percent": -5.867339170956768,
+  "total_profit": -4908.492239453713,
+  "total_profit_percent": -4.523507149790838,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,41 +157,40 @@
       "market": "KRW-BOBA",
       "amount": 146.00409836,
       "avg_price": 66.9,
-      "current_price": 66.61,
-      "value": 9725.3329917596,
-      "profit": -42.34118852440091,
-      "profit_rate": -0.0043348281016443386
-    },
-    {
-      "market": "KRW-PUFFER",
-      "amount": 95.0,
-      "avg_price": 102.0,
-      "current_price": 103.0,
-      "value": 9785.0,
-      "profit": 95.0,
-      "profit_rate": 0.00980392156862745
+      "current_price": 66.56,
+      "value": 9718.0327868416,
+      "profit": -49.6413934424005,
+      "profit_rate": -0.0050822122571002
     },
     {
       "market": "KRW-A8",
       "amount": 136.19606772,
       "avg_price": 71.7,
-      "current_price": 71.49,
-      "value": 9736.656881302799,
-      "profit": -28.601174221201084,
-      "profit_rate": -0.00292887029288714
+      "current_price": 70.36,
+      "value": 9582.7553247792,
+      "profit": -182.50273074480046,
+      "profit_rate": -0.018688981868898235
     },
     {
       "market": "KRW-PIEVERSE",
       "amount": 79.09140742,
       "avg_price": 1125.0,
-      "current_price": 1142.0,
-      "value": 90322.38727364,
-      "profit": 1344.55392614,
-      "profit_rate": 0.015111111111111112
+      "current_price": 1139.0,
+      "value": 90085.11305138,
+      "profit": 1107.27970388,
+      "profit_rate": 0.012444444444444444
     }
   ],
-  "last_update": "2025-12-08T09:47:26.351573",
+  "last_update": "2025-12-08T09:48:38.250552",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-A8",
+      "profit": 0,
+      "price": 69.4,
+      "amount": 140.85004236,
+      "time": "2025-12-08T09:47:27.651932"
+    },
     {
       "type": "sell",
       "market": "KRW-BOBA",
@@ -983,14 +982,6 @@
       "price": 153.0,
       "amount": 160.96838648,
       "time": "2025-12-07T17:04:54.806723"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-XYO",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-07T16:58:12.302637"
     }
   ]
 }
