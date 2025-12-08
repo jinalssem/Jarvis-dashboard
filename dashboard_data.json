@@ -1,8 +1,8 @@
 {
   "today_profit": -3829.429097849705,
-  "today_profit_percent": -382942.9097849705,
-  "total_profit": -4545.621610268146,
-  "total_profit_percent": -454562.16102681455,
+  "today_profit_percent": -14.09361720389267,
+  "total_profit": -4873.778271718145,
+  "total_profit_percent": -17.937181638071156,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -152,8 +152,18 @@
     "profit": 0,
     "profit_rate": 0.0
   },
-  "holdings": [],
-  "last_update": "2025-12-08T15:29:08.697366",
+  "holdings": [
+    {
+      "market": "KRW-SUPER",
+      "amount": 65.63133229,
+      "avg_price": 414.0,
+      "current_price": 409.0,
+      "value": 26843.214906610003,
+      "profit": -328.15666145,
+      "profit_rate": -0.012077294685990338
+    }
+  ],
+  "last_update": "2025-12-08T15:34:29.104253",
   "trades": [
     {
       "type": "buy",
