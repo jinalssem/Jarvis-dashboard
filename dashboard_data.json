@@ -1,8 +1,8 @@
 {
   "today_profit": -3999.544633590702,
-  "today_profit_percent": -40.917318454329646,
-  "total_profit": -4029.589814310702,
-  "total_profit_percent": -41.22469550350998,
+  "today_profit_percent": -11.66190838005604,
+  "total_profit": -4264.56900182148,
+  "total_profit_percent": -12.434668827540987,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -154,16 +154,25 @@
   },
   "holdings": [
     {
+      "market": "KRW-WIKEN",
+      "amount": 7111.68793503,
+      "avg_price": 3.448,
+      "current_price": 3.422,
+      "value": 24336.19611367266,
+      "profit": -184.90388631077857,
+      "profit_rate": -0.007540603248259803
+    },
+    {
       "market": "KRW-PIEVERSE",
       "amount": 10.01506024,
       "avg_price": 976.0,
-      "current_price": 973.0,
-      "value": 9744.65361352,
-      "profit": -30.04518072,
-      "profit_rate": -0.0030737704918032786
+      "current_price": 968.0,
+      "value": 9694.57831232,
+      "profit": -80.12048192,
+      "profit_rate": -0.00819672131147541
     }
   ],
-  "last_update": "2025-12-08T22:55:04.516709",
+  "last_update": "2025-12-08T23:01:00.612764",
   "trades": [
     {
       "type": "buy",
