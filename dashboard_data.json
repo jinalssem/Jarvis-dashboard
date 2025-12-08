@@ -1,8 +1,8 @@
 {
   "today_profit": -785.2759486604106,
   "today_profit_percent": -4.030283734249096,
-  "total_profit": -6620.115038484612,
-  "total_profit_percent": -33.97651743183647,
+  "total_profit": -6641.339274475615,
+  "total_profit_percent": -34.08544690208489,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,10 +157,10 @@
       "market": "KRW-DYDX",
       "amount": 31.97115385,
       "avg_price": 305.0,
-      "current_price": 301.0,
-      "value": 9623.31730885,
-      "profit": -127.8846154,
-      "profit_rate": -0.013114754098360656
+      "current_price": 303.0,
+      "value": 9687.25961655,
+      "profit": -63.9423077,
+      "profit_rate": -0.006557377049180328
     },
     {
       "market": "KRW-PARTI",
@@ -172,8 +172,16 @@
       "profit_rate": -0.006211180124223602
     }
   ],
-  "last_update": "2025-12-09T03:41:04.706595",
+  "last_update": "2025-12-09T03:47:07.654422",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-DYDX",
+      "profit": 0,
+      "price": 296.0,
+      "amount": 32.92079208,
+      "time": "2025-12-09T03:45:55.711651"
+    },
     {
       "type": "buy",
       "market": "KRW-WOO",
@@ -965,14 +973,6 @@
       "price": 0,
       "amount": 0,
       "time": "2025-12-08T02:44:13.894289"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-REI",
-      "profit": 85.16654369100137,
-      "price": 9.3,
-      "amount": 1051.438811,
-      "time": "2025-12-08T02:44:13.877456"
     }
   ]
 }
