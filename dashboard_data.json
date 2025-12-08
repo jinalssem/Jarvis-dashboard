@@ -181,8 +181,24 @@
       "profit_rate": 0.016610549943883324
     }
   ],
-  "last_update": "2025-12-09T08:01:30.733305",
+  "last_update": "2025-12-09T08:06:13.387825",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-PUMPBTC",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-09T08:06:13.387194"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-PUMPBTC",
+      "profit": 256.7834062402014,
+      "price": 45.28,
+      "amount": 351.75809074,
+      "time": "2025-12-09T08:06:13.384744"
+    },
     {
       "type": "sell",
       "market": "KRW-XION",
@@ -966,22 +982,6 @@
       "price": 75.01,
       "amount": 133.46267059,
       "time": "2025-12-08T05:06:45.438928"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-A8",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-08T05:00:13.736734"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-A8",
-      "profit": 282.9408616507987,
-      "price": 75.32,
-      "amount": 133.46267059,
-      "time": "2025-12-08T05:00:13.692863"
     }
   ]
 }
