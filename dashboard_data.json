@@ -1,8 +1,8 @@
 {
   "today_profit": -785.2759486604106,
   "today_profit_percent": -2.012550955239926,
-  "total_profit": -6448.1917047004135,
-  "total_profit_percent": -16.52580140395586,
+  "total_profit": -6561.705876901615,
+  "total_profit_percent": -16.816722138363318,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,10 +157,10 @@
       "market": "KRW-WOO",
       "amount": 244.06655248,
       "avg_price": 40.0,
-      "current_price": 39.99,
-      "value": 9760.2214336752,
-      "profit": -2.4406655247995146,
-      "profit_rate": -0.00024999999999995024
+      "current_price": 40.05,
+      "value": 9774.865426824,
+      "profit": 12.203327623999307,
+      "profit_rate": 0.001249999999999929
     },
     {
       "market": "KRW-DYDX",
@@ -175,23 +175,31 @@
       "market": "KRW-XION",
       "amount": 22.5678733,
       "avg_price": 433.0,
-      "current_price": 436.0,
-      "value": 9839.5927588,
-      "profit": 67.70361989999999,
-      "profit_rate": 0.006928406466512702
+      "current_price": 433.0,
+      "value": 9771.8891389,
+      "profit": 0.0,
+      "profit_rate": 0.0
     },
     {
       "market": "KRW-PARTI",
       "amount": 60.45454545,
       "avg_price": 161.0,
-      "current_price": 160.0,
-      "value": 9672.727272,
-      "profit": -60.45454545,
-      "profit_rate": -0.006211180124223602
+      "current_price": 159.0,
+      "value": 9612.27272655,
+      "profit": -120.9090909,
+      "profit_rate": -0.012422360248447204
     }
   ],
-  "last_update": "2025-12-09T04:24:09.909967",
+  "last_update": "2025-12-09T04:31:37.716577",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-WOO",
+      "profit": 0,
+      "price": 39.1,
+      "amount": 499.49924887,
+      "time": "2025-12-09T04:30:23.769123"
+    },
     {
       "type": "buy",
       "market": "KRW-DYDX",
@@ -983,14 +991,6 @@
       "price": 15.9,
       "amount": 624.6086412,
       "time": "2025-12-08T02:44:15.702849"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-REI",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-08T02:44:13.894289"
     }
   ]
 }
