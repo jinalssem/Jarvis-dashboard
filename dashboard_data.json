@@ -1,8 +1,8 @@
 {
   "today_profit": -1116.5350057997102,
-  "today_profit_percent": -3.255602858236304,
-  "total_profit": -6710.889395206111,
-  "total_profit_percent": -19.56767193402257,
+  "today_profit_percent": -5.715257993281768,
+  "total_profit": -5389.713868270412,
+  "total_profit_percent": -27.588570987141786,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -154,26 +154,34 @@
   },
   "holdings": [
     {
-      "market": "KRW-WIKEN",
-      "amount": 7111.68793503,
-      "avg_price": 3.448,
-      "current_price": 3.258,
-      "value": 23169.87929232774,
-      "profit": -1351.2207076556995,
-      "profit_rate": -0.0551044083526682
+      "market": "KRW-HEMI",
+      "amount": 418.94162117,
+      "avg_price": 23.3,
+      "current_price": 23.3,
+      "value": 9761.339773261001,
+      "profit": 0.0,
+      "profit_rate": 0.0
     },
     {
       "market": "KRW-PIEVERSE",
       "amount": 10.01506024,
       "avg_price": 976.0,
-      "current_price": 980.0,
-      "value": 9814.7590352,
-      "profit": 40.06024096,
-      "profit_rate": 0.004098360655737705
+      "current_price": 977.0,
+      "value": 9784.71385448,
+      "profit": 10.01506024,
+      "profit_rate": 0.0010245901639344263
     }
   ],
-  "last_update": "2025-12-09T00:05:10.043792",
+  "last_update": "2025-12-09T00:11:01.782409",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-BTC",
+      "profit": 0,
+      "price": 132096000.0,
+      "amount": 7.4e-05,
+      "time": "2025-12-09T00:09:50.922831"
+    },
     {
       "type": "buy",
       "market": "KRW-XYO",
@@ -965,14 +973,6 @@
       "price": 210.0,
       "amount": 47.27488152,
       "time": "2025-12-08T01:38:11.785686"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-HUNT",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-08T01:23:06.924285"
     }
   ]
 }
