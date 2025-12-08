@@ -1,8 +1,8 @@
 {
   "today_profit": -3829.429097849705,
   "today_profit_percent": -4.876550639743669,
-  "total_profit": -5836.359913830704,
-  "total_profit_percent": -7.432257901718814,
+  "total_profit": -5498.0539123307035,
+  "total_profit_percent": -7.001445290781501,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,10 +157,10 @@
       "market": "KRW-SUPER",
       "amount": 169.15300075,
       "avg_price": 406.7,
-      "current_price": 395.0,
-      "value": 66815.43529625,
-      "profit": -1979.090108774998,
-      "profit_rate": -0.02876813375952788
+      "current_price": 397.0,
+      "value": 67153.74129774999,
+      "profit": -1640.784107274998,
+      "profit_rate": -0.02385050405704448
     },
     {
       "market": "KRW-PIEVERSE",
@@ -172,8 +172,16 @@
       "profit_rate": 0.0009950248756218905
     }
   ],
-  "last_update": "2025-12-08T17:07:40.610453",
+  "last_update": "2025-12-08T17:13:05.910144",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-PIEVERSE",
+      "profit": 0,
+      "price": 983.0,
+      "amount": 9.93525896,
+      "time": "2025-12-08T17:11:56.391702"
+    },
     {
       "type": "buy",
       "market": "KRW-SPURS",
@@ -965,14 +973,6 @@
       "price": 235.0,
       "amount": 231.64316239,
       "time": "2025-12-07T23:02:00.653675"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-HEMI",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-07T21:18:11.540314"
     }
   ]
 }
