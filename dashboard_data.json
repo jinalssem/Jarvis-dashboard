@@ -1,8 +1,8 @@
 {
   "today_profit": -6319.973342299305,
-  "today_profit_percent": -5.82832458332891,
-  "total_profit": -4332.120735872109,
-  "total_profit_percent": -3.9951127030618707,
+  "today_profit_percent": -5.34681252791462,
+  "total_profit": -3804.161976186111,
+  "total_profit_percent": -3.2183903017996403,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,10 +157,10 @@
       "market": "KRW-BOBA",
       "amount": 146.00409836,
       "avg_price": 66.9,
-      "current_price": 66.59,
-      "value": 9722.4129097924,
-      "profit": -45.261270491600335,
-      "profit_rate": -0.004633781763826641
+      "current_price": 66.61,
+      "value": 9725.3329917596,
+      "profit": -42.34118852440091,
+      "profit_rate": -0.0043348281016443386
     },
     {
       "market": "KRW-PUFFER",
@@ -172,16 +172,25 @@
       "profit_rate": 0.00980392156862745
     },
     {
+      "market": "KRW-A8",
+      "amount": 136.19606772,
+      "avg_price": 71.7,
+      "current_price": 71.49,
+      "value": 9736.656881302799,
+      "profit": -28.601174221201084,
+      "profit_rate": -0.00292887029288714
+    },
+    {
       "market": "KRW-PIEVERSE",
       "amount": 79.09140742,
       "avg_price": 1125.0,
-      "current_price": 1135.0,
-      "value": 89768.7474217,
-      "profit": 790.9140742,
-      "profit_rate": 0.008888888888888889
+      "current_price": 1142.0,
+      "value": 90322.38727364,
+      "profit": 1344.55392614,
+      "profit_rate": 0.015111111111111112
     }
   ],
-  "last_update": "2025-12-08T09:36:55.654168",
+  "last_update": "2025-12-08T09:42:51.535815",
   "trades": [
     {
       "type": "sell",
