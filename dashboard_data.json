@@ -1,8 +1,8 @@
 {
   "today_profit": 1087.3907644659907,
   "today_profit_percent": 9.406108028384121,
-  "total_profit": 7192.168425588191,
-  "total_profit_percent": 62.21343364327582,
+  "total_profit": 6919.452441886191,
+  "total_profit_percent": 59.854395763247645,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -166,14 +166,22 @@
       "market": "KRW-XION",
       "amount": 16.24158832,
       "avg_price": 421.0,
-      "current_price": 426.0,
-      "value": 6918.916624320001,
-      "profit": 81.20794160000001,
-      "profit_rate": 0.011876484560570071
+      "current_price": 424.0,
+      "value": 6886.43344768,
+      "profit": 48.72476496,
+      "profit_rate": 0.007125890736342043
     }
   ],
-  "last_update": "2025-12-09T09:47:03.425117",
+  "last_update": "2025-12-09T09:52:54.714595",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-XION",
+      "profit": 0,
+      "price": 417.0,
+      "amount": 23.41549296,
+      "time": "2025-12-09T09:51:43.396661"
+    },
     {
       "type": "buy",
       "market": "KRW-REI",
@@ -965,14 +973,6 @@
       "price": 0,
       "amount": 0,
       "time": "2025-12-08T05:21:10.346996"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-A8",
-      "profit": 240.2328070619996,
-      "price": 75.0,
-      "amount": 133.46267059,
-      "time": "2025-12-08T05:21:10.344753"
     }
   ]
 }
