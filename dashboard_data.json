@@ -163,8 +163,24 @@
       "profit_rate": 0.013793103448275874
     }
   ],
-  "last_update": "2025-12-10T07:05:16.185242",
+  "last_update": "2025-12-10T07:07:56.010392",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-APM",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-10T07:07:56.010071"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-APM",
+      "profit": 157.26351351340014,
+      "price": 1.768,
+      "amount": 5616.55405405,
+      "time": "2025-12-10T07:07:55.992662"
+    },
     {
       "type": "sell",
       "market": "KRW-BOB",
@@ -948,22 +964,6 @@
       "price": 986.0,
       "amount": 10.01506024,
       "time": "2025-12-09T00:15:41.835629"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-BTC",
-      "profit": 0,
-      "price": 132096000.0,
-      "amount": 7.4e-05,
-      "time": "2025-12-09T00:09:50.922831"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-XYO",
-      "profit": 0,
-      "price": 10.0,
-      "amount": 975.07331378,
-      "time": "2025-12-09T00:03:58.932150"
     }
   ]
 }
