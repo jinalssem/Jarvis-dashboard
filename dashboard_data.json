@@ -190,8 +190,24 @@
       "profit_rate": -0.00060459492140254
     }
   ],
-  "last_update": "2025-12-09T13:33:20.714801",
+  "last_update": "2025-12-09T13:38:07.053419",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-REI",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-09T13:38:07.052676"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-REI",
+      "profit": 68.40781803660056,
+      "price": 8.63,
+      "amount": 1140.13030061,
+      "time": "2025-12-09T13:38:07.036962"
+    },
     {
       "type": "buy",
       "market": "KRW-DYDX",
@@ -975,22 +991,6 @@
       "price": 1150.0,
       "amount": 79.09140742,
       "time": "2025-12-08T09:35:45.817502"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-A8",
-      "profit": 0,
-      "price": 71.7,
-      "amount": 136.19606772,
-      "time": "2025-12-08T09:24:20.660960"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-NMR",
-      "profit": 0,
-      "price": 16020.0,
-      "amount": 0.61009174,
-      "time": "2025-12-08T08:07:09.925763"
     }
   ]
 }
