@@ -1,8 +1,8 @@
 {
   "today_profit": 1473.599642675261,
-  "today_profit_percent": 147359.9642675261,
-  "total_profit": 4078.055067793864,
-  "total_profit_percent": 407805.50677938643,
+  "today_profit_percent": 3.7375867568926564,
+  "total_profit": 4240.304038983864,
+  "total_profit_percent": 10.75495932703418,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -152,8 +152,18 @@
     "profit": 0,
     "profit_rate": 0.0
   },
-  "holdings": [],
-  "last_update": "2025-12-09T19:30:02.551320",
+  "holdings": [
+    {
+      "market": "KRW-ALLO",
+      "amount": 162.24897119,
+      "avg_price": 243.0,
+      "current_price": 244.0,
+      "value": 39588.74897036,
+      "profit": 162.24897119,
+      "profit_rate": 0.00411522633744856
+    }
+  ],
+  "last_update": "2025-12-09T19:36:07.713326",
   "trades": [
     {
       "type": "buy",
