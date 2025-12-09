@@ -1,8 +1,8 @@
 {
   "today_profit": -1493.3351946553976,
-  "today_profit_percent": -2.421657283471479,
-  "total_profit": -3034.532117355421,
-  "total_profit_percent": -4.920929226219468,
+  "today_profit_percent": -1.6401655107120976,
+  "total_profit": -2027.893250015423,
+  "total_profit_percent": -2.2272833185644494,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -154,16 +154,25 @@
   },
   "holdings": [
     {
+      "market": "KRW-NIL",
+      "amount": 269.55963302,
+      "avg_price": 109.0,
+      "current_price": 111.0,
+      "value": 29921.119265219997,
+      "profit": 539.11926604,
+      "profit_rate": 0.01834862385321101
+    },
+    {
       "market": "KRW-BOB",
       "amount": 2337.5980065,
       "avg_price": 26.38,
-      "current_price": 26.03,
-      "value": 60847.676109195,
-      "profit": -818.159302274995,
-      "profit_rate": -0.013267626990143968
+      "current_price": 26.23,
+      "value": 61315.195710495,
+      "profit": -350.6397009749967,
+      "profit_rate": -0.005686125852918824
     }
   ],
-  "last_update": "2025-12-10T07:32:08.982274",
+  "last_update": "2025-12-10T07:36:07.724472",
   "trades": [
     {
       "type": "sell",
