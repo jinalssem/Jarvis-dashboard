@@ -1,8 +1,8 @@
 {
   "today_profit": 1473.599642675261,
   "today_profit_percent": 147359.9642675261,
-  "total_profit": 6055.3402532938635,
-  "total_profit_percent": 605534.0253293863,
+  "total_profit": 4078.055067793864,
+  "total_profit_percent": 407805.50677938643,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -153,8 +153,16 @@
     "profit_rate": 0.0
   },
   "holdings": [],
-  "last_update": "2025-12-09T18:18:01.461668",
+  "last_update": "2025-12-09T18:21:19.973551",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-APM",
+      "profit": 0,
+      "price": 1.74,
+      "amount": 5616.55405405,
+      "time": "2025-12-09T18:20:15.225637"
+    },
     {
       "type": "sell",
       "market": "KRW-REI",
@@ -946,14 +954,6 @@
       "price": 0,
       "amount": 0,
       "time": "2025-12-08T09:35:45.821393"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-PIEVERSE",
-      "profit": 1977.2851855,
-      "price": 1150.0,
-      "amount": 79.09140742,
-      "time": "2025-12-08T09:35:45.817502"
     }
   ]
 }
