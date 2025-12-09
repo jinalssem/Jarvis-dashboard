@@ -1,8 +1,8 @@
 {
   "today_profit": 355.8581227406007,
-  "today_profit_percent": 35585.812274060074,
+  "today_profit_percent": 3.6656880501204645,
   "total_profit": -1369.8033228151346,
-  "total_profit_percent": -136980.33228151346,
+  "total_profit_percent": -14.110319114786515,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -152,8 +152,18 @@
     "profit": 0,
     "profit_rate": 0.0
   },
-  "holdings": [],
-  "last_update": "2025-12-10T00:30:04.691998",
+  "holdings": [
+    {
+      "market": "KRW-DKA",
+      "amount": 890.625,
+      "avg_price": 10.9,
+      "current_price": 10.9,
+      "value": 9707.8125,
+      "profit": 0.0,
+      "profit_rate": 0.0
+    }
+  ],
+  "last_update": "2025-12-10T00:33:34.618663",
   "trades": [
     {
       "type": "buy",
