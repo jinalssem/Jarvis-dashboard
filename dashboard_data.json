@@ -1,8 +1,8 @@
 {
   "today_profit": -387.7666933353993,
-  "today_profit_percent": -38776.669333539925,
-  "total_profit": -2227.339319560138,
-  "total_profit_percent": -222733.93195601378,
+  "today_profit_percent": -3.967814060231995,
+  "total_profit": -2238.572427668238,
+  "total_profit_percent": -22.906142549141016,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -152,8 +152,18 @@
     "profit": 0,
     "profit_rate": 0.0
   },
-  "holdings": [],
-  "last_update": "2025-12-10T06:14:51.121593",
+  "holdings": [
+    {
+      "market": "KRW-APM",
+      "amount": 5616.55405405,
+      "avg_price": 1.74,
+      "current_price": 1.738,
+      "value": 9761.5709459389,
+      "profit": -11.233108108100009,
+      "profit_rate": -0.001149425287356323
+    }
+  ],
+  "last_update": "2025-12-10T06:18:43.772480",
   "trades": [
     {
       "type": "sell",
