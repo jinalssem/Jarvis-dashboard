@@ -1,8 +1,8 @@
 {
   "today_profit": 1298.5314126259907,
-  "today_profit_percent": 27.495144435959023,
-  "total_profit": 6913.0285709403925,
-  "total_profit_percent": 146.37668153405212,
+  "today_profit_percent": 8.871486146591241,
+  "total_profit": 5503.680980921192,
+  "total_profit_percent": 37.600807421948055,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -154,6 +154,15 @@
   },
   "holdings": [
     {
+      "market": "KRW-ENJ",
+      "amount": 163.11893403,
+      "avg_price": 60.78,
+      "current_price": 52.14,
+      "value": 8505.021220324199,
+      "profit": -1409.3475900192,
+      "profit_rate": -0.14215202369200394
+    },
+    {
       "market": "KRW-DYDX",
       "amount": 15.78992407,
       "avg_price": 299.1,
@@ -163,7 +172,7 @@
       "profit_rate": 0.013039117352056092
     }
   ],
-  "last_update": "2025-12-09T10:16:03.232209",
+  "last_update": "2025-12-09T10:21:47.822182",
   "trades": [
     {
       "type": "sell",
