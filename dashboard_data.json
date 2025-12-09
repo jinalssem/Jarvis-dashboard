@@ -172,8 +172,24 @@
       "profit_rate": -0.018195602729340427
     }
   ],
-  "last_update": "2025-12-10T07:44:16.030475",
+  "last_update": "2025-12-10T07:47:08.020118",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-NIL",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-10T07:47:08.018883"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-NIL",
+      "profit": 539.11926604,
+      "price": 111.0,
+      "amount": 269.55963302,
+      "time": "2025-12-10T07:47:07.995686"
+    },
     {
       "type": "sell",
       "market": "KRW-NIL",
@@ -957,22 +973,6 @@
       "price": 2.86,
       "amount": 3409.09090909,
       "time": "2025-12-09T00:45:12.601147"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-ETH",
-      "profit": 0,
-      "price": 4550000.0,
-      "amount": 0.0021484,
-      "time": "2025-12-09T00:33:31.317476"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-BTR",
-      "profit": 0,
-      "price": 42.9,
-      "amount": 227.48004561,
-      "time": "2025-12-09T00:27:30.668685"
     }
   ]
 }
