@@ -153,8 +153,16 @@
     "profit_rate": 0.0
   },
   "holdings": [],
-  "last_update": "2025-12-10T02:55:41.450597",
+  "last_update": "2025-12-10T02:59:22.733896",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-DKA",
+      "profit": 0,
+      "price": 9.85,
+      "amount": 991.55069583,
+      "time": "2025-12-10T02:58:12.477354"
+    },
     {
       "type": "buy",
       "market": "KRW-G",
@@ -946,14 +954,6 @@
       "price": 161.0,
       "amount": 60.45454545,
       "time": "2025-12-08T18:44:37.318146"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-ANIME",
-      "profit": 0,
-      "price": 9.89,
-      "amount": 987.62376238,
-      "time": "2025-12-08T18:28:33.682925"
     }
   ]
 }
