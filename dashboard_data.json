@@ -153,8 +153,16 @@
     "profit_rate": 0.0
   },
   "holdings": [],
-  "last_update": "2025-12-10T02:13:50.160324",
+  "last_update": "2025-12-10T02:17:20.305820",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-G",
+      "profit": 0,
+      "price": 9.95,
+      "amount": 981.79133858,
+      "time": "2025-12-10T02:16:15.252656"
+    },
     {
       "type": "sell",
       "market": "KRW-MAY",
@@ -946,14 +954,6 @@
       "price": 9.89,
       "amount": 987.62376238,
       "time": "2025-12-08T18:28:33.682925"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-PIEVERSE",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-08T18:23:07.387768"
     }
   ]
 }
