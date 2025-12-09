@@ -1,8 +1,8 @@
 {
   "today_profit": 355.8581227406007,
   "today_profit_percent": 3.6656880501204645,
-  "total_profit": -2224.4495943531356,
-  "total_profit_percent": -22.914014813874246,
+  "total_profit": -2411.480844353136,
+  "total_profit_percent": -24.840620318461404,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,14 +157,22 @@
       "market": "KRW-DKA",
       "amount": 890.625,
       "avg_price": 10.9,
-      "current_price": 11.0,
-      "value": 9796.875,
-      "profit": 89.06249999999969,
-      "profit_rate": 0.009174311926605472
+      "current_price": 10.79,
+      "value": 9609.84375,
+      "profit": -97.96875000000108,
+      "profit_rate": -0.010091743119266165
     }
   ],
-  "last_update": "2025-12-10T00:44:17.857072",
+  "last_update": "2025-12-10T00:47:50.844762",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-MAY",
+      "profit": 0,
+      "price": 29.1,
+      "amount": 335.85858586,
+      "time": "2025-12-10T00:46:45.146401"
+    },
     {
       "type": "buy",
       "market": "KRW-DKA",
@@ -956,14 +964,6 @@
       "price": 394.0,
       "amount": 169.15300075,
       "time": "2025-12-08T18:01:24.130024"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-PIEVERSE",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-08T17:44:46.497629"
     }
   ]
 }
