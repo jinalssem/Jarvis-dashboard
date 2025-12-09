@@ -1,8 +1,8 @@
 {
   "today_profit": -819.7548823106006,
   "today_profit_percent": -8.3915412695542,
-  "total_profit": -2619.074063653559,
-  "total_profit_percent": -26.81053637792241,
+  "total_profit": -2600.420028220539,
+  "total_profit_percent": -26.619581604053067,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,14 +157,22 @@
       "market": "KRW-G",
       "amount": 981.79133858,
       "avg_price": 9.95,
-      "current_price": 9.991,
-      "value": 9809.077263752779,
-      "profit": 40.25344488178036,
-      "profit_rate": 0.0041206030150754145
+      "current_price": 10.01,
+      "value": 9827.7312991858,
+      "profit": 58.90748031480049,
+      "profit_rate": 0.006030150753768894
     }
   ],
-  "last_update": "2025-12-10T03:30:10.831886",
+  "last_update": "2025-12-10T03:33:41.566439",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-G",
+      "profit": 0,
+      "price": 9.82,
+      "amount": 994.51645065,
+      "time": "2025-12-10T03:32:31.471999"
+    },
     {
       "type": "buy",
       "market": "KRW-DKA",
@@ -956,14 +964,6 @@
       "price": 23.3,
       "amount": 418.94162117,
       "time": "2025-12-08T19:23:39.122228"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-PARTI",
-      "profit": 0,
-      "price": 161.0,
-      "amount": 60.45454545,
-      "time": "2025-12-08T18:44:37.318146"
     }
   ]
 }
