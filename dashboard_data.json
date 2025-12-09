@@ -172,8 +172,24 @@
       "profit_rate": 0.013039117352056092
     }
   ],
-  "last_update": "2025-12-09T10:21:47.822182",
+  "last_update": "2025-12-09T10:26:25.655918",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-ENJ",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-09T10:26:25.654830"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ENJ",
+      "profit": -1815.5137357539004,
+      "price": 49.65,
+      "amount": 163.11893403,
+      "time": "2025-12-09T10:26:25.651832"
+    },
     {
       "type": "sell",
       "market": "KRW-XION",
@@ -957,22 +973,6 @@
       "price": 0,
       "amount": 0,
       "time": "2025-12-08T05:41:47.170681"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-A8",
-      "profit": 193.52087235550036,
-      "price": 74.65,
-      "amount": 133.46267059,
-      "time": "2025-12-08T05:41:47.167415"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-A8",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-08T05:31:25.805666"
     }
   ]
 }
