@@ -172,8 +172,40 @@
       "profit_rate": 0.03017241379310342
     }
   ],
-  "last_update": "2025-12-10T00:12:20.056260",
+  "last_update": "2025-12-10T00:14:50.341549",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-EVZ",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-10T00:14:50.341328"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-EVZ",
+      "profit": 238.01002147460022,
+      "price": 0.84,
+      "amount": 11900.50107373,
+      "time": "2025-12-10T00:14:50.339123"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-G",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-10T00:14:49.937410"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-G",
+      "profit": 117.84810126600048,
+      "price": 11.74,
+      "amount": 841.7721519,
+      "time": "2025-12-10T00:14:49.935145"
+    },
     {
       "type": "buy",
       "market": "KRW-DKA",
@@ -941,38 +973,6 @@
       "price": 976.0,
       "amount": 10.01506024,
       "time": "2025-12-08T17:22:57.137965"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-PIEVERSE",
-      "profit": 0,
-      "price": 983.0,
-      "amount": 9.93525896,
-      "time": "2025-12-08T17:11:56.391702"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-SPURS",
-      "profit": 0,
-      "price": 309.0,
-      "amount": 31.5664557,
-      "time": "2025-12-08T16:55:26.461315"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-PIEVERSE",
-      "profit": 0,
-      "price": 1005.0,
-      "amount": 9.68446602,
-      "time": "2025-12-08T16:28:04.770899"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-EVZ",
-      "profit": 0,
-      "price": 0.83,
-      "amount": 11665.30230382,
-      "time": "2025-12-08T16:00:43.068747"
     }
   ]
 }
