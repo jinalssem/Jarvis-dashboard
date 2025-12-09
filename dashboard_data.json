@@ -1,8 +1,8 @@
 {
   "today_profit": 1473.599642675261,
   "today_profit_percent": 147359.9642675261,
-  "total_profit": 4078.055067793864,
-  "total_profit_percent": 407805.50677938643,
+  "total_profit": 4124.776379269065,
+  "total_profit_percent": 412477.63792690646,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -153,8 +153,16 @@
     "profit_rate": 0.0
   },
   "holdings": [],
-  "last_update": "2025-12-09T19:57:46.291381",
+  "last_update": "2025-12-09T20:04:46.244571",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-AAVE",
+      "profit": 0,
+      "price": 274400.0,
+      "amount": 0.035625,
+      "time": "2025-12-09T20:03:33.498966"
+    },
     {
       "type": "buy",
       "market": "KRW-BCH",
@@ -946,14 +954,6 @@
       "price": 0,
       "amount": 0,
       "time": "2025-12-08T09:47:26.351250"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-BOBA",
-      "profit": -46.72131147520108,
-      "price": 66.58,
-      "amount": 146.00409836,
-      "time": "2025-12-08T09:47:26.350177"
     }
   ]
 }
