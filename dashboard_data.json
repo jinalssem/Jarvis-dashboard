@@ -163,8 +163,24 @@
       "profit_rate": 0.04020100502512566
     }
   ],
-  "last_update": "2025-12-10T03:50:25.749255",
+  "last_update": "2025-12-10T03:52:40.822330",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-G",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-10T03:52:40.821958"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-G",
+      "profit": 431.98818897520124,
+      "price": 10.39,
+      "amount": 981.79133858,
+      "time": "2025-12-10T03:52:40.820320"
+    },
     {
       "type": "buy",
       "market": "KRW-G",
@@ -948,22 +964,6 @@
       "price": 356.0,
       "amount": 27.40384615,
       "time": "2025-12-08T22:36:57.099450"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-SUNDOG",
-      "profit": 0,
-      "price": 16.6,
-      "amount": 588.49557522,
-      "time": "2025-12-08T20:30:51.278086"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-HEMI",
-      "profit": 0,
-      "price": 23.3,
-      "amount": 418.94162117,
-      "time": "2025-12-08T19:23:39.122228"
     }
   ]
 }
