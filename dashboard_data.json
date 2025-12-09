@@ -153,8 +153,16 @@
     "profit_rate": 0.0
   },
   "holdings": [],
-  "last_update": "2025-12-10T00:19:35.300070",
+  "last_update": "2025-12-10T00:23:01.130106",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-CTSI",
+      "profit": 0,
+      "price": 56.6,
+      "amount": 172.51815981,
+      "time": "2025-12-10T00:21:56.542715"
+    },
     {
       "type": "sell",
       "market": "KRW-EVZ",
@@ -946,14 +954,6 @@
       "price": 1042.0,
       "amount": 19.61972498,
       "time": "2025-12-08T17:44:46.495501"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-PIEVERSE",
-      "profit": 0,
-      "price": 976.0,
-      "amount": 10.01506024,
-      "time": "2025-12-08T17:22:57.137965"
     }
   ]
 }
