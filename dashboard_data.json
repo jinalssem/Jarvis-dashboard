@@ -190,8 +190,24 @@
       "profit_rate": 0.01516683518705749
     }
   ],
-  "last_update": "2025-12-09T11:32:30.049776",
+  "last_update": "2025-12-09T11:37:37.089471",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-ANIME",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-09T11:37:37.089019"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ANIME",
+      "profit": 167.89603960459993,
+      "price": 10.06,
+      "amount": 987.62376238,
+      "time": "2025-12-09T11:37:37.086721"
+    },
     {
       "type": "sell",
       "market": "KRW-WIKEN",
@@ -975,22 +991,6 @@
       "price": 74.83,
       "amount": 133.46267059,
       "time": "2025-12-08T06:02:56.404840"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-NMR",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-08T06:02:55.043981"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-NMR",
-      "profit": 118.67935800000001,
-      "price": 16670.0,
-      "amount": 0.59339679,
-      "time": "2025-12-08T06:02:55.041751"
     }
   ]
 }
