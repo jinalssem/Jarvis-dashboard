@@ -1,8 +1,8 @@
 {
   "today_profit": -516.9823231279097,
-  "today_profit_percent": -1.7705622279718576,
-  "total_profit": 4761.884646200991,
-  "total_profit_percent": 16.30851329212003,
+  "today_profit_percent": -1.326739918280413,
+  "total_profit": 4770.846402896186,
+  "total_profit_percent": 12.243498633396845,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -164,15 +164,24 @@
     },
     {
       "market": "KRW-REZ",
-      "amount": 2889.72842786,
+      "amount": 2889.72845336,
       "avg_price": 8.47,
-      "current_price": 8.47,
-      "value": 24475.999783974203,
-      "profit": 0.0,
-      "profit_rate": 0.0
+      "current_price": 8.469,
+      "value": 24473.110271505837,
+      "profit": -2.8897284533635315,
+      "profit_rate": -0.00011806375442753508
+    },
+    {
+      "market": "KRW-ANIME",
+      "amount": 987.62376238,
+      "avg_price": 9.89,
+      "current_price": 9.902,
+      "value": 9779.45049508676,
+      "profit": 11.851485148558695,
+      "profit_rate": 0.0012133468149644771
     }
   ],
-  "last_update": "2025-12-09T10:50:55.093728",
+  "last_update": "2025-12-09T10:56:46.995444",
   "trades": [
     {
       "type": "buy",
