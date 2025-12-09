@@ -698,7 +698,7 @@
             border-radius: 20px;
             padding: 15px;
             box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-            min-height: 300px;
+            min-height: 312px;
             display: flex;
             flex-direction: column;
         }
@@ -713,14 +713,14 @@
         .trades-list {
             display: flex;
             flex-direction: column;
-            gap: 8px;
+            gap: 6px;
             flex: 1;
         }
 
         .trade-item {
             background: rgba(255, 255, 255, 0.03);
             border-radius: 12px;
-            padding: 10px 15px;
+            padding: 8px 15px;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -2078,7 +2078,7 @@
                     const timeB = new Date(b.time || 0);
                     return timeB - timeA; // 최신순
                 });
-                const trades = sortedTrades.slice(0, 5);
+                const trades = sortedTrades.slice(0, 6);
                 
                 const tradesList = document.getElementById('tradesList');
                 tradesList.innerHTML = '';
@@ -2199,7 +2199,7 @@
                     // 최근 거래
                     const tradesList = document.getElementById('tradesList');
                     tradesList.innerHTML = '';
-                    const trades = data.trades.slice(0, 5);
+                    const trades = data.trades.slice(0, 6);
                     trades.forEach(t => {
                         const isBuy = t.type === 'buy';
                         const profit = t.profit || 0;
