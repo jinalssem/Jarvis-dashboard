@@ -153,8 +153,16 @@
     "profit_rate": 0.0
   },
   "holdings": [],
-  "last_update": "2025-12-09T23:08:13.680158",
+  "last_update": "2025-12-09T23:16:04.137058",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-ETH",
+      "profit": 0,
+      "price": 4539000.0,
+      "amount": 0.0021535,
+      "time": "2025-12-09T23:14:50.907708"
+    },
     {
       "type": "buy",
       "market": "KRW-BTC",
@@ -946,14 +954,6 @@
       "price": 1163.0,
       "amount": 79.09140742,
       "time": "2025-12-08T10:39:17.413053"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-A8",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-08T10:27:53.375173"
     }
   ]
 }
