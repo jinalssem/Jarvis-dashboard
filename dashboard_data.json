@@ -153,8 +153,16 @@
     "profit_rate": 0.0
   },
   "holdings": [],
-  "last_update": "2025-12-09T20:49:14.177305",
+  "last_update": "2025-12-09T20:55:25.411160",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-EL",
+      "profit": 0,
+      "price": 2.98,
+      "amount": 3270.49180328,
+      "time": "2025-12-09T20:54:15.326142"
+    },
     {
       "type": "buy",
       "market": "KRW-AAVE",
@@ -946,14 +954,6 @@
       "price": 69.4,
       "amount": 140.85004236,
       "time": "2025-12-08T09:47:27.651932"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-BOBA",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-08T09:47:26.351250"
     }
   ]
 }
