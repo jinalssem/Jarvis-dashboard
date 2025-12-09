@@ -153,8 +153,16 @@
     "profit_rate": 0.0
   },
   "holdings": [],
-  "last_update": "2025-12-09T18:21:19.973551",
+  "last_update": "2025-12-09T18:24:40.416701",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-EVZ",
+      "profit": 0,
+      "price": 0.82,
+      "amount": 11900.50107373,
+      "time": "2025-12-09T18:23:35.908393"
+    },
     {
       "type": "buy",
       "market": "KRW-APM",
@@ -946,14 +954,6 @@
       "price": 102.0,
       "amount": 95.0,
       "time": "2025-12-08T09:47:25.065402"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-PIEVERSE",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-08T09:35:45.821393"
     }
   ]
 }
