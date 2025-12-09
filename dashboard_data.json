@@ -1,8 +1,8 @@
 {
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": -1725.6614455557353,
-  "total_profit_percent": -172566.14455557353,
+  "total_profit": -1325.1267328345384,
+  "total_profit_percent": -6.78752709897895,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -152,9 +152,36 @@
     "profit": 0,
     "profit_rate": 0.0
   },
-  "holdings": [],
-  "last_update": "2025-12-10T00:08:44.373122",
+  "holdings": [
+    {
+      "market": "KRW-EVZ",
+      "amount": 11900.50107373,
+      "avg_price": 0.82,
+      "current_price": 0.8289,
+      "value": 9864.325340014797,
+      "profit": 105.91445955619723,
+      "profit_rate": 0.01085365853658539
+    },
+    {
+      "market": "KRW-G",
+      "amount": 841.7721519,
+      "avg_price": 11.6,
+      "current_price": 11.95,
+      "value": 10059.177215205,
+      "profit": 294.6202531649997,
+      "profit_rate": 0.03017241379310342
+    }
+  ],
+  "last_update": "2025-12-10T00:12:20.056260",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-DKA",
+      "profit": 0,
+      "price": 10.9,
+      "amount": 890.625,
+      "time": "2025-12-10T00:11:13.893719"
+    },
     {
       "type": "buy",
       "market": "KRW-G",
@@ -946,14 +973,6 @@
       "price": 0.83,
       "amount": 11665.30230382,
       "time": "2025-12-08T16:00:43.068747"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-XION",
-      "profit": 0,
-      "price": 433.0,
-      "amount": 22.5678733,
-      "time": "2025-12-08T11:57:57.209820"
     }
   ]
 }
