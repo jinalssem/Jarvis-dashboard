@@ -172,8 +172,24 @@
       "profit_rate": -0.0043859649122807015
     }
   ],
-  "last_update": "2025-12-10T10:26:42.953631",
+  "last_update": "2025-12-10T10:31:09.566552",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-BOB",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-10T10:31:09.566004"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-BOB",
+      "profit": -1194.276201403012,
+      "price": 25.33,
+      "amount": 3512.57706295,
+      "time": "2025-12-10T10:31:09.562430"
+    },
     {
       "type": "buy",
       "market": "KRW-ALLO",
@@ -957,22 +973,6 @@
       "price": 3.13,
       "amount": 3114.26787387,
       "time": "2025-12-09T02:08:23.454378"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-AAVE",
-      "profit": 0,
-      "price": 278200.0,
-      "amount": 0.03513561,
-      "time": "2025-12-09T01:56:30.335834"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-ACE",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-09T01:38:55.164306"
     }
   ]
 }
