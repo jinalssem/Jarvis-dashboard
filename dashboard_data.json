@@ -1,46 +1,30 @@
 {
-  "last_update": "2025-12-11T06:05:39.854409",
+  "last_update": "2025-12-11T06:11:21.415580",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": 140.12935377999997,
-  "total_profit_percent": 0.6587964957934644,
+  "total_profit": 399.53538812,
+  "total_profit_percent": 0.373443006226913,
   "holdings": [
     {
-      "market": "KRW-HYPER",
-      "amount": 43.92005227,
-      "avg_price": 219.0,
-      "current_price": 220.0,
-      "value": 9662.4114994,
-      "profit": 43.92005227,
-      "profit_rate": 0.0045662100456621
+      "market": "KRW-MAGIC",
+      "amount": 115.31791908,
+      "avg_price": 169.0,
+      "current_price": 169.0,
+      "value": 19488.728324519998,
+      "profit": 0.0,
+      "profit_rate": 0.0
     },
     {
-      "market": "KRW-PIEVERSE",
-      "amount": 10.68992239,
-      "avg_price": 1090.0,
-      "current_price": 1099.0,
-      "value": 11748.224706609999,
-      "profit": 96.20930150999999,
-      "profit_rate": 0.008256880733944955
+      "market": "KRW-HYPER",
+      "amount": 399.53538812,
+      "avg_price": 219.0,
+      "current_price": 220.0,
+      "value": 87897.78538639999,
+      "profit": 399.53538812,
+      "profit_rate": 0.0045662100456621
     }
   ],
   "trades": [
-    {
-      "type": "buy",
-      "market": "KRW-XION",
-      "profit": 0,
-      "price": 421.0,
-      "amount": 16.24158832,
-      "time": "2025-12-09T07:18:45+09:00"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-XION",
-      "profit": 0,
-      "price": 432.0,
-      "amount": 22.5678733,
-      "time": "2025-12-09T07:48:28+09:00"
-    },
     {
       "type": "sell",
       "market": "KRW-PUMPBTC",
@@ -763,6 +747,14 @@
     },
     {
       "type": "buy",
+      "market": "KRW-HYPER",
+      "profit": 0,
+      "price": 219.0,
+      "amount": 399.53538812,
+      "time": "2025-12-11T04:56:52+09:00"
+    },
+    {
+      "type": "buy",
       "market": "KRW-LRC",
       "profit": 0,
       "price": 103.0,
@@ -784,6 +776,14 @@
       "price": 100.0,
       "amount": 491.2967581,
       "time": "2025-12-11T05:04:00+09:00"
+    },
+    {
+      "type": "buy",
+      "market": "KRW-MAGIC",
+      "profit": 0,
+      "price": 169.0,
+      "amount": 115.31791908,
+      "time": "2025-12-11T05:05:59+09:00"
     },
     {
       "type": "buy",
