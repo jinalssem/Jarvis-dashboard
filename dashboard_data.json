@@ -1,8 +1,8 @@
 {
   "today_profit": -74.80458403329834,
   "today_profit_percent": -0.0474964399996989,
-  "total_profit": -3274.737365579622,
-  "total_profit_percent": -2.079262505220115,
+  "total_profit": -2705.522867213628,
+  "total_profit_percent": -1.7178453191214063,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,23 +157,31 @@
       "market": "KRW-BOB",
       "amount": 3512.57706295,
       "avg_price": 26.13,
-      "current_price": 25.57,
-      "value": 89816.5954996315,
-      "profit": -1967.0431552519954,
-      "profit_rate": -0.021431305013394516
+      "current_price": 25.65,
+      "value": 90097.60166466748,
+      "profit": -1686.0369902160014,
+      "profit_rate": -0.018369690011481074
     },
     {
       "market": "KRW-ALLO",
       "amount": 288.20833333,
       "avg_price": 228.0,
-      "current_price": 227.0,
-      "value": 65423.29166591,
-      "profit": -288.20833333,
-      "profit_rate": -0.0043859649122807015
+      "current_price": 228.0,
+      "value": 65711.49999924,
+      "profit": 0.0,
+      "profit_rate": 0.0
     }
   ],
-  "last_update": "2025-12-10T09:58:07.788371",
+  "last_update": "2025-12-10T10:04:02.509185",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-ZRC",
+      "profit": 0,
+      "price": 9.01,
+      "amount": 1083.88568945,
+      "time": "2025-12-10T10:02:42.326868"
+    },
     {
       "type": "buy",
       "market": "KRW-BLAST",
@@ -965,14 +973,6 @@
       "price": 305.0,
       "amount": 31.97115385,
       "time": "2025-12-09T01:33:05.659396"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-HEMI",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-09T01:20:50.858999"
     }
   ]
 }
