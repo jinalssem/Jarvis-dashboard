@@ -1,38 +1,21 @@
 {
-  "last_update": "2025-12-11T03:43:45.061786",
-  "today_profit": -7067.556880440019,
-  "today_profit_percent": -1.8206002905580883,
-  "total_profit": -7067.556880440019,
-  "total_profit_percent": -1.8206002905580883,
+  "last_update": "2025-12-11T03:48:53.490781",
+  "today_profit": 0,
+  "today_profit_percent": 0.0,
+  "total_profit": -5426.296559640019,
+  "total_profit_percent": -1.4454664914586122,
   "holdings": [
-    {
-      "market": "KRW-BTC",
-      "amount": 9.309e-05,
-      "avg_price": 137482000.0,
-      "current_price": 137515000.0,
-      "value": 12801.27135,
-      "profit": 3.0719700000000003,
-      "profit_rate": 0.0002400314222952823
-    },
     {
       "market": "KRW-HYPER",
       "amount": 1644.3322908,
       "avg_price": 228.3,
-      "current_price": 224.0,
-      "value": 368330.4331392,
-      "profit": -7070.628850440019,
-      "profit_rate": -0.018834866403854626
+      "current_price": 225.0,
+      "value": 369974.76543,
+      "profit": -5426.296559640019,
+      "profit_rate": -0.01445466491458612
     }
   ],
   "trades": [
-    {
-      "type": "buy",
-      "market": "KRW-XYO",
-      "profit": 0,
-      "price": 9.601,
-      "amount": 2673.88813665,
-      "time": "2025-12-09T04:08:04+09:00"
-    },
     {
       "type": "buy",
       "market": "KRW-XYO",
@@ -824,6 +807,14 @@
       "price": 222.0,
       "amount": 176.01351351,
       "time": "2025-12-10T18:36:14+09:00"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-BTC",
+      "profit": 0,
+      "price": 137549000.0,
+      "amount": 9.309e-05,
+      "time": "2025-12-11T03:44:56+09:00"
     }
   ],
   "daily_profits": {}
