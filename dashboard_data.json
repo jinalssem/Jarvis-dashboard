@@ -172,8 +172,24 @@
       "profit_rate": 0.0026155187445509776
     }
   ],
-  "last_update": "2025-12-10T18:18:18.500236",
+  "last_update": "2025-12-10T18:23:12.913507",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-HYPER",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-10T18:23:12.913090"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HYPER",
+      "profit": 3886.244680919995,
+      "price": 234.0,
+      "amount": 844.8358002,
+      "time": "2025-12-10T18:23:12.909965"
+    },
     {
       "type": "buy",
       "market": "KRW-WOO",
@@ -957,22 +973,6 @@
       "price": 233.0,
       "amount": 132.87124463,
       "time": "2025-12-10T18:18:18.440706"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-HYPER",
-      "profit": 0,
-      "price": 232.0,
-      "amount": 81.84913793,
-      "time": "2025-12-10T18:18:18.440125"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-HYPER",
-      "profit": 0,
-      "price": 226.0,
-      "amount": 499.48672566,
-      "time": "2025-12-10T18:18:18.439527"
     }
   ]
 }
