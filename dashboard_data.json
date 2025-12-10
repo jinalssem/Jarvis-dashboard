@@ -1,45 +1,11 @@
 {
-  "last_update": "2025-12-11T04:38:01.403406",
+  "last_update": "2025-12-11T04:43:43.559160",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": -10359.293432040018,
-  "total_profit_percent": -2.759526938239164,
-  "holdings": [
-    {
-      "market": "KRW-HYPER",
-      "amount": 1644.3322908,
-      "avg_price": 228.3,
-      "current_price": 222.0,
-      "value": 365041.7685576,
-      "profit": -10359.293432040018,
-      "profit_rate": -0.027595269382391638
-    }
-  ],
+  "total_profit": 0,
+  "total_profit_percent": 0.0,
+  "holdings": [],
   "trades": [
-    {
-      "type": "buy",
-      "market": "KRW-XYO",
-      "profit": 0,
-      "price": 9.388,
-      "amount": 2732.929164,
-      "time": "2025-12-09T04:13:12+09:00"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-XYO",
-      "profit": 0,
-      "price": 9.641,
-      "amount": 6381.89061443,
-      "time": "2025-12-09T04:14:39+09:00"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-WOO",
-      "profit": 0,
-      "price": 39.1,
-      "amount": 499.49924887,
-      "time": "2025-12-09T04:30:23+09:00"
-    },
     {
       "type": "buy",
       "market": "KRW-DYDX",
@@ -815,6 +781,30 @@
       "price": 137549000.0,
       "amount": 9.309e-05,
       "time": "2025-12-11T03:44:56+09:00"
+    },
+    {
+      "type": "buy",
+      "market": "KRW-ALLO",
+      "profit": 0,
+      "price": 242.0,
+      "amount": 22.72727272,
+      "time": "2025-12-11T04:39:14+09:00"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ALLO",
+      "profit": 0,
+      "price": 224.0,
+      "amount": 22.72727272,
+      "time": "2025-12-11T04:39:23+09:00"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HYPER",
+      "profit": 0,
+      "price": 220.0,
+      "amount": 1644.3322908,
+      "time": "2025-12-11T04:42:34+09:00"
     }
   ],
   "daily_profits": {}
