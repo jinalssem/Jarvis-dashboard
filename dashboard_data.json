@@ -172,8 +172,24 @@
       "profit_rate": 0.0019135093761959707
     }
   ],
-  "last_update": "2025-12-10T09:17:50.577516",
+  "last_update": "2025-12-10T09:23:08.255504",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-CTSI",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-10T09:23:08.254729"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-CTSI",
+      "profit": 70.73244552209941,
+      "price": 57.01,
+      "amount": 172.51815981,
+      "time": "2025-12-10T09:23:08.207522"
+    },
     {
       "type": "sell",
       "market": "KRW-NIL",
@@ -957,22 +973,6 @@
       "price": 23.59,
       "amount": 418.94162117,
       "time": "2025-12-09T01:20:50.855859"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-ACE",
-      "profit": 0,
-      "price": 348.0,
-      "amount": 28.01966292,
-      "time": "2025-12-09T01:03:14.342052"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-BLY",
-      "profit": 0,
-      "price": 2.86,
-      "amount": 3409.09090909,
-      "time": "2025-12-09T00:45:12.601147"
     }
   ]
 }
