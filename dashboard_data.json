@@ -1,8 +1,8 @@
 {
   "today_profit": -1269.0807854363104,
-  "today_profit_percent": -1.9312917608804978,
-  "total_profit": -1170.5441296806387,
-  "total_profit_percent": -1.7813383193111967,
+  "today_profit_percent": -0.4085884010446754,
+  "total_profit": -2548.049117211777,
+  "total_profit_percent": -0.820360158732468,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -154,6 +154,15 @@
   },
   "holdings": [
     {
+      "market": "KRW-SWELL",
+      "amount": 76528.05486284,
+      "avg_price": 3.2,
+      "current_price": 3.182,
+      "value": 243512.27057355686,
+      "profit": -1377.504987531138,
+      "profit_rate": -0.005625000000000074
+    },
+    {
       "market": "KRW-ALLO",
       "amount": 288.20833333,
       "avg_price": 228.0,
@@ -163,7 +172,7 @@
       "profit_rate": 0.017543859649122806
     }
   ],
-  "last_update": "2025-12-10T11:29:18.887386",
+  "last_update": "2025-12-10T11:35:14.499677",
   "trades": [
     {
       "type": "buy",
