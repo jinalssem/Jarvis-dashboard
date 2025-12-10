@@ -1,38 +1,21 @@
 {
-  "last_update": "2025-12-11T06:17:00.027199",
+  "last_update": "2025-12-11T06:22:38.619360",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": 1713.4594715599999,
-  "total_profit_percent": 1.6015588984952616,
+  "total_profit": 0.0,
+  "total_profit_percent": 0.0,
   "holdings": [
     {
       "market": "KRW-MAGIC",
       "amount": 115.31791908,
       "avg_price": 169.0,
-      "current_price": 170.0,
-      "value": 19604.046243599998,
-      "profit": 115.31791908,
-      "profit_rate": 0.005917159763313609
-    },
-    {
-      "market": "KRW-HYPER",
-      "amount": 399.53538812,
-      "avg_price": 219.0,
-      "current_price": 223.0,
-      "value": 89096.39155076,
-      "profit": 1598.14155248,
-      "profit_rate": 0.0182648401826484
+      "current_price": 169.0,
+      "value": 19488.728324519998,
+      "profit": 0.0,
+      "profit_rate": 0.0
     }
   ],
   "trades": [
-    {
-      "type": "sell",
-      "market": "KRW-FXS",
-      "profit": 0,
-      "price": 1150.0,
-      "amount": 17.08456843,
-      "time": "2025-12-09T08:25:14+09:00"
-    },
     {
       "type": "buy",
       "market": "KRW-REI",
@@ -824,6 +807,14 @@
       "price": 1125.0,
       "amount": 10.68992239,
       "time": "2025-12-11T06:10:10+09:00"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HYPER",
+      "profit": 0,
+      "price": 227.0,
+      "amount": 399.53538812,
+      "time": "2025-12-11T06:21:27+09:00"
     }
   ],
   "daily_profits": {}
