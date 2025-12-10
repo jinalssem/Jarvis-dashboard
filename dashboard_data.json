@@ -1,38 +1,39 @@
 {
-  "last_update": "2025-12-11T07:02:18.030942",
+  "last_update": "2025-12-11T07:08:00.445393",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": -146.3492546429997,
-  "total_profit_percent": -0.5566996350604644,
+  "total_profit": -28.96257985880012,
+  "total_profit_percent": -0.018087128033832677,
   "holdings": [
     {
       "market": "KRW-MAGIC",
       "amount": 115.31791908,
       "avg_price": 169.0,
-      "current_price": 168.0,
-      "value": 19373.410405439998,
-      "profit": -115.31791908,
-      "profit_rate": -0.005917159763313609
+      "current_price": 169.0,
+      "value": 19488.728324519998,
+      "profit": 0.0,
+      "profit_rate": 0.0
     },
     {
       "market": "KRW-MOCA",
       "amount": 206.87557042,
       "avg_price": 32.87,
-      "current_price": 32.72,
-      "value": 6768.9686641424,
-      "profit": -31.031335562999708,
-      "profit_rate": -0.0045634317006388375
+      "current_price": 32.73,
+      "value": 6771.0374198466,
+      "profit": -28.96257985880012,
+      "profit_rate": -0.004259202920596306
+    },
+    {
+      "market": "KRW-NOM",
+      "amount": 9726.70069013,
+      "avg_price": 13.76,
+      "current_price": 13.76,
+      "value": 133839.40149618877,
+      "profit": 0.0,
+      "profit_rate": 0.0
     }
   ],
   "trades": [
-    {
-      "type": "buy",
-      "market": "KRW-REI",
-      "profit": 0,
-      "price": 8.57,
-      "amount": 1140.13030061,
-      "time": "2025-12-09T09:22:28+09:00"
-    },
     {
       "type": "buy",
       "market": "KRW-XION",
@@ -824,6 +825,14 @@
       "price": 227.0,
       "amount": 399.53538812,
       "time": "2025-12-11T06:21:27+09:00"
+    },
+    {
+      "type": "buy",
+      "market": "KRW-NOM",
+      "profit": 0,
+      "price": 13.76,
+      "amount": 9726.70069013,
+      "time": "2025-12-11T07:02:48+09:00"
     }
   ],
   "daily_profits": {}
