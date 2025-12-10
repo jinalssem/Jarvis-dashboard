@@ -172,6 +172,23 @@
       "profit_rate": 0.046632124352331605
     }
   ],
-  "last_update": "2025-12-10T15:12:38.215071",
-  "trades": []
+  "last_update": "2025-12-10T15:16:54.251689",
+  "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-SD",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-10T15:16:54.251223"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-SD",
+      "profit": 3548.6620236,
+      "price": 410.0,
+      "amount": 147.86091765,
+      "time": "2025-12-10T15:16:54.248234"
+    }
+  ]
 }
