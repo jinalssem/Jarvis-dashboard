@@ -1,46 +1,39 @@
 {
-  "last_update": "2025-12-11T05:18:49.416729",
+  "last_update": "2025-12-11T05:24:43.124509",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": 1273.4051210879077,
-  "total_profit_percent": 0.5975530026763187,
+  "total_profit": 809.8434463115457,
+  "total_profit_percent": 0.3434680551642863,
   "holdings": [
     {
       "market": "KRW-LRC",
-      "amount": 1126.82686487,
-      "avg_price": 101.7,
-      "current_price": 100.0,
-      "value": 112682.686487,
-      "profit": -1915.605670279003,
-      "profit_rate": -0.016715830875122937
+      "amount": 1238.92698516,
+      "avg_price": 101.4,
+      "current_price": 99.92,
+      "value": 123793.5843571872,
+      "profit": -1833.6119380368048,
+      "profit_rate": -0.014595660749506943
     },
     {
       "market": "KRW-TEMCO",
       "amount": 70866.90647482,
       "avg_price": 1.39,
-      "current_price": 1.435,
-      "value": 101694.0107913667,
-      "profit": 3189.010791366911,
-      "profit_rate": 0.03237410071942457
+      "current_price": 1.427,
+      "value": 101127.07553956815,
+      "profit": 2622.0755395683505,
+      "profit_rate": 0.02661870503597133
+    },
+    {
+      "market": "KRW-PIEVERSE",
+      "amount": 10.68992239,
+      "avg_price": 1090.0,
+      "current_price": 1092.0,
+      "value": 11673.395249879999,
+      "profit": 21.37984478,
+      "profit_rate": 0.001834862385321101
     }
   ],
   "trades": [
-    {
-      "type": "buy",
-      "market": "KRW-MAY",
-      "profit": 0,
-      "price": 32.51,
-      "amount": 600.79975392,
-      "time": "2025-12-09T05:44:05+09:00"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-WOO",
-      "profit": 0,
-      "price": 40.5,
-      "amount": 244.06655248,
-      "time": "2025-12-09T05:50:48+09:00"
-    },
     {
       "type": "sell",
       "market": "KRW-DYDX",
@@ -824,6 +817,22 @@
       "price": 100.0,
       "amount": 491.2967581,
       "time": "2025-12-11T05:04:00+09:00"
+    },
+    {
+      "type": "buy",
+      "market": "KRW-PIEVERSE",
+      "profit": 0,
+      "price": 1090.0,
+      "amount": 10.68992239,
+      "time": "2025-12-11T05:11:45+09:00"
+    },
+    {
+      "type": "buy",
+      "market": "KRW-LRC",
+      "profit": 0,
+      "price": 98.22,
+      "amount": 112.10012029,
+      "time": "2025-12-11T05:18:16+09:00"
     }
   ],
   "daily_profits": {}
