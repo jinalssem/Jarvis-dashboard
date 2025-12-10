@@ -2065,15 +2065,13 @@
                 // 최근 거래 시간순 정렬 (최신순)
                 const allTrades = data.trades || [];
                 
-                // 매도 거래 중 profit이 0인 것은 제외 (중복 방지)
-                const filteredTrades = allTrades.filter(t => {
-                    if (t.type === 'sell' && (!t.profit || t.profit === 0)) {
-                        return false; // 매도인데 수익이 0이면 제외
-                    }
-                    return true;
-                });
+                console.log(`[DATA] 전체 거래 내역: ${allTrades.length}개`);
+                if (allTrades.length > 0) {
+                    console.log('[DATA] 첫 번째 거래:', allTrades[0]);
+                }
                 
-                const sortedTrades = [...filteredTrades].sort((a, b) => {
+                // 거래 필터링 제거 - 모든 거래 표시
+                const sortedTrades = [...allTrades].sort((a, b) => {
                     const timeA = new Date(a.time || 0);
                     const timeB = new Date(b.time || 0);
                     return timeB - timeA; // 최신순
@@ -2083,10 +2081,12 @@
                 const tradesList = document.getElementById('tradesList');
                 tradesList.innerHTML = '';
 
+                console.log(`[TRADES] 총 ${trades.length}개의 거래 내역`);
+                
                 if (trades.length === 0) {
                     // 재미있는 메시지들
                     const messages = [
-                        '심심해', '허전해', '코인이나 살까?', '🤔', 
+                        '거래 내역 없음', '심심해', '허전해', '코인이나 살까?', '🤔', 
                         '뭐 살까', '기다리는 중', '언제 살까', '타이밍은?',
                         '고민 중...', '기회를 노린다', '분석 중', '관망',
                         '차트 보는 중', '🔥', '💎', '🚀'
@@ -2126,9 +2126,12 @@
                         </div>
                     `;
                 } else {
+                    console.log('[TRADES] 거래 내역 표시 중...');
                     trades.forEach((t, index) => {
                         const isBuy = t.type === 'buy';
                         const profit = t.profit || 0;
+
+                        console.log(`[TRADES] ${index + 1}. ${t.type.toUpperCase()} ${t.market} @ ${t.time}`);
 
                         const item = document.createElement('div');
                         item.className = `trade-item ${isBuy ? 'trade-buy' : 'trade-sell'}`;
