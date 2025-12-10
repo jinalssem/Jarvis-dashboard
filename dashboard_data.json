@@ -1,38 +1,30 @@
 {
-  "last_update": "2025-12-11T05:47:59.936838",
+  "last_update": "2025-12-11T05:53:42.050516",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": -4073.3827584740066,
-  "total_profit_percent": -2.967224758957727,
+  "total_profit": -3680.3815625040193,
+  "total_profit_percent": -1.5479856562667873,
   "holdings": [
     {
       "market": "KRW-LRC",
-      "amount": 1238.92698516,
-      "avg_price": 101.4,
-      "current_price": 98.0,
-      "value": 121414.84454568,
-      "profit": -4212.351749544006,
-      "profit_rate": -0.03353057199211051
+      "amount": 2273.51367059,
+      "avg_price": 99.45,
+      "current_price": 97.85,
+      "value": 222463.31266723148,
+      "profit": -3637.6218729440193,
+      "profit_rate": -0.016088486676722056
     },
     {
       "market": "KRW-PIEVERSE",
       "amount": 10.68992239,
       "avg_price": 1090.0,
-      "current_price": 1103.0,
-      "value": 11790.984396169999,
-      "profit": 138.96899107,
-      "profit_rate": 0.011926605504587157
+      "current_price": 1086.0,
+      "value": 11609.255715539999,
+      "profit": -42.75968956,
+      "profit_rate": -0.003669724770642202
     }
   ],
   "trades": [
-    {
-      "type": "buy",
-      "market": "KRW-PUMPBTC",
-      "profit": 0,
-      "price": 44.55,
-      "amount": 351.75809074,
-      "time": "2025-12-09T07:06:06+09:00"
-    },
     {
       "type": "sell",
       "market": "KRW-MAY",
@@ -824,6 +816,14 @@
       "price": 1.421,
       "amount": 70866.90647482,
       "time": "2025-12-11T05:42:08+09:00"
+    },
+    {
+      "type": "buy",
+      "market": "KRW-LRC",
+      "profit": 0,
+      "price": 97.14,
+      "amount": 1034.58668543,
+      "time": "2025-12-11T05:44:19+09:00"
     }
   ],
   "daily_profits": {}
