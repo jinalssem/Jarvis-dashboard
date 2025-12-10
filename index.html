@@ -1150,7 +1150,7 @@
         </div>
 
         <div class="trades-section">
-            <h2>📜 최근 거래</h2>
+            <h2>📜 거래내역</h2>
             <div class="trades-list" id="tradesList"></div>
         </div>
         </div><!-- left-column 끝 -->
@@ -2036,7 +2036,7 @@
                 const todayPercentText = '(' + formatPercent(todayPercent) + ')';
                 
                 document.getElementById('todayProfitAmount').textContent = todayAmountText;
-                document.getElementById('todayProfitAmount').style.color = todayProfit >= 0 ? '#4ade80' : '#5dade2'; // 음수는 파랑
+                document.getElementById('todayProfitAmount').style.color = todayProfit >= 0 ? '#ff6b6b' : '#5dade2'; // 양수는 붉은색
                 document.getElementById('todayProfitPercent').textContent = todayPercentText;
                 document.getElementById('todayProfitPercent').style.color = '#95a5a6'; // 퍼센트는 항상 회색
 
@@ -2045,7 +2045,7 @@
                 const totalPercentText = '(' + formatPercent(totalPercent) + ')';
                 
                 document.getElementById('totalProfitAmount').textContent = totalAmountText;
-                document.getElementById('totalProfitAmount').style.color = totalProfit >= 0 ? '#4ade80' : '#5dade2'; // 음수는 파랑
+                document.getElementById('totalProfitAmount').style.color = totalProfit >= 0 ? '#ff6b6b' : '#5dade2'; // 양수는 붉은색
                 document.getElementById('totalProfitPercent').textContent = totalPercentText;
                 document.getElementById('totalProfitPercent').style.color = '#95a5a6'; // 퍼센트는 항상 회색
                 
@@ -2173,7 +2173,7 @@
                     const todayPercentText2 = '(' + formatPercent(todayPercent) + ')';
                     
                     document.getElementById('todayProfitAmount').textContent = todayAmountText2;
-                    document.getElementById('todayProfitAmount').style.color = todayProfit >= 0 ? '#4ade80' : '#5dade2';
+                    document.getElementById('todayProfitAmount').style.color = todayProfit >= 0 ? '#ff6b6b' : '#5dade2';
                     document.getElementById('todayProfitPercent').textContent = todayPercentText2;
                     document.getElementById('todayProfitPercent').style.color = '#95a5a6';
                     
@@ -2182,7 +2182,7 @@
                     const totalPercentText2 = '(' + formatPercent(totalPercent) + ')';
                     
                     document.getElementById('totalProfitAmount').textContent = totalAmountText2;
-                    document.getElementById('totalProfitAmount').style.color = totalProfit >= 0 ? '#4ade80' : '#5dade2';
+                    document.getElementById('totalProfitAmount').style.color = totalProfit >= 0 ? '#ff6b6b' : '#5dade2';
                     document.getElementById('totalProfitPercent').textContent = totalPercentText2;
                     document.getElementById('totalProfitPercent').style.color = '#95a5a6';
                     
