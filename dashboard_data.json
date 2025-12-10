@@ -1,8 +1,8 @@
 {
   "today_profit": -74.80458403329834,
-  "today_profit_percent": -0.08150100075523455,
-  "total_profit": -2303.023632038322,
-  "total_profit_percent": -2.509187547791543,
+  "today_profit_percent": -0.0474964399996989,
+  "total_profit": -3314.468811999825,
+  "total_profit_percent": -2.104489599059156,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,13 +157,22 @@
       "market": "KRW-BOB",
       "amount": 3512.57706295,
       "avg_price": 26.13,
-      "current_price": 25.73,
-      "value": 90378.6078297035,
-      "profit": -1405.030825179995,
-      "profit_rate": -0.015308075009567493
+      "current_price": 25.36,
+      "value": 89078.954316412,
+      "profit": -2704.6843384714984,
+      "profit_rate": -0.029468044393417513
+    },
+    {
+      "market": "KRW-ALLO",
+      "amount": 288.20833333,
+      "avg_price": 228.0,
+      "current_price": 229.0,
+      "value": 65999.70833257001,
+      "profit": 288.20833333,
+      "profit_rate": 0.0043859649122807015
     }
   ],
-  "last_update": "2025-12-10T09:38:06.602601",
+  "last_update": "2025-12-10T09:45:03.700671",
   "trades": [
     {
       "type": "sell",
