@@ -181,8 +181,24 @@
       "profit_rate": 0.01001564945226918
     }
   ],
-  "last_update": "2025-12-10T16:02:47.892515",
+  "last_update": "2025-12-10T16:07:40.617337",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-G",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-10T16:07:40.616648"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-G",
+      "profit": 175.63028022430194,
+      "price": 12.31,
+      "amount": 1596.63891113,
+      "time": "2025-12-10T16:07:40.613463"
+    },
     {
       "type": "sell",
       "market": "KRW-WIKEN",
@@ -966,22 +982,6 @@
       "price": 386.0,
       "amount": 147.86091765,
       "time": "2025-12-10T16:02:47.851262"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-SD",
-      "profit": 0,
-      "price": 414.0,
-      "amount": 147.86091765,
-      "time": "2025-12-10T16:02:47.850627"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-BTC",
-      "profit": 0,
-      "price": 137487000.0,
-      "amount": 9.309e-05,
-      "time": "2025-12-10T16:02:47.850309"
     }
   ]
 }
