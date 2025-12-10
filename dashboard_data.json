@@ -172,8 +172,24 @@
       "profit_rate": 0.02631578947368421
     }
   ],
-  "last_update": "2025-12-10T13:08:54.286745",
+  "last_update": "2025-12-10T13:13:24.138564",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-ALLO",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-10T13:13:24.138147"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ALLO",
+      "profit": 2017.4583333100002,
+      "price": 235.0,
+      "amount": 288.20833333,
+      "time": "2025-12-10T13:13:24.135923"
+    },
     {
       "type": "sell",
       "market": "KRW-ALLO",
@@ -957,22 +973,6 @@
       "price": 0,
       "amount": 0,
       "time": "2025-12-09T06:42:53.678250"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-MAY",
-      "profit": 1111.4795447520007,
-      "price": 34.36,
-      "amount": 600.79975392,
-      "time": "2025-12-09T06:42:53.673634"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-WOO",
-      "profit": 0,
-      "price": 0,
-      "amount": 0,
-      "time": "2025-12-09T05:49:28.323134"
     }
   ]
 }
