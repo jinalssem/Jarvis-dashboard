@@ -1,10 +1,19 @@
 {
-  "last_update": "2025-12-11T08:32:41.645480",
+  "last_update": "2025-12-11T08:38:47.823554",
   "today_profit": 0,
   "today_profit_percent": 0.0,
   "total_profit": -1457.4846636073996,
-  "total_profit_percent": -0.8580553405295047,
+  "total_profit_percent": -0.8113840884541266,
   "holdings": [
+    {
+      "market": "KRW-WAXL",
+      "amount": 51.15384615,
+      "avg_price": 191.0,
+      "current_price": 191.0,
+      "value": 9770.38461465,
+      "profit": 0.0,
+      "profit_rate": 0.0
+    },
     {
       "market": "KRW-MAGIC",
       "amount": 174.34158772,
@@ -34,14 +43,6 @@
     }
   ],
   "trades": [
-    {
-      "type": "sell",
-      "market": "KRW-XION",
-      "profit": 0,
-      "price": 438.0,
-      "amount": 16.24158832,
-      "time": "2025-12-09T10:09:11+09:00"
-    },
     {
       "type": "sell",
       "market": "KRW-ENJ",
@@ -833,6 +834,14 @@
       "price": 13.76,
       "amount": 9726.70069013,
       "time": "2025-12-11T07:02:48+09:00"
+    },
+    {
+      "type": "buy",
+      "market": "KRW-WAXL",
+      "profit": 0,
+      "price": 191.0,
+      "amount": 51.15384615,
+      "time": "2025-12-11T07:29:54+09:00"
     }
   ],
   "daily_profits": {}
