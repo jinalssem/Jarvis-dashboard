@@ -1,8 +1,8 @@
 {
   "today_profit": -74.80458403329834,
   "today_profit_percent": -0.0474964399996989,
-  "total_profit": -2171.4341394771272,
-  "total_profit_percent": -1.3787308980030386,
+  "total_profit": -2311.9372219951238,
+  "total_profit_percent": -1.4679419579244224,
   "recent_trades": [
     {
       "time": "05:49:20",
@@ -157,10 +157,10 @@
       "market": "KRW-BOB",
       "amount": 3512.57706295,
       "avg_price": 26.13,
-      "current_price": 25.72,
-      "value": 90343.48205907398,
-      "profit": -1440.1565958095005,
-      "profit_rate": -0.015690776884806742
+      "current_price": 25.68,
+      "value": 90202.978976556,
+      "profit": -1580.6596783274974,
+      "profit_rate": -0.017221584385763464
     },
     {
       "market": "KRW-ALLO",
@@ -172,8 +172,16 @@
       "profit_rate": 0.0043859649122807015
     }
   ],
-  "last_update": "2025-12-10T10:09:45.138050",
+  "last_update": "2025-12-10T10:15:24.904453",
   "trades": [
+    {
+      "type": "buy",
+      "market": "KRW-BTC",
+      "profit": 0,
+      "price": 134006000.0,
+      "amount": 7.295e-05,
+      "time": "2025-12-10T10:14:14.425591"
+    },
     {
       "type": "buy",
       "market": "KRW-ZRC",
@@ -965,14 +973,6 @@
       "price": 360.0,
       "amount": 27.40384615,
       "time": "2025-12-09T01:38:55.161838"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-DYDX",
-      "profit": 0,
-      "price": 305.0,
-      "amount": 31.97115385,
-      "time": "2025-12-09T01:33:05.659396"
     }
   ]
 }
