@@ -1,27 +1,36 @@
 {
-  "last_update": "2025-12-11T05:53:42.050516",
+  "last_update": "2025-12-11T05:59:55.664140",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": -3680.3815625040193,
-  "total_profit_percent": -1.5479856562667873,
+  "total_profit": -8789.748062366893,
+  "total_profit_percent": -3.553259023309691,
   "holdings": [
     {
       "market": "KRW-LRC",
       "amount": 2273.51367059,
       "avg_price": 99.45,
-      "current_price": 97.85,
-      "value": 222463.31266723148,
-      "profit": -3637.6218729440193,
-      "profit_rate": -0.016088486676722056
+      "current_price": 95.54,
+      "value": 217211.4960881686,
+      "profit": -8889.438452006892,
+      "profit_rate": -0.03931623931623928
+    },
+    {
+      "market": "KRW-HYPER",
+      "amount": 43.92005227,
+      "avg_price": 219.0,
+      "current_price": 222.0,
+      "value": 9750.25160394,
+      "profit": 131.76015681,
+      "profit_rate": 0.0136986301369863
     },
     {
       "market": "KRW-PIEVERSE",
       "amount": 10.68992239,
       "avg_price": 1090.0,
-      "current_price": 1086.0,
-      "value": 11609.255715539999,
-      "profit": -42.75968956,
-      "profit_rate": -0.003669724770642202
+      "current_price": 1087.0,
+      "value": 11619.945637929999,
+      "profit": -32.06976717,
+      "profit_rate": -0.0027522935779816515
     }
   ],
   "trades": [
