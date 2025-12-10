@@ -163,8 +163,24 @@
       "profit_rate": 0.020657276995305254
     }
   ],
-  "last_update": "2025-12-10T15:45:04.331229",
+  "last_update": "2025-12-10T15:49:17.262426",
   "trades": [
+    {
+      "type": "sell",
+      "market": "KRW-SWELL",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "time": "2025-12-10T15:49:17.262102"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-SWELL",
+      "profit": 3530.8911401834553,
+      "price": 3.261,
+      "amount": 53498.35060884,
+      "time": "2025-12-10T15:49:17.260443"
+    },
     {
       "type": "buy",
       "market": "KRW-ACE",
@@ -948,22 +964,6 @@
       "price": 236.0,
       "amount": 288.20833333,
       "time": "2025-12-10T15:45:04.310610"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-SD",
-      "profit": 0,
-      "price": 386.0,
-      "amount": 147.86091765,
-      "time": "2025-12-10T15:45:04.310334"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-SD",
-      "profit": 0,
-      "price": 414.0,
-      "amount": 147.86091765,
-      "time": "2025-12-10T15:45:04.309960"
     }
   ]
 }
