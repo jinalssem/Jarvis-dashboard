@@ -1,18 +1,27 @@
 {
-  "last_update": "2025-12-11T14:36:59.140690",
+  "last_update": "2025-12-11T14:42:58.244258",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": -8.416958019299972,
-  "total_profit_percent": -0.021563967606994916,
+  "total_profit": 1413.036977660695,
+  "total_profit_percent": 0.7406783094826034,
   "holdings": [
     {
       "market": "KRW-BTC",
       "amount": 7.276e-05,
       "avg_price": 134350000.0,
-      "current_price": 134638000.0,
-      "value": 9796.26088,
-      "profit": 20.95488,
-      "profit_rate": 0.0021436546334201714
+      "current_price": 134649000.0,
+      "value": 9797.06124,
+      "profit": 21.75524,
+      "profit_rate": 0.0022255303312244137
+    },
+    {
+      "market": "KRW-GRS",
+      "amount": 443.9542424,
+      "avg_price": 341.8,
+      "current_price": 345.0,
+      "value": 153164.213628,
+      "profit": 1420.653575679995,
+      "profit_rate": 0.009362200117027469
     },
     {
       "market": "KRW-MAGIC",
@@ -43,22 +52,6 @@
     }
   ],
   "trades": [
-    {
-      "type": "sell",
-      "market": "KRW-ALLO",
-      "profit": 0,
-      "price": 251.0,
-      "amount": 976.25329815,
-      "time": "2025-12-09T17:05:08+09:00"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-A8",
-      "profit": 0,
-      "price": 94.56,
-      "amount": 1985.02263799,
-      "time": "2025-12-09T17:14:23+09:00"
-    },
     {
       "type": "buy",
       "market": "KRW-A8",
@@ -842,6 +835,22 @@
       "price": 184.0,
       "amount": 53.34224599,
       "time": "2025-12-11T14:18:44+09:00"
+    },
+    {
+      "type": "buy",
+      "market": "KRW-GRS",
+      "profit": 0,
+      "price": 340.0,
+      "amount": 178.51838235,
+      "time": "2025-12-11T14:37:22+09:00"
+    },
+    {
+      "type": "buy",
+      "market": "KRW-GRS",
+      "profit": 0,
+      "price": 343.0,
+      "amount": 265.43586005,
+      "time": "2025-12-11T14:38:49+09:00"
     }
   ],
   "daily_profits": {}
