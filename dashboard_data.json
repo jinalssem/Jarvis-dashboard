@@ -1,18 +1,27 @@
 {
-  "last_update": "2025-12-11T15:55:57.052427",
+  "last_update": "2025-12-11T16:02:17.765130",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": 18.84484,
-  "total_profit_percent": 0.1927800521027168,
+  "total_profit": 35.16742,
+  "total_profit_percent": 0.3166434277879053,
   "holdings": [
     {
       "market": "KRW-BTC",
       "amount": 7.276e-05,
       "avg_price": 134350000.0,
-      "current_price": 134609000.0,
-      "value": 9794.15084,
-      "profit": 18.84484,
-      "profit_rate": 0.001927800521027168
+      "current_price": 134592000.0,
+      "value": 9792.91392,
+      "profit": 17.60792,
+      "profit_rate": 0.0018012653516933383
+    },
+    {
+      "market": "KRW-XION",
+      "amount": 3.5119,
+      "avg_price": 379.0,
+      "current_price": 384.0,
+      "value": 1348.5695999999998,
+      "profit": 17.5595,
+      "profit_rate": 0.013192612137203167
     }
   ],
   "trades": [
