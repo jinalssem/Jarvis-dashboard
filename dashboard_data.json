@@ -1,18 +1,18 @@
 {
-  "last_update": "2025-12-11T09:09:40.294756",
+  "last_update": "2025-12-11T09:15:46.720691",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": -1211.1962683958884,
-  "total_profit_percent": -0.6742749373012669,
+  "total_profit": -1656.4588275497995,
+  "total_profit_percent": -0.9221533299202679,
   "holdings": [
     {
       "market": "KRW-WAXL",
       "amount": 51.15384615,
       "avg_price": 191.0,
-      "current_price": 191.0,
-      "value": 9770.38461465,
-      "profit": 0.0,
-      "profit_rate": 0.0
+      "current_price": 188.0,
+      "value": 9616.9230762,
+      "profit": -153.46153845,
+      "profit_rate": -0.015706806282722512
     },
     {
       "market": "KRW-MAGIC",
@@ -36,21 +36,13 @@
       "market": "KRW-NOM",
       "amount": 9726.70069013,
       "avg_price": 13.76,
-      "current_price": 13.71,
-      "value": 133353.0664616823,
-      "profit": -486.3350345064896,
-      "profit_rate": -0.003633720930232481
+      "current_price": 13.68,
+      "value": 133061.2654409784,
+      "profit": -778.1360552104006,
+      "profit_rate": -0.005813953488372098
     }
   ],
   "trades": [
-    {
-      "type": "sell",
-      "market": "KRW-ENJ",
-      "profit": 0,
-      "price": 49.6,
-      "amount": 163.11893403,
-      "time": "2025-12-09T10:26:25+09:00"
-    },
     {
       "type": "buy",
       "market": "KRW-REZ",
@@ -826,6 +818,14 @@
       "price": 165.0,
       "amount": 59.02366864,
       "time": "2025-12-11T06:21:29+09:00"
+    },
+    {
+      "type": "buy",
+      "market": "KRW-G",
+      "profit": 0,
+      "price": 9.04,
+      "amount": 1080.71505959,
+      "time": "2025-12-11T06:27:07+09:00"
     },
     {
       "type": "buy",
