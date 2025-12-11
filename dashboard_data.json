@@ -1,38 +1,21 @@
 {
-  "last_update": "2025-12-12T08:06:17.956993",
+  "last_update": "2025-12-12T08:09:42.608068",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": 285.1562170546796,
-  "total_profit_percent": 1.4630415649589046,
+  "total_profit": 0.0,
+  "total_profit_percent": 0.0,
   "holdings": [
     {
       "market": "KRW-ADA",
       "amount": 15.56162246,
       "avg_price": 628.0,
-      "current_price": 629.0,
-      "value": 9788.26052734,
-      "profit": 15.56162246,
-      "profit_rate": 0.0015923566878980893
-    },
-    {
-      "market": "KRW-APM",
-      "amount": 6269.64173476,
-      "avg_price": 1.55,
-      "current_price": 1.593,
-      "value": 9987.539283472679,
-      "profit": 269.59459459467956,
-      "profit_rate": 0.02774193548387092
+      "current_price": 628.0,
+      "value": 9772.69890488,
+      "profit": 0.0,
+      "profit_rate": 0.0
     }
   ],
   "trades": [
-    {
-      "type": "sell",
-      "market": "KRW-ALLO",
-      "profit": 0,
-      "price": 224.0,
-      "amount": 22.72727272,
-      "time": "2025-12-11T04:39:23+09:00"
-    },
     {
       "type": "sell",
       "market": "KRW-HYPER",
@@ -824,6 +807,14 @@
       "price": 1.55,
       "amount": 6269.64173476,
       "time": "2025-12-12T07:44:55+09:00"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-APM",
+      "profit": 0,
+      "price": 1.61,
+      "amount": 6269.64173476,
+      "time": "2025-12-12T08:08:33+09:00"
     }
   ],
   "daily_profits": {}
