@@ -2077,18 +2077,48 @@
                     console.log('[DATA] 첫 번째 거래:', allTrades[0]);
                 }
                 
-                // 거래 필터링 제거 - 모든 거래 표시
+                // 거래 필터링: 각 코인별로 거래 사이클만 표시
+                function filterTrades(trades) {
+                    const filtered = [];
+                    const lastTradeType = {}; // {market: 'buy'/'sell'}
+                    
+                    // 최신순으로 순회
+                    for (const trade of trades) {
+                        const market = trade.market;
+                        
+                        if (trade.type === 'sell') {
+                            // 매도는 항상 표시 (거래 완결)
+                            filtered.push(trade);
+                            lastTradeType[market] = 'sell';
+                        } else if (trade.type === 'buy') {
+                            // 직전 거래가 매도였거나 첫 거래면 표시
+                            if (!lastTradeType[market] || lastTradeType[market] === 'sell') {
+                                filtered.push(trade);
+                                lastTradeType[market] = 'buy';
+                            }
+                            // 연속 매수는 스킵 (포지션 구축 중)
+                        }
+                    }
+                    
+                    console.log(`[FILTER] 원본 ${trades.length}개 → 필터링 후 ${filtered.length}개`);
+                    return filtered;
+                }
+                
+                // 시간순 정렬 (최신순)
                 const sortedTrades = [...allTrades].sort((a, b) => {
                     const timeA = new Date(a.time || 0);
                     const timeB = new Date(b.time || 0);
-                    return timeB - timeA; // 최신순
+                    return timeB - timeA;
                 });
-                const trades = sortedTrades.slice(0, 6);
+                
+                // 필터링 적용
+                const filteredTrades = filterTrades(sortedTrades);
+                const trades = filteredTrades.slice(0, 6);
                 
                 const tradesList = document.getElementById('tradesList');
                 tradesList.innerHTML = '';
 
-                console.log(`[TRADES] 총 ${trades.length}개의 거래 내역`);
+                console.log(`[TRADES] 총 ${trades.length}개의 거래 내역 (필터링됨)`);
                 
                 if (trades.length === 0) {
                     // 재미있는 메시지들
@@ -2138,7 +2168,28 @@
                         const isBuy = t.type === 'buy';
                         const profit = t.profit || 0;
 
-                        console.log(`[TRADES] ${index + 1}. ${t.type.toUpperCase()} ${t.market} @ ${t.time}`);
+                        console.log(`[TRADES] ${index + 1}. ${t.type.toUpperCase()} ${t.market} @ ${t.time} (profit: ${profit})`);
+
+                        // 손익 표시 텍스트 결정
+                        let profitText = '';
+                        let profitColor = '#95a5a6'; // 기본 회색
+                        
+                        if (isBuy) {
+                            profitText = '-';
+                            profitColor = '#95a5a6';
+                        } else {
+                            // 매도
+                            if (profit === 0) {
+                                profitText = '-'; // 과거 거래로 손익 정보 없음
+                                profitColor = '#95a5a6';
+                            } else if (profit > 0) {
+                                profitText = '+' + formatNumber(profit) + '원';
+                                profitColor = '#ff6b6b'; // 수익 빨간색
+                            } else {
+                                profitText = formatNumber(profit) + '원';
+                                profitColor = '#4ecdc4'; // 손실 파란색
+                            }
+                        }
 
                         const item = document.createElement('div');
                         item.className = `trade-item ${isBuy ? 'trade-buy' : 'trade-sell'}`;
@@ -2150,8 +2201,8 @@
                                     ${isBuy ? '매수' : '매도'}
                                 </span>
                             </div>
-                            <div class="trade-profit" style="color: ${profit >= 0 ? '#ff6b6b' : '#4ecdc4'};">
-                                ${isBuy ? '-' : (profit >= 0 ? '+' : '') + formatNumber(profit) + '원'}
+                            <div class="trade-profit" style="color: ${profitColor};">
+                                ${profitText}
                             </div>
                         `;
                         tradesList.appendChild(item);
