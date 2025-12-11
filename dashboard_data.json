@@ -1,9 +1,9 @@
 {
-  "last_update": "2025-12-11T09:28:25.538955",
+  "last_update": "2025-12-11T09:34:33.766643",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": -2196.179357710729,
-  "total_profit_percent": -1.371074350856801,
+  "total_profit": -1992.623622695099,
+  "total_profit_percent": -1.324796527022925,
   "holdings": [
     {
       "market": "KRW-WAXL",
@@ -18,39 +18,22 @@
       "market": "KRW-MOCA",
       "amount": 206.87557042,
       "avg_price": 32.87,
-      "current_price": 32.26,
-      "value": 6673.8059017492,
-      "profit": -126.19409795619988,
-      "profit_rate": -0.0185579555825981
-    },
-    {
-      "market": "KRW-G",
-      "amount": 1080.71505959,
-      "avg_price": 9.04,
-      "current_price": 9.204,
-      "value": 9946.901408466361,
-      "profit": 177.2372697727616,
-      "profit_rate": 0.01814159292035415
+      "current_price": 32.22,
+      "value": 6665.5308789324,
+      "profit": -134.4691207729997,
+      "profit_rate": -0.01977487070276844
     },
     {
       "market": "KRW-NOM",
       "amount": 9726.70069013,
       "avg_price": 13.76,
-      "current_price": 13.55,
-      "value": 131796.7943512615,
-      "profit": -2042.6071449272908,
-      "profit_rate": -0.015261627906976678
+      "current_price": 13.59,
+      "value": 132185.86237886667,
+      "profit": -1653.5391173220992,
+      "profit_rate": -0.012354651162790692
     }
   ],
   "trades": [
-    {
-      "type": "sell",
-      "market": "KRW-ANIME",
-      "profit": 0,
-      "price": 10.1,
-      "amount": 987.62376238,
-      "time": "2025-12-09T11:37:37+09:00"
-    },
     {
       "type": "buy",
       "market": "KRW-DYDX",
@@ -842,6 +825,14 @@
       "price": 162.0,
       "amount": 174.34158772,
       "time": "2025-12-11T09:22:09+09:00"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-G",
+      "profit": 0,
+      "price": 9.42,
+      "amount": 1080.71505959,
+      "time": "2025-12-11T09:27:01+09:00"
     }
   ],
   "daily_profits": {}
