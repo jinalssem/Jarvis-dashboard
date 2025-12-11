@@ -1,38 +1,30 @@
 {
-  "last_update": "2025-12-11T15:07:35.205986",
+  "last_update": "2025-12-11T15:13:34.767316",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": -13376.85229940401,
-  "total_profit_percent": -4.2746501358893445,
+  "total_profit": -3149.071750805,
+  "total_profit_percent": -1.0130460024085477,
   "holdings": [
     {
       "market": "KRW-BTC",
       "amount": 7.276e-05,
       "avg_price": 134350000.0,
-      "current_price": 134686000.0,
-      "value": 9799.75336,
-      "profit": 24.44736,
-      "profit_rate": 0.0025009304056568663
+      "current_price": 134627000.0,
+      "value": 9795.46052,
+      "profit": 20.15452,
+      "profit_rate": 0.0020617789356159287
     },
     {
       "market": "KRW-GRS",
       "amount": 905.49322023,
-      "avg_price": 334.8,
-      "current_price": 320.0,
-      "value": 289757.8304736,
-      "profit": -13401.29965940401,
-      "profit_rate": -0.044205495818399075
+      "avg_price": 332.5,
+      "current_price": 329.0,
+      "value": 297907.26945567003,
+      "profit": -3169.2262708050002,
+      "profit_rate": -0.010526315789473684
     }
   ],
   "trades": [
-    {
-      "type": "buy",
-      "market": "KRW-APM",
-      "profit": 0,
-      "price": 1.74,
-      "amount": 5616.55405405,
-      "time": "2025-12-09T18:20:15+09:00"
-    },
     {
       "type": "buy",
       "market": "KRW-EVZ",
@@ -824,6 +816,14 @@
       "price": 321.0,
       "amount": 182.71962616,
       "time": "2025-12-11T15:04:40+09:00"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-GRS",
+      "profit": 0,
+      "price": 328.0,
+      "amount": 182.71962616,
+      "time": "2025-12-11T15:10:23+09:00"
     }
   ],
   "daily_profits": {}
