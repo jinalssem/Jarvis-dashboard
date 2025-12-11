@@ -1,45 +1,54 @@
 {
-  "last_update": "2025-12-11T09:15:46.720691",
+  "last_update": "2025-12-11T09:22:01.553435",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": -1656.4588275497995,
-  "total_profit_percent": -0.9221533299202679,
+  "total_profit": -2834.328770624569,
+  "total_profit_percent": -1.4964848118973453,
   "holdings": [
     {
       "market": "KRW-WAXL",
       "amount": 51.15384615,
       "avg_price": 191.0,
-      "current_price": 188.0,
-      "value": 9616.9230762,
-      "profit": -153.46153845,
-      "profit_rate": -0.015706806282722512
+      "current_price": 186.0,
+      "value": 9514.6153839,
+      "profit": -255.76923075,
+      "profit_rate": -0.02617801047120419
     },
     {
       "market": "KRW-MAGIC",
       "amount": 174.34158772,
       "avg_price": 167.6,
-      "current_price": 164.0,
-      "value": 28592.020386080003,
-      "profit": -627.629715791999,
-      "profit_rate": -0.021479713603818583
+      "current_price": 162.0,
+      "value": 28243.337210640002,
+      "profit": -976.3128912319991,
+      "profit_rate": -0.033412887828162256
     },
     {
       "market": "KRW-MOCA",
       "amount": 206.87557042,
       "avg_price": 32.87,
-      "current_price": 32.4,
-      "value": 6702.768481608,
-      "profit": -97.23151809739977,
-      "profit_rate": -0.014298752662001792
+      "current_price": 32.35,
+      "value": 6692.424703087,
+      "profit": -107.57529661839918,
+      "profit_rate": -0.015819896562214667
+    },
+    {
+      "market": "KRW-G",
+      "amount": 1080.71505959,
+      "avg_price": 9.04,
+      "current_price": 9.097,
+      "value": 9831.26489709023,
+      "profit": 61.60075839663042,
+      "profit_rate": 0.006305309734513318
     },
     {
       "market": "KRW-NOM",
       "amount": 9726.70069013,
       "avg_price": 13.76,
-      "current_price": 13.68,
-      "value": 133061.2654409784,
-      "profit": -778.1360552104006,
-      "profit_rate": -0.005813953488372098
+      "current_price": 13.6,
+      "value": 132283.129385768,
+      "profit": -1556.2721104208013,
+      "profit_rate": -0.011627906976744196
     }
   ],
   "trades": [
