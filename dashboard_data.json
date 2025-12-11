@@ -1,9 +1,9 @@
 {
-  "last_update": "2025-12-11T15:37:29.911853",
+  "last_update": "2025-12-11T15:43:32.161272",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": -1670.34336175,
-  "total_profit_percent": -0.7330301434538273,
+  "total_profit": 20.30004,
+  "total_profit_percent": 0.20766654261257905,
   "holdings": [
     {
       "market": "KRW-BTC",
@@ -13,34 +13,9 @@
       "value": 9795.60604,
       "profit": 20.30004,
       "profit_rate": 0.002076665426125791
-    },
-    {
-      "market": "KRW-GRS",
-      "amount": 676.2573607,
-      "avg_price": 322.5,
-      "current_price": 320.0,
-      "value": 216402.355424,
-      "profit": -1690.64340175,
-      "profit_rate": -0.007751937984496124
     }
   ],
   "trades": [
-    {
-      "type": "sell",
-      "market": "KRW-EVZ",
-      "profit": 0,
-      "price": 0.84,
-      "amount": 11900.50107373,
-      "time": "2025-12-10T00:14:50+09:00"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-CTSI",
-      "profit": 0,
-      "price": 56.6,
-      "amount": 172.51815981,
-      "time": "2025-12-10T00:21:56+09:00"
-    },
     {
       "type": "buy",
       "market": "KRW-DKA",
@@ -824,6 +799,22 @@
       "price": 326.0,
       "amount": 425.86237255,
       "time": "2025-12-11T15:34:46+09:00"
+    },
+    {
+      "type": "buy",
+      "market": "KRW-GRS",
+      "profit": 0,
+      "price": 313.0,
+      "amount": 443.54952076,
+      "time": "2025-12-11T15:36:21+09:00"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-GRS",
+      "profit": 0,
+      "price": 307.0,
+      "amount": 1119.80688146,
+      "time": "2025-12-11T15:42:22+09:00"
     }
   ],
   "daily_profits": {}
