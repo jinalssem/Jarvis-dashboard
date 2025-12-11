@@ -1,55 +1,57 @@
 {
-  "last_update": "2025-12-11T09:34:33.766643",
+  "last_update": "2025-12-11T09:40:41.245215",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": -1992.623622695099,
-  "total_profit_percent": -1.324796527022925,
+  "total_profit": -2203.5557789209965,
+  "total_profit_percent": -1.2966773791788986,
   "holdings": [
+    {
+      "market": "KRW-ETH",
+      "amount": 0.0020014,
+      "avg_price": 4883998.0,
+      "current_price": 4881000.0,
+      "value": 9768.8334,
+      "profit": -6.0001972,
+      "profit_rate": -0.0006138413652094042
+    },
     {
       "market": "KRW-WAXL",
       "amount": 51.15384615,
       "avg_price": 191.0,
-      "current_price": 187.0,
-      "value": 9565.76923005,
-      "profit": -204.6153846,
-      "profit_rate": -0.020942408376963352
+      "current_price": 186.0,
+      "value": 9514.6153839,
+      "profit": -255.76923075,
+      "profit_rate": -0.02617801047120419
     },
     {
       "market": "KRW-MOCA",
       "amount": 206.87557042,
       "avg_price": 32.87,
-      "current_price": 32.22,
-      "value": 6665.5308789324,
-      "profit": -134.4691207729997,
-      "profit_rate": -0.01977487070276844
+      "current_price": 31.91,
+      "value": 6601.3994521022005,
+      "profit": -198.60054760319943,
+      "profit_rate": -0.029205962884088756
+    },
+    {
+      "market": "KRW-BRETT",
+      "amount": 381.01604278,
+      "avg_price": 25.6,
+      "current_price": 25.62,
+      "value": 9761.6310160236,
+      "profit": 7.620320855599838,
+      "profit_rate": 0.0007812499999999833
     },
     {
       "market": "KRW-NOM",
       "amount": 9726.70069013,
       "avg_price": 13.76,
-      "current_price": 13.59,
-      "value": 132185.86237886667,
-      "profit": -1653.5391173220992,
-      "profit_rate": -0.012354651162790692
+      "current_price": 13.58,
+      "value": 132088.59537196538,
+      "profit": -1750.806124223397,
+      "profit_rate": -0.01308139534883719
     }
   ],
   "trades": [
-    {
-      "type": "buy",
-      "market": "KRW-DYDX",
-      "profit": 0,
-      "price": 291.0,
-      "amount": 59.22680412,
-      "time": "2025-12-09T11:54:39+09:00"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-WOO",
-      "profit": 0,
-      "price": 39.7,
-      "amount": 499.49924887,
-      "time": "2025-12-09T13:03:21+09:00"
-    },
     {
       "type": "sell",
       "market": "KRW-BTR",
@@ -779,6 +781,14 @@
       "time": "2025-12-11T06:10:10+09:00"
     },
     {
+      "type": "buy",
+      "market": "KRW-ETH",
+      "profit": 0,
+      "price": 4884000.0,
+      "amount": 0.0020014,
+      "time": "2025-12-11T06:15:49+09:00"
+    },
+    {
       "type": "sell",
       "market": "KRW-HYPER",
       "profit": 0,
@@ -817,6 +827,14 @@
       "price": 191.0,
       "amount": 51.15384615,
       "time": "2025-12-11T07:29:54+09:00"
+    },
+    {
+      "type": "buy",
+      "market": "KRW-BRETT",
+      "profit": 0,
+      "price": 25.6,
+      "amount": 381.01604278,
+      "time": "2025-12-11T08:31:29+09:00"
     },
     {
       "type": "sell",
