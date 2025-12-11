@@ -1,19 +1,21 @@
 {
-  "last_update": "2025-12-11T19:34:41.405220",
+  "last_update": "2025-12-11T19:38:23.562931",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": 0,
-  "total_profit_percent": 0.0,
-  "holdings": [],
-  "trades": [
+  "total_profit": -15.299999999999976,
+  "total_profit_percent": -0.3697617091207882,
+  "holdings": [
     {
-      "type": "sell",
-      "market": "KRW-CTSI",
-      "profit": 0,
-      "price": 57.0,
-      "amount": 172.51815981,
-      "time": "2025-12-10T09:23:08+09:00"
-    },
+      "market": "KRW-STABLE",
+      "amount": 170.0,
+      "avg_price": 24.34,
+      "current_price": 24.25,
+      "value": 4122.5,
+      "profit": -15.299999999999976,
+      "profit_rate": -0.0036976170912078822
+    }
+  ],
+  "trades": [
     {
       "type": "buy",
       "market": "KRW-BOB",
@@ -805,6 +807,14 @@
       "price": 24.24,
       "amount": 4250.82453246,
       "time": "2025-12-11T19:17:40+09:00"
+    },
+    {
+      "type": "buy",
+      "market": "KRW-STABLE",
+      "profit": 0,
+      "price": 30.0,
+      "amount": 170.0,
+      "time": "2025-12-11T19:35:51+09:00"
     }
   ],
   "daily_profits": {}
