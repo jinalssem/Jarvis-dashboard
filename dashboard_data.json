@@ -1,46 +1,30 @@
 {
-  "last_update": "2025-12-11T15:31:33.122727",
+  "last_update": "2025-12-11T15:37:29.911853",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": -1507.2186546639919,
-  "total_profit_percent": -0.6446436592714337,
+  "total_profit": -1670.34336175,
+  "total_profit_percent": -0.7330301434538273,
   "holdings": [
     {
       "market": "KRW-BTC",
       "amount": 7.276e-05,
       "avg_price": 134350000.0,
-      "current_price": 134465000.0,
-      "value": 9783.6734,
-      "profit": 8.3674,
-      "profit_rate": 0.0008559732043170822
+      "current_price": 134629000.0,
+      "value": 9795.60604,
+      "profit": 20.30004,
+      "profit_rate": 0.002076665426125791
     },
     {
       "market": "KRW-GRS",
-      "amount": 688.90275212,
-      "avg_price": 325.2,
-      "current_price": 323.0,
-      "value": 222515.58893476,
-      "profit": -1515.586054663992,
-      "profit_rate": -0.006765067650676472
+      "amount": 676.2573607,
+      "avg_price": 322.5,
+      "current_price": 320.0,
+      "value": 216402.355424,
+      "profit": -1690.64340175,
+      "profit_rate": -0.007751937984496124
     }
   ],
   "trades": [
-    {
-      "type": "buy",
-      "market": "KRW-DKA",
-      "profit": 0,
-      "price": 10.9,
-      "amount": 890.625,
-      "time": "2025-12-10T00:11:14+09:00"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-G",
-      "profit": 0,
-      "price": 11.8,
-      "amount": 841.7721519,
-      "time": "2025-12-10T00:14:50+09:00"
-    },
     {
       "type": "sell",
       "market": "KRW-EVZ",
@@ -824,6 +808,22 @@
       "price": 322.0,
       "amount": 438.50776397,
       "time": "2025-12-11T15:21:08+09:00"
+    },
+    {
+      "type": "buy",
+      "market": "KRW-GRS",
+      "profit": 0,
+      "price": 318.0,
+      "amount": 413.21698113,
+      "time": "2025-12-11T15:30:51+09:00"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-GRS",
+      "profit": 0,
+      "price": 326.0,
+      "amount": 425.86237255,
+      "time": "2025-12-11T15:34:46+09:00"
     }
   ],
   "daily_profits": {}
