@@ -1,27 +1,18 @@
 {
-  "last_update": "2025-12-11T13:54:15.340725",
+  "last_update": "2025-12-11T14:00:25.732854",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": -365.20437720700045,
-  "total_profit_percent": -0.6235457827984419,
+  "total_profit": -147.31827013419985,
+  "total_profit_percent": -0.3019179437779715,
   "holdings": [
     {
       "market": "KRW-BTC",
       "amount": 7.276e-05,
       "avg_price": 134350000.0,
-      "current_price": 134789000.0,
-      "value": 9807.24764,
-      "profit": 31.94164,
-      "profit_rate": 0.0032675846669147747
-    },
-    {
-      "market": "KRW-ETH",
-      "amount": 0.0020014,
-      "avg_price": 4883998.0,
-      "current_price": 4790000.0,
-      "value": 9586.706,
-      "profit": -188.1275972,
-      "profit_rate": -0.019246117627402796
+      "current_price": 134900000.0,
+      "value": 9815.324,
+      "profit": 40.018,
+      "profit_rate": 0.004093784890212133
     },
     {
       "market": "KRW-WAXL",
@@ -45,30 +36,22 @@
       "market": "KRW-XAI",
       "amount": 379.56621005,
       "avg_price": 25.7,
-      "current_price": 25.43,
-      "value": 9652.3687215715,
-      "profit": -102.48287671349983,
-      "profit_rate": -0.01050583657587547
+      "current_price": 25.39,
+      "value": 9637.1860731695,
+      "profit": -117.66552511549952,
+      "profit_rate": -0.012062256809338472
     },
     {
       "market": "KRW-MOCA",
       "amount": 307.20665229,
       "avg_price": 31.8,
-      "current_price": 31.65,
-      "value": 9723.0905449785,
-      "profit": -46.08099784350066,
-      "profit_rate": -0.004716981132075538
+      "current_price": 31.77,
+      "value": 9759.955343253301,
+      "profit": -9.21619956870035,
+      "profit_rate": -0.00094339622641513
     }
   ],
   "trades": [
-    {
-      "type": "sell",
-      "market": "KRW-DYDX",
-      "profit": 0,
-      "price": 284.0,
-      "amount": 100.30515933,
-      "time": "2025-12-09T15:55:51+09:00"
-    },
     {
       "type": "buy",
       "market": "KRW-ALLO",
@@ -860,6 +843,14 @@
       "price": 13.1,
       "amount": 6461.31079574,
       "time": "2025-12-11T12:14:46+09:00"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ETH",
+      "profit": 0,
+      "price": 4793000.0,
+      "amount": 0.0020014,
+      "time": "2025-12-11T13:54:23+09:00"
     }
   ],
   "daily_profits": {}
