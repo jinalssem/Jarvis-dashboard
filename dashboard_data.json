@@ -1,38 +1,30 @@
 {
-  "last_update": "2025-12-11T16:21:03.017429",
+  "last_update": "2025-12-11T16:27:19.002806",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": 232.23646,
-  "total_profit_percent": 2.0910305263146616,
+  "total_profit": -184.9624392,
+  "total_profit_percent": -0.198978657714573,
   "holdings": [
     {
       "market": "KRW-BTC",
       "amount": 7.276e-05,
       "avg_price": 134350000.0,
-      "current_price": 134501000.0,
-      "value": 9786.29276,
-      "profit": 10.98676,
-      "profit_rate": 0.0011239300334946036
+      "current_price": 134436000.0,
+      "value": 9781.56336,
+      "profit": 6.25736,
+      "profit_rate": 0.0006401190919240789
     },
     {
       "market": "KRW-XION",
-      "amount": 3.5119,
-      "avg_price": 379.0,
-      "current_price": 442.0,
-      "value": 1552.2597999999998,
-      "profit": 221.2497,
-      "profit_rate": 0.1662269129287599
+      "amount": 191.2197992,
+      "avg_price": 435.0,
+      "current_price": 434.0,
+      "value": 82989.39285280001,
+      "profit": -191.2197992,
+      "profit_rate": -0.0022988505747126436
     }
   ],
   "trades": [
-    {
-      "type": "buy",
-      "market": "KRW-DKA",
-      "profit": 0,
-      "price": 10.7,
-      "amount": 906.81818182,
-      "time": "2025-12-10T00:35:56+09:00"
-    },
     {
       "type": "buy",
       "market": "KRW-MAY",
@@ -824,6 +816,14 @@
       "price": 307.0,
       "amount": 1119.80688146,
       "time": "2025-12-11T15:42:22+09:00"
+    },
+    {
+      "type": "buy",
+      "market": "KRW-XION",
+      "profit": 0,
+      "price": 436.0,
+      "amount": 187.7078992,
+      "time": "2025-12-11T16:24:34+09:00"
     }
   ],
   "daily_profits": {}
