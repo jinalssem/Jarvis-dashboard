@@ -1,45 +1,72 @@
 {
-  "last_update": "2025-12-11T09:40:41.245215",
+  "last_update": "2025-12-11T09:46:53.261390",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": -2203.5557789209965,
-  "total_profit_percent": -1.2966773791788986,
+  "total_profit": -2414.7743352375965,
+  "total_profit_percent": -1.2122801527873606,
   "holdings": [
     {
       "market": "KRW-ETH",
       "amount": 0.0020014,
       "avg_price": 4883998.0,
-      "current_price": 4881000.0,
-      "value": 9768.8334,
-      "profit": -6.0001972,
-      "profit_rate": -0.0006138413652094042
+      "current_price": 4852000.0,
+      "value": 9710.7928,
+      "profit": -64.0407972,
+      "profit_rate": -0.006551599734479826
     },
     {
       "market": "KRW-WAXL",
       "amount": 51.15384615,
       "avg_price": 191.0,
-      "current_price": 186.0,
-      "value": 9514.6153839,
-      "profit": -255.76923075,
-      "profit_rate": -0.02617801047120419
+      "current_price": 185.0,
+      "value": 9463.46153775,
+      "profit": -306.9230769,
+      "profit_rate": -0.031413612565445025
+    },
+    {
+      "market": "KRW-MAGIC",
+      "amount": 60.45454545,
+      "avg_price": 161.0,
+      "current_price": 162.0,
+      "value": 9793.636362899999,
+      "profit": 60.45454545,
+      "profit_rate": 0.006211180124223602
+    },
+    {
+      "market": "KRW-XAI",
+      "amount": 379.56621005,
+      "avg_price": 25.7,
+      "current_price": 25.6,
+      "value": 9716.89497728,
+      "profit": -37.95662100499919,
+      "profit_rate": -0.0038910505836575048
     },
     {
       "market": "KRW-MOCA",
       "amount": 206.87557042,
       "avg_price": 32.87,
-      "current_price": 31.91,
-      "value": 6601.3994521022005,
-      "profit": -198.60054760319943,
-      "profit_rate": -0.029205962884088756
+      "current_price": 31.95,
+      "value": 6609.674474919,
+      "profit": -190.32552478639963,
+      "profit_rate": -0.027989047763918414
     },
     {
       "market": "KRW-BRETT",
       "amount": 381.01604278,
       "avg_price": 25.6,
-      "current_price": 25.62,
-      "value": 9761.6310160236,
-      "profit": 7.620320855599838,
-      "profit_rate": 0.0007812499999999833
+      "current_price": 25.34,
+      "value": 9654.946524045201,
+      "profit": -99.0641711228006,
+      "profit_rate": -0.010156250000000061
+    },
+    {
+      "market": "KRW-XION",
+      "amount": 26.11256545,
+      "avg_price": 374.0,
+      "current_price": 373.0,
+      "value": 9739.986912850001,
+      "profit": -26.11256545,
+      "profit_rate": -0.00267379679144385
     },
     {
       "market": "KRW-NOM",
@@ -52,30 +79,6 @@
     }
   ],
   "trades": [
-    {
-      "type": "sell",
-      "market": "KRW-BTR",
-      "profit": 0,
-      "price": 43.6,
-      "amount": 227.48004561,
-      "time": "2025-12-09T13:03:26+09:00"
-    },
-    {
-      "type": "sell",
-      "market": "KRW-WIKEN",
-      "profit": 0,
-      "price": 3.2,
-      "amount": 3114.26787387,
-      "time": "2025-12-09T13:08:13+09:00"
-    },
-    {
-      "type": "buy",
-      "market": "KRW-DYDX",
-      "profit": 0,
-      "price": 287.0,
-      "amount": 25.28843114,
-      "time": "2025-12-09T13:20:12+09:00"
-    },
     {
       "type": "buy",
       "market": "KRW-NIL",
@@ -814,6 +817,14 @@
     },
     {
       "type": "buy",
+      "market": "KRW-XION",
+      "profit": 0,
+      "price": 374.0,
+      "amount": 26.11256545,
+      "time": "2025-12-11T06:38:29+09:00"
+    },
+    {
+      "type": "buy",
       "market": "KRW-NOM",
       "profit": 0,
       "price": 13.76,
@@ -830,11 +841,27 @@
     },
     {
       "type": "buy",
+      "market": "KRW-XAI",
+      "profit": 0,
+      "price": 25.7,
+      "amount": 379.56621005,
+      "time": "2025-12-11T07:36:04+09:00"
+    },
+    {
+      "type": "buy",
       "market": "KRW-BRETT",
       "profit": 0,
       "price": 25.6,
       "amount": 381.01604278,
       "time": "2025-12-11T08:31:29+09:00"
+    },
+    {
+      "type": "buy",
+      "market": "KRW-MAGIC",
+      "profit": 0,
+      "price": 161.0,
+      "amount": 60.45454545,
+      "time": "2025-12-11T08:37:35+09:00"
     },
     {
       "type": "sell",
