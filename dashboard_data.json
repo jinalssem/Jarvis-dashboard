@@ -1,27 +1,18 @@
 {
-  "last_update": "2025-12-11T14:18:36.419924",
+  "last_update": "2025-12-11T14:24:53.308591",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": -39.26900336100012,
-  "total_profit_percent": -0.08047892999397253,
+  "total_profit": -62.01562304950104,
+  "total_profit_percent": -0.1588819717884573,
   "holdings": [
     {
       "market": "KRW-BTC",
       "amount": 7.276e-05,
       "avg_price": 134350000.0,
-      "current_price": 134493000.0,
-      "value": 9785.71068,
-      "profit": 10.40468,
-      "profit_rate": 0.0010643840714551545
-    },
-    {
-      "market": "KRW-WAXL",
-      "amount": 53.34224599,
-      "avg_price": 183.0,
-      "current_price": 184.0,
-      "value": 9814.97326216,
-      "profit": 53.34224599,
-      "profit_rate": 0.00546448087431694
+      "current_price": 134757000.0,
+      "value": 9804.91932,
+      "profit": 29.61332,
+      "profit_rate": 0.0030294008187569782
     },
     {
       "market": "KRW-MAGIC",
@@ -36,10 +27,10 @@
       "market": "KRW-XAI",
       "amount": 379.56621005,
       "avg_price": 25.7,
-      "current_price": 25.55,
-      "value": 9697.9166667775,
-      "profit": -56.934931507499456,
-      "profit_rate": -0.005836575875486326
+      "current_price": 25.58,
+      "value": 9709.303653079,
+      "profit": -45.54794520600038,
+      "profit_rate": -0.004669260700389144
     },
     {
       "market": "KRW-MOCA",
@@ -52,14 +43,6 @@
     }
   ],
   "trades": [
-    {
-      "type": "buy",
-      "market": "KRW-ALLO",
-      "profit": 0,
-      "price": 379.0,
-      "amount": 976.25329815,
-      "time": "2025-12-09T17:05:01+09:00"
-    },
     {
       "type": "sell",
       "market": "KRW-ALLO",
@@ -851,6 +834,14 @@
       "price": 4793000.0,
       "amount": 0.0020014,
       "time": "2025-12-11T13:54:23+09:00"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-WAXL",
+      "profit": 0,
+      "price": 184.0,
+      "amount": 53.34224599,
+      "time": "2025-12-11T14:18:44+09:00"
     }
   ],
   "daily_profits": {}
