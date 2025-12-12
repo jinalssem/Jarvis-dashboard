@@ -2238,10 +2238,41 @@
                             remainingAmount += amount;
                             
                         } else if (trade.type === 'sell') {
+                            // 🔧 매수 내역 없이 매도가 들어오는 경우 건너뛰기
+                            if (currentCycle.totalBuyAmount < 0.00001) {
+                                console.log(`[CYCLE] 매수 없는 매도 건너뜀: ${trade.market}`);
+                                currentCycle = {
+                                    buys: [],
+                                    sell: null,
+                                    isComplete: false,
+                                    totalBuyAmount: 0,
+                                    totalBuyCost: 0,
+                                    avgBuyPrice: 0,
+                                    profit: 0
+                                };
+                                remainingAmount = 0;
+                                continue;
+                            }
+                            
                             remainingAmount -= amount;
                             
+                            // 🔧 remaining이 음수가 되면 (매도량 > 매수량) - 불완전한 데이터
+                            if (remainingAmount < -0.00001) {
+                                console.log(`[CYCLE] 매도량 > 매수량, 불완전한 데이터로 건너뜀: ${trade.market}`);
+                                currentCycle = {
+                                    buys: [],
+                                    sell: null,
+                                    isComplete: false,
+                                    totalBuyAmount: 0,
+                                    totalBuyCost: 0,
+                                    avgBuyPrice: 0,
+                                    profit: 0
+                                };
+                                remainingAmount = 0;
+                                continue;
+                            }
                             // 전체 매도 확인 (남은 수량이 거의 0)
-                            if (remainingAmount < 0.00001) {
+                            else if (remainingAmount < 0.00001) {
                                 // 사이클 완료
                                 currentCycle.sell = trade;
                                 currentCycle.isComplete = true;
