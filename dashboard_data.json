@@ -1,37 +1,37 @@
 {
-  "last_update": "2025-12-12T10:40:48.525833",
+  "last_update": "2025-12-12T10:44:27.596255",
   "today_profit": 1587.8670565008088,
   "today_profit_percent": 2.096774150003066,
-  "total_profit": 95684.86937468237,
-  "total_profit_percent": 126.35161100538382,
+  "total_profit": 96233.06486295814,
+  "total_profit_percent": 127.07550166377304,
   "total_investment": 75729.0458058388,
   "holdings": [
     {
       "market": "KRW-LRC",
       "amount": 114.53668619,
       "avg_price": 85.3,
-      "current_price": 85.45,
-      "value": 9787.1598349355,
-      "profit": 17.18050292850065,
-      "profit_rate": 0.0017584994138335954
+      "current_price": 85.36,
+      "value": 9776.8515331784,
+      "profit": 6.872201171400261,
+      "profit_rate": 0.0007033997655334381
     },
     {
       "market": "KRW-BOA",
       "amount": 2745.66473988,
       "avg_price": 3.56,
-      "current_price": 3.564,
-      "value": 9785.549132932321,
-      "profit": 10.98265895952001,
-      "profit_rate": 0.0011235955056179785
+      "current_price": 3.565,
+      "value": 9788.2947976722,
+      "profit": 13.728323699399708,
+      "profit_rate": 0.001404494382022442
     },
     {
       "market": "KRW-STABLE",
       "amount": 2646.4672633,
       "avg_price": 21.23,
-      "current_price": 21.25,
-      "value": 56237.429345125,
-      "profit": 52.92934526599887,
-      "profit_rate": 0.0009420631182289012
+      "current_price": 21.46,
+      "value": 56793.187470418,
+      "profit": 608.6874705590011,
+      "profit_rate": 0.010833725859632616
     }
   ],
   "trades": [
@@ -1699,6 +1699,6 @@
       "avg_buy_price": 0.0
     }
   ],
-  "realized_profit": -3210525257.935755,
-  "unrealized_profit": 81.09250715401953
+  "realized_profit": 95603.77686752834,
+  "unrealized_profit": 629.2879954298011
 }
