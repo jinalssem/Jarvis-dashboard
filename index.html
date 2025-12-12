@@ -2117,6 +2117,14 @@
                  * - <매수>,<부분매도><매수><전체매도> → <매도>만 표시 (손익 포함)
                  */
                 function filterTrades(trades, holdings) {
+                    // 🔧 이미 cycle_status가 있으면 서버에서 계산된 데이터 → 그대로 사용
+                    const hasProcessedData = trades.some(t => t.cycle_status);
+                    if (hasProcessedData) {
+                        console.log('[FILTER] 서버에서 처리된 데이터 사용 (재계산 안 함)');
+                        // 시간순 정렬만 하고 반환
+                        return [...trades].sort((a, b) => new Date(b.time || 0) - new Date(a.time || 0));
+                    }
+                    
                     // 현재 보유 중인 코인 맵
                     const holdingMarkets = new Set(
                         (holdings || currentHoldings || []).map(h => h.market)
