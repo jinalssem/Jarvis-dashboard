@@ -1,18 +1,18 @@
 {
-  "last_update": "2025-12-12T09:29:08.060599",
-  "today_profit": 0,
-  "today_profit_percent": 0.0,
-  "total_profit": 20415.5331868761,
-  "total_profit_percent": 104.46640393608679,
+  "last_update": "2025-12-12T09:32:08.565656",
+  "today_profit": -64006.72797742653,
+  "today_profit_percent": -23.539900899969528,
+  "total_profit": 333091.6000271187,
+  "total_profit_percent": 122.50186039842488,
   "holdings": [
     {
       "market": "KRW-LRC",
       "amount": 114.53668619,
       "avg_price": 85.3,
-      "current_price": 84.49,
-      "value": 9677.2046161931,
-      "profit": -92.77471581390026,
-      "profit_rate": -0.009495896834701083
+      "current_price": 84.47,
+      "value": 9674.9138824693,
+      "profit": -95.0654495376998,
+      "profit_rate": -0.009730363423212172
     },
     {
       "market": "KRW-ADA",
@@ -22,17 +22,18 @@
       "value": 9819.38377226,
       "profit": 46.68486738,
       "profit_rate": 0.004777070063694267
+    },
+    {
+      "market": "KRW-STABLE",
+      "amount": 11732.43619489,
+      "avg_price": 21.51,
+      "current_price": 21.56,
+      "value": 252951.3243618284,
+      "profit": 586.6218097444666,
+      "profit_rate": 0.002324500232449891
     }
   ],
   "trades": [
-    {
-      "type": "buy",
-      "market": "KRW-HYPER",
-      "profit": 0,
-      "price": 219.0,
-      "amount": 399.53538812,
-      "time": "2025-12-11T04:56:52+09:00"
-    },
     {
       "type": "buy",
       "market": "KRW-LRC",
@@ -500,7 +501,7 @@
     {
       "type": "sell",
       "market": "KRW-STABLE",
-      "profit": 0,
+      "profit": 90576.36887606177,
       "price": 26.0,
       "amount": 20172.91066282,
       "time": "2025-12-11T17:05:05+09:00"
@@ -516,7 +517,7 @@
     {
       "type": "sell",
       "market": "KRW-STABLE",
-      "profit": 0,
+      "profit": 33329.49886278869,
       "price": 25.8,
       "amount": 7769.11395403,
       "time": "2025-12-11T17:22:22+09:00"
@@ -524,7 +525,7 @@
     {
       "type": "sell",
       "market": "KRW-STABLE",
-      "profit": 0,
+      "profit": 907.6288302212995,
       "price": 25.88,
       "amount": 207.69538449,
       "time": "2025-12-11T17:23:28+09:00"
@@ -540,7 +541,7 @@
     {
       "type": "sell",
       "market": "KRW-STABLE",
-      "profit": 0,
+      "profit": 140524.0679347722,
       "price": 25.92,
       "amount": 31864.86801242,
       "time": "2025-12-11T17:31:07+09:00"
@@ -556,7 +557,7 @@
     {
       "type": "sell",
       "market": "KRW-STABLE",
-      "profit": 0,
+      "profit": 53778.048073000464,
       "price": 24.72,
       "amount": 16753.28600405,
       "time": "2025-12-11T17:53:18+09:00"
@@ -604,7 +605,7 @@
     {
       "type": "sell",
       "market": "KRW-STABLE",
-      "profit": 0,
+      "profit": 11604.750973615788,
       "price": 24.24,
       "amount": 4250.82453246,
       "time": "2025-12-11T19:17:40+09:00"
@@ -628,7 +629,7 @@
     {
       "type": "sell",
       "market": "KRW-STABLE",
-      "profit": 0,
+      "profit": 846.5999999999995,
       "price": 24.0,
       "amount": 340.0,
       "time": "2025-12-11T19:38:45+09:00"
@@ -644,7 +645,7 @@
     {
       "type": "sell",
       "market": "KRW-STABLE",
-      "profit": 0,
+      "profit": 44531.500191188265,
       "price": 25.4,
       "amount": 11447.68642447,
       "time": "2025-12-11T22:48:14+09:00"
@@ -668,7 +669,7 @@
     {
       "type": "sell",
       "market": "KRW-STABLE",
-      "profit": 0,
+      "profit": -16673.832618422206,
       "price": 19.3,
       "amount": 7544.72064182,
       "time": "2025-12-12T03:38:52+09:00"
@@ -676,7 +677,7 @@
     {
       "type": "sell",
       "market": "KRW-STABLE",
-      "profit": 0,
+      "profit": -35082.950984509516,
       "price": 19.96,
       "amount": 22634.16192549,
       "time": "2025-12-12T03:43:19+09:00"
@@ -700,7 +701,7 @@
     {
       "type": "sell",
       "market": "KRW-STABLE",
-      "profit": 0,
+      "profit": -42428.88097761422,
       "price": 20.37,
       "amount": 37218.31664703,
       "time": "2025-12-12T04:13:54+09:00"
@@ -732,7 +733,7 @@
     {
       "type": "sell",
       "market": "KRW-STABLE",
-      "profit": 0,
+      "profit": 8328.784556718152,
       "price": 21.97,
       "amount": 18106.05338417,
       "time": "2025-12-12T05:32:50+09:00"
@@ -748,7 +749,7 @@
     {
       "type": "sell",
       "market": "KRW-STABLE",
-      "profit": 0,
+      "profit": 11868.570363462344,
       "price": 22.15,
       "amount": 18544.64119291,
       "time": "2025-12-12T06:15:30+09:00"
@@ -772,7 +773,7 @@
     {
       "type": "sell",
       "market": "KRW-STABLE",
-      "profit": 0,
+      "profit": 5002.200374529762,
       "price": 21.77,
       "amount": 19239.23220973,
       "time": "2025-12-12T06:54:07+09:00"
@@ -796,7 +797,7 @@
     {
       "type": "sell",
       "market": "KRW-STABLE",
-      "profit": 0,
+      "profit": 4979.381308409157,
       "price": 21.79,
       "amount": 17783.50467289,
       "time": "2025-12-12T07:14:59+09:00"
@@ -824,6 +825,14 @@
       "price": 1.61,
       "amount": 6269.64173476,
       "time": "2025-12-12T08:08:33+09:00"
+    },
+    {
+      "type": "buy",
+      "market": "KRW-STABLE",
+      "profit": 0,
+      "price": 21.51,
+      "amount": 11732.43619489,
+      "time": "2025-12-12T09:31:26+09:00"
     }
   ],
   "daily_profits": {}
