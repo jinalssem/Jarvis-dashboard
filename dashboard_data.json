@@ -1,55 +1,55 @@
 {
-  "last_update": "2025-12-13T02:54:09.565404",
+  "last_update": "2025-12-13T02:58:37.814529",
   "today_profit": 609.6628248664347,
   "today_profit_percent": 0.8550681193289231,
-  "total_profit": -3210553391.372887,
-  "total_profit_percent": -4502885.428462429,
+  "total_profit": -3210553542.1481967,
+  "total_profit_percent": -4502885.639928759,
   "total_investment": 71299.912964234,
   "holdings": [
     {
       "market": "KRW-BTC",
       "amount": 7.291e-05,
       "avg_price": 134078000.0,
-      "current_price": 134787000.0,
-      "value": 9827.32017,
-      "profit": 51.69319,
-      "profit_rate": 0.005287966705947284
+      "current_price": 134760000.0,
+      "value": 9825.3516,
+      "profit": 49.72462,
+      "profit_rate": 0.00508659138710303
     },
     {
       "market": "KRW-ETH",
       "amount": 0.00483238,
       "avg_price": 4651990.0,
-      "current_price": 4596000.0,
-      "value": 22209.61848,
-      "profit": -270.5649562,
-      "profit_rate": -0.012035709449074483
+      "current_price": 4591000.0,
+      "value": 22185.45658,
+      "profit": -294.7268562,
+      "profit_rate": -0.013110518294321355
     },
     {
       "market": "KRW-LINK",
       "amount": 0.48825257,
       "avg_price": 20020.0,
-      "current_price": 20170.0,
-      "value": 9848.0543369,
-      "profit": 73.2378855,
-      "profit_rate": 0.007492507492507493
+      "current_price": 20160.0,
+      "value": 9843.1718112,
+      "profit": 68.3553598,
+      "profit_rate": 0.006993006993006993
     },
     {
       "market": "KRW-MAY",
       "amount": 449.72948602,
       "avg_price": 21.7,
-      "current_price": 21.79,
-      "value": 9799.605500375801,
-      "profit": 40.47565374179994,
-      "profit_rate": 0.004147465437788012
+      "current_price": 21.72,
+      "value": 9768.1244363544,
+      "profit": 8.994589720399809,
+      "profit_rate": 0.0009216589861750956
     },
     {
       "market": "KRW-XPL",
       "amount": 88.28125,
       "avg_price": 221.0,
-      "current_price": 221.0,
-      "value": 19510.15625,
-      "profit": 0.0,
-      "profit_rate": 0.0
+      "current_price": 220.0,
+      "value": 19421.875,
+      "profit": -88.28125,
+      "profit_rate": -0.004524886877828055
     }
   ],
   "trades": [
@@ -1799,7 +1799,7 @@
     }
   ],
   "realized_profit": -3210553286.21466,
-  "unrealized_profit": -105.15822695820003,
+  "unrealized_profit": -255.93353667960017,
   "start_date": "2025-12-11",
   "today_date": "2025-12-13"
 }
