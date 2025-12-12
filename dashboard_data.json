@@ -1,37 +1,37 @@
 {
-  "last_update": "2025-12-13T00:44:19.991271",
+  "last_update": "2025-12-13T00:48:43.171119",
   "today_profit": -571.5240641700002,
   "today_profit_percent": -1.104875313369447,
-  "total_profit": -3210593247.7020583,
-  "total_profit_percent": -6206746.9124125885,
+  "total_profit": -3210593089.1061826,
+  "total_profit_percent": -6206746.605813656,
   "total_investment": 51727.4716209443,
   "holdings": [
     {
       "market": "KRW-ETH",
       "amount": 0.00269595,
       "avg_price": 4713001.0,
-      "current_price": 4635000.0,
-      "value": 12495.72825,
-      "profit": -210.28679595,
-      "profit_rate": -0.01655017684061599
+      "current_price": 4661000.0,
+      "value": 12565.82295,
+      "profit": -140.19209595,
+      "profit_rate": -0.011033521953422033
     },
     {
       "market": "KRW-GHX",
       "amount": 1425.05877131,
       "avg_price": 20.53,
-      "current_price": 20.57,
-      "value": 29313.458925846702,
-      "profit": 57.00235085239879,
-      "profit_rate": 0.0019483682415976204
+      "current_price": 20.59,
+      "value": 29341.960101272904,
+      "profit": 85.50352627859819,
+      "profit_rate": 0.0029225523623964303
     },
     {
       "market": "KRW-PIEVERSE",
       "amount": 15.0,
       "avg_price": 651.0,
-      "current_price": 646.0,
-      "value": 9690.0,
-      "profit": -75.0,
-      "profit_rate": -0.007680491551459293
+      "current_price": 650.0,
+      "value": 9750.0,
+      "profit": -15.0,
+      "profit_rate": -0.0015360983102918587
     }
   ],
   "trades": [
@@ -1759,7 +1759,7 @@
     }
   ],
   "realized_profit": -3210593019.417613,
-  "unrealized_profit": -228.2844450976012,
+  "unrealized_profit": -69.68856967140182,
   "start_date": "2025-12-11",
   "today_date": "2025-12-13"
 }
