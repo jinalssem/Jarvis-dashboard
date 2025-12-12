@@ -715,6 +715,25 @@
             flex-direction: column;
             gap: 6px;
             flex: 1;
+            max-height: 300px;
+            overflow-y: auto;
+            padding-right: 5px;
+        }
+        
+        /* 스크롤바 스타일 */
+        .trades-list::-webkit-scrollbar {
+            width: 6px;
+        }
+        .trades-list::-webkit-scrollbar-track {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 3px;
+        }
+        .trades-list::-webkit-scrollbar-thumb {
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 3px;
+        }
+        .trades-list::-webkit-scrollbar-thumb:hover {
+            background: rgba(255, 255, 255, 0.3);
         }
 
         .trade-item {
@@ -2318,7 +2337,7 @@
                 
                 // 필터링 적용 (holdings 전달)
                 const filteredTrades = filterTrades(sortedTrades, currentHoldings);
-                const trades = filteredTrades.slice(0, 6);
+                const trades = filteredTrades.slice(0, 20);
                 
                 const tradesList = document.getElementById('tradesList');
                 tradesList.innerHTML = '';
@@ -2468,7 +2487,7 @@
                     // 최근 거래
                     const tradesList = document.getElementById('tradesList');
                     tradesList.innerHTML = '';
-                    const trades = data.trades.slice(0, 6);
+                    const trades = data.trades.slice(0, 20);
                     trades.forEach(t => {
                         const isBuy = t.type === 'buy';
                         const profit = t.profit || 0;
