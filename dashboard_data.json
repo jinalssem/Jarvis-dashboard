@@ -1,40 +1,45 @@
 {
-  "last_update": "2025-12-12T12:04:30.783718",
-  "today_profit": 1587.8670565008088,
-  "today_profit_percent": 2.096774150003066,
-  "total_profit": 96039.26975280521,
-  "total_profit_percent": 126.81959574538897,
-  "total_investment": 75729.0458058388,
+  "last_update": "2025-12-12T12:08:12.135907",
+  "today_profit": 1505.4971143044081,
+  "today_profit_percent": 2.2826305802963485,
+  "total_profit": 83635.82763739885,
+  "total_profit_percent": 126.80841162669915,
+  "total_investment": 65954.479331866,
   "holdings": [
     {
       "market": "KRW-LRC",
       "amount": 114.53668619,
       "avg_price": 85.3,
-      "current_price": 84.81,
-      "value": 9713.8563557739,
-      "profit": -56.122976233099415,
-      "profit_rate": -0.005744431418522801
-    },
-    {
-      "market": "KRW-BOA",
-      "amount": 2745.66473988,
-      "avg_price": 3.56,
-      "current_price": 3.527,
-      "value": 9683.95953755676,
-      "profit": -90.60693641603977,
-      "profit_rate": -0.00926966292134829
+      "current_price": 84.91,
+      "value": 9725.3100243929,
+      "profit": -44.66930761410006,
+      "profit_rate": -0.004572098475967182
     },
     {
       "market": "KRW-STABLE",
       "amount": 2646.4672633,
       "avg_price": 21.23,
-      "current_price": 21.45,
-      "value": 56766.722797785,
-      "profit": 582.222797925997,
-      "profit_rate": 0.010362694300518081
+      "current_price": 21.3,
+      "value": 56369.752708290005,
+      "profit": 185.25270843100074,
+      "profit_rate": 0.003297220913801238
     }
   ],
   "trades": [
+    {
+      "market": "KRW-BOA",
+      "type": "sell",
+      "time": "2025-12-12T12:04:36+09:00",
+      "price": 3.53,
+      "volume": 2745.66473988,
+      "funds": 9692.196531776399,
+      "fee": 3.87,
+      "uuid": "C0270000000094689128",
+      "cycle_status": "completed",
+      "profit": -82.36994219640069,
+      "avg_buy_price": 3.56,
+      "buy_count": 1
+    },
     {
       "market": "KRW-EVZ",
       "type": "sell",
@@ -108,18 +113,6 @@
       "funds": 187284.24999990722,
       "fee": 0.0,
       "uuid": "C1234000000000528354",
-      "cycle_status": "holding",
-      "profit": 0
-    },
-    {
-      "market": "KRW-BOA",
-      "type": "buy",
-      "time": "2025-12-12T08:33:23+09:00",
-      "price": 3.56,
-      "volume": 2745.66473988,
-      "funds": 9774.5664739728,
-      "fee": 3.9,
-      "uuid": "C0270000000094648225",
       "cycle_status": "holding",
       "profit": 0
     },
@@ -562,23 +555,19 @@
       "profit": 90694.53310324,
       "avg_buy_price": 0.0,
       "buy_count": 0
-    },
-    {
-      "market": "KRW-PIEVERSE",
-      "type": "sell",
-      "time": "2025-12-11T06:10:10+09:00",
-      "price": 1125.0,
-      "volume": 10.68992239,
-      "funds": 12026.162688749999,
-      "fee": 4.81,
-      "uuid": "C1254000000019171432",
-      "cycle_status": "completed",
-      "profit": 12026.162688749999,
-      "avg_buy_price": 0.0,
-      "buy_count": 0
     }
   ],
   "raw_trades": [
+    {
+      "market": "KRW-BOA",
+      "type": "sell",
+      "time": "2025-12-12T12:04:36+09:00",
+      "price": 3.53,
+      "volume": 2745.66473988,
+      "funds": 9692.196531776399,
+      "fee": 3.87,
+      "uuid": "C0270000000094689128"
+    },
     {
       "market": "KRW-EVZ",
       "type": "sell",
@@ -1568,23 +1557,19 @@
       "funds": 9774.8376,
       "fee": 3.9,
       "uuid": "C0102000001451529824"
-    },
-    {
-      "market": "KRW-PIEVERSE",
-      "type": "sell",
-      "time": "2025-12-11T06:10:10+09:00",
-      "price": 1125.0,
-      "volume": 10.68992239,
-      "funds": 12026.162688749999,
-      "fee": 4.81,
-      "uuid": "C1254000000019171432"
     }
   ],
   "daily_profits": {
-    "2025-12-11": 94015.90981102755,
-    "2025-12-12": 1587.8670565008088
+    "2025-12-11": 81989.74712227755,
+    "2025-12-12": 1505.4971143044081
   },
   "trade_cycles": [
+    {
+      "market": "KRW-BOA",
+      "profit": -82.36994219640069,
+      "sell_time": "2025-12-12T12:04:36+09:00",
+      "avg_buy_price": 3.56
+    },
     {
       "market": "KRW-EVZ",
       "profit": 271.3178294573987,
@@ -1692,16 +1677,10 @@
       "profit": 90694.53310324,
       "sell_time": "2025-12-11T06:21:27+09:00",
       "avg_buy_price": 0.0
-    },
-    {
-      "market": "KRW-PIEVERSE",
-      "profit": 12026.162688749999,
-      "sell_time": "2025-12-11T06:10:10+09:00",
-      "avg_buy_price": 0.0
     }
   ],
-  "realized_profit": 95603.77686752834,
-  "unrealized_profit": 435.49288527685786,
+  "realized_profit": 83495.24423658194,
+  "unrealized_profit": 140.58340081690068,
   "start_date": "2025-12-11",
   "today_date": "2025-12-12"
 }
