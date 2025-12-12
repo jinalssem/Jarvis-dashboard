@@ -1,47 +1,48 @@
 {
-  "last_update": "2025-12-12T09:35:12.281510",
+  "last_update": "2025-12-12T09:38:12.547003",
   "today_profit": -64006.72797742653,
-  "today_profit_percent": -23.539900899969528,
-  "total_profit": 334268.27974719345,
-  "total_profit_percent": 122.93461059323772,
+  "today_profit_percent": -22.723624133452308,
+  "total_profit": 334620.0034243556,
+  "total_profit_percent": 118.79656132447873,
   "holdings": [
     {
       "market": "KRW-LRC",
       "amount": 114.53668619,
       "avg_price": 85.3,
-      "current_price": 84.5,
-      "value": 9678.349983054999,
-      "profit": -91.62934895199967,
-      "profit_rate": -0.009378663540445453
+      "current_price": 84.61,
+      "value": 9690.949018535899,
+      "profit": -79.03031347109973,
+      "profit_rate": -0.008089097303634206
     },
     {
       "market": "KRW-ADA",
       "amount": 15.56162246,
       "avg_price": 628.0,
-      "current_price": 631.0,
-      "value": 9819.38377226,
-      "profit": 46.68486738,
-      "profit_rate": 0.004777070063694267
+      "current_price": 630.0,
+      "value": 9803.8221498,
+      "profit": 31.12324492,
+      "profit_rate": 0.0031847133757961785
+    },
+    {
+      "market": "KRW-EVZ",
+      "amount": 13565.89147287,
+      "avg_price": 0.72,
+      "current_price": 0.7202,
+      "value": 9770.155038760973,
+      "profit": 2.713178294573701,
+      "profit_rate": 0.0002777777777777472
     },
     {
       "market": "KRW-STABLE",
       "amount": 11732.43619489,
       "avg_price": 21.51,
-      "current_price": 21.66,
-      "value": 254124.5679813174,
-      "profit": 1759.8654292334834,
-      "profit_rate": 0.006973500697350003
+      "current_price": 21.69,
+      "value": 254476.54106716413,
+      "profit": 2111.838515080197,
+      "profit_rate": 0.008368200836820069
     }
   ],
   "trades": [
-    {
-      "type": "buy",
-      "market": "KRW-LRC",
-      "profit": 0,
-      "price": 103.0,
-      "amount": 635.53010677,
-      "time": "2025-12-11T04:57:50+09:00"
-    },
     {
       "type": "buy",
       "market": "KRW-TEMCO",
@@ -809,6 +810,14 @@
       "price": 85.3,
       "amount": 114.53668619,
       "time": "2025-12-12T07:38:00+09:00"
+    },
+    {
+      "type": "buy",
+      "market": "KRW-EVZ",
+      "profit": 0,
+      "price": 0.72,
+      "amount": 13565.89147287,
+      "time": "2025-12-12T07:41:27+09:00"
     },
     {
       "type": "buy",
