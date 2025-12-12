@@ -1,28 +1,37 @@
 {
-  "last_update": "2025-12-13T00:40:03.593777",
+  "last_update": "2025-12-13T00:44:19.991271",
   "today_profit": -571.5240641700002,
-  "today_profit_percent": -1.3619885628584882,
-  "total_profit": -3210593294.798574,
-  "total_profit_percent": -7651106.264188937,
-  "total_investment": 41962.4716209443,
+  "today_profit_percent": -1.104875313369447,
+  "total_profit": -3210593247.7020583,
+  "total_profit_percent": -6206746.9124125885,
+  "total_investment": 51727.4716209443,
   "holdings": [
     {
       "market": "KRW-ETH",
       "amount": 0.00269595,
       "avg_price": 4713001.0,
-      "current_price": 4669000.0,
-      "value": 12587.39055,
-      "profit": -118.62449595,
-      "profit_rate": -0.009336089680439278
+      "current_price": 4635000.0,
+      "value": 12495.72825,
+      "profit": -210.28679595,
+      "profit_rate": -0.01655017684061599
     },
     {
       "market": "KRW-GHX",
       "amount": 1425.05877131,
       "avg_price": 20.53,
-      "current_price": 20.42,
-      "value": 29099.700110150206,
-      "profit": -156.7564648440992,
-      "profit_rate": -0.0053580126643935425
+      "current_price": 20.57,
+      "value": 29313.458925846702,
+      "profit": 57.00235085239879,
+      "profit_rate": 0.0019483682415976204
+    },
+    {
+      "market": "KRW-PIEVERSE",
+      "amount": 15.0,
+      "avg_price": 651.0,
+      "current_price": 646.0,
+      "value": 9690.0,
+      "profit": -75.0,
+      "profit_rate": -0.007680491551459293
     }
   ],
   "trades": [
@@ -36,6 +45,17 @@
       "cycle_status": "holding",
       "profit": 0,
       "buy_count": 3
+    },
+    {
+      "market": "KRW-PIEVERSE",
+      "type": "buy",
+      "time": "2025-12-13T00:26:12+09:00",
+      "price": 651.0,
+      "volume": 15.0,
+      "funds": 9765.0,
+      "cycle_status": "holding",
+      "profit": 0,
+      "buy_count": 1
     },
     {
       "market": "KRW-MAY",
@@ -535,6 +555,16 @@
       "funds": 9764.395393404,
       "fee": 3.9,
       "uuid": "C0350000000089780442"
+    },
+    {
+      "market": "KRW-PIEVERSE",
+      "type": "buy",
+      "time": "2025-12-13T00:26:12+09:00",
+      "price": 651.0,
+      "volume": 15.0,
+      "funds": 9765.0,
+      "fee": 3.9,
+      "uuid": "C1254000000020447078"
     },
     {
       "market": "KRW-GHX",
@@ -1515,16 +1545,6 @@
       "funds": 9814.97326216,
       "fee": 0.0,
       "uuid": "C0796000000150238590"
-    },
-    {
-      "market": "KRW-ETH",
-      "type": "sell",
-      "time": "2025-12-11T13:54:23+09:00",
-      "price": 4793000.0,
-      "volume": 0.0020014,
-      "funds": 9592.7102,
-      "fee": 3.83,
-      "uuid": "C0102000001452592266"
     }
   ],
   "daily_profits": {
@@ -1739,7 +1759,7 @@
     }
   ],
   "realized_profit": -3210593019.417613,
-  "unrealized_profit": -275.3809607940992,
+  "unrealized_profit": -228.2844450976012,
   "start_date": "2025-12-11",
   "today_date": "2025-12-13"
 }
