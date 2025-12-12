@@ -1,12 +1,33 @@
 {
-  "last_update": "2025-12-13T00:14:38.150248",
+  "last_update": "2025-12-13T00:18:53.807803",
   "today_profit": -571.5240641700002,
-  "today_profit_percent": -57152.40641700002,
-  "total_profit": -3210469971.008512,
-  "total_profit_percent": -321046997100.8512,
-  "total_investment": 1,
-  "holdings": [],
+  "today_profit_percent": -5.859656115357841,
+  "total_profit": -3210479340.909496,
+  "total_profit_percent": -32916032.90669946,
+  "total_investment": 9753.542749242,
+  "holdings": [
+    {
+      "market": "KRW-GHX",
+      "amount": 471.18564006,
+      "avg_price": 20.7,
+      "current_price": 20.79,
+      "value": 9795.9494568474,
+      "profit": 42.40670760539994,
+      "profit_rate": 0.004347826086956515
+    }
+  ],
   "trades": [
+    {
+      "market": "KRW-GHX",
+      "type": "buy",
+      "time": "2025-12-13T00:13:32+09:00",
+      "price": 20.7,
+      "volume": 471.18564006,
+      "funds": 9753.542749242,
+      "cycle_status": "holding",
+      "profit": 0,
+      "buy_count": 1
+    },
     {
       "market": "KRW-MAY",
       "type": "sell",
@@ -538,23 +559,19 @@
       "profit": 10027.2251328,
       "avg_buy_price": 0.0,
       "buy_count": 0
-    },
-    {
-      "market": "KRW-WAXL",
-      "type": "sell",
-      "time": "2025-12-11T09:52:00+09:00",
-      "price": 184.0,
-      "volume": 51.15384615,
-      "funds": 9412.307691599999,
-      "fee": 0.0,
-      "uuid": "C0796000000150235272",
-      "cycle_status": "completed",
-      "profit": 9412.307691599999,
-      "avg_buy_price": 0.0,
-      "buy_count": 0
     }
   ],
   "raw_trades": [
+    {
+      "market": "KRW-GHX",
+      "type": "buy",
+      "time": "2025-12-13T00:13:32+09:00",
+      "price": 20.7,
+      "volume": 471.18564006,
+      "funds": 9753.542749242,
+      "fee": 3.9,
+      "uuid": "C0350000000089772716"
+    },
     {
       "market": "KRW-MAY",
       "type": "sell",
@@ -1544,20 +1561,10 @@
       "funds": 10027.2251328,
       "fee": 4.01,
       "uuid": "C0962000000001983937"
-    },
-    {
-      "market": "KRW-WAXL",
-      "type": "sell",
-      "time": "2025-12-11T09:52:00+09:00",
-      "price": 184.0,
-      "volume": 51.15384615,
-      "funds": 9412.307691599999,
-      "fee": 0.0,
-      "uuid": "C0796000000150235272"
     }
   ],
   "daily_profits": {
-    "2025-12-11": -12939.923774465038,
+    "2025-12-11": -22352.231466065037,
     "2025-12-12": -3210456459.5606737,
     "2025-12-13": -571.5240641700002
   },
@@ -1768,12 +1775,6 @@
     },
     {
       "market": "KRW-WAXL",
-      "profit": 9412.307691599999,
-      "sell_time": "2025-12-11T09:52:00+09:00",
-      "avg_buy_price": 0.0
-    },
-    {
-      "market": "KRW-WAXL",
       "profit": 9814.97326216,
       "sell_time": "2025-12-11T14:18:44+09:00",
       "avg_buy_price": 0.0
@@ -1797,8 +1798,8 @@
       "avg_buy_price": 0.0
     }
   ],
-  "realized_profit": -3210469971.008512,
-  "unrealized_profit": 0,
+  "realized_profit": -3210479383.3162036,
+  "unrealized_profit": 42.40670760539994,
   "start_date": "2025-12-11",
   "today_date": "2025-12-13"
 }
