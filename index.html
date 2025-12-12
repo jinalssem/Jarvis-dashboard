@@ -2056,10 +2056,18 @@
                 document.getElementById('totalProfitPercent').textContent = totalPercentText;
                 document.getElementById('totalProfitPercent').style.color = '#95a5a6'; // 퍼센트는 항상 회색
                 
-                // 날짜 업데이트 (오늘 날짜)
-                const todayDate = new Date().toLocaleDateString('ko-KR', {year: 'numeric', month: '2-digit', day: '2-digit'}).replace(/\. /g, '.').replace('.', '');
-                document.getElementById('todayProfitDate').textContent = todayDate + '부터';
-                document.getElementById('totalProfitDate').textContent = todayDate + '부터';
+                // 날짜 업데이트
+                // 오늘 손익: 오늘 날짜만 표시
+                const todayDate = new Date().toLocaleDateString('ko-KR', {year: 'numeric', month: '2-digit', day: '2-digit'}).replace(/\. /g, '.').replace(/\.$/, '');
+                document.getElementById('todayProfitDate').textContent = todayDate;
+                
+                // 누적 손익: 시작일부터 표시 (JSON의 start_date 사용)
+                let startDateStr = todayDate;
+                if (data.start_date) {
+                    // start_date가 있으면 포맷팅 (YYYY-MM-DD → YYYY.MM.DD)
+                    startDateStr = data.start_date.replace(/-/g, '.');
+                }
+                document.getElementById('totalProfitDate').textContent = startDateStr + '부터';
 
                 currentHoldings = data.holdings || [];
                 
@@ -2364,10 +2372,13 @@
                     document.getElementById('totalProfitPercent').textContent = totalPercentText2;
                     document.getElementById('totalProfitPercent').style.color = '#95a5a6';
                     
-                    // 날짜 업데이트 (오늘 날짜)
-                    const todayDate2 = new Date().toLocaleDateString('ko-KR', {year: 'numeric', month: '2-digit', day: '2-digit'}).replace(/\. /g, '.').replace('.', '');
-                    document.getElementById('todayProfitDate').textContent = todayDate2 + '부터';
-                    document.getElementById('totalProfitDate').textContent = todayDate2 + '부터';
+                    // 날짜 업데이트
+                    const todayDate2 = new Date().toLocaleDateString('ko-KR', {year: 'numeric', month: '2-digit', day: '2-digit'}).replace(/\. /g, '.').replace(/\.$/, '');
+                    document.getElementById('todayProfitDate').textContent = todayDate2;
+                    
+                    // 샘플 데이터에서는 시작일이 없으므로 오늘로 표시
+                    const startDate2 = data.start_date ? data.start_date.replace(/-/g, '.') : todayDate2;
+                    document.getElementById('totalProfitDate').textContent = startDate2 + '부터';
                     
                     currentHoldings = data.holdings || [];
                     generateWordcloud(currentHoldings);
