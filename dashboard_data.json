@@ -1,56 +1,57 @@
 {
-  "last_update": "2025-12-12T09:56:59.263270",
+  "last_update": "2025-12-12T10:00:06.050958",
   "today_profit": -91164.93485469432,
-  "today_profit_percent": -33.405114099702274,
-  "total_profit": 286673.1073173082,
-  "total_profit_percent": 105.04420229679748,
+  "today_profit_percent": -32.25003216886085,
+  "total_profit": 283783.7374691193,
+  "total_profit_percent": 100.38985578134701,
   "holdings": [
     {
       "market": "KRW-LRC",
       "amount": 114.53668619,
       "avg_price": 85.3,
-      "current_price": 84.52,
-      "value": 9680.6407167788,
-      "profit": -89.33861522820013,
-      "profit_rate": -0.009144196951934363
+      "current_price": 84.0,
+      "value": 9621.081639959999,
+      "profit": -148.89769204699968,
+      "profit_rate": -0.015240328253223882
     },
     {
       "market": "KRW-ADA",
       "amount": 15.56162246,
       "avg_price": 628.0,
-      "current_price": 626.0,
-      "value": 9741.57565996,
-      "profit": -31.12324492,
-      "profit_rate": -0.0031847133757961785
+      "current_price": 622.0,
+      "value": 9679.32917012,
+      "profit": -93.36973476,
+      "profit_rate": -0.009554140127388535
+    },
+    {
+      "market": "KRW-BOA",
+      "amount": 2745.66473988,
+      "avg_price": 3.56,
+      "current_price": 3.559,
+      "value": 9771.82080923292,
+      "profit": -2.7456647398796976,
+      "profit_rate": -0.00028089887640446345
     },
     {
       "market": "KRW-EVZ",
       "amount": 13565.89147287,
       "avg_price": 0.72,
-      "current_price": 0.7253,
-      "value": 9839.34108527261,
-      "profit": 71.89922480621061,
-      "profit_rate": 0.007361111111111072
+      "current_price": 0.72,
+      "value": 9767.4418604664,
+      "profit": 0.0,
+      "profit_rate": 0.0
     },
     {
       "market": "KRW-STABLE",
       "amount": 11220.4974666,
       "avg_price": 21.71,
-      "current_price": 21.7,
-      "value": 243484.79502522,
-      "profit": -112.20497466601753,
-      "profit_rate": -0.00046061722708436495
+      "current_price": 21.46,
+      "value": 240791.875633236,
+      "profit": -2805.12436665,
+      "profit_rate": -0.011515430677107323
     }
   ],
   "trades": [
-    {
-      "type": "buy",
-      "market": "KRW-MAGIC",
-      "profit": 0,
-      "price": 169.0,
-      "amount": 115.31791908,
-      "time": "2025-12-11T05:05:59+09:00"
-    },
     {
       "type": "buy",
       "market": "KRW-PIEVERSE",
@@ -818,6 +819,14 @@
       "price": 1.61,
       "amount": 6269.64173476,
       "time": "2025-12-12T08:08:33+09:00"
+    },
+    {
+      "type": "buy",
+      "market": "KRW-BOA",
+      "profit": 0,
+      "price": 3.56,
+      "amount": 2745.66473988,
+      "time": "2025-12-12T08:33:23+09:00"
     },
     {
       "type": "buy",
