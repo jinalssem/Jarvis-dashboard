@@ -1589,6 +1589,11 @@
         }
 
         function formatPercent(num) {
+            // NaN 또는 undefined 체크
+            if (num === undefined || num === null || isNaN(num) || !isFinite(num)) {
+                return '0.00%';
+            }
+            
             // 절댓값이 매우 작으면 소수점 자리 늘리기
             const absNum = Math.abs(num);
             let decimals;
@@ -1669,7 +1674,7 @@
             }
 
             holdings.forEach(h => {
-                const profitRate = h.profit_rate * 100;
+                const profitRate = (h.profit_rate || 0) * 100;
                 const profitColor = profitRate >= 0 ? '#ff6b6b' : '#4ecdc4';
 
                 const card = document.createElement('div');
@@ -1866,7 +1871,7 @@
 
             holdings.forEach((h, idx) => {
                 const coin = h.market.replace('KRW-', '');
-                const profitRate = h.profit_rate * 100;
+                const profitRate = (h.profit_rate || 0) * 100;
                 
                 let size;
                 if (Math.abs(profitRate) > 5) {
