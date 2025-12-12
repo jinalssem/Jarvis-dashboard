@@ -2145,17 +2145,39 @@
                         const isHolding = holdingMarkets.has(market);
                         
                         if (isHolding) {
-                            // 보유 중인 코인: 매수 거래만 표시
-                            for (const trade of sortedTrades) {
-                                if (trade.type === 'buy') {
-                                    filtered.push({
-                                        ...trade,
-                                        cycle_status: 'holding',
-                                        profit: 0  // 진행 중이므로 손익 없음
-                                    });
+                            // 🔧 보유 중인 코인: 여러 매수를 하나로 합쳐서 표시
+                            const buyTrades = sortedTrades.filter(t => t.type === 'buy');
+                            
+                            if (buyTrades.length > 0) {
+                                let totalVolume = 0;
+                                let totalFunds = 0;
+                                
+                                for (const trade of buyTrades) {
+                                    const volume = parseFloat(trade.volume || trade.amount || 0);
+                                    const price = parseFloat(trade.price || 0);
+                                    const funds = parseFloat(trade.funds || trade.total || 0) || (price * volume);
+                                    totalVolume += volume;
+                                    totalFunds += funds;
                                 }
+                                
+                                const avgPrice = totalVolume > 0 ? totalFunds / totalVolume : 0;
+                                const lastBuy = buyTrades[buyTrades.length - 1];
+                                
+                                // 합쳐진 매수 하나만 표시
+                                filtered.push({
+                                    market: market,
+                                    type: 'buy',
+                                    time: lastBuy.time,
+                                    price: avgPrice,
+                                    volume: totalVolume,
+                                    funds: totalFunds,
+                                    cycle_status: 'holding',
+                                    profit: 0,
+                                    buy_count: buyTrades.length
+                                });
+                                
+                                console.log(`[FILTER] ${market}: 보유 중 - ${buyTrades.length}건 매수 → 1건으로 합침 (${totalFunds.toLocaleString()}원)`);
                             }
-                            console.log(`[FILTER] ${market}: 보유 중 - 매수 ${sortedTrades.filter(t => t.type === 'buy').length}건 표시`);
                         } else {
                             // 보유하지 않음: 완료된 사이클 분석
                             const cycles = analyzeCycles(sortedTrades);
@@ -2194,7 +2216,7 @@
                         sell: null,
                         isComplete: false,
                         totalBuyAmount: 0,
-                        totalBuyCost: 0,
+                        totalBuyCost: 0,  // 실제 매수 금액 (funds)
                         avgBuyPrice: 0,
                         profit: 0
                     };
@@ -2203,11 +2225,13 @@
                     for (const trade of sortedTrades) {
                         const amount = parseFloat(trade.volume || trade.amount || 0);
                         const price = parseFloat(trade.price || 0);
+                        // 🔧 funds 필드 사용 (없으면 price * amount)
+                        const funds = parseFloat(trade.funds || trade.total || 0) || (price * amount);
                         
                         if (trade.type === 'buy') {
                             currentCycle.buys.push(trade);
                             currentCycle.totalBuyAmount += amount;
-                            currentCycle.totalBuyCost += amount * price;
+                            currentCycle.totalBuyCost += funds;  // 실제 매수 금액 사용
                             if (currentCycle.totalBuyAmount > 0) {
                                 currentCycle.avgBuyPrice = currentCycle.totalBuyCost / currentCycle.totalBuyAmount;
                             }
@@ -2221,8 +2245,9 @@
                                 // 사이클 완료
                                 currentCycle.sell = trade;
                                 currentCycle.isComplete = true;
-                                // 손익 계산: (매도가 - 평균매수가) × 매도수량
-                                currentCycle.profit = (price - currentCycle.avgBuyPrice) * amount;
+                                // 🔧 손익 계산: 매도 총금액 - 매수 총금액
+                                const sellFunds = parseFloat(trade.funds || trade.total || 0) || (price * amount);
+                                currentCycle.profit = sellFunds - currentCycle.totalBuyCost;
                                 
                                 cycles.push(currentCycle);
                                 
