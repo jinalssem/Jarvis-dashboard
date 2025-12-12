@@ -1,22 +1,26 @@
 {
-  "last_update": "2025-12-12T14:25:31.946254",
-  "today_profit": -3210457715.7643,
-  "today_profit_percent": -32860435.08041681,
-  "total_profit": -3210623021.498485,
-  "total_profit_percent": -32862127.05671039,
-  "total_investment": 9769.979332007,
-  "holdings": [
+  "last_update": "2025-12-12T14:29:18.682209",
+  "today_profit": -3210457818.8473177,
+  "today_profit_percent": -321045781884.73175,
+  "total_profit": -3210613249.543613,
+  "total_profit_percent": -321061324954.36127,
+  "total_investment": 1,
+  "holdings": [],
+  "trades": [
     {
       "market": "KRW-LRC",
-      "amount": 114.53668619,
-      "avg_price": 85.3,
-      "current_price": 84.38,
-      "value": 9664.6055807122,
-      "profit": -105.37375129480019,
-      "profit_rate": -0.01078546307151233
-    }
-  ],
-  "trades": [
+      "type": "sell",
+      "time": "2025-12-12T14:25:37+09:00",
+      "price": 84.4,
+      "volume": 114.53668619,
+      "funds": 9666.896314436,
+      "fee": 3.86,
+      "uuid": "C0131000000202466151",
+      "cycle_status": "completed",
+      "profit": -103.08301757099902,
+      "avg_buy_price": 85.3,
+      "buy_count": 1
+    },
     {
       "market": "KRW-STABLE",
       "type": "sell",
@@ -86,18 +90,6 @@
       "profit": 376.1785040856003,
       "avg_buy_price": 1.55,
       "buy_count": 1
-    },
-    {
-      "market": "KRW-LRC",
-      "type": "buy",
-      "time": "2025-12-12T07:38:00+09:00",
-      "price": 85.3,
-      "volume": 114.53668619,
-      "funds": 9769.979332007,
-      "fee": 3.9,
-      "uuid": "C0131000000202367463",
-      "cycle_status": "holding",
-      "profit": 0
     },
     {
       "market": "KRW-STABLE",
@@ -459,9 +451,9 @@
       "fee": 0.0,
       "uuid": "C0955000000049280608",
       "cycle_status": "completed",
-      "profit": 410.6717226442008,
-      "avg_buy_price": 9.04,
-      "buy_count": 1
+      "profit": 10180.3358613378,
+      "avg_buy_price": 0.0,
+      "buy_count": 0
     },
     {
       "market": "KRW-MAGIC",
@@ -479,6 +471,16 @@
     }
   ],
   "raw_trades": [
+    {
+      "market": "KRW-LRC",
+      "type": "sell",
+      "time": "2025-12-12T14:25:37+09:00",
+      "price": 84.4,
+      "volume": 114.53668619,
+      "funds": 9666.896314436,
+      "fee": 3.86,
+      "uuid": "C0131000000202466151"
+    },
     {
       "market": "KRW-STABLE",
       "type": "sell",
@@ -1468,23 +1470,19 @@
       "funds": 9775.306,
       "fee": 3.91,
       "uuid": "C0101000002601034574"
-    },
-    {
-      "market": "KRW-G",
-      "type": "buy",
-      "time": "2025-12-11T06:27:07+09:00",
-      "price": 9.04,
-      "volume": 1080.71505959,
-      "funds": 9769.664138693599,
-      "fee": 0.0,
-      "uuid": "C0955000000049230423"
     }
   ],
   "daily_profits": {
-    "2025-12-11": -165200.36043419334,
-    "2025-12-12": -3210457715.7643
+    "2025-12-11": -155430.69629549974,
+    "2025-12-12": -3210457818.8473177
   },
   "trade_cycles": [
+    {
+      "market": "KRW-LRC",
+      "profit": -103.08301757099902,
+      "sell_time": "2025-12-12T14:25:37+09:00",
+      "avg_buy_price": 85.3
+    },
     {
       "market": "KRW-STABLE",
       "profit": -161383.28530256,
@@ -1673,13 +1671,13 @@
     },
     {
       "market": "KRW-G",
-      "profit": 410.6717226442008,
+      "profit": 10180.3358613378,
       "sell_time": "2025-12-11T09:27:01+09:00",
-      "avg_buy_price": 9.04
+      "avg_buy_price": 0.0
     }
   ],
-  "realized_profit": -3210622916.124734,
-  "unrealized_profit": -105.37375129480019,
+  "realized_profit": -3210613249.543613,
+  "unrealized_profit": 0,
   "start_date": "2025-12-11",
   "today_date": "2025-12-12"
 }
