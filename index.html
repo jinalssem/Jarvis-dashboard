@@ -1417,8 +1417,12 @@
         
         function updateProfitChart(data) {
             if (!profitChart) {
-                console.log('차트가 초기화되지 않았습니다.');
-                return;
+                console.log('차트가 초기화되지 않았습니다. 재초기화 시도...');
+                initProfitChart();
+                if (!profitChart) {
+                    console.error('차트 초기화 실패!');
+                    return;
+                }
             }
             
             // daily_profits가 없으면 샘플 데이터 사용
@@ -1432,23 +1436,33 @@
                     const date = new Date(today);
                     date.setDate(date.getDate() - i);
                     const dateStr = date.toISOString().split('T')[0];
-                    // 랜덤 수익 (-500 ~ +500)
-                    dailyProfits[dateStr] = Math.floor(Math.random() * 1000) - 500;
+                    // 랜덤 수익 (-5000 ~ +5000)
+                    dailyProfits[dateStr] = Math.floor(Math.random() * 10000) - 5000;
                 }
             }
             
-            // 최근 7일 데이터만 표시
-            const entries = Object.entries(dailyProfits).slice(-7);
+            // 최근 7일 데이터만 표시 (정렬 후)
+            const sortedEntries = Object.entries(dailyProfits).sort((a, b) => a[0].localeCompare(b[0]));
+            const entries = sortedEntries.slice(-7);
+            
             const dates = entries.map(([date]) => {
                 const d = new Date(date);
                 return `${d.getMonth() + 1}/${d.getDate()}`;
             });
             const profits = entries.map(([, profit]) => profit);
             
+            // 막대 색상: 양수는 빨강, 음수는 파랑
+            const barColors = profits.map(p => 
+                p >= 0 ? 'rgba(255, 107, 107, 0.8)' : 'rgba(78, 205, 196, 0.8)'
+            );
+            const barBorderColors = profits.map(p => 
+                p >= 0 ? 'rgba(255, 107, 107, 1)' : 'rgba(78, 205, 196, 1)'
+            );
+            
             // 누적 수익률 계산
             let cumulativeRates = [];
             let cumulativeProfit = 0;
-            const totalInvestment = data.total_investment || 50000;
+            const totalInvestment = data.total_investment || 100000;
             
             for (const profit of profits) {
                 cumulativeProfit += profit;
@@ -1458,6 +1472,8 @@
             
             profitChart.data.labels = dates;
             profitChart.data.datasets[0].data = profits;
+            profitChart.data.datasets[0].backgroundColor = barColors;
+            profitChart.data.datasets[0].borderColor = barBorderColors;
             profitChart.data.datasets[1].data = cumulativeRates;
             profitChart.update();
             
