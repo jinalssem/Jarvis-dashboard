@@ -1,49 +1,41 @@
 {
-  "last_update": "2025-12-14T08:50:57.629173",
-  "today_profit": 891.6362403437579,
-  "today_profit_percent": 0.8061696625934096,
-  "total_profit": 785.7134791206298,
-  "total_profit_percent": 0.7103999834210042,
-  "total_investment": 110601.562142069,
+  "last_update": "2025-12-14T08:54:00.004276",
+  "today_profit": 1552.1990853475127,
+  "today_profit_percent": 2.3032875883274886,
+  "total_profit": 1482.6504083275302,
+  "total_profit_percent": 2.2000852310545755,
+  "total_investment": 67390.589573516,
   "holdings": [
     {
       "market": "KRW-BTC",
       "amount": 7.291e-05,
       "avg_price": 134078000.0,
-      "current_price": 134703000.0,
-      "value": 9821.195730000001,
-      "profit": 45.56875,
-      "profit_rate": 0.0046614657139873806
-    },
-    {
-      "market": "KRW-MEV",
-      "amount": 10162.50530775,
-      "avg_price": 4.252,
-      "current_price": 4.253,
-      "value": 43221.13507386075,
-      "profit": 10.162505307753394,
-      "profit_rate": 0.00023518344308568533
+      "current_price": 134704000.0,
+      "value": 9821.26864,
+      "profit": 45.64166,
+      "profit_rate": 0.004668924059129761
     },
     {
       "market": "KRW-WNCG",
       "amount": 4646.36795109,
       "avg_price": 12.4,
-      "current_price": 12.36,
-      "value": 57429.1078754724,
-      "profit": -185.8547180436043,
-      "profit_rate": -0.003225806451612978
+      "current_price": 12.37,
+      "value": 57475.5715549833,
+      "profit": -139.3910385327053,
+      "profit_rate": -0.002419354838709769
     }
   ],
   "trades": [
     {
+      "type": "sell",
       "market": "KRW-MEV",
-      "type": "buy",
-      "time": "2025-12-14T06:40:10+09:00",
-      "price": 4.252,
+      "profit": 660.5628450037548,
+      "price": 4.317,
+      "amount": 10162.50530775,
       "volume": 10162.50530775,
-      "funds": 43210.972568553,
-      "cycle_status": "holding",
-      "profit": 0,
+      "time": "2025-12-14T08:46:52.325624",
+      "cycle_status": "completed",
+      "avg_buy_price": 4.252,
       "buy_count": 1
     },
     {
@@ -392,6 +384,16 @@
     }
   ],
   "raw_trades": [
+    {
+      "market": "KRW-MEV",
+      "type": "sell",
+      "time": "2025-12-14T08:51:02+09:00",
+      "price": 4.25,
+      "volume": 10162.50530775,
+      "funds": 43190.6475579375,
+      "fee": 17.27,
+      "uuid": "C0272000000125537707"
+    },
     {
       "type": "sell",
       "market": "KRW-MEV",
@@ -1454,9 +1456,15 @@
   "daily_profits": {
     "2025-12-12": 1359.2866439272184,
     "2025-12-13": -1335.0859424144955,
-    "2025-12-14": 891.6362403437579
+    "2025-12-14": 1552.1990853475127
   },
   "trade_cycles": [
+    {
+      "market": "KRW-MEV",
+      "profit": 660.5628450037548,
+      "sell_time": "2025-12-14T08:46:52.325624",
+      "avg_buy_price": 4.252
+    },
     {
       "market": "KRW-H",
       "profit": 696.2565636675572,
@@ -1596,8 +1604,8 @@
       "avg_buy_price": 22.210000000000004
     }
   ],
-  "realized_profit": 915.8369418564807,
-  "unrealized_profit": -130.1234627358509,
+  "realized_profit": 1576.3997868602355,
+  "unrealized_profit": -93.7493785327053,
   "start_date": "2025-12-12",
   "today_date": "2025-12-14"
 }
