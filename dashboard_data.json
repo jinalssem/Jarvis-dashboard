@@ -1,19 +1,19 @@
 {
-  "last_update": "2025-12-14T00:31:30.999338",
+  "last_update": "2025-12-14T00:35:38.547344",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": 54049.73134762896,
-  "total_profit_percent": 184.65213566891887,
+  "total_profit": 54221.502985458756,
+  "total_profit_percent": 185.23896559354182,
   "total_investment": 29271.1108657525,
   "holdings": [
     {
       "market": "KRW-BTC",
       "amount": 7.291e-05,
       "avg_price": 134078000.0,
-      "current_price": 134578000.0,
-      "value": 9812.08198,
-      "profit": 36.455000000000005,
-      "profit_rate": 0.003729172571189904
+      "current_price": 134530000.0,
+      "value": 9808.5823,
+      "profit": 32.95532,
+      "profit_rate": 0.0033711720043556738
     },
     {
       "market": "KRW-APM",
@@ -28,13 +28,24 @@
       "market": "KRW-GHX",
       "amount": 515.50387597,
       "avg_price": 18.9,
-      "current_price": 18.38,
-      "value": 9474.9612403286,
-      "profit": -268.06201550439977,
-      "profit_rate": -0.027513227513227493
+      "current_price": 18.72,
+      "value": 9650.2325581584,
+      "profit": -92.79069767459984,
+      "profit_rate": -0.009523809523809509
     }
   ],
   "trades": [
+    {
+      "market": "KRW-GHX",
+      "type": "buy",
+      "time": "2025-12-14T00:34:31.897469",
+      "price": 19.617802948700486,
+      "volume": 3478.80658603,
+      "funds": 68246.542101378,
+      "cycle_status": "holding",
+      "profit": 0,
+      "buy_count": 7
+    },
     {
       "market": "KRW-APM",
       "type": "buy",
@@ -45,17 +56,6 @@
       "cycle_status": "holding",
       "profit": 0,
       "buy_count": 5
-    },
-    {
-      "market": "KRW-GHX",
-      "type": "buy",
-      "time": "2025-12-14T00:22:21.356466",
-      "price": 19.856011692925517,
-      "volume": 2946.23851342,
-      "funds": 58500.546372615005,
-      "cycle_status": "holding",
-      "profit": 0,
-      "buy_count": 6
     },
     {
       "market": "KRW-PROMPT",
@@ -518,6 +518,15 @@
     }
   ],
   "raw_trades": [
+    {
+      "type": "buy",
+      "market": "KRW-GHX",
+      "profit": 0,
+      "price": 18.3,
+      "amount": 532.56807261,
+      "volume": 532.56807261,
+      "time": "2025-12-14T00:34:31.897469"
+    },
     {
       "type": "buy",
       "market": "KRW-APM",
@@ -2095,7 +2104,7 @@
     }
   ],
   "realized_profit": 54176.61395368456,
-  "unrealized_profit": -126.88260605559967,
+  "unrealized_profit": 44.88903177420025,
   "start_date": "2025-12-11",
   "today_date": "2025-12-14"
 }
