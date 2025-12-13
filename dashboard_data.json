@@ -1,55 +1,46 @@
 {
-  "last_update": "2025-12-13T17:12:34.262693",
-  "today_profit": -6952.083794423983,
-  "today_profit_percent": -13.146531349968605,
-  "total_profit": 52176.591031301425,
-  "total_profit_percent": 98.66699107937447,
-  "total_investment": 52881.506226664,
+  "last_update": "2025-12-13T17:18:02.553864",
+  "today_profit": -6646.9225041021855,
+  "today_profit_percent": -13.45621896992317,
+  "total_profit": 52749.66924402083,
+  "total_profit_percent": 106.7879307304248,
+  "total_investment": 49396.658295760004,
   "holdings": [
     {
       "market": "KRW-BTC",
       "amount": 7.291e-05,
       "avg_price": 134078000.0,
-      "current_price": 134745000.0,
-      "value": 9824.257950000001,
-      "profit": 48.630970000000005,
-      "profit_rate": 0.004974716209967332
+      "current_price": 134834000.0,
+      "value": 9830.74694,
+      "profit": 55.119960000000006,
+      "profit_rate": 0.005638508927639135
     },
     {
       "market": "KRW-ETH",
       "amount": 0.00483238,
       "avg_price": 4651990.0,
-      "current_price": 4615000.0,
-      "value": 22301.433699999998,
-      "profit": -178.7497362,
-      "profit_rate": -0.007951435837136365
-    },
-    {
-      "market": "KRW-AI16Z",
-      "amount": 187.35741564,
-      "avg_price": 18.6,
-      "current_price": 18.71,
-      "value": 3505.4572466244003,
-      "profit": 20.609315720399895,
-      "profit_rate": 0.005913978494623625
+      "current_price": 4638000.0,
+      "value": 22412.578439999997,
+      "profit": -67.6049962,
+      "profit_rate": -0.00300731514900075
     },
     {
       "market": "KRW-PROMPT",
       "amount": 94.70124688,
       "avg_price": 100.0,
-      "current_price": 99.4,
-      "value": 9413.303939872001,
-      "profit": -56.82074812799946,
-      "profit_rate": -0.005999999999999943
+      "current_price": 101.0,
+      "value": 9564.82593488,
+      "profit": 94.70124688,
+      "profit_rate": 0.01
     },
     {
       "market": "KRW-SD",
       "amount": 19.37051311,
       "avg_price": 396.0,
-      "current_price": 393.0,
-      "value": 7612.611652230001,
-      "profit": -58.11153933,
-      "profit_rate": -0.007575757575757576
+      "current_price": 394.0,
+      "value": 7631.98216534,
+      "profit": -38.74102622,
+      "profit_rate": -0.005050505050505051
     }
   ],
   "trades": [
@@ -87,6 +78,20 @@
       "funds": 9470.124688,
       "cycle_status": "holding",
       "profit": 0,
+      "buy_count": 1
+    },
+    {
+      "market": "KRW-AI16Z",
+      "type": "sell",
+      "time": "2025-12-13T15:11:39+09:00",
+      "price": 18.71,
+      "volume": 2774.19354838,
+      "funds": 51905.1612901898,
+      "fee": 20.75,
+      "uuid": "C1100000000054538446",
+      "cycle_status": "completed",
+      "profit": 305.1612903217974,
+      "avg_buy_price": 18.6,
       "buy_count": 1
     },
     {
@@ -214,17 +219,6 @@
       "profit": 266.40625,
       "avg_buy_price": 220.98230088495575,
       "buy_count": 2
-    },
-    {
-      "market": "KRW-AI16Z",
-      "type": "buy",
-      "time": "2025-12-13T02:53:48+09:00",
-      "price": 18.6,
-      "volume": 2774.19354838,
-      "funds": 51599.999999868,
-      "cycle_status": "holding",
-      "profit": 0,
-      "buy_count": 1
     },
     {
       "market": "KRW-LINK",
@@ -1520,7 +1514,7 @@
   "daily_profits": {
     "2025-12-11": -8585.764818352473,
     "2025-12-12": 67938.88138201548,
-    "2025-12-13": -6952.083794423983
+    "2025-12-13": -6646.9225041021855
   },
   "trade_cycles": [
     {
@@ -1528,6 +1522,12 @@
       "profit": -323.1209669696,
       "sell_time": "2025-12-13T16:04:06+09:00",
       "avg_buy_price": 20.89
+    },
+    {
+      "market": "KRW-AI16Z",
+      "profit": 305.1612903217974,
+      "sell_time": "2025-12-13T15:11:39+09:00",
+      "avg_buy_price": 18.6
     },
     {
       "market": "KRW-EUL",
@@ -1698,8 +1698,8 @@
       "avg_buy_price": 35.65504653377074
     }
   ],
-  "realized_profit": 52401.03276923903,
-  "unrealized_profit": -224.44173793759956,
+  "realized_profit": 52706.194059560825,
+  "unrealized_profit": 43.47518446,
   "start_date": "2025-12-11",
   "today_date": "2025-12-13"
 }
