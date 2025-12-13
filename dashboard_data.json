@@ -1,40 +1,60 @@
 {
-  "last_update": "2025-12-13T15:28:57.710169",
+  "last_update": "2025-12-13T15:33:02.140309",
   "today_profit": -6628.962827454383,
-  "today_profit_percent": -7.905192013008292,
-  "total_profit": 49889.853997489634,
-  "total_profit_percent": 59.49480870788889,
-  "total_investment": 83855.81041606801,
+  "today_profit_percent": -7.174193621203825,
+  "total_profit": 49507.778067377825,
+  "total_profit_percent": 53.579782366550134,
+  "total_investment": 92400.1104160616,
   "holdings": [
     {
       "market": "KRW-BTC",
       "amount": 7.291e-05,
       "avg_price": 134078000.0,
-      "current_price": 134720000.0,
-      "value": 9822.4352,
-      "profit": 46.808220000000006,
-      "profit_rate": 0.004788257581407837
+      "current_price": 134681000.0,
+      "value": 9819.59171,
+      "profit": 43.96473,
+      "profit_rate": 0.004497382120855025
     },
     {
       "market": "KRW-ETH",
       "amount": 0.00483238,
       "avg_price": 4651990.0,
-      "current_price": 4604000.0,
-      "value": 22248.27752,
-      "profit": -231.90591619999998,
-      "profit_rate": -0.010316015296679486
+      "current_price": 4601000.0,
+      "value": 22233.78038,
+      "profit": -246.40305619999998,
+      "profit_rate": -0.010960900603827609
+    },
+    {
+      "market": "KRW-FCT2",
+      "amount": 409.01388224,
+      "avg_price": 20.89,
+      "current_price": 20.88,
+      "value": 8540.209861171199,
+      "profit": -4.09013882240064,
+      "profit_rate": -0.00047869794159892593
     },
     {
       "market": "KRW-AI16Z",
       "amount": 2774.19354838,
       "avg_price": 18.6,
-      "current_price": 18.71,
-      "value": 51905.1612901898,
-      "profit": 305.1612903217984,
-      "profit_rate": 0.005913978494623625
+      "current_price": 18.58,
+      "value": 51544.51612890039,
+      "profit": -55.48387096760867,
+      "profit_rate": -0.0010752688172044691
     }
   ],
   "trades": [
+    {
+      "market": "KRW-FCT2",
+      "type": "buy",
+      "time": "2025-12-13T15:32:44+09:00",
+      "price": 20.89,
+      "volume": 409.01388224,
+      "funds": 8544.2999999936,
+      "cycle_status": "holding",
+      "profit": 0,
+      "buy_count": 1
+    },
     {
       "market": "KRW-EUL",
       "type": "sell",
@@ -490,6 +510,16 @@
     }
   ],
   "raw_trades": [
+    {
+      "market": "KRW-FCT2",
+      "type": "buy",
+      "time": "2025-12-13T15:32:44+09:00",
+      "price": 20.89,
+      "volume": 409.01388224,
+      "funds": 8544.2999999936,
+      "fee": 0.0,
+      "uuid": "C0255000000118871280"
+    },
     {
       "market": "KRW-EUL",
       "type": "sell",
@@ -1479,16 +1509,6 @@
       "funds": 31985.599999823196,
       "fee": 0.0,
       "uuid": "C1234000000000098982"
-    },
-    {
-      "market": "KRW-GRS",
-      "type": "sell",
-      "time": "2025-12-11T18:26:01+09:00",
-      "price": 315.0,
-      "volume": 510.14253923,
-      "funds": 160694.89985745001,
-      "fee": 0.0,
-      "uuid": "C0857000000056344610"
     }
   ],
   "daily_profits": {
@@ -1679,7 +1699,7 @@
     }
   ],
   "realized_profit": 49769.790403367835,
-  "unrealized_profit": 120.06359412179842,
+  "unrealized_profit": -262.01233599000926,
   "start_date": "2025-12-11",
   "today_date": "2025-12-13"
 }
