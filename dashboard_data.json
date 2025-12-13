@@ -1,28 +1,28 @@
 {
-  "last_update": "2025-12-14T00:15:20.135905",
+  "last_update": "2025-12-14T00:19:33.792597",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": 54175.15515519267,
-  "total_profit_percent": 277.42171295705276,
+  "total_profit": 54009.77342542892,
+  "total_profit_percent": 276.5748213767439,
   "total_investment": 19528.0876099195,
   "holdings": [
     {
       "market": "KRW-BTC",
       "amount": 7.291e-05,
       "avg_price": 134078000.0,
-      "current_price": 134531000.0,
-      "value": 9808.65521,
-      "profit": 33.02823,
-      "profit_rate": 0.0033786303494980534
+      "current_price": 134507000.0,
+      "value": 9806.90537,
+      "profit": 31.27839,
+      "profit_rate": 0.0031996300660809378
     },
     {
       "market": "KRW-APM",
       "amount": 6545.27559055,
       "avg_price": 1.49,
-      "current_price": 1.505,
-      "value": 9850.639763777748,
-      "profit": 98.17913385824936,
-      "profit_rate": 0.010067114093959667
+      "current_price": 1.48,
+      "value": 9687.007874014,
+      "profit": -65.45275590550006,
+      "profit_rate": -0.00671140939597316
     }
   ],
   "trades": [
@@ -2067,7 +2067,7 @@
     }
   ],
   "realized_profit": 54043.947791334416,
-  "unrealized_profit": 131.20736385824935,
+  "unrealized_profit": -34.17436590550005,
   "start_date": "2025-12-11",
   "today_date": "2025-12-14"
 }
