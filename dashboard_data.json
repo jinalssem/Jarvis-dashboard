@@ -1,46 +1,46 @@
 {
-  "last_update": "2025-12-13T17:30:35.572423",
+  "last_update": "2025-12-13T17:38:33.747740",
   "today_profit": -2217.058111152204,
   "today_profit_percent": -1.4889211833619727,
-  "total_profit": 56792.8062312808,
-  "total_profit_percent": 38.14063863954383,
+  "total_profit": 56695.05089800081,
+  "total_profit_percent": 38.07498858473694,
   "total_investment": 148903.6582948,
   "holdings": [
     {
       "market": "KRW-BTC",
       "amount": 7.291e-05,
       "avg_price": 134078000.0,
-      "current_price": 134898000.0,
-      "value": 9835.413180000001,
-      "profit": 59.7862,
-      "profit_rate": 0.006115843016751443
+      "current_price": 134826000.0,
+      "value": 9830.16366,
+      "profit": 54.536680000000004,
+      "profit_rate": 0.005578842166500097
     },
     {
       "market": "KRW-ETH",
       "amount": 0.00483238,
       "avg_price": 4651990.0,
-      "current_price": 4653000.0,
-      "value": 22485.06414,
-      "profit": 4.8807038,
-      "profit_rate": 0.00021711138673986832
+      "current_price": 4643000.0,
+      "value": 22436.74034,
+      "profit": -43.4430962,
+      "profit_rate": -0.0019325063037538774
     },
     {
       "market": "KRW-AQT",
       "amount": 116.79225352,
       "avg_price": 852.0,
-      "current_price": 850.0,
-      "value": 99273.415492,
-      "profit": -233.58450704,
-      "profit_rate": -0.002347417840375587
+      "current_price": 848.0,
+      "value": 99039.83098496,
+      "profit": -467.16901408,
+      "profit_rate": -0.004694835680751174
     },
     {
       "market": "KRW-PROMPT",
       "amount": 94.70124688,
       "avg_price": 100.0,
-      "current_price": 100.0,
-      "value": 9470.124688,
-      "profit": 0.0,
-      "profit_rate": 0.0
+      "current_price": 102.0,
+      "value": 9659.52718176,
+      "profit": 189.40249376,
+      "profit_rate": 0.02
     },
     {
       "market": "KRW-SD",
@@ -1699,7 +1699,7 @@
     }
   ],
   "realized_profit": 57136.058452510806,
-  "unrealized_profit": -343.25222123,
+  "unrealized_profit": -441.00755451,
   "start_date": "2025-12-11",
   "today_date": "2025-12-13"
 }
