@@ -1,19 +1,19 @@
 {
-  "last_update": "2025-12-13T23:55:49.447947",
+  "last_update": "2025-12-13T23:59:50.165779",
   "today_profit": -1978.6269354022052,
   "today_profit_percent": -20.240409535370844,
-  "total_profit": 54449.800665420014,
-  "total_profit_percent": 556.9954825078648,
+  "total_profit": 54446.738445420015,
+  "total_profit_percent": 556.9641574582668,
   "total_investment": 9775.626980000001,
   "holdings": [
     {
       "market": "KRW-BTC",
       "amount": 7.291e-05,
       "avg_price": 134078000.0,
-      "current_price": 134485000.0,
-      "value": 9805.301350000002,
-      "profit": 29.674370000000003,
-      "profit_rate": 0.0030355464729485823
+      "current_price": 134443000.0,
+      "value": 9802.23913,
+      "profit": 26.612150000000003,
+      "profit_rate": 0.00272229597696863
     }
   ],
   "trades": [
@@ -506,6 +506,15 @@
     }
   ],
   "raw_trades": [
+    {
+      "type": "buy",
+      "market": "KRW-APM",
+      "profit": 0,
+      "price": 1.49,
+      "amount": 6545.27559055,
+      "volume": 6545.27559055,
+      "time": "2025-12-13T23:58:38.206950"
+    },
     {
       "type": "buy",
       "market": "KRW-ADA",
@@ -1843,6 +1852,12 @@
   },
   "trade_cycles": [
     {
+      "market": "KRW-APM",
+      "profit": 376.17850408559934,
+      "sell_time": "2025-12-12T08:08:33+09:00",
+      "avg_buy_price": 1.55
+    },
+    {
       "market": "KRW-PROMPT",
       "profit": 378.8049875199995,
       "sell_time": "2025-12-13T23:04:58+09:00",
@@ -1877,12 +1892,6 @@
       "profit": -459.72992454000087,
       "sell_time": "2025-12-13T14:32:33+09:00",
       "avg_buy_price": 4993.0
-    },
-    {
-      "market": "KRW-APM",
-      "profit": 376.17850408559934,
-      "sell_time": "2025-12-12T08:08:33+09:00",
-      "avg_buy_price": 1.55
     },
     {
       "market": "KRW-EVZ",
@@ -2048,7 +2057,7 @@
     }
   ],
   "realized_profit": 54420.126295420014,
-  "unrealized_profit": 29.674370000000003,
+  "unrealized_profit": 26.612150000000003,
   "start_date": "2025-12-11",
   "today_date": "2025-12-13"
 }
