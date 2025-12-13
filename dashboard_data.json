@@ -1,22 +1,42 @@
 {
-  "last_update": "2025-12-14T00:03:48.271461",
+  "last_update": "2025-12-14T00:07:32.204809",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": 54450.89431542002,
-  "total_profit_percent": 557.0066700255784,
-  "total_investment": 9775.626980000001,
+  "total_profit": 54137.94160605882,
+  "total_profit_percent": 277.2311487304004,
+  "total_investment": 19528.0876099195,
   "holdings": [
     {
       "market": "KRW-BTC",
       "amount": 7.291e-05,
       "avg_price": 134078000.0,
-      "current_price": 134500000.0,
-      "value": 9806.395,
-      "profit": 30.768020000000003,
-      "profit_rate": 0.0031474216500842794
+      "current_price": 134649000.0,
+      "value": 9817.258590000001,
+      "profit": 41.63161,
+      "profit_rate": 0.004258715076298871
+    },
+    {
+      "market": "KRW-APM",
+      "amount": 6545.27559055,
+      "avg_price": 1.49,
+      "current_price": 1.498,
+      "value": 9804.8228346439,
+      "profit": 52.362204724400044,
+      "profit_rate": 0.005369127516778528
     }
   ],
   "trades": [
+    {
+      "market": "KRW-APM",
+      "type": "buy",
+      "time": "2025-12-13T23:58:38.206950",
+      "price": 1.4993693243930986,
+      "volume": 25992.506745650004,
+      "funds": 38972.3672785083,
+      "cycle_status": "holding",
+      "profit": 0,
+      "buy_count": 4
+    },
     {
       "market": "KRW-PROMPT",
       "type": "sell",
@@ -365,20 +385,6 @@
       "buy_count": 1
     },
     {
-      "market": "KRW-APM",
-      "type": "sell",
-      "time": "2025-12-12T08:08:33+09:00",
-      "price": 1.61,
-      "volume": 6269.64173476,
-      "funds": 10094.1231929636,
-      "fee": 0.0,
-      "uuid": "C0300000000361751549",
-      "cycle_status": "completed",
-      "profit": 376.17850408559934,
-      "avg_buy_price": 1.55,
-      "buy_count": 1
-    },
-    {
       "market": "KRW-STABLE",
       "type": "sell",
       "time": "2025-12-12T07:14:59+09:00",
@@ -514,6 +520,16 @@
       "amount": 6545.27559055,
       "volume": 6545.27559055,
       "time": "2025-12-13T23:58:38.206950"
+    },
+    {
+      "market": "KRW-APM",
+      "type": "buy",
+      "time": "2025-12-13T23:58:38+09:00",
+      "price": 1.49,
+      "volume": 6545.27559055,
+      "funds": 9752.4606299195,
+      "fee": 0.0,
+      "uuid": "C0300000000362070383"
     },
     {
       "type": "buy",
@@ -1847,16 +1863,10 @@
   ],
   "daily_profits": {
     "2025-12-11": -11540.128151193261,
-    "2025-12-12": 67938.88138201548,
+    "2025-12-12": 67562.70287792989,
     "2025-12-13": -1978.6269354022052
   },
   "trade_cycles": [
-    {
-      "market": "KRW-APM",
-      "profit": 376.17850408559934,
-      "sell_time": "2025-12-12T08:08:33+09:00",
-      "avg_buy_price": 1.55
-    },
     {
       "market": "KRW-PROMPT",
       "profit": 378.8049875199995,
@@ -2056,8 +2066,8 @@
       "avg_buy_price": 35.65504653377074
     }
   ],
-  "realized_profit": 54420.126295420014,
-  "unrealized_profit": 30.768020000000003,
+  "realized_profit": 54043.947791334416,
+  "unrealized_profit": 93.99381472440004,
   "start_date": "2025-12-11",
   "today_date": "2025-12-14"
 }
