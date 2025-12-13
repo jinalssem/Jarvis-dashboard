@@ -1,46 +1,46 @@
 {
-  "last_update": "2025-12-14T01:50:54.335364",
+  "last_update": "2025-12-14T01:55:40.002700",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": 54071.09815379287,
-  "total_profit_percent": 110.8933392790418,
+  "total_profit": 54223.63413376625,
+  "total_profit_percent": 111.20617228515788,
   "total_investment": 48759.5544559564,
   "holdings": [
     {
       "market": "KRW-BTC",
       "amount": 7.291e-05,
       "avg_price": 134078000.0,
-      "current_price": 134455000.0,
-      "value": 9803.11405,
-      "profit": 27.487070000000003,
-      "profit_rate": 0.002811796118677188
+      "current_price": 134423000.0,
+      "value": 9800.78093,
+      "profit": 25.153950000000002,
+      "profit_rate": 0.002573129074121034
     },
     {
       "market": "KRW-BOA",
       "amount": 2945.95392794,
       "avg_price": 3.31,
-      "current_price": 3.344,
-      "value": 9851.26993503136,
-      "profit": 100.16243354995943,
-      "profit_rate": 0.010271903323262782
+      "current_price": 3.361,
+      "value": 9901.35115180634,
+      "profit": 150.24365032494046,
+      "profit_rate": 0.015407854984894307
     },
     {
       "market": "KRW-APM",
       "amount": 13168.78156665,
       "avg_price": 1.48,
-      "current_price": 1.467,
-      "value": 19318.60255827555,
-      "profit": -171.19416036644867,
-      "profit_rate": -0.008783783783783717
+      "current_price": 1.473,
+      "value": 19397.61524767545,
+      "profit": -92.18147096654862,
+      "profit_rate": -0.004729729729729659
     },
     {
       "market": "KRW-GHX",
       "amount": 515.50387597,
       "avg_price": 18.9,
-      "current_price": 18.62,
-      "value": 9598.6821705614,
-      "profit": -144.34108527159876,
-      "profit_rate": -0.014814814814814689
+      "current_price": 18.67,
+      "value": 9624.4573643599,
+      "profit": -118.56589147309838,
+      "profit_rate": -0.012169312169312005
     }
   ],
   "trades": [
@@ -524,6 +524,15 @@
     }
   ],
   "raw_trades": [
+    {
+      "type": "sell",
+      "market": "KRW-BOA",
+      "profit": 150.24365032494046,
+      "price": 3.361,
+      "amount": 2945.95392794,
+      "volume": 2945.95392794,
+      "time": "2025-12-14T01:54:29.096604"
+    },
     {
       "type": "buy",
       "market": "KRW-TURBO",
@@ -2169,7 +2178,7 @@
     }
   ],
   "realized_profit": 54258.983895880956,
-  "unrealized_profit": -187.885742088088,
+  "unrealized_profit": -35.34976211470653,
   "start_date": "2025-12-11",
   "today_date": "2025-12-14"
 }
