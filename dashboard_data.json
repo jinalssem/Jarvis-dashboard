@@ -1,22 +1,42 @@
 {
-  "last_update": "2025-12-14T06:31:12.858845",
+  "last_update": "2025-12-14T06:35:25.166221",
   "today_profit": 195.3796766762007,
-  "today_profit_percent": 1.9986408756791647,
-  "total_profit": 235.83930818892352,
-  "total_profit_percent": 2.4125236025415884,
-  "total_investment": 9775.626980000001,
+  "today_profit_percent": 0.08150065204449358,
+  "total_profit": 54.65587797070373,
+  "total_profit_percent": 0.022799145583903148,
+  "total_investment": 239727.74668052624,
   "holdings": [
     {
       "market": "KRW-BTC",
       "amount": 7.291e-05,
       "avg_price": 134078000.0,
-      "current_price": 134301000.0,
-      "value": 9791.88591,
-      "profit": 16.25893,
-      "profit_rate": 0.0016632109667506973
+      "current_price": 134387000.0,
+      "value": 9798.15617,
+      "profit": 22.52919,
+      "profit_rate": 0.002304628648995361
+    },
+    {
+      "market": "KRW-H",
+      "amount": 2677.90986026,
+      "avg_price": 85.87,
+      "current_price": 85.8,
+      "value": 229764.66601030802,
+      "profit": -187.4536902182198,
+      "profit_rate": -0.0008151857458950435
     }
   ],
   "trades": [
+    {
+      "market": "KRW-H",
+      "type": "buy",
+      "time": "2025-12-14T06:31:21+09:00",
+      "price": 85.87,
+      "volume": 2677.90986026,
+      "funds": 229952.11970052624,
+      "cycle_status": "holding",
+      "profit": 0,
+      "buy_count": 1
+    },
     {
       "market": "KRW-GHX",
       "type": "sell",
@@ -338,6 +358,16 @@
     }
   ],
   "raw_trades": [
+    {
+      "market": "KRW-H",
+      "type": "buy",
+      "time": "2025-12-14T06:31:21+09:00",
+      "price": 85.87,
+      "volume": 2677.90986026,
+      "funds": 229952.11970052624,
+      "fee": 91.97,
+      "uuid": "C1124000000111209627"
+    },
     {
       "market": "KRW-GHX",
       "type": "sell",
@@ -1479,7 +1509,7 @@
     }
   ],
   "realized_profit": 219.58037818892353,
-  "unrealized_profit": 16.25893,
+  "unrealized_profit": -164.9245002182198,
   "start_date": "2025-12-12",
   "today_date": "2025-12-14"
 }
