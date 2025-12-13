@@ -1,19 +1,19 @@
 {
-  "last_update": "2025-12-14T06:22:34.242320",
+  "last_update": "2025-12-14T06:26:12.653665",
   "today_profit": 195.3796766762007,
   "today_profit_percent": 1.9986408756791647,
-  "total_profit": 481.52269098173366,
-  "total_profit_percent": 4.9257473916188,
+  "total_profit": 480.0644909817337,
+  "total_profit_percent": 4.91083070133404,
   "total_investment": 9775.626980000001,
   "holdings": [
     {
       "market": "KRW-BTC",
       "amount": 7.291e-05,
       "avg_price": 134078000.0,
-      "current_price": 134370000.0,
-      "value": 9796.9167,
-      "profit": 21.289720000000003,
-      "profit_rate": 0.002177836781574904
+      "current_price": 134350000.0,
+      "value": 9795.4585,
+      "profit": 19.83152,
+      "profit_rate": 0.002028669878727308
     }
   ],
   "trades": [
@@ -394,6 +394,15 @@
     }
   ],
   "raw_trades": [
+    {
+      "type": "buy",
+      "market": "KRW-MAY",
+      "profit": 0,
+      "price": 20.8,
+      "amount": 469.41176471,
+      "volume": 469.41176471,
+      "time": "2025-12-14T06:25:07.778217"
+    },
     {
       "market": "KRW-GHX",
       "type": "sell",
@@ -2412,6 +2421,12 @@
   },
   "trade_cycles": [
     {
+      "market": "KRW-MAY",
+      "profit": 13.994575956501649,
+      "sell_time": "2025-12-13T05:45:46+09:00",
+      "avg_buy_price": 21.18986770681823
+    },
+    {
       "market": "KRW-GHX",
       "profit": -132.60219673275787,
       "sell_time": "2025-12-13T05:35:56+09:00",
@@ -2538,12 +2553,6 @@
       "avg_buy_price": 95.8497326090128
     },
     {
-      "market": "KRW-MAY",
-      "profit": 13.994575956501649,
-      "sell_time": "2025-12-13T05:45:46+09:00",
-      "avg_buy_price": 21.18986770681823
-    },
-    {
       "market": "KRW-PLM",
       "profit": 267.0,
       "sell_time": "2025-12-13T03:32:39+09:00",
@@ -2570,6 +2579,6 @@
   ],
   "start_date": "2025-12-12",
   "realized_profit": 460.2329709817337,
-  "unrealized_profit": 21.289720000000003,
+  "unrealized_profit": 19.83152,
   "today_date": "2025-12-14"
 }
