@@ -1,28 +1,28 @@
 {
-  "last_update": "2025-12-14T06:57:48.347698",
+  "last_update": "2025-12-14T07:01:28.705071",
   "today_profit": 891.6362403437579,
   "today_profit_percent": 1.323087163929731,
-  "total_profit": 999.4847213673797,
-  "total_profit_percent": 1.4831220912187564,
+  "total_profit": 720.8484643019774,
+  "total_profit_percent": 1.0696574534573673,
   "total_investment": 67390.589573516,
   "holdings": [
     {
       "market": "KRW-BTC",
       "amount": 7.291e-05,
       "avg_price": 134078000.0,
-      "current_price": 134588000.0,
-      "value": 9812.811080000001,
-      "profit": 37.1841,
-      "profit_rate": 0.0038037560226137023
+      "current_price": 134590000.0,
+      "value": 9812.956900000001,
+      "profit": 37.32992,
+      "profit_rate": 0.003818672712898462
     },
     {
       "market": "KRW-WNCG",
       "amount": 4646.36795109,
       "avg_price": 12.4,
-      "current_price": 12.41,
-      "value": 57661.426273026904,
-      "profit": 46.46367951089901,
-      "profit_rate": 0.0008064516129032086
+      "current_price": 12.35,
+      "value": 57382.6441959615,
+      "profit": -232.31839755450332,
+      "profit_rate": -0.004032258064516186
     }
   ],
   "trades": [
@@ -1549,7 +1549,7 @@
     }
   ],
   "realized_profit": 915.8369418564807,
-  "unrealized_profit": 83.64777951089901,
+  "unrealized_profit": -194.98847755450333,
   "start_date": "2025-12-12",
   "today_date": "2025-12-14"
 }
