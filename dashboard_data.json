@@ -1,28 +1,28 @@
 {
-  "last_update": "2025-12-13T16:44:41.586923",
+  "last_update": "2025-12-13T16:50:13.536038",
   "today_profit": -6952.083794423983,
   "today_profit_percent": -7.595703147928004,
-  "total_profit": 50256.80995818323,
-  "total_profit_percent": 54.909552429498675,
+  "total_profit": 50356.52633373323,
+  "total_profit_percent": 55.018500481631285,
   "total_investment": 91526.53360762801,
   "holdings": [
     {
       "market": "KRW-BTC",
       "amount": 7.291e-05,
       "avg_price": 134078000.0,
-      "current_price": 134797000.0,
-      "value": 9828.049270000001,
-      "profit": 52.422290000000004,
-      "profit_rate": 0.005362550157371082
+      "current_price": 134770000.0,
+      "value": 9826.0807,
+      "profit": 50.453720000000004,
+      "profit_rate": 0.005161174838526828
     },
     {
       "market": "KRW-ETH",
       "amount": 0.00483238,
       "avg_price": 4651990.0,
-      "current_price": 4612000.0,
-      "value": 22286.93656,
-      "profit": -193.2468762,
-      "profit_rate": -0.00859632114428449
+      "current_price": 4613000.0,
+      "value": 22291.768939999998,
+      "profit": -188.4144962,
+      "profit_rate": -0.008381359375235115
     },
     {
       "market": "KRW-AI16Z",
@@ -37,10 +37,10 @@
       "market": "KRW-SD",
       "amount": 19.37051311,
       "avg_price": 396.0,
-      "current_price": 385.0,
-      "value": 7457.64754735,
-      "profit": -213.07564421,
-      "profit_rate": -0.027777777777777776
+      "current_price": 390.0,
+      "value": 7554.5001129,
+      "profit": -116.22307866,
+      "profit_rate": -0.015151515151515152
     }
   ],
   "trades": [
@@ -1699,7 +1699,7 @@
     }
   ],
   "realized_profit": 50361.03276923903,
-  "unrealized_profit": -104.2228110558004,
+  "unrealized_profit": -4.506435505800397,
   "start_date": "2025-12-11",
   "today_date": "2025-12-13"
 }
