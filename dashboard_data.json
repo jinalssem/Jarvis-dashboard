@@ -1,28 +1,28 @@
 {
-  "last_update": "2025-12-14T08:54:00.004276",
+  "last_update": "2025-12-14T08:56:59.705915",
   "today_profit": 1552.1990853475127,
   "today_profit_percent": 2.3032875883274886,
-  "total_profit": 1482.6504083275302,
-  "total_profit_percent": 2.2000852310545755,
+  "total_profit": 1249.2383607730353,
+  "total_profit_percent": 1.8537281965907844,
   "total_investment": 67390.589573516,
   "holdings": [
     {
       "market": "KRW-BTC",
       "amount": 7.291e-05,
       "avg_price": 134078000.0,
-      "current_price": 134704000.0,
-      "value": 9821.26864,
-      "profit": 45.64166,
-      "profit_rate": 0.004668924059129761
+      "current_price": 134689000.0,
+      "value": 9820.174990000001,
+      "profit": 44.548010000000005,
+      "profit_rate": 0.004557048881994063
     },
     {
       "market": "KRW-WNCG",
       "amount": 4646.36795109,
       "avg_price": 12.4,
-      "current_price": 12.37,
-      "value": 57475.5715549833,
-      "profit": -139.3910385327053,
-      "profit_rate": -0.002419354838709769
+      "current_price": 12.32,
+      "value": 57243.2531574288,
+      "profit": -371.70943608720034,
+      "profit_rate": -0.006451612903225812
     }
   ],
   "trades": [
@@ -384,6 +384,15 @@
     }
   ],
   "raw_trades": [
+    {
+      "type": "buy",
+      "market": "KRW-SWELL",
+      "profit": 0,
+      "price": 2.89,
+      "amount": 2925.12991241,
+      "volume": 2925.12991241,
+      "time": "2025-12-14T08:55:55.076743"
+    },
     {
       "market": "KRW-MEV",
       "type": "sell",
@@ -1605,7 +1614,7 @@
     }
   ],
   "realized_profit": 1576.3997868602355,
-  "unrealized_profit": -93.7493785327053,
+  "unrealized_profit": -327.1614260872003,
   "start_date": "2025-12-12",
   "today_date": "2025-12-14"
 }
