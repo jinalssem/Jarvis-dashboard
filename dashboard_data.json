@@ -1,37 +1,37 @@
 {
-  "last_update": "2025-12-13T20:56:11.723857",
+  "last_update": "2025-12-13T20:59:27.906648",
   "today_profit": -2357.4319229222046,
   "today_profit_percent": -2.1943228594017476,
-  "total_profit": 2283.306981052318,
-  "total_profit_percent": 2.125326570340176,
+  "total_profit": -609.5345246854786,
+  "total_profit_percent": -0.5673612578614693,
   "total_investment": 107433.2299288413,
   "holdings": [
     {
       "market": "KRW-BTC",
       "amount": 7.291e-05,
       "avg_price": 134078000.0,
-      "current_price": 134706000.0,
-      "value": 9821.41446,
-      "profit": 45.78748,
-      "profit_rate": 0.00468384074941452
+      "current_price": 134698000.0,
+      "value": 9820.831180000001,
+      "profit": 45.2042,
+      "profit_rate": 0.004624173988275481
     },
     {
       "market": "KRW-CTXC",
       "amount": 4069.56521739,
       "avg_price": 21.67,
-      "current_price": 21.25,
-      "value": 86478.2608695375,
-      "profit": -1709.2173913038068,
-      "profit_rate": -0.01938163359483164
+      "current_price": 20.55,
+      "value": 83629.56521736449,
+      "profit": -4557.913043476804,
+      "profit_rate": -0.051684356252884214
     },
     {
       "market": "KRW-PROMPT",
       "amount": 94.70124688,
       "avg_price": 100.0,
-      "current_price": 97.46,
-      "value": 9229.5835209248,
-      "profit": -240.5411670752006,
-      "profit_rate": -0.02540000000000006
+      "current_price": 97.0,
+      "value": 9186.02094736,
+      "profit": -284.10374064,
+      "profit_rate": -0.03
     }
   ],
   "trades": [
@@ -1578,7 +1578,7 @@
     }
   ],
   "realized_profit": 4187.278059431325,
-  "unrealized_profit": -1903.9710783790074,
+  "unrealized_profit": -4796.812584116804,
   "start_date": "2025-12-12",
   "today_date": "2025-12-13"
 }
