@@ -1,5 +1,5 @@
 {
-  "last_update": "2025-12-14T19:43:13.823069",
+  "last_update": "2025-12-14T19:50:09.075420",
   "today_profit": 3549.443738001257,
   "today_profit_percent": 36.30911598062283,
   "total_profit": 3614.7656795139796,
@@ -10,46 +10,46 @@
       "market": "KRW-BTC",
       "amount": 7.291e-05,
       "avg_price": 134078000.0,
-      "current_price": 134208000.0,
-      "value": 9785.10528,
-      "profit": 9.4783,
-      "profit_rate": 0.0009695848685093751
+      "current_price": 134149000.0,
+      "value": 9780.803590000001,
+      "profit": 5.17661,
+      "profit_rate": 0.0005295425051089664
     },
     {
       "market": "KRW-LRC",
       "amount": 104.00375352,
       "avg_price": 93.9,
-      "current_price": 94.38,
-      "value": 9815.8742572176,
-      "profit": 49.92180168959894,
-      "profit_rate": 0.005111821086261872
+      "current_price": 95.31,
+      "value": 9912.5977479912,
+      "profit": 146.64529246319964,
+      "profit_rate": 0.01501597444089453
     },
     {
       "market": "KRW-GHX",
       "amount": 2080.48255429,
       "avg_price": 18.72,
-      "current_price": 18.23,
-      "value": 37927.196964706694,
-      "profit": -1019.4364516020967,
-      "profit_rate": -0.026175213675213593
+      "current_price": 18.27,
+      "value": 38010.416266878296,
+      "profit": -936.2171494304985,
+      "profit_rate": -0.0240384615384615
     },
     {
       "market": "KRW-AQT",
       "amount": 137.27784431,
       "avg_price": 835.0,
-      "current_price": 840.0,
-      "value": 115313.3892204,
-      "profit": 686.38922155,
-      "profit_rate": 0.005988023952095809
+      "current_price": 835.0,
+      "value": 114626.99999885,
+      "profit": 0.0,
+      "profit_rate": 0.0
     },
     {
       "market": "KRW-WNCG",
       "amount": 23396.03210404,
       "avg_price": 11.72,
-      "current_price": 11.72,
-      "value": 274201.4962593488,
-      "profit": 0.0,
-      "profit_rate": 0.0
+      "current_price": 11.76,
+      "value": 275137.3375435104,
+      "profit": 935.8412841615801,
+      "profit_rate": 0.0034129692832763777
     }
   ],
   "trades": [
@@ -1971,6 +1971,15 @@
       "amount": 543.30065359,
       "volume": 543.30065359,
       "time": "2025-12-14T19:03:02.486894"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-LRC",
+      "profit": 97.76352830879976,
+      "price": 94.84,
+      "amount": 104.00375352,
+      "volume": 104.00375352,
+      "time": "2025-12-14T19:48:52.747304"
     }
   ],
   "daily_profits": {
