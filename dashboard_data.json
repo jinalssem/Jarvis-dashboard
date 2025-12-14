@@ -1,5 +1,5 @@
 {
-  "last_update": "2025-12-15T06:19:19.517515",
+  "last_update": "2025-12-15T06:22:23.880514",
   "today_profit": 3549.443738001257,
   "today_profit_percent": 36.30911598062283,
   "total_profit": 3614.7656795139796,
@@ -10,10 +10,10 @@
       "market": "KRW-BTC",
       "amount": 7.291e-05,
       "avg_price": 134078000.0,
-      "current_price": 132657000.0,
-      "value": 9672.02187,
-      "profit": -103.60511000000001,
-      "profit_rate": -0.010598308447321708
+      "current_price": 132738000.0,
+      "value": 9677.927580000001,
+      "profit": -97.69940000000001,
+      "profit_rate": -0.009994182490788943
     },
     {
       "market": "KRW-WNCG",
@@ -28,19 +28,10 @@
       "market": "KRW-ZTX",
       "amount": 20303.9488776,
       "avg_price": 0.6075,
-      "current_price": 0.6007,
-      "value": 12196.58209077432,
-      "profit": -138.06685236768058,
-      "profit_rate": -0.011193415637860128
-    },
-    {
-      "market": "KRW-GRS",
-      "amount": 30.58690663,
-      "avg_price": 279.0,
-      "current_price": 274.0,
-      "value": 8380.81241662,
-      "profit": -152.93453315,
-      "profit_rate": -0.017921146953405017
+      "current_price": 0.6024,
+      "value": 12231.098803866242,
+      "profit": -103.55013927575986,
+      "profit_rate": -0.00839506172839505
     }
   ],
   "trades": [
@@ -2088,6 +2079,15 @@
       "amount": 24907.26260411,
       "volume": 24907.26260411,
       "time": "2025-12-15T06:02:40.887975"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-GRS",
+      "profit": -367.04287956,
+      "price": 267.0,
+      "amount": 30.58690663,
+      "volume": 30.58690663,
+      "time": "2025-12-15T06:21:18.384744"
     }
   ],
   "daily_profits": {
