@@ -1,5 +1,5 @@
 {
-  "last_update": "2025-12-14T23:59:12.705497",
+  "last_update": "2025-12-15T00:05:27.310661",
   "today_profit": 3549.443738001257,
   "today_profit_percent": 36.30911598062283,
   "total_profit": 3614.7656795139796,
@@ -10,10 +10,10 @@
       "market": "KRW-BTC",
       "amount": 7.291e-05,
       "avg_price": 134078000.0,
-      "current_price": 133254000.0,
-      "value": 9715.549140000001,
-      "profit": -60.07784,
-      "profit_rate": -0.006145676397320963
+      "current_price": 133116000.0,
+      "value": 9705.487560000001,
+      "profit": -70.13942,
+      "profit_rate": -0.007174928026969376
     },
     {
       "market": "KRW-BAT",
@@ -25,31 +25,22 @@
       "profit_rate": 0.0
     },
     {
-      "market": "KRW-GHX",
-      "amount": 2080.48255429,
-      "avg_price": 18.72,
-      "current_price": 18.36,
-      "value": 38197.65969676439,
-      "profit": -748.9737195443987,
-      "profit_rate": -0.0192307692307692
-    },
-    {
       "market": "KRW-AQT",
       "amount": 137.27784431,
       "avg_price": 835.0,
-      "current_price": 840.0,
-      "value": 115313.3892204,
-      "profit": 686.38922155,
-      "profit_rate": 0.005988023952095809
+      "current_price": 834.0,
+      "value": 114489.72215454001,
+      "profit": -137.27784431,
+      "profit_rate": -0.0011976047904191617
     },
     {
       "market": "KRW-WNCG",
       "amount": 24907.26260411,
       "avg_price": 11.72,
-      "current_price": 11.72,
-      "value": 291913.11772016925,
-      "profit": 0.0,
-      "profit_rate": 0.0
+      "current_price": 11.68,
+      "value": 290916.8272160048,
+      "profit": -996.290504164423,
+      "profit_rate": -0.003412969283276529
     }
   ],
   "trades": [
@@ -1989,6 +1980,24 @@
       "amount": 4.52791648,
       "volume": 4.52791648,
       "time": "2025-12-14T21:38:33.969203"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-GHX",
+      "profit": -2072.788734225198,
+      "price": 17.76,
+      "amount": 2623.78320788,
+      "volume": 2623.78320788,
+      "time": "2025-12-15T00:04:13.864913"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-WNCG",
+      "profit": 10461.050293726199,
+      "price": 12.14,
+      "amount": 24907.26260411,
+      "volume": 24907.26260411,
+      "time": "2025-12-15T00:04:15.246077"
     }
   ],
   "daily_profits": {
