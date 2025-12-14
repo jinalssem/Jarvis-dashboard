@@ -1,19 +1,19 @@
 {
-  "last_update": "2025-12-14T16:25:41.938154",
+  "last_update": "2025-12-14T16:29:03.909009",
   "today_profit": 2392.9384583148567,
-  "today_profit_percent": 0.7950121787938625,
-  "total_profit": -1680.2368428041955,
-  "total_profit_percent": -0.5582294641326382,
-  "total_investment": 300993.937218076,
+  "today_profit_percent": 1.0073963596088527,
+  "total_profit": -1233.308588884196,
+  "total_profit_percent": -0.5192070771394632,
+  "total_investment": 237536.937223396,
   "holdings": [
     {
       "market": "KRW-BTC",
       "amount": 7.291e-05,
       "avg_price": 134078000.0,
-      "current_price": 134520000.0,
-      "value": 9807.853200000001,
-      "profit": 32.226220000000005,
-      "profit_rate": 0.0032965885529318757
+      "current_price": 134499000.0,
+      "value": 9806.322090000001,
+      "profit": 30.695110000000003,
+      "profit_rate": 0.0031399633049418994
     },
     {
       "market": "KRW-GHX",
@@ -23,15 +23,6 @@
       "value": 9786.2979505581,
       "profit": 36.69206516010015,
       "profit_rate": 0.0037634408602150687
-    },
-    {
-      "market": "KRW-AQT",
-      "amount": 74.74322732,
-      "avg_price": 849.0,
-      "current_price": 843.0,
-      "value": 63008.54063076,
-      "profit": -448.45936392,
-      "profit_rate": -0.007067137809187279
     },
     {
       "market": "KRW-WNCG",
@@ -91,17 +82,6 @@
       "profit": 76.75317953599915,
       "avg_buy_price": 97.5,
       "buy_count": 2
-    },
-    {
-      "market": "KRW-AQT",
-      "type": "buy",
-      "time": "2025-12-14T13:17:18+09:00",
-      "price": 864.9832931415935,
-      "volume": 423.2879442700001,
-      "funds": 366136.9999818,
-      "cycle_status": "holding",
-      "profit": 0,
-      "buy_count": 5
     },
     {
       "type": "sell",
@@ -420,6 +400,16 @@
     }
   ],
   "raw_trades": [
+    {
+      "market": "KRW-AQT",
+      "type": "sell",
+      "time": "2025-12-14T16:22:20+09:00",
+      "price": 843.0,
+      "volume": 74.74322732,
+      "funds": 63008.54063076,
+      "fee": 0.0,
+      "uuid": "C0403000000110441459"
+    },
     {
       "type": "sell",
       "market": "KRW-AQT",
@@ -2025,7 +2015,7 @@
     }
   ],
   "realized_profit": 2549.80532217772,
-  "unrealized_profit": -4230.042164981915,
+  "unrealized_profit": -3783.113911061916,
   "start_date": "2025-12-12",
   "today_date": "2025-12-14"
 }
