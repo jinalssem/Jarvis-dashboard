@@ -1,28 +1,28 @@
 {
-  "last_update": "2025-12-14T12:41:20.569591",
+  "last_update": "2025-12-14T12:44:24.212882",
   "today_profit": 1581.6067786458607,
   "today_profit_percent": 0.9045835694506263,
-  "total_profit": 955.1739560415982,
-  "total_profit_percent": 0.5463018231005264,
+  "total_profit": 1093.3790888649953,
+  "total_profit_percent": 0.6253468133305409,
   "total_investment": 174843.633253963,
   "holdings": [
     {
       "market": "KRW-BTC",
       "amount": 7.291e-05,
       "avg_price": 134078000.0,
-      "current_price": 134627000.0,
-      "value": 9815.65457,
-      "profit": 40.027590000000004,
-      "profit_rate": 0.004094631483166515
+      "current_price": 134628000.0,
+      "value": 9815.727480000001,
+      "profit": 40.100500000000004,
+      "profit_rate": 0.004102089828308895
     },
     {
       "market": "KRW-WNCG",
       "amount": 13813.22228234,
       "avg_price": 11.95,
-      "current_price": 11.9,
-      "value": 164377.345159846,
-      "profit": -690.6611141169853,
-      "profit_rate": -0.004184100418409953
+      "current_price": 11.91,
+      "value": 164515.4773826694,
+      "profit": -552.5288912935882,
+      "profit_rate": -0.003347280334727962
     }
   ],
   "trades": [
@@ -382,6 +382,15 @@
     }
   ],
   "raw_trades": [
+    {
+      "type": "buy",
+      "market": "KRW-ETH",
+      "profit": 0,
+      "price": 4560000.0,
+      "amount": 0.00188187,
+      "volume": 0.00188187,
+      "time": "2025-12-14T12:43:19.053284"
+    },
     {
       "type": "buy",
       "market": "KRW-QTUM",
@@ -1673,6 +1682,12 @@
   },
   "trade_cycles": [
     {
+      "market": "KRW-ETH",
+      "profit": -4.780220000000554,
+      "sell_time": "2025-12-13T18:16:55+09:00",
+      "avg_buy_price": 4651989.206146868
+    },
+    {
       "market": "KRW-AERGO",
       "profit": 187.9591397333479,
       "sell_time": "2025-12-14T11:04:43.471862",
@@ -1689,12 +1704,6 @@
       "profit": -51.55038759699892,
       "sell_time": "2025-12-14T03:37:03+09:00",
       "avg_buy_price": 18.9
-    },
-    {
-      "market": "KRW-ETH",
-      "profit": -4.780220000000554,
-      "sell_time": "2025-12-13T18:16:55+09:00",
-      "avg_buy_price": 4651989.206146868
     },
     {
       "market": "KRW-PROMPT",
@@ -1818,7 +1827,7 @@
     }
   ],
   "realized_profit": 1605.8074801585835,
-  "unrealized_profit": -650.6335241169853,
+  "unrealized_profit": -512.4283912935882,
   "start_date": "2025-12-12",
   "today_date": "2025-12-14"
 }
