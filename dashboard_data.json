@@ -1,28 +1,37 @@
 {
-  "last_update": "2025-12-14T10:43:24.119582",
-  "today_profit": 1552.1990853475127,
-  "today_profit_percent": 0.8877641447160505,
-  "total_profit": -2521.4877778417494,
-  "total_profit_percent": -1.4421387447258378,
-  "total_investment": 174843.633253963,
+  "last_update": "2025-12-14T10:46:41.252641",
+  "today_profit": 1393.6476389125128,
+  "today_profit_percent": 0.7548894988548162,
+  "total_profit": -2779.355038741148,
+  "total_profit_percent": -1.5054780518066253,
+  "total_investment": 184616.111500651,
   "holdings": [
     {
       "market": "KRW-BTC",
       "amount": 7.291e-05,
       "avg_price": 134078000.0,
-      "current_price": 134710000.0,
-      "value": 9821.706100000001,
-      "profit": 46.07912,
-      "profit_rate": 0.004713674129984039
+      "current_price": 134728000.0,
+      "value": 9823.01848,
+      "profit": 47.3915,
+      "profit_rate": 0.004847924342546875
+    },
+    {
+      "market": "KRW-AERGO",
+      "amount": 107.15436674,
+      "avg_price": 91.2,
+      "current_price": 91.55,
+      "value": 9809.982275047,
+      "profit": 37.50402835899939,
+      "profit_rate": 0.0038377192982455514
     },
     {
       "market": "KRW-WNCG",
       "amount": 13813.22228234,
       "avg_price": 11.95,
-      "current_price": 11.65,
-      "value": 160924.03958926102,
-      "profit": -4143.966684701985,
-      "profit_rate": -0.025104602510460164
+      "current_price": 11.64,
+      "value": 160785.9073664376,
+      "profit": -4282.098907525383,
+      "profit_rate": -0.025941422594142154
     }
   ],
   "trades": [
@@ -78,20 +87,6 @@
       "buy_count": 1
     },
     {
-      "market": "KRW-AERGO",
-      "type": "sell",
-      "time": "2025-12-14T02:20:34+09:00",
-      "price": 93.9,
-      "volume": 105.70096429,
-      "funds": 9925.320546831,
-      "fee": 3.97,
-      "uuid": "C0305000000086890739",
-      "cycle_status": "completed",
-      "profit": 158.5514464349999,
-      "avg_buy_price": 92.4,
-      "buy_count": 1
-    },
-    {
       "market": "KRW-BOA",
       "type": "sell",
       "time": "2025-12-14T02:10:37+09:00",
@@ -104,6 +99,17 @@
       "profit": 88.37861783819972,
       "avg_buy_price": 3.3099999999999996,
       "buy_count": 1
+    },
+    {
+      "market": "KRW-AERGO",
+      "type": "buy",
+      "time": "2025-12-14T02:04:14+09:00",
+      "price": 91.79590312600686,
+      "volume": 212.85533103,
+      "funds": 19539.247347084,
+      "cycle_status": "holding",
+      "profit": 0,
+      "buy_count": 2
     },
     {
       "market": "KRW-PROMPT",
@@ -587,6 +593,16 @@
       "funds": 9839.4861193196,
       "fee": 3.93,
       "uuid": "C0270000000094966800"
+    },
+    {
+      "market": "KRW-AERGO",
+      "type": "buy",
+      "time": "2025-12-14T02:04:14+09:00",
+      "price": 91.2,
+      "volume": 107.15436674,
+      "funds": 9772.478246688,
+      "fee": 3.9,
+      "uuid": "C0305000000086885724"
     },
     {
       "market": "KRW-AERGO",
@@ -1552,7 +1568,7 @@
   "daily_profits": {
     "2025-12-12": 1359.2866439272184,
     "2025-12-13": -1335.0859424144955,
-    "2025-12-14": 1552.1990853475127
+    "2025-12-14": 1393.6476389125128
   },
   "trade_cycles": [
     {
@@ -1590,12 +1606,6 @@
       "profit": -51.55038759699892,
       "sell_time": "2025-12-14T03:37:03+09:00",
       "avg_buy_price": 18.9
-    },
-    {
-      "market": "KRW-AERGO",
-      "profit": 158.5514464349999,
-      "sell_time": "2025-12-14T02:20:34+09:00",
-      "avg_buy_price": 92.4
     },
     {
       "market": "KRW-BOA",
@@ -1700,8 +1710,8 @@
       "avg_buy_price": 22.210000000000004
     }
   ],
-  "realized_profit": 1576.3997868602355,
-  "unrealized_profit": -4097.887564701985,
+  "realized_profit": 1417.8483404252356,
+  "unrealized_profit": -4197.2033791663835,
   "start_date": "2025-12-12",
   "today_date": "2025-12-14"
 }
