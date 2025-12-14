@@ -1,5 +1,5 @@
 {
-  "last_update": "2025-12-15T01:37:56.854502",
+  "last_update": "2025-12-15T01:44:10.105224",
   "today_profit": 3549.443738001257,
   "today_profit_percent": 36.30911598062283,
   "total_profit": 3614.7656795139796,
@@ -10,19 +10,10 @@
       "market": "KRW-BTC",
       "amount": 7.291e-05,
       "avg_price": 134078000.0,
-      "current_price": 133085000.0,
-      "value": 9703.227350000001,
-      "profit": -72.39963,
-      "profit_rate": -0.0074061367263831505
-    },
-    {
-      "market": "KRW-BAT",
-      "amount": 25.12594458,
-      "avg_price": 389.0,
-      "current_price": 389.0,
-      "value": 9773.99244162,
-      "profit": 0.0,
-      "profit_rate": 0.0
+      "current_price": 132974000.0,
+      "value": 9695.13434,
+      "profit": -80.49264000000001,
+      "profit_rate": -0.008234013037187309
     },
     {
       "market": "KRW-WNCG",
@@ -34,22 +25,31 @@
       "profit_rate": -0.019624573378839626
     },
     {
+      "market": "KRW-ZTX",
+      "amount": 20303.9488776,
+      "avg_price": 0.6075,
+      "current_price": 0.6065,
+      "value": 12314.3449942644,
+      "profit": -20.303948877600018,
+      "profit_rate": -0.0016460905349794251
+    },
+    {
       "market": "KRW-GRS",
       "amount": 30.58690663,
       "avg_price": 279.0,
-      "current_price": 278.0,
-      "value": 8503.16004314,
-      "profit": -30.58690663,
-      "profit_rate": -0.0035842293906810036
+      "current_price": 277.0,
+      "value": 8472.57313651,
+      "profit": -61.17381326,
+      "profit_rate": -0.007168458781362007
     },
     {
       "market": "KRW-H",
       "amount": 97.79411765,
       "avg_price": 99.9,
-      "current_price": 98.2,
-      "value": 9603.382353230001,
-      "profit": -166.2500000050003,
-      "profit_rate": -0.017017017017017043
+      "current_price": 97.39,
+      "value": 9524.169117933501,
+      "profit": -245.4632353015005,
+      "profit_rate": -0.025125125125125176
     }
   ],
   "trades": [
@@ -2070,6 +2070,15 @@
       "amount": 35.88129496,
       "volume": 35.88129496,
       "time": "2025-12-15T01:36:43.301504"
+    },
+    {
+      "type": "buy",
+      "market": "KRW-UOS",
+      "profit": 0,
+      "price": 12.8,
+      "amount": 758.55513308,
+      "volume": 758.55513308,
+      "time": "2025-12-15T01:42:57.218662"
     }
   ],
   "daily_profits": {
