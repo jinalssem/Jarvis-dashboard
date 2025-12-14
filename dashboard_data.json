@@ -1,5 +1,5 @@
 {
-  "last_update": "2025-12-14T17:53:14.567354",
+  "last_update": "2025-12-14T17:56:41.833127",
   "today_profit": 3549.443738001257,
   "today_profit_percent": 36.30911598062283,
   "total_profit": 3614.7656795139796,
@@ -10,19 +10,19 @@
       "market": "KRW-BTC",
       "amount": 7.291e-05,
       "avg_price": 134078000.0,
-      "current_price": 134600000.0,
-      "value": 9813.686000000002,
-      "profit": 38.059020000000004,
-      "profit_rate": 0.00389325616432226
+      "current_price": 134570000.0,
+      "value": 9811.4987,
+      "profit": 35.87172,
+      "profit_rate": 0.003669505810050866
     },
     {
       "market": "KRW-GHX",
       "amount": 2080.48255429,
       "avg_price": 18.72,
-      "current_price": 18.51,
-      "value": 38509.7320799079,
-      "profit": -436.90133640089437,
-      "profit_rate": -0.011217948717948574
+      "current_price": 18.5,
+      "value": 38488.927254365,
+      "profit": -457.7061619437976,
+      "profit_rate": -0.011752136752136691
     }
   ],
   "trades": [
@@ -1908,6 +1908,15 @@
       "funds": 9679.32917012,
       "fee": 3.87,
       "uuid": "C0150000000505898152"
+    },
+    {
+      "type": "buy",
+      "market": "KRW-BAT",
+      "profit": 0,
+      "price": 389.0,
+      "amount": 25.12594458,
+      "volume": 25.12594458,
+      "time": "2025-12-14T17:55:32.997217"
     }
   ],
   "daily_profits": {
