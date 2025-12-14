@@ -1,28 +1,28 @@
 {
-  "last_update": "2025-12-14T16:12:33.511496",
+  "last_update": "2025-12-14T16:15:42.251716",
   "today_profit": 2392.9384583148567,
   "today_profit_percent": 0.7950121787938625,
-  "total_profit": -877.3836552850003,
-  "total_profit_percent": -0.2914954578135966,
+  "total_profit": 68.81117919081271,
+  "total_profit_percent": 0.02286131734971049,
   "total_investment": 300993.937218076,
   "holdings": [
     {
       "market": "KRW-BTC",
       "amount": 7.291e-05,
       "avg_price": 134078000.0,
-      "current_price": 134528000.0,
-      "value": 9808.43648,
-      "profit": 32.8095,
-      "profit_rate": 0.003356255314070914
+      "current_price": 134500000.0,
+      "value": 9806.395,
+      "profit": 30.768020000000003,
+      "profit_rate": 0.0031474216500842794
     },
     {
       "market": "KRW-GHX",
       "amount": 524.17235943,
       "avg_price": 18.6,
-      "current_price": 18.71,
-      "value": 9807.264844935302,
-      "profit": 57.65895953729971,
-      "profit_rate": 0.005913978494623625
+      "current_price": 18.77,
+      "value": 9838.7151865011,
+      "profit": 89.10930110309904,
+      "profit_rate": 0.009139784946236459
     },
     {
       "market": "KRW-AQT",
@@ -37,10 +37,10 @@
       "market": "KRW-WNCG",
       "amount": 18335.7194582,
       "avg_price": 11.89,
-      "current_price": 11.69,
-      "value": 214344.560466358,
-      "profit": -3667.14389164002,
-      "profit_rate": -0.01682085786375114
+      "current_price": 11.74,
+      "value": 215261.346439268,
+      "profit": -2750.3579187300065,
+      "profit_rate": -0.012615643397813318
     }
   ],
   "trades": [
@@ -2016,7 +2016,7 @@
     }
   ],
   "realized_profit": 2549.80532217772,
-  "unrealized_profit": -3427.1889774627202,
+  "unrealized_profit": -2480.9941429869073,
   "start_date": "2025-12-12",
   "today_date": "2025-12-14"
 }
