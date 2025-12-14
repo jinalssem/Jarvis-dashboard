@@ -1,5 +1,5 @@
 {
-  "last_update": "2025-12-14T18:56:53.259125",
+  "last_update": "2025-12-14T19:04:17.144297",
   "today_profit": 3549.443738001257,
   "today_profit_percent": 36.30911598062283,
   "total_profit": 3614.7656795139796,
@@ -10,37 +10,28 @@
       "market": "KRW-BTC",
       "amount": 7.291e-05,
       "avg_price": 134078000.0,
-      "current_price": 134340000.0,
-      "value": 9794.7294,
-      "profit": 19.102420000000002,
-      "profit_rate": 0.0019540864273035097
+      "current_price": 134320000.0,
+      "value": 9793.271200000001,
+      "profit": 17.64422,
+      "profit_rate": 0.0018049195244559137
     },
     {
       "market": "KRW-LRC",
       "amount": 104.00375352,
       "avg_price": 93.9,
-      "current_price": 93.57,
-      "value": 9731.631216866399,
-      "profit": -34.3212386616013,
-      "profit_rate": -0.0035143769968052447
+      "current_price": 92.99,
+      "value": 9671.3090398248,
+      "profit": -94.64341570320113,
+      "profit_rate": -0.009691160809371786
     },
     {
       "market": "KRW-GHX",
       "amount": 2080.48255429,
       "avg_price": 18.72,
-      "current_price": 18.33,
-      "value": 38135.245220135694,
-      "profit": -811.3881961731012,
-      "profit_rate": -0.020833333333333363
-    },
-    {
-      "market": "KRW-WNCG",
-      "amount": 14449.46809648,
-      "avg_price": 11.66,
-      "current_price": 11.77,
-      "value": 170070.2394955696,
-      "profit": 1589.441490612792,
-      "profit_rate": 0.009433962264150894
+      "current_price": 18.34,
+      "value": 38156.050045678596,
+      "profit": -790.5833706301979,
+      "profit_rate": -0.020299145299145248
     }
   ],
   "trades": [
@@ -1953,6 +1944,15 @@
       "amount": 14449.46809648,
       "volume": 14449.46809648,
       "time": "2025-12-14T18:50:11.915866"
+    },
+    {
+      "type": "buy",
+      "market": "KRW-GHX",
+      "profit": 0,
+      "price": 17.9,
+      "amount": 543.30065359,
+      "volume": 543.30065359,
+      "time": "2025-12-14T19:03:02.486894"
     }
   ],
   "daily_profits": {
