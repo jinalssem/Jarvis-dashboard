@@ -1,19 +1,19 @@
 {
-  "last_update": "2025-12-14T14:33:24.717729",
+  "last_update": "2025-12-14T14:36:31.102250",
   "today_profit": 1581.6067786458607,
   "today_profit_percent": 0.4619897756365743,
-  "total_profit": -3905.5234076094466,
-  "total_profit_percent": -1.140809401670428,
+  "total_profit": -3382.5175322138552,
+  "total_profit_percent": -0.9880385800648881,
   "total_investment": 342346.70593447,
   "holdings": [
     {
       "market": "KRW-BTC",
       "amount": 7.291e-05,
       "avg_price": 134078000.0,
-      "current_price": 134513000.0,
-      "value": 9807.342830000001,
-      "profit": 31.715850000000003,
-      "profit_rate": 0.003244380136935217
+      "current_price": 134486000.0,
+      "value": 9805.37426,
+      "profit": 29.747280000000003,
+      "profit_rate": 0.003043004818090962
     },
     {
       "market": "KRW-AQT",
@@ -28,28 +28,28 @@
       "market": "KRW-WNCG",
       "amount": 18335.7194582,
       "avg_price": 11.89,
-      "current_price": 11.67,
-      "value": 213977.846077194,
-      "profit": -4033.858280804012,
-      "profit_rate": -0.01850294365012621
+      "current_price": 11.7,
+      "value": 214527.91766094,
+      "profit": -3483.7866970580235,
+      "profit_rate": -0.015979814970563607
     },
     {
       "market": "KRW-PROMPT",
       "amount": 69.77561776,
       "avg_price": 97.5,
-      "current_price": 99.15,
-      "value": 6918.252500904001,
-      "profit": 115.1297693040004,
-      "profit_rate": 0.01692307692307698
+      "current_price": 99.07,
+      "value": 6912.6704514832,
+      "profit": 109.54771988319953,
+      "profit_rate": 0.016102564102564033
     },
     {
       "market": "KRW-STABLE",
       "amount": 1951.50889296,
       "avg_price": 22.7,
-      "current_price": 22.72,
-      "value": 44338.282048051195,
-      "profit": 39.03017785919916,
-      "profit_rate": 0.0008810572687224482
+      "current_price": 22.71,
+      "value": 44318.766959121596,
+      "profit": 19.51508892960305,
+      "profit_rate": 0.00044052863436130235
     }
   ],
   "trades": [
@@ -358,6 +358,15 @@
     }
   ],
   "raw_trades": [
+    {
+      "type": "sell",
+      "market": "KRW-PROMPT",
+      "profit": 115.1297693040004,
+      "price": 99.15,
+      "amount": 69.77561776,
+      "volume": 69.77561776,
+      "time": "2025-12-14T14:35:25.230018"
+    },
     {
       "type": "buy",
       "market": "KRW-GHX",
@@ -1824,7 +1833,7 @@
     }
   ],
   "realized_profit": -132.28415128863435,
-  "unrealized_profit": -3773.2392563208123,
+  "unrealized_profit": -3250.233380925221,
   "start_date": "2025-12-13",
   "today_date": "2025-12-14"
 }
