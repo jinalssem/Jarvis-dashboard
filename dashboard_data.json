@@ -1,5 +1,5 @@
 {
-  "last_update": "2025-12-15T08:33:34.598554",
+  "last_update": "2025-12-15T08:36:37.035078",
   "today_profit": 3549.443738001257,
   "today_profit_percent": 36.30911598062283,
   "total_profit": 3614.7656795139796,
@@ -10,10 +10,10 @@
       "market": "KRW-BTC",
       "amount": 7.291e-05,
       "avg_price": 134078000.0,
-      "current_price": 131452000.0,
-      "value": 9584.16532,
-      "profit": -191.46166000000002,
-      "profit_rate": -0.019585614343889376
+      "current_price": 131304000.0,
+      "value": 9573.37464,
+      "profit": -202.25234,
+      "profit_rate": -0.02068944942496159
     }
   ],
   "trades": [
@@ -2142,6 +2142,15 @@
       "amount": 3049.5261388,
       "volume": 3049.5261388,
       "time": "2025-12-15T08:11:24.936347"
+    },
+    {
+      "type": "buy",
+      "market": "KRW-AZIT",
+      "profit": 0,
+      "price": 9.47,
+      "amount": 1032.18129139,
+      "volume": 1032.18129139,
+      "time": "2025-12-15T08:35:31.612357"
     }
   ],
   "daily_profits": {
