@@ -1,5 +1,5 @@
 {
-  "last_update": "2025-12-14T21:33:50.069219",
+  "last_update": "2025-12-14T21:39:47.032866",
   "today_profit": 3549.443738001257,
   "today_profit_percent": 36.30911598062283,
   "total_profit": 3614.7656795139796,
@@ -10,46 +10,46 @@
       "market": "KRW-BTC",
       "amount": 7.291e-05,
       "avg_price": 134078000.0,
-      "current_price": 133690000.0,
-      "value": 9747.3379,
-      "profit": -28.289080000000002,
-      "profit_rate": -0.0028938379152433657
+      "current_price": 133771000.0,
+      "value": 9753.243610000001,
+      "profit": -22.383370000000003,
+      "profit_rate": -0.002289711958710601
     },
     {
       "market": "KRW-QTUM",
       "amount": 4.52791648,
       "avg_price": 2155.0,
-      "current_price": 2184.0,
-      "value": 9888.96959232,
-      "profit": 131.30957792,
-      "profit_rate": 0.01345707656612529
+      "current_price": 2190.0,
+      "value": 9916.1370912,
+      "profit": 158.4770768,
+      "profit_rate": 0.016241299303944315
     },
     {
       "market": "KRW-GHX",
       "amount": 2080.48255429,
       "avg_price": 18.72,
-      "current_price": 18.25,
-      "value": 37968.8066157925,
-      "profit": -977.8268005162976,
-      "profit_rate": -0.02510683760683755
+      "current_price": 18.46,
+      "value": 38405.7079521934,
+      "profit": -540.9254641153958,
+      "profit_rate": -0.013888888888888784
     },
     {
       "market": "KRW-AQT",
       "amount": 137.27784431,
       "avg_price": 835.0,
-      "current_price": 839.0,
-      "value": 115176.11137609,
-      "profit": 549.11137724,
-      "profit_rate": 0.004790419161676647
+      "current_price": 836.0,
+      "value": 114764.27784316,
+      "profit": 137.27784431,
+      "profit_rate": 0.0011976047904191617
     },
     {
       "market": "KRW-WNCG",
       "amount": 24907.26260411,
       "avg_price": 11.72,
-      "current_price": 11.71,
-      "value": 291664.0450941281,
-      "profit": -249.0726260410947,
-      "profit_rate": -0.0008532423208190944
+      "current_price": 11.65,
+      "value": 290169.6093378815,
+      "profit": -1743.5083822877073,
+      "profit_rate": -0.005972696245733812
     }
   ],
   "trades": [
@@ -1980,6 +1980,15 @@
       "amount": 104.00375352,
       "volume": 104.00375352,
       "time": "2025-12-14T19:48:52.747304"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-QTUM",
+      "profit": 158.4770768,
+      "price": 2190.0,
+      "amount": 4.52791648,
+      "volume": 4.52791648,
+      "time": "2025-12-14T21:38:33.969203"
     }
   ],
   "daily_profits": {
