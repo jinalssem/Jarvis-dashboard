@@ -1,31 +1,51 @@
 {
-  "last_update": "2025-12-14T13:15:16.034678",
+  "last_update": "2025-12-14T13:18:26.380439",
   "today_profit": 1581.6067786458607,
-  "today_profit_percent": 0.9045835694506263,
-  "total_profit": -147.76943654560273,
-  "total_profit_percent": -0.08451519440285561,
-  "total_investment": 174843.633253963,
+  "today_profit_percent": 0.6637022978430827,
+  "total_profit": -10.074673722205716,
+  "total_profit_percent": -0.004227715883446183,
+  "total_investment": 238300.633248643,
   "holdings": [
     {
       "market": "KRW-BTC",
       "amount": 7.291e-05,
       "avg_price": 134078000.0,
-      "current_price": 134656000.0,
-      "value": 9817.768960000001,
-      "profit": 42.141980000000004,
-      "profit_rate": 0.004310923492295529
+      "current_price": 134650000.0,
+      "value": 9817.3315,
+      "profit": 41.70452,
+      "profit_rate": 0.004266173421441251
+    },
+    {
+      "market": "KRW-AQT",
+      "amount": 74.74322732,
+      "avg_price": 849.0,
+      "current_price": 849.0,
+      "value": 63456.99999468,
+      "profit": 0.0,
+      "profit_rate": 0.0
     },
     {
       "market": "KRW-WNCG",
       "amount": 13813.22228234,
       "avg_price": 11.95,
-      "current_price": 11.82,
-      "value": 163272.28737725882,
-      "profit": -1795.7188967041864,
-      "profit_rate": -0.010878661087866026
+      "current_price": 11.83,
+      "value": 163410.4196000822,
+      "profit": -1657.5866738807892,
+      "profit_rate": -0.010041841004184036
     }
   ],
   "trades": [
+    {
+      "market": "KRW-AQT",
+      "type": "buy",
+      "time": "2025-12-14T13:17:18+09:00",
+      "price": 864.9832931415935,
+      "volume": 423.2879442700001,
+      "funds": 366136.9999818,
+      "cycle_status": "holding",
+      "profit": 0,
+      "buy_count": 5
+    },
     {
       "type": "sell",
       "market": "KRW-AERGO",
@@ -382,6 +402,16 @@
     }
   ],
   "raw_trades": [
+    {
+      "market": "KRW-AQT",
+      "type": "buy",
+      "time": "2025-12-14T13:17:18+09:00",
+      "price": 849.0,
+      "volume": 74.74322732,
+      "funds": 63456.99999468,
+      "fee": 0.0,
+      "uuid": "C0403000000110438429"
+    },
     {
       "type": "buy",
       "market": "KRW-ETH",
@@ -1827,7 +1857,7 @@
     }
   ],
   "realized_profit": 1605.8074801585835,
-  "unrealized_profit": -1753.5769167041863,
+  "unrealized_profit": -1615.8821538807892,
   "start_date": "2025-12-12",
   "today_date": "2025-12-14"
 }
