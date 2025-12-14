@@ -1,31 +1,42 @@
 {
-  "last_update": "2025-12-14T09:11:58.012376",
+  "last_update": "2025-12-14T09:14:53.430057",
   "today_profit": 1552.1990853475127,
-  "today_profit_percent": 2.3032875883274886,
-  "total_profit": -382.3128521084632,
-  "total_profit_percent": -0.5673089589035281,
-  "total_investment": 67390.589573516,
+  "today_profit_percent": 0.8453879739968646,
+  "total_profit": -1984.3642860422642,
+  "total_profit_percent": -1.0807619456066269,
+  "total_investment": 183607.8975679005,
   "holdings": [
     {
       "market": "KRW-BTC",
       "amount": 7.291e-05,
       "avg_price": 134078000.0,
-      "current_price": 134616000.0,
-      "value": 9814.852560000001,
-      "profit": 39.22558,
-      "profit_rate": 0.004012589686600337
+      "current_price": 134705000.0,
+      "value": 9821.341550000001,
+      "profit": 45.71457,
+      "profit_rate": 0.00467638240427214
     },
     {
       "market": "KRW-WNCG",
-      "amount": 4646.36795109,
-      "avg_price": 12.4,
-      "current_price": 11.97,
-      "value": 55617.024374547305,
-      "profit": -1997.9382189686987,
-      "profit_rate": -0.03467741935483869
+      "amount": 14425.91457161,
+      "avg_price": 12.05,
+      "current_price": 11.8,
+      "value": 170225.791944998,
+      "profit": -3606.4786429025,
+      "profit_rate": -0.02074688796680498
     }
   ],
   "trades": [
+    {
+      "market": "KRW-WNCG",
+      "type": "buy",
+      "time": "2025-12-14T09:12:43+09:00",
+      "price": 12.05073632628136,
+      "volume": 14425.91457161,
+      "funds": 173842.8927679322,
+      "cycle_status": "holding",
+      "profit": 0,
+      "buy_count": 3
+    },
     {
       "type": "sell",
       "market": "KRW-MEV",
@@ -36,17 +47,6 @@
       "time": "2025-12-14T08:46:52.325624",
       "cycle_status": "completed",
       "avg_buy_price": 4.252,
-      "buy_count": 1
-    },
-    {
-      "market": "KRW-WNCG",
-      "type": "buy",
-      "time": "2025-12-14T06:39:02+09:00",
-      "price": 12.4,
-      "volume": 4646.36795109,
-      "funds": 57614.962593516,
-      "cycle_status": "holding",
-      "profit": 0,
       "buy_count": 1
     },
     {
@@ -384,6 +384,26 @@
     }
   ],
   "raw_trades": [
+    {
+      "market": "KRW-WNCG",
+      "type": "buy",
+      "time": "2025-12-14T09:12:43+09:00",
+      "price": 11.88,
+      "volume": 7433.73048859,
+      "funds": 88312.71820444921,
+      "fee": 35.32,
+      "uuid": "C0666000000095143578"
+    },
+    {
+      "market": "KRW-WNCG",
+      "type": "buy",
+      "time": "2025-12-14T09:11:27+09:00",
+      "price": 11.9,
+      "volume": 2345.81613193,
+      "funds": 27915.211969967004,
+      "fee": 11.16,
+      "uuid": "C0666000000095143374"
+    },
     {
       "type": "buy",
       "market": "KRW-PROMPT",
@@ -1623,7 +1643,7 @@
     }
   ],
   "realized_profit": 1576.3997868602355,
-  "unrealized_profit": -1958.7126389686987,
+  "unrealized_profit": -3560.7640729024997,
   "start_date": "2025-12-12",
   "today_date": "2025-12-14"
 }
