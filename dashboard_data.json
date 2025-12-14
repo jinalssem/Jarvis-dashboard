@@ -1,5 +1,5 @@
 {
-  "last_update": "2025-12-15T08:09:25.425152",
+  "last_update": "2025-12-15T08:12:33.822151",
   "today_profit": 3549.443738001257,
   "today_profit_percent": 36.30911598062283,
   "total_profit": 3614.7656795139796,
@@ -10,10 +10,10 @@
       "market": "KRW-BTC",
       "amount": 7.291e-05,
       "avg_price": 134078000.0,
-      "current_price": 131924000.0,
-      "value": 9618.57884,
-      "profit": -157.04814000000002,
-      "profit_rate": -0.016065275436686108
+      "current_price": 131674000.0,
+      "value": 9600.351340000001,
+      "profit": -175.27564,
+      "profit_rate": -0.01792986172228106
     }
   ],
   "trades": [
@@ -2133,6 +2133,15 @@
       "amount": 7.559e-05,
       "volume": 7.559e-05,
       "time": "2025-12-15T08:08:20.768891"
+    },
+    {
+      "type": "buy",
+      "market": "KRW-BOA",
+      "profit": 0,
+      "price": 3.2,
+      "amount": 3049.5261388,
+      "volume": 3049.5261388,
+      "time": "2025-12-15T08:11:24.936347"
     }
   ],
   "daily_profits": {
