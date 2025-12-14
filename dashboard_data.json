@@ -1,5 +1,5 @@
 {
-  "last_update": "2025-12-15T01:19:23.034886",
+  "last_update": "2025-12-15T01:25:35.593495",
   "today_profit": 3549.443738001257,
   "today_profit_percent": 36.30911598062283,
   "total_profit": 3614.7656795139796,
@@ -10,19 +10,19 @@
       "market": "KRW-BTC",
       "amount": 7.291e-05,
       "avg_price": 134078000.0,
-      "current_price": 133110000.0,
-      "value": 9705.0501,
-      "profit": -70.57688,
-      "profit_rate": -0.007219678097823655
+      "current_price": 133478000.0,
+      "value": 9731.88098,
+      "profit": -43.746,
+      "profit_rate": -0.004475007085427885
     },
     {
       "market": "KRW-BAT",
       "amount": 25.12594458,
       "avg_price": 389.0,
-      "current_price": 388.0,
-      "value": 9748.866497039999,
-      "profit": -25.12594458,
-      "profit_rate": -0.002570694087403599
+      "current_price": 393.0,
+      "value": 9874.49621994,
+      "profit": 100.50377832,
+      "profit_rate": 0.010282776349614395
     },
     {
       "market": "KRW-AQT",
@@ -37,10 +37,10 @@
       "market": "KRW-WNCG",
       "amount": 24907.26260411,
       "avg_price": 11.72,
-      "current_price": 11.5,
-      "value": 286433.51994726504,
-      "profit": -5479.597772904216,
-      "profit_rate": -0.01877133105802053
+      "current_price": 11.45,
+      "value": 285188.1568170595,
+      "profit": -6724.960903109734,
+      "profit_rate": -0.023037542662116155
     },
     {
       "market": "KRW-GRS",
@@ -55,10 +55,10 @@
       "market": "KRW-H",
       "amount": 97.79411765,
       "avg_price": 99.9,
-      "current_price": 99.53,
-      "value": 9733.448529704501,
-      "profit": -36.18382353050045,
-      "profit_rate": -0.003703703703703749
+      "current_price": 97.74,
+      "value": 9558.397059111,
+      "profit": -211.23529412400106,
+      "profit_rate": -0.021621621621621727
     }
   ],
   "trades": [
@@ -2061,6 +2061,15 @@
       "amount": 6.74719043,
       "volume": 6.74719043,
       "time": "2025-12-15T00:59:37.311297"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-BAT",
+      "profit": 100.50377832,
+      "price": 393.0,
+      "amount": 25.12594458,
+      "volume": 25.12594458,
+      "time": "2025-12-15T01:24:21.628273"
     }
   ],
   "daily_profits": {
