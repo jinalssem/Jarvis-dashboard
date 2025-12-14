@@ -1,28 +1,28 @@
 {
-  "last_update": "2025-12-14T12:07:57.326060",
+  "last_update": "2025-12-14T12:11:08.307092",
   "today_profit": 1581.6067786458607,
   "today_profit_percent": 0.9045835694506263,
-  "total_profit": -283.2768993689999,
-  "total_profit_percent": -0.16201728029612378,
+  "total_profit": -834.4934106626129,
+  "total_profit_percent": -0.4772798386375892,
   "total_investment": 174843.633253963,
   "holdings": [
     {
       "market": "KRW-BTC",
       "amount": 7.291e-05,
       "avg_price": 134078000.0,
-      "current_price": 134692000.0,
-      "value": 9820.39372,
-      "profit": 44.766740000000006,
-      "profit_rate": 0.004579423917421202
+      "current_price": 134710000.0,
+      "value": 9821.706100000001,
+      "profit": 46.07912,
+      "profit_rate": 0.004713674129984039
     },
     {
       "market": "KRW-WNCG",
       "amount": 13813.22228234,
       "avg_price": 11.95,
-      "current_price": 11.81,
-      "value": 163134.1551544354,
-      "profit": -1933.8511195275835,
-      "profit_rate": -0.011715481171548017
+      "current_price": 11.77,
+      "value": 162581.6262631418,
+      "profit": -2486.3800108211963,
+      "profit_rate": -0.015062761506276128
     }
   ],
   "trades": [
@@ -382,6 +382,15 @@
     }
   ],
   "raw_trades": [
+    {
+      "type": "buy",
+      "market": "KRW-QTUM",
+      "profit": 0,
+      "price": 2175.0,
+      "amount": 4.48717949,
+      "volume": 4.48717949,
+      "time": "2025-12-14T12:10:03.326740"
+    },
     {
       "market": "KRW-AERGO",
       "type": "sell",
@@ -1809,7 +1818,7 @@
     }
   ],
   "realized_profit": 1605.8074801585835,
-  "unrealized_profit": -1889.0843795275835,
+  "unrealized_profit": -2440.3008908211964,
   "start_date": "2025-12-12",
   "today_date": "2025-12-14"
 }
