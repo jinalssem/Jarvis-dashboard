@@ -1,5 +1,5 @@
 {
-  "last_update": "2025-12-15T16:33:36.125200",
+  "last_update": "2025-12-15T16:36:44.524490",
   "today_profit": 3549.443738001257,
   "today_profit_percent": 36.30911598062283,
   "total_profit": 3614.7656795139796,
@@ -10,19 +10,19 @@
       "market": "KRW-BTC",
       "amount": 7.291e-05,
       "avg_price": 134078000.0,
-      "current_price": 133491000.0,
-      "value": 9732.82881,
-      "profit": -42.798170000000006,
-      "profit_rate": -0.004378048598576947
+      "current_price": 133557000.0,
+      "value": 9737.640870000001,
+      "profit": -37.986110000000004,
+      "profit_rate": -0.0038857978191798805
     },
     {
       "market": "KRW-PONKE",
       "amount": 6312.91515323,
       "avg_price": 49.24,
-      "current_price": 47.83,
-      "value": 301946.7317789909,
-      "profit": -8901.210366054323,
-      "profit_rate": -0.02863525588952079
+      "current_price": 47.48,
+      "value": 299737.2114753604,
+      "profit": -11110.730669684832,
+      "profit_rate": -0.035743298131600425
     }
   ],
   "trades": [
@@ -2223,6 +2223,15 @@
       "amount": 17159.81420953,
       "volume": 17159.81420953,
       "time": "2025-12-15T12:32:33.112908"
+    },
+    {
+      "type": "buy",
+      "market": "KRW-GHX",
+      "profit": 0,
+      "price": 16.9,
+      "amount": 577.59119861,
+      "volume": 577.59119861,
+      "time": "2025-12-15T16:35:39.636993"
     }
   ],
   "daily_profits": {
