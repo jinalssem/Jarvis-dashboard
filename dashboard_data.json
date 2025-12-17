@@ -1,19 +1,19 @@
 {
-  "last_update": "2025-12-18T02:46:52.523000",
+  "last_update": "2025-12-18T02:49:49.650866",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": -4181.06837845818,
-  "total_profit_percent": -4.4855012233567795,
+  "total_profit": -4204.740685070881,
+  "total_profit_percent": -4.510897163020915,
   "total_investment": 93212.95815697551,
   "holdings": [
     {
       "market": "KRW-ETH",
       "amount": 0.00228418,
       "avg_price": 4279001.0,
-      "current_price": 4253000.0,
-      "value": 9714.61754,
-      "profit": -59.39096418,
-      "profit_rate": -0.0060764183041789425
+      "current_price": 4257000.0,
+      "value": 9723.75426,
+      "profit": -50.25424417999999,
+      "profit_rate": -0.005141620672675702
     },
     {
       "market": "KRW-ICX",
@@ -37,10 +37,10 @@
       "market": "KRW-ADA",
       "amount": 17.53075571,
       "avg_price": 557.0,
-      "current_price": 553.0,
-      "value": 9694.50790763,
-      "profit": -70.12302284,
-      "profit_rate": -0.00718132854578097
+      "current_price": 554.0,
+      "value": 9712.038663340001,
+      "profit": -52.59226713,
+      "profit_rate": -0.005385996409335727
     },
     {
       "market": "KRW-CHR",
@@ -55,10 +55,10 @@
       "market": "KRW-EGG",
       "amount": 16779.9274409,
       "avg_price": 1.743,
-      "current_price": 1.768,
-      "value": 29666.9117155112,
-      "profit": 419.4981860224985,
-      "profit_rate": 0.014343086632243207
+      "current_price": 1.765,
+      "value": 29616.571933188497,
+      "profit": 369.15840369979657,
+      "profit_rate": 0.01262191623637395
     },
     {
       "market": "KRW-MAY",
@@ -5395,7 +5395,7 @@
     }
   ],
   "realized_profit": -4106.5932548818755,
-  "unrealized_profit": -74.47512357630379,
+  "unrealized_profit": -98.1474301890057,
   "start_date": "2025-12-12",
   "today_date": "2025-12-18"
 }
