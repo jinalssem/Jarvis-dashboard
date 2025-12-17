@@ -1,11 +1,21 @@
 {
-  "last_update": "2025-12-18T01:02:25.619044",
+  "last_update": "2025-12-18T01:08:08.431645",
   "today_profit": 0,
   "today_profit_percent": 0.0,
   "total_profit": -3702.5925719198794,
-  "total_profit_percent": -370259.25719198794,
-  "total_investment": 1,
-  "holdings": [],
+  "total_profit_percent": -37.98772271339061,
+  "total_investment": 9746.81372678,
+  "holdings": [
+    {
+      "market": "KRW-GLM",
+      "amount": 32.59803922,
+      "avg_price": 299.0,
+      "current_price": 299.0,
+      "value": 9746.81372678,
+      "profit": 0.0,
+      "profit_rate": 0.0
+    }
+  ],
   "trades": [
     {
       "type": "sell",
@@ -41,6 +51,17 @@
       "time": "2025-12-17T20:19:10.629394",
       "cycle_status": "completed",
       "avg_buy_price": 2.0919128761803525,
+      "buy_count": 2
+    },
+    {
+      "market": "KRW-GLM",
+      "type": "buy",
+      "time": "2025-12-17T19:59:00+09:00",
+      "price": 299.0,
+      "volume": 65.19607844,
+      "funds": 19493.62745356,
+      "cycle_status": "holding",
+      "profit": 0,
       "buy_count": 2
     },
     {
@@ -1122,6 +1143,16 @@
       "funds": 10475.799999987,
       "fee": 0.0,
       "uuid": "C0293000000111364922"
+    },
+    {
+      "market": "KRW-GLM",
+      "type": "buy",
+      "time": "2025-12-17T19:59:00+09:00",
+      "price": 299.0,
+      "volume": 32.59803922,
+      "funds": 9746.81372678,
+      "fee": 3.89,
+      "uuid": "C0124000000115699164"
     },
     {
       "type": "buy",
@@ -5100,7 +5131,7 @@
     }
   ],
   "realized_profit": -3702.5925719198794,
-  "unrealized_profit": 0,
+  "unrealized_profit": 0.0,
   "start_date": "2025-12-12",
   "today_date": "2025-12-18"
 }
