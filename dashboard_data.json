@@ -1,19 +1,19 @@
 {
-  "last_update": "2025-12-18T02:11:41.686276",
+  "last_update": "2025-12-18T02:17:00.894505",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": -3190.0939385889988,
-  "total_profit_percent": -3.822858177205056,
+  "total_profit": -3870.718426606288,
+  "total_profit_percent": -4.638486475214911,
   "total_investment": 83447.87566567065,
   "holdings": [
     {
       "market": "KRW-ETH",
       "amount": 0.00228418,
       "avg_price": 4279001.0,
-      "current_price": 4259000.0,
-      "value": 9728.322619999999,
-      "profit": -45.685884179999995,
-      "profit_rate": -0.004674221856924081
+      "current_price": 4265000.0,
+      "value": 9742.027699999999,
+      "profit": -31.980804179999996,
+      "profit_rate": -0.0032720254096692196
     },
     {
       "market": "KRW-ICX",
@@ -37,10 +37,10 @@
       "market": "KRW-ADA",
       "amount": 17.53075571,
       "avg_price": 557.0,
-      "current_price": 554.0,
-      "value": 9712.038663340001,
-      "profit": -52.59226713,
-      "profit_rate": -0.005385996409335727
+      "current_price": 556.0,
+      "value": 9747.10017476,
+      "profit": -17.53075571,
+      "profit_rate": -0.0017953321364452424
     },
     {
       "market": "KRW-CHR",
@@ -55,19 +55,19 @@
       "market": "KRW-EGG",
       "amount": 11229.00924391,
       "avg_price": 1.735,
-      "current_price": 1.847,
-      "value": 20739.98007350177,
-      "profit": 1257.6490353179188,
-      "profit_rate": 0.06455331412103739
+      "current_price": 1.788,
+      "value": 20077.468528111083,
+      "profit": 595.1374899272294,
+      "profit_rate": 0.030547550432276617
     },
     {
       "market": "KRW-MAY",
       "amount": 303.99788203,
       "avg_price": 17.7,
-      "current_price": 17.56,
-      "value": 5338.2028084468,
-      "profit": -42.55970348420018,
-      "profit_rate": -0.007909604519774044
+      "current_price": 17.34,
+      "value": 5271.323274400201,
+      "profit": -109.43923753079984,
+      "profit_rate": -0.020338983050847425
     },
     {
       "market": "KRW-AZIT",
@@ -5358,7 +5358,7 @@
     }
   ],
   "realized_profit": -4106.5932548818755,
-  "unrealized_profit": 916.4993162928766,
+  "unrealized_profit": 235.87482827558753,
   "start_date": "2025-12-12",
   "today_date": "2025-12-18"
 }
