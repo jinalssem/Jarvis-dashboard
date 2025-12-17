@@ -1,19 +1,28 @@
 {
-  "last_update": "2025-12-17T23:45:36.606189",
+  "last_update": "2025-12-17T23:51:35.971374",
   "today_profit": 3756.661318639197,
-  "today_profit_percent": 11.036061099111595,
-  "total_profit": -3587.0585495568184,
-  "total_profit_percent": -10.537813755683345,
-  "total_investment": 34039.8742350349,
+  "today_profit_percent": 7.0410998386022925,
+  "total_profit": -3495.7031216194205,
+  "total_profit_percent": -6.551986617295593,
+  "total_investment": 53353.331223107896,
   "holdings": [
+    {
+      "market": "KRW-QTUM",
+      "amount": 4.93323442,
+      "avg_price": 1980.0,
+      "current_price": 1987.0,
+      "value": 9802.33679254,
+      "profit": 34.53264094,
+      "profit_rate": 0.0035353535353535356
+    },
     {
       "market": "KRW-CHR",
       "amount": 148.83616831,
       "avg_price": 65.6,
-      "current_price": 65.67,
-      "value": 9774.0711729177,
-      "profit": 10.4185317817011,
-      "profit_rate": 0.0010670731707318202
+      "current_price": 64.88,
+      "value": 9656.4905999528,
+      "profit": -107.16204118319983,
+      "profit_rate": -0.010975609756097545
     },
     {
       "market": "KRW-XPR",
@@ -28,10 +37,19 @@
       "market": "KRW-DEEP",
       "amount": 269.06411327,
       "avg_price": 55.07,
-      "current_price": 54.74,
-      "value": 14728.569560399801,
-      "profit": -88.79115737909954,
-      "profit_rate": -0.005992373343017946
+      "current_price": 55.04,
+      "value": 14809.2887943808,
+      "profit": -8.071923398100306,
+      "profit_rate": -0.0005447612130016549
+    },
+    {
+      "market": "KRW-SXT",
+      "amount": 253.20034049,
+      "avg_price": 37.7,
+      "current_price": 38.07,
+      "value": 9639.3369624543,
+      "profit": 93.68412598129936,
+      "profit_rate": 0.009814323607426987
     }
   ],
   "trades": [
@@ -131,6 +149,17 @@
       "buy_count": 3
     },
     {
+      "market": "KRW-SXT",
+      "type": "buy",
+      "time": "2025-12-17T09:35:32.051343",
+      "price": 38.194065998020335,
+      "volume": 747.9173773800001,
+      "funds": 28566.005672718,
+      "cycle_status": "holding",
+      "profit": 0,
+      "buy_count": 3
+    },
+    {
       "type": "sell",
       "market": "KRW-OM",
       "profit": 210.23836803999984,
@@ -165,6 +194,17 @@
       "cycle_status": "completed",
       "avg_buy_price": 18.289117587492512,
       "buy_count": 2
+    },
+    {
+      "market": "KRW-QTUM",
+      "type": "buy",
+      "time": "2025-12-16T23:09:29+09:00",
+      "price": 2046.7481777532284,
+      "volume": 28.63229795,
+      "funds": 58603.10365405,
+      "cycle_status": "holding",
+      "profit": 0,
+      "buy_count": 6
     },
     {
       "market": "KRW-EDEN",
@@ -784,6 +824,15 @@
     }
   ],
   "raw_trades": [
+    {
+      "type": "sell",
+      "market": "KRW-XPR",
+      "profit": 193.90664796045962,
+      "price": 4.082,
+      "amount": 2364.71521903,
+      "volume": 2364.71521903,
+      "time": "2025-12-17T23:50:12.199571"
+    },
     {
       "type": "sell",
       "market": "KRW-XPR",
@@ -1439,6 +1488,16 @@
       "time": "2025-12-17T09:35:32.051343"
     },
     {
+      "market": "KRW-SXT",
+      "type": "buy",
+      "time": "2025-12-17T09:35:32+09:00",
+      "price": 37.7,
+      "volume": 253.20034049,
+      "funds": 9545.652836473,
+      "fee": 0.0,
+      "uuid": "C1103000000016739907"
+    },
+    {
       "market": "KRW-FITFI",
       "type": "sell",
       "time": "2025-12-17T09:26:34+09:00",
@@ -1989,6 +2048,16 @@
       "funds": 9767.910716303999,
       "fee": 0.0,
       "uuid": "C0115000000187654145"
+    },
+    {
+      "market": "KRW-QTUM",
+      "type": "buy",
+      "time": "2025-12-16T23:09:29+09:00",
+      "price": 1980.0,
+      "volume": 4.93323442,
+      "funds": 9767.8041516,
+      "fee": 3.9,
+      "uuid": "C0110000000330167301"
     },
     {
       "type": "buy",
@@ -4946,7 +5015,7 @@
     }
   ],
   "realized_profit": -3702.5925719198794,
-  "unrealized_profit": 115.53402236306118,
+  "unrealized_profit": 206.88945030045883,
   "start_date": "2025-12-12",
   "today_date": "2025-12-17"
 }
