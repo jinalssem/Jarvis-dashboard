@@ -1,28 +1,19 @@
 {
-  "last_update": "2025-12-18T00:39:19.048665",
+  "last_update": "2025-12-18T00:45:07.521020",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": -3052.50141516752,
-  "total_profit_percent": -8.967026495712716,
-  "total_investment": 34041.4006429776,
+  "total_profit": -3373.683957004081,
+  "total_profit_percent": -13.723903180876826,
+  "total_investment": 24582.5397668576,
   "holdings": [
-    {
-      "market": "KRW-XPR",
-      "amount": 2364.71521903,
-      "avg_price": 4.0,
-      "current_price": 4.092,
-      "value": 9676.414676270759,
-      "profit": 217.55380015075912,
-      "profit_rate": 0.02299999999999991
-    },
     {
       "market": "KRW-DEEP",
       "amount": 450.55974646,
       "avg_price": 54.56,
-      "current_price": 55.52,
-      "value": 25015.0771234592,
-      "profit": 432.5373566016004,
-      "profit_rate": 0.01759530791788858
+      "current_price": 55.29,
+      "value": 24911.4483817734,
+      "profit": 328.9086149157986,
+      "profit_rate": 0.01337976539589437
     }
   ],
   "trades": [
@@ -98,17 +89,6 @@
       "profit": -457.7217391000013,
       "avg_buy_price": 230.0,
       "buy_count": 1
-    },
-    {
-      "market": "KRW-XPR",
-      "type": "buy",
-      "time": "2025-12-17T11:59:46.902490",
-      "price": 3.9787382069504242,
-      "volume": 6441.36848379,
-      "funds": 25628.518891501597,
-      "cycle_status": "holding",
-      "profit": 0,
-      "buy_count": 3
     },
     {
       "type": "sell",
@@ -764,6 +744,16 @@
     }
   ],
   "raw_trades": [
+    {
+      "market": "KRW-XPR",
+      "type": "sell",
+      "time": "2025-12-18T00:38:08+09:00",
+      "price": 4.13,
+      "volume": 2364.71521903,
+      "funds": 9766.2738545939,
+      "fee": 3.89,
+      "uuid": "C0289000000180540062"
+    },
     {
       "type": "sell",
       "market": "KRW-XPR",
@@ -5112,7 +5102,7 @@
     }
   ],
   "realized_profit": -3702.5925719198794,
-  "unrealized_profit": 650.0911567523594,
+  "unrealized_profit": 328.9086149157986,
   "start_date": "2025-12-12",
   "today_date": "2025-12-18"
 }
