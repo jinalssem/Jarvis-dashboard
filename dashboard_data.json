@@ -1,9 +1,9 @@
 {
-  "last_update": "2025-12-17T23:21:50.208046",
+  "last_update": "2025-12-17T23:27:48.277795",
   "today_profit": 1978.7668557403867,
   "today_profit_percent": 2.31154674344,
-  "total_profit": 9551.788909876925,
-  "total_profit_percent": 11.158164735072317,
+  "total_profit": 8835.548170932225,
+  "total_profit_percent": 10.321469930515766,
   "total_investment": 85603.58389273251,
   "holdings": [
     {
@@ -28,28 +28,28 @@
       "market": "KRW-DEEP",
       "amount": 269.06411327,
       "avg_price": 55.07,
-      "current_price": 55.31,
-      "value": 14881.936104963701,
-      "profit": 64.57538718480053,
-      "profit_rate": 0.004358089704013111
+      "current_price": 55.3,
+      "value": 14879.245463831,
+      "profit": 61.88474605209916,
+      "profit_rate": 0.004176502633012473
     },
     {
       "market": "KRW-A8",
       "amount": 451.35772048,
       "avg_price": 75.62,
-      "current_price": 76.99,
-      "value": 34750.0308997552,
-      "profit": 618.3600770575956,
-      "profit_rate": 0.018116900290928196
+      "current_price": 75.44,
+      "value": 34050.4264330112,
+      "profit": -81.24438968640308,
+      "profit_rate": -0.002380322665961476
     },
     {
       "market": "KRW-EDEN",
       "amount": 174.32038835,
       "avg_price": 100.0,
-      "current_price": 98.37,
-      "value": 17147.8966019895,
-      "profit": -284.1422330104992,
-      "profit_rate": -0.016299999999999953
+      "current_price": 98.29,
+      "value": 17133.9509709215,
+      "profit": -298.0878640784989,
+      "profit_rate": -0.017099999999999938
     }
   ],
   "trades": [
@@ -744,6 +744,33 @@
     }
   ],
   "raw_trades": [
+    {
+      "type": "sell",
+      "market": "KRW-XPR",
+      "profit": 198.63607839851912,
+      "price": 4.084,
+      "amount": 2364.71521903,
+      "volume": 2364.71521903,
+      "time": "2025-12-17T23:26:35.682192"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-EDEN",
+      "profit": -273.68300970949883,
+      "price": 98.43,
+      "amount": 174.32038835,
+      "volume": 174.32038835,
+      "time": "2025-12-17T23:26:34.419247"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-A8",
+      "profit": 248.24674626399872,
+      "price": 76.17,
+      "amount": 451.35772048,
+      "volume": 451.35772048,
+      "time": "2025-12-17T23:26:33.070920"
+    },
     {
       "type": "sell",
       "market": "KRW-XPR",
@@ -4814,7 +4841,7 @@
     }
   ],
   "realized_profit": 8966.266493711308,
-  "unrealized_profit": 585.5224161656164,
+  "unrealized_profit": -130.71832277908345,
   "start_date": "2025-12-12",
   "today_date": "2025-12-17"
 }
