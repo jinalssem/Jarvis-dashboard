@@ -1,28 +1,28 @@
 {
-  "last_update": "2025-12-18T00:33:28.646479",
+  "last_update": "2025-12-18T00:39:19.048665",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": -2698.923930683149,
-  "total_profit_percent": -7.928357469744449,
+  "total_profit": -3052.50141516752,
+  "total_profit_percent": -8.967026495712716,
   "total_investment": 34041.4006429776,
   "holdings": [
     {
       "market": "KRW-XPR",
       "amount": 2364.71521903,
       "avg_price": 4.0,
-      "current_price": 4.091,
-      "value": 9674.049961051729,
-      "profit": 215.18908493173043,
-      "profit_rate": 0.022750000000000048
+      "current_price": 4.092,
+      "value": 9676.414676270759,
+      "profit": 217.55380015075912,
+      "profit_rate": 0.02299999999999991
     },
     {
       "market": "KRW-DEEP",
       "amount": 450.55974646,
       "avg_price": 54.56,
-      "current_price": 56.31,
-      "value": 25371.0193231626,
-      "profit": 788.479556305,
-      "profit_rate": 0.032074780058651026
+      "current_price": 55.52,
+      "value": 25015.0771234592,
+      "profit": 432.5373566016004,
+      "profit_rate": 0.01759530791788858
     }
   ],
   "trades": [
@@ -764,6 +764,15 @@
     }
   ],
   "raw_trades": [
+    {
+      "type": "sell",
+      "market": "KRW-XPR",
+      "profit": 217.55380015075912,
+      "price": 4.092,
+      "amount": 2364.71521903,
+      "volume": 2364.71521903,
+      "time": "2025-12-18T00:38:07.914817"
+    },
     {
       "type": "buy",
       "market": "KRW-UOS",
@@ -5103,7 +5112,7 @@
     }
   ],
   "realized_profit": -3702.5925719198794,
-  "unrealized_profit": 1003.6686412367304,
+  "unrealized_profit": 650.0911567523594,
   "start_date": "2025-12-12",
   "today_date": "2025-12-18"
 }
