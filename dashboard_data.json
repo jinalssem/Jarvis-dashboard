@@ -1,55 +1,55 @@
 {
-  "last_update": "2025-12-17T23:51:35.971374",
+  "last_update": "2025-12-17T23:57:41.953942",
   "today_profit": 3756.661318639197,
   "today_profit_percent": 7.0410998386022925,
-  "total_profit": -3495.7031216194205,
-  "total_profit_percent": -6.551986617295593,
+  "total_profit": -2473.7229523555206,
+  "total_profit_percent": -4.636492034604439,
   "total_investment": 53353.331223107896,
   "holdings": [
     {
       "market": "KRW-QTUM",
       "amount": 4.93323442,
       "avg_price": 1980.0,
-      "current_price": 1987.0,
-      "value": 9802.33679254,
-      "profit": 34.53264094,
-      "profit_rate": 0.0035353535353535356
+      "current_price": 2010.0,
+      "value": 9915.8011842,
+      "profit": 147.99703259999998,
+      "profit_rate": 0.015151515151515152
     },
     {
       "market": "KRW-CHR",
       "amount": 148.83616831,
       "avg_price": 65.6,
-      "current_price": 64.88,
-      "value": 9656.4905999528,
-      "profit": -107.16204118319983,
-      "profit_rate": -0.010975609756097545
+      "current_price": 66.88,
+      "value": 9954.1629365728,
+      "profit": 190.51029543680016,
+      "profit_rate": 0.019512195121951237
     },
     {
       "market": "KRW-XPR",
       "amount": 2364.71521903,
       "avg_price": 4.0,
-      "current_price": 4.082,
-      "value": 9652.767524080458,
-      "profit": 193.90664796045962,
-      "profit_rate": 0.020499999999999963
+      "current_price": 4.072,
+      "value": 9629.12037189016,
+      "profit": 170.25949577016013,
+      "profit_rate": 0.018000000000000016
     },
     {
       "market": "KRW-DEEP",
       "amount": 269.06411327,
       "avg_price": 55.07,
-      "current_price": 55.04,
-      "value": 14809.2887943808,
-      "profit": -8.071923398100306,
-      "profit_rate": -0.0005447612130016549
+      "current_price": 56.73,
+      "value": 15264.0071458071,
+      "profit": 446.64642802819907,
+      "profit_rate": 0.030143453786090367
     },
     {
       "market": "KRW-SXT",
       "amount": 253.20034049,
       "avg_price": 37.7,
-      "current_price": 38.07,
-      "value": 9639.3369624543,
-      "profit": 93.68412598129936,
-      "profit_rate": 0.009814323607426987
+      "current_price": 38.78,
+      "value": 9819.109204202201,
+      "profit": 273.4563677291996,
+      "profit_rate": 0.02864721485411136
     }
   ],
   "trades": [
@@ -824,6 +824,24 @@
     }
   ],
   "raw_trades": [
+    {
+      "type": "sell",
+      "market": "KRW-DEEP",
+      "profit": 387.4523231087994,
+      "price": 56.51,
+      "amount": 269.06411327,
+      "volume": 269.06411327,
+      "time": "2025-12-17T23:56:28.921609"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-QTUM",
+      "profit": 147.99703259999998,
+      "price": 2010.0,
+      "amount": 4.93323442,
+      "volume": 4.93323442,
+      "time": "2025-12-17T23:56:27.656332"
+    },
     {
       "type": "sell",
       "market": "KRW-XPR",
@@ -5015,7 +5033,7 @@
     }
   ],
   "realized_profit": -3702.5925719198794,
-  "unrealized_profit": 206.88945030045883,
+  "unrealized_profit": 1228.869619564359,
   "start_date": "2025-12-12",
   "today_date": "2025-12-17"
 }
