@@ -1,10 +1,10 @@
 {
-  "last_update": "2025-12-18T03:02:30.191026",
+  "last_update": "2025-12-18T03:03:36.684090",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": -4420.109245286717,
-  "total_profit_percent": -3.6073217121857537,
-  "total_investment": 122531.60649229918,
+  "total_profit": -4414.005573909417,
+  "total_profit_percent": -3.035185552876534,
+  "total_investment": 145427.86584253918,
   "holdings": [
     {
       "market": "KRW-ETH",
@@ -37,10 +37,10 @@
       "market": "KRW-ADA",
       "amount": 17.53075571,
       "avg_price": 557.0,
-      "current_price": 553.0,
-      "value": 9694.50790763,
-      "profit": -70.12302284,
-      "profit_rate": -0.00718132854578097
+      "current_price": 554.0,
+      "value": 9712.038663340001,
+      "profit": -52.59226713,
+      "profit_rate": -0.005385996409335727
     },
     {
       "market": "KRW-CHR",
@@ -91,8 +91,17 @@
       "market": "KRW-SHELL",
       "amount": 380.90281109,
       "avg_price": 66.79,
-      "current_price": 66.79,
-      "value": 25440.498752701104,
+      "current_price": 66.76,
+      "value": 25429.0716683684,
+      "profit": -11.427084332700433,
+      "profit_rate": -0.0004491690372810471
+    },
+    {
+      "market": "KRW-OPEN",
+      "amount": 88.74519128,
+      "avg_price": 258.0,
+      "current_price": 258.0,
+      "value": 22896.25935024,
       "profit": 0.0,
       "profit_rate": 0.0
     }
@@ -105,6 +114,17 @@
       "price": 9.447,
       "volume": 1434.67767545,
       "funds": 13553.399999976147,
+      "cycle_status": "holding",
+      "profit": 0,
+      "buy_count": 1
+    },
+    {
+      "market": "KRW-OPEN",
+      "type": "buy",
+      "time": "2025-12-18T02:47:46+09:00",
+      "price": 258.0,
+      "volume": 88.74519128,
+      "funds": 22896.25935024,
       "cycle_status": "holding",
       "profit": 0,
       "buy_count": 1
@@ -900,6 +920,16 @@
       "amount": 5550.918196989998,
       "volume": 5550.918196989998,
       "time": "2025-12-18T02:51:40.588928"
+    },
+    {
+      "market": "KRW-OPEN",
+      "type": "buy",
+      "time": "2025-12-18T02:47:46+09:00",
+      "price": 258.0,
+      "volume": 88.74519128,
+      "funds": 22896.25935024,
+      "fee": 9.15,
+      "uuid": "C1176000000012640795"
     },
     {
       "market": "KRW-SHELL",
@@ -5474,7 +5504,7 @@
     }
   ],
   "realized_profit": -4106.5932548818755,
-  "unrealized_profit": -313.51599040484115,
+  "unrealized_profit": -307.41231902754157,
   "start_date": "2025-12-12",
   "today_date": "2025-12-18"
 }
