@@ -1,19 +1,19 @@
 {
-  "last_update": "2025-12-18T02:17:00.894505",
+  "last_update": "2025-12-18T02:22:51.167214",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": -3870.718426606288,
-  "total_profit_percent": -4.638486475214911,
+  "total_profit": -3663.450772453079,
+  "total_profit_percent": -4.390106690229592,
   "total_investment": 83447.87566567065,
   "holdings": [
     {
       "market": "KRW-ETH",
       "amount": 0.00228418,
       "avg_price": 4279001.0,
-      "current_price": 4265000.0,
-      "value": 9742.027699999999,
-      "profit": -31.980804179999996,
-      "profit_rate": -0.0032720254096692196
+      "current_price": 4287000.0,
+      "value": 9792.279659999998,
+      "profit": 18.271155819999997,
+      "profit_rate": 0.0018693615635986063
     },
     {
       "market": "KRW-ICX",
@@ -37,10 +37,10 @@
       "market": "KRW-ADA",
       "amount": 17.53075571,
       "avg_price": 557.0,
-      "current_price": 556.0,
-      "value": 9747.10017476,
-      "profit": -17.53075571,
-      "profit_rate": -0.0017953321364452424
+      "current_price": 560.0,
+      "value": 9817.2231976,
+      "profit": 52.59226713,
+      "profit_rate": 0.005385996409335727
     },
     {
       "market": "KRW-CHR",
@@ -55,28 +55,28 @@
       "market": "KRW-EGG",
       "amount": 11229.00924391,
       "avg_price": 1.735,
-      "current_price": 1.788,
-      "value": 20077.468528111083,
-      "profit": 595.1374899272294,
-      "profit_rate": 0.030547550432276617
+      "current_price": 1.795,
+      "value": 20156.07159281845,
+      "profit": 673.7405546345982,
+      "profit_rate": 0.0345821325648414
     },
     {
       "market": "KRW-MAY",
       "amount": 303.99788203,
       "avg_price": 17.7,
-      "current_price": 17.34,
-      "value": 5271.323274400201,
-      "profit": -109.43923753079984,
-      "profit_rate": -0.020338983050847425
+      "current_price": 17.39,
+      "value": 5286.523168501701,
+      "profit": -94.23934342929962,
+      "profit_rate": -0.017514124293785238
     },
     {
       "market": "KRW-AZIT",
       "amount": 1151.71458261,
       "avg_price": 8.48,
-      "current_price": 8.336,
-      "value": 9600.69276063696,
-      "profit": -165.84689989584015,
-      "profit_rate": -0.01698113207547171
+      "current_price": 8.33,
+      "value": 9593.7824731413,
+      "profit": -172.7571873915004,
+      "profit_rate": -0.01768867924528306
     }
   ],
   "trades": [
@@ -832,6 +832,15 @@
     }
   ],
   "raw_trades": [
+    {
+      "type": "sell",
+      "market": "KRW-EGG",
+      "profit": 741.1146100980582,
+      "price": 1.801,
+      "amount": 11229.00924391,
+      "volume": 11229.00924391,
+      "time": "2025-12-18T02:21:26.202961"
+    },
     {
       "type": "sell",
       "market": "KRW-EGG",
@@ -5358,7 +5367,7 @@
     }
   ],
   "realized_profit": -4106.5932548818755,
-  "unrealized_profit": 235.87482827558753,
+  "unrealized_profit": 443.14248242879637,
   "start_date": "2025-12-12",
   "today_date": "2025-12-18"
 }
