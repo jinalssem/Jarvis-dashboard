@@ -1,9 +1,9 @@
 {
-  "last_update": "2025-12-17T21:59:16.543523",
+  "last_update": "2025-12-17T22:05:01.975003",
   "today_profit": 1978.7668557403867,
   "today_profit_percent": 2.5710371839601174,
-  "total_profit": 8169.017108968984,
-  "total_profit_percent": 10.61410882370328,
+  "total_profit": 8242.059762521736,
+  "total_profit_percent": 10.70901408136638,
   "total_investment": 76963.75875406561,
   "holdings": [
     {
@@ -19,10 +19,10 @@
       "market": "KRW-XPR",
       "amount": 2364.71521903,
       "avg_price": 4.0,
-      "current_price": 4.026,
-      "value": 9520.343471814778,
-      "profit": 61.482595694779526,
-      "profit_rate": 0.00649999999999995
+      "current_price": 4.011,
+      "value": 9484.87274352933,
+      "profit": 26.011867409330282,
+      "profit_rate": 0.00275000000000003
     },
     {
       "market": "KRW-DEEP",
@@ -37,19 +37,19 @@
       "market": "KRW-A8",
       "amount": 451.35772048,
       "avg_price": 75.62,
-      "current_price": 75.08,
-      "value": 33887.9376536384,
-      "profit": -243.73316905920282,
-      "profit_rate": -0.00714096799788424
+      "current_price": 75.22,
+      "value": 33951.1277345056,
+      "profit": -180.54308819200256,
+      "profit_rate": -0.00528960592435871
     },
     {
       "market": "KRW-EDEN",
       "amount": 174.32038835,
       "avg_price": 100.0,
-      "current_price": 96.91,
-      "value": 16893.3888349985,
-      "profit": -538.6500000015006,
-      "profit_rate": -0.030900000000000035
+      "current_price": 97.17,
+      "value": 16938.7121359695,
+      "profit": -493.3266990304997,
+      "profit_rate": -0.02829999999999998
     }
   ],
   "trades": [
@@ -4750,7 +4750,7 @@
     }
   ],
   "realized_profit": 8966.266493711308,
-  "unrealized_profit": -797.2493847423235,
+  "unrealized_profit": -724.2067311895715,
   "start_date": "2025-12-12",
   "today_date": "2025-12-17"
 }
