@@ -1,28 +1,28 @@
 {
-  "last_update": "2025-12-18T00:21:47.915828",
+  "last_update": "2025-12-18T00:27:43.587639",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": -3114.9507652878583,
-  "total_profit_percent": -12.831283291921785,
-  "total_investment": 24276.2215938989,
+  "total_profit": -2706.5921277715925,
+  "total_profit_percent": -7.950883561337643,
+  "total_investment": 34041.4006429776,
   "holdings": [
     {
       "market": "KRW-XPR",
       "amount": 2364.71521903,
       "avg_price": 4.0,
-      "current_price": 4.104,
-      "value": 9704.79125889912,
-      "profit": 245.9303827791202,
-      "profit_rate": 0.026000000000000023
+      "current_price": 4.103,
+      "value": 9702.426543680089,
+      "profit": 243.56566756008942,
+      "profit_rate": 0.02574999999999994
     },
     {
       "market": "KRW-DEEP",
-      "amount": 269.06411327,
-      "avg_price": 55.07,
-      "current_price": 56.34,
-      "value": 15159.072141631801,
-      "profit": 341.71142385290085,
-      "profit_rate": 0.02306155801706924
+      "amount": 450.55974646,
+      "avg_price": 54.56,
+      "current_price": 56.23,
+      "value": 25334.9745434458,
+      "profit": 752.4347765881976,
+      "profit_rate": 0.03060850439882688
     }
   ],
   "trades": [
@@ -41,13 +41,13 @@
     {
       "market": "KRW-DEEP",
       "type": "buy",
-      "time": "2025-12-17T22:32:59.695078",
-      "price": 55.51589761362527,
-      "volume": 959.5840742199999,
-      "funds": 53272.17121606291,
+      "time": "2025-12-17T22:33:00+09:00",
+      "price": 55.24297371369808,
+      "volume": 1141.0797074099999,
+      "funds": 63036.636281684914,
       "cycle_status": "holding",
       "profit": 0,
-      "buy_count": 6
+      "buy_count": 7
     },
     {
       "type": "sell",
@@ -765,6 +765,15 @@
   ],
   "raw_trades": [
     {
+      "type": "sell",
+      "market": "KRW-XPR",
+      "profit": 243.56566756008942,
+      "price": 4.103,
+      "amount": 2364.71521903,
+      "volume": 2364.71521903,
+      "time": "2025-12-18T00:26:29.572103"
+    },
+    {
       "type": "buy",
       "market": "KRW-EGG",
       "profit": 0,
@@ -984,6 +993,16 @@
       "amount": 451.35772048,
       "volume": 451.35772048,
       "time": "2025-12-17T23:02:19.790847"
+    },
+    {
+      "market": "KRW-DEEP",
+      "type": "buy",
+      "time": "2025-12-17T22:33:00+09:00",
+      "price": 53.8,
+      "volume": 181.49563319,
+      "funds": 9764.465065622,
+      "fee": 0.0,
+      "uuid": "C0994000000029442660"
     },
     {
       "type": "buy",
@@ -5066,7 +5085,7 @@
     }
   ],
   "realized_profit": -3702.5925719198794,
-  "unrealized_profit": 587.641806632021,
+  "unrealized_profit": 996.000444148287,
   "start_date": "2025-12-12",
   "today_date": "2025-12-18"
 }
