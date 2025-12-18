@@ -1,46 +1,46 @@
 {
-  "last_update": "2025-12-19T03:58:23.047242",
+  "last_update": "2025-12-19T04:04:24.438713",
   "today_profit": 21005.049235709597,
-  "today_profit_percent": 15.432419462104594,
-  "total_profit": 20331.298166477543,
-  "total_profit_percent": 14.93741423756296,
-  "total_investment": 136109.8905281119,
+  "today_profit_percent": 14.400551390173941,
+  "total_profit": 20052.354620375143,
+  "total_profit_percent": 13.74740710980052,
+  "total_investment": 145862.81223955192,
   "holdings": [
     {
       "market": "KRW-QTUM",
       "amount": 5.2444795,
       "avg_price": 1860.0,
-      "current_price": 1853.0,
-      "value": 9718.0205135,
-      "profit": -36.7113565,
-      "profit_rate": -0.003763440860215054
+      "current_price": 1844.0,
+      "value": 9670.820198,
+      "profit": -83.911672,
+      "profit_rate": -0.008602150537634409
     },
     {
       "market": "KRW-A",
-      "amount": 43.94273128,
-      "avg_price": 222.0,
+      "amount": 88.67367298,
+      "avg_price": 220.0,
       "current_price": 218.0,
-      "value": 9579.515419039999,
-      "profit": -175.77092512,
-      "profit_rate": -0.018018018018018018
+      "value": 19330.86070964,
+      "profit": -177.34734596,
+      "profit_rate": -0.00909090909090909
     },
     {
       "market": "KRW-ICX",
       "amount": 80.22293595,
       "avg_price": 76.1,
-      "current_price": 75.38,
-      "value": 6047.204911910999,
-      "profit": -57.760513883999906,
-      "profit_rate": -0.00946123521681996
+      "current_price": 75.28,
+      "value": 6039.182618315999,
+      "profit": -65.78280747899944,
+      "profit_rate": -0.010775295663600437
     },
     {
       "market": "KRW-KNC",
       "amount": 29.95495495,
       "avg_price": 326.0,
-      "current_price": 319.0,
-      "value": 9555.63062905,
-      "profit": -209.68468465,
-      "profit_rate": -0.02147239263803681
+      "current_price": 318.0,
+      "value": 9525.6756741,
+      "profit": -239.6396396,
+      "profit_rate": -0.024539877300613498
     },
     {
       "market": "KRW-ZIL",
@@ -55,19 +55,19 @@
       "market": "KRW-ADA",
       "amount": 18.23583181,
       "avg_price": 536.0,
-      "current_price": 530.0,
-      "value": 9664.9908593,
-      "profit": -109.41499086,
-      "profit_rate": -0.011194029850746268
+      "current_price": 529.0,
+      "value": 9646.75502749,
+      "profit": -127.65082267,
+      "profit_rate": -0.013059701492537313
     },
     {
       "market": "KRW-LINK",
       "amount": 0.5474753,
       "avg_price": 17850.0,
-      "current_price": 17950.0,
-      "value": 9827.181635,
-      "profit": 54.74753,
-      "profit_rate": 0.0056022408963585435
+      "current_price": 17860.0,
+      "value": 9777.908858,
+      "profit": 5.474753,
+      "profit_rate": 0.0005602240896358543
     },
     {
       "market": "KRW-GALA",
@@ -91,19 +91,19 @@
       "market": "KRW-RAY",
       "amount": 10.46851574,
       "avg_price": 1305.0,
-      "current_price": 1302.0,
-      "value": 13630.007493480001,
-      "profit": -31.405547220000003,
-      "profit_rate": -0.0022988505747126436
+      "current_price": 1297.0,
+      "value": 13577.664914780002,
+      "profit": -83.74812592,
+      "profit_rate": -0.006130268199233717
     },
     {
       "market": "KRW-SHELL",
       "amount": 153.91143342,
       "avg_price": 63.5,
-      "current_price": 61.76,
-      "value": 9505.5701280192,
-      "profit": -267.8058941508003,
-      "profit_rate": -0.02740157480314964
+      "current_price": 61.29,
+      "value": 9433.2317543118,
+      "profit": -340.1442678582001,
+      "profit_rate": -0.034803149606299225
     }
   ],
   "trades": [
@@ -305,13 +305,13 @@
     {
       "market": "KRW-A",
       "type": "buy",
-      "time": "2025-12-19T02:42:33.360437",
-      "price": 221.30572456763437,
-      "volume": 132.23262495,
-      "funds": 29263.836876039997,
+      "time": "2025-12-19T02:42:34+09:00",
+      "price": 220.4701391660157,
+      "volume": 176.96356665000002,
+      "funds": 39015.18216664,
       "cycle_status": "holding",
       "profit": 0,
-      "buy_count": 3
+      "buy_count": 4
     },
     {
       "market": "KRW-HOOK",
@@ -1858,6 +1858,16 @@
       "funds": 19949.999999699998,
       "fee": 0.0,
       "uuid": "C0857000000056792288"
+    },
+    {
+      "market": "KRW-A",
+      "type": "buy",
+      "time": "2025-12-19T02:42:34+09:00",
+      "price": 218.0,
+      "volume": 44.7309417,
+      "funds": 9751.3452906,
+      "fee": 3.9,
+      "uuid": "C0112000000475601905"
     },
     {
       "type": "buy",
@@ -4594,7 +4604,7 @@
   "saved_avg_prices": {
     "KRW-ETC": 17400.0,
     "KRW-XRP": 2745.0,
-    "KRW-A": 222.0,
+    "KRW-A": 220.0,
     "KRW-GLM": 293.6,
     "KRW-LINK": 17850.0,
     "KRW-GALA": 8.94,
@@ -4618,7 +4628,7 @@
   },
   "archived_profit": 0,
   "realized_profit": 22028.91807880647,
-  "unrealized_profit": -1697.6199123289273,
+  "unrealized_profit": -1976.5634584313266,
   "start_date": "2025-12-17",
   "today_date": "2025-12-19"
 }
