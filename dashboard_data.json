@@ -1,28 +1,28 @@
 {
-  "last_update": "2025-12-18T21:23:33.695390",
+  "last_update": "2025-12-18T21:28:26.220036",
   "today_profit": -5844.606121042635,
   "today_profit_percent": -3.9122643848520586,
-  "total_profit": -3479.0768363533543,
-  "total_profit_percent": -2.32882560725938,
+  "total_profit": -3535.3536827628927,
+  "total_profit_percent": -2.366496221384622,
   "total_investment": 149391.9006003897,
   "holdings": [
     {
       "market": "KRW-ETC",
       "amount": 0.54898184,
       "avg_price": 17800.0,
-      "current_price": 17860.0,
-      "value": 9804.8156624,
-      "profit": 32.938910400000005,
-      "profit_rate": 0.0033707865168539327
+      "current_price": 17840.0,
+      "value": 9793.836025600001,
+      "profit": 21.959273600000003,
+      "profit_rate": 0.0022471910112359553
     },
     {
       "market": "KRW-XRP",
       "amount": 3.55995717,
       "avg_price": 2745.0,
-      "current_price": 2793.0,
-      "value": 9942.96037581,
-      "profit": 170.87794416,
-      "profit_rate": 0.017486338797814208
+      "current_price": 2790.0,
+      "value": 9932.2805043,
+      "profit": 160.19807265,
+      "profit_rate": 0.01639344262295082
     },
     {
       "market": "KRW-A",
@@ -55,10 +55,10 @@
       "market": "KRW-GALA",
       "amount": 2472.66700711,
       "avg_price": 9.297,
-      "current_price": 9.059,
-      "value": 22399.89041740949,
-      "profit": -588.4947476921833,
-      "profit_rate": -0.02559965580294733
+      "current_price": 9.045,
+      "value": 22365.27307930995,
+      "profit": -623.1120857917217,
+      "profit_rate": -0.027105517909002973
     },
     {
       "market": "KRW-HOOK",
@@ -643,6 +643,27 @@
     }
   ],
   "raw_trades": [
+    {
+      "type": "sell",
+      "market": "KRW-MOODENG",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "volume": 0,
+      "time": "2025-12-18T21:27:18.440845",
+      "profit_rate": 0.04950495049504951,
+      "reason": "",
+      "strategy": ""
+    },
+    {
+      "type": "sell",
+      "market": "KRW-MOODENG",
+      "profit": 991.34589265,
+      "price": 106.0,
+      "amount": 198.26917853,
+      "volume": 198.26917853,
+      "time": "2025-12-18T21:27:18.438823"
+    },
     {
       "market": "KRW-CTXC",
       "type": "sell",
@@ -1839,7 +1860,7 @@
   },
   "archived_profit": 0,
   "realized_profit": -5060.639055959568,
-  "unrealized_profit": 1581.562219606214,
+  "unrealized_profit": 1525.2853731966757,
   "start_date": "2025-12-17",
   "today_date": "2025-12-18"
 }
