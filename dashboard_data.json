@@ -1,82 +1,82 @@
 {
-  "last_update": "2025-12-19T07:21:56.259684",
+  "last_update": "2025-12-19T07:26:52.578952",
   "today_profit": 12464.02928304702,
   "today_profit_percent": 5.019415217723792,
-  "total_profit": 19409.351229225747,
-  "total_profit_percent": 7.816380298354453,
+  "total_profit": 18939.976395881502,
+  "total_profit_percent": 7.627357380660479,
   "total_investment": 248316.36241281542,
   "holdings": [
     {
       "market": "KRW-QTUM",
       "amount": 13.77012053,
       "avg_price": 1841.0,
-      "current_price": 1851.0,
-      "value": 25488.49310103,
-      "profit": 137.7012053,
-      "profit_rate": 0.005431830526887561
+      "current_price": 1850.0,
+      "value": 25474.7229805,
+      "profit": 123.93108477,
+      "profit_rate": 0.004888647474198805
     },
     {
       "market": "KRW-A",
       "amount": 166.10517983,
       "avg_price": 217.2,
-      "current_price": 221.0,
-      "value": 36709.24474243,
-      "profit": 631.1996833540019,
-      "profit_rate": 0.017495395948434675
+      "current_price": 220.0,
+      "value": 36543.1395626,
+      "profit": 465.0945035240019,
+      "profit_rate": 0.012891344383057144
     },
     {
       "market": "KRW-ICX",
       "amount": 289.50696427,
       "avg_price": 75.09,
-      "current_price": 75.21,
-      "value": 21773.8187827467,
-      "profit": 34.74083571239721,
-      "profit_rate": 0.001598082301238385
+      "current_price": 75.08,
+      "value": 21736.182877391602,
+      "profit": -2.8950696427014813,
+      "profit_rate": -0.0001331735251032776
     },
     {
       "market": "KRW-KNC",
       "amount": 79.52017234,
       "avg_price": 319.1,
-      "current_price": 321.0,
-      "value": 25525.975321140002,
-      "profit": 151.0883274459982,
-      "profit_rate": 0.005954246317768653
+      "current_price": 320.0,
+      "value": 25446.4551488,
+      "profit": 71.56815510599819,
+      "profit_rate": 0.0028204324663114295
     },
     {
       "market": "KRW-LINK",
       "amount": 0.5474753,
       "avg_price": 17850.0,
-      "current_price": 17860.0,
-      "value": 9777.908858,
-      "profit": 5.474753,
-      "profit_rate": 0.0005602240896358543
+      "current_price": 17830.0,
+      "value": 9761.484599,
+      "profit": -10.949506,
+      "profit_rate": -0.0011204481792717086
     },
     {
       "market": "KRW-POLA",
       "amount": 989.58333333,
       "avg_price": 9.87,
-      "current_price": 9.876,
-      "value": 9773.12499996708,
-      "profit": 5.937499999980225,
-      "profit_rate": 0.0006079027355623332
+      "current_price": 9.814,
+      "value": 9711.77083330062,
+      "profit": -55.416666666479166,
+      "profit_rate": -0.005673758865248142
     },
     {
       "market": "KRW-WIKEN",
       "amount": 4469.08602151,
       "avg_price": 2.18,
-      "current_price": 2.18,
-      "value": 9742.607526891801,
-      "profit": 0.0,
-      "profit_rate": 0.0
+      "current_price": 2.196,
+      "value": 9814.11290323596,
+      "profit": 71.50537634416007,
+      "profit_rate": 0.007339449541284409
     },
     {
       "market": "KRW-GALA",
       "amount": 3019.46192667,
       "avg_price": 8.736,
-      "current_price": 8.969,
-      "value": 27081.55402030323,
-      "profit": 703.5346289141063,
-      "profit_rate": 0.026671245421245278
+      "current_price": 8.914,
+      "value": 26915.48361433638,
+      "profit": 537.4642229472571,
+      "profit_rate": 0.020375457875457765
     },
     {
       "market": "KRW-HOOK",
@@ -1881,6 +1881,27 @@
     }
   ],
   "raw_trades": [
+    {
+      "type": "sell",
+      "market": "KRW-GALA",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "volume": 0,
+      "time": "2025-12-19T07:25:42.206748",
+      "profit_rate": 0.020375457875457765,
+      "reason": "",
+      "strategy": ""
+    },
+    {
+      "type": "sell",
+      "market": "KRW-GALA",
+      "profit": 537.4642229472571,
+      "price": 8.914,
+      "amount": 3019.46192667,
+      "volume": 3019.46192667,
+      "time": "2025-12-19T07:25:42.204918"
+    },
     {
       "type": "sell",
       "market": "KRW-GALA",
@@ -5453,7 +5474,7 @@
   },
   "archived_profit": 0,
   "realized_profit": 16367.36134722266,
-  "unrealized_profit": 3041.9898820030867,
+  "unrealized_profit": 2572.6150486588394,
   "start_date": "2025-12-17",
   "today_date": "2025-12-19"
 }
