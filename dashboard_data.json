@@ -1,19 +1,19 @@
 {
-  "last_update": "2025-12-18T19:50:42.802915",
-  "today_profit": 1993.7429160963811,
-  "today_profit_percent": 1.2526138798462327,
-  "total_profit": 4232.448222541305,
-  "total_profit_percent": 2.659130897210152,
-  "total_investment": 159166.59939462968,
+  "last_update": "2025-12-18T19:56:50.225206",
+  "today_profit": 1878.6740873806439,
+  "today_profit_percent": 1.2575474840539937,
+  "total_profit": 4363.760655701988,
+  "total_profit_percent": 2.9210155558397153,
+  "total_investment": 149391.9006003897,
   "holdings": [
     {
       "market": "KRW-ETC",
       "amount": 0.54898184,
       "avg_price": 17800.0,
-      "current_price": 17920.0,
-      "value": 9837.7545728,
-      "profit": 65.87782080000001,
-      "profit_rate": 0.006741573033707865
+      "current_price": 17930.0,
+      "value": 9843.244391200002,
+      "profit": 71.36763920000001,
+      "profit_rate": 0.007303370786516854
     },
     {
       "market": "KRW-XRP",
@@ -55,10 +55,10 @@
       "market": "KRW-GALA",
       "amount": 2472.66700711,
       "avg_price": 9.297,
-      "current_price": 9.083,
-      "value": 22459.234425580133,
-      "profit": -529.150739521541,
-      "profit_rate": -0.023018177906851716
+      "current_price": 9.105,
+      "value": 22513.63309973655,
+      "profit": -474.7520653651205,
+      "profit_rate": -0.020651823168764134
     },
     {
       "market": "KRW-HOOK",
@@ -82,10 +82,10 @@
       "market": "KRW-MOODENG",
       "amount": 198.26917853,
       "avg_price": 101.0,
-      "current_price": 104.0,
-      "value": 20619.99456712,
-      "profit": 594.80753559,
-      "profit_rate": 0.0297029702970297
+      "current_price": 106.0,
+      "value": 21016.53292418,
+      "profit": 991.34589265,
+      "profit_rate": 0.04950495049504951
     },
     {
       "market": "KRW-SHELL",
@@ -97,25 +97,60 @@
       "profit_rate": 0.0037795275590551494
     },
     {
-      "market": "KRW-OPEN",
-      "amount": 40.06024096,
-      "avg_price": 244.0,
-      "current_price": 247.0,
-      "value": 9894.87951712,
-      "profit": 120.18072288,
-      "profit_rate": 0.012295081967213115
-    },
-    {
       "market": "KRW-ZBT",
       "amount": 89.86486486,
       "avg_price": 108.0,
-      "current_price": 111.0,
-      "value": 9974.99999946,
-      "profit": 269.59459458,
-      "profit_rate": 0.027777777777777776
+      "current_price": 110.0,
+      "value": 9885.1351346,
+      "profit": 179.72972972,
+      "profit_rate": 0.018518518518518517
     }
   ],
   "trades": [
+    {
+      "market": "KRW-OPEN",
+      "type": "sell",
+      "time": "2025-12-18T19:50:49+09:00",
+      "price": 246.0,
+      "volume": 40.06024096,
+      "funds": 9854.81927616,
+      "fee": 3.94,
+      "uuid": "C1176000000012661694",
+      "cycle_status": "completed",
+      "profit": 80.12048191999929,
+      "profit_unknown": false,
+      "avg_buy_price": 244.00000000000003,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-OPEN",
+      "profit": 0.0,
+      "price": 0,
+      "amount": 0,
+      "volume": 0,
+      "time": "2025-12-18T19:43:03.692360",
+      "profit_rate": 0.012295081967213115,
+      "reason": "",
+      "strategy": "",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 0.0,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-OPEN",
+      "profit": -195.18931063573655,
+      "price": 247.0,
+      "amount": 40.06024096,
+      "volume": 40.06024096,
+      "time": "2025-12-18T19:43:03.689438",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 251.87239482235344,
+      "buy_count": 4
+    },
     {
       "market": "KRW-A",
       "type": "buy",
@@ -269,17 +304,6 @@
       "profit_unknown": false,
       "avg_buy_price": 557.0,
       "buy_count": 1
-    },
-    {
-      "market": "KRW-OPEN",
-      "type": "buy",
-      "time": "2025-12-18T11:05:51+09:00",
-      "price": 251.87239482235344,
-      "volume": 208.85380195,
-      "funds": 52604.50726490001,
-      "cycle_status": "holding",
-      "profit": 0,
-      "buy_count": 4
     },
     {
       "market": "KRW-SHELL",
@@ -649,6 +673,37 @@
     }
   ],
   "raw_trades": [
+    {
+      "type": "sell",
+      "market": "KRW-MOODENG",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "volume": 0,
+      "time": "2025-12-18T19:55:34.707911",
+      "profit_rate": 0.039603960396039604,
+      "reason": "",
+      "strategy": ""
+    },
+    {
+      "type": "sell",
+      "market": "KRW-MOODENG",
+      "profit": 793.07671412,
+      "price": 105.0,
+      "amount": 198.26917853,
+      "volume": 198.26917853,
+      "time": "2025-12-18T19:55:34.705259"
+    },
+    {
+      "market": "KRW-OPEN",
+      "type": "sell",
+      "time": "2025-12-18T19:50:49+09:00",
+      "price": 246.0,
+      "volume": 40.06024096,
+      "funds": 9854.81927616,
+      "fee": 3.94,
+      "uuid": "C1176000000012661694"
+    },
     {
       "type": "sell",
       "market": "KRW-ZBT",
@@ -1943,9 +1998,27 @@
   ],
   "daily_profits": {
     "2025-12-17": 783.9670650830667,
-    "2025-12-18": 1993.7429160963811
+    "2025-12-18": 1878.6740873806439
   },
   "trade_cycles": [
+    {
+      "market": "KRW-OPEN",
+      "profit": -195.18931063573655,
+      "sell_time": "2025-12-18T19:43:03.689438",
+      "avg_buy_price": 251.87239482235344
+    },
+    {
+      "market": "KRW-OPEN",
+      "profit": 0.0,
+      "sell_time": "2025-12-18T19:43:03.692360",
+      "avg_buy_price": 0.0
+    },
+    {
+      "market": "KRW-OPEN",
+      "profit": 80.12048191999929,
+      "sell_time": "2025-12-18T19:50:49+09:00",
+      "avg_buy_price": 244.00000000000003
+    },
     {
       "market": "KRW-BOB",
       "profit": 0.0,
@@ -2133,8 +2206,8 @@
     "KRW-ZBT": 108.0
   },
   "archived_profit": 0,
-  "realized_profit": 2777.709981179448,
-  "unrealized_profit": 1454.738241361857,
+  "realized_profit": 2662.6411524637106,
+  "unrealized_profit": 1701.1195032382777,
   "start_date": "2025-12-17",
   "today_date": "2025-12-18"
 }
