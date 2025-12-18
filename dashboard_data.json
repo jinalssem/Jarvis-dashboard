@@ -1,28 +1,28 @@
 {
-  "last_update": "2025-12-18T21:10:20.918884",
+  "last_update": "2025-12-18T21:16:55.505312",
   "today_profit": -10150.32083430135,
   "today_profit_percent": -6.794425128476392,
-  "total_profit": -7602.601215656409,
-  "total_profit_percent": -5.089031724680111,
+  "total_profit": -7714.0740427090695,
+  "total_profit_percent": -5.163649442645184,
   "total_investment": 149391.9006003897,
   "holdings": [
     {
       "market": "KRW-ETC",
       "amount": 0.54898184,
       "avg_price": 17800.0,
-      "current_price": 17870.0,
-      "value": 9810.305480800002,
-      "profit": 38.4287288,
-      "profit_rate": 0.003932584269662922
+      "current_price": 17830.0,
+      "value": 9788.3462072,
+      "profit": 16.469455200000002,
+      "profit_rate": 0.0016853932584269663
     },
     {
       "market": "KRW-XRP",
       "amount": 3.55995717,
       "avg_price": 2745.0,
-      "current_price": 2793.0,
-      "value": 9942.96037581,
-      "profit": 170.87794416,
-      "profit_rate": 0.017486338797814208
+      "current_price": 2785.0,
+      "value": 9914.48071845,
+      "profit": 142.3982868,
+      "profit_rate": 0.014571948998178506
     },
     {
       "market": "KRW-A",
@@ -37,28 +37,28 @@
       "market": "KRW-GLM",
       "amount": 101.77646771,
       "avg_price": 293.6,
-      "current_price": 298.0,
-      "value": 30329.387377580002,
-      "profit": 447.8164579239977,
-      "profit_rate": 0.014986376021798286
+      "current_price": 299.0,
+      "value": 30431.16384529,
+      "profit": 549.5929256339978,
+      "profit_rate": 0.018392370572207006
     },
     {
       "market": "KRW-LINK",
       "amount": 0.53889789,
       "avg_price": 18130.0,
-      "current_price": 18300.0,
-      "value": 9861.831387,
-      "profit": 91.61264129999999,
-      "profit_rate": 0.009376723662437948
+      "current_price": 18260.0,
+      "value": 9840.2754714,
+      "profit": 70.0567257,
+      "profit_rate": 0.007170435741864313
     },
     {
       "market": "KRW-GALA",
       "amount": 2472.66700711,
       "avg_price": 9.297,
-      "current_price": 9.065,
-      "value": 22414.726419452152,
-      "profit": -573.6587456495228,
-      "profit_rate": -0.024954286328923426
+      "current_price": 9.059,
+      "value": 22399.89041740949,
+      "profit": -588.4947476921833,
+      "profit_rate": -0.02559965580294733
     },
     {
       "market": "KRW-HOOK",
@@ -73,10 +73,10 @@
       "market": "KRW-RAY",
       "amount": 12.1845271,
       "avg_price": 1340.0,
-      "current_price": 1354.0,
-      "value": 16497.8496934,
-      "profit": 170.5833794,
-      "profit_rate": 0.010447761194029851
+      "current_price": 1351.0,
+      "value": 16461.2961121,
+      "profit": 134.0297981,
+      "profit_rate": 0.008208955223880597
     },
     {
       "market": "KRW-MOODENG",
@@ -100,10 +100,10 @@
       "market": "KRW-ZBT",
       "amount": 89.86486486,
       "avg_price": 108.0,
-      "current_price": 111.0,
-      "value": 9974.99999946,
-      "profit": 269.59459458,
-      "profit_rate": 0.027777777777777776
+      "current_price": 110.0,
+      "value": 9885.1351346,
+      "profit": 179.72972972,
+      "profit_rate": 0.018518518518518517
     }
   ],
   "trades": [
@@ -717,6 +717,27 @@
     }
   ],
   "raw_trades": [
+    {
+      "type": "sell",
+      "market": "KRW-ZBT",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "volume": 0,
+      "time": "2025-12-18T21:15:35.697164",
+      "profit_rate": 0.018518518518518517,
+      "reason": "",
+      "strategy": ""
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ZBT",
+      "profit": 179.72972972,
+      "price": 110.0,
+      "amount": 89.86486486,
+      "volume": 89.86486486,
+      "time": "2025-12-18T21:15:35.694669"
+    },
     {
       "type": "buy",
       "market": "KRW-A",
@@ -2622,7 +2643,7 @@
   },
   "archived_profit": 0,
   "realized_profit": -9366.353769218284,
-  "unrealized_profit": 1763.7525535618743,
+  "unrealized_profit": 1652.279726509214,
   "start_date": "2025-12-17",
   "today_date": "2025-12-18"
 }
