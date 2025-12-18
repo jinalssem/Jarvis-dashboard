@@ -1,64 +1,64 @@
 {
-  "last_update": "2025-12-19T04:16:50.287238",
+  "last_update": "2025-12-19T04:22:41.854755",
   "today_profit": 20153.616413878095,
   "today_profit_percent": 15.953541233200202,
-  "total_profit": 19549.6827669141,
-  "total_profit_percent": 15.47546920180427,
+  "total_profit": 19767.1458980191,
+  "total_profit_percent": 15.647612352568785,
   "total_investment": 126326.9146284419,
   "holdings": [
     {
       "market": "KRW-QTUM",
       "amount": 5.2444795,
       "avg_price": 1860.0,
-      "current_price": 1842.0,
-      "value": 9660.331239,
-      "profit": -94.40063099999999,
-      "profit_rate": -0.00967741935483871
+      "current_price": 1848.0,
+      "value": 9691.798116,
+      "profit": -62.93375399999999,
+      "profit_rate": -0.0064516129032258064
     },
     {
       "market": "KRW-A",
       "amount": 88.67367298,
       "avg_price": 220.0,
-      "current_price": 218.0,
-      "value": 19330.86070964,
-      "profit": -177.34734596,
-      "profit_rate": -0.00909090909090909
+      "current_price": 219.0,
+      "value": 19419.53438262,
+      "profit": -88.67367298,
+      "profit_rate": -0.004545454545454545
     },
     {
       "market": "KRW-ICX",
       "amount": 80.22293595,
       "avg_price": 76.1,
-      "current_price": 75.0,
-      "value": 6016.720196249999,
-      "profit": -88.24522954499953,
-      "profit_rate": -0.014454664914585998
+      "current_price": 75.3,
+      "value": 6040.787077034999,
+      "profit": -64.17834875999976,
+      "profit_rate": -0.010512483574244379
     },
     {
       "market": "KRW-KNC",
       "amount": 29.95495495,
       "avg_price": 326.0,
-      "current_price": 319.0,
-      "value": 9555.63062905,
-      "profit": -209.68468465,
-      "profit_rate": -0.02147239263803681
+      "current_price": 317.0,
+      "value": 9495.72071915,
+      "profit": -269.59459455,
+      "profit_rate": -0.027607361963190184
     },
     {
       "market": "KRW-ADA",
       "amount": 18.23583181,
       "avg_price": 536.0,
-      "current_price": 526.0,
-      "value": 9592.04753206,
-      "profit": -182.35831810000002,
-      "profit_rate": -0.018656716417910446
+      "current_price": 530.0,
+      "value": 9664.9908593,
+      "profit": -109.41499086,
+      "profit_rate": -0.011194029850746268
     },
     {
       "market": "KRW-LINK",
       "amount": 0.5474753,
       "avg_price": 17850.0,
-      "current_price": 17850.0,
-      "value": 9772.434105,
-      "profit": 0.0,
-      "profit_rate": 0.0
+      "current_price": 17960.0,
+      "value": 9832.656388,
+      "profit": 60.222283,
+      "profit_rate": 0.0061624649859943975
     },
     {
       "market": "KRW-GALA",
@@ -89,6 +89,17 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-A",
+      "type": "buy",
+      "time": "2025-12-19T04:21:27.377362",
+      "price": 218.50079039576997,
+      "volume": 254.39507350000002,
+      "funds": 55585.52463254,
+      "cycle_status": "holding",
+      "profit": 0,
+      "buy_count": 5
+    },
     {
       "market": "KRW-ADA",
       "type": "buy",
@@ -353,17 +364,6 @@
       "profit_unknown": false,
       "avg_buy_price": 230.00000000000003,
       "buy_count": 1
-    },
-    {
-      "market": "KRW-A",
-      "type": "buy",
-      "time": "2025-12-19T02:42:34+09:00",
-      "price": 220.4701391660157,
-      "volume": 176.96356665000002,
-      "funds": 39015.18216664,
-      "cycle_status": "holding",
-      "profit": 0,
-      "buy_count": 4
     },
     {
       "market": "KRW-HOOK",
@@ -1705,6 +1705,15 @@
     }
   ],
   "raw_trades": [
+    {
+      "type": "buy",
+      "market": "KRW-A",
+      "profit": 0,
+      "price": 214.0,
+      "amount": 77.43150685,
+      "volume": 77.43150685,
+      "time": "2025-12-19T04:21:27.377362"
+    },
     {
       "type": "buy",
       "market": "KRW-ADA",
@@ -4824,7 +4833,7 @@
   },
   "archived_profit": 0,
   "realized_profit": 21013.848488470536,
-  "unrealized_profit": -1464.1657215564364,
+  "unrealized_profit": -1246.7025904514367,
   "start_date": "2025-12-17",
   "today_date": "2025-12-19"
 }
