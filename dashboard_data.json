@@ -1,28 +1,28 @@
 {
-  "last_update": "2025-12-18T20:45:30.673785",
+  "last_update": "2025-12-18T20:51:53.457372",
   "today_profit": 1878.6740873806439,
-  "today_profit_percent": 0.9138568833263222,
-  "total_profit": 2618.9819160801426,
-  "total_profit_percent": 1.2739701193483646,
-  "total_investment": 205576.40060033367,
+  "today_profit_percent": 0.6189413703947549,
+  "total_profit": -3806.7943077201426,
+  "total_profit_percent": -1.2541730901906372,
+  "total_investment": 303530.21743924526,
   "holdings": [
     {
       "market": "KRW-ETC",
       "amount": 0.54898184,
       "avg_price": 17800.0,
-      "current_price": 17850.0,
-      "value": 9799.325844,
-      "profit": 27.449092000000004,
-      "profit_rate": 0.0028089887640449437
+      "current_price": 17870.0,
+      "value": 9810.305480800002,
+      "profit": 38.4287288,
+      "profit_rate": 0.003932584269662922
     },
     {
       "market": "KRW-XRP",
       "amount": 3.55995717,
       "avg_price": 2745.0,
-      "current_price": 2781.0,
-      "value": 9900.24088977,
-      "profit": 128.15845812,
-      "profit_rate": 0.013114754098360656
+      "current_price": 2788.0,
+      "value": 9925.16058996,
+      "profit": 153.07815831,
+      "profit_rate": 0.015664845173041893
     },
     {
       "market": "KRW-A",
@@ -44,21 +44,21 @@
     },
     {
       "market": "KRW-CTXC",
-      "amount": 2754.14215686,
-      "avg_price": 20.4,
-      "current_price": 20.07,
-      "value": 55275.6330881802,
-      "profit": -908.8669117637953,
-      "profit_rate": -0.016176470588235212
+      "amount": 7691.53277639,
+      "avg_price": 20.04,
+      "current_price": 19.01,
+      "value": 146216.03807917392,
+      "profit": -7922.278759681682,
+      "profit_rate": -0.051397205588822235
     },
     {
       "market": "KRW-LINK",
       "amount": 0.53889789,
       "avg_price": 18130.0,
-      "current_price": 18260.0,
-      "value": 9840.2754714,
-      "profit": 70.0567257,
-      "profit_rate": 0.007170435741864313
+      "current_price": 18280.0,
+      "value": 9851.0534292,
+      "profit": 80.8346835,
+      "profit_rate": 0.00827357970215113
     },
     {
       "market": "KRW-GALA",
@@ -82,28 +82,28 @@
       "market": "KRW-RAY",
       "amount": 12.1845271,
       "avg_price": 1340.0,
-      "current_price": 1352.0,
-      "value": 16473.4806392,
-      "profit": 146.21432520000002,
-      "profit_rate": 0.008955223880597015
+      "current_price": 1354.0,
+      "value": 16497.8496934,
+      "profit": 170.5833794,
+      "profit_rate": 0.010447761194029851
     },
     {
       "market": "KRW-MOODENG",
       "amount": 198.26917853,
       "avg_price": 101.0,
-      "current_price": 104.0,
-      "value": 20619.99456712,
-      "profit": 594.80753559,
-      "profit_rate": 0.0297029702970297
+      "current_price": 106.0,
+      "value": 21016.53292418,
+      "profit": 991.34589265,
+      "profit_rate": 0.04950495049504951
     },
     {
       "market": "KRW-SHELL",
       "amount": 153.91143342,
       "avg_price": 63.5,
-      "current_price": 63.23,
-      "value": 9731.8199351466,
-      "profit": -41.55608702340049,
-      "profit_rate": -0.004251968503937057
+      "current_price": 64.01,
+      "value": 9851.8708532142,
+      "profit": 78.4948310442008,
+      "profit_rate": 0.008031496062992206
     },
     {
       "market": "KRW-ZBT",
@@ -119,13 +119,13 @@
     {
       "market": "KRW-CTXC",
       "type": "buy",
-      "time": "2025-12-18T20:44:49+09:00",
-      "price": 20.229138800759486,
-      "volume": 4842.24271554,
-      "funds": 97954.3999996252,
+      "time": "2025-12-18T20:47:23+09:00",
+      "price": 20.04053086437389,
+      "volume": 7691.53277639,
+      "funds": 154142.39999958719,
       "cycle_status": "holding",
       "profit": 0,
-      "buy_count": 4
+      "buy_count": 5
     },
     {
       "market": "KRW-OPEN",
@@ -693,6 +693,16 @@
     }
   ],
   "raw_trades": [
+    {
+      "market": "KRW-CTXC",
+      "type": "buy",
+      "time": "2025-12-18T20:47:23+09:00",
+      "price": 19.72,
+      "volume": 2849.29006085,
+      "funds": 56187.999999962,
+      "fee": 0.0,
+      "uuid": "C0152000000124993776"
+    },
     {
       "market": "KRW-CTXC",
       "type": "buy",
@@ -2453,11 +2463,11 @@
     "KRW-BOB": 18.27,
     "KRW-OPEN": 244.0,
     "KRW-ZBT": 108.0,
-    "KRW-CTXC": 20.4
+    "KRW-CTXC": 20.04
   },
   "archived_profit": 0,
   "realized_profit": 2662.6411524637106,
-  "unrealized_profit": -43.65923638356787,
+  "unrealized_profit": -6469.435460183853,
   "start_date": "2025-12-17",
   "today_date": "2025-12-18"
 }
