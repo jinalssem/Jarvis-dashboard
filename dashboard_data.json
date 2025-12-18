@@ -1,37 +1,37 @@
 {
-  "last_update": "2025-12-19T01:38:26.646091",
+  "last_update": "2025-12-19T01:44:24.182559",
   "today_profit": 381.8529553939661,
   "today_profit_percent": 0.25988507123984766,
-  "total_profit": 8666.322345021683,
-  "total_profit_percent": 5.898207066905505,
+  "total_profit": 8126.829210558483,
+  "total_profit_percent": 5.531033761833862,
   "total_investment": 146931.46996564278,
   "holdings": [
     {
       "market": "KRW-XRP",
       "amount": 3.55995717,
       "avg_price": 2745.0,
-      "current_price": 2839.0,
-      "value": 10106.718405630001,
-      "profit": 334.63597398,
-      "profit_rate": 0.03424408014571949
+      "current_price": 2842.0,
+      "value": 10117.39827714,
+      "profit": 345.31584549,
+      "profit_rate": 0.03533697632058288
     },
     {
       "market": "KRW-GLM",
       "amount": 101.77646771,
       "avg_price": 293.6,
-      "current_price": 302.0,
-      "value": 30736.493248420004,
-      "profit": 854.9223287639977,
-      "profit_rate": 0.028610354223433162
+      "current_price": 303.0,
+      "value": 30838.269716130002,
+      "profit": 956.6987964739977,
+      "profit_rate": 0.03201634877384188
     },
     {
       "market": "KRW-CTXC",
       "amount": 4074.68421052,
       "avg_price": 18.74,
-      "current_price": 18.4,
-      "value": 74974.189473568,
-      "profit": -1385.3926315767994,
-      "profit_rate": -0.018143009605122724
+      "current_price": 18.24,
+      "value": 74322.2399998848,
+      "profit": -2037.34210526,
+      "profit_rate": -0.026680896478121666
     },
     {
       "market": "KRW-HOOK",
@@ -982,6 +982,48 @@
     }
   ],
   "raw_trades": [
+    {
+      "type": "sell",
+      "market": "KRW-GLM",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "volume": 0,
+      "time": "2025-12-19T01:43:00.170483",
+      "profit_rate": 0.03201634877384188,
+      "reason": "",
+      "strategy": ""
+    },
+    {
+      "type": "sell",
+      "market": "KRW-GLM",
+      "profit": 956.6987964739977,
+      "price": 303.0,
+      "amount": 101.77646771,
+      "volume": 101.77646771,
+      "time": "2025-12-19T01:43:00.168596"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-XRP",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "volume": 0,
+      "time": "2025-12-19T01:42:58.784526",
+      "profit_rate": 0.034972677595628415,
+      "reason": "",
+      "strategy": ""
+    },
+    {
+      "type": "sell",
+      "market": "KRW-XRP",
+      "profit": 341.75588832,
+      "price": 2841.0,
+      "amount": 3.55995717,
+      "volume": 3.55995717,
+      "time": "2025-12-19T01:42:58.782486"
+    },
     {
       "type": "buy",
       "market": "KRW-AERGO",
@@ -3165,7 +3207,7 @@
   },
   "archived_profit": 0,
   "realized_profit": 8374.197861797686,
-  "unrealized_profit": 292.12448322399774,
+  "unrealized_profit": -247.36865123920273,
   "start_date": "2025-12-17",
   "today_date": "2025-12-19"
 }
