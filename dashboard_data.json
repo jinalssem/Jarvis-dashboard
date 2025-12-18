@@ -1,28 +1,28 @@
 {
-  "last_update": "2025-12-19T04:10:34.625606",
+  "last_update": "2025-12-19T04:16:50.287238",
   "today_profit": 20153.616413878095,
   "today_profit_percent": 15.953541233200202,
-  "total_profit": 19922.77255436386,
-  "total_profit_percent": 15.770805938672346,
+  "total_profit": 19549.6827669141,
+  "total_profit_percent": 15.47546920180427,
   "total_investment": 126326.9146284419,
   "holdings": [
     {
       "market": "KRW-QTUM",
       "amount": 5.2444795,
       "avg_price": 1860.0,
-      "current_price": 1849.0,
-      "value": 9697.0425955,
-      "profit": -57.689274499999996,
-      "profit_rate": -0.005913978494623656
+      "current_price": 1842.0,
+      "value": 9660.331239,
+      "profit": -94.40063099999999,
+      "profit_rate": -0.00967741935483871
     },
     {
       "market": "KRW-A",
       "amount": 88.67367298,
       "avg_price": 220.0,
-      "current_price": 219.0,
-      "value": 19419.53438262,
-      "profit": -88.67367298,
-      "profit_rate": -0.004545454545454545
+      "current_price": 218.0,
+      "value": 19330.86070964,
+      "profit": -177.34734596,
+      "profit_rate": -0.00909090909090909
     },
     {
       "market": "KRW-ICX",
@@ -46,28 +46,28 @@
       "market": "KRW-ADA",
       "amount": 18.23583181,
       "avg_price": 536.0,
-      "current_price": 532.0,
-      "value": 9701.462522920001,
-      "profit": -72.94332724,
-      "profit_rate": -0.007462686567164179
+      "current_price": 526.0,
+      "value": 9592.04753206,
+      "profit": -182.35831810000002,
+      "profit_rate": -0.018656716417910446
     },
     {
       "market": "KRW-LINK",
       "amount": 0.5474753,
       "avg_price": 17850.0,
-      "current_price": 17970.0,
-      "value": 9838.131141,
-      "profit": 65.697036,
-      "profit_rate": 0.0067226890756302525
+      "current_price": 17850.0,
+      "value": 9772.434105,
+      "profit": 0.0,
+      "profit_rate": 0.0
     },
     {
       "market": "KRW-GALA",
       "amount": 1092.91114276,
       "avg_price": 8.94,
-      "current_price": 8.857,
-      "value": 9679.91399142532,
-      "profit": -90.71162484908021,
-      "profit_rate": -0.009284116331096218
+      "current_price": 8.781,
+      "value": 9596.85274457556,
+      "profit": -173.77287169883883,
+      "profit_rate": -0.01778523489932874
     },
     {
       "market": "KRW-HOOK",
@@ -82,13 +82,24 @@
       "market": "KRW-RAY",
       "amount": 10.46851574,
       "avg_price": 1305.0,
-      "current_price": 1299.0,
-      "value": 13598.601946260002,
-      "profit": -62.811094440000005,
-      "profit_rate": -0.004597701149425287
+      "current_price": 1300.0,
+      "value": 13609.070462000001,
+      "profit": -52.342578700000004,
+      "profit_rate": -0.0038314176245210726
     }
   ],
   "trades": [
+    {
+      "market": "KRW-ADA",
+      "type": "buy",
+      "time": "2025-12-19T04:15:21.730981",
+      "price": 536.5260041241713,
+      "volume": 54.62292022,
+      "funds": 29306.617119230003,
+      "cycle_status": "holding",
+      "profit": 0,
+      "buy_count": 3
+    },
     {
       "market": "KRW-SHELL",
       "type": "sell",
@@ -1453,17 +1464,6 @@
       "buy_count": 2
     },
     {
-      "market": "KRW-ADA",
-      "type": "buy",
-      "time": "2025-12-18T06:43:39+09:00",
-      "price": 546.29301075212,
-      "volume": 35.76658752,
-      "funds": 19539.036780630002,
-      "cycle_status": "holding",
-      "profit": 0,
-      "buy_count": 2
-    },
-    {
       "market": "KRW-FITFI",
       "type": "sell",
       "time": "2025-12-18T06:15:15+09:00",
@@ -1705,6 +1705,15 @@
     }
   ],
   "raw_trades": [
+    {
+      "type": "buy",
+      "market": "KRW-ADA",
+      "profit": 0,
+      "price": 518.0,
+      "amount": 18.8563327,
+      "volume": 18.8563327,
+      "time": "2025-12-19T04:15:21.730981"
+    },
     {
       "market": "KRW-SHELL",
       "type": "sell",
@@ -4815,7 +4824,7 @@
   },
   "archived_profit": 0,
   "realized_profit": 21013.848488470536,
-  "unrealized_profit": -1091.0759341066778,
+  "unrealized_profit": -1464.1657215564364,
   "start_date": "2025-12-17",
   "today_date": "2025-12-19"
 }
