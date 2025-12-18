@@ -1,19 +1,19 @@
 {
-  "last_update": "2025-12-18T15:39:33.526800",
+  "last_update": "2025-12-18T15:45:16.393584",
   "today_profit": 11562.800946775082,
   "today_profit_percent": 4.683130168988762,
-  "total_profit": 19702.44430031612,
-  "total_profit_percent": 7.979823550570191,
+  "total_profit": 19779.62266517272,
+  "total_profit_percent": 8.011082095149217,
   "total_investment": 246903.25764043117,
   "holdings": [
     {
       "market": "KRW-ETH",
       "amount": 0.00228418,
       "avg_price": 4279001.0,
-      "current_price": 4216000.0,
-      "value": 9630.102879999999,
-      "profit": -143.90562418,
-      "profit_rate": -0.014723296395583922
+      "current_price": 4218000.0,
+      "value": 9634.67124,
+      "profit": -139.33726417999998,
+      "profit_rate": -0.014255897579832302
     },
     {
       "market": "KRW-ETC",
@@ -37,10 +37,10 @@
       "market": "KRW-A",
       "amount": 43.55895197,
       "avg_price": 224.0,
-      "current_price": 225.0,
-      "value": 9800.764193250001,
-      "profit": 43.55895197,
-      "profit_rate": 0.004464285714285714
+      "current_price": 224.0,
+      "value": 9757.20524128,
+      "profit": 0.0,
+      "profit_rate": 0.0
     },
     {
       "market": "KRW-ICX",
@@ -55,19 +55,19 @@
       "market": "KRW-GLM",
       "amount": 32.59803922,
       "avg_price": 299.0,
-      "current_price": 290.0,
-      "value": 9453.431373799998,
-      "profit": -293.38235297999995,
-      "profit_rate": -0.030100334448160536
+      "current_price": 291.0,
+      "value": 9486.02941302,
+      "profit": -260.78431376,
+      "profit_rate": -0.026755852842809364
     },
     {
       "market": "KRW-LINK",
       "amount": 0.53889789,
       "avg_price": 18130.0,
-      "current_price": 18070.0,
-      "value": 9737.8848723,
-      "profit": -32.3338734,
-      "profit_rate": -0.003309431880860452
+      "current_price": 18080.0,
+      "value": 9743.2738512,
+      "profit": -26.9448945,
+      "profit_rate": -0.0027578599007170436
     },
     {
       "market": "KRW-GALA",
@@ -91,10 +91,10 @@
       "market": "KRW-W",
       "amount": 769.88736488,
       "avg_price": 50.85,
-      "current_price": 49.91,
-      "value": 38425.0783811608,
-      "profit": -723.6941229872036,
-      "profit_rate": -0.018485742379547785
+      "current_price": 49.8,
+      "value": 38340.390771023995,
+      "profit": -808.3817331240032,
+      "profit_rate": -0.020648967551622502
     },
     {
       "market": "KRW-RAY",
@@ -109,10 +109,10 @@
       "market": "KRW-MOODENG",
       "amount": 198.26917853,
       "avg_price": 101.0,
-      "current_price": 102.0,
-      "value": 20223.45621006,
-      "profit": 198.26917853,
-      "profit_rate": 0.009900990099009901
+      "current_price": 103.0,
+      "value": 20421.72538859,
+      "profit": 396.53835706,
+      "profit_rate": 0.019801980198019802
     },
     {
       "market": "KRW-XYO",
@@ -127,10 +127,10 @@
       "market": "KRW-SHELL",
       "amount": 153.91143342,
       "avg_price": 63.5,
-      "current_price": 63.36,
-      "value": 9751.8284214912,
-      "profit": -21.547600678800087,
-      "profit_rate": -0.002204724409448828
+      "current_price": 63.13,
+      "value": 9716.428791804601,
+      "profit": -56.94723036539961,
+      "profit_rate": -0.005826771653543267
     },
     {
       "market": "KRW-BOB",
@@ -6429,7 +6429,7 @@
     }
   ],
   "realized_profit": 21388.4457870423,
-  "unrealized_profit": -1686.0014867261798,
+  "unrealized_profit": -1608.8231218695787,
   "start_date": "2025-12-15",
   "today_date": "2025-12-18",
   "saved_avg_prices": {
