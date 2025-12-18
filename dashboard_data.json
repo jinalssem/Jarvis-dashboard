@@ -1,19 +1,19 @@
 {
-  "last_update": "2025-12-19T01:50:11.507972",
+  "last_update": "2025-12-19T01:55:50.981810",
   "today_profit": 381.8529553939661,
   "today_profit_percent": 0.25988507123984766,
-  "total_profit": 9017.758312369295,
-  "total_profit_percent": 6.1373906587049945,
+  "total_profit": 8117.767828884886,
+  "total_profit_percent": 5.524866681578205,
   "total_investment": 146931.46996564278,
   "holdings": [
     {
       "market": "KRW-XRP",
       "amount": 3.55995717,
       "avg_price": 2745.0,
-      "current_price": 2840.0,
-      "value": 10110.2783628,
-      "profit": 338.19593115000004,
-      "profit_rate": 0.03460837887067395
+      "current_price": 2839.0,
+      "value": 10106.718405630001,
+      "profit": 334.63597398,
+      "profit_rate": 0.03424408014571949
     },
     {
       "market": "KRW-GLM",
@@ -28,10 +28,10 @@
       "market": "KRW-CTXC",
       "amount": 4074.68421052,
       "avg_price": 18.74,
-      "current_price": 18.44,
-      "value": 75137.1768419888,
-      "profit": -1222.4052631559885,
-      "profit_rate": -0.01600853788687285
+      "current_price": 18.22,
+      "value": 74240.74631567439,
+      "profit": -2118.835789470398,
+      "profit_rate": -0.02774813233724651
     },
     {
       "market": "KRW-HOOK",
@@ -982,6 +982,48 @@
     }
   ],
   "raw_trades": [
+    {
+      "type": "sell",
+      "market": "KRW-GLM",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "volume": 0,
+      "time": "2025-12-19T01:54:37.173678",
+      "profit_rate": 0.03201634877384188,
+      "reason": "",
+      "strategy": ""
+    },
+    {
+      "type": "sell",
+      "market": "KRW-GLM",
+      "profit": 956.6987964739977,
+      "price": 303.0,
+      "amount": 101.77646771,
+      "volume": 101.77646771,
+      "time": "2025-12-19T01:54:37.170401"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-XRP",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "volume": 0,
+      "time": "2025-12-19T01:54:35.982559",
+      "profit_rate": 0.033879781420765025,
+      "reason": "",
+      "strategy": ""
+    },
+    {
+      "type": "sell",
+      "market": "KRW-XRP",
+      "profit": 331.07601681,
+      "price": 2838.0,
+      "amount": 3.55995717,
+      "volume": 3.55995717,
+      "time": "2025-12-19T01:54:35.978773"
+    },
     {
       "type": "sell",
       "market": "KRW-GLM",
@@ -3207,7 +3249,7 @@
   },
   "archived_profit": 0,
   "realized_profit": 8374.197861797686,
-  "unrealized_profit": 643.5604505716097,
+  "unrealized_profit": -256.43003291279996,
   "start_date": "2025-12-17",
   "today_date": "2025-12-19"
 }
