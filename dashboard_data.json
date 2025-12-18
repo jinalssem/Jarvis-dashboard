@@ -1,55 +1,46 @@
 {
-  "last_update": "2025-12-19T00:36:14.012681",
-  "today_profit": 26.126766033998138,
-  "today_profit_percent": 0.0173721756747754,
-  "total_profit": 9268.647759457437,
-  "total_profit_percent": 6.162897349613838,
-  "total_investment": 150394.32321614446,
+  "last_update": "2025-12-19T00:42:12.797622",
+  "today_profit": 381.8529553939661,
+  "today_profit_percent": 0.2997136249968066,
+  "total_profit": 7901.4718259542915,
+  "total_profit_percent": 6.201808131414342,
+  "total_investment": 127405.93805104279,
   "holdings": [
     {
       "market": "KRW-XRP",
       "amount": 3.55995717,
       "avg_price": 2745.0,
-      "current_price": 2859.0,
-      "value": 10177.91754903,
-      "profit": 405.83511738,
-      "profit_rate": 0.041530054644808745
+      "current_price": 2866.0,
+      "value": 10202.83724922,
+      "profit": 430.75481757,
+      "profit_rate": 0.04408014571948998
     },
     {
       "market": "KRW-GLM",
       "amount": 101.77646771,
       "avg_price": 293.6,
-      "current_price": 302.0,
-      "value": 30736.493248420004,
-      "profit": 854.9223287639977,
-      "profit_rate": 0.028610354223433162
+      "current_price": 303.0,
+      "value": 30838.269716130002,
+      "profit": 956.6987964739977,
+      "profit_rate": 0.03201634877384188
     },
     {
       "market": "KRW-CTXC",
       "amount": 4074.68421052,
       "avg_price": 18.74,
-      "current_price": 18.6,
-      "value": 75789.12631567201,
-      "profit": -570.4557894727878,
-      "profit_rate": -0.007470651013873907
-    },
-    {
-      "market": "KRW-GALA",
-      "amount": 2472.66700711,
-      "avg_price": 9.297,
-      "current_price": 9.438,
-      "value": 23337.031213104183,
-      "profit": 348.64604800251004,
-      "profit_rate": 0.015166182639561149
+      "current_price": 18.23,
+      "value": 74281.4931577796,
+      "profit": -2078.088947365192,
+      "profit_rate": -0.027214514407683993
     },
     {
       "market": "KRW-HOOK",
       "amount": 31.81388158,
       "avg_price": 50.9,
-      "current_price": 50.96,
-      "value": 1621.2354053168,
-      "profit": 1.9088328948000723,
-      "profit_rate": 0.001178781925343856
+      "current_price": 51.17,
+      "value": 1627.9163204486001,
+      "profit": 8.5897480266001,
+      "profit_rate": 0.0053045186640472124
     },
     {
       "market": "KRW-SHELL",
@@ -62,6 +53,21 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-GALA",
+      "type": "sell",
+      "time": "2025-12-19T00:40:23+09:00",
+      "price": 9.441,
+      "volume": 2472.66700711,
+      "funds": 23344.449214125514,
+      "fee": 0.0,
+      "uuid": "C0616000000249602113",
+      "cycle_status": "completed",
+      "profit": 355.726189359968,
+      "profit_unknown": false,
+      "avg_buy_price": 9.297136637753045,
+      "buy_count": 2
+    },
     {
       "market": "KRW-POLA",
       "type": "sell",
@@ -700,17 +706,6 @@
       "buy_count": 2
     },
     {
-      "market": "KRW-GALA",
-      "type": "buy",
-      "time": "2025-12-18T06:54:48+09:00",
-      "price": 9.297136637753045,
-      "volume": 2472.6670071099998,
-      "funds": 22988.723024765546,
-      "cycle_status": "holding",
-      "profit": 0,
-      "buy_count": 2
-    },
-    {
       "market": "KRW-HOOK",
       "type": "buy",
       "time": "2025-12-18T06:32:23+09:00",
@@ -978,6 +973,37 @@
     }
   ],
   "raw_trades": [
+    {
+      "type": "sell",
+      "market": "KRW-GLM",
+      "profit": 0,
+      "price": 0,
+      "amount": 0,
+      "volume": 0,
+      "time": "2025-12-19T00:41:00.468380",
+      "profit_rate": 0.03201634877384188,
+      "reason": "",
+      "strategy": ""
+    },
+    {
+      "type": "sell",
+      "market": "KRW-GLM",
+      "profit": 956.6987964739977,
+      "price": 303.0,
+      "amount": 101.77646771,
+      "volume": 101.77646771,
+      "time": "2025-12-19T00:41:00.466250"
+    },
+    {
+      "market": "KRW-GALA",
+      "type": "sell",
+      "time": "2025-12-19T00:40:23+09:00",
+      "price": 9.441,
+      "volume": 2472.66700711,
+      "funds": 23344.449214125514,
+      "fee": 0.0,
+      "uuid": "C0616000000249602113"
+    },
     {
       "type": "buy",
       "market": "KRW-EGG",
@@ -2576,9 +2602,15 @@
   "daily_profits": {
     "2025-12-17": 783.9670650830667,
     "2025-12-18": 7208.377841320652,
-    "2025-12-19": 26.126766033998138
+    "2025-12-19": 381.8529553939661
   },
   "trade_cycles": [
+    {
+      "market": "KRW-GALA",
+      "profit": 355.726189359968,
+      "sell_time": "2025-12-19T00:40:23+09:00",
+      "avg_buy_price": 9.297136637753045
+    },
     {
       "market": "KRW-EGG",
       "profit": 838.1299915406707,
@@ -2945,8 +2977,8 @@
     "KRW-POLA": 10.4
   },
   "archived_profit": 0,
-  "realized_profit": 8018.471672437717,
-  "unrealized_profit": 1250.17608701972,
+  "realized_profit": 8374.197861797686,
+  "unrealized_profit": -472.72603584339413,
   "start_date": "2025-12-17",
   "today_date": "2025-12-19"
 }
