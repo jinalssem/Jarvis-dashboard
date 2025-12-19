@@ -1405,15 +1405,14 @@
                             displayColors: true,
                             callbacks: {
                                 title: function(tooltipItems) {
-                                    // 날짜 표시
                                     return '📅 ' + tooltipItems[0].label;
                                 },
                                 label: function(context) {
                                     if (context.datasetIndex === 0) {
-                                        // 일일 수익금 (막대)
-                                        const value = context.parsed.y;
+                                        // 일일 수익금 (막대) - 정수로 변환
+                                        const value = Math.round(context.parsed.y);
                                         const sign = value >= 0 ? '+' : '';
-                                        return '💰 일일 수익금: ' + sign + value.toLocaleString() + '원';
+                                        return '💰 일일 수익금: ' + sign + value.toLocaleString('ko-KR') + '원';
                                     } else {
                                         // 누적 수익률 (라인)
                                         const value = context.parsed.y;
