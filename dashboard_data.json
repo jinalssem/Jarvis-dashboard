@@ -1,10 +1,10 @@
 {
-  "last_update": "2025-12-20T00:41:20.060496",
+  "last_update": "2025-12-20T00:46:52.897321",
   "today_profit": 12440.431581222296,
-  "today_profit_percent": 6.468233308489646,
-  "total_profit": 247800.7957261466,
-  "total_profit_percent": 128.84065559312523,
-  "total_investment": 192331.2129897055,
+  "today_profit_percent": 6.1559374768631345,
+  "total_profit": 253016.20824622875,
+  "total_profit_percent": 125.20079777198005,
+  "total_investment": 202088.3354968955,
   "holdings": [
     {
       "market": "KRW-WIKEN",
@@ -34,16 +34,36 @@
       "profit_rate": 0.0003401939105290547
     },
     {
+      "market": "KRW-AGI",
+      "amount": 473.64672365,
+      "avg_price": 20.6,
+      "current_price": 20.52,
+      "value": 9719.230769298,
+      "profit": -37.891737892000876,
+      "profit_rate": -0.0038834951456311576
+    },
+    {
       "market": "KRW-DEXE",
       "amount": 31.38724239,
       "avg_price": 5095.0,
-      "current_price": 5005.0,
-      "value": 157093.14816195,
-      "profit": -2824.8518151000003,
-      "profit_rate": -0.017664376840039256
+      "current_price": 4999.0,
+      "value": 156904.82470761,
+      "profit": -3013.17526944,
+      "profit_rate": -0.01884200196270854
     }
   ],
   "trades": [
+    {
+      "market": "KRW-WIKEN",
+      "type": "buy",
+      "time": "2025-12-20T00:45:31.122973",
+      "price": 2.128354685038517,
+      "volume": 14236.58134044,
+      "funds": 30300.494594857402,
+      "cycle_status": "holding",
+      "profit": 0,
+      "buy_count": 2
+    },
     {
       "market": "KRW-DEXE",
       "type": "buy",
@@ -54,6 +74,17 @@
       "cycle_status": "holding",
       "profit": 0,
       "buy_count": 6
+    },
+    {
+      "market": "KRW-AGI",
+      "type": "buy",
+      "time": "2025-12-20T00:23:53+09:00",
+      "price": 20.6,
+      "volume": 947.2934473,
+      "funds": 19514.24501438,
+      "cycle_status": "holding",
+      "profit": 0,
+      "buy_count": 2
     },
     {
       "market": "KRW-HAEDAL",
@@ -2861,17 +2892,6 @@
       "buy_count": 1
     },
     {
-      "market": "KRW-WIKEN",
-      "type": "buy",
-      "time": "2025-12-19T08:47:33.997209",
-      "price": 2.12,
-      "volume": 8289.47368421,
-      "funds": 17573.6842105252,
-      "cycle_status": "holding",
-      "profit": 0,
-      "buy_count": 1
-    },
-    {
       "market": "KRW-JST",
       "type": "buy",
       "time": "2025-12-19T07:07:36+09:00",
@@ -3372,10 +3392,10 @@
       "fee": 0.0,
       "uuid": "C0293000000111373706",
       "cycle_status": "completed",
-      "profit": 838.1299915406707,
+      "profit": 6279.757703854799,
       "profit_unknown": false,
-      "avg_buy_price": 2.0919128761803525,
-      "buy_count": 2
+      "avg_buy_price": 1.52,
+      "buy_count": 1
     },
     {
       "market": "KRW-ICX",
@@ -3396,12 +3416,31 @@
   "raw_trades": [
     {
       "type": "buy",
+      "market": "KRW-WIKEN",
+      "profit": 0,
+      "price": 2.14,
+      "amount": 5947.10765623,
+      "volume": 5947.10765623,
+      "time": "2025-12-20T00:45:31.122973"
+    },
+    {
+      "type": "buy",
       "market": "KRW-DEXE",
       "profit": 0,
       "price": 4880.0,
       "amount": 3.25382621,
       "volume": 3.25382621,
       "time": "2025-12-20T00:29:19.527665"
+    },
+    {
+      "market": "KRW-AGI",
+      "type": "buy",
+      "time": "2025-12-20T00:23:53+09:00",
+      "price": 20.6,
+      "volume": 473.64672365,
+      "funds": 9757.12250719,
+      "fee": 3.9,
+      "uuid": "C0777000000130205186"
     },
     {
       "type": "buy",
@@ -8195,30 +8234,10 @@
       "funds": 26543.023720095996,
       "fee": 0.0,
       "uuid": "C0115000000187693479"
-    },
-    {
-      "market": "KRW-EGG",
-      "type": "buy",
-      "time": "2025-12-17T20:01:31+09:00",
-      "price": 2.083,
-      "volume": 4526.30820931,
-      "funds": 9428.29999999273,
-      "fee": 0.0,
-      "uuid": "C0293000000111365185"
-    },
-    {
-      "market": "KRW-EGG",
-      "type": "buy",
-      "time": "2025-12-17T20:00:31+09:00",
-      "price": 2.1,
-      "volume": 4988.47619047,
-      "funds": 10475.799999987,
-      "fee": 0.0,
-      "uuid": "C0293000000111364922"
     }
   ],
   "daily_profits": {
-    "2025-12-17": 3523.5741242327686,
+    "2025-12-17": 8965.201836546898,
     "2025-12-18": -1596.7485129846564,
     "2025-12-19": 236103.62940686755,
     "2025-12-20": 12440.431581222296
@@ -9498,9 +9517,9 @@
     },
     {
       "market": "KRW-EGG",
-      "profit": 838.1299915406707,
+      "profit": 6279.757703854799,
       "sell_time": "2025-12-17T20:31:19+09:00",
-      "avg_buy_price": 2.0919128761803525
+      "avg_buy_price": 1.52
     },
     {
       "market": "KRW-EGG",
@@ -9745,11 +9764,12 @@
     "KRW-AI16Z": 17.79,
     "KRW-SIX": 18.34,
     "KRW-DEXE": 5095.0,
-    "KRW-JST": 58.79
+    "KRW-JST": 58.79,
+    "KRW-AGI": 20.6
   },
   "archived_profit": 0,
-  "realized_profit": 250470.886599338,
-  "unrealized_profit": -2670.0908731913805,
+  "realized_profit": 255912.51431165214,
+  "unrealized_profit": -2896.3060654233814,
   "start_date": "2025-12-17",
   "today_date": "2025-12-20"
 }
