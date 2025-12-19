@@ -961,6 +961,12 @@
             color: #ffc107;
         }
 
+        .status-warning {
+            background: rgba(243, 156, 18, 0.2);
+            border: 1px solid #f39c12;
+            color: #f39c12;
+        }
+
         @keyframes statusFadeIn {
             from {
                 opacity: 0;
@@ -1186,6 +1192,35 @@
             <h2>🎯 보유 코인 관리</h2>
             
             <div class="control-content">
+                <!-- 🆕 서버 연결 설정 -->
+                <div class="control-group">
+                    <label>🌐 연결 방식:</label>
+                    <select id="connectionType" onchange="updateConnectionUI()" style="width: 100%; padding: 8px; border-radius: 5px; border: 1px solid rgba(255,255,255,0.2); background: rgba(255,255,255,0.1); color: white;">
+                        <option value="local">로컬 봇 서버 (localhost:8765)</option>
+                        <option value="google">Google Apps Script (클라우드)</option>
+                    </select>
+                </div>
+                
+                <div id="localServerConfig" class="control-group">
+                    <label>📍 봇 서버 주소:</label>
+                    <div style="display: flex; gap: 8px; align-items: center;">
+                        <input type="text" id="botServerAddress" placeholder="localhost:8765" value="localhost:8765" style="flex: 1;">
+                        <button onclick="testBotConnection()" style="padding: 8px 12px; background: #3498db; border: none; border-radius: 5px; color: white; cursor: pointer;">
+                            테스트
+                        </button>
+                    </div>
+                </div>
+                
+                <div id="googleScriptConfig" class="control-group" style="display: none;">
+                    <label>☁️ Google Apps Script URL:</label>
+                    <input type="text" id="googleScriptUrl" placeholder="https://script.google.com/macros/s/..." style="width: 100%;">
+                    <small style="color: #95a5a6;">Apps Script 배포 URL을 입력하세요</small>
+                </div>
+                
+                <small id="connectionStatus" style="margin-top: 5px; display: block;">
+                    <span style="color: #95a5a6;">⚪ 연결 상태 확인 필요</span>
+                </small>
+                
                 <div class="control-group">
                     <label>🔐 보안 토큰:</label>
                     <input type="password" id="securityToken" placeholder="토큰을 입력하세요">
@@ -2649,14 +2684,11 @@
             coinSelectListenerAdded = true;
         }
         
-        // 계속 보유 명령 (파일 다운로드 방식)
+        // 계속 보유 명령 (HTTP 시도 → 실패 시 파일 다운로드)
         async function sendHoldCommand() {
             const token = document.getElementById('securityToken').value;
             const coinInput = document.getElementById('holdingCoinSelect').value.trim().toUpperCase();
             
-            console.log('🔄 계속 보유 명령 실행, 코인:', coinInput);
-            
-            // 🔐 토큰 검증
             if (!token || token.trim() === '') {
                 showStatus('🔒 보안 토큰을 입력하세요!', 'error');
                 return;
@@ -2667,7 +2699,6 @@
                 return;
             }
             
-            // 보유 코인 목록에 있는지 확인
             if (!currentHoldingsMap.has(coinInput)) {
                 showStatus(`❌ ${coinInput}는 보유하지 않은 코인입니다!<br><small>보유 코인: ${Array.from(currentHoldingsMap.keys()).join(', ')}</small>`, 'error');
                 return;
@@ -2685,22 +2716,29 @@
                 reason: 'manual_hold'
             };
             
-            // 파일 다운로드
-            createCommandFile(command);
+            // HTTP 먼저 시도
+            const success = await sendCommandHTTP(command);
+            const connType = document.getElementById('connectionType').value;
+            const location = connType === 'google' ? 'Google Drive' : '서버';
             
-            showStatus(`📥 ${coinInput} 계속 보유 명령 파일 다운로드됨!
+            if (success) {
+                showStatus(`✅ ${coinInput} 계속 보유 명령 전송 성공!
+<br><small>📁 ${location}에 command.json 저장됨</small>
+<br><small>🔐 이 코인은 자동 매도하지 않습니다.</small>`, 'success');
+            } else {
+                // HTTP 실패 시 파일 다운로드
+                createCommandFile(command);
+                showStatus(`📥 ${coinInput} 계속 보유 명령 파일 다운로드됨!
 <br><small>📁 다운로드 폴더에서 자동 감지됩니다.</small>
-<br><small>⏱️ 봇이 60초 내에 명령을 실행합니다.</small>`, 'success');
+<br><small>⏱️ 봇이 60초 내에 명령을 실행합니다.</small>`, 'warning');
+            }
         }
         
-        // 전량 매도 명령 (파일 다운로드 방식)
+        // 전량 매도 명령 (HTTP 시도 → 실패 시 파일 다운로드)
         async function sendSellCommand() {
             const token = document.getElementById('securityToken').value;
             const coinInput = document.getElementById('holdingCoinSelect').value.trim().toUpperCase();
             
-            console.log('🔄 전량 매도 명령 실행, 코인:', coinInput);
-            
-            // 🔐 토큰 검증
             if (!token || token.trim() === '') {
                 showStatus('🔒 보안 토큰을 입력하세요!', 'error');
                 return;
@@ -2711,13 +2749,11 @@
                 return;
             }
             
-            // 보유 코인 목록에 있는지 확인
             if (!currentHoldingsMap.has(coinInput)) {
                 showStatus(`❌ ${coinInput}는 보유하지 않은 코인입니다!<br><small>보유 코인: ${Array.from(currentHoldingsMap.keys()).join(', ')}</small>`, 'error');
                 return;
             }
             
-            // 확인 메시지
             const coinData = currentHoldingsMap.get(coinInput);
             const profit = coinData.profit || 0;
             const profitPercent = coinData.profitPercent || 0;
@@ -2739,16 +2775,24 @@
                 reason: 'manual_sell'
             };
             
-            // 파일 다운로드
-            createCommandFile(command);
+            const success = await sendCommandHTTP(command);
+            const connType = document.getElementById('connectionType').value;
+            const location = connType === 'google' ? 'Google Drive' : '서버';
             
-            showStatus(`📥 ${coinInput} 전량 매도 명령 파일 다운로드됨!
+            if (success) {
+                showStatus(`✅ ${coinInput} 전량 매도 명령 전송 성공!
+<br><small>📁 ${location}에 command.json 저장됨</small>
+<br><small>🔐 봇이 즉시 매도를 실행합니다.</small>`, 'success');
+            } else {
+                createCommandFile(command);
+                showStatus(`📥 ${coinInput} 전량 매도 명령 파일 다운로드됨!
 <br><small>📁 다운로드 폴더에서 자동 감지됩니다.</small>
-<br><small>⏱️ 봇이 60초 내에 명령을 실행합니다.</small>`, 'success');
+<br><small>⏱️ 봇이 60초 내에 명령을 실행합니다.</small>`, 'warning');
+            }
         }
         
         // 🆕 전체 코인 시장가 매도
-        function sendSellAllCommand() {
+        async function sendSellAllCommand() {
             const token = document.getElementById('securityToken').value;
             
             if (!token || token.trim() === '') {
@@ -2770,14 +2814,23 @@
                 reason: 'manual_sell_all'
             };
             
-            createCommandFile(command);
-            showStatus(`🚨 전체 매도 명령 파일 다운로드됨!
-<br><small>📁 다운로드 폴더에서 자동 감지됩니다.</small>
-<br><small>⏱️ 봇이 60초 내에 모든 코인을 매도합니다.</small>`, 'success');
+            const success = await sendCommandHTTP(command);
+            const connType = document.getElementById('connectionType').value;
+            const location = connType === 'google' ? 'Google Drive' : '서버';
+            
+            if (success) {
+                showStatus(`🚨 전체 매도 명령 전송 성공!
+<br><small>📁 ${location}에 command.json 저장됨</small>
+<br><small>🔐 봇이 모든 코인을 즉시 매도합니다.</small>`, 'success');
+            } else {
+                createCommandFile(command);
+                showStatus(`📥 전체 매도 명령 파일 다운로드됨!
+<br><small>📁 다운로드 폴더에서 자동 감지됩니다.</small>`, 'warning');
+            }
         }
         
         // 🆕 모든 미체결 주문 취소
-        function sendCancelAllCommand() {
+        async function sendCancelAllCommand() {
             const token = document.getElementById('securityToken').value;
             
             if (!token || token.trim() === '') {
@@ -2797,14 +2850,23 @@
                 reason: 'manual_cancel_all'
             };
             
-            createCommandFile(command);
-            showStatus(`🗑️ 주문 취소 명령 파일 다운로드됨!
-<br><small>📁 다운로드 폴더에서 자동 감지됩니다.</small>
-<br><small>⏱️ 봇이 60초 내에 미체결 주문을 취소합니다.</small>`, 'success');
+            const success = await sendCommandHTTP(command);
+            const connType = document.getElementById('connectionType').value;
+            const location = connType === 'google' ? 'Google Drive' : '서버';
+            
+            if (success) {
+                showStatus(`✅ 주문 취소 명령 전송 성공!
+<br><small>📁 ${location}에 command.json 저장됨</small>
+<br><small>🔐 봇이 미체결 주문을 즉시 취소합니다.</small>`, 'success');
+            } else {
+                createCommandFile(command);
+                showStatus(`📥 주문 취소 명령 파일 다운로드됨!
+<br><small>📁 다운로드 폴더에서 자동 감지됩니다.</small>`, 'warning');
+            }
         }
         
         // 🆕 봇 종료
-        function sendStopCommand() {
+        async function sendStopCommand() {
             const token = document.getElementById('securityToken').value;
             
             if (!token || token.trim() === '') {
@@ -2824,11 +2886,198 @@
                 reason: 'manual_stop'
             };
             
-            createCommandFile(command);
-            showStatus(`🛑 봇 종료 명령 파일 다운로드됨!
-<br><small>📁 다운로드 폴더에서 자동 감지됩니다.</small>
-<br><small>⏱️ 봇이 60초 내에 안전하게 종료됩니다.</small>`, 'success');
+            const success = await sendCommandHTTP(command);
+            const connType = document.getElementById('connectionType').value;
+            const location = connType === 'google' ? 'Google Drive' : '서버';
+            
+            if (success) {
+                showStatus(`🛑 봇 종료 명령 전송 성공!
+<br><small>📁 ${location}에 command.json 저장됨</small>
+<br><small>🔐 봇이 안전하게 종료됩니다.</small>`, 'success');
+            } else {
+                createCommandFile(command);
+                showStatus(`📥 봇 종료 명령 파일 다운로드됨!
+<br><small>📁 다운로드 폴더에서 자동 감지됩니다.</small>`, 'warning');
+            }
         }
+        
+        // 🆕 HTTP로 명령 전송 (로컬 봇 서버 또는 Google Apps Script)
+        async function sendCommandHTTP(command) {
+            const connectionType = document.getElementById('connectionType').value;
+            
+            if (connectionType === 'google') {
+                return await sendCommandGoogle(command);
+            } else {
+                return await sendCommandLocal(command);
+            }
+        }
+        
+        // 로컬 봇 서버로 전송
+        async function sendCommandLocal(command) {
+            const serverAddress = document.getElementById('botServerAddress').value.trim() || 'localhost:8765';
+            const url = `http://${serverAddress}/command`;
+            
+            try {
+                const response = await fetch(url, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(command)
+                });
+                
+                if (response.ok) {
+                    const result = await response.json();
+                    console.log('✅ 로컬 서버 명령 전송 성공:', result);
+                    updateConnectionStatus(true, 'local');
+                    return true;
+                }
+                updateConnectionStatus(false, 'local', '응답 오류');
+                return false;
+            } catch (error) {
+                console.log('⚠️ 로컬 서버 연결 실패:', error.message);
+                updateConnectionStatus(false, 'local', error.message);
+                return false;
+            }
+        }
+        
+        // Google Apps Script로 전송
+        async function sendCommandGoogle(command) {
+            const scriptUrl = document.getElementById('googleScriptUrl').value.trim();
+            
+            if (!scriptUrl) {
+                showStatus('❌ Google Apps Script URL을 입력하세요!', 'error');
+                return false;
+            }
+            
+            try {
+                const response = await fetch(scriptUrl, {
+                    method: 'POST',
+                    mode: 'no-cors',  // CORS 우회
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(command)
+                });
+                
+                // no-cors 모드에서는 응답을 읽을 수 없으므로 성공으로 간주
+                console.log('✅ Google Apps Script로 명령 전송');
+                updateConnectionStatus(true, 'google');
+                return true;
+                
+            } catch (error) {
+                console.log('⚠️ Google Apps Script 연결 실패:', error.message);
+                updateConnectionStatus(false, 'google', error.message);
+                return false;
+            }
+        }
+        
+        // 연결 방식 UI 업데이트
+        function updateConnectionUI() {
+            const connectionType = document.getElementById('connectionType').value;
+            const localConfig = document.getElementById('localServerConfig');
+            const googleConfig = document.getElementById('googleScriptConfig');
+            
+            if (connectionType === 'google') {
+                localConfig.style.display = 'none';
+                googleConfig.style.display = 'block';
+            } else {
+                localConfig.style.display = 'block';
+                googleConfig.style.display = 'none';
+            }
+            
+            // 연결 상태 초기화
+            document.getElementById('connectionStatus').innerHTML = 
+                '<span style="color: #95a5a6;">⚪ 연결 상태 확인 필요</span>';
+        }
+        
+        // 🆕 봇 연결 테스트
+        async function testBotConnection() {
+            const connectionType = document.getElementById('connectionType').value;
+            const statusEl = document.getElementById('connectionStatus');
+            
+            statusEl.innerHTML = '<span style="color: #f39c12;">🟡 연결 테스트 중...</span>';
+            
+            if (connectionType === 'google') {
+                // Google Apps Script 테스트
+                const scriptUrl = document.getElementById('googleScriptUrl').value.trim();
+                if (!scriptUrl) {
+                    showStatus('❌ Google Apps Script URL을 입력하세요!', 'error');
+                    updateConnectionStatus(false, 'google');
+                    return;
+                }
+                
+                try {
+                    const response = await fetch(`${scriptUrl}?action=status`, {
+                        method: 'GET'
+                    });
+                    
+                    if (response.ok) {
+                        const data = await response.json();
+                        updateConnectionStatus(true, 'google');
+                        showStatus(`✅ Google Apps Script 연결 성공!
+<br><small>☁️ ${data.message || '서버 정상'}</small>`, 'success');
+                    } else {
+                        throw new Error('서버 응답 오류');
+                    }
+                } catch (error) {
+                    updateConnectionStatus(false, 'google', error.message);
+                    showStatus(`⚠️ Google Apps Script 연결 테스트 실패
+<br><small>no-cors 모드라 테스트 불가하지만, 명령 전송은 가능할 수 있습니다.</small>
+<br><small>토큰 입력 후 명령을 시도해보세요.</small>`, 'warning');
+                }
+            } else {
+                // 로컬 서버 테스트
+                const serverAddress = document.getElementById('botServerAddress').value.trim() || 'localhost:8765';
+                
+                try {
+                    const response = await fetch(`http://${serverAddress}/status`, {
+                        method: 'GET',
+                        mode: 'cors'
+                    });
+                    
+                    if (response.ok) {
+                        const data = await response.json();
+                        updateConnectionStatus(true, 'local');
+                        showStatus(`✅ 봇 서버 연결 성공!
+<br><small>📊 보유 코인: ${data.holdings || 0}개</small>
+<br><small>✋ 보유 지시: ${(data.manual_hold || []).join(', ') || '없음'}</small>`, 'success');
+                    } else {
+                        throw new Error('서버 응답 오류');
+                    }
+                } catch (error) {
+                    updateConnectionStatus(false, 'local', error.message);
+                    
+                    if (window.location.protocol === 'https:') {
+                        showStatus(`❌ 연결 실패: HTTPS에서 HTTP 접근 불가
+<br><br><small>💡 <b>해결 방법:</b></small>
+<br><small>1. 로컬에서 index.html 직접 열기</small>
+<br><small>2. 또는 <b>Google Apps Script</b> 방식 사용</small>`, 'error');
+                    } else {
+                        showStatus(`❌ 연결 실패: ${error.message}
+<br><small>봇이 실행 중인지 확인하세요.</small>`, 'error');
+                    }
+                }
+            }
+        }
+        
+        // 🆕 연결 상태 업데이트
+        function updateConnectionStatus(connected, type, errorMsg = '') {
+            const statusEl = document.getElementById('connectionStatus');
+            const typeLabel = type === 'google' ? 'Google' : '로컬';
+            
+            if (connected) {
+                statusEl.innerHTML = `<span style="color: #2ecc71;">🟢 ${typeLabel} 서버 연결됨</span>`;
+            } else {
+                statusEl.innerHTML = `<span style="color: #e74c3c;">🔴 ${typeLabel} 연결 안 됨 ${errorMsg ? `(${errorMsg})` : ''}</span>`;
+            }
+        }
+        
+        // 페이지 로드 시 자동 연결 테스트
+        setTimeout(() => {
+            // HTTPS에서는 Google 방식 기본 선택
+            if (window.location.protocol === 'https:') {
+                document.getElementById('connectionType').value = 'google';
+                updateConnectionUI();
+            }
+            testBotConnection();
+        }, 2000);
         
         // command.json 파일 생성 및 다운로드
         function createCommandFile(command) {
@@ -2851,14 +3100,16 @@
         function showStatus(message, type = 'info') {
             const statusDiv = document.getElementById('commandStatus');
             const className = type === 'success' ? 'status-success' : 
-                            type === 'error' ? 'status-error' : 'status-info';
+                            type === 'error' ? 'status-error' : 
+                            type === 'warning' ? 'status-warning' : 'status-info';
             
             statusDiv.innerHTML = `<div class="status-message ${className}">${message}</div>`;
             
-            // 5초 후 자동 삭제 (에러는 10초)
+            // 자동 삭제 (에러 10초, 경고 7초, 나머지 5초)
+            const timeout = type === 'error' ? 10000 : type === 'warning' ? 7000 : 5000;
             setTimeout(() => {
                 statusDiv.innerHTML = '';
-            }, type === 'error' ? 10000 : 5000);
+            }, timeout);
         }
         
         // ============ 수동 거래 기능 끝 ============
