@@ -1,28 +1,28 @@
 {
-  "last_update": "2025-12-19T20:01:21.881426",
+  "last_update": "2025-12-19T20:05:14.279393",
   "today_profit": 13029.115231046695,
   "today_profit_percent": 12.066517123103152,
-  "total_profit": 16963.517458300124,
-  "total_profit_percent": 15.710243577467683,
+  "total_profit": 16978.29127126618,
+  "total_profit_percent": 15.723925893109778,
   "total_investment": 107977.4312514794,
   "holdings": [
     {
       "market": "KRW-ICX",
       "amount": 289.50696427,
       "avg_price": 75.09,
-      "current_price": 77.76,
-      "value": 22512.061541635205,
-      "profit": 772.9835946009006,
-      "profit_rate": 0.035557331202556955
+      "current_price": 77.61,
+      "value": 22468.635496994702,
+      "profit": 729.5575499603989,
+      "profit_rate": 0.03355972832600874
     },
     {
       "market": "KRW-WIKEN",
       "amount": 4469.08602151,
       "avg_price": 2.18,
-      "current_price": 2.181,
-      "value": 9747.07661291331,
-      "profit": 4.469086021509508,
-      "profit_rate": 0.0004587155963302247
+      "current_price": 2.187,
+      "value": 9773.89112904237,
+      "profit": 31.28360215056854,
+      "profit_rate": 0.0032110091743117763
     },
     {
       "market": "KRW-SIX",
@@ -46,10 +46,10 @@
       "market": "KRW-HAEDAL",
       "amount": 184.61965575,
       "avg_price": 52.9,
-      "current_price": 54.99,
-      "value": 10152.2348696925,
-      "profit": 385.8550805175006,
-      "profit_rate": 0.039508506616257155
+      "current_price": 55.16,
+      "value": 10183.620211169999,
+      "profit": 417.2404219949996,
+      "profit_rate": 0.04272211720226839
     }
   ],
   "trades": [
@@ -691,6 +691,15 @@
     }
   ],
   "raw_trades": [
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 417.2404219949996,
+      "price": 55.16,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T20:04:01.626633"
+    },
     {
       "type": "sell",
       "market": "KRW-HOOK",
@@ -5139,7 +5148,7 @@
   },
   "archived_profit": 0,
   "realized_profit": 13408.02824169231,
-  "unrealized_profit": 3555.489216607814,
+  "unrealized_profit": 3570.2630295738704,
   "start_date": "2025-12-17",
   "today_date": "2025-12-19"
 }
