@@ -1,19 +1,19 @@
 {
-  "last_update": "2025-12-20T05:59:24.167056",
-  "today_profit": -1245.0551493267421,
-  "today_profit_percent": -2.3962092392506325,
-  "total_profit": -2719.0167245169005,
-  "total_profit_percent": -5.232967391434448,
-  "total_investment": 51959.3668588019,
+  "last_update": "2025-12-20T06:10:16.737118",
+  "today_profit": 638.1793940732596,
+  "today_profit_percent": 0.6902977968810147,
+  "total_profit": -2116.5733801477586,
+  "total_profit_percent": -2.2894282623692446,
+  "total_investment": 92449.8668483019,
   "holdings": [
     {
       "market": "KRW-POLA",
       "amount": 2019.23076923,
       "avg_price": 9.68,
-      "current_price": 9.511,
-      "value": 19204.903846146528,
-      "profit": -341.24999999987097,
-      "profit_rate": -0.017458677685950462
+      "current_price": 9.616,
+      "value": 19416.92307691568,
+      "profit": -129.2307692307201,
+      "profit_rate": -0.00661157024793389
     },
     {
       "market": "KRW-WIKEN",
@@ -41,9 +41,29 @@
       "value": 10723.5357029515,
       "profit": -29.264296647999377,
       "profit_rate": -0.0027215512842319544
+    },
+    {
+      "market": "KRW-DEXE",
+      "amount": 8.01792079,
+      "avg_price": 5050.0,
+      "current_price": 5050.0,
+      "value": 40490.4999895,
+      "profit": 0.0,
+      "profit_rate": 0.0
     }
   ],
   "trades": [
+    {
+      "market": "KRW-DEXE",
+      "type": "buy",
+      "time": "2025-12-20T06:05:52+09:00",
+      "price": 5100.044606404991,
+      "volume": 100.89107833000001,
+      "funds": 514548.9998713,
+      "cycle_status": "holding",
+      "profit": 0,
+      "buy_count": 6
+    },
     {
       "market": "KRW-AGI",
       "type": "sell",
@@ -75,21 +95,6 @@
       "buy_count": 1
     },
     {
-      "market": "KRW-DEXE",
-      "type": "sell",
-      "time": "2025-12-20T03:14:02+09:00",
-      "price": 5035.0,
-      "volume": 31.38724239,
-      "funds": 158034.76543365,
-      "fee": 0.0,
-      "uuid": "C1182000000000221895",
-      "cycle_status": "completed",
-      "profit": -1883.2345434000017,
-      "profit_unknown": false,
-      "avg_buy_price": 5095.0,
-      "buy_count": 1
-    },
-    {
       "market": "KRW-HAEDAL",
       "type": "sell",
       "time": "2025-12-20T00:12:51+09:00",
@@ -103,21 +108,6 @@
       "profit_unknown": true,
       "avg_buy_price": 0.0,
       "buy_count": 0
-    },
-    {
-      "market": "KRW-DEXE",
-      "type": "sell",
-      "time": "2025-12-19T20:38:31+09:00",
-      "price": 5105.0,
-      "volume": 31.32563701,
-      "funds": 159917.37693605002,
-      "fee": 0.0,
-      "uuid": "C1182000000000118925",
-      "cycle_status": "completed",
-      "profit": -1334.622991399985,
-      "profit_unknown": false,
-      "avg_buy_price": 5147.604815696931,
-      "buy_count": 2
     },
     {
       "market": "KRW-APM",
@@ -135,21 +125,6 @@
       "buy_count": 1
     },
     {
-      "market": "KRW-DEXE",
-      "type": "sell",
-      "time": "2025-12-19T19:09:50+09:00",
-      "price": 5175.0,
-      "volume": 15.6200391,
-      "funds": 80833.7023425,
-      "fee": 0.0,
-      "uuid": "C1182000000000078206",
-      "cycle_status": "completed",
-      "profit": 937.2023459999909,
-      "profit_unknown": false,
-      "avg_buy_price": 5115.0,
-      "buy_count": 1
-    },
-    {
       "market": "KRW-APM",
       "type": "sell",
       "time": "2025-12-19T17:33:22+09:00",
@@ -162,21 +137,6 @@
       "profit": -600.0,
       "profit_unknown": false,
       "avg_buy_price": 1.3,
-      "buy_count": 1
-    },
-    {
-      "market": "KRW-DEXE",
-      "type": "sell",
-      "time": "2025-12-19T16:46:02+09:00",
-      "price": 5150.0,
-      "volume": 14.54023904,
-      "funds": 74882.231056,
-      "fee": 0.0,
-      "uuid": "C1182000000000012973",
-      "cycle_status": "completed",
-      "profit": 1890.2310752000049,
-      "profit_unknown": false,
-      "avg_buy_price": 5020.0,
       "buy_count": 1
     },
     {
@@ -544,6 +504,16 @@
     }
   ],
   "raw_trades": [
+    {
+      "market": "KRW-DEXE",
+      "type": "buy",
+      "time": "2025-12-20T06:05:52+09:00",
+      "price": 5050.0,
+      "volume": 8.01792079,
+      "funds": 40490.4999895,
+      "fee": 0.0,
+      "uuid": "C1182000000000234671"
+    },
     {
       "market": "KRW-AGI",
       "type": "sell",
@@ -1567,8 +1537,8 @@
   ],
   "daily_profits": {
     "2025-12-18": -6176.142452646978,
-    "2025-12-19": 4789.162655519491,
-    "2025-12-20": -1245.0551493267421
+    "2025-12-19": 3296.35222571948,
+    "2025-12-20": 638.1793940732596
   },
   "trade_cycles": [
     {
@@ -1582,30 +1552,6 @@
       "profit": 285.84671762999915,
       "sell_time": "2025-12-20T03:50:34+09:00",
       "avg_buy_price": 300.11959081639833
-    },
-    {
-      "market": "KRW-DEXE",
-      "profit": 1890.2310752000049,
-      "sell_time": "2025-12-19T16:46:02+09:00",
-      "avg_buy_price": 5020.0
-    },
-    {
-      "market": "KRW-DEXE",
-      "profit": 937.2023459999909,
-      "sell_time": "2025-12-19T19:09:50+09:00",
-      "avg_buy_price": 5115.0
-    },
-    {
-      "market": "KRW-DEXE",
-      "profit": -1334.622991399985,
-      "sell_time": "2025-12-19T20:38:31+09:00",
-      "avg_buy_price": 5147.604815696931
-    },
-    {
-      "market": "KRW-DEXE",
-      "profit": -1883.2345434000017,
-      "sell_time": "2025-12-20T03:14:02+09:00",
-      "avg_buy_price": 5095.0
     },
     {
       "market": "KRW-HAEDAL",
@@ -1764,11 +1710,12 @@
     "KRW-SIX": 18.34,
     "KRW-JST": 58.79,
     "KRW-AGI": 20.3,
-    "KRW-MMT": 300.0
+    "KRW-MMT": 300.0,
+    "KRW-DEXE": 5050.0
   },
   "archived_profit": 0,
-  "realized_profit": -2632.0349464542296,
-  "unrealized_profit": -86.98177806267094,
+  "realized_profit": -2241.6108328542387,
+  "unrealized_profit": 125.03745270647991,
   "start_date": "2025-12-18",
   "today_date": "2025-12-20"
 }
