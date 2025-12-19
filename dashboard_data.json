@@ -1,9 +1,9 @@
 {
-  "last_update": "2025-12-19T13:31:14.155505",
+  "last_update": "2025-12-19T13:34:41.207001",
   "today_profit": 10201.6818098467,
   "today_profit_percent": 8.66424463217464,
-  "total_profit": 12290.670733174973,
-  "total_profit_percent": 10.438413970425277,
+  "total_profit": 12352.727184787926,
+  "total_profit_percent": 10.491118248778712,
   "total_investment": 117744.61875144651,
   "holdings": [
     {
@@ -19,19 +19,19 @@
       "market": "KRW-POLA",
       "amount": 989.58333333,
       "avg_price": 9.87,
-      "current_price": 9.969,
-      "value": 9865.156249966769,
-      "profit": 97.9687499996702,
-      "profit_rate": 0.010030395136778137
+      "current_price": 9.973,
+      "value": 9869.11458330009,
+      "profit": 101.92708333299151,
+      "profit_rate": 0.010435663627153145
     },
     {
       "market": "KRW-WIKEN",
       "amount": 4469.08602151,
       "avg_price": 2.18,
-      "current_price": 2.171,
-      "value": 9702.38575269821,
-      "profit": -40.22177419359153,
-      "profit_rate": -0.004128440366972633
+      "current_price": 2.184,
+      "value": 9760.483870977841,
+      "profit": 17.876344086040017,
+      "profit_rate": 0.0018348623853211023
     },
     {
       "market": "KRW-SIX",
@@ -681,6 +681,24 @@
     }
   ],
   "raw_trades": [
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 343.3925596949999,
+      "price": 54.76,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T13:33:34.815466"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 1893.964536285902,
+      "price": 50.0,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T13:33:34.465878"
+    },
     {
       "type": "sell",
       "market": "KRW-ICX",
@@ -3838,7 +3856,7 @@
   },
   "archived_profit": 0,
   "realized_profit": 9386.561363243793,
-  "unrealized_profit": 2904.1093699311805,
+  "unrealized_profit": 2966.1658215441335,
   "start_date": "2025-12-17",
   "today_date": "2025-12-19"
 }
