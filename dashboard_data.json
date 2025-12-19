@@ -1,9 +1,9 @@
 {
-  "last_update": "2025-12-19T16:35:04.106384",
+  "last_update": "2025-12-19T16:38:27.554828",
   "today_profit": 10201.6818098467,
   "today_profit_percent": 5.348570126519691,
-  "total_profit": 13376.965169073794,
-  "total_profit_percent": 7.013317766659267,
+  "total_profit": 13718.389379048294,
+  "total_profit_percent": 7.1923207353832685,
   "total_investment": 190736.6187322465,
   "holdings": [
     {
@@ -37,10 +37,10 @@
       "market": "KRW-SIX",
       "amount": 649.82581713,
       "avg_price": 18.34,
-      "current_price": 18.6,
-      "value": 12086.760198618002,
-      "profit": 168.95471245380102,
-      "profit_rate": 0.014176663031624948
+      "current_price": 18.75,
+      "value": 12184.2340711875,
+      "profit": 266.4285850233001,
+      "profit_rate": 0.022355507088331523
     },
     {
       "market": "KRW-HOOK",
@@ -55,19 +55,19 @@
       "market": "KRW-HAEDAL",
       "amount": 184.61965575,
       "avg_price": 52.9,
-      "current_price": 55.46,
-      "value": 10239.006107895,
-      "profit": 472.6263187200004,
-      "profit_rate": 0.04839319470699437
+      "current_price": 55.6,
+      "value": 10264.8528597,
+      "profit": 498.4730705250005,
+      "profit_rate": 0.05103969754253314
     },
     {
       "market": "KRW-DEXE",
       "amount": 14.54023904,
       "avg_price": 5020.0,
-      "current_price": 5030.0,
-      "value": 73137.40237119999,
-      "profit": 145.4023904,
-      "profit_rate": 0.00199203187250996
+      "current_price": 5045.0,
+      "value": 73355.5059568,
+      "profit": 363.505976,
+      "profit_rate": 0.0049800796812749
     }
   ],
   "trades": [
@@ -701,6 +701,24 @@
     }
   ],
   "raw_trades": [
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 498.4730705250005,
+      "price": 55.6,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T16:37:20.316822"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 2461.0197866709022,
+      "price": 50.5,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T16:37:19.923787"
+    },
     {
       "type": "buy",
       "market": "KRW-EGG",
@@ -4373,7 +4391,7 @@
   },
   "archived_profit": 0,
   "realized_profit": 9386.561363243793,
-  "unrealized_profit": 3990.4038058300016,
+  "unrealized_profit": 4331.828015804501,
   "start_date": "2025-12-17",
   "today_date": "2025-12-19"
 }
