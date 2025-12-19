@@ -1,28 +1,28 @@
 {
-  "last_update": "2025-12-19T14:14:12.175432",
+  "last_update": "2025-12-19T14:17:57.016183",
   "today_profit": 10201.6818098467,
   "today_profit_percent": 8.66424463217464,
-  "total_profit": 12664.942590482964,
-  "total_profit_percent": 10.756281454541949,
+  "total_profit": 12556.319667868705,
+  "total_profit_percent": 10.664028471971632,
   "total_investment": 117744.61875144651,
   "holdings": [
     {
       "market": "KRW-ICX",
       "amount": 289.50696427,
       "avg_price": 75.09,
-      "current_price": 77.11,
-      "value": 22323.8820148597,
-      "profit": 584.8040678253989,
-      "profit_rate": 0.02690105207084826
+      "current_price": 76.81,
+      "value": 22237.029925578703,
+      "profit": 497.9519785443997,
+      "profit_rate": 0.022905846317752016
     },
     {
       "market": "KRW-POLA",
       "amount": 989.58333333,
       "avg_price": 9.87,
-      "current_price": 9.9,
-      "value": 9796.874999967,
-      "profit": 29.687499999901124,
-      "profit_rate": 0.0030395136778116655
+      "current_price": 9.878,
+      "value": 9775.10416663374,
+      "profit": 7.916666666640886,
+      "profit_rate": 0.0008105369807498375
     },
     {
       "market": "KRW-WIKEN",
@@ -681,6 +681,24 @@
     }
   ],
   "raw_trades": [
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 365.5469183850007,
+      "price": 54.88,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T14:16:44.708588"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 2098.1044264245015,
+      "price": 50.18,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T14:16:44.336974"
+    },
     {
       "type": "sell",
       "market": "KRW-HAEDAL",
@@ -3982,7 +4000,7 @@
   },
   "archived_profit": 0,
   "realized_profit": 9386.561363243793,
-  "unrealized_profit": 3278.381227239172,
+  "unrealized_profit": 3169.7583046249124,
   "start_date": "2025-12-17",
   "today_date": "2025-12-19"
 }
