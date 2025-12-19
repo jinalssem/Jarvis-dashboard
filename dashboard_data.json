@@ -1,9 +1,9 @@
 {
-  "last_update": "2025-12-19T14:21:32.781732",
+  "last_update": "2025-12-19T14:25:07.766875",
   "today_profit": 10201.6818098467,
   "today_profit_percent": 8.66424463217464,
-  "total_profit": 12605.798834535206,
-  "total_profit_percent": 10.706050916131861,
+  "total_profit": 12491.398201124874,
+  "total_profit_percent": 10.608890948548266,
   "total_investment": 117744.61875144651,
   "holdings": [
     {
@@ -19,10 +19,10 @@
       "market": "KRW-POLA",
       "amount": 989.58333333,
       "avg_price": 9.87,
-      "current_price": 9.928,
-      "value": 9824.583333300241,
-      "profit": 57.39583333314159,
-      "profit_rate": 0.005876393110435827
+      "current_price": 9.927,
+      "value": 9823.593749966909,
+      "profit": 56.40624999981038,
+      "profit_rate": 0.005775075987841985
     },
     {
       "market": "KRW-WIKEN",
@@ -46,10 +46,10 @@
       "market": "KRW-HOOK",
       "amount": 1134.11050077,
       "avg_price": 48.33,
-      "current_price": 50.18,
-      "value": 56909.6649286386,
-      "profit": 2098.1044264245015,
-      "profit_rate": 0.038278501965652835
+      "current_price": 50.08,
+      "value": 56796.2538785616,
+      "profit": 1984.6933763475001,
+      "profit_rate": 0.036209393751293194
     },
     {
       "market": "KRW-HAEDAL",
@@ -681,6 +681,24 @@
     }
   ],
   "raw_trades": [
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 365.5469183850007,
+      "price": 54.88,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T14:24:00.325668"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 1984.6933763475001,
+      "price": 50.08,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T14:23:59.843486"
+    },
     {
       "type": "sell",
       "market": "KRW-HAEDAL",
@@ -4000,7 +4018,7 @@
   },
   "archived_profit": 0,
   "realized_profit": 9386.561363243793,
-  "unrealized_profit": 3219.237471291413,
+  "unrealized_profit": 3104.8368378810806,
   "start_date": "2025-12-17",
   "today_date": "2025-12-19"
 }
