@@ -1,5 +1,5 @@
 {
-  "last_update": "2025-12-19T14:54:02.035226",
+  "last_update": "2025-12-19T14:57:32.395825",
   "today_profit": 10201.6818098467,
   "today_profit_percent": 8.66424463217464,
   "total_profit": 12494.140943219661,
@@ -681,6 +681,15 @@
     }
   ],
   "raw_trades": [
+    {
+      "type": "sell",
+      "market": "KRW-SIX",
+      "profit": 246.93381050939936,
+      "price": 18.72,
+      "amount": 649.82581713,
+      "volume": 649.82581713,
+      "time": "2025-12-19T14:56:25.444783"
+    },
     {
       "type": "sell",
       "market": "KRW-HOOK",
