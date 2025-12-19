@@ -1,9 +1,9 @@
 {
-  "last_update": "2025-12-19T18:19:57.630755",
+  "last_update": "2025-12-19T18:23:28.438455",
   "today_profit": 12091.912885046704,
   "today_profit_percent": 11.198555795316748,
-  "total_profit": 15298.895720081604,
-  "total_profit_percent": 14.168604997141005,
+  "total_profit": 15289.957548038585,
+  "total_profit_percent": 14.16032718210186,
   "total_investment": 107977.4312514794,
   "holdings": [
     {
@@ -19,10 +19,10 @@
       "market": "KRW-WIKEN",
       "amount": 4469.08602151,
       "avg_price": 2.18,
-      "current_price": 2.191,
-      "value": 9791.76747312841,
-      "profit": 49.159946236608555,
-      "profit_rate": 0.005045871559632879
+      "current_price": 2.189,
+      "value": 9782.82930108539,
+      "profit": 40.22177419358954,
+      "profit_rate": 0.00412844036697243
     },
     {
       "market": "KRW-SIX",
@@ -676,6 +676,15 @@
     }
   ],
   "raw_trades": [
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 546.4741810200002,
+      "price": 55.86,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T18:22:22.276989"
+    },
     {
       "type": "sell",
       "market": "KRW-ICX",
@@ -4700,7 +4709,7 @@
   },
   "archived_profit": 0,
   "realized_profit": 11573.446713536598,
-  "unrealized_profit": 3725.4490065450063,
+  "unrealized_profit": 3716.510834501987,
   "start_date": "2025-12-17",
   "today_date": "2025-12-19"
 }
