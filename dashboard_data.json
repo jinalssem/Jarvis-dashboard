@@ -1,76 +1,848 @@
 {
-  "last_update": "2025-12-20T00:14:03.328812",
-  "today_profit": 0,
-  "today_profit_percent": 0.0,
-  "total_profit": 11752.24804942102,
-  "total_profit_percent": 4.217592911903134,
-  "total_investment": 278648.2312281289,
+  "last_update": "2025-12-20T00:19:40.854386",
+  "today_profit": 12440.431581222296,
+  "today_profit_percent": 6.468233308489646,
+  "total_profit": 249071.92807524774,
+  "total_profit_percent": 129.50156358062344,
+  "total_investment": 192331.2129897055,
   "holdings": [
-    {
-      "market": "KRW-ICX",
-      "amount": 289.50696427,
-      "avg_price": 75.09,
-      "current_price": 78.51,
-      "value": 22729.191764837702,
-      "profit": 990.1138178034006,
-      "profit_rate": 0.045545345585297665
-    },
     {
       "market": "KRW-WIKEN",
       "amount": 4469.08602151,
       "avg_price": 2.18,
-      "current_price": 2.209,
-      "value": 9872.21102151559,
-      "profit": 129.60349462378963,
-      "profit_rate": 0.01330275229357794
+      "current_price": 2.213,
+      "value": 9890.08736560163,
+      "profit": 147.47983870982964,
+      "profit_rate": 0.015137614678899044
     },
     {
       "market": "KRW-SIX",
       "amount": 649.82581713,
       "avg_price": 18.34,
-      "current_price": 18.52,
-      "value": 12034.7741332476,
-      "profit": 116.96864708339982,
-      "profit_rate": 0.009814612868047967
+      "current_price": 18.57,
+      "value": 12067.2654241041,
+      "profit": 149.45993793990027,
+      "profit_rate": 0.012540894220283557
     },
     {
       "market": "KRW-JST",
       "amount": 182.90185405,
       "avg_price": 58.79,
-      "current_price": 58.85,
-      "value": 10763.7741108425,
-      "profit": 10.974111243000415,
-      "profit_rate": 0.0010205817315870433
-    },
-    {
-      "market": "KRW-HOOK",
-      "amount": 1134.11050077,
-      "avg_price": 48.33,
-      "current_price": 50.44,
-      "value": 57204.5336588388,
-      "profit": 2392.9731566246996,
-      "profit_rate": 0.04365818332298778
-    },
-    {
-      "market": "KRW-HAEDAL",
-      "amount": 184.61965575,
-      "avg_price": 52.9,
-      "current_price": 55.67,
-      "value": 10277.7762356025,
-      "profit": 511.39644642750056,
-      "profit_rate": 0.05236294896030252
+      "current_price": 58.99,
+      "value": 10789.3803704095,
+      "profit": 36.58037081000052,
+      "profit_rate": 0.0034019391052900637
     },
     {
       "market": "KRW-DEXE",
       "amount": 31.38724239,
       "avg_price": 5095.0,
-      "current_price": 5020.0,
-      "value": 157563.9567978,
-      "profit": -2354.04317925,
-      "profit_rate": -0.014720314033366046
+      "current_price": 4999.0,
+      "value": 156904.82470761,
+      "profit": -3013.17526944,
+      "profit_rate": -0.01884200196270854
     }
   ],
   "trades": [
+    {
+      "market": "KRW-HAEDAL",
+      "type": "sell",
+      "time": "2025-12-20T00:12:51+09:00",
+      "price": 56.2,
+      "volume": 184.61965575,
+      "funds": 10375.62465315,
+      "fee": 4.15,
+      "uuid": "C1099000000022236406",
+      "cycle_status": "completed",
+      "profit": 605.0948639750004,
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 511.39644642749954,
+      "price": 55.67,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-20T00:12:50.563804",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "market": "KRW-HOOK",
+      "type": "sell",
+      "time": "2025-12-20T00:12:50+09:00",
+      "price": 50.9,
+      "volume": 1134.11050077,
+      "funds": 57726.224489193,
+      "fee": 23.09,
+      "uuid": "C0709000000059712397",
+      "cycle_status": "completed",
+      "profit": 2891.573986978903,
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 2392.973156624699,
+      "price": 50.44,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-20T00:12:49.347074",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "market": "KRW-ICX",
+      "type": "sell",
+      "time": "2025-12-20T00:12:49+09:00",
+      "price": 79.2,
+      "volume": 289.50696427,
+      "funds": 22928.951570184003,
+      "fee": 0.0,
+      "uuid": "C0115000000187884379",
+      "cycle_status": "completed",
+      "profit": 1189.8736231496987,
+      "profit_unknown": false,
+      "avg_buy_price": 75.09,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ICX",
+      "profit": 990.113817803398,
+      "price": 78.51,
+      "amount": 289.50696427,
+      "volume": 289.50696427,
+      "time": "2025-12-20T00:12:48.161065",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 75.09,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 476.3187118349997,
+      "price": 55.48,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-20T00:01:42.018890",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 2392.973156624699,
+      "price": 50.44,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-20T00:01:40.799749",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ICX",
+      "profit": 990.113817803398,
+      "price": 78.51,
+      "amount": 289.50696427,
+      "volume": 289.50696427,
+      "time": "2025-12-20T00:01:39.630803",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 75.09,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 492.9344808525002,
+      "price": 55.57,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T23:50:20.367849",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 2392.973156624699,
+      "price": 50.44,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T23:50:19.228560",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ICX",
+      "profit": 1126.1820910102979,
+      "price": 78.98,
+      "amount": 289.50696427,
+      "volume": 289.50696427,
+      "time": "2025-12-19T23:50:18.007142",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 75.09,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 1848.6001162551038,
+      "price": 49.96,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T23:39:19.861255",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ICX",
+      "profit": 845.3603356683998,
+      "price": 78.01,
+      "amount": 289.50696427,
+      "volume": 289.50696427,
+      "time": "2025-12-19T23:39:18.608193",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 75.09,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 424.62520822499937,
+      "price": 55.2,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T23:39:17.370738",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 1848.6001162551038,
+      "price": 49.96,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T23:28:13.841775",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ICX",
+      "profit": 845.3603356683998,
+      "price": 78.01,
+      "amount": 289.50696427,
+      "volume": 289.50696427,
+      "time": "2025-12-19T23:28:12.684421",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 75.09,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 424.62520822499937,
+      "price": 55.2,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T23:28:11.627068",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 452.3181565875002,
+      "price": 55.35,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T23:16:56.348137",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ICX",
+      "profit": 845.3603356683998,
+      "price": 78.01,
+      "amount": 289.50696427,
+      "volume": 289.50696427,
+      "time": "2025-12-19T23:16:54.978002",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 75.09,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 1837.2590112474063,
+      "price": 49.95,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T23:16:53.669488",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 452.3181565875002,
+      "price": 55.35,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T23:05:53.609749",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ICX",
+      "profit": 845.3603356683998,
+      "price": 78.01,
+      "amount": 289.50696427,
+      "volume": 289.50696427,
+      "time": "2025-12-19T23:05:52.422539",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 75.09,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 1837.2590112474063,
+      "price": 49.95,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T23:05:51.302345",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 452.3181565875002,
+      "price": 55.35,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T22:54:34.382248",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ICX",
+      "profit": 845.3603356683998,
+      "price": 78.01,
+      "amount": 289.50696427,
+      "volume": 289.50696427,
+      "time": "2025-12-19T22:54:33.124070",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 75.09,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 1837.2590112474063,
+      "price": 49.95,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T22:54:32.044466",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 452.3181565875002,
+      "price": 55.35,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T22:43:24.126058",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ICX",
+      "profit": 940.8976338774992,
+      "price": 78.34,
+      "amount": 289.50696427,
+      "volume": 289.50696427,
+      "time": "2025-12-19T22:43:22.898433",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 75.09,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 1837.2590112474063,
+      "price": 49.95,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T22:43:21.647486",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 467.08772904750003,
+      "price": 55.43,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T22:32:18.667694",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 2234.197686516898,
+      "price": 50.3,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T22:32:17.524838",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ICX",
+      "profit": 940.8976338774992,
+      "price": 78.34,
+      "amount": 289.50696427,
+      "volume": 289.50696427,
+      "time": "2025-12-19T22:32:16.361508",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 75.09,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 2177.492161478396,
+      "price": 50.25,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T22:21:07.547890",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ICX",
+      "profit": 859.8356838818981,
+      "price": 78.06,
+      "amount": 289.50696427,
+      "volume": 289.50696427,
+      "time": "2025-12-19T22:21:06.399168",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 75.09,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 465.2415324899994,
+      "price": 55.42,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T22:15:37.595823",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 2313.585421570795,
+      "price": 50.37,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T22:10:00.948446",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ICX",
+      "profit": 932.2124249493972,
+      "price": 78.31,
+      "amount": 289.50696427,
+      "volume": 289.50696427,
+      "time": "2025-12-19T22:09:59.800836",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 75.09,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 465.2415324899994,
+      "price": 55.42,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T22:04:22.623126",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 2302.2443165630975,
+      "price": 50.36,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T21:58:43.801260",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ICX",
+      "profit": 932.2124249493972,
+      "price": 78.31,
+      "amount": 289.50696427,
+      "volume": 289.50696427,
+      "time": "2025-12-19T21:58:42.683038",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 75.09,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 465.2415324899994,
+      "price": 55.42,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T21:53:13.570333",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 2302.2443165630975,
+      "price": 50.36,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T21:47:44.398005",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ICX",
+      "profit": 932.2124249493972,
+      "price": 78.31,
+      "amount": 289.50696427,
+      "volume": 289.50696427,
+      "time": "2025-12-19T21:47:43.316305",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 75.09,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 467.08772904750003,
+      "price": 55.43,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T21:42:17.265243",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 2302.2443165630975,
+      "price": 50.36,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T21:36:40.958433",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ICX",
+      "profit": 1030.6447928011985,
+      "price": 78.65,
+      "amount": 289.50696427,
+      "volume": 289.50696427,
+      "time": "2025-12-19T21:36:39.734507",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 75.09,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 467.08772904750003,
+      "price": 55.43,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T21:31:02.361880",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 2381.6320516170017,
+      "price": 50.43,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T21:25:33.697798",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ICX",
+      "profit": 1030.6447928011985,
+      "price": 78.65,
+      "amount": 289.50696427,
+      "volume": 289.50696427,
+      "time": "2025-12-19T21:25:32.421702",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 75.09,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 2302.2443165630975,
+      "price": 50.36,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T21:14:39.777659",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ICX",
+      "profit": 1027.7497231584966,
+      "price": 78.64,
+      "amount": 289.50696427,
+      "volume": 289.50696427,
+      "time": "2025-12-19T21:14:38.611138",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 75.09,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 457.85674626000036,
+      "price": 55.38,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T21:03:15.249922",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 2302.2443165630975,
+      "price": 50.36,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T21:03:13.861605",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ICX",
+      "profit": 984.3236785179979,
+      "price": 78.49,
+      "amount": 289.50696427,
+      "volume": 289.50696427,
+      "time": "2025-12-19T21:03:12.609070",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 75.09,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 457.85674626000036,
+      "price": 55.38,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T20:53:13.808533",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 2018.7166913706023,
+      "price": 50.11,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T20:53:13.394997",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ICX",
+      "profit": 984.3236785179979,
+      "price": 78.49,
+      "amount": 289.50696427,
+      "volume": 289.50696427,
+      "time": "2025-12-19T20:53:12.684815",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 75.09,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 448.6257634724989,
+      "price": 55.33,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T20:46:06.741582",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 2018.7166913706023,
+      "price": 50.11,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T20:46:06.327554",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ICX",
+      "profit": 825.0948481694977,
+      "price": 77.94,
+      "amount": 289.50696427,
+      "volume": 289.50696427,
+      "time": "2025-12-19T20:46:05.929469",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 75.09,
+      "buy_count": 1
+    },
     {
       "market": "KRW-DEXE",
       "type": "buy",
@@ -80,6 +852,1917 @@
       "funds": 474058.49988180003,
       "cycle_status": "holding",
       "profit": 0,
+      "buy_count": 5
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 400.62465297749986,
+      "price": 55.07,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T20:38:43.516023",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 2018.7166913706023,
+      "price": 50.11,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T20:38:43.105888",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ICX",
+      "profit": 825.0948481694977,
+      "price": 77.94,
+      "amount": 289.50696427,
+      "volume": 289.50696427,
+      "time": "2025-12-19T20:38:42.333495",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 75.09,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 400.62465297749986,
+      "price": 55.07,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T20:31:27.480687",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 2018.7166913706023,
+      "price": 50.11,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T20:31:27.102005",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ICX",
+      "profit": 825.0948481694977,
+      "price": 77.94,
+      "amount": 289.50696427,
+      "volume": 289.50696427,
+      "time": "2025-12-19T20:31:26.336464",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 75.09,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 400.62465297749986,
+      "price": 55.07,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T20:23:49.502210",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 2018.7166913706023,
+      "price": 50.11,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T20:23:48.746551",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ICX",
+      "profit": 775.8786642435953,
+      "price": 77.77,
+      "amount": 289.50696427,
+      "volume": 289.50696427,
+      "time": "2025-12-19T20:23:47.987918",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 75.09,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 417.24042199499854,
+      "price": 55.16,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T20:15:42.285129",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 2007.3755863628976,
+      "price": 50.1,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T20:15:41.818746",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ICX",
+      "profit": 775.8786642435953,
+      "price": 77.77,
+      "amount": 289.50696427,
+      "volume": 289.50696427,
+      "time": "2025-12-19T20:15:41.395403",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 75.09,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 2007.3755863628976,
+      "price": 50.1,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T20:08:00.539693",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ICX",
+      "profit": 729.5575499603983,
+      "price": 77.61,
+      "amount": 289.50696427,
+      "volume": 289.50696427,
+      "time": "2025-12-19T20:07:59.793862",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 75.09,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 417.24042199499854,
+      "price": 55.16,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T20:04:01.626633",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 2086.763321416802,
+      "price": 50.17,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T20:00:14.949620",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ICX",
+      "profit": 772.9835946009007,
+      "price": 77.76,
+      "amount": 289.50696427,
+      "volume": 289.50696427,
+      "time": "2025-12-19T20:00:14.102530",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 75.09,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 385.8550805175,
+      "price": 54.99,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T19:56:15.876453",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 1905.3056412935985,
+      "price": 50.01,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T19:52:12.302874",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ICX",
+      "profit": 680.3413660344959,
+      "price": 77.44,
+      "amount": 289.50696427,
+      "volume": 289.50696427,
+      "time": "2025-12-19T19:52:11.596903",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 75.09,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 391.3936701900002,
+      "price": 55.02,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T19:48:08.800459",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 1905.3056412935985,
+      "price": 50.01,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T19:43:46.224526",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ICX",
+      "profit": 680.3413660344959,
+      "price": 77.44,
+      "amount": 289.50696427,
+      "volume": 289.50696427,
+      "time": "2025-12-19T19:43:45.440719",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 75.09,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 393.23986674749904,
+      "price": 55.03,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T19:39:45.407423",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 1905.3056412935985,
+      "price": 50.01,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T19:35:39.572597",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ICX",
+      "profit": 680.3413660344959,
+      "price": 77.44,
+      "amount": 289.50696427,
+      "volume": 289.50696427,
+      "time": "2025-12-19T19:35:38.946874",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 75.09,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 450.47196002999954,
+      "price": 55.34,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T19:32:15.464029",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ICX",
+      "profit": 680.3413660344959,
+      "price": 77.44,
+      "amount": 289.50696427,
+      "volume": 289.50696427,
+      "time": "2025-12-19T19:28:48.864990",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 75.09,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 1905.3056412935985,
+      "price": 50.01,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T19:28:48.196010",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 450.47196002999954,
+      "price": 55.34,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T19:25:15.373833",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ICX",
+      "profit": 729.5575499603983,
+      "price": 77.61,
+      "amount": 289.50696427,
+      "volume": 289.50696427,
+      "time": "2025-12-19T19:21:39.050598",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 75.09,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 1905.3056412935985,
+      "price": 50.01,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T19:21:38.393093",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 494.78067740999904,
+      "price": 55.58,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T19:18:12.515453",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 1905.3056412935985,
+      "price": 50.01,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T19:14:46.100141",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 494.78067740999904,
+      "price": 55.58,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T19:11:22.939345",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 2064.0811114013995,
+      "price": 50.15,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T19:07:50.217399",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 465.2415324899994,
+      "price": 55.42,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T19:04:15.837890",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 2234.197686516898,
+      "price": 50.3,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T19:00:46.282032",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 465.2415324899994,
+      "price": 55.42,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T18:57:15.926150",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 2234.197686516898,
+      "price": 50.3,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T18:53:49.598408",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 470.78012216249954,
+      "price": 55.45,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T18:50:11.871169",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ICX",
+      "profit": 726.6624803176965,
+      "price": 77.6,
+      "amount": 289.50696427,
+      "volume": 289.50696427,
+      "time": "2025-12-19T18:46:36.005983",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 75.09,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 491.08828429499954,
+      "price": 55.56,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T18:43:07.225608",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ICX",
+      "profit": 726.6624803176965,
+      "price": 77.6,
+      "amount": 289.50696427,
+      "volume": 289.50696427,
+      "time": "2025-12-19T18:39:39.449206",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 75.09,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 491.08828429499954,
+      "price": 55.56,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T18:36:09.329434",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ICX",
+      "profit": 726.6624803176965,
+      "price": 77.6,
+      "amount": 289.50696427,
+      "volume": 289.50696427,
+      "time": "2025-12-19T18:32:38.902434",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 75.09,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 2234.197686516898,
+      "price": 50.3,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T18:32:38.217239",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 491.08828429499954,
+      "price": 55.56,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T18:29:17.274149",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ICX",
+      "profit": 726.6624803176965,
+      "price": 77.6,
+      "amount": 289.50696427,
+      "volume": 289.50696427,
+      "time": "2025-12-19T18:25:50.321801",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 75.09,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 2234.197686516898,
+      "price": 50.3,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T18:25:49.551945",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 546.4741810199994,
+      "price": 55.86,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T18:22:22.276989",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ICX",
+      "profit": 726.6624803176965,
+      "price": 77.6,
+      "amount": 289.50696427,
+      "volume": 289.50696427,
+      "time": "2025-12-19T18:18:51.720108",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 75.09,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 2234.197686516898,
+      "price": 50.3,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T18:18:51.054208",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 546.4741810199994,
+      "price": 55.86,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T18:15:21.464460",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 2290.9032115554,
+      "price": 50.35,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T18:11:47.342344",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ICX",
+      "profit": 726.6624803176965,
+      "price": 77.6,
+      "amount": 289.50696427,
+      "volume": 289.50696427,
+      "time": "2025-12-19T18:11:46.577861",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 75.09,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 546.4741810199994,
+      "price": 55.86,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T18:08:19.252438",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 2540.407521724803,
+      "price": 50.57,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T18:04:44.641749",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ICX",
+      "profit": 726.6624803176965,
+      "price": 77.6,
+      "amount": 289.50696427,
+      "volume": 289.50696427,
+      "time": "2025-12-19T18:04:43.772008",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 75.09,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 546.4741810199994,
+      "price": 55.86,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T18:01:15.311980",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 2540.407521724803,
+      "price": 50.57,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T17:57:47.018397",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ICX",
+      "profit": 726.6624803176965,
+      "price": 77.6,
+      "amount": 289.50696427,
+      "volume": 289.50696427,
+      "time": "2025-12-19T17:57:46.272283",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 75.09,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 557.5513603649997,
+      "price": 55.92,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T17:54:23.786780",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 2540.407521724803,
+      "price": 50.57,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T17:50:45.078096",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ICX",
+      "profit": 726.6624803176965,
+      "price": 77.6,
+      "amount": 289.50696427,
+      "volume": 289.50696427,
+      "time": "2025-12-19T17:50:44.338637",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 75.09,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 550.1665741350007,
+      "price": 55.88,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T17:47:19.729284",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 2540.407521724803,
+      "price": 50.57,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T17:43:54.152144",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 528.012215445,
+      "price": 55.76,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T17:40:13.607359",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 2540.407521724803,
+      "price": 50.57,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T17:36:41.583956",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 550.1665741350007,
+      "price": 55.88,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T17:33:22.284013",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 2540.407521724803,
+      "price": 50.57,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T17:29:52.894256",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 533.5508051175002,
+      "price": 55.79,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T17:26:28.223346",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 2540.407521724803,
+      "price": 50.57,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T17:22:54.503113",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 2461.0197866708986,
+      "price": 50.5,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T16:51:41.464812",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 498.47307052500037,
+      "price": 55.6,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T16:44:32.501164",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 2461.0197866708986,
+      "price": 50.5,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T16:44:32.085968",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 498.47307052500037,
+      "price": 55.6,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T16:37:20.316822",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 2461.0197866708986,
+      "price": 50.5,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T16:37:19.923787",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 498.47307052500037,
+      "price": 55.6,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T16:30:23.811271",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 2426.996471647799,
+      "price": 50.47,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T16:30:23.454979",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 504.01166019750053,
+      "price": 55.63,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T16:23:39.648669",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 2767.2296218788033,
+      "price": 50.77,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T16:23:39.258312",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ICX",
+      "profit": 772.9835946009007,
+      "price": 77.76,
+      "amount": 289.50696427,
+      "volume": 289.50696427,
+      "time": "2025-12-19T16:23:38.888337",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 75.09,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 563.0899500374999,
+      "price": 55.95,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T16:16:43.474910",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 2767.2296218788033,
+      "price": 50.77,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T16:16:43.132829",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ICX",
+      "profit": 822.1997785267995,
+      "price": 77.93,
+      "amount": 289.50696427,
+      "volume": 289.50696427,
+      "time": "2025-12-19T16:16:42.675564",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 75.09,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 382.1626874024987,
+      "price": 54.97,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T15:55:16.210835",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 1825.9179062396943,
+      "price": 49.94,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T15:55:15.831899",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 365.546918385,
+      "price": 54.88,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T15:48:27.897870",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 1825.9179062396943,
+      "price": 49.94,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T15:48:27.492464",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 358.162132155001,
+      "price": 54.84,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T15:41:34.177319",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 1939.3289563166982,
+      "price": 50.04,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T15:41:33.770802",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 321.2382010050005,
+      "price": 54.64,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T15:34:31.923107",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 1939.3289563166982,
+      "price": 50.04,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T15:34:31.461696",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 321.2382010050005,
+      "price": 54.64,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T15:27:34.397011",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 1939.3289563166982,
+      "price": 50.04,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T15:27:33.992350",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 341.5463631374987,
+      "price": 54.75,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T15:20:40.913956",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 1780.553486208897,
+      "price": 49.9,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T15:20:40.562395",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 341.5463631374987,
+      "price": 54.75,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T15:13:51.256523",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 1893.964536285901,
+      "price": 50.0,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T15:13:50.845291",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 341.5463631374987,
+      "price": 54.75,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T15:06:51.230322",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 1893.964536285901,
+      "price": 50.0,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T15:06:50.842225",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 1984.6933763474954,
+      "price": 50.08,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T15:00:00.252229",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 297.2376457574992,
+      "price": 54.51,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T14:59:59.508878",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 1984.6933763474954,
+      "price": 50.08,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T14:52:47.944788",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 297.2376457574992,
+      "price": 54.51,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T14:52:47.475207",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 1984.6933763474954,
+      "price": 50.08,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T14:45:37.817576",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 297.2376457574992,
+      "price": 54.51,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T14:45:37.431334",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 1984.6933763474954,
+      "price": 50.08,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T14:38:35.494649",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 297.2376457574992,
+      "price": 54.51,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T14:38:35.089770",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 365.546918385,
+      "price": 54.88,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T14:31:17.579413",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 1984.6933763474954,
+      "price": 50.08,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T14:31:17.089021",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 365.546918385,
+      "price": 54.88,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T14:24:00.325668",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 1984.6933763474954,
+      "price": 50.08,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T14:23:59.843486",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 365.546918385,
+      "price": 54.88,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T14:16:44.708588",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 2098.1044264244993,
+      "price": 50.18,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T14:16:44.336974",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 365.546918385,
+      "price": 54.88,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T14:09:35.882221",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 2098.1044264244993,
+      "price": 50.18,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T14:09:35.369442",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 363.70072182749936,
+      "price": 54.87,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T14:02:02.082024",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 1893.964536285901,
+      "price": 50.0,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T14:02:01.625598",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 352.62354248250085,
+      "price": 54.81,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T13:54:50.696514",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 1893.964536285901,
+      "price": 50.0,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T13:54:50.299326",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ICX",
+      "profit": 584.8040678253965,
+      "price": 77.11,
+      "amount": 289.50696427,
+      "volume": 289.50696427,
+      "time": "2025-12-19T13:54:49.916472",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 75.09,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ICX",
+      "profit": 440.0505856903983,
+      "price": 76.61,
+      "amount": 289.50696427,
+      "volume": 289.50696427,
+      "time": "2025-12-19T13:47:55.145412",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 75.09,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 343.39255969499936,
+      "price": 54.76,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T13:47:54.415357",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 1893.964536285901,
+      "price": 50.0,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T13:47:54.056259",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 343.39255969499936,
+      "price": 54.76,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T13:40:39.712610",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 1893.964536285901,
+      "price": 50.0,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T13:40:39.277196",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 343.39255969499936,
+      "price": 54.76,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T13:33:34.815466",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 1893.964536285901,
+      "price": 50.0,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T13:33:34.465878",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ICX",
+      "profit": 440.0505856903983,
+      "price": 76.61,
+      "amount": 289.50696427,
+      "volume": 289.50696427,
+      "time": "2025-12-19T13:26:35.738201",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 75.09,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 343.39255969499936,
+      "price": 54.76,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T13:26:35.021839",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 1893.964536285901,
+      "price": 50.0,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T13:26:34.597443",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ICX",
+      "profit": 440.0505856903983,
+      "price": 76.61,
+      "amount": 289.50696427,
+      "volume": 289.50696427,
+      "time": "2025-12-19T13:19:33.023802",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 75.09,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 334.1615769074997,
+      "price": 54.71,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T13:19:32.393147",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 1791.8945912165946,
+      "price": 49.91,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T13:19:32.003459",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 365.546918385,
+      "price": 54.88,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T13:11:02.765608",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 1791.8945912165946,
+      "price": 49.91,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T13:11:02.309752",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 330.46918379249837,
+      "price": 54.69,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T13:03:47.735235",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 1655.8013311241957,
+      "price": 49.79,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T13:03:47.386690",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 330.46918379249837,
+      "price": 54.69,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T12:56:49.850969",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 1746.5301711857974,
+      "price": 49.87,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T12:56:49.298387",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 361.8545252699987,
+      "price": 54.86,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T12:49:52.337459",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 1803.2356962242993,
+      "price": 49.92,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T12:49:51.963405",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 48.33,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 334.1615769074997,
+      "price": 54.71,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T12:42:46.610599",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 371.0855080574984,
+      "price": 54.91,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T12:35:41.578559",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 52.900000000000006,
+      "buy_count": 1
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": -40.24181193374898,
+      "price": 55.0,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T12:28:36.014148",
+      "cycle_status": "completed",
+      "profit_unknown": false,
+      "avg_buy_price": 55.21797143847046,
       "buy_count": 5
     },
     {
@@ -133,17 +2816,6 @@
       "cycle_status": "holding",
       "profit": 0,
       "buy_count": 2
-    },
-    {
-      "market": "KRW-HOOK",
-      "type": "buy",
-      "time": "2025-12-19T10:30:40.593627",
-      "price": 48.880778974205676,
-      "volume": 2405.8583020799997,
-      "funds": 117600.22790723022,
-      "cycle_status": "holding",
-      "profit": 0,
-      "buy_count": 8
     },
     {
       "market": "KRW-AI16Z",
@@ -209,17 +2881,6 @@
       "cycle_status": "holding",
       "profit": 0,
       "buy_count": 1
-    },
-    {
-      "market": "KRW-ICX",
-      "type": "buy",
-      "time": "2025-12-19T05:04:11.978357",
-      "price": 74.35249573669256,
-      "volume": 1080.81409571,
-      "funds": 80361.22544343499,
-      "cycle_status": "holding",
-      "profit": 0,
-      "buy_count": 5
     },
     {
       "market": "KRW-RAY",
@@ -385,17 +3046,6 @@
       "profit_unknown": false,
       "avg_buy_price": 50.87505099973516,
       "buy_count": 2
-    },
-    {
-      "market": "KRW-HAEDAL",
-      "type": "buy",
-      "time": "2025-12-18T13:44:54+09:00",
-      "price": 55.19592306987155,
-      "volume": 1042.70753171,
-      "funds": 57553.204704640804,
-      "cycle_status": "holding",
-      "profit": 0,
-      "buy_count": 5
     },
     {
       "market": "KRW-ETH",
@@ -743,37 +3393,32 @@
       "buy_count": 2
     },
     {
-      "market": "KRW-SXT",
+      "market": "KRW-ICX",
       "type": "sell",
-      "time": "2025-12-17T19:18:13+09:00",
-      "price": 40.6,
-      "volume": 241.5166964,
-      "funds": 9805.57787384,
+      "time": "2025-12-17T20:26:40+09:00",
+      "price": 80.6,
+      "volume": 329.31791216,
+      "funds": 26543.023720095996,
       "fee": 0.0,
-      "uuid": "C1103000000016833383",
+      "uuid": "C0115000000187693479",
       "cycle_status": "completed",
-      "profit": 0,
-      "profit_unknown": true,
-      "avg_buy_price": 0.0,
-      "buy_count": 0
-    },
-    {
-      "market": "KRW-XYO",
-      "type": "sell",
-      "time": "2025-12-17T19:07:05+09:00",
-      "price": 7.97,
-      "volume": 2765.61200582,
-      "funds": 22041.9276863854,
-      "fee": 0.0,
-      "uuid": "C1024000000035715531",
-      "cycle_status": "completed",
-      "profit": 1714.679443608402,
+      "profit": 1814.5416960015973,
       "profit_unknown": false,
-      "avg_buy_price": 7.35,
+      "avg_buy_price": 75.09,
       "buy_count": 1
     }
   ],
   "raw_trades": [
+    {
+      "market": "KRW-HAEDAL",
+      "type": "sell",
+      "time": "2025-12-20T00:12:51+09:00",
+      "price": 56.2,
+      "volume": 184.61965575,
+      "funds": 10375.62465315,
+      "fee": 4.15,
+      "uuid": "C1099000000022236406"
+    },
     {
       "type": "sell",
       "market": "KRW-HAEDAL",
@@ -784,6 +3429,16 @@
       "time": "2025-12-20T00:12:50.563804"
     },
     {
+      "market": "KRW-HOOK",
+      "type": "sell",
+      "time": "2025-12-20T00:12:50+09:00",
+      "price": 50.9,
+      "volume": 1134.11050077,
+      "funds": 57726.224489193,
+      "fee": 23.09,
+      "uuid": "C0709000000059712397"
+    },
+    {
       "type": "sell",
       "market": "KRW-HOOK",
       "profit": 2392.9731566246996,
@@ -791,6 +3446,16 @@
       "amount": 1134.11050077,
       "volume": 1134.11050077,
       "time": "2025-12-20T00:12:49.347074"
+    },
+    {
+      "market": "KRW-ICX",
+      "type": "sell",
+      "time": "2025-12-20T00:12:49+09:00",
+      "price": 79.2,
+      "volume": 289.50696427,
+      "funds": 22928.951570184003,
+      "fee": 0.0,
+      "uuid": "C0115000000187884379"
     },
     {
       "type": "sell",
@@ -5567,44 +8232,1269 @@
       "funds": 6216.987516,
       "fee": 0.0,
       "uuid": "C0153000000162993141"
-    },
-    {
-      "market": "KRW-SXT",
-      "type": "sell",
-      "time": "2025-12-17T19:18:13+09:00",
-      "price": 40.6,
-      "volume": 241.5166964,
-      "funds": 9805.57787384,
-      "fee": 0.0,
-      "uuid": "C1103000000016833383"
-    },
-    {
-      "market": "KRW-XYO",
-      "type": "sell",
-      "time": "2025-12-17T19:07:05+09:00",
-      "price": 7.97,
-      "volume": 2765.61200582,
-      "funds": 22041.9276863854,
-      "fee": 0.0,
-      "uuid": "C1024000000035715531"
-    },
-    {
-      "market": "KRW-ICX",
-      "type": "buy",
-      "time": "2025-12-17T18:36:30+09:00",
-      "price": 78.9,
-      "volume": 123.83612663,
-      "funds": 9770.670391107,
-      "fee": 0.0,
-      "uuid": "C0115000000187691848"
     }
   ],
   "daily_profits": {
-    "2025-12-17": 3423.711871839573,
+    "2025-12-17": 3523.5741242327686,
     "2025-12-18": -1557.524616984656,
-    "2025-12-19": 8088.074300010312
+    "2025-12-19": 237345.10210875754,
+    "2025-12-20": 12440.431581222296
   },
   "trade_cycles": [
+    {
+      "market": "KRW-HAEDAL",
+      "profit": -40.24181193374898,
+      "sell_time": "2025-12-19T12:28:36.014148",
+      "avg_buy_price": 55.21797143847046
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 371.0855080574984,
+      "sell_time": "2025-12-19T12:35:41.578559",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 334.1615769074997,
+      "sell_time": "2025-12-19T12:42:46.610599",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 361.8545252699987,
+      "sell_time": "2025-12-19T12:49:52.337459",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 330.46918379249837,
+      "sell_time": "2025-12-19T12:56:49.850969",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 330.46918379249837,
+      "sell_time": "2025-12-19T13:03:47.735235",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 365.546918385,
+      "sell_time": "2025-12-19T13:11:02.765608",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 334.1615769074997,
+      "sell_time": "2025-12-19T13:19:32.393147",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 343.39255969499936,
+      "sell_time": "2025-12-19T13:26:35.021839",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 343.39255969499936,
+      "sell_time": "2025-12-19T13:33:34.815466",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 343.39255969499936,
+      "sell_time": "2025-12-19T13:40:39.712610",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 343.39255969499936,
+      "sell_time": "2025-12-19T13:47:54.415357",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 352.62354248250085,
+      "sell_time": "2025-12-19T13:54:50.696514",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 363.70072182749936,
+      "sell_time": "2025-12-19T14:02:02.082024",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 365.546918385,
+      "sell_time": "2025-12-19T14:09:35.882221",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 365.546918385,
+      "sell_time": "2025-12-19T14:16:44.708588",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 365.546918385,
+      "sell_time": "2025-12-19T14:24:00.325668",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 365.546918385,
+      "sell_time": "2025-12-19T14:31:17.579413",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 297.2376457574992,
+      "sell_time": "2025-12-19T14:38:35.089770",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 297.2376457574992,
+      "sell_time": "2025-12-19T14:45:37.431334",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 297.2376457574992,
+      "sell_time": "2025-12-19T14:52:47.475207",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 297.2376457574992,
+      "sell_time": "2025-12-19T14:59:59.508878",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 341.5463631374987,
+      "sell_time": "2025-12-19T15:06:51.230322",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 341.5463631374987,
+      "sell_time": "2025-12-19T15:13:51.256523",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 341.5463631374987,
+      "sell_time": "2025-12-19T15:20:40.913956",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 321.2382010050005,
+      "sell_time": "2025-12-19T15:27:34.397011",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 321.2382010050005,
+      "sell_time": "2025-12-19T15:34:31.923107",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 358.162132155001,
+      "sell_time": "2025-12-19T15:41:34.177319",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 365.546918385,
+      "sell_time": "2025-12-19T15:48:27.897870",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 382.1626874024987,
+      "sell_time": "2025-12-19T15:55:16.210835",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 563.0899500374999,
+      "sell_time": "2025-12-19T16:16:43.474910",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 504.01166019750053,
+      "sell_time": "2025-12-19T16:23:39.648669",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 498.47307052500037,
+      "sell_time": "2025-12-19T16:30:23.811271",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 498.47307052500037,
+      "sell_time": "2025-12-19T16:37:20.316822",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 498.47307052500037,
+      "sell_time": "2025-12-19T16:44:32.501164",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 533.5508051175002,
+      "sell_time": "2025-12-19T17:26:28.223346",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 550.1665741350007,
+      "sell_time": "2025-12-19T17:33:22.284013",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 528.012215445,
+      "sell_time": "2025-12-19T17:40:13.607359",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 550.1665741350007,
+      "sell_time": "2025-12-19T17:47:19.729284",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 557.5513603649997,
+      "sell_time": "2025-12-19T17:54:23.786780",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 546.4741810199994,
+      "sell_time": "2025-12-19T18:01:15.311980",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 546.4741810199994,
+      "sell_time": "2025-12-19T18:08:19.252438",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 546.4741810199994,
+      "sell_time": "2025-12-19T18:15:21.464460",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 546.4741810199994,
+      "sell_time": "2025-12-19T18:22:22.276989",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 491.08828429499954,
+      "sell_time": "2025-12-19T18:29:17.274149",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 491.08828429499954,
+      "sell_time": "2025-12-19T18:36:09.329434",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 491.08828429499954,
+      "sell_time": "2025-12-19T18:43:07.225608",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 470.78012216249954,
+      "sell_time": "2025-12-19T18:50:11.871169",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 465.2415324899994,
+      "sell_time": "2025-12-19T18:57:15.926150",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 465.2415324899994,
+      "sell_time": "2025-12-19T19:04:15.837890",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 494.78067740999904,
+      "sell_time": "2025-12-19T19:11:22.939345",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 494.78067740999904,
+      "sell_time": "2025-12-19T19:18:12.515453",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 450.47196002999954,
+      "sell_time": "2025-12-19T19:25:15.373833",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 450.47196002999954,
+      "sell_time": "2025-12-19T19:32:15.464029",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 393.23986674749904,
+      "sell_time": "2025-12-19T19:39:45.407423",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 391.3936701900002,
+      "sell_time": "2025-12-19T19:48:08.800459",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 385.8550805175,
+      "sell_time": "2025-12-19T19:56:15.876453",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 417.24042199499854,
+      "sell_time": "2025-12-19T20:04:01.626633",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 417.24042199499854,
+      "sell_time": "2025-12-19T20:15:42.285129",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 400.62465297749986,
+      "sell_time": "2025-12-19T20:23:49.502210",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 400.62465297749986,
+      "sell_time": "2025-12-19T20:31:27.480687",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 400.62465297749986,
+      "sell_time": "2025-12-19T20:38:43.516023",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 448.6257634724989,
+      "sell_time": "2025-12-19T20:46:06.741582",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 457.85674626000036,
+      "sell_time": "2025-12-19T20:53:13.808533",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 457.85674626000036,
+      "sell_time": "2025-12-19T21:03:15.249922",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 467.08772904750003,
+      "sell_time": "2025-12-19T21:31:02.361880",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 467.08772904750003,
+      "sell_time": "2025-12-19T21:42:17.265243",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 465.2415324899994,
+      "sell_time": "2025-12-19T21:53:13.570333",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 465.2415324899994,
+      "sell_time": "2025-12-19T22:04:22.623126",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 465.2415324899994,
+      "sell_time": "2025-12-19T22:15:37.595823",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 467.08772904750003,
+      "sell_time": "2025-12-19T22:32:18.667694",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 452.3181565875002,
+      "sell_time": "2025-12-19T22:43:24.126058",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 452.3181565875002,
+      "sell_time": "2025-12-19T22:54:34.382248",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 452.3181565875002,
+      "sell_time": "2025-12-19T23:05:53.609749",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 452.3181565875002,
+      "sell_time": "2025-12-19T23:16:56.348137",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 424.62520822499937,
+      "sell_time": "2025-12-19T23:28:11.627068",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 424.62520822499937,
+      "sell_time": "2025-12-19T23:39:17.370738",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 492.9344808525002,
+      "sell_time": "2025-12-19T23:50:20.367849",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 476.3187118349997,
+      "sell_time": "2025-12-20T00:01:42.018890",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 511.39644642749954,
+      "sell_time": "2025-12-20T00:12:50.563804",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HAEDAL",
+      "profit": 605.0948639750004,
+      "sell_time": "2025-12-20T00:12:51+09:00",
+      "avg_buy_price": 52.900000000000006
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 1803.2356962242993,
+      "sell_time": "2025-12-19T12:49:51.963405",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 1746.5301711857974,
+      "sell_time": "2025-12-19T12:56:49.298387",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 1655.8013311241957,
+      "sell_time": "2025-12-19T13:03:47.386690",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 1791.8945912165946,
+      "sell_time": "2025-12-19T13:11:02.309752",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 1791.8945912165946,
+      "sell_time": "2025-12-19T13:19:32.003459",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 1893.964536285901,
+      "sell_time": "2025-12-19T13:26:34.597443",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 1893.964536285901,
+      "sell_time": "2025-12-19T13:33:34.465878",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 1893.964536285901,
+      "sell_time": "2025-12-19T13:40:39.277196",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 1893.964536285901,
+      "sell_time": "2025-12-19T13:47:54.056259",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 1893.964536285901,
+      "sell_time": "2025-12-19T13:54:50.299326",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 1893.964536285901,
+      "sell_time": "2025-12-19T14:02:01.625598",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 2098.1044264244993,
+      "sell_time": "2025-12-19T14:09:35.369442",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 2098.1044264244993,
+      "sell_time": "2025-12-19T14:16:44.336974",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 1984.6933763474954,
+      "sell_time": "2025-12-19T14:23:59.843486",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 1984.6933763474954,
+      "sell_time": "2025-12-19T14:31:17.089021",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 1984.6933763474954,
+      "sell_time": "2025-12-19T14:38:35.494649",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 1984.6933763474954,
+      "sell_time": "2025-12-19T14:45:37.817576",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 1984.6933763474954,
+      "sell_time": "2025-12-19T14:52:47.944788",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 1984.6933763474954,
+      "sell_time": "2025-12-19T15:00:00.252229",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 1893.964536285901,
+      "sell_time": "2025-12-19T15:06:50.842225",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 1893.964536285901,
+      "sell_time": "2025-12-19T15:13:50.845291",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 1780.553486208897,
+      "sell_time": "2025-12-19T15:20:40.562395",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 1939.3289563166982,
+      "sell_time": "2025-12-19T15:27:33.992350",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 1939.3289563166982,
+      "sell_time": "2025-12-19T15:34:31.461696",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 1939.3289563166982,
+      "sell_time": "2025-12-19T15:41:33.770802",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 1825.9179062396943,
+      "sell_time": "2025-12-19T15:48:27.492464",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 1825.9179062396943,
+      "sell_time": "2025-12-19T15:55:15.831899",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 2767.2296218788033,
+      "sell_time": "2025-12-19T16:16:43.132829",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 2767.2296218788033,
+      "sell_time": "2025-12-19T16:23:39.258312",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 2426.996471647799,
+      "sell_time": "2025-12-19T16:30:23.454979",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 2461.0197866708986,
+      "sell_time": "2025-12-19T16:37:19.923787",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 2461.0197866708986,
+      "sell_time": "2025-12-19T16:44:32.085968",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 2461.0197866708986,
+      "sell_time": "2025-12-19T16:51:41.464812",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 2540.407521724803,
+      "sell_time": "2025-12-19T17:22:54.503113",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 2540.407521724803,
+      "sell_time": "2025-12-19T17:29:52.894256",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 2540.407521724803,
+      "sell_time": "2025-12-19T17:36:41.583956",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 2540.407521724803,
+      "sell_time": "2025-12-19T17:43:54.152144",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 2540.407521724803,
+      "sell_time": "2025-12-19T17:50:45.078096",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 2540.407521724803,
+      "sell_time": "2025-12-19T17:57:47.018397",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 2540.407521724803,
+      "sell_time": "2025-12-19T18:04:44.641749",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 2290.9032115554,
+      "sell_time": "2025-12-19T18:11:47.342344",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 2234.197686516898,
+      "sell_time": "2025-12-19T18:18:51.054208",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 2234.197686516898,
+      "sell_time": "2025-12-19T18:25:49.551945",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 2234.197686516898,
+      "sell_time": "2025-12-19T18:32:38.217239",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 2234.197686516898,
+      "sell_time": "2025-12-19T18:53:49.598408",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 2234.197686516898,
+      "sell_time": "2025-12-19T19:00:46.282032",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 2064.0811114013995,
+      "sell_time": "2025-12-19T19:07:50.217399",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 1905.3056412935985,
+      "sell_time": "2025-12-19T19:14:46.100141",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 1905.3056412935985,
+      "sell_time": "2025-12-19T19:21:38.393093",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 1905.3056412935985,
+      "sell_time": "2025-12-19T19:28:48.196010",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 1905.3056412935985,
+      "sell_time": "2025-12-19T19:35:39.572597",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 1905.3056412935985,
+      "sell_time": "2025-12-19T19:43:46.224526",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 1905.3056412935985,
+      "sell_time": "2025-12-19T19:52:12.302874",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 2086.763321416802,
+      "sell_time": "2025-12-19T20:00:14.949620",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 2007.3755863628976,
+      "sell_time": "2025-12-19T20:08:00.539693",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 2007.3755863628976,
+      "sell_time": "2025-12-19T20:15:41.818746",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 2018.7166913706023,
+      "sell_time": "2025-12-19T20:23:48.746551",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 2018.7166913706023,
+      "sell_time": "2025-12-19T20:31:27.102005",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 2018.7166913706023,
+      "sell_time": "2025-12-19T20:38:43.105888",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 2018.7166913706023,
+      "sell_time": "2025-12-19T20:46:06.327554",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 2018.7166913706023,
+      "sell_time": "2025-12-19T20:53:13.394997",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 2302.2443165630975,
+      "sell_time": "2025-12-19T21:03:13.861605",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 2302.2443165630975,
+      "sell_time": "2025-12-19T21:14:39.777659",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 2381.6320516170017,
+      "sell_time": "2025-12-19T21:25:33.697798",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 2302.2443165630975,
+      "sell_time": "2025-12-19T21:36:40.958433",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 2302.2443165630975,
+      "sell_time": "2025-12-19T21:47:44.398005",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 2302.2443165630975,
+      "sell_time": "2025-12-19T21:58:43.801260",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 2313.585421570795,
+      "sell_time": "2025-12-19T22:10:00.948446",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 2177.492161478396,
+      "sell_time": "2025-12-19T22:21:07.547890",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 2234.197686516898,
+      "sell_time": "2025-12-19T22:32:17.524838",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 1837.2590112474063,
+      "sell_time": "2025-12-19T22:43:21.647486",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 1837.2590112474063,
+      "sell_time": "2025-12-19T22:54:32.044466",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 1837.2590112474063,
+      "sell_time": "2025-12-19T23:05:51.302345",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 1837.2590112474063,
+      "sell_time": "2025-12-19T23:16:53.669488",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 1848.6001162551038,
+      "sell_time": "2025-12-19T23:28:13.841775",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 1848.6001162551038,
+      "sell_time": "2025-12-19T23:39:19.861255",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 2392.973156624699,
+      "sell_time": "2025-12-19T23:50:19.228560",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 2392.973156624699,
+      "sell_time": "2025-12-20T00:01:40.799749",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 2392.973156624699,
+      "sell_time": "2025-12-20T00:12:49.347074",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-HOOK",
+      "profit": 2891.573986978903,
+      "sell_time": "2025-12-20T00:12:50+09:00",
+      "avg_buy_price": 48.33
+    },
+    {
+      "market": "KRW-ICX",
+      "profit": 1814.5416960015973,
+      "sell_time": "2025-12-17T20:26:40+09:00",
+      "avg_buy_price": 75.09
+    },
+    {
+      "market": "KRW-ICX",
+      "profit": 440.0505856903983,
+      "sell_time": "2025-12-19T13:19:33.023802",
+      "avg_buy_price": 75.09
+    },
+    {
+      "market": "KRW-ICX",
+      "profit": 440.0505856903983,
+      "sell_time": "2025-12-19T13:26:35.738201",
+      "avg_buy_price": 75.09
+    },
+    {
+      "market": "KRW-ICX",
+      "profit": 440.0505856903983,
+      "sell_time": "2025-12-19T13:47:55.145412",
+      "avg_buy_price": 75.09
+    },
+    {
+      "market": "KRW-ICX",
+      "profit": 584.8040678253965,
+      "sell_time": "2025-12-19T13:54:49.916472",
+      "avg_buy_price": 75.09
+    },
+    {
+      "market": "KRW-ICX",
+      "profit": 822.1997785267995,
+      "sell_time": "2025-12-19T16:16:42.675564",
+      "avg_buy_price": 75.09
+    },
+    {
+      "market": "KRW-ICX",
+      "profit": 772.9835946009007,
+      "sell_time": "2025-12-19T16:23:38.888337",
+      "avg_buy_price": 75.09
+    },
+    {
+      "market": "KRW-ICX",
+      "profit": 726.6624803176965,
+      "sell_time": "2025-12-19T17:50:44.338637",
+      "avg_buy_price": 75.09
+    },
+    {
+      "market": "KRW-ICX",
+      "profit": 726.6624803176965,
+      "sell_time": "2025-12-19T17:57:46.272283",
+      "avg_buy_price": 75.09
+    },
+    {
+      "market": "KRW-ICX",
+      "profit": 726.6624803176965,
+      "sell_time": "2025-12-19T18:04:43.772008",
+      "avg_buy_price": 75.09
+    },
+    {
+      "market": "KRW-ICX",
+      "profit": 726.6624803176965,
+      "sell_time": "2025-12-19T18:11:46.577861",
+      "avg_buy_price": 75.09
+    },
+    {
+      "market": "KRW-ICX",
+      "profit": 726.6624803176965,
+      "sell_time": "2025-12-19T18:18:51.720108",
+      "avg_buy_price": 75.09
+    },
+    {
+      "market": "KRW-ICX",
+      "profit": 726.6624803176965,
+      "sell_time": "2025-12-19T18:25:50.321801",
+      "avg_buy_price": 75.09
+    },
+    {
+      "market": "KRW-ICX",
+      "profit": 726.6624803176965,
+      "sell_time": "2025-12-19T18:32:38.902434",
+      "avg_buy_price": 75.09
+    },
+    {
+      "market": "KRW-ICX",
+      "profit": 726.6624803176965,
+      "sell_time": "2025-12-19T18:39:39.449206",
+      "avg_buy_price": 75.09
+    },
+    {
+      "market": "KRW-ICX",
+      "profit": 726.6624803176965,
+      "sell_time": "2025-12-19T18:46:36.005983",
+      "avg_buy_price": 75.09
+    },
+    {
+      "market": "KRW-ICX",
+      "profit": 729.5575499603983,
+      "sell_time": "2025-12-19T19:21:39.050598",
+      "avg_buy_price": 75.09
+    },
+    {
+      "market": "KRW-ICX",
+      "profit": 680.3413660344959,
+      "sell_time": "2025-12-19T19:28:48.864990",
+      "avg_buy_price": 75.09
+    },
+    {
+      "market": "KRW-ICX",
+      "profit": 680.3413660344959,
+      "sell_time": "2025-12-19T19:35:38.946874",
+      "avg_buy_price": 75.09
+    },
+    {
+      "market": "KRW-ICX",
+      "profit": 680.3413660344959,
+      "sell_time": "2025-12-19T19:43:45.440719",
+      "avg_buy_price": 75.09
+    },
+    {
+      "market": "KRW-ICX",
+      "profit": 680.3413660344959,
+      "sell_time": "2025-12-19T19:52:11.596903",
+      "avg_buy_price": 75.09
+    },
+    {
+      "market": "KRW-ICX",
+      "profit": 772.9835946009007,
+      "sell_time": "2025-12-19T20:00:14.102530",
+      "avg_buy_price": 75.09
+    },
+    {
+      "market": "KRW-ICX",
+      "profit": 729.5575499603983,
+      "sell_time": "2025-12-19T20:07:59.793862",
+      "avg_buy_price": 75.09
+    },
+    {
+      "market": "KRW-ICX",
+      "profit": 775.8786642435953,
+      "sell_time": "2025-12-19T20:15:41.395403",
+      "avg_buy_price": 75.09
+    },
+    {
+      "market": "KRW-ICX",
+      "profit": 775.8786642435953,
+      "sell_time": "2025-12-19T20:23:47.987918",
+      "avg_buy_price": 75.09
+    },
+    {
+      "market": "KRW-ICX",
+      "profit": 825.0948481694977,
+      "sell_time": "2025-12-19T20:31:26.336464",
+      "avg_buy_price": 75.09
+    },
+    {
+      "market": "KRW-ICX",
+      "profit": 825.0948481694977,
+      "sell_time": "2025-12-19T20:38:42.333495",
+      "avg_buy_price": 75.09
+    },
+    {
+      "market": "KRW-ICX",
+      "profit": 825.0948481694977,
+      "sell_time": "2025-12-19T20:46:05.929469",
+      "avg_buy_price": 75.09
+    },
+    {
+      "market": "KRW-ICX",
+      "profit": 984.3236785179979,
+      "sell_time": "2025-12-19T20:53:12.684815",
+      "avg_buy_price": 75.09
+    },
+    {
+      "market": "KRW-ICX",
+      "profit": 984.3236785179979,
+      "sell_time": "2025-12-19T21:03:12.609070",
+      "avg_buy_price": 75.09
+    },
+    {
+      "market": "KRW-ICX",
+      "profit": 1027.7497231584966,
+      "sell_time": "2025-12-19T21:14:38.611138",
+      "avg_buy_price": 75.09
+    },
+    {
+      "market": "KRW-ICX",
+      "profit": 1030.6447928011985,
+      "sell_time": "2025-12-19T21:25:32.421702",
+      "avg_buy_price": 75.09
+    },
+    {
+      "market": "KRW-ICX",
+      "profit": 1030.6447928011985,
+      "sell_time": "2025-12-19T21:36:39.734507",
+      "avg_buy_price": 75.09
+    },
+    {
+      "market": "KRW-ICX",
+      "profit": 932.2124249493972,
+      "sell_time": "2025-12-19T21:47:43.316305",
+      "avg_buy_price": 75.09
+    },
+    {
+      "market": "KRW-ICX",
+      "profit": 932.2124249493972,
+      "sell_time": "2025-12-19T21:58:42.683038",
+      "avg_buy_price": 75.09
+    },
+    {
+      "market": "KRW-ICX",
+      "profit": 932.2124249493972,
+      "sell_time": "2025-12-19T22:09:59.800836",
+      "avg_buy_price": 75.09
+    },
+    {
+      "market": "KRW-ICX",
+      "profit": 859.8356838818981,
+      "sell_time": "2025-12-19T22:21:06.399168",
+      "avg_buy_price": 75.09
+    },
+    {
+      "market": "KRW-ICX",
+      "profit": 940.8976338774992,
+      "sell_time": "2025-12-19T22:32:16.361508",
+      "avg_buy_price": 75.09
+    },
+    {
+      "market": "KRW-ICX",
+      "profit": 940.8976338774992,
+      "sell_time": "2025-12-19T22:43:22.898433",
+      "avg_buy_price": 75.09
+    },
+    {
+      "market": "KRW-ICX",
+      "profit": 845.3603356683998,
+      "sell_time": "2025-12-19T22:54:33.124070",
+      "avg_buy_price": 75.09
+    },
+    {
+      "market": "KRW-ICX",
+      "profit": 845.3603356683998,
+      "sell_time": "2025-12-19T23:05:52.422539",
+      "avg_buy_price": 75.09
+    },
+    {
+      "market": "KRW-ICX",
+      "profit": 845.3603356683998,
+      "sell_time": "2025-12-19T23:16:54.978002",
+      "avg_buy_price": 75.09
+    },
+    {
+      "market": "KRW-ICX",
+      "profit": 845.3603356683998,
+      "sell_time": "2025-12-19T23:28:12.684421",
+      "avg_buy_price": 75.09
+    },
+    {
+      "market": "KRW-ICX",
+      "profit": 845.3603356683998,
+      "sell_time": "2025-12-19T23:39:18.608193",
+      "avg_buy_price": 75.09
+    },
+    {
+      "market": "KRW-ICX",
+      "profit": 1126.1820910102979,
+      "sell_time": "2025-12-19T23:50:18.007142",
+      "avg_buy_price": 75.09
+    },
+    {
+      "market": "KRW-ICX",
+      "profit": 990.113817803398,
+      "sell_time": "2025-12-20T00:01:39.630803",
+      "avg_buy_price": 75.09
+    },
+    {
+      "market": "KRW-ICX",
+      "profit": 990.113817803398,
+      "sell_time": "2025-12-20T00:12:48.161065",
+      "avg_buy_price": 75.09
+    },
+    {
+      "market": "KRW-ICX",
+      "profit": 1189.8736231496987,
+      "sell_time": "2025-12-20T00:12:49+09:00",
+      "avg_buy_price": 75.09
+    },
     {
       "market": "KRW-APM",
       "profit": 971.5427509289202,
@@ -5676,12 +9566,6 @@
       "profit": -1065.341579373493,
       "sell_time": "2025-12-19T10:22:42+09:00",
       "avg_buy_price": 17.79
-    },
-    {
-      "market": "KRW-XYO",
-      "profit": 1714.679443608402,
-      "sell_time": "2025-12-17T19:07:05+09:00",
-      "avg_buy_price": 7.35
     },
     {
       "market": "KRW-XYO",
@@ -5842,12 +9726,6 @@
     {
       "market": "KRW-SXT",
       "profit": 0,
-      "sell_time": "2025-12-17T19:18:13+09:00",
-      "avg_buy_price": 0.0
-    },
-    {
-      "market": "KRW-SXT",
-      "profit": 0,
       "sell_time": "2025-12-18T00:02:37+09:00",
       "avg_buy_price": 0.0
     },
@@ -5893,8 +9771,8 @@
     "KRW-JST": 58.79
   },
   "archived_profit": 0,
-  "realized_profit": 9954.261554865228,
-  "unrealized_profit": 1797.9864945557908,
+  "realized_profit": 251751.583197228,
+  "unrealized_profit": -2679.6551219802695,
   "start_date": "2025-12-17",
   "today_date": "2025-12-20"
 }
