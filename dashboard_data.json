@@ -1,9 +1,9 @@
 {
-  "last_update": "2025-12-20T01:03:10.695768",
+  "last_update": "2025-12-20T01:08:38.729103",
   "today_profit": 12440.431581222296,
   "today_profit_percent": 6.1559374768631345,
-  "total_profit": 245787.68130405614,
-  "total_profit_percent": 121.62388328832168,
+  "total_profit": 246468.99967687562,
+  "total_profit_percent": 121.96102217916575,
   "total_investment": 202088.3354968955,
   "holdings": [
     {
@@ -37,19 +37,19 @@
       "market": "KRW-AGI",
       "amount": 473.64672365,
       "avg_price": 20.6,
-      "current_price": 20.81,
-      "value": 9856.588319156499,
-      "profit": 99.46581196649872,
-      "profit_rate": 0.010194174757281422
+      "current_price": 21.01,
+      "value": 9951.3176638865,
+      "profit": 194.19515669650008,
+      "profit_rate": 0.01990291262135923
     },
     {
       "market": "KRW-DEXE",
       "amount": 31.38724239,
       "avg_price": 5095.0,
-      "current_price": 5020.0,
-      "value": 157563.9567978,
-      "profit": -2354.04317925,
-      "profit_rate": -0.014720314033366046
+      "current_price": 5040.0,
+      "value": 158191.7016456,
+      "profit": -1726.29833145,
+      "profit_rate": -0.010794896957801767
     }
   ],
   "trades": [
@@ -3366,24 +3366,18 @@
       "profit_unknown": true,
       "avg_buy_price": 0.0,
       "buy_count": 0
-    },
-    {
-      "market": "KRW-AI16Z",
-      "type": "sell",
-      "time": "2025-12-17T21:13:30+09:00",
-      "price": 17.9,
-      "volume": 400.14381555,
-      "funds": 7162.574298344999,
-      "fee": 2.86,
-      "uuid": "C1100000000055275633",
-      "cycle_status": "completed",
-      "profit": 41.1558197104996,
-      "profit_unknown": false,
-      "avg_buy_price": 17.79,
-      "buy_count": 1
     }
   ],
   "raw_trades": [
+    {
+      "type": "buy",
+      "market": "KRW-MMT",
+      "profit": 0,
+      "price": 300.0,
+      "amount": 22.40974751,
+      "volume": 22.40974751,
+      "time": "2025-12-20T01:07:26.867873"
+    },
     {
       "type": "buy",
       "market": "KRW-XPLA",
@@ -8192,20 +8186,10 @@
       "funds": 9764.465065622,
       "fee": 0.0,
       "uuid": "C0994000000029442660"
-    },
-    {
-      "market": "KRW-AI16Z",
-      "type": "sell",
-      "time": "2025-12-17T21:13:30+09:00",
-      "price": 17.9,
-      "volume": 400.14381555,
-      "funds": 7162.574298344999,
-      "fee": 2.86,
-      "uuid": "C1100000000055275633"
     }
   ],
   "daily_profits": {
-    "2025-12-17": 870.9024366905005,
+    "2025-12-17": 829.7466169800009,
     "2025-12-18": -1596.7485129846564,
     "2025-12-19": 236103.62940686755,
     "2025-12-20": 12440.431581222296
@@ -9509,12 +9493,6 @@
     },
     {
       "market": "KRW-AI16Z",
-      "profit": 41.1558197104996,
-      "sell_time": "2025-12-17T21:13:30+09:00",
-      "avg_buy_price": 17.79
-    },
-    {
-      "market": "KRW-AI16Z",
       "profit": -1048.2659304628942,
       "sell_time": "2025-12-19T10:22:41.355232",
       "avg_buy_price": 17.795672691762206
@@ -9724,8 +9702,8 @@
     "KRW-AGI": 20.6
   },
   "archived_profit": 0,
-  "realized_profit": 247818.21491179575,
-  "unrealized_profit": -2030.5336077396103,
+  "realized_profit": 247777.05909208523,
+  "unrealized_profit": -1308.059415209609,
   "start_date": "2025-12-17",
   "today_date": "2025-12-20"
 }
