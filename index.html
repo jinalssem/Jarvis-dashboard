@@ -1207,6 +1207,24 @@
                     </button>
                 </div>
                 
+                <!-- 🆕 봇 제어 버튼 -->
+                <div style="margin-top: 15px; padding-top: 15px; border-top: 1px solid rgba(255,255,255,0.1);">
+                    <label style="color: #ff6b6b; font-weight: bold;">⚠️ 봇 제어</label>
+                    <div class="control-buttons" style="margin-top: 10px;">
+                        <button onclick="sendSellAllCommand()" style="background: linear-gradient(135deg, #e74c3c, #c0392b); flex: 1;">
+                            🚨 전체 매도
+                        </button>
+                        <button onclick="sendCancelAllCommand()" style="background: linear-gradient(135deg, #9b59b6, #8e44ad); flex: 1;">
+                            🗑️ 주문 취소
+                        </button>
+                    </div>
+                    <div class="control-buttons" style="margin-top: 8px;">
+                        <button onclick="sendStopCommand()" style="background: linear-gradient(135deg, #34495e, #2c3e50); flex: 1;">
+                            🛑 봇 종료
+                        </button>
+                    </div>
+                </div>
+                
                 <div id="commandStatus"></div>
             </div>
         </div>
@@ -2671,7 +2689,7 @@
             createCommandFile(command);
             
             showStatus(`📥 ${coinInput} 계속 보유 명령 파일 다운로드됨!
-<br><small>📁 command.json 파일을 <b>D:\\ML_Agent</b> 폴더에 넣어주세요.</small>
+<br><small>📁 다운로드 폴더에서 자동 감지됩니다.</small>
 <br><small>⏱️ 봇이 60초 내에 명령을 실행합니다.</small>`, 'success');
         }
         
@@ -2725,8 +2743,91 @@
             createCommandFile(command);
             
             showStatus(`📥 ${coinInput} 전량 매도 명령 파일 다운로드됨!
-<br><small>📁 command.json 파일을 <b>D:\\ML_Agent</b> 폴더에 넣어주세요.</small>
+<br><small>📁 다운로드 폴더에서 자동 감지됩니다.</small>
 <br><small>⏱️ 봇이 60초 내에 명령을 실행합니다.</small>`, 'success');
+        }
+        
+        // 🆕 전체 코인 시장가 매도
+        function sendSellAllCommand() {
+            const token = document.getElementById('securityToken').value;
+            
+            if (!token || token.trim() === '') {
+                showStatus('🔒 보안 토큰을 입력하세요!', 'error');
+                return;
+            }
+            
+            if (!confirm('🚨 경고: 모든 보유 코인을 시장가로 매도합니다!\n\n정말 실행하시겠습니까?')) {
+                return;
+            }
+            
+            const command = {
+                token: token,
+                action: 'sell_all',
+                timestamp: new Date().toISOString(),
+                status: 'pending',
+                force: true,
+                priority: 'immediate',
+                reason: 'manual_sell_all'
+            };
+            
+            createCommandFile(command);
+            showStatus(`🚨 전체 매도 명령 파일 다운로드됨!
+<br><small>📁 다운로드 폴더에서 자동 감지됩니다.</small>
+<br><small>⏱️ 봇이 60초 내에 모든 코인을 매도합니다.</small>`, 'success');
+        }
+        
+        // 🆕 모든 미체결 주문 취소
+        function sendCancelAllCommand() {
+            const token = document.getElementById('securityToken').value;
+            
+            if (!token || token.trim() === '') {
+                showStatus('🔒 보안 토큰을 입력하세요!', 'error');
+                return;
+            }
+            
+            if (!confirm('🗑️ 모든 미체결 주문을 취소합니다.\n\n실행하시겠습니까?')) {
+                return;
+            }
+            
+            const command = {
+                token: token,
+                action: 'cancel_all',
+                timestamp: new Date().toISOString(),
+                status: 'pending',
+                reason: 'manual_cancel_all'
+            };
+            
+            createCommandFile(command);
+            showStatus(`🗑️ 주문 취소 명령 파일 다운로드됨!
+<br><small>📁 다운로드 폴더에서 자동 감지됩니다.</small>
+<br><small>⏱️ 봇이 60초 내에 미체결 주문을 취소합니다.</small>`, 'success');
+        }
+        
+        // 🆕 봇 종료
+        function sendStopCommand() {
+            const token = document.getElementById('securityToken').value;
+            
+            if (!token || token.trim() === '') {
+                showStatus('🔒 보안 토큰을 입력하세요!', 'error');
+                return;
+            }
+            
+            if (!confirm('🛑 봇을 종료합니다.\n\n⚠️ 다시 시작하려면 수동으로 실행해야 합니다.\n\n정말 종료하시겠습니까?')) {
+                return;
+            }
+            
+            const command = {
+                token: token,
+                action: 'stop',
+                timestamp: new Date().toISOString(),
+                status: 'pending',
+                reason: 'manual_stop'
+            };
+            
+            createCommandFile(command);
+            showStatus(`🛑 봇 종료 명령 파일 다운로드됨!
+<br><small>📁 다운로드 폴더에서 자동 감지됩니다.</small>
+<br><small>⏱️ 봇이 60초 내에 안전하게 종료됩니다.</small>`, 'success');
         }
         
         // command.json 파일 생성 및 다운로드
