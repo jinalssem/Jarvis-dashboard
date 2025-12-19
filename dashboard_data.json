@@ -1,9 +1,9 @@
 {
-  "last_update": "2025-12-19T19:49:15.755199",
+  "last_update": "2025-12-19T19:53:18.959990",
   "today_profit": 13029.115231046695,
   "today_profit_percent": 6.9006331613605685,
-  "total_profit": 17555.150094556528,
-  "total_profit_percent": 9.297764947729839,
+  "total_profit": 17138.24763719961,
+  "total_profit_percent": 9.07696016772186,
   "total_investment": 188810.43125146793,
   "holdings": [
     {
@@ -19,10 +19,10 @@
       "market": "KRW-APM",
       "amount": 68560.64461407,
       "avg_price": 1.179,
-      "current_price": 1.205,
-      "value": 82615.57675995435,
-      "profit": 1782.5767599658216,
-      "profit_rate": 0.02205258693808314
+      "current_price": 1.199,
+      "value": 82204.21289226993,
+      "profit": 1371.2128922814013,
+      "profit_rate": 0.016963528413910106
     },
     {
       "market": "KRW-WIKEN",
@@ -55,10 +55,10 @@
       "market": "KRW-HAEDAL",
       "amount": 184.61965575,
       "avg_price": 52.9,
-      "current_price": 55.02,
-      "value": 10157.773459365,
-      "profit": 391.3936701900008,
-      "profit_rate": 0.04007561436672977
+      "current_price": 54.99,
+      "value": 10152.2348696925,
+      "profit": 385.8550805175006,
+      "profit_rate": 0.039508506616257155
     }
   ],
   "trades": [
@@ -696,6 +696,24 @@
     }
   ],
   "raw_trades": [
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 1905.3056412935998,
+      "price": 50.01,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T19:52:12.302874"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-ICX",
+      "profit": 680.3413660344984,
+      "price": 77.44,
+      "amount": 289.50696427,
+      "volume": 289.50696427,
+      "time": "2025-12-19T19:52:11.596903"
+    },
     {
       "type": "sell",
       "market": "KRW-HAEDAL",
@@ -5074,7 +5092,7 @@
   },
   "archived_profit": 0,
   "realized_profit": 12436.485490763389,
-  "unrealized_profit": 5118.66460379314,
+  "unrealized_profit": 4701.762146436219,
   "start_date": "2025-12-17",
   "today_date": "2025-12-19"
 }
