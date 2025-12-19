@@ -1,9 +1,9 @@
 {
-  "last_update": "2025-12-20T03:17:00.466551",
+  "last_update": "2025-12-20T03:20:23.884791",
   "today_profit": 12440.431581222296,
   "today_profit_percent": 18.18186696848452,
-  "total_profit": 248242.95876383953,
-  "total_profit_percent": 362.8106004714394,
+  "total_profit": 247902.13771273874,
+  "total_profit_percent": 362.31248567769484,
   "total_investment": 68422.1901017419,
   "holdings": [
     {
@@ -46,22 +46,33 @@
       "market": "KRW-AGI",
       "amount": 479.7979798,
       "avg_price": 20.3,
-      "current_price": 20.34,
-      "value": 9759.090909132,
-      "profit": 19.19191919199959,
-      "profit_rate": 0.0019704433497536524
+      "current_price": 20.27,
+      "value": 9725.505050546,
+      "profit": -14.393939394000546,
+      "profit_rate": -0.001477832512315327
     },
     {
       "market": "KRW-MMT",
       "amount": 22.40974751,
       "avg_price": 300.0,
-      "current_price": 303.0,
-      "value": 6790.153495529999,
-      "profit": 67.22924253,
-      "profit_rate": 0.01
+      "current_price": 306.0,
+      "value": 6857.38273806,
+      "profit": 134.45848506,
+      "profit_rate": 0.02
     }
   ],
   "trades": [
+    {
+      "market": "KRW-AGI",
+      "type": "buy",
+      "time": "2025-12-20T03:19:14.378890",
+      "price": 20.315843902093707,
+      "volume": 2399.2388639600003,
+      "funds": 48742.56224404801,
+      "cycle_status": "holding",
+      "profit": 0,
+      "buy_count": 5
+    },
     {
       "market": "KRW-MMT",
       "type": "buy",
@@ -72,17 +83,6 @@
       "cycle_status": "holding",
       "profit": 0,
       "buy_count": 3
-    },
-    {
-      "market": "KRW-AGI",
-      "type": "buy",
-      "time": "2025-12-20T00:51:09+09:00",
-      "price": 20.44903225806472,
-      "volume": 1906.8894069000003,
-      "funds": 38994.04299426,
-      "cycle_status": "holding",
-      "profit": 0,
-      "buy_count": 4
     },
     {
       "market": "KRW-WIKEN",
@@ -3341,24 +3341,18 @@
       "profit_unknown": true,
       "avg_buy_price": 0.0,
       "buy_count": 0
-    },
-    {
-      "market": "KRW-XPR",
-      "type": "sell",
-      "time": "2025-12-18T00:38:08+09:00",
-      "price": 4.13,
-      "volume": 2364.71521903,
-      "funds": 9766.2738545939,
-      "fee": 3.89,
-      "uuid": "C0289000000180540062",
-      "cycle_status": "completed",
-      "profit": 374.46443504479976,
-      "profit_unknown": false,
-      "avg_buy_price": 3.97,
-      "buy_count": 1
     }
   ],
   "raw_trades": [
+    {
+      "type": "buy",
+      "market": "KRW-AGI",
+      "profit": 0,
+      "price": 19.8,
+      "amount": 492.34945706,
+      "volume": 492.34945706,
+      "time": "2025-12-20T03:19:14.378890"
+    },
     {
       "market": "KRW-DEXE",
       "type": "sell",
@@ -8163,20 +8157,10 @@
       "funds": 24780.7860553,
       "fee": 0.0,
       "uuid": "C0994000000029461963"
-    },
-    {
-      "market": "KRW-XPR",
-      "type": "sell",
-      "time": "2025-12-18T00:38:08+09:00",
-      "price": 4.13,
-      "volume": 2364.71521903,
-      "funds": 9766.2738545939,
-      "fee": 3.89,
-      "uuid": "C0289000000180540062"
     }
   ],
   "daily_profits": {
-    "2025-12-18": -1845.0539880253482,
+    "2025-12-18": -2219.518423070148,
     "2025-12-19": 237596.4398366675,
     "2025-12-20": 12440.431581222296
   },
@@ -9497,12 +9481,6 @@
     },
     {
       "market": "KRW-XPR",
-      "profit": 374.46443504479976,
-      "sell_time": "2025-12-18T00:38:08+09:00",
-      "avg_buy_price": 3.97
-    },
-    {
-      "market": "KRW-XPR",
       "profit": -29.752094247799505,
       "sell_time": "2025-12-18T04:37:21+09:00",
       "avg_buy_price": 3.9699999999999998
@@ -9677,8 +9655,8 @@
     "KRW-MMT": 300.0
   },
   "archived_profit": 0,
-  "realized_profit": 248191.81742986455,
-  "unrealized_profit": 51.14133397499945,
+  "realized_profit": 247817.35299481975,
+  "unrealized_profit": 84.7847179189993,
   "start_date": "2025-12-18",
   "today_date": "2025-12-20"
 }
