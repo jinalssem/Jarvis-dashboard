@@ -1394,25 +1394,32 @@
                             }
                         },
                         tooltip: {
-                            backgroundColor: 'rgba(0, 0, 0, 0.8)',
+                            mode: 'index',
+                            intersect: false,
+                            backgroundColor: 'rgba(0, 0, 0, 0.9)',
                             titleColor: '#fff',
+                            titleFont: { size: 14, weight: 'bold' },
                             bodyColor: '#fff',
+                            bodyFont: { size: 13 },
+                            padding: 12,
+                            displayColors: true,
                             callbacks: {
+                                title: function(tooltipItems) {
+                                    // 날짜 표시
+                                    return '📅 ' + tooltipItems[0].label;
+                                },
                                 label: function(context) {
-                                    let label = context.dataset.label || '';
-                                    if (label) {
-                                        label += ': ';
+                                    if (context.datasetIndex === 0) {
+                                        // 일일 수익금 (막대)
+                                        const value = context.parsed.y;
+                                        const sign = value >= 0 ? '+' : '';
+                                        return '💰 일일 수익금: ' + sign + value.toLocaleString() + '원';
+                                    } else {
+                                        // 누적 수익률 (라인)
+                                        const value = context.parsed.y;
+                                        const sign = value >= 0 ? '+' : '';
+                                        return '📈 누적 수익률: ' + sign + value.toFixed(2) + '%';
                                     }
-                                    if (context.parsed.y !== null) {
-                                        if (context.datasetIndex === 0) {
-                                            label += context.parsed.y >= 0 ? '+' : '';
-                                            label += context.parsed.y.toLocaleString() + '원';
-                                        } else {
-                                            label += context.parsed.y >= 0 ? '+' : '';
-                                            label += context.parsed.y.toFixed(2) + '%';
-                                        }
-                                    }
-                                    return label;
                                 }
                             }
                         }
@@ -1497,10 +1504,12 @@
                 }
             }
             
+            console.log('📊 차트 업데이트 시작, daily_profits:', data.daily_profits);
+            
             // daily_profits가 없으면 샘플 데이터 사용
             let dailyProfits = data.daily_profits;
             if (!dailyProfits || Object.keys(dailyProfits).length === 0) {
-                console.log('daily_profits 데이터가 없어 샘플 데이터 사용');
+                console.log('⚠️ daily_profits 데이터가 없어 샘플 데이터 사용');
                 // 최근 7일 샘플 데이터 생성
                 dailyProfits = {};
                 const today = new Date();
@@ -1516,6 +1525,8 @@
             // 최근 7일 데이터만 표시 (정렬 후)
             const sortedEntries = Object.entries(dailyProfits).sort((a, b) => a[0].localeCompare(b[0]));
             const entries = sortedEntries.slice(-7);
+            
+            console.log('📊 표시할 데이터:', entries);
             
             const dates = entries.map(([date]) => {
                 const d = new Date(date);
@@ -1549,7 +1560,7 @@
             profitChart.data.datasets[1].data = cumulativeRates;
             profitChart.update();
             
-            console.log('차트 업데이트 완료:', { dates, profits, cumulativeRates });
+            console.log('✅ 차트 업데이트 완료:', { dates, profits, cumulativeRates });
         }
 
         function getTimeAgo(dateString) {
