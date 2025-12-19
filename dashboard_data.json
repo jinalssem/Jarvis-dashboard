@@ -1,9 +1,9 @@
 {
-  "last_update": "2025-12-19T17:17:02.868763",
+  "last_update": "2025-12-19T17:20:32.543235",
   "today_profit": 12091.912885046704,
   "today_profit_percent": 9.484253534355162,
-  "total_profit": 15282.122935411999,
-  "total_profit_percent": 11.986484672898097,
+  "total_profit": 15485.06507218652,
+  "total_profit_percent": 12.145661694455502,
   "total_investment": 127494.61875144651,
   "holdings": [
     {
@@ -19,19 +19,19 @@
       "market": "KRW-APM",
       "amount": 7500.0,
       "avg_price": 1.3,
-      "current_price": 1.271,
-      "value": 9532.5,
-      "profit": -217.50000000000102,
-      "profit_rate": -0.022307692307692414
+      "current_price": 1.279,
+      "value": 9592.5,
+      "profit": -157.50000000000097,
+      "profit_rate": -0.016153846153846255
     },
     {
       "market": "KRW-POLA",
       "amount": 989.58333333,
       "avg_price": 9.87,
-      "current_price": 10.0,
-      "value": 9895.8333333,
-      "profit": 128.64583333290076,
-      "profit_rate": 0.013171225937183464
+      "current_price": 9.984,
+      "value": 9879.99999996672,
+      "profit": 112.81249999962075,
+      "profit_rate": 0.01155015197568397
     },
     {
       "market": "KRW-WIKEN",
@@ -55,10 +55,10 @@
       "market": "KRW-HOOK",
       "amount": 1134.11050077,
       "avg_price": 48.33,
-      "current_price": 50.43,
-      "value": 57193.192553831104,
-      "profit": 2381.6320516170017,
-      "profit_rate": 0.04345127250155186
+      "current_price": 50.57,
+      "value": 57351.968023938905,
+      "profit": 2540.4075217248023,
+      "profit_rate": 0.04634802400165533
     },
     {
       "market": "KRW-HAEDAL",
@@ -74,13 +74,13 @@
     {
       "market": "KRW-APM",
       "type": "buy",
-      "time": "2025-12-19T16:58:40+09:00",
-      "price": 1.3196745562130165,
-      "volume": 29519.65065502,
-      "funds": 38956.3318777268,
+      "time": "2025-12-19T17:19:26.246127",
+      "price": 1.3051674319504991,
+      "volume": 37282.296569419996,
+      "funds": 48659.639270726795,
       "cycle_status": "holding",
       "profit": 0,
-      "buy_count": 4
+      "buy_count": 5
     },
     {
       "market": "KRW-DEXE",
@@ -701,6 +701,15 @@
     }
   ],
   "raw_trades": [
+    {
+      "type": "buy",
+      "market": "KRW-APM",
+      "profit": 0,
+      "price": 1.25,
+      "amount": 7762.6459144,
+      "volume": 7762.6459144,
+      "time": "2025-12-19T17:19:26.246127"
+    },
     {
       "type": "buy",
       "market": "KRW-CHR",
@@ -4465,7 +4474,7 @@
   },
   "archived_profit": 0,
   "realized_profit": 11499.283144763398,
-  "unrealized_profit": 3782.839790648601,
+  "unrealized_profit": 3985.7819274231215,
   "start_date": "2025-12-17",
   "today_date": "2025-12-19"
 }
