@@ -1,5 +1,5 @@
 {
-  "last_update": "2025-12-19T15:18:23.769625",
+  "last_update": "2025-12-19T15:21:46.898743",
   "today_profit": 10201.6818098467,
   "today_profit_percent": 8.66424463217464,
   "total_profit": 12281.447971326561,
@@ -681,6 +681,24 @@
     }
   ],
   "raw_trades": [
+    {
+      "type": "sell",
+      "market": "KRW-HAEDAL",
+      "profit": 341.54636313750024,
+      "price": 54.75,
+      "amount": 184.61965575,
+      "volume": 184.61965575,
+      "time": "2025-12-19T15:20:40.913956"
+    },
+    {
+      "type": "sell",
+      "market": "KRW-HOOK",
+      "profit": 1780.5534862089005,
+      "price": 49.9,
+      "amount": 1134.11050077,
+      "volume": 1134.11050077,
+      "time": "2025-12-19T15:20:40.562395"
+    },
     {
       "type": "sell",
       "market": "KRW-HAEDAL",
