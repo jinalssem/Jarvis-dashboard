@@ -1,46 +1,46 @@
 {
-  "last_update": "2025-12-19T11:50:55.494038",
+  "last_update": "2025-12-19T11:54:32.497588",
   "today_profit": 6001.403711988447,
   "today_profit_percent": 3.1758502361481344,
-  "total_profit": 5078.517995282311,
-  "total_profit_percent": 2.6874733560052366,
+  "total_profit": 5521.65119215281,
+  "total_profit_percent": 2.921972605758252,
   "total_investment": 188969.98490921652,
   "holdings": [
     {
       "market": "KRW-A",
       "amount": 166.10517983,
       "avg_price": 217.2,
-      "current_price": 221.0,
-      "value": 36709.24474243,
-      "profit": 631.1996833540019,
-      "profit_rate": 0.017495395948434675
+      "current_price": 222.0,
+      "value": 36875.34992226,
+      "profit": 797.3048631840019,
+      "profit_rate": 0.02209944751381221
     },
     {
       "market": "KRW-ICX",
       "amount": 289.50696427,
       "avg_price": 75.09,
-      "current_price": 74.24,
-      "value": 21492.9970274048,
-      "profit": -246.0809196295025,
-      "profit_rate": -0.011319749633772918
+      "current_price": 75.24,
+      "value": 21782.5039916748,
+      "profit": 43.42604464049754,
+      "profit_rate": 0.0019976028765480284
     },
     {
       "market": "KRW-KNC",
       "amount": 79.52017234,
       "avg_price": 319.1,
-      "current_price": 316.0,
-      "value": 25128.37445944,
-      "profit": -246.51253425400182,
-      "profit_rate": -0.009714822939517464
+      "current_price": 317.0,
+      "value": 25207.89463178,
+      "profit": -166.9923619140018,
+      "profit_rate": -0.00658100908806024
     },
     {
       "market": "KRW-LINK",
       "amount": 0.5474753,
       "avg_price": 17850.0,
-      "current_price": 17820.0,
-      "value": 9756.009846,
-      "profit": -16.424259,
-      "profit_rate": -0.0016806722689075631
+      "current_price": 17830.0,
+      "value": 9761.484599,
+      "profit": -10.949506,
+      "profit_rate": -0.0011204481792717086
     },
     {
       "market": "KRW-POLA",
@@ -64,10 +64,10 @@
       "market": "KRW-SIX",
       "amount": 649.82581713,
       "avg_price": 18.34,
-      "current_price": 18.28,
-      "value": 11878.815937136402,
-      "profit": -38.98954902779917,
-      "profit_rate": -0.003271537622682591
+      "current_price": 18.13,
+      "value": 11781.3420645669,
+      "profit": -136.46342159730057,
+      "profit_rate": -0.01145038167938936
     },
     {
       "market": "KRW-HOOK",
@@ -3509,7 +3509,7 @@
   },
   "archived_profit": 0,
   "realized_profit": 5186.28326538554,
-  "unrealized_profit": -107.76527010322941,
+  "unrealized_profit": 335.36792676726924,
   "start_date": "2025-12-17",
   "today_date": "2025-12-19"
 }
