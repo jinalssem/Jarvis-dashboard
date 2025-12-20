@@ -1,9 +1,9 @@
 {
-  "last_update": "2025-12-21T07:37:35.687480",
+  "last_update": "2025-12-21T07:40:46.961263",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": -4107.923631544756,
-  "total_profit_percent": -1.0050556578098457,
+  "total_profit": -3963.0295465690633,
+  "total_profit_percent": -0.9696054807983421,
   "total_investment": 408725.98443915887,
   "holdings": [
     {
@@ -46,19 +46,19 @@
       "market": "KRW-XPLA",
       "amount": 807.62293561,
       "avg_price": 36.23,
-      "current_price": 35.56,
-      "value": 28719.0715902916,
-      "profit": -541.1073668586956,
-      "profit_rate": -0.01849296163400482
+      "current_price": 35.72,
+      "value": 28848.2912599892,
+      "profit": -411.8876971610984,
+      "profit_rate": -0.014076731990063429
     },
     {
       "market": "KRW-ZTX",
       "amount": 16547.77704048,
       "avg_price": 0.59,
-      "current_price": 0.5816,
-      "value": 9624.187126743167,
-      "profit": -139.00132714003138,
-      "profit_rate": -0.014237288135593159
+      "current_price": 0.5818,
+      "value": 9627.496682151263,
+      "profit": -135.69177173193575,
+      "profit_rate": -0.013898305084745738
     },
     {
       "market": "KRW-MOVE",
@@ -73,13 +73,24 @@
       "market": "KRW-SOON",
       "amount": 12.36485987,
       "avg_price": 538.0,
-      "current_price": 544.0,
-      "value": 6726.48376928,
-      "profit": 74.18915922,
-      "profit_rate": 0.011152416356877323
+      "current_price": 545.0,
+      "value": 6738.84862915,
+      "profit": 86.55401909,
+      "profit_rate": 0.013011152416356878
     }
   ],
   "trades": [
+    {
+      "market": "KRW-ZTX",
+      "type": "buy",
+      "time": "2025-12-21T07:39:38.220878",
+      "price": 0.5827029290777864,
+      "volume": 59261.632128829995,
+      "funds": 34531.92662339949,
+      "cycle_status": "holding",
+      "profit": 0,
+      "buy_count": 4
+    },
     {
       "market": "KRW-XPLA",
       "type": "buy",
@@ -90,17 +101,6 @@
       "cycle_status": "holding",
       "profit": 0,
       "buy_count": 21
-    },
-    {
-      "market": "KRW-ZTX",
-      "type": "buy",
-      "time": "2025-12-21T07:11:06.413681",
-      "price": 0.5878455086612688,
-      "volume": 42184.076915679994,
-      "funds": 24797.720151903995,
-      "cycle_status": "holding",
-      "profit": 0,
-      "buy_count": 3
     },
     {
       "market": "KRW-SOON",
@@ -695,6 +695,15 @@
     }
   ],
   "raw_trades": [
+    {
+      "type": "buy",
+      "market": "KRW-ZTX",
+      "profit": 0,
+      "price": 0.57,
+      "amount": 17077.55521315,
+      "volume": 17077.55521315,
+      "time": "2025-12-21T07:39:38.220878"
+    },
     {
       "type": "buy",
       "market": "KRW-ETH",
@@ -2747,7 +2756,7 @@
   },
   "archived_profit": 0,
   "realized_profit": 1678.0753078603875,
-  "unrealized_profit": -5785.998939405144,
+  "unrealized_profit": -5641.104854429451,
   "start_date": "2025-12-18",
   "today_date": "2025-12-21"
 }
