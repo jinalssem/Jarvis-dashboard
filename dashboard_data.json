@@ -1,19 +1,19 @@
 {
-  "last_update": "2025-12-20T09:07:32.046298",
+  "last_update": "2025-12-20T09:15:06.177191",
   "today_profit": 638.1793940732596,
   "today_profit_percent": 0.2525048286434501,
-  "total_profit": -3527.3843474454725,
-  "total_profit_percent": -1.3956601991274282,
+  "total_profit": -3520.6502885894015,
+  "total_profit_percent": -1.3929957721758244,
   "total_investment": 252739.48126132748,
   "holdings": [
     {
       "market": "KRW-POLA",
       "amount": 2019.23076923,
       "avg_price": 9.68,
-      "current_price": 9.552,
-      "value": 19287.69230768496,
-      "profit": -258.4615384614402,
-      "profit_rate": -0.01322314049586778
+      "current_price": 9.628,
+      "value": 19441.15384614644,
+      "profit": -104.9999999999592,
+      "profit_rate": -0.00537190082644624
     },
     {
       "market": "KRW-WIKEN",
@@ -37,19 +37,19 @@
       "market": "KRW-MOVE",
       "amount": 2919.08923006,
       "avg_price": 52.83,
-      "current_price": 52.39,
-      "value": 152931.08476284338,
-      "profit": -1284.3992612263933,
-      "profit_rate": -0.008328601173575577
+      "current_price": 52.3,
+      "value": 152668.36673213798,
+      "profit": -1547.1172919318033,
+      "profit_rate": -0.010032178686352472
     },
     {
       "market": "KRW-DEXE",
       "amount": 11.59905511,
       "avg_price": 5042.0,
-      "current_price": 5035.0,
-      "value": 58401.24247885,
-      "profit": -81.19338577,
-      "profit_rate": -0.001388337961126537
+      "current_price": 5045.0,
+      "value": 58517.23302995,
+      "profit": 34.79716533,
+      "profit_rate": 0.0005950019833399445
     }
   ],
   "trades": [
@@ -1787,7 +1787,7 @@
   },
   "archived_profit": 0,
   "realized_profit": -2017.2835386874385,
-  "unrealized_profit": -1510.1008087580342,
+  "unrealized_profit": -1503.3667499019632,
   "start_date": "2025-12-18",
   "today_date": "2025-12-20"
 }
