@@ -1,19 +1,19 @@
 {
-  "last_update": "2025-12-20T09:21:51.336413",
+  "last_update": "2025-12-20T09:28:57.374940",
   "today_profit": 638.1793940732596,
   "today_profit_percent": 0.2525048286434501,
-  "total_profit": -5696.420731434469,
-  "total_profit_percent": -2.253870548046463,
+  "total_profit": -5176.866454624898,
+  "total_profit_percent": -2.048301448111355,
   "total_investment": 252739.48126132748,
   "holdings": [
     {
       "market": "KRW-POLA",
       "amount": 2019.23076923,
       "avg_price": 9.68,
-      "current_price": 9.558,
-      "value": 19299.80769230034,
-      "profit": -246.3461538460598,
-      "profit_rate": -0.012603305785123956
+      "current_price": 9.584,
+      "value": 19352.30769230032,
+      "profit": -193.84615384608017,
+      "profit_rate": -0.009917355371900836
     },
     {
       "market": "KRW-WIKEN",
@@ -37,10 +37,10 @@
       "market": "KRW-MOVE",
       "amount": 2919.08923006,
       "avg_price": 52.83,
-      "current_price": 51.6,
-      "value": 150625.004271096,
-      "profit": -3590.4797529737907,
-      "profit_rate": -0.02328222600794997
+      "current_price": 51.76,
+      "value": 151092.0585479056,
+      "profit": -3123.4254761642005,
+      "profit_rate": -0.020253643763013446
     },
     {
       "market": "KRW-DEXE",
@@ -53,6 +53,17 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-JST",
+      "type": "buy",
+      "time": "2025-12-20T09:27:26.675434",
+      "price": 57.982616853034294,
+      "volume": 488.88344914,
+      "funds": 28346.741717274497,
+      "cycle_status": "holding",
+      "profit": 0,
+      "buy_count": 2
+    },
     {
       "market": "KRW-MOVE",
       "type": "buy",
@@ -209,17 +220,6 @@
       "profit_unknown": true,
       "avg_buy_price": 0.0,
       "buy_count": 0
-    },
-    {
-      "market": "KRW-JST",
-      "type": "buy",
-      "time": "2025-12-19T07:07:36+09:00",
-      "price": 58.79,
-      "volume": 182.90185405,
-      "funds": 10752.7999995995,
-      "cycle_status": "holding",
-      "profit": 0,
-      "buy_count": 1
     },
     {
       "market": "KRW-APM",
@@ -519,6 +519,15 @@
     }
   ],
   "raw_trades": [
+    {
+      "type": "buy",
+      "market": "KRW-JST",
+      "profit": 0,
+      "price": 57.5,
+      "amount": 305.98159509,
+      "volume": 305.98159509,
+      "time": "2025-12-20T09:27:26.675434"
+    },
     {
       "market": "KRW-MOVE",
       "type": "buy",
@@ -1787,7 +1796,7 @@
   },
   "archived_profit": 0,
   "realized_profit": -2017.2835386874385,
-  "unrealized_profit": -3679.1371927470304,
+  "unrealized_profit": -3159.5829159374603,
   "start_date": "2025-12-18",
   "today_date": "2025-12-20"
 }
