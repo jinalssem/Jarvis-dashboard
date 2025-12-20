@@ -1,9 +1,9 @@
 {
-  "last_update": "2025-12-21T07:28:15.669500",
+  "last_update": "2025-12-21T07:31:20.440148",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": -3386.5250832582715,
-  "total_profit_percent": -0.8488323014919055,
+  "total_profit": -3243.7942815884626,
+  "total_profit_percent": -0.8130568349305882,
   "total_investment": 398962.7959852757,
   "holdings": [
     {
@@ -46,19 +46,19 @@
       "market": "KRW-XPLA",
       "amount": 807.62293561,
       "avg_price": 36.23,
-      "current_price": 36.04,
-      "value": 29106.7305993844,
-      "profit": -153.44835776589818,
-      "profit_rate": -0.005244272702180451
+      "current_price": 35.99,
+      "value": 29066.349452603903,
+      "profit": -193.82950454639587,
+      "profit_rate": -0.006624344465912087
     },
     {
       "market": "KRW-MOVE",
       "amount": 6103.73161501,
       "avg_price": 51.95,
-      "current_price": 51.21,
-      "value": 312572.0960046621,
-      "profit": -4516.761395107412,
-      "profit_rate": -0.014244465832531318
+      "current_price": 51.24,
+      "value": 312755.2079531124,
+      "profit": -4333.649446657105,
+      "profit_rate": -0.013666987487969217
     },
     {
       "market": "KRW-SOON",
@@ -675,6 +675,15 @@
     }
   ],
   "raw_trades": [
+    {
+      "type": "buy",
+      "market": "KRW-AGI",
+      "profit": 0,
+      "price": 19.9,
+      "amount": 489.21039725,
+      "volume": 489.21039725,
+      "time": "2025-12-21T07:30:12.239752"
+    },
     {
       "type": "buy",
       "market": "KRW-XPLA",
@@ -2467,6 +2476,12 @@
   },
   "trade_cycles": [
     {
+      "market": "KRW-AGI",
+      "profit": 352.3326764432604,
+      "sell_time": "2025-12-20T05:35:20+09:00",
+      "avg_buy_price": 20.457202632258223
+    },
+    {
       "market": "KRW-IN",
       "profit": -15.529999999998836,
       "sell_time": "2025-12-20T23:11:58+09:00",
@@ -2531,12 +2546,6 @@
       "profit": 0,
       "sell_time": "2025-12-19T02:49:05+09:00",
       "avg_buy_price": 0.0
-    },
-    {
-      "market": "KRW-AGI",
-      "profit": 352.3326764432604,
-      "sell_time": "2025-12-20T05:35:20+09:00",
-      "avg_buy_price": 20.457202632258223
     },
     {
       "market": "KRW-MMT",
@@ -2698,7 +2707,7 @@
   },
   "archived_profit": 0,
   "realized_profit": 1678.0753078603875,
-  "unrealized_profit": -5064.600391118659,
+  "unrealized_profit": -4921.86958944885,
   "start_date": "2025-12-18",
   "today_date": "2025-12-21"
 }
