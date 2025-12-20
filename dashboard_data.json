@@ -1,19 +1,19 @@
 {
-  "last_update": "2025-12-20T16:38:25.282503",
+  "last_update": "2025-12-20T16:44:45.823013",
   "today_profit": 3710.8527722161316,
   "today_profit_percent": 1.6351367006448643,
-  "total_profit": -316.98353688474435,
-  "total_profit_percent": -0.13967447551170928,
+  "total_profit": -95.21536418551159,
+  "total_profit_percent": -0.041955352583826176,
   "total_investment": 226944.4977140228,
   "holdings": [
     {
       "market": "KRW-POLA",
       "amount": 2019.23076923,
       "avg_price": 9.68,
-      "current_price": 9.514,
-      "value": 19210.96153845422,
-      "profit": -335.19230769218075,
-      "profit_rate": -0.01714876033057855
+      "current_price": 9.432,
+      "value": 19045.384615377363,
+      "profit": -500.76923076903864,
+      "profit_rate": -0.025619834710743732
     },
     {
       "market": "KRW-JST",
@@ -28,19 +28,19 @@
       "market": "KRW-MOVE",
       "amount": 2919.08923006,
       "avg_price": 52.83,
-      "current_price": 52.06,
-      "value": 151967.7853169236,
-      "profit": -2247.698707146188,
-      "profit_rate": -0.01457505205375726
+      "current_price": 52.13,
+      "value": 152172.1215630278,
+      "profit": -2043.3624610419874,
+      "profit_rate": -0.013250047321597496
     },
     {
       "market": "KRW-ZRC",
       "amount": 1247.49874937,
       "avg_price": 7.83,
-      "current_price": 7.744,
-      "value": 9660.63031512128,
-      "profit": -107.28489244582038,
-      "profit_rate": -0.01098339719029378
+      "current_price": 7.741,
+      "value": 9656.88781887317,
+      "profit": -111.02738869393052,
+      "profit_rate": -0.011366538952745902
     },
     {
       "market": "KRW-IN",
@@ -55,10 +55,10 @@
       "market": "KRW-WET",
       "amount": 31.12522432,
       "avg_price": 428.0,
-      "current_price": 430.0,
-      "value": 13383.8464576,
-      "profit": 62.25044864,
-      "profit_rate": 0.004672897196261682
+      "current_price": 436.0,
+      "value": 13570.59780352,
+      "profit": 249.00179456,
+      "profit_rate": 0.018691588785046728
     }
   ],
   "trades": [
@@ -2132,7 +2132,7 @@
   },
   "archived_profit": 0,
   "realized_profit": 2548.2002692554443,
-  "unrealized_profit": -2865.1838061401886,
+  "unrealized_profit": -2643.415633440956,
   "start_date": "2025-12-18",
   "today_date": "2025-12-20"
 }
