@@ -1213,8 +1213,8 @@
                 
                 <div id="googleScriptConfig" class="control-group" style="display: none;">
                     <label>☁️ Google Apps Script URL:</label>
-                    <input type="text" id="googleScriptUrl" placeholder="https://script.google.com/macros/s/..." style="width: 100%;">
-                    <small style="color: #95a5a6;">Apps Script 배포 URL을 입력하세요</small>
+                    <input type="text" id="googleScriptUrl" placeholder="https://script.google.com/macros/s/..." style="width: 100%;" onchange="saveGoogleScriptUrl()">
+                    <small style="color: #95a5a6;">한 번 입력하면 자동 저장됩니다</small>
                 </div>
                 
                 <small id="connectionStatus" style="margin-top: 5px; display: block;">
@@ -2959,21 +2959,33 @@
             }
             
             try {
+                // text/plain으로 보내야 CORS preflight 없이 전송됨
                 const response = await fetch(scriptUrl, {
                     method: 'POST',
-                    mode: 'no-cors',  // CORS 우회
-                    headers: { 'Content-Type': 'application/json' },
+                    headers: { 'Content-Type': 'text/plain' },
                     body: JSON.stringify(command)
                 });
                 
-                // no-cors 모드에서는 응답을 읽을 수 없으므로 성공으로 간주
-                console.log('✅ Google Apps Script로 명령 전송');
-                updateConnectionStatus(true, 'google');
-                return true;
+                if (response.ok) {
+                    const data = await response.json();
+                    console.log('✅ Google Apps Script 응답:', data);
+                    
+                    if (data.status === 'success') {
+                        updateConnectionStatus(true, 'google');
+                        return true;
+                    } else {
+                        showStatus(`❌ 오류: ${data.message || '알 수 없는 오류'}`, 'error');
+                        updateConnectionStatus(false, 'google', data.message);
+                        return false;
+                    }
+                } else {
+                    throw new Error(`HTTP ${response.status}`);
+                }
                 
             } catch (error) {
                 console.log('⚠️ Google Apps Script 연결 실패:', error.message);
                 updateConnectionStatus(false, 'google', error.message);
+                showStatus(`❌ Google 연결 실패: ${error.message}`, 'error');
                 return false;
             }
         }
@@ -2995,7 +3007,50 @@
             // 연결 상태 초기화
             document.getElementById('connectionStatus').innerHTML = 
                 '<span style="color: #95a5a6;">⚪ 연결 상태 확인 필요</span>';
+            
+            // 연결 방식도 저장
+            localStorage.setItem('jarvis_connection_type', connectionType);
         }
+        
+        // 🆕 Google Script URL 저장
+        function saveGoogleScriptUrl() {
+            const url = document.getElementById('googleScriptUrl').value.trim();
+            if (url) {
+                localStorage.setItem('jarvis_google_script_url', url);
+                console.log('✅ Google Script URL 저장됨');
+            }
+        }
+        
+        // 🆕 저장된 설정 로드
+        function loadSavedSettings() {
+            // Google Script URL 로드
+            const savedUrl = localStorage.getItem('jarvis_google_script_url');
+            if (savedUrl) {
+                document.getElementById('googleScriptUrl').value = savedUrl;
+                console.log('✅ 저장된 Google Script URL 로드됨');
+            }
+            
+            // 연결 방식 로드
+            const savedType = localStorage.getItem('jarvis_connection_type');
+            if (savedType) {
+                document.getElementById('connectionType').value = savedType;
+                updateConnectionUI();
+            }
+            
+            // 보안 토큰 로드
+            const savedToken = localStorage.getItem('jarvis_security_token');
+            if (savedToken) {
+                document.getElementById('securityToken').value = savedToken;
+            }
+        }
+        
+        // 🆕 보안 토큰도 저장 (선택적)
+        document.getElementById('securityToken')?.addEventListener('change', function() {
+            const token = this.value.trim();
+            if (token) {
+                localStorage.setItem('jarvis_security_token', token);
+            }
+        });
         
         // 🆕 봇 연결 테스트
         async function testBotConnection() {
@@ -3079,10 +3134,13 @@
             }
         }
         
-        // 페이지 로드 시 자동 연결 테스트
+        // 페이지 로드 시 저장된 설정 로드 및 자동 연결 테스트
         setTimeout(() => {
-            // HTTPS에서는 Google 방식 기본 선택
-            if (window.location.protocol === 'https:') {
+            // 🆕 저장된 설정 먼저 로드
+            loadSavedSettings();
+            
+            // HTTPS에서는 Google 방식 기본 선택 (저장된 설정이 없을 때만)
+            if (!localStorage.getItem('jarvis_connection_type') && window.location.protocol === 'https:') {
                 document.getElementById('connectionType').value = 'google';
                 updateConnectionUI();
             }
