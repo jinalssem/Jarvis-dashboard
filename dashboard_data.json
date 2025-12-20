@@ -1,9 +1,9 @@
 {
-  "last_update": "2025-12-20T18:57:40.747870",
+  "last_update": "2025-12-20T19:03:34.851652",
   "today_profit": 4482.871318890632,
   "today_profit_percent": 2.0984975314490777,
-  "total_profit": 275.0874319092072,
-  "total_profit_percent": 0.12877244420591433,
+  "total_profit": 268.103752651371,
+  "total_profit_percent": 0.1255032819568788,
   "total_investment": 213622.9017050628,
   "holdings": [
     {
@@ -28,19 +28,19 @@
       "market": "KRW-MOVE",
       "amount": 2919.08923006,
       "avg_price": 52.83,
-      "current_price": 51.72,
-      "value": 150975.2949787032,
-      "profit": -3240.1890453665983,
-      "profit_rate": -0.021010789324247575
+      "current_price": 51.68,
+      "value": 150858.53140950078,
+      "profit": -3356.9526145689956,
+      "profit_rate": -0.021767934885481708
     },
     {
       "market": "KRW-ZRC",
       "amount": 1247.49874937,
       "avg_price": 7.83,
-      "current_price": 7.965,
-      "value": 9936.32753873205,
-      "profit": 168.41233116494973,
-      "profit_rate": 0.0172413793103448
+      "current_price": 8.053,
+      "value": 10046.10742867661,
+      "profit": 278.19222110951097,
+      "profit_rate": 0.028480204342273403
     },
     {
       "market": "KRW-IN",
@@ -725,6 +725,15 @@
     }
   ],
   "raw_trades": [
+    {
+      "type": "buy",
+      "market": "KRW-BTC",
+      "profit": 0,
+      "price": 128971000.0,
+      "amount": 0.00011369,
+      "volume": 0.00011369,
+      "time": "2025-12-20T19:02:24.713285"
+    },
     {
       "market": "KRW-XPLA",
       "type": "sell",
@@ -2477,7 +2486,7 @@
   },
   "archived_profit": 0,
   "realized_profit": 3320.218815929945,
-  "unrealized_profit": -3045.1313840207376,
+  "unrealized_profit": -3052.115063278574,
   "start_date": "2025-12-18",
   "today_date": "2025-12-20"
 }
