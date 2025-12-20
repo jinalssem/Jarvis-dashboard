@@ -1,19 +1,19 @@
 {
-  "last_update": "2025-12-20T18:22:12.830634",
-  "today_profit": 3901.8476324190624,
-  "today_profit_percent": 1.8265118586424434,
-  "total_profit": 25.89702609439064,
-  "total_profit_percent": 0.01212277611046835,
+  "last_update": "2025-12-20T18:27:07.943272",
+  "today_profit": 3972.681092093734,
+  "today_profit_percent": 1.8596700355557347,
+  "total_profit": 28.39425768176443,
+  "total_profit_percent": 0.013291766685655638,
   "total_investment": 213622.9017050628,
   "holdings": [
     {
       "market": "KRW-POLA",
       "amount": 2019.23076923,
       "avg_price": 9.68,
-      "current_price": 9.641,
-      "value": 19467.40384614643,
-      "profit": -78.7499999999694,
-      "profit_rate": -0.00402892561983468
+      "current_price": 9.642,
+      "value": 19469.42307691566,
+      "profit": -76.73076923074052,
+      "profit_rate": -0.00392561983471077
     },
     {
       "market": "KRW-JST",
@@ -28,19 +28,19 @@
       "market": "KRW-MOVE",
       "amount": 2919.08923006,
       "avg_price": 52.83,
-      "current_price": 51.93,
-      "value": 151588.3037170158,
-      "profit": -2627.180307053996,
-      "profit_rate": -0.01703577512776829
+      "current_price": 51.87,
+      "value": 151413.1583632122,
+      "profit": -2802.3256608576025,
+      "profit_rate": -0.018171493469619552
     },
     {
       "market": "KRW-ZRC",
       "amount": 1247.49874937,
       "avg_price": 7.83,
-      "current_price": 7.884,
-      "value": 9835.28014003308,
-      "profit": 67.36493246598035,
-      "profit_rate": 0.006896551724137966
+      "current_price": 7.968,
+      "value": 9940.070034980161,
+      "profit": 172.15482741305988,
+      "profit_rate": 0.017624521072796922
     },
     {
       "market": "KRW-IN",
@@ -53,6 +53,21 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-XPLA",
+      "type": "sell",
+      "time": "2025-12-20T18:26:11+09:00",
+      "price": 35.29,
+      "volume": 5528.84946865,
+      "funds": 195113.0977486585,
+      "fee": 78.04,
+      "uuid": "C0720000000082764229",
+      "cycle_status": "completed",
+      "profit": 70.83345967467176,
+      "profit_unknown": false,
+      "avg_buy_price": 35.26307333822004,
+      "buy_count": 2
+    },
     {
       "market": "KRW-XPLA",
       "type": "sell",
@@ -695,6 +710,36 @@
     }
   ],
   "raw_trades": [
+    {
+      "market": "KRW-XPLA",
+      "type": "sell",
+      "time": "2025-12-20T18:26:11+09:00",
+      "price": 35.29,
+      "volume": 5528.84946865,
+      "funds": 195113.0977486585,
+      "fee": 78.04,
+      "uuid": "C0720000000082764229"
+    },
+    {
+      "market": "KRW-XPLA",
+      "type": "buy",
+      "time": "2025-12-20T18:23:00+09:00",
+      "price": 35.44,
+      "volume": 2749.53136346,
+      "funds": 97443.39152102241,
+      "fee": 38.97,
+      "uuid": "C0720000000082762676"
+    },
+    {
+      "market": "KRW-XPLA",
+      "type": "buy",
+      "time": "2025-12-20T18:22:47+09:00",
+      "price": 35.06,
+      "volume": 2779.31810519,
+      "funds": 97442.89276796141,
+      "fee": 38.97,
+      "uuid": "C0720000000082762634"
+    },
     {
       "market": "KRW-XPLA",
       "type": "sell",
@@ -2129,7 +2174,7 @@
   "daily_profits": {
     "2025-12-18": -6176.142452646978,
     "2025-12-19": 5013.489949686291,
-    "2025-12-20": 3901.8476324190624
+    "2025-12-20": 3972.681092093734
   },
   "trade_cycles": [
     {
@@ -2149,6 +2194,12 @@
       "profit": 739.1753648018057,
       "sell_time": "2025-12-20T18:16:04+09:00",
       "avg_buy_price": 36.09443028300997
+    },
+    {
+      "market": "KRW-XPLA",
+      "profit": 70.83345967467176,
+      "sell_time": "2025-12-20T18:26:11+09:00",
+      "avg_buy_price": 35.26307333822004
     },
     {
       "market": "KRW-WET",
@@ -2384,8 +2435,8 @@
     "KRW-XPLA": 36.08
   },
   "archived_profit": 0,
-  "realized_profit": 2739.195129458375,
-  "unrealized_profit": -2713.2981033639844,
+  "realized_profit": 2810.028589133047,
+  "unrealized_profit": -2781.6343314512824,
   "start_date": "2025-12-18",
   "today_date": "2025-12-20"
 }
