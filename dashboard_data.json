@@ -1,19 +1,19 @@
 {
-  "last_update": "2025-12-20T17:19:41.244079",
+  "last_update": "2025-12-20T17:22:40.934129",
   "today_profit": 3731.307996536131,
-  "today_profit_percent": 1.00335901622569,
-  "total_profit": -6677.960835628425,
-  "total_profit_percent": -1.7957220954823268,
-  "total_investment": 371881.64318013476,
+  "today_profit_percent": 1.4322064684584446,
+  "total_profit": 799.8780271753694,
+  "total_profit_percent": 0.3070211533225948,
+  "total_investment": 260528.6373655556,
   "holdings": [
     {
       "market": "KRW-POLA",
       "amount": 2019.23076923,
       "avg_price": 9.68,
-      "current_price": 9.543,
-      "value": 19269.51923076189,
-      "profit": -276.63461538451094,
-      "profit_rate": -0.014152892561983519
+      "current_price": 9.55,
+      "value": 19283.653846146502,
+      "profit": -262.499999999898,
+      "profit_rate": -0.0134297520661156
     },
     {
       "market": "KRW-JST",
@@ -26,52 +26,52 @@
     },
     {
       "market": "KRW-XPLA",
-      "amount": 4121.32139258,
-      "avg_price": 38.4,
-      "current_price": 36.8,
-      "value": 151664.627246944,
-      "profit": -6594.114228128006,
-      "profit_rate": -0.041666666666666706
+      "amount": 1308.75378517,
+      "avg_price": 35.84,
+      "current_price": 36.3,
+      "value": 47507.762401670996,
+      "profit": 602.0267411781917,
+      "profit_rate": 0.012834821428571253
     },
     {
       "market": "KRW-MOVE",
       "amount": 2919.08923006,
       "avg_price": 52.83,
-      "current_price": 52.19,
-      "value": 152347.26691683137,
-      "profit": -1868.2171072384015,
-      "profit_rate": -0.012114328979746368
+      "current_price": 52.22,
+      "value": 152434.8395937332,
+      "profit": -1780.6444303365984,
+      "profit_rate": -0.011546469808820736
     },
     {
       "market": "KRW-ZRC",
       "amount": 1247.49874937,
       "avg_price": 7.83,
-      "current_price": 7.745,
-      "value": 9661.877813870651,
-      "profit": -106.03739369644995,
-      "profit_rate": -0.010855683269476368
+      "current_price": 7.759,
+      "value": 9679.34279636183,
+      "profit": -88.57241120526966,
+      "profit_rate": -0.009067688378033172
     },
     {
       "market": "KRW-IN",
       "amount": 162.52561872,
       "avg_price": 119.0,
-      "current_price": 116.0,
-      "value": 18852.971771520002,
-      "profit": -487.57685616000003,
-      "profit_rate": -0.025210084033613446
+      "current_price": 117.0,
+      "value": 19015.49739024,
+      "profit": -325.05123744,
+      "profit_rate": -0.01680672268907563
     }
   ],
   "trades": [
     {
       "market": "KRW-XPLA",
       "type": "buy",
-      "time": "2025-12-20T17:17:57+09:00",
-      "price": 39.3194699461347,
-      "volume": 6720.81554356,
-      "funds": 264258.9047785224,
+      "time": "2025-12-20T17:21:05+09:00",
+      "price": 38.7523449515107,
+      "volume": 8029.56932873,
+      "funds": 311164.6404390152,
       "cycle_status": "holding",
       "profit": 0,
-      "buy_count": 4
+      "buy_count": 5
     },
     {
       "market": "KRW-WET",
@@ -670,6 +670,26 @@
     }
   ],
   "raw_trades": [
+    {
+      "market": "KRW-XPLA",
+      "type": "sell",
+      "time": "2025-12-20T17:21:33+09:00",
+      "price": 35.9,
+      "volume": 4121.32139258,
+      "funds": 147955.437993622,
+      "fee": 59.23,
+      "uuid": "C0720000000082737244"
+    },
+    {
+      "market": "KRW-XPLA",
+      "type": "buy",
+      "time": "2025-12-20T17:21:05+09:00",
+      "price": 35.84,
+      "volume": 1308.75378517,
+      "funds": 46905.7356604928,
+      "fee": 18.76,
+      "uuid": "C0720000000082736882"
+    },
     {
       "market": "KRW-XPLA",
       "type": "buy",
@@ -2220,11 +2240,11 @@
     "KRW-IN": 119.0,
     "KRW-ZRC": 7.83,
     "KRW-WET": 428.0,
-    "KRW-XPLA": 38.4
+    "KRW-XPLA": 35.84
   },
   "archived_profit": 0,
   "realized_profit": 2568.655493575444,
-  "unrealized_profit": -9246.61632920387,
+  "unrealized_profit": -1768.7774664000744,
   "start_date": "2025-12-18",
   "today_date": "2025-12-20"
 }
