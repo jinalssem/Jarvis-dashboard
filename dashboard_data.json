@@ -1,9 +1,9 @@
 {
-  "last_update": "2025-12-22T04:57:43.095741",
-  "today_profit": 39299.20284102594,
+  "last_update": "2025-12-22T05:03:15.403285",
+  "today_profit": 43198.11661136068,
   "today_profit_percent": -0.21048366214309872,
-  "total_profit": 24073.02116669386,
-  "total_profit_percent": -26.63358868222539,
+  "total_profit": 27971.934937028604,
+  "total_profit_percent": -26.280096617971587,
   "total_investment": 98145.285137406,
   "holdings": [
     {
@@ -28,10 +28,10 @@
       "market": "KRW-COMP",
       "amount": 1.92742108,
       "avg_price": 35759.0,
-      "current_price": 35570.0,
-      "value": 68558.3678156,
-      "profit": -364.28258412,
-      "profit_rate": -0.005285382700858525
+      "current_price": 35750.0,
+      "value": 68905.30361,
+      "profit": -17.34678972,
+      "profit_rate": -0.00025168489051707264
     },
     {
       "market": "KRW-MBX",
@@ -720,6 +720,15 @@
     }
   ],
   "raw_trades": [
+    {
+      "type": "buy",
+      "market": "KRW-SWAP",
+      "profit": 0,
+      "price": 79.4,
+      "amount": 246.05328071,
+      "volume": 246.05328071,
+      "time": "2025-12-22T05:02:01.084932"
+    },
     {
       "market": "KRW-ZTX",
       "type": "sell",
@@ -2244,7 +2253,7 @@
   "daily_profits": {
     "2025-12-21": -16743.331467861208,
     "2025-12-20": 1517.149793529129,
-    "2025-12-22": 39299.20284102594
+    "2025-12-22": 43198.11661136068
   },
   "trade_cycles": [
     {
@@ -2501,7 +2510,7 @@
     }
   ],
   "realized_profit": -25806.103686100803,
-  "unrealized_profit": -333.50786839319926,
+  "unrealized_profit": 13.427926006800782,
   "start_date": "2025-12-19",
   "today_date": "2025-12-22",
   "saved_avg_prices": {
