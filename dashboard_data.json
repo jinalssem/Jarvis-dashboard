@@ -1,28 +1,28 @@
 {
-  "last_update": "2025-12-22T00:58:27.701892",
+  "last_update": "2025-12-22T01:06:30.196676",
   "today_profit": 16023.039474682068,
   "today_profit_percent": 0.0,
   "total_profit": 796.8578003499888,
-  "total_profit_percent": -22.410938456104432,
+  "total_profit_percent": -22.283549367544182,
   "total_investment": 114785.6091627785,
   "holdings": [
     {
       "market": "KRW-LRC",
       "amount": 115.43802801,
       "avg_price": 84.6,
-      "current_price": 83.31,
-      "value": 9617.1421135131,
-      "profit": -148.91505613289908,
-      "profit_rate": -0.015248226950354517
+      "current_price": 83.39,
+      "value": 9626.3771557539,
+      "profit": -139.68001389209928,
+      "profit_rate": -0.014302600472813166
     },
     {
       "market": "KRW-CTC",
       "amount": 26.38888889,
       "avg_price": 370.0,
-      "current_price": 368.0,
-      "value": 9711.11111152,
-      "profit": -52.77777778,
-      "profit_rate": -0.005405405405405406
+      "current_price": 371.0,
+      "value": 9790.27777819,
+      "profit": 26.38888889,
+      "profit_rate": 0.002702702702702703
     },
     {
       "market": "KRW-APM",
@@ -37,10 +37,10 @@
       "market": "KRW-COMP",
       "amount": 1.92742108,
       "avg_price": 35759.0,
-      "current_price": 35390.0,
-      "value": 68211.4320212,
-      "profit": -711.21837852,
-      "profit_rate": -0.010319080511199978
+      "current_price": 35420.0,
+      "value": 68269.2546536,
+      "profit": -653.39574612,
+      "profit_rate": -0.00948013087614307
     },
     {
       "market": "KRW-JST",
@@ -704,6 +704,15 @@
     }
   ],
   "raw_trades": [
+    {
+      "type": "buy",
+      "market": "KRW-AZIT",
+      "profit": 0,
+      "price": 8.52,
+      "amount": 1146.28820961,
+      "volume": 1146.28820961,
+      "time": "2025-12-22T01:05:04.045649"
+    },
     {
       "type": "buy",
       "market": "KRW-MBX",
@@ -2000,6 +2009,12 @@
   },
   "trade_cycles": [
     {
+      "market": "KRW-AZIT",
+      "profit": 66.98294661394903,
+      "sell_time": "2025-12-21T20:02:27+09:00",
+      "avg_buy_price": 9.13464878724415
+    },
+    {
       "market": "KRW-SWAP",
       "profit": 152.9616534372035,
       "sell_time": "2025-12-21T19:31:44+09:00",
@@ -2028,12 +2043,6 @@
       "profit": -1800.2921223749872,
       "sell_time": "2025-12-21T22:26:13+09:00",
       "avg_buy_price": 19.70111773104455
-    },
-    {
-      "market": "KRW-AZIT",
-      "profit": 66.98294661394903,
-      "sell_time": "2025-12-21T20:02:27+09:00",
-      "avg_buy_price": 9.13464878724415
     },
     {
       "market": "KRW-EGG",
@@ -2235,7 +2244,7 @@
     }
   ],
   "realized_profit": -24958.440242927765,
-  "unrealized_profit": -766.0919830070976,
+  "unrealized_profit": -619.8676416962978,
   "start_date": "2025-12-19",
   "today_date": "2025-12-22",
   "saved_avg_prices": {
