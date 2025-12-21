@@ -1,37 +1,37 @@
 {
-  "last_update": "2025-12-22T01:52:04.478974",
+  "last_update": "2025-12-22T01:58:21.568258",
   "today_profit": 20490.251132218822,
-  "today_profit_percent": -0.14494538680403618,
+  "today_profit_percent": -0.13568047538605582,
   "total_profit": 5264.069457886743,
-  "total_profit_percent": -19.77094484396173,
-  "total_investment": 142522.50101432414,
+  "total_profit_percent": -18.690178178757343,
+  "total_investment": 152254.6186473851,
   "holdings": [
     {
       "market": "KRW-LRC",
       "amount": 115.43802801,
       "avg_price": 84.6,
-      "current_price": 83.76,
-      "value": 9669.0892261176,
-      "profit": -96.96794352839875,
-      "profit_rate": -0.009929078014184271
+      "current_price": 83.7,
+      "value": 9662.162944437,
+      "profit": -103.89422520899902,
+      "profit_rate": -0.010638297872340325
     },
     {
       "market": "KRW-CTC",
       "amount": 26.38888889,
       "avg_price": 370.0,
-      "current_price": 369.0,
-      "value": 9737.50000041,
-      "profit": -26.38888889,
-      "profit_rate": -0.002702702702702703
+      "current_price": 370.0,
+      "value": 9763.8888893,
+      "profit": 0.0,
+      "profit_rate": 0.0
     },
     {
       "market": "KRW-COMP",
       "amount": 1.92742108,
       "avg_price": 35759.0,
-      "current_price": 35210.0,
-      "value": 67864.4962268,
-      "profit": -1058.15417292,
-      "profit_rate": -0.01535277832154143
+      "current_price": 35200.0,
+      "value": 67845.222016,
+      "profit": -1077.42838372,
+      "profit_rate": -0.015632428199893734
     },
     {
       "market": "KRW-JST",
@@ -55,19 +55,19 @@
       "market": "KRW-XPLA",
       "amount": 277.8551532,
       "avg_price": 35.1,
-      "current_price": 35.1,
-      "value": 9752.71587732,
-      "profit": 0.0,
-      "profit_rate": 0.0
+      "current_price": 34.8,
+      "value": 9669.35933136,
+      "profit": -83.35654596000118,
+      "profit_rate": -0.008547008547008668
     },
     {
       "market": "KRW-ZTX",
-      "amount": 41588.32752613,
-      "avg_price": 0.574,
-      "current_price": 0.5708,
-      "value": 23738.617351915003,
-      "profit": -133.0826480836152,
-      "profit_rate": -0.00557491289198603
+      "amount": 58665.88273928,
+      "avg_price": 0.5728,
+      "current_price": 0.5672,
+      "value": 33275.28868971962,
+      "profit": -328.52894333996437,
+      "profit_rate": -0.009776536312849055
     }
   ],
   "trades": [
@@ -294,13 +294,13 @@
     {
       "market": "KRW-ZTX",
       "type": "buy",
-      "time": "2025-12-21T07:38:59+09:00",
-      "price": 0.5785542169469632,
-      "volume": 58136.104566609996,
-      "funds": 33634.88845388182,
+      "time": "2025-12-21T07:39:38+09:00",
+      "price": 0.5766119485791588,
+      "volume": 75213.65977976,
+      "funds": 43369.094925377314,
       "cycle_status": "holding",
       "profit": 0,
-      "buy_count": 2
+      "buy_count": 3
     },
     {
       "market": "KRW-IN",
@@ -727,6 +727,16 @@
       "amount": 676.72998643,
       "volume": 676.72998643,
       "time": "2025-12-22T00:27:24.856489"
+    },
+    {
+      "market": "KRW-SWAP",
+      "type": "buy",
+      "time": "2025-12-22T00:21:10+09:00",
+      "price": 90.1,
+      "volume": 108.47107438,
+      "funds": 9773.243801638,
+      "fee": 0.0,
+      "uuid": "C0456000000045879648"
     },
     {
       "type": "buy",
@@ -1198,6 +1208,16 @@
       "funds": 6788.30806863,
       "fee": 2.71,
       "uuid": "C1071000000079333590"
+    },
+    {
+      "market": "KRW-ZTX",
+      "type": "buy",
+      "time": "2025-12-21T07:39:38+09:00",
+      "price": 0.57,
+      "volume": 17077.55521315,
+      "funds": 9734.2064714955,
+      "fee": 0.0,
+      "uuid": "C0833000000115249141"
     },
     {
       "market": "KRW-ZTX",
@@ -2206,7 +2226,7 @@
     }
   ],
   "realized_profit": -27194.32240567381,
-  "unrealized_profit": -983.7226601030138,
+  "unrealized_profit": -1262.3371049099644,
   "start_date": "2025-12-19",
   "today_date": "2025-12-22",
   "saved_avg_prices": {
@@ -2224,6 +2244,6 @@
     "KRW-MBX": 103.0,
     "KRW-GRS": 217.0,
     "KRW-XPLA": 35.1,
-    "KRW-ZTX": 0.574
+    "KRW-ZTX": 0.5728
   }
 }
