@@ -1,9 +1,9 @@
 {
-  "last_update": "2025-12-22T02:19:24.659388",
+  "last_update": "2025-12-22T02:25:05.669568",
   "today_profit": 19024.464120557084,
   "today_profit_percent": -0.13654817503545547,
   "total_profit": 3798.2824462250055,
-  "total_profit_percent": -17.691149820837264,
+  "total_profit_percent": -17.56936969866588,
   "total_investment": 151287.11191076628,
   "holdings": [
     {
@@ -19,10 +19,10 @@
       "market": "KRW-CTC",
       "amount": 26.38888889,
       "avg_price": 370.0,
-      "current_price": 371.0,
-      "value": 9790.27777819,
-      "profit": 26.38888889,
-      "profit_rate": 0.002702702702702703
+      "current_price": 370.0,
+      "value": 9763.8888893,
+      "profit": 0.0,
+      "profit_rate": 0.0
     },
     {
       "market": "KRW-COMP",
@@ -37,10 +37,10 @@
       "market": "KRW-SWAP",
       "amount": 218.57041213,
       "avg_price": 89.39,
-      "current_price": 89.61,
-      "value": 19586.0946309693,
-      "profit": 48.08549066859975,
-      "profit_rate": 0.0024611254055263323
+      "current_price": 90.01,
+      "value": 19673.5227958213,
+      "profit": 135.513655520601,
+      "profit_rate": 0.006935898870119751
     },
     {
       "market": "KRW-MBX",
@@ -55,10 +55,10 @@
       "market": "KRW-ZTX",
       "amount": 58665.88273928,
       "avg_price": 0.5728,
-      "current_price": 0.5696,
-      "value": 33416.08680829389,
-      "profit": -187.73082476569488,
-      "profit_rate": -0.005586592178770916
+      "current_price": 0.5717,
+      "value": 33539.28516204638,
+      "profit": -64.53247101320741,
+      "profit_rate": -0.0019203910614524963
     }
   ],
   "trades": [
@@ -2443,7 +2443,7 @@
     }
   ],
   "realized_profit": -25959.065339538007,
-  "unrealized_profit": -805.3642882133946,
+  "unrealized_profit": -621.126658498906,
   "start_date": "2025-12-19",
   "today_date": "2025-12-22",
   "saved_avg_prices": {
