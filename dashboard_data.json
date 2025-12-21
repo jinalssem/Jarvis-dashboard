@@ -1,19 +1,19 @@
 {
-  "last_update": "2025-12-21T18:12:17.362287",
+  "last_update": "2025-12-21T18:19:09.618986",
   "today_profit": 0,
   "today_profit_percent": 0.44214259199239936,
   "total_profit": -106857,
-  "total_profit_percent": 2.066442663524922,
+  "total_profit_percent": 2.2472328082493975,
   "total_investment": 246417.76044026716,
   "holdings": [
     {
       "market": "KRW-EGG",
       "amount": 8506.38709677,
       "avg_price": 1.55,
-      "current_price": 1.527,
-      "value": 12989.25309676779,
-      "profit": -195.64690322571113,
-      "profit_rate": -0.014838709677419439
+      "current_price": 1.558,
+      "value": 13252.951096767662,
+      "profit": 68.05109677416006,
+      "profit_rate": 0.0051612903225806495
     },
     {
       "market": "KRW-APM",
@@ -55,28 +55,28 @@
       "market": "KRW-AZIT",
       "amount": 1296.32112905,
       "avg_price": 9.131,
-      "current_price": 9.064,
-      "value": 11749.854713709201,
-      "profit": -86.85351564635023,
-      "profit_rate": -0.007337641003176012
+      "current_price": 9.062,
+      "value": 11747.2620714511,
+      "profit": -89.4461579044511,
+      "profit_rate": -0.007556675062972384
     },
     {
       "market": "KRW-POKT",
       "amount": 1475.48784597,
       "avg_price": 19.83,
-      "current_price": 19.65,
-      "value": 28993.3361733105,
-      "profit": -265.58781227459957,
-      "profit_rate": -0.009077155824508307
+      "current_price": 19.67,
+      "value": 29022.845930229905,
+      "profit": -236.07805535519498,
+      "profit_rate": -0.008068582955118336
     },
     {
       "market": "KRW-MOVE",
       "amount": 1936.04888832,
       "avg_price": 50.0,
-      "current_price": 50.35,
-      "value": 97480.061526912,
-      "profit": 677.6171109120028,
-      "profit_rate": 0.007000000000000029
+      "current_price": 50.43,
+      "value": 97634.9454379776,
+      "profit": 832.5010219775995,
+      "profit_rate": 0.008599999999999995
     }
   ],
   "trades": [
@@ -2175,7 +2175,7 @@
     "KRW-AZIT": 9.131
   },
   "realized_profit": 5283.136616418675,
-  "unrealized_profit": -191.05488417835699,
+  "unrealized_profit": 254.44414154841468,
   "start_date": "2025-12-19",
   "today_date": "2025-12-21"
 }
