@@ -1,19 +1,19 @@
 {
-  "last_update": "2025-12-21T15:23:25.271479",
+  "last_update": "2025-12-21T15:30:18.261464",
   "today_profit": 0,
   "today_profit_percent": 0.24376303449289005,
   "total_profit": -106857,
-  "total_profit_percent": 1.4423831003164513,
+  "total_profit_percent": 1.369265833294948,
   "total_investment": 511803.4854584181,
   "holdings": [
     {
       "market": "KRW-APM",
       "amount": 5164.49475945,
       "avg_price": 1.14,
-      "current_price": 1.132,
-      "value": 5846.208067697399,
-      "profit": -41.31595807560004,
-      "profit_rate": -0.00701754385964913
+      "current_price": 1.128,
+      "value": 5825.550088659599,
+      "profit": -61.973937113400055,
+      "profit_rate": -0.010526315789473694
     },
     {
       "market": "KRW-AERGO",
@@ -28,10 +28,10 @@
       "market": "KRW-COMP",
       "amount": 1.4281163,
       "avg_price": 35940.0,
-      "current_price": 36010.0,
-      "value": 51426.467962999996,
-      "profit": 99.96814099999999,
-      "profit_rate": 0.0019476905954368391
+      "current_price": 36000.0,
+      "value": 51412.186799999996,
+      "profit": 85.686978,
+      "profit_rate": 0.001669449081803005
     },
     {
       "market": "KRW-JST",
@@ -46,19 +46,19 @@
       "market": "KRW-POKT",
       "amount": 1475.48784597,
       "avg_price": 19.83,
-      "current_price": 19.71,
-      "value": 29081.865444068702,
-      "profit": -177.05854151639625,
-      "profit_rate": -0.006051437216338752
+      "current_price": 19.69,
+      "value": 29052.355687149302,
+      "profit": -206.5682984357956,
+      "profit_rate": -0.007060010085728544
     },
     {
       "market": "KRW-MOVE",
       "amount": 7744.19555327,
       "avg_price": 50.0,
-      "current_price": 50.28,
-      "value": 389378.15241841564,
-      "profit": 2168.3747549156087,
-      "profit_rate": 0.0056000000000000225
+      "current_price": 50.24,
+      "value": 389068.3845962848,
+      "profit": 1858.6069327848154,
+      "profit_rate": 0.0048000000000000395
     }
   ],
   "trades": [
@@ -2042,7 +2042,7 @@
     "KRW-XPLA": 37.5
   },
   "realized_profit": 5441.206450072274,
-  "unrealized_profit": 1940.9605310105155,
+  "unrealized_profit": 1566.7438099225228,
   "start_date": "2025-12-19",
   "today_date": "2025-12-21"
 }
