@@ -1,19 +1,19 @@
 {
-  "last_update": "2025-12-22T08:39:47.482203",
+  "last_update": "2025-12-22T08:45:50.649018",
   "today_profit": 64835.20937771749,
   "today_profit_percent": 1.234439573950255,
   "total_profit": 49609.02770338541,
-  "total_profit_percent": -9.325485650766161,
+  "total_profit_percent": -9.335240712050096,
   "total_investment": 236673.096457366,
   "holdings": [
     {
       "market": "KRW-LRC",
       "amount": 115.43802801,
       "avg_price": 84.6,
-      "current_price": 84.0,
-      "value": 9696.79435284,
-      "profit": -69.26281680599934,
-      "profit_rate": -0.007092198581560217
+      "current_price": 83.8,
+      "value": 9673.706747237999,
+      "profit": -92.35042240799967,
+      "profit_rate": -0.009456264775413678
     },
     {
       "market": "KRW-CTC",
@@ -780,6 +780,15 @@
     }
   ],
   "raw_trades": [
+    {
+      "type": "buy",
+      "market": "KRW-UOS",
+      "profit": 0,
+      "price": 11.7,
+      "amount": 834.72803347,
+      "volume": 834.72803347,
+      "time": "2025-12-22T08:44:23.860088"
+    },
     {
       "market": "KRW-YGG",
       "type": "sell",
@@ -2818,7 +2827,7 @@
     }
   ],
   "realized_profit": -22395.62621141962,
-  "unrealized_profit": 324.71056206400067,
+  "unrealized_profit": 301.62295646200033,
   "start_date": "2025-12-19",
   "today_date": "2025-12-22",
   "saved_avg_prices": {
