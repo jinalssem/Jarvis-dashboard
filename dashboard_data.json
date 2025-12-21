@@ -1,19 +1,19 @@
 {
-  "last_update": "2025-12-22T07:52:44.238164",
+  "last_update": "2025-12-22T07:58:40.869575",
   "today_profit": 62931.769528141886,
   "today_profit_percent": 0.3750658121006934,
   "total_profit": 47705.587853809804,
-  "total_profit_percent": -8.614325636048305,
+  "total_profit_percent": -8.973829030935535,
   "total_investment": 271458.0964564804,
   "holdings": [
     {
       "market": "KRW-LRC",
       "amount": 115.43802801,
       "avg_price": 84.6,
-      "current_price": 83.63,
-      "value": 9654.0822824763,
-      "profit": -111.97488716969987,
-      "profit_rate": -0.011465721040189112
+      "current_price": 83.9,
+      "value": 9685.250550039,
+      "profit": -80.80661960699868,
+      "profit_rate": -0.008274231678486864
     },
     {
       "market": "KRW-CTC",
@@ -37,19 +37,19 @@
       "market": "KRW-YGG",
       "amount": 363.25187969,
       "avg_price": 95.76,
-      "current_price": 100.0,
-      "value": 36325.187969,
-      "profit": 1540.1879698855982,
-      "profit_rate": 0.04427736006683369
+      "current_price": 102.0,
+      "value": 37051.69172838,
+      "profit": 2266.691729265598,
+      "profit_rate": 0.06516290726817037
     },
     {
       "market": "KRW-SYRUP",
       "amount": 288.9288499,
       "avg_price": 513.0,
-      "current_price": 513.0,
-      "value": 148220.4999987,
-      "profit": 0.0,
-      "profit_rate": 0.0
+      "current_price": 507.0,
+      "value": 146486.9268993,
+      "profit": -1733.5730994,
+      "profit_rate": -0.011695906432748537
     }
   ],
   "trades": [
@@ -785,6 +785,15 @@
     }
   ],
   "raw_trades": [
+    {
+      "type": "buy",
+      "market": "KRW-ELF",
+      "profit": 0,
+      "price": 123.0,
+      "amount": 79.16666667,
+      "volume": 79.16666667,
+      "time": "2025-12-22T07:57:25.292265"
+    },
     {
       "market": "KRW-MBX",
       "type": "sell",
@@ -2798,7 +2807,7 @@
     }
   ],
   "realized_profit": -24299.066060995225,
-  "unrealized_profit": 914.7816668158983,
+  "unrealized_profit": -61.11940564140067,
   "start_date": "2025-12-19",
   "today_date": "2025-12-22",
   "saved_avg_prices": {
