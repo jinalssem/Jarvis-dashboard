@@ -1,19 +1,19 @@
 {
-  "last_update": "2025-12-22T07:12:54.486103",
+  "last_update": "2025-12-22T07:18:38.780690",
   "today_profit": 47364.80994073348,
   "today_profit_percent": -0.04826616027838286,
   "total_profit": 32138.628266401403,
-  "total_profit_percent": -5.970562877399467,
+  "total_profit_percent": -5.500520025785983,
   "total_investment": 428001.2936320525,
   "holdings": [
     {
       "market": "KRW-LRC",
       "amount": 115.43802801,
       "avg_price": 84.6,
-      "current_price": 83.27,
-      "value": 9612.5245923927,
-      "profit": -153.5325772532998,
-      "profit_rate": -0.015721040189125277
+      "current_price": 83.82,
+      "value": 9676.015507798198,
+      "profit": -90.04166184780013,
+      "profit_rate": -0.009219858156028382
     },
     {
       "market": "KRW-CTC",
@@ -28,19 +28,19 @@
       "market": "KRW-COMP",
       "amount": 1.92742108,
       "avg_price": 35759.0,
-      "current_price": 35500.0,
-      "value": 68423.44834,
-      "profit": -499.20205972,
-      "profit_rate": -0.0072429318493246455
+      "current_price": 35640.0,
+      "value": 68693.2872912,
+      "profit": -229.36310852,
+      "profit_rate": -0.003327833552392405
     },
     {
       "market": "KRW-BLY",
       "amount": 22488.38475214,
       "avg_price": 2.972,
-      "current_price": 2.989,
-      "value": 67217.78202414645,
-      "profit": 382.3025407863778,
-      "profit_rate": 0.005720053835800775
+      "current_price": 2.984,
+      "value": 67105.34010038576,
+      "profit": 269.8606170256802,
+      "profit_rate": 0.004037685060565279
     },
     {
       "market": "KRW-MBX",
@@ -55,19 +55,19 @@
       "market": "KRW-YGG",
       "amount": 363.25187969,
       "avg_price": 95.76,
-      "current_price": 94.97,
-      "value": 34498.0310141593,
-      "profit": -286.96898495510226,
-      "profit_rate": -0.008249791144528052
+      "current_price": 95.08,
+      "value": 34537.9887209252,
+      "profit": -247.01127818920247,
+      "profit_rate": -0.00710108604845454
     },
     {
       "market": "KRW-SYRUP",
       "amount": 437.73595898,
       "avg_price": 521.4,
-      "current_price": 523.0,
-      "value": 228935.90654654,
-      "profit": 700.37753436801,
-      "profit_rate": 0.0030686612965094414
+      "current_price": 527.0,
+      "value": 230686.85038246002,
+      "profit": 2451.3213702880103,
+      "profit_rate": 0.010740314537782937
     }
   ],
   "trades": [
@@ -2687,7 +2687,7 @@
     }
   ],
   "realized_profit": -25806.103686100803,
-  "unrealized_profit": 252.01733371598567,
+  "unrealized_profit": 2263.806819246688,
   "start_date": "2025-12-19",
   "today_date": "2025-12-22",
   "saved_avg_prices": {
