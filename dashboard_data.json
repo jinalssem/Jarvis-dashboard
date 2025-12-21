@@ -1,46 +1,46 @@
 {
-  "last_update": "2025-12-21T16:31:19.556727",
+  "last_update": "2025-12-21T16:40:07.105078",
   "today_profit": 0,
-  "today_profit_percent": 0.3006227896826646,
+  "today_profit_percent": 0.5635092093223348,
   "total_profit": -106857,
-  "total_profit_percent": 1.8531086792358276,
-  "total_investment": 415001.0410424181,
+  "total_profit_percent": 2.759327265674071,
+  "total_investment": 221396.15221091808,
   "holdings": [
     {
       "market": "KRW-APM",
       "amount": 5164.49475945,
       "avg_price": 1.14,
-      "current_price": 1.126,
-      "value": 5815.221099140699,
-      "profit": -72.30292663230006,
-      "profit_rate": -0.012280701754385977
+      "current_price": 1.135,
+      "value": 5861.70155197575,
+      "profit": -25.82247379724945,
+      "profit_rate": -0.004385964912280609
     },
     {
       "market": "KRW-AERGO",
       "amount": 293.17578963,
       "avg_price": 93.35,
-      "current_price": 92.26,
-      "value": 27048.3983512638,
-      "profit": -319.56161069669685,
-      "profit_rate": -0.011676486341724577
+      "current_price": 92.42,
+      "value": 27095.3064776046,
+      "profit": -272.65348435589783,
+      "profit_rate": -0.009962506695232916
     },
     {
       "market": "KRW-COMP",
       "amount": 1.4281163,
       "avg_price": 35940.0,
-      "current_price": 36010.0,
-      "value": 51426.467962999996,
-      "profit": 99.96814099999999,
-      "profit_rate": 0.0019476905954368391
+      "current_price": 35950.0,
+      "value": 51340.780985,
+      "profit": 14.281163,
+      "profit_rate": 0.0002782415136338342
     },
     {
       "market": "KRW-JST",
       "amount": 182.90185405,
       "avg_price": 58.79,
-      "current_price": 59.83,
-      "value": 10943.0179278115,
-      "profit": 190.21792821199983,
-      "profit_rate": 0.017690083347508066
+      "current_price": 59.61,
+      "value": 10902.7795199205,
+      "profit": 149.97952032100005,
+      "profit_rate": 0.013947950331689067
     },
     {
       "market": "KRW-POKT",
@@ -53,12 +53,12 @@
     },
     {
       "market": "KRW-MOVE",
-      "amount": 5808.14666495,
+      "amount": 1936.04888832,
       "avg_price": 50.0,
-      "current_price": 50.42,
-      "value": 292846.754846779,
-      "profit": 2439.42159927901,
-      "profit_rate": 0.008400000000000034
+      "current_price": 50.46,
+      "value": 97693.0269046272,
+      "profit": 890.5824886272017,
+      "profit_rate": 0.009200000000000017
     }
   ],
   "trades": [
@@ -700,6 +700,16 @@
     }
   ],
   "raw_trades": [
+    {
+      "market": "KRW-MOVE",
+      "type": "sell",
+      "time": "2025-12-21T15:42:55+09:00",
+      "price": 50.47,
+      "volume": 3872.09777663,
+      "funds": 195424.7747865161,
+      "fee": 78.16,
+      "uuid": "C0992000000090313711"
+    },
     {
       "market": "KRW-XPLA",
       "type": "sell",
@@ -2052,7 +2062,7 @@
     "KRW-XPLA": 37.5
   },
   "realized_profit": 5441.206450072274,
-  "unrealized_profit": 2249.213860403815,
+  "unrealized_profit": 667.8379430368564,
   "start_date": "2025-12-19",
   "today_date": "2025-12-21"
 }
