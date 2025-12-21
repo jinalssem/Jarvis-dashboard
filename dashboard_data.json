@@ -1,28 +1,28 @@
 {
-  "last_update": "2025-12-22T02:42:15.020843",
+  "last_update": "2025-12-22T02:47:51.661756",
   "today_profit": 19024.464120557084,
   "today_profit_percent": -0.128262576297936,
   "total_profit": 3798.2824462250055,
-  "total_profit_percent": -16.77686009369916,
+  "total_profit_percent": -16.79535007251837,
   "total_investment": 161060.0662644906,
   "holdings": [
     {
       "market": "KRW-LRC",
       "amount": 115.43802801,
       "avg_price": 84.6,
-      "current_price": 83.09,
-      "value": 9591.7457473509,
-      "profit": -174.31142229509894,
-      "profit_rate": -0.017848699763593275
+      "current_price": 83.17,
+      "value": 9600.9807895917,
+      "profit": -165.07638005429914,
+      "profit_rate": -0.016903073286051923
     },
     {
       "market": "KRW-CTC",
       "amount": 26.38888889,
       "avg_price": 370.0,
-      "current_price": 370.0,
-      "value": 9763.8888893,
-      "profit": 0.0,
-      "profit_rate": 0.0
+      "current_price": 369.0,
+      "value": 9737.50000041,
+      "profit": -26.38888889,
+      "profit_rate": -0.002702702702702703
     },
     {
       "market": "KRW-COMP",
@@ -37,10 +37,10 @@
       "market": "KRW-SWAP",
       "amount": 328.4877675,
       "avg_price": 89.23,
-      "current_price": 89.09,
-      "value": 29264.975206575004,
-      "profit": -45.988287450000186,
-      "profit_rate": -0.0015689790429227902
+      "current_price": 87.98,
+      "value": 28900.353784650004,
+      "profit": -410.609709375,
+      "profit_rate": -0.014008741454667711
     },
     {
       "market": "KRW-MBX",
@@ -55,10 +55,10 @@
       "market": "KRW-ZTX",
       "amount": 58665.88273928,
       "avg_price": 0.5728,
-      "current_price": 0.5723,
-      "value": 33574.48469168995,
-      "profit": -29.33294136963677,
-      "profit_rate": -0.0008729050279328648
+      "current_price": 0.5783,
+      "value": 33926.479988125626,
+      "profit": 322.6623550660436,
+      "profit_rate": 0.009601955307262676
     }
   ],
   "trades": [
@@ -2462,7 +2462,7 @@
     }
   ],
   "realized_profit": -25959.065339538007,
-  "unrealized_profit": -1061.7566444747358,
+  "unrealized_profit": -1091.5366166132555,
   "start_date": "2025-12-19",
   "today_date": "2025-12-22",
   "saved_avg_prices": {
