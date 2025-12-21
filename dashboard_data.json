@@ -1,37 +1,37 @@
 {
-  "last_update": "2025-12-21T09:32:24.114161",
+  "last_update": "2025-12-21T09:39:22.760620",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": -803.9500768498729,
-  "total_profit_percent": -0.23623169776571037,
+  "total_profit": -2545.670151987827,
+  "total_profit_percent": -0.7480165737553329,
   "total_investment": 340322.69354776153,
   "holdings": [
     {
       "market": "KRW-APM",
       "amount": 5164.49475945,
       "avg_price": 1.14,
-      "current_price": 1.128,
-      "value": 5825.550088659599,
-      "profit": -61.973937113400055,
-      "profit_rate": -0.010526315789473694
+      "current_price": 1.123,
+      "value": 5799.72761486235,
+      "profit": -87.7964109106495,
+      "profit_rate": -0.014912280701754304
     },
     {
       "market": "KRW-AERGO",
       "amount": 293.17578963,
       "avg_price": 93.35,
-      "current_price": 91.83,
-      "value": 26922.3327617229,
-      "profit": -445.62720023759886,
-      "profit_rate": -0.016282806641671088
+      "current_price": 91.66,
+      "value": 26872.492877485798,
+      "profit": -495.46708447469933,
+      "profit_rate": -0.018103910016068536
     },
     {
       "market": "KRW-POLA",
       "amount": 2019.23076923,
       "avg_price": 9.68,
-      "current_price": 9.522,
-      "value": 19227.11538460806,
-      "profit": -319.03846153833894,
-      "profit_rate": -0.016322314049586725
+      "current_price": 9.528,
+      "value": 19239.230769223443,
+      "profit": -306.9230769229585,
+      "profit_rate": -0.015702479338842897
     },
     {
       "market": "KRW-JST",
@@ -46,31 +46,42 @@
       "market": "KRW-MBX",
       "amount": 94.10377358,
       "avg_price": 103.0,
-      "current_price": 106.0,
-      "value": 9974.99999948,
-      "profit": 282.31132074,
-      "profit_rate": 0.02912621359223301
+      "current_price": 105.0,
+      "value": 9880.8962259,
+      "profit": 188.20754716,
+      "profit_rate": 0.019417475728155338
     },
     {
       "market": "KRW-POKT",
       "amount": 1475.48784597,
       "avg_price": 19.83,
-      "current_price": 19.91,
-      "value": 29376.963013262703,
-      "profit": 118.03902767760273,
-      "profit_rate": 0.004034291477559347
+      "current_price": 19.55,
+      "value": 28845.787388713503,
+      "profit": -413.13659687159645,
+      "profit_rate": -0.014120020171457267
     },
     {
       "market": "KRW-MOVE",
       "amount": 4577.79871126,
       "avg_price": 51.95,
-      "current_price": 51.3,
-      "value": 234841.073887638,
-      "profit": -2975.5691623190264,
-      "profit_rate": -0.012512030798845152
+      "current_price": 51.07,
+      "value": 233788.18018404822,
+      "profit": -4028.462865908812,
+      "profit_rate": -0.01693936477382103
     }
   ],
   "trades": [
+    {
+      "market": "KRW-POKT",
+      "type": "buy",
+      "time": "2025-12-21T09:38:03.678007",
+      "price": 19.705407585872948,
+      "volume": 3464.09297589,
+      "funds": 68261.364005272,
+      "cycle_status": "holding",
+      "profit": 0,
+      "buy_count": 7
+    },
     {
       "market": "KRW-AERGO",
       "type": "buy",
@@ -81,17 +92,6 @@
       "cycle_status": "holding",
       "profit": 0,
       "buy_count": 4
-    },
-    {
-      "market": "KRW-POKT",
-      "type": "buy",
-      "time": "2025-12-21T09:24:17.487101",
-      "price": 19.828064246695153,
-      "volume": 2950.97569194,
-      "funds": 58512.135610222,
-      "cycle_status": "holding",
-      "profit": 0,
-      "buy_count": 6
     },
     {
       "market": "KRW-MBX",
@@ -750,6 +750,15 @@
     }
   ],
   "raw_trades": [
+    {
+      "type": "buy",
+      "market": "KRW-POKT",
+      "profit": 0,
+      "price": 19.0,
+      "amount": 513.11728395,
+      "volume": 513.11728395,
+      "time": "2025-12-21T09:38:03.678007"
+    },
     {
       "type": "buy",
       "market": "KRW-AERGO",
@@ -3005,7 +3014,7 @@
   },
   "archived_profit": 0,
   "realized_profit": 2429.6386302148885,
-  "unrealized_profit": -3233.5887070647614,
+  "unrealized_profit": -4975.3087822027155,
   "start_date": "2025-12-18",
   "today_date": "2025-12-21"
 }
