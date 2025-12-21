@@ -1,9 +1,9 @@
 {
-  "last_update": "2025-12-22T00:22:27.554669",
+  "last_update": "2025-12-22T00:28:42.780446",
   "today_profit": 0,
   "today_profit_percent": 0.0,
   "total_profit": -15226.181674332078,
-  "total_profit_percent": -14.80044094894439,
+  "total_profit_percent": -14.862554159857472,
   "total_investment": 181082.2772556289,
   "holdings": [
     {
@@ -28,10 +28,10 @@
       "market": "KRW-APM",
       "amount": 5164.49475945,
       "avg_price": 1.14,
-      "current_price": 1.167,
-      "value": 6026.96538427815,
-      "profit": 139.4413585051507,
-      "profit_rate": 0.023684210526315908
+      "current_price": 1.127,
+      "value": 5820.38559390015,
+      "profit": -67.13843187284948,
+      "profit_rate": -0.011403508771929739
     },
     {
       "market": "KRW-AERGO",
@@ -64,10 +64,10 @@
       "market": "KRW-MBX",
       "amount": 94.10377358,
       "avg_price": 103.0,
-      "current_price": 104.0,
-      "value": 9786.79245232,
-      "profit": 94.10377358,
-      "profit_rate": 0.009708737864077669
+      "current_price": 105.0,
+      "value": 9880.8962259,
+      "profit": 188.20754716,
+      "profit_rate": 0.019417475728155338
     }
   ],
   "trades": [
@@ -724,6 +724,15 @@
     }
   ],
   "raw_trades": [
+    {
+      "type": "buy",
+      "market": "KRW-NCT",
+      "profit": 0,
+      "price": 14.4,
+      "amount": 676.72998643,
+      "volume": 676.72998643,
+      "time": "2025-12-22T00:27:24.856489"
+    },
     {
       "type": "buy",
       "market": "KRW-SWAP",
@@ -2218,7 +2227,7 @@
     }
   ],
   "realized_profit": -24958.440242927765,
-  "unrealized_profit": -1842.5352712953495,
+  "unrealized_profit": -1955.0112880933498,
   "start_date": "2025-12-19",
   "today_date": "2025-12-22",
   "saved_avg_prices": {
