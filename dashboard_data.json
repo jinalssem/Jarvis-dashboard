@@ -1,10 +1,10 @@
 {
-  "last_update": "2025-12-22T01:58:21.568258",
-  "today_profit": 20490.251132218822,
-  "today_profit_percent": -0.13568047538605582,
-  "total_profit": 5264.069457886743,
-  "total_profit_percent": -18.690178178757343,
-  "total_investment": 152254.6186473851,
+  "last_update": "2025-12-22T02:05:14.582189",
+  "today_profit": 19024.464120557084,
+  "today_profit_percent": -0.1356621845579538,
+  "total_profit": 3798.2824462250055,
+  "total_profit_percent": -17.89452483520179,
+  "total_investment": 152275.14657170308,
   "holdings": [
     {
       "market": "KRW-LRC",
@@ -19,19 +19,28 @@
       "market": "KRW-CTC",
       "amount": 26.38888889,
       "avg_price": 370.0,
-      "current_price": 370.0,
-      "value": 9763.8888893,
-      "profit": 0.0,
-      "profit_rate": 0.0
+      "current_price": 371.0,
+      "value": 9790.27777819,
+      "profit": 26.38888889,
+      "profit_rate": 0.002702702702702703
     },
     {
       "market": "KRW-COMP",
       "amount": 1.92742108,
       "avg_price": 35759.0,
-      "current_price": 35200.0,
-      "value": 67845.222016,
-      "profit": -1077.42838372,
-      "profit_rate": -0.015632428199893734
+      "current_price": 35230.0,
+      "value": 67903.0446484,
+      "profit": -1019.60575132,
+      "profit_rate": -0.014793478564836824
+    },
+    {
+      "market": "KRW-SWAP",
+      "amount": 108.47107438,
+      "avg_price": 90.1,
+      "current_price": 90.45,
+      "value": 9811.208677671,
+      "profit": 37.96487603300093,
+      "profit_rate": 0.0038845726970034244
     },
     {
       "market": "KRW-JST",
@@ -52,35 +61,26 @@
       "profit_rate": 0.019417475728155338
     },
     {
-      "market": "KRW-XPLA",
-      "amount": 277.8551532,
-      "avg_price": 35.1,
-      "current_price": 34.8,
-      "value": 9669.35933136,
-      "profit": -83.35654596000118,
-      "profit_rate": -0.008547008547008668
-    },
-    {
       "market": "KRW-ZTX",
       "amount": 58665.88273928,
       "avg_price": 0.5728,
-      "current_price": 0.5672,
-      "value": 33275.28868971962,
-      "profit": -328.52894333996437,
-      "profit_rate": -0.009776536312849055
+      "current_price": 0.567,
+      "value": 33263.555513171756,
+      "profit": -340.26211988782563,
+      "profit_rate": -0.010125698324022395
     }
   ],
   "trades": [
     {
-      "market": "KRW-XPLA",
+      "market": "KRW-SWAP",
       "type": "buy",
-      "time": "2025-12-22T01:50:46.159127",
-      "price": 36.40245563711704,
-      "volume": 28003.30391366999,
-      "funds": 1019389.0284100779,
+      "time": "2025-12-22T02:03:33.130513",
+      "price": 94.87768860464239,
+      "volume": 1132.10282039,
+      "funds": 107411.29886139982,
       "cycle_status": "holding",
       "profit": 0,
-      "buy_count": 20
+      "buy_count": 4
     },
     {
       "market": "KRW-APM",
@@ -202,21 +202,6 @@
       "buy_count": 1
     },
     {
-      "market": "KRW-SWAP",
-      "type": "sell",
-      "time": "2025-12-21T19:31:44+09:00",
-      "price": 97.2,
-      "volume": 805.06133388,
-      "funds": 78251.96165313601,
-      "fee": 0.0,
-      "uuid": "C0456000000045836078",
-      "cycle_status": "completed",
-      "profit": 152.9616534372035,
-      "profit_unknown": false,
-      "avg_buy_price": 97.01,
-      "buy_count": 1
-    },
-    {
       "market": "KRW-EGG",
       "type": "sell",
       "time": "2025-12-21T18:46:12+09:00",
@@ -244,6 +229,21 @@
       "profit": -158.06983365359883,
       "profit_unknown": false,
       "avg_buy_price": 66.73,
+      "buy_count": 1
+    },
+    {
+      "market": "KRW-XPLA",
+      "type": "sell",
+      "time": "2025-12-21T15:16:08+09:00",
+      "price": 37.4,
+      "volume": 260.24002087,
+      "funds": 9732.976780538,
+      "fee": 3.89,
+      "uuid": "C0720000000083119374",
+      "cycle_status": "completed",
+      "profit": -33.81400208699961,
+      "profit_unknown": false,
+      "avg_buy_price": 37.51498616541361,
       "buy_count": 1
     },
     {
@@ -277,6 +277,21 @@
       "buy_count": 5
     },
     {
+      "market": "KRW-XPLA",
+      "type": "sell",
+      "time": "2025-12-21T08:41:35+09:00",
+      "price": 36.4,
+      "volume": 807.62293561,
+      "funds": 29397.474856204,
+      "fee": 11.76,
+      "uuid": "C0720000000083023630",
+      "cycle_status": "completed",
+      "profit": 113.80907035300334,
+      "profit_unknown": false,
+      "avg_buy_price": 36.2445201778994,
+      "buy_count": 3
+    },
+    {
       "market": "KRW-SOON",
       "type": "sell",
       "time": "2025-12-21T07:52:03+09:00",
@@ -301,6 +316,21 @@
       "cycle_status": "holding",
       "profit": 0,
       "buy_count": 3
+    },
+    {
+      "market": "KRW-XPLA",
+      "type": "sell",
+      "time": "2025-12-21T00:46:42+09:00",
+      "price": 41.2,
+      "volume": 245.20648968,
+      "funds": 10102.507374816001,
+      "fee": 4.04,
+      "uuid": "C0720000000082921384",
+      "cycle_status": "completed",
+      "profit": 335.34908555200127,
+      "profit_unknown": false,
+      "avg_buy_price": 39.81590496240572,
+      "buy_count": 1
     },
     {
       "market": "KRW-IN",
@@ -360,6 +390,81 @@
       "profit": -783.1453199316966,
       "profit_unknown": false,
       "avg_buy_price": 7.72665971877086,
+      "buy_count": 2
+    },
+    {
+      "market": "KRW-XPLA",
+      "type": "sell",
+      "time": "2025-12-20T18:49:20+09:00",
+      "price": 35.0,
+      "volume": 2801.90584189,
+      "funds": 98066.70446615,
+      "fee": 39.22,
+      "uuid": "C0720000000082773938",
+      "cycle_status": "completed",
+      "profit": 510.19022679689806,
+      "profit_unknown": false,
+      "avg_buy_price": 34.80391552828688,
+      "buy_count": 1
+    },
+    {
+      "market": "KRW-XPLA",
+      "type": "sell",
+      "time": "2025-12-20T18:26:11+09:00",
+      "price": 35.29,
+      "volume": 5528.84946865,
+      "funds": 195113.0977486585,
+      "fee": 78.04,
+      "uuid": "C0720000000082764229",
+      "cycle_status": "completed",
+      "profit": 70.83345967467176,
+      "profit_unknown": false,
+      "avg_buy_price": 35.26307333822004,
+      "buy_count": 2
+    },
+    {
+      "market": "KRW-XPLA",
+      "type": "sell",
+      "time": "2025-12-20T18:16:04+09:00",
+      "price": 36.46,
+      "volume": 2105.98780211,
+      "funds": 76784.3152649306,
+      "fee": 30.71,
+      "uuid": "C0720000000082760769",
+      "cycle_status": "completed",
+      "profit": 739.1753648018057,
+      "profit_unknown": false,
+      "avg_buy_price": 36.09443028300997,
+      "buy_count": 1
+    },
+    {
+      "market": "KRW-XPLA",
+      "type": "sell",
+      "time": "2025-12-20T18:02:03+09:00",
+      "price": 36.32,
+      "volume": 3259.61059138,
+      "funds": 118389.05667892161,
+      "fee": 47.35,
+      "uuid": "C0720000000082756230",
+      "cycle_status": "completed",
+      "profit": -510.5908008524566,
+      "profit_unknown": false,
+      "avg_buy_price": 36.462115380922334,
+      "buy_count": 6
+    },
+    {
+      "market": "KRW-XPLA",
+      "type": "sell",
+      "time": "2025-12-20T17:09:39+09:00",
+      "price": 40.78,
+      "volume": 2035.64798078,
+      "funds": 83013.7246562084,
+      "fee": 33.2,
+      "uuid": "C0720000000082727980",
+      "cycle_status": "completed",
+      "profit": -58.044928066417924,
+      "profit_unknown": false,
+      "avg_buy_price": 40.792204923592394,
       "buy_count": 2
     },
     {
@@ -636,12 +741,41 @@
   "raw_trades": [
     {
       "type": "buy",
+      "market": "KRW-SWAP",
+      "profit": 0,
+      "price": 88.7,
+      "amount": 110.09933775,
+      "volume": 110.09933775,
+      "time": "2025-12-22T02:03:33.130513"
+    },
+    {
+      "market": "KRW-XPLA",
+      "type": "sell",
+      "time": "2025-12-22T02:03:31+09:00",
+      "price": 33.1,
+      "volume": 562.8551532,
+      "funds": 18630.505570920002,
+      "fee": 7.46,
+      "uuid": "C0720000000083259220"
+    },
+    {
+      "type": "buy",
       "market": "KRW-XPLA",
       "profit": 0,
       "price": 34.2,
       "amount": 285.0,
       "volume": 285.0,
       "time": "2025-12-22T01:50:46.159127"
+    },
+    {
+      "market": "KRW-XPLA",
+      "type": "buy",
+      "time": "2025-12-22T01:50:46+09:00",
+      "price": 34.2,
+      "volume": 285.0,
+      "funds": 9747.0,
+      "fee": 3.89,
+      "uuid": "C0720000000083256768"
     },
     {
       "market": "KRW-APM",
@@ -2023,9 +2157,57 @@
   "daily_profits": {
     "2025-12-21": -16743.331467861208,
     "2025-12-20": 1517.149793529129,
-    "2025-12-22": 20490.251132218822
+    "2025-12-22": 19024.464120557084
   },
   "trade_cycles": [
+    {
+      "market": "KRW-XPLA",
+      "profit": -58.044928066417924,
+      "sell_time": "2025-12-20T17:09:39+09:00",
+      "avg_buy_price": 40.792204923592394
+    },
+    {
+      "market": "KRW-XPLA",
+      "profit": -510.5908008524566,
+      "sell_time": "2025-12-20T18:02:03+09:00",
+      "avg_buy_price": 36.462115380922334
+    },
+    {
+      "market": "KRW-XPLA",
+      "profit": 739.1753648018057,
+      "sell_time": "2025-12-20T18:16:04+09:00",
+      "avg_buy_price": 36.09443028300997
+    },
+    {
+      "market": "KRW-XPLA",
+      "profit": 70.83345967467176,
+      "sell_time": "2025-12-20T18:26:11+09:00",
+      "avg_buy_price": 35.26307333822004
+    },
+    {
+      "market": "KRW-XPLA",
+      "profit": 510.19022679689806,
+      "sell_time": "2025-12-20T18:49:20+09:00",
+      "avg_buy_price": 34.80391552828688
+    },
+    {
+      "market": "KRW-XPLA",
+      "profit": 335.34908555200127,
+      "sell_time": "2025-12-21T00:46:42+09:00",
+      "avg_buy_price": 39.81590496240572
+    },
+    {
+      "market": "KRW-XPLA",
+      "profit": 113.80907035300334,
+      "sell_time": "2025-12-21T08:41:35+09:00",
+      "avg_buy_price": 36.2445201778994
+    },
+    {
+      "market": "KRW-XPLA",
+      "profit": -33.81400208699961,
+      "sell_time": "2025-12-21T15:16:08+09:00",
+      "avg_buy_price": 37.51498616541361
+    },
     {
       "market": "KRW-APM",
       "profit": -600.0,
@@ -2049,12 +2231,6 @@
       "profit": 66.98294661394903,
       "sell_time": "2025-12-21T20:02:27+09:00",
       "avg_buy_price": 9.13464878724415
-    },
-    {
-      "market": "KRW-SWAP",
-      "profit": 152.9616534372035,
-      "sell_time": "2025-12-21T19:31:44+09:00",
-      "avg_buy_price": 97.01
     },
     {
       "market": "KRW-OBSR",
@@ -2225,8 +2401,8 @@
       "avg_buy_price": 0.0
     }
   ],
-  "realized_profit": -27194.32240567381,
-  "unrealized_profit": -1262.3371049099644,
+  "realized_profit": -26180.37658293851,
+  "unrealized_profit": -1068.5373381748234,
   "start_date": "2025-12-19",
   "today_date": "2025-12-22",
   "saved_avg_prices": {
@@ -2237,7 +2413,7 @@
     "KRW-AZIT": 9.131,
     "KRW-POKT": 19.69,
     "KRW-MOVE": 50.0,
-    "KRW-SWAP": 97.01,
+    "KRW-SWAP": 90.1,
     "KRW-LRC": 84.6,
     "KRW-OBSR": 1.256,
     "KRW-CTC": 370.0,
