@@ -1,19 +1,19 @@
 {
-  "last_update": "2025-12-22T11:35:45.216207",
+  "last_update": "2025-12-22T11:38:50.814044",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": 2502.770884810861,
-  "total_profit_percent": 1.1150630107449286,
-  "total_investment": 224451.07233346938,
+  "total_profit": 2524.9642984696006,
+  "total_profit_percent": 1.3067641835159465,
+  "total_investment": 193222.64340579,
   "holdings": [
     {
       "market": "KRW-LRC",
       "amount": 115.43802801,
       "avg_price": 84.6,
-      "current_price": 84.3,
-      "value": 9731.425761243,
-      "profit": -34.63140840299967,
-      "profit_rate": -0.0035460992907801084
+      "current_price": 84.31,
+      "value": 9732.5801415231,
+      "profit": -33.47702812289908,
+      "profit_rate": -0.0034278959810873765
     },
     {
       "market": "KRW-CTC",
@@ -37,28 +37,19 @@
       "market": "KRW-SWAP",
       "amount": 246.05328071,
       "avg_price": 79.4,
-      "current_price": 77.59,
-      "value": 19091.2740502889,
-      "profit": -445.35643808510054,
-      "profit_rate": -0.022795969773299774
-    },
-    {
-      "market": "KRW-LM",
-      "amount": 15803.86079336,
-      "avg_price": 1.976,
-      "current_price": 1.937,
-      "value": 30612.07835673832,
-      "profit": -616.3505709410388,
-      "profit_rate": -0.01973684210526312
+      "current_price": 77.15,
+      "value": 18983.0106067765,
+      "profit": -553.6198815975,
+      "profit_rate": -0.028337531486146095
     },
     {
       "market": "KRW-SAPIEN",
       "amount": 487.04809405,
       "avg_price": 175.0,
-      "current_price": 183.0,
-      "value": 89129.80121115,
-      "profit": 3896.3847524,
-      "profit_rate": 0.045714285714285714
+      "current_price": 182.0,
+      "value": 88642.7531171,
+      "profit": 3409.3366583499997,
+      "profit_rate": 0.04
     }
   ],
   "trades": [
@@ -71,19 +62,6 @@
       "funds": 85233.41645875,
       "fee": 34.09,
       "uuid": "C1208000000001124433",
-      "cycle_status": "external",
-      "profit": 0,
-      "bot_trade": false
-    },
-    {
-      "market": "KRW-LM",
-      "type": "buy",
-      "time": "2025-12-22T06:26:17+09:00",
-      "price": 1.976,
-      "volume": 15803.86079336,
-      "funds": 31228.42892767936,
-      "fee": 12.49,
-      "uuid": "C0698000000109250356",
       "cycle_status": "external",
       "profit": 0,
       "bot_trade": false
