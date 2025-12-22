@@ -1,55 +1,64 @@
 {
-  "last_update": "2025-12-22T22:55:41.237987",
+  "last_update": "2025-12-22T23:02:14.534927",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": -1942.0221743893997,
-  "total_profit_percent": -0.9997028374370369,
-  "total_investment": 194259.944221846,
+  "total_profit": -2728.6187396436026,
+  "total_profit_percent": -1.1631414692509907,
+  "total_investment": 234590.444221777,
   "holdings": [
     {
       "market": "KRW-LRC",
       "amount": 115.43802801,
       "avg_price": 84.6,
-      "current_price": 83.54,
-      "value": 9643.692859955401,
-      "profit": -122.36430969059862,
-      "profit_rate": -0.012529550827423028
+      "current_price": 83.68,
+      "value": 9659.8541838768,
+      "profit": -106.20298576919855,
+      "profit_rate": -0.010874704491725621
     },
     {
       "market": "KRW-AAVE",
       "amount": 0.04189416,
       "avg_price": 233300.0,
-      "current_price": 230800.0,
-      "value": 9669.172128,
-      "profit": -104.7354,
-      "profit_rate": -0.010715816545220747
+      "current_price": 232100.0,
+      "value": 9723.634536,
+      "profit": -50.272992,
+      "profit_rate": -0.005143591941705958
     },
     {
       "market": "KRW-COMP",
       "amount": 1.92742108,
       "avg_price": 35759.0,
-      "current_price": 35660.0,
-      "value": 68731.8357128,
-      "profit": -190.81468692,
-      "profit_rate": -0.0027685337956877987
+      "current_price": 35740.0,
+      "value": 68886.0293992,
+      "profit": -36.62100052,
+      "profit_rate": -0.0005313347688693756
     },
     {
       "market": "KRW-XPLA",
       "amount": 610.14309764,
       "avg_price": 32.0,
-      "current_price": 32.33,
-      "value": 19725.9263467012,
-      "profit": 201.34722222119893,
-      "profit_rate": 0.010312499999999947
+      "current_price": 32.24,
+      "value": 19671.0134679136,
+      "profit": 146.4343434336012,
+      "profit_rate": 0.007500000000000062
     },
     {
       "market": "KRW-YGG",
       "amount": 862.7275,
       "avg_price": 100.0,
-      "current_price": 98.0,
-      "value": 84547.295,
-      "profit": -1725.455,
-      "profit_rate": -0.02
+      "current_price": 96.85,
+      "value": 83555.15837499998,
+      "profit": -2717.5916250000046,
+      "profit_rate": -0.031500000000000056
+    },
+    {
+      "market": "KRW-POLYX",
+      "amount": 445.44400265,
+      "avg_price": 90.54,
+      "current_price": 90.62,
+      "value": 40366.135520143005,
+      "profit": 35.63552021199924,
+      "profit_rate": 0.0008835873647006658
     }
   ],
   "trades": [
@@ -91,6 +100,19 @@
       "bot_trade": false
     },
     {
+      "market": "KRW-POLYX",
+      "type": "buy",
+      "time": "2025-12-22T19:28:52+09:00",
+      "price": 90.54,
+      "volume": 445.44400265,
+      "funds": 40330.499999931,
+      "fee": 0.0,
+      "uuid": "C0925000000016142257",
+      "cycle_status": "external",
+      "profit": 0,
+      "bot_trade": false
+    },
+    {
       "market": "KRW-AAVE",
       "type": "buy",
       "time": "2025-12-22T18:54:41+09:00",
@@ -99,6 +121,58 @@
       "funds": 9773.907528,
       "fee": 3.9,
       "uuid": "C0315000000299477024",
+      "cycle_status": "external",
+      "profit": 0,
+      "bot_trade": false
+    },
+    {
+      "market": "KRW-POLYX",
+      "type": "buy",
+      "time": "2025-12-22T18:25:43+09:00",
+      "price": 91.18,
+      "volume": 696.095635,
+      "funds": 63469.99999930001,
+      "fee": 0.0,
+      "uuid": "C0925000000016123018",
+      "cycle_status": "external",
+      "profit": 0,
+      "bot_trade": false
+    },
+    {
+      "market": "KRW-POLYX",
+      "type": "buy",
+      "time": "2025-12-22T18:19:31+09:00",
+      "price": 93.76,
+      "volume": 1570.73378839,
+      "funds": 147271.99999944642,
+      "fee": 0.0,
+      "uuid": "C0925000000016118880",
+      "cycle_status": "external",
+      "profit": 0,
+      "bot_trade": false
+    },
+    {
+      "market": "KRW-POLYX",
+      "type": "buy",
+      "time": "2025-12-22T18:17:54+09:00",
+      "price": 92.57,
+      "volume": 1590.90418062,
+      "funds": 147269.9999999934,
+      "fee": 0.0,
+      "uuid": "C0925000000016117615",
+      "cycle_status": "external",
+      "profit": 0,
+      "bot_trade": false
+    },
+    {
+      "market": "KRW-POLYX",
+      "type": "buy",
+      "time": "2025-12-22T18:16:11+09:00",
+      "price": 87.54,
+      "volume": 1620.22503998,
+      "funds": 141834.4999998492,
+      "fee": 0.0,
+      "uuid": "C0925000000016114716",
       "cycle_status": "external",
       "profit": 0,
       "bot_trade": false
