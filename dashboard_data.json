@@ -1,9 +1,9 @@
 {
   "last_update": "2025-12-22T23:16:24.816827",
-  "today_profit": 0,
-  "today_profit_percent": 0.0,
-  "total_profit": -1456.9154178027986,
-  "total_profit_percent": -0.6210463613025349,
+  "today_profit": 10301.643743143397,
+  "today_profit_percent": 4.391331359347457,
+  "total_profit": 8844.728325340599,
+  "total_profit_percent": 3.770284998044922,
   "total_investment": 234590.444221777,
   "holdings": [
     {
@@ -178,6 +178,34 @@
     }
   ],
   "raw_trades": [
+    {
+      "market": "KRW-XPLA",
+      "type": "sell",
+      "time": "2025-12-22T23:21:53.377124",
+      "price": 0,
+      "volume": 0.0,
+      "funds": 0.0,
+      "fee": 0.0,
+      "cycle_status": "partial",
+      "profit": 0,
+      "profit_unknown": true,
+      "bot_trade": true,
+      "action": "sell",
+      "profit_rate": 0.026874999999999982
+    },
+    {
+      "market": "KRW-XPLA",
+      "type": "sell",
+      "time": "2025-12-22T23:21:53.362520",
+      "price": 32.86,
+      "volume": 610.14309764,
+      "funds": 20049.302188450398,
+      "fee": 0,
+      "cycle_status": "completed",
+      "profit": 10301.643743143397,
+      "profit_unknown": false,
+      "bot_trade": true
+    },
     {
       "market": "KRW-AAVE",
       "type": "buy",
@@ -2278,29 +2306,11 @@
       "funds": 9711.011342148002,
       "fee": 3.88,
       "uuid": "C0993000000089589140"
-    },
-    {
-      "market": "KRW-MOVE",
-      "type": "buy",
-      "time": "2025-12-20T06:52:20+09:00",
-      "price": 51.68,
-      "volume": 636.68228808,
-      "funds": 32903.7406479744,
-      "fee": 13.16,
-      "uuid": "C0992000000090160696"
-    },
-    {
-      "market": "KRW-MOVE",
-      "type": "buy",
-      "time": "2025-12-20T06:42:37+09:00",
-      "price": 53.09,
-      "volume": 1143.59044938,
-      "funds": 60713.21695758421,
-      "fee": 24.28,
-      "uuid": "C0992000000090155126"
     }
   ],
-  "daily_profits": {},
+  "daily_profits": {
+    "2025-12-22": 10301.643743143397
+  },
   "trade_cycles": [],
   "realized_profit": -20111.75820679681,
   "unrealized_profit": 1324.2143327359229,
