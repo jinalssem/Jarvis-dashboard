@@ -1,28 +1,28 @@
 {
-  "last_update": "2025-12-23T02:50:25.641522",
+  "last_update": "2025-12-23T02:55:57.312391",
   "today_profit": 355.89244523870184,
-  "today_profit_percent": 0.192885890041898,
-  "total_profit": 9560.092167968503,
-  "total_profit_percent": 5.181360018655026,
-  "total_investment": 184509.320594366,
+  "today_profit_percent": 0.18318769941834576,
+  "total_profit": 9515.339682745594,
+  "total_profit_percent": 4.897808899812812,
+  "total_investment": 194277.479529862,
   "holdings": [
     {
       "market": "KRW-LRC",
       "amount": 115.43802801,
       "avg_price": 84.6,
-      "current_price": 83.24,
-      "value": 9609.0614515524,
-      "profit": -156.99571809359992,
-      "profit_rate": -0.016075650118203305
+      "current_price": 83.19,
+      "value": 9603.2895501519,
+      "profit": -162.7676194940996,
+      "profit_rate": -0.01666666666666663
     },
     {
       "market": "KRW-AAVE",
       "amount": 0.0846686,
       "avg_price": 230875.0,
-      "current_price": 234400.0,
-      "value": 19846.31984,
-      "profit": 298.456815,
-      "profit_rate": 0.015268002165674066
+      "current_price": 233300.0,
+      "value": 19753.18438,
+      "profit": 205.32135499999998,
+      "profit_rate": 0.010503519220357336
     },
     {
       "market": "KRW-COMP",
@@ -34,13 +34,22 @@
       "profit_rate": 0.014569758662154982
     },
     {
+      "market": "KRW-SWAP",
+      "amount": 119.56130888,
+      "avg_price": 81.7,
+      "current_price": 81.72,
+      "value": 9770.5501616736,
+      "profit": 2.391226177599524,
+      "profit_rate": 0.00024479804161561835
+    },
+    {
       "market": "KRW-YGG",
       "amount": 862.7275,
       "avg_price": 100.0,
-      "current_price": 97.4,
-      "value": 84029.6585,
-      "profit": -2243.091499999995,
-      "profit_rate": -0.025999999999999943
+      "current_price": 97.46,
+      "value": 84081.42214999998,
+      "profit": -2191.327850000005,
+      "profit_rate": -0.02540000000000006
     }
   ],
   "trades": [
@@ -199,6 +208,19 @@
       "profit": 0,
       "buy_count": 1,
       "bot_trade": true
+    },
+    {
+      "market": "KRW-SWAP",
+      "type": "buy",
+      "time": "2025-12-22T18:57:41+09:00",
+      "price": 81.7,
+      "volume": 119.56130888,
+      "funds": 9768.158935496,
+      "fee": 0.0,
+      "uuid": "C0456000000046085839",
+      "cycle_status": "external",
+      "profit": 0,
+      "bot_trade": false
     }
   ],
   "raw_trades": [
