@@ -1,10 +1,10 @@
 {
-  "last_update": "2025-12-22T18:23:57.173217",
+  "last_update": "2025-12-22T18:27:03.609648",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": -3192.278029179999,
-  "total_profit_percent": -0.6682453341651489,
-  "total_investment": 477710.48535163666,
+  "total_profit": -7243.344737805751,
+  "total_profit_percent": -1.3384602123489093,
+  "total_investment": 541169.9706107931,
   "holdings": [
     {
       "market": "KRW-LRC",
@@ -28,28 +28,28 @@
       "market": "KRW-COMP",
       "amount": 1.92742108,
       "avg_price": 35759.0,
-      "current_price": 35750.0,
-      "value": 68905.30361,
-      "profit": -17.34678972,
-      "profit_rate": -0.00025168489051707264
+      "current_price": 35940.0,
+      "value": 69271.5136152,
+      "profit": 348.86321548,
+      "profit_rate": 0.0050616627981766825
     },
     {
       "market": "KRW-BIOT",
       "amount": 110711.69208424,
       "avg_price": 0.8262,
-      "current_price": 0.8407,
-      "value": 93075.31953522057,
-      "profit": 1605.3195352214752,
-      "profit_rate": 0.01755022996853057
+      "current_price": 0.8293,
+      "value": 91813.20624546024,
+      "profit": 343.20624546114306,
+      "profit_rate": 0.0037521181312030884
     },
     {
       "market": "KRW-POLYX",
-      "amount": 3161.63796901,
-      "avg_price": 93.16,
-      "current_price": 91.62,
-      "value": 289669.2707206962,
-      "profit": -4868.922472275374,
-      "profit_rate": -0.016530699871189266
+      "amount": 3857.73360401,
+      "avg_price": 92.8,
+      "current_price": 90.72,
+      "value": 349973.5925557872,
+      "profit": -8024.085896340794,
+      "profit_rate": -0.022413793103448258
     },
     {
       "market": "KRW-SAPIEN",
@@ -62,6 +62,19 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-POLYX",
+      "type": "buy",
+      "time": "2025-12-22T18:25:43+09:00",
+      "price": 91.18,
+      "volume": 696.095635,
+      "funds": 63469.99999930001,
+      "fee": 0.0,
+      "uuid": "C0925000000016123018",
+      "cycle_status": "external",
+      "profit": 0,
+      "bot_trade": false
+    },
     {
       "market": "KRW-POLYX",
       "type": "buy",
