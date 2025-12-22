@@ -1,10 +1,10 @@
 {
-  "last_update": "2025-12-22T12:36:43.707232",
+  "last_update": "2025-12-22T12:39:52.936416",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": -129.69363461740016,
-  "total_profit_percent": -0.12009867862190034,
-  "total_investment": 107989.22694704,
+  "total_profit": -169.06215953099934,
+  "total_profit_percent": -0.19113306595810592,
+  "total_investment": 88452.596458666,
   "holdings": [
     {
       "market": "KRW-LRC",
@@ -32,15 +32,6 @@
       "value": 68596.9162372,
       "profit": -325.73416252,
       "profit_rate": -0.0047260829441539195
-    },
-    {
-      "market": "KRW-SWAP",
-      "amount": 246.05328071,
-      "avg_price": 79.4,
-      "current_price": 79.56,
-      "value": 19575.9990132876,
-      "profit": 39.36852491359916,
-      "profit_rate": 0.0020151133501259016
     }
   ],
   "trades": [
@@ -55,84 +46,6 @@
       "profit": 0,
       "buy_count": 1,
       "bot_trade": true
-    },
-    {
-      "market": "KRW-SWAP",
-      "type": "buy",
-      "time": "2025-12-22T05:02:01+09:00",
-      "price": 79.4,
-      "volume": 246.05328071,
-      "funds": 19536.630488374,
-      "fee": 0.0,
-      "uuid": "C0456000000045951897",
-      "cycle_status": "external",
-      "profit": 0,
-      "bot_trade": false
-    },
-    {
-      "market": "KRW-SWAP",
-      "type": "buy",
-      "time": "2025-12-22T02:35:05+09:00",
-      "price": 86.7,
-      "volume": 112.71186441,
-      "funds": 9772.118644347001,
-      "fee": 0.0,
-      "uuid": "C0456000000045921562",
-      "cycle_status": "external",
-      "profit": 0,
-      "bot_trade": false
-    },
-    {
-      "market": "KRW-SWAP",
-      "type": "buy",
-      "time": "2025-12-22T02:18:09+09:00",
-      "price": 88.9,
-      "volume": 109.91735537,
-      "funds": 9771.652892393,
-      "fee": 0.0,
-      "uuid": "C0456000000045917672",
-      "cycle_status": "external",
-      "profit": 0,
-      "bot_trade": false
-    },
-    {
-      "market": "KRW-SWAP",
-      "type": "buy",
-      "time": "2025-12-22T02:03:33+09:00",
-      "price": 88.7,
-      "volume": 110.09933775,
-      "funds": 9765.811258425001,
-      "fee": 0.0,
-      "uuid": "C0456000000045913832",
-      "cycle_status": "external",
-      "profit": 0,
-      "bot_trade": false
-    },
-    {
-      "market": "KRW-SWAP",
-      "type": "buy",
-      "time": "2025-12-22T00:21:10+09:00",
-      "price": 90.1,
-      "volume": 108.47107438,
-      "funds": 9773.243801638,
-      "fee": 0.0,
-      "uuid": "C0456000000045879648",
-      "cycle_status": "external",
-      "profit": 0,
-      "bot_trade": false
-    },
-    {
-      "market": "KRW-SWAP",
-      "type": "buy",
-      "time": "2025-12-21T19:14:51+09:00",
-      "price": 97.01,
-      "volume": 805.06133388,
-      "funds": 78098.9999996988,
-      "fee": 0.0,
-      "uuid": "C0456000000045832710",
-      "cycle_status": "external",
-      "profit": 0,
-      "bot_trade": false
     }
   ],
   "raw_trades": [
