@@ -203,6 +203,18 @@
   ],
   "raw_trades": [
     {
+      "market": "KRW-LM",
+      "type": "buy",
+      "time": "2025-12-23T00:15:42.032298",
+      "price": 1.49,
+      "volume": 6536.69724771,
+      "funds": 9739.6788990879,
+      "fee": 0,
+      "cycle_status": "holding",
+      "profit": 0,
+      "bot_trade": true
+    },
+    {
       "market": "KRW-BIOT",
       "type": "buy",
       "time": "2025-12-23T00:08:56.214896",
@@ -2324,16 +2336,6 @@
       "funds": 10088.137996211999,
       "fee": 4.03,
       "uuid": "C0993000000089616919"
-    },
-    {
-      "market": "KRW-WIKEN",
-      "type": "sell",
-      "time": "2025-12-20T12:01:23+09:00",
-      "price": 2.23,
-      "volume": 4469.08602151,
-      "funds": 9966.0618279673,
-      "fee": 0.0,
-      "uuid": "C0409000000106950147"
     }
   ],
   "daily_profits": {
