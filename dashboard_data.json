@@ -1,19 +1,19 @@
 {
-  "last_update": "2025-12-22T19:13:56.038225",
+  "last_update": "2025-12-22T19:16:58.841737",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": 3308.0216229577254,
-  "total_profit_percent": 1.7145720577033623,
+  "total_profit": -176.23752779450774,
+  "total_profit_percent": -0.09134521327735717,
   "total_investment": 192935.7012494861,
   "holdings": [
     {
       "market": "KRW-LRC",
       "amount": 115.43802801,
       "avg_price": 84.6,
-      "current_price": 84.61,
-      "value": 9767.2115499261,
-      "profit": 1.1543802801005905,
-      "profit_rate": 0.00011820330969273187
+      "current_price": 84.44,
+      "value": 9747.5870851644,
+      "profit": -18.470084481599606,
+      "profit_rate": -0.0018912529550827021
     },
     {
       "market": "KRW-CTC",
@@ -37,41 +37,41 @@
       "market": "KRW-BIOT",
       "amount": 110711.69208424,
       "avg_price": 0.8262,
-      "current_price": 0.853,
-      "value": 94437.07334785671,
-      "profit": 2967.073347857625,
-      "profit_rate": 0.03243766642459445
+      "current_price": 0.8216,
+      "value": 90960.72621641158,
+      "profit": -509.27378358750934,
+      "profit_rate": -0.005567659162430462
     },
     {
       "market": "KRW-XPLA",
       "amount": 302.27272727,
       "avg_price": 32.3,
-      "current_price": 32.3,
-      "value": 9763.409090821,
-      "profit": 0.0,
-      "profit_rate": 0.0
+      "current_price": 32.28,
+      "value": 9757.3636362756,
+      "profit": -6.045454545398798,
+      "profit_rate": -0.0006191950464395054
     },
     {
       "market": "KRW-SAPIEN",
       "amount": 17.7579,
       "avg_price": 183.0,
-      "current_price": 179.0,
-      "value": 3178.6641,
-      "profit": -71.0316,
-      "profit_rate": -0.02185792349726776
+      "current_price": 180.0,
+      "value": 3196.422,
+      "profit": -53.2737,
+      "profit_rate": -0.01639344262295082
     }
   ],
   "trades": [
     {
       "market": "KRW-XPLA",
       "type": "buy",
-      "time": "2025-12-22T19:06:42.565517",
-      "price": 30.393709884470862,
-      "volume": 642.48418702,
-      "funds": 19527.477985646,
+      "time": "2025-12-22T19:15:50.035781",
+      "price": 30.81688670679612,
+      "volume": 950.3545573900001,
+      "funds": 29286.968726375002,
       "cycle_status": "holding",
       "profit": 0,
-      "buy_count": 2,
+      "buy_count": 3,
       "bot_trade": true
     },
     {
