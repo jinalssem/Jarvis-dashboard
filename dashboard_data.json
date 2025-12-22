@@ -1,67 +1,80 @@
 {
-  "last_update": "2025-12-22T17:20:17.863441",
+  "last_update": "2025-12-22T17:23:19.369764",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": -906.33718201394,
-  "total_profit_percent": -0.527372539926135,
-  "total_investment": 171859.00163495122,
+  "total_profit": -552.4959616334104,
+  "total_profit_percent": -0.22438457971448136,
+  "total_investment": 246227.24179016004,
   "holdings": [
     {
       "market": "KRW-LRC",
       "amount": 115.43802801,
       "avg_price": 84.6,
-      "current_price": 84.68,
-      "value": 9775.292211886801,
-      "profit": 9.235042240801443,
-      "profit_rate": 0.000945626477541519
+      "current_price": 84.93,
+      "value": 9804.151718889301,
+      "profit": 38.094549243301444,
+      "profit_rate": 0.003900709219858304
     },
     {
       "market": "KRW-CTC",
       "amount": 26.38888889,
       "avg_price": 370.0,
-      "current_price": 371.0,
-      "value": 9790.27777819,
-      "profit": 26.38888889,
-      "profit_rate": 0.002702702702702703
+      "current_price": 372.0,
+      "value": 9816.66666708,
+      "profit": 52.77777778,
+      "profit_rate": 0.005405405405405406
     },
     {
       "market": "KRW-COMP",
       "amount": 1.92742108,
       "avg_price": 35759.0,
-      "current_price": 35620.0,
-      "value": 68654.7388696,
-      "profit": -267.91153012,
-      "profit_rate": -0.0038871333090970107
+      "current_price": 35700.0,
+      "value": 68808.932556,
+      "profit": -113.71784372,
+      "profit_rate": -0.0016499342822785873
     },
     {
       "market": "KRW-BIOT",
-      "amount": 36609.97229916,
-      "avg_price": 0.9025,
-      "current_price": 0.8972,
-      "value": 32846.46714680635,
-      "profit": -194.03285318554694,
-      "profit_rate": -0.005872576177285287
+      "amount": 119702.1510701,
+      "avg_price": 0.8973,
+      "current_price": 0.8954,
+      "value": 107181.30606816753,
+      "profit": -227.43408703319153,
+      "profit_rate": -0.002117463501615973
     },
     {
       "market": "KRW-LM",
       "amount": 26664.52149196,
       "avg_price": 1.767,
-      "current_price": 1.747,
-      "value": 46582.919046454124,
-      "profit": -533.2904298391945,
-      "profit_rate": -0.011318619128466212
+      "current_price": 1.755,
+      "value": 46796.2352183898,
+      "profit": -319.9742579035203,
+      "profit_rate": -0.006791171477079802
     },
     {
       "market": "KRW-SAPIEN",
       "amount": 17.7579,
       "avg_price": 183.0,
-      "current_price": 186.0,
-      "value": 3302.9694,
-      "profit": 53.2737,
-      "profit_rate": 0.01639344262295082
+      "current_price": 184.0,
+      "value": 3267.4536,
+      "profit": 17.7579,
+      "profit_rate": 0.00546448087431694
     }
   ],
   "trades": [
+    {
+      "market": "KRW-BIOT",
+      "type": "buy",
+      "time": "2025-12-22T17:21:57+09:00",
+      "price": 0.895,
+      "volume": 83092.17877094,
+      "funds": 74367.4999999913,
+      "fee": 0.0,
+      "uuid": "C0368000000107011667",
+      "cycle_status": "external",
+      "profit": 0,
+      "bot_trade": false
+    },
     {
       "market": "KRW-BIOT",
       "type": "buy",
