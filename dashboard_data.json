@@ -323,6 +323,18 @@
   ],
   "raw_trades": [
     {
+      "market": "KRW-CSPR",
+      "type": "buy",
+      "time": "2025-12-23T06:57:51.686651",
+      "price": 6.39,
+      "volume": 1322.37826364,
+      "funds": 8449.997104659598,
+      "fee": 0,
+      "cycle_status": "holding",
+      "profit": 0,
+      "bot_trade": true
+    },
+    {
       "market": "KRW-LRC",
       "type": "sell",
       "time": "2025-12-23T06:48:23.016775",
