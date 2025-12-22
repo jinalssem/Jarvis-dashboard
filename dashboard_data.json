@@ -1,28 +1,28 @@
 {
-  "last_update": "2025-12-23T01:27:36.191292",
+  "last_update": "2025-12-23T01:33:04.099288",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": 8656.572742450035,
-  "total_profit_percent": 4.45815319724573,
+  "total_profit": 7656.305407338362,
+  "total_profit_percent": 3.94301341262163,
   "total_investment": 194173.9630616128,
   "holdings": [
     {
       "market": "KRW-LRC",
       "amount": 115.43802801,
       "avg_price": 84.6,
-      "current_price": 83.78,
-      "value": 9671.397986677799,
-      "profit": -94.6591829681992,
-      "profit_rate": -0.009692671394798975
+      "current_price": 83.67,
+      "value": 9658.6998035967,
+      "profit": -107.35736604929915,
+      "profit_rate": -0.010992907801418353
     },
     {
       "market": "KRW-AAVE",
       "amount": 0.0846686,
       "avg_price": 230875.0,
-      "current_price": 230700.0,
-      "value": 19533.046019999998,
-      "profit": -14.817005,
-      "profit_rate": -0.0007579859231185707
+      "current_price": 230100.0,
+      "value": 19482.24486,
+      "profit": -65.61816499999999,
+      "profit_rate": -0.0033567948023822416
     },
     {
       "market": "KRW-COMP",
@@ -37,22 +37,34 @@
       "market": "KRW-BIOT",
       "amount": 13612.17248908,
       "avg_price": 0.71,
-      "current_price": 0.683,
-      "value": 9297.113810041641,
-      "profit": -367.5286572051588,
-      "profit_rate": -0.03802816901408439
+      "current_price": 0.6858,
+      "value": 9335.227893011062,
+      "profit": -329.414574235736,
+      "profit_rate": -0.03408450704225352
     },
     {
       "market": "KRW-YGG",
       "amount": 862.7275,
       "avg_price": 100.0,
-      "current_price": 98.13,
-      "value": 84659.44957499999,
-      "profit": -1613.3004250000038,
-      "profit_rate": -0.018700000000000046
+      "current_price": 97.0,
+      "value": 83684.56749999999,
+      "profit": -2588.1825,
+      "profit_rate": -0.03
     }
   ],
   "trades": [
+    {
+      "market": "KRW-YGG",
+      "type": "buy",
+      "time": "2025-12-23T01:31:49.593553",
+      "price": 95.6,
+      "volume": 122.68115199,
+      "funds": 11728.318130243999,
+      "cycle_status": "holding",
+      "profit": 0,
+      "buy_count": 1,
+      "bot_trade": true
+    },
     {
       "market": "KRW-BIOT",
       "type": "buy",
@@ -148,19 +160,6 @@
       "profit": 0,
       "buy_count": 1,
       "bot_trade": true
-    },
-    {
-      "market": "KRW-YGG",
-      "type": "buy",
-      "time": "2025-12-22T21:13:09+09:00",
-      "price": 100.0,
-      "volume": 862.7275,
-      "funds": 86272.75,
-      "fee": 0.0,
-      "uuid": "C0860000000069863825",
-      "cycle_status": "external",
-      "profit": 0,
-      "bot_trade": false
     }
   ],
   "raw_trades": [
