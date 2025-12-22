@@ -1,9 +1,9 @@
 {
   "last_update": "2025-12-23T03:34:58.737642",
-  "today_profit": 355.89244523870184,
-  "today_profit_percent": 0.12184732906496934,
-  "total_profit": 10545.503074915314,
-  "total_profit_percent": 3.610476705857088,
+  "today_profit": 10233.514965238703,
+  "today_profit_percent": 3.5036609575243953,
+  "total_profit": 20423.125594915313,
+  "total_profit_percent": 6.992290334316513,
   "total_investment": 292080.6290706126,
   "holdings": [
     {
@@ -343,6 +343,46 @@
     }
   ],
   "raw_trades": [
+    {
+      "market": "KRW-SWAP",
+      "type": "buy",
+      "time": "2025-12-23T03:39:21.848373",
+      "price": 78.4,
+      "volume": 124.6875,
+      "funds": 9775.5,
+      "fee": 0,
+      "cycle_status": "holding",
+      "profit": 0,
+      "bot_trade": true
+    },
+    {
+      "market": "KRW-AAVE",
+      "type": "sell",
+      "time": "2025-12-23T03:39:20.587348",
+      "price": 0,
+      "volume": 0.0,
+      "funds": 0.0,
+      "fee": 0.0,
+      "cycle_status": "partial",
+      "profit": 0,
+      "profit_unknown": true,
+      "bot_trade": true,
+      "action": "sell",
+      "profit_rate": 0.005305901461829994
+    },
+    {
+      "market": "KRW-AAVE",
+      "type": "sell",
+      "time": "2025-12-23T03:39:20.574193",
+      "price": 232100.0,
+      "volume": 0.0846686,
+      "funds": 19651.58206,
+      "fee": 0,
+      "cycle_status": "completed",
+      "profit": 9877.62252,
+      "profit_unknown": false,
+      "bot_trade": true
+    },
     {
       "market": "KRW-WIKEN",
       "type": "buy",
@@ -2491,41 +2531,11 @@
       "funds": 39391.5211966644,
       "fee": 15.75,
       "uuid": "C0720000000082749477"
-    },
-    {
-      "market": "KRW-F",
-      "type": "buy",
-      "time": "2025-12-20T17:44:04+09:00",
-      "price": 10.3,
-      "volume": 919.67078343,
-      "funds": 9472.609069329,
-      "fee": 3.77,
-      "uuid": "C0993000000089678722"
-    },
-    {
-      "market": "KRW-ZRC",
-      "type": "buy",
-      "time": "2025-12-20T17:27:42+09:00",
-      "price": 7.62,
-      "volume": 1281.80416345,
-      "funds": 9767.347725489,
-      "fee": 3.9,
-      "uuid": "C1006000000077687426"
-    },
-    {
-      "market": "KRW-XPLA",
-      "type": "sell",
-      "time": "2025-12-20T17:24:33+09:00",
-      "price": 37.4,
-      "volume": 1308.75378517,
-      "funds": 48947.391565358,
-      "fee": 19.57,
-      "uuid": "C0720000000082739689"
     }
   ],
   "daily_profits": {
     "2025-12-22": 10301.643743143397,
-    "2025-12-23": 355.89244523870184
+    "2025-12-23": 10233.514965238703
   },
   "trade_cycles": [
     {
