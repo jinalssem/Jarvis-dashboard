@@ -1,10 +1,10 @@
 {
-  "last_update": "2025-12-22T21:22:48.686157",
+  "last_update": "2025-12-22T21:28:07.131441",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": 229.67810902290094,
-  "total_profit_percent": 0.25966377933642015,
-  "total_investment": 88452.116660187,
+  "total_profit": 265.9508362953002,
+  "total_profit_percent": 0.15221121147714692,
+  "total_investment": 174724.866660187,
   "holdings": [
     {
       "market": "KRW-LRC",
@@ -28,13 +28,35 @@
       "market": "KRW-XPLA",
       "amount": 302.27272727,
       "avg_price": 32.3,
-      "current_price": 32.32,
-      "value": 9769.454545366401,
-      "profit": 6.045454545400945,
-      "profit_rate": 0.0006191950464397253
+      "current_price": 32.44,
+      "value": 9805.7272726388,
+      "profit": 42.31818181780017,
+      "profit_rate": 0.004334365325077417
+    },
+    {
+      "market": "KRW-YGG",
+      "amount": 862.7275,
+      "avg_price": 100.0,
+      "current_price": 100.0,
+      "value": 86272.75,
+      "profit": 0.0,
+      "profit_rate": 0.0
     }
   ],
   "trades": [
+    {
+      "market": "KRW-YGG",
+      "type": "buy",
+      "time": "2025-12-22T21:13:09+09:00",
+      "price": 100.0,
+      "volume": 862.7275,
+      "funds": 86272.75,
+      "fee": 0.0,
+      "uuid": "C0860000000069863825",
+      "cycle_status": "external",
+      "profit": 0,
+      "bot_trade": false
+    },
     {
       "market": "KRW-XPLA",
       "type": "buy",
