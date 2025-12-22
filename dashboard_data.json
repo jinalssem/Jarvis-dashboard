@@ -1,9 +1,9 @@
 {
   "last_update": "2025-12-23T06:39:47.355246",
-  "today_profit": 9709.238715722651,
-  "today_profit_percent": 2.714626941547643,
-  "total_profit": 8258.914150952405,
-  "total_profit_percent": 2.3091275761712264,
+  "today_profit": 9914.62151611706,
+  "today_profit_percent": 2.772050360582373,
+  "total_profit": 8464.296951346814,
+  "total_profit_percent": 2.366550995205956,
   "total_investment": 357663.8309714591,
   "holdings": [
     {
@@ -332,6 +332,62 @@
   ],
   "raw_trades": [
     {
+      "market": "KRW-BIOT",
+      "type": "sell",
+      "time": "2025-12-23T06:41:55.874435",
+      "price": 0,
+      "volume": 0.0,
+      "funds": 0.0,
+      "fee": 0.0,
+      "cycle_status": "partial",
+      "profit": 0,
+      "profit_unknown": true,
+      "bot_trade": true,
+      "action": "sell",
+      "profit_rate": 0.04999999999999996
+    },
+    {
+      "market": "KRW-BIOT",
+      "type": "sell",
+      "time": "2025-12-23T06:41:55.872052",
+      "price": 0.7035,
+      "volume": 14519.65065502,
+      "funds": 10214.574235806569,
+      "fee": 0,
+      "cycle_status": "completed",
+      "profit": 205.38280039440906,
+      "profit_unknown": false,
+      "bot_trade": true
+    },
+    {
+      "market": "KRW-LRC",
+      "type": "sell",
+      "time": "2025-12-23T06:41:55.218371",
+      "price": 0,
+      "volume": 0.0,
+      "funds": 0.0,
+      "fee": 0.0,
+      "cycle_status": "partial",
+      "profit": 0,
+      "profit_unknown": true,
+      "bot_trade": true,
+      "action": "sell",
+      "profit_rate": -0.020094562647754003
+    },
+    {
+      "market": "KRW-LRC",
+      "type": "sell",
+      "time": "2025-12-23T06:41:55.214103",
+      "price": 82.9,
+      "volume": 115.43802801,
+      "funds": 9569.812522029,
+      "fee": 0,
+      "cycle_status": "partial",
+      "profit": 0,
+      "profit_unknown": true,
+      "bot_trade": true
+    },
+    {
       "market": "KRW-LRC",
       "type": "sell",
       "time": "2025-12-23T06:35:27.654221",
@@ -609,7 +665,7 @@
     }
   ],
   "daily_profits": {
-    "2025-12-23": 9709.238715722651
+    "2025-12-23": 9914.62151611706
   },
   "trade_cycles": [
     {
