@@ -1,10 +1,10 @@
 {
-  "last_update": "2025-12-22T17:53:45.584862",
+  "last_update": "2025-12-22T17:56:41.844014",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": -264.35193470709925,
-  "total_profit_percent": -0.2882718942834163,
-  "total_investment": 91702.29215866601,
+  "total_profit": -224.88828035505844,
+  "total_profit_percent": -0.22163057330027974,
+  "total_investment": 101469.881617084,
   "holdings": [
     {
       "market": "KRW-LRC",
@@ -14,6 +14,15 @@
       "value": 9799.5341977689,
       "profit": 33.47702812290072,
       "profit_rate": 0.003427895981087545
+    },
+    {
+      "market": "KRW-XPR",
+      "amount": 2411.75048356,
+      "avg_price": 4.05,
+      "current_price": 4.059,
+      "value": 9789.29521277004,
+      "profit": 21.70575435204082,
+      "profit_rate": 0.0022222222222223064
     },
     {
       "market": "KRW-CTC",
@@ -37,10 +46,10 @@
       "market": "KRW-SAPIEN",
       "amount": 17.7579,
       "avg_price": 183.0,
-      "current_price": 182.0,
-      "value": 3231.9377999999997,
-      "profit": -17.7579,
-      "profit_rate": -0.00546448087431694
+      "current_price": 183.0,
+      "value": 3249.6956999999998,
+      "profit": 0.0,
+      "profit_rate": 0.0
     }
   ],
   "trades": [
