@@ -1,9 +1,9 @@
 {
-  "last_update": "2025-12-23T05:40:56.744458",
+  "last_update": "2025-12-23T05:44:00.902717",
   "today_profit": 403.58886401125164,
   "today_profit_percent": 0.13066757298019474,
-  "total_profit": -2259.8936536909355,
-  "total_profit_percent": -0.7316723657491866,
+  "total_profit": -2101.3639948021328,
+  "total_profit_percent": -0.6803461582654229,
   "total_investment": 308866.8862567942,
   "holdings": [
     {
@@ -28,10 +28,10 @@
       "market": "KRW-SWAP",
       "amount": 366.20748353,
       "avg_price": 80.04,
-      "current_price": 79.06,
-      "value": 28952.3636478818,
-      "profit": -358.88333385940143,
-      "profit_rate": -0.012243878060969564
+      "current_price": 79.02,
+      "value": 28937.715348540598,
+      "profit": -373.5316332006037,
+      "profit_rate": -0.012743628185907173
     },
     {
       "market": "KRW-YGG",
@@ -46,22 +46,34 @@
       "market": "KRW-POLYX",
       "amount": 1791.62941935,
       "avg_price": 87.38,
-      "current_price": 86.31,
-      "value": 154635.5351840985,
-      "profit": -1917.0434787044878,
-      "profit_rate": -0.0122453650720988
+      "current_price": 86.51,
+      "value": 154993.8610679685,
+      "profit": -1558.7175948344827,
+      "profit_rate": -0.009956511787594305
     },
     {
       "market": "KRW-SAPIEN",
       "amount": 185.14792564,
       "avg_price": 176.0,
-      "current_price": 177.0,
-      "value": 32771.18283828,
-      "profit": 185.14792564,
-      "profit_rate": 0.005681818181818182
+      "current_price": 176.0,
+      "value": 32586.034912640003,
+      "profit": 0.0,
+      "profit_rate": 0.0
     }
   ],
   "trades": [
+    {
+      "market": "KRW-MTL",
+      "type": "buy",
+      "time": "2025-12-23T05:42:53.201343",
+      "price": 502.0,
+      "volume": 38.88888889,
+      "funds": 19522.222222779998,
+      "cycle_status": "holding",
+      "profit": 0,
+      "buy_count": 1,
+      "bot_trade": true
+    },
     {
       "market": "KRW-POLYX",
       "type": "buy",
