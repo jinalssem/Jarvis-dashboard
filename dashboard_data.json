@@ -322,6 +322,18 @@
   ],
   "raw_trades": [
     {
+      "market": "KRW-UNI",
+      "type": "buy",
+      "time": "2025-12-23T04:59:28.294693",
+      "price": 8800.0,
+      "volume": 2.22160356,
+      "funds": 19550.111328000003,
+      "fee": 0,
+      "cycle_status": "holding",
+      "profit": 0,
+      "bot_trade": true
+    },
+    {
       "market": "KRW-SWAP",
       "type": "buy",
       "time": "2025-12-23T04:56:18.713553",
