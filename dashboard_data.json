@@ -1,28 +1,28 @@
 {
-  "last_update": "2025-12-23T02:28:13.691120",
+  "last_update": "2025-12-23T02:33:41.829316",
   "today_profit": 355.89244523870184,
   "today_profit_percent": 0.192885890041898,
-  "total_profit": 8618.749981765997,
-  "total_profit_percent": 4.671173225288637,
+  "total_profit": 8860.919652648097,
+  "total_profit_percent": 4.802423868942839,
   "total_investment": 184509.320594366,
   "holdings": [
     {
       "market": "KRW-LRC",
       "amount": 115.43802801,
       "avg_price": 84.6,
-      "current_price": 82.99,
-      "value": 9580.201944549899,
-      "profit": -185.85522509609993,
-      "profit_rate": -0.01903073286052009
+      "current_price": 83.2,
+      "value": 9604.443930432,
+      "profit": -161.613239213999,
+      "profit_rate": -0.016548463356973894
     },
     {
       "market": "KRW-AAVE",
       "amount": 0.0846686,
       "avg_price": 230875.0,
-      "current_price": 235200.0,
-      "value": 19914.05472,
-      "profit": 366.191695,
-      "profit_rate": 0.01873308067135896
+      "current_price": 233800.0,
+      "value": 19795.518679999997,
+      "profit": 247.655655,
+      "profit_rate": 0.012669193286410396
     },
     {
       "market": "KRW-COMP",
@@ -37,13 +37,25 @@
       "market": "KRW-YGG",
       "amount": 862.7275,
       "avg_price": 100.0,
-      "current_price": 96.8,
-      "value": 83512.022,
-      "profit": -2760.7280000000023,
-      "profit_rate": -0.03200000000000003
+      "current_price": 97.19,
+      "value": 83848.48572499999,
+      "profit": -2424.264275000002,
+      "profit_rate": -0.028100000000000024
     }
   ],
   "trades": [
+    {
+      "market": "KRW-ETH",
+      "type": "buy",
+      "time": "2025-12-23T02:32:28.157649",
+      "price": 4418000.0,
+      "volume": 0.00398204,
+      "funds": 17592.652720000002,
+      "cycle_status": "holding",
+      "profit": 0,
+      "buy_count": 1,
+      "bot_trade": true
+    },
     {
       "market": "KRW-CRTS",
       "type": "buy",
