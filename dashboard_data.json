@@ -1,9 +1,9 @@
 {
   "last_update": "2025-12-23T05:22:20.388195",
-  "today_profit": 32.68348623855127,
-  "today_profit_percent": 0.008922286613268878,
-  "total_profit": -4207.893128731657,
-  "total_profit_percent": -1.1487155396618651,
+  "today_profit": 403.58886401125164,
+  "today_profit_percent": 0.11017599200860526,
+  "total_profit": -3836.987750958957,
+  "total_profit_percent": -1.0474618342665287,
   "total_investment": 366312.8932660116,
   "holdings": [
     {
@@ -407,6 +407,34 @@
   ],
   "raw_trades": [
     {
+      "market": "KRW-XPLA",
+      "type": "sell",
+      "time": "2025-12-23T05:24:16.766414",
+      "price": 0,
+      "volume": 0.0,
+      "funds": 0.0,
+      "fee": 0.0,
+      "cycle_status": "partial",
+      "profit": 0,
+      "profit_unknown": false,
+      "bot_trade": true,
+      "action": "sell",
+      "profit_rate": 0.025938566552900954
+    },
+    {
+      "market": "KRW-XPLA",
+      "type": "sell",
+      "time": "2025-12-23T05:24:16.760434",
+      "price": 30.06,
+      "volume": 332.94392523,
+      "funds": 10008.2943924138,
+      "fee": 0,
+      "cycle_status": "partial",
+      "profit": 370.9053777727004,
+      "profit_unknown": false,
+      "bot_trade": true
+    },
+    {
       "market": "KRW-CHR",
       "type": "buy",
       "time": "2025-12-23T05:21:11.890189",
@@ -472,7 +500,7 @@
     }
   ],
   "daily_profits": {
-    "2025-12-23": 32.68348623855127
+    "2025-12-23": 403.58886401125164
   },
   "trade_cycles": [
     {
