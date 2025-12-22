@@ -1,10 +1,10 @@
 {
-  "last_update": "2025-12-22T15:52:39.291859",
+  "last_update": "2025-12-22T15:55:37.440544",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": 538.6377335126417,
-  "total_profit_percent": 0.20461334277982096,
-  "total_investment": 263246.6320108243,
+  "total_profit": -861.2775716009655,
+  "total_profit_percent": -0.3258313917935071,
+  "total_investment": 264332.287585965,
   "holdings": [
     {
       "market": "KRW-LRC",
@@ -35,15 +35,28 @@
     },
     {
       "market": "KRW-BIOT",
-      "amount": 191555.10745442,
-      "avg_price": 0.9125,
-      "current_price": 0.9183,
-      "value": 175905.0551753939,
-      "profit": 1111.0196232356413,
-      "profit_rate": 0.006356164383561674
+      "amount": 192597.12125197,
+      "avg_price": 0.9132,
+      "current_price": 0.9117,
+      "value": 175590.79544542104,
+      "profit": -288.89568187796596,
+      "profit_rate": -0.001642575558475752
     }
   ],
   "trades": [
+    {
+      "market": "KRW-BIOT",
+      "type": "buy",
+      "time": "2025-12-22T15:54:43+09:00",
+      "price": 0.914,
+      "volume": 96388.40262582,
+      "funds": 88098.99999999949,
+      "fee": 0.0,
+      "uuid": "C0368000000106992906",
+      "cycle_status": "external",
+      "profit": 0,
+      "bot_trade": false
+    },
     {
       "market": "KRW-BIOT",
       "type": "buy",
