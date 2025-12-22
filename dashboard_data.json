@@ -1,19 +1,19 @@
 {
-  "last_update": "2025-12-22T17:26:19.811604",
+  "last_update": "2025-12-22T17:29:23.982056",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": -9429.043930222946,
-  "total_profit_percent": -2.4448436915941762,
-  "total_investment": 385670.6243692282,
+  "total_profit": -8244.570459060209,
+  "total_profit_percent": -1.756616572341031,
+  "total_investment": 469343.7707964195,
   "holdings": [
     {
       "market": "KRW-LRC",
       "amount": 115.43802801,
       "avg_price": 84.6,
-      "current_price": 84.93,
-      "value": 9804.151718889301,
-      "profit": 38.094549243301444,
-      "profit_rate": 0.003900709219858304
+      "current_price": 84.87,
+      "value": 9797.2254372087,
+      "profit": 31.168267562701182,
+      "profit_rate": 0.003191489361702249
     },
     {
       "market": "KRW-CTC",
@@ -35,21 +35,21 @@
     },
     {
       "market": "KRW-BIOT",
-      "amount": 281056.72632844,
-      "avg_price": 0.8783,
-      "current_price": 0.8462,
-      "value": 237830.2018191259,
-      "profit": -9021.92091514293,
-      "profit_rate": -0.03654787657975637
+      "amount": 380657.91680463,
+      "avg_price": 0.8683,
+      "current_price": 0.8492,
+      "value": 323254.7029504918,
+      "profit": -7270.566210968435,
+      "profit_rate": -0.02199700564321088
     },
     {
       "market": "KRW-LM",
       "amount": 26664.52149196,
       "avg_price": 1.767,
-      "current_price": 1.75,
-      "value": 46662.91261093,
-      "profit": -453.29686536331747,
-      "profit_rate": -0.009620826259196325
+      "current_price": 1.729,
+      "value": 46102.95765959884,
+      "profit": -1013.251816694475,
+      "profit_rate": -0.021505376344085916
     },
     {
       "market": "KRW-SAPIEN",
@@ -62,6 +62,19 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-BIOT",
+      "type": "buy",
+      "time": "2025-12-22T17:27:45+09:00",
+      "price": 0.84,
+      "volume": 99601.19047619,
+      "funds": 83664.99999999959,
+      "fee": 0.0,
+      "uuid": "C0368000000107014117",
+      "cycle_status": "external",
+      "profit": 0,
+      "bot_trade": false
+    },
     {
       "market": "KRW-BIOT",
       "type": "buy",
