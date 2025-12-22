@@ -1,19 +1,19 @@
 {
-  "last_update": "2025-12-22T15:58:43.726194",
+  "last_update": "2025-12-22T16:01:46.967958",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": -803.4984352253596,
-  "total_profit_percent": -0.30397286784878647,
-  "total_investment": 264332.287585965,
+  "total_profit": -1735.2266542023162,
+  "total_profit_percent": -0.6484841142491565,
+  "total_investment": 267581.983285965,
   "holdings": [
     {
       "market": "KRW-LRC",
       "amount": 115.43802801,
       "avg_price": 84.6,
-      "current_price": 84.3,
-      "value": 9731.425761243,
-      "profit": -34.63140840299967,
-      "profit_rate": -0.0035460992907801084
+      "current_price": 84.07,
+      "value": 9704.875014800698,
+      "profit": -61.18215484530013,
+      "profit_rate": -0.006264775413711598
     },
     {
       "market": "KRW-CTC",
@@ -28,19 +28,28 @@
       "market": "KRW-COMP",
       "amount": 1.92742108,
       "avg_price": 35759.0,
-      "current_price": 35480.0,
-      "value": 68384.8999184,
-      "profit": -537.75048132,
-      "profit_rate": -0.007802231606029252
+      "current_price": 35500.0,
+      "value": 68423.44834,
+      "profit": -499.20205972,
+      "profit_rate": -0.0072429318493246455
     },
     {
       "market": "KRW-BIOT",
       "amount": 192597.12125197,
       "avg_price": 0.9132,
-      "current_price": 0.912,
-      "value": 175648.57458179665,
-      "profit": -231.11654550235994,
-      "profit_rate": -0.0013140604467805287
+      "current_price": 0.9071,
+      "value": 174704.848687662,
+      "profit": -1174.842439637016,
+      "profit_rate": -0.006679807271134466
+    },
+    {
+      "market": "KRW-SAPIEN",
+      "amount": 17.7579,
+      "avg_price": 183.0,
+      "current_price": 183.0,
+      "value": 3249.6956999999998,
+      "profit": 0.0,
+      "profit_rate": 0.0
     }
   ],
   "trades": [
@@ -197,6 +206,19 @@
       "profit": 0,
       "buy_count": 1,
       "bot_trade": true
+    },
+    {
+      "market": "KRW-SAPIEN",
+      "type": "buy",
+      "time": "2025-12-22T10:49:16+09:00",
+      "price": 175.0,
+      "volume": 487.04809405,
+      "funds": 85233.41645875,
+      "fee": 34.09,
+      "uuid": "C1208000000001124433",
+      "cycle_status": "external",
+      "profit": 0,
+      "bot_trade": false
     }
   ],
   "raw_trades": [
