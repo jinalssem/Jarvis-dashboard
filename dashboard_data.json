@@ -348,6 +348,34 @@
   ],
   "raw_trades": [
     {
+      "market": "KRW-POLYX",
+      "type": "sell",
+      "time": "2025-12-23T04:43:41.901793",
+      "price": 0,
+      "volume": 0.0,
+      "funds": 0.0,
+      "fee": 0.0,
+      "cycle_status": "partial",
+      "profit": 0,
+      "profit_unknown": true,
+      "bot_trade": true,
+      "action": "sell",
+      "profit_rate": 0.012190953628802638
+    },
+    {
+      "market": "KRW-POLYX",
+      "type": "sell",
+      "time": "2025-12-23T04:43:41.887663",
+      "price": 88.84,
+      "volume": 891.87079867,
+      "funds": 79233.8017538428,
+      "fee": 0,
+      "cycle_status": "partial",
+      "profit": 0,
+      "profit_unknown": true,
+      "bot_trade": true
+    },
+    {
       "market": "KRW-XPLA",
       "type": "buy",
       "time": "2025-12-23T04:12:47.435095",
@@ -2525,26 +2553,6 @@
       "funds": 76784.3152649306,
       "fee": 30.71,
       "uuid": "C0720000000082760769"
-    },
-    {
-      "market": "KRW-XPLA",
-      "type": "buy",
-      "time": "2025-12-20T18:05:00+09:00",
-      "price": 36.08,
-      "volume": 2105.98780211,
-      "funds": 75984.03990012879,
-      "fee": 30.39,
-      "uuid": "C0720000000082757519"
-    },
-    {
-      "market": "KRW-XPLA",
-      "type": "sell",
-      "time": "2025-12-20T18:02:03+09:00",
-      "price": 36.32,
-      "volume": 3259.61059138,
-      "funds": 118389.05667892161,
-      "fee": 47.35,
-      "uuid": "C0720000000082756230"
     }
   ],
   "daily_profits": {
