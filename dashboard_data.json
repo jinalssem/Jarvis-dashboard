@@ -125,6 +125,46 @@
   ],
   "raw_trades": [
     {
+      "market": "KRW-XPLA",
+      "type": "buy",
+      "time": "2025-12-22T12:35:35.046093",
+      "price": 28.7,
+      "volume": 340.21145975,
+      "funds": 9764.068894825,
+      "fee": 0,
+      "cycle_status": "holding",
+      "profit": 0,
+      "bot_trade": true
+    },
+    {
+      "market": "KRW-SWAP",
+      "type": "sell",
+      "time": "2025-12-22T12:35:34.375844",
+      "price": 0,
+      "volume": 0.0,
+      "funds": 0.0,
+      "fee": 0.0,
+      "cycle_status": "partial",
+      "profit": 0,
+      "profit_unknown": true,
+      "bot_trade": true,
+      "action": "sell",
+      "profit_rate": 0.006423173803526333
+    },
+    {
+      "market": "KRW-SWAP",
+      "type": "sell",
+      "time": "2025-12-22T12:35:34.367314",
+      "price": 79.91,
+      "volume": 246.05328071,
+      "funds": 19662.1176615361,
+      "fee": 0,
+      "cycle_status": "partial",
+      "profit": 0,
+      "profit_unknown": true,
+      "bot_trade": true
+    },
+    {
       "market": "KRW-SAPIEN",
       "type": "sell",
       "time": "2025-12-22T12:00:27.722744",
