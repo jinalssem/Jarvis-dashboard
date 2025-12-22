@@ -1213,7 +1213,8 @@
                 
                 <div id="googleScriptConfig" class="control-group" style="display: none;">
                     <label>☁️ Google Apps Script URL:</label>
-                    <input type="text" id="googleScriptUrl" placeholder="https://script.google.com/macros/s/..." style="width: 100%;" onchange="saveGoogleScriptUrl()">
+                    <input type="text" id="googleScriptUrl" placeholder="https://script.google.com/macros/s/..." style="width: 100%; filter: blur(3px); transition: filter 0.3s;" onfocus="this.style.filter='none'" onblur="this.style.filter='blur(3px)'" onchange="saveGoogleScriptUrl()">
+                    <small style="color: #666; font-size: 0.8em;">한 번 입력하면 자동 저장됩니다</small>
                     <small style="color: #95a5a6;">한 번 입력하면 자동 저장됩니다</small>
                 </div>
                 
@@ -1505,20 +1506,15 @@
             
             console.log('📊 차트 업데이트 시작, daily_profits:', data.daily_profits);
             
-            // daily_profits가 없으면 샘플 데이터 사용
+            // 🆕 daily_profits가 없거나 비어있으면 빈 차트 표시
             let dailyProfits = data.daily_profits;
             if (!dailyProfits || Object.keys(dailyProfits).length === 0) {
-                console.log('⚠️ daily_profits 데이터가 없어 샘플 데이터 사용');
-                // 최근 7일 샘플 데이터 생성
-                dailyProfits = {};
-                const today = new Date();
-                for (let i = 6; i >= 0; i--) {
-                    const date = new Date(today);
-                    date.setDate(date.getDate() - i);
-                    const dateStr = date.toISOString().split('T')[0];
-                    // 랜덤 수익 (-5000 ~ +5000)
-                    dailyProfits[dateStr] = Math.floor(Math.random() * 10000) - 5000;
-                }
+                console.log('⚠️ daily_profits 데이터 없음 - 빈 차트 표시');
+                profitChart.data.labels = [];
+                profitChart.data.datasets[0].data = [];
+                profitChart.data.datasets[1].data = [];
+                profitChart.update();
+                return;
             }
             
             // 최근 7일 데이터만 표시 (정렬 후)
@@ -2127,7 +2123,15 @@
                     document.getElementById('lastUpdate').textContent = `데모 모드 - 샘플 데이터`;
                 }
 
-                const todayProfit = data.today_profit || 0;
+                // 🆕 오늘 손익: daily_profits에서 오늘 날짜 값 사용
+                const todayDateKey = new Date().toISOString().split('T')[0]; // YYYY-MM-DD
+                const dailyProfits = data.daily_profits || {};
+                
+                // daily_profits에 오늘 날짜가 있으면 그 값 사용, 없으면 today_profit 사용
+                const todayProfit = dailyProfits[todayDateKey] !== undefined 
+                    ? dailyProfits[todayDateKey] 
+                    : (data.today_profit || 0);
+                
                 let todayPercent = data.today_profit_percent || 0;
                 const totalProfit = data.total_profit || 0;
                 let totalPercent = data.total_profit_percent || 0;
@@ -2405,7 +2409,65 @@
                 
                 // 필터링 적용 (holdings 전달)
                 const filteredTrades = filterTrades(sortedTrades, currentHoldings);
-                const trades = filteredTrades.slice(0, 20);
+                
+                // 🆕 분할 체결 합치기 (같은 코인 2초 이내)
+                function mergeSplitTrades(trades) {
+                    if (!trades || trades.length === 0) return trades;
+                    
+                    const merged = [];
+                    const skipIndices = new Set();
+                    
+                    for (let i = 0; i < trades.length; i++) {
+                        if (skipIndices.has(i)) continue;
+                        
+                        const trade = trades[i];
+                        const market = trade.market;
+                        const tradeType = trade.type;
+                        const tradeTime = new Date(trade.time || 0);
+                        
+                        // 같은 코인, 같은 타입, 2초 이내 거래 찾기
+                        let totalProfit = trade.profit || 0;
+                        let totalFunds = parseFloat(trade.funds || 0);
+                        let totalVolume = parseFloat(trade.volume || trade.amount || 0);
+                        let mergeCount = 1;
+                        
+                        for (let j = i + 1; j < Math.min(i + 10, trades.length); j++) {
+                            if (skipIndices.has(j)) continue;
+                            
+                            const other = trades[j];
+                            if (other.market !== market) continue;
+                            if (other.type !== tradeType) continue;
+                            
+                            const otherTime = new Date(other.time || 0);
+                            const diffSec = Math.abs((tradeTime - otherTime) / 1000);
+                            
+                            if (diffSec <= 2) {
+                                totalProfit += (other.profit || 0);
+                                totalFunds += parseFloat(other.funds || 0);
+                                totalVolume += parseFloat(other.volume || other.amount || 0);
+                                mergeCount++;
+                                skipIndices.add(j);
+                            }
+                        }
+                        
+                        // 합쳐진 거래 추가
+                        const mergedTrade = { ...trade };
+                        mergedTrade.profit = totalProfit;
+                        mergedTrade.funds = totalFunds;
+                        mergedTrade.volume = totalVolume;
+                        if (mergeCount > 1) {
+                            mergedTrade.merged_count = mergeCount;
+                            console.log(`[MERGE] ${market} ${tradeType} ${mergeCount}건 합침: ${totalProfit.toLocaleString()}원`);
+                        }
+                        
+                        merged.push(mergedTrade);
+                    }
+                    
+                    return merged;
+                }
+                
+                const mergedTrades = mergeSplitTrades(filteredTrades);
+                const trades = mergedTrades.slice(0, 20);
                 
                 const tradesList = document.getElementById('tradesList');
                 tradesList.innerHTML = '';
