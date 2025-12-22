@@ -1,40 +1,60 @@
 {
-  "last_update": "2025-12-22T10:58:25.792917",
+  "last_update": "2025-12-22T11:03:56.485264",
   "today_profit": 65107.924114047,
-  "today_profit_percent": 6.057952209607769,
+  "today_profit_percent": 3.085116603011097,
   "total_profit": 49881.742439714915,
-  "total_profit_percent": -22.490262939947765,
-  "total_investment": 88452.596458666,
+  "total_profit_percent": -11.660569598277249,
+  "total_investment": 173686.012917416,
   "holdings": [
     {
       "market": "KRW-LRC",
       "amount": 115.43802801,
       "avg_price": 84.6,
-      "current_price": 84.07,
-      "value": 9704.875014800698,
-      "profit": -61.18215484530013,
-      "profit_rate": -0.006264775413711598
+      "current_price": 83.75,
+      "value": 9667.934845837499,
+      "profit": -98.12232380849935,
+      "profit_rate": -0.010047281323877002
     },
     {
       "market": "KRW-CTC",
       "amount": 26.38888889,
       "avg_price": 370.0,
-      "current_price": 374.0,
-      "value": 9869.44444486,
-      "profit": 105.55555556,
-      "profit_rate": 0.010810810810810811
+      "current_price": 372.0,
+      "value": 9816.66666708,
+      "profit": 52.77777778,
+      "profit_rate": 0.005405405405405406
     },
     {
       "market": "KRW-COMP",
       "amount": 1.92742108,
       "avg_price": 35759.0,
-      "current_price": 35770.0,
-      "value": 68943.8520316,
-      "profit": 21.20163188,
-      "profit_rate": 0.0003076148661875332
+      "current_price": 35630.0,
+      "value": 68674.01308040001,
+      "profit": -248.63731932,
+      "profit_rate": -0.0036074834307447076
+    },
+    {
+      "market": "KRW-SAPIEN",
+      "amount": 487.04809405,
+      "avg_price": 175.0,
+      "current_price": 175.0,
+      "value": 85233.41645875,
+      "profit": 0.0,
+      "profit_rate": 0.0
     }
   ],
   "trades": [
+    {
+      "market": "KRW-SAPIEN",
+      "type": "buy",
+      "time": "2025-12-22T10:49:16+09:00",
+      "price": 175.0,
+      "volume": 487.04809405,
+      "funds": 85233.41645875,
+      "cycle_status": "holding",
+      "profit": 0,
+      "buy_count": 1
+    },
     {
       "market": "KRW-SYRUP",
       "type": "sell",
@@ -790,6 +810,16 @@
     }
   ],
   "raw_trades": [
+    {
+      "market": "KRW-SAPIEN",
+      "type": "buy",
+      "time": "2025-12-22T10:49:16+09:00",
+      "price": 175.0,
+      "volume": 487.04809405,
+      "funds": 85233.41645875,
+      "fee": 34.09,
+      "uuid": "C1208000000001124433"
+    },
     {
       "market": "KRW-SYRUP",
       "type": "sell",
@@ -2859,7 +2889,7 @@
     }
   ],
   "realized_profit": -19958.796553359607,
-  "unrealized_profit": 65.57503259469988,
+  "unrealized_profit": -293.98186534849935,
   "start_date": "2025-12-19",
   "today_date": "2025-12-22",
   "saved_avg_prices": {
@@ -2881,6 +2911,7 @@
     "KRW-BLY": 2.972,
     "KRW-YGG": 95.76,
     "KRW-SYRUP": 513.0,
-    "KRW-SOON": 575.0
+    "KRW-SOON": 575.0,
+    "KRW-SAPIEN": 175.0
   }
 }
