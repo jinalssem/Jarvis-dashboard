@@ -1,46 +1,55 @@
 {
-  "last_update": "2025-12-22T11:03:56.485264",
+  "last_update": "2025-12-22T11:10:17.444719",
   "today_profit": 65107.924114047,
-  "today_profit_percent": 3.085116603011097,
+  "today_profit_percent": 2.614952842452111,
   "total_profit": 49881.742439714915,
-  "total_profit_percent": -11.660569598277249,
-  "total_investment": 173686.012917416,
+  "total_profit_percent": -10.89546083684616,
+  "total_investment": 204914.44184509537,
   "holdings": [
     {
       "market": "KRW-LRC",
       "amount": 115.43802801,
       "avg_price": 84.6,
-      "current_price": 83.75,
-      "value": 9667.934845837499,
-      "profit": -98.12232380849935,
-      "profit_rate": -0.010047281323877002
+      "current_price": 83.59,
+      "value": 9649.464761355901,
+      "profit": -116.59240829009894,
+      "profit_rate": -0.011938534278959705
     },
     {
       "market": "KRW-CTC",
       "amount": 26.38888889,
       "avg_price": 370.0,
-      "current_price": 372.0,
-      "value": 9816.66666708,
-      "profit": 52.77777778,
-      "profit_rate": 0.005405405405405406
+      "current_price": 371.0,
+      "value": 9790.27777819,
+      "profit": 26.38888889,
+      "profit_rate": 0.002702702702702703
     },
     {
       "market": "KRW-COMP",
       "amount": 1.92742108,
       "avg_price": 35759.0,
-      "current_price": 35630.0,
-      "value": 68674.01308040001,
-      "profit": -248.63731932,
-      "profit_rate": -0.0036074834307447076
+      "current_price": 35460.0,
+      "value": 68346.3514968,
+      "profit": -576.29890292,
+      "profit_rate": -0.008361531362733857
+    },
+    {
+      "market": "KRW-LM",
+      "amount": 15803.86079336,
+      "avg_price": 1.976,
+      "current_price": 1.93,
+      "value": 30501.4513311848,
+      "profit": -726.9775964945607,
+      "profit_rate": -0.02327935222672067
     },
     {
       "market": "KRW-SAPIEN",
       "amount": 487.04809405,
       "avg_price": 175.0,
-      "current_price": 175.0,
-      "value": 85233.41645875,
-      "profit": 0.0,
-      "profit_rate": 0.0
+      "current_price": 173.0,
+      "value": 84259.32027065,
+      "profit": -974.0961881,
+      "profit_rate": -0.011428571428571429
     }
   ],
   "trades": [
@@ -129,6 +138,17 @@
       "profit_unknown": false,
       "avg_buy_price": 2.971569578540427,
       "buy_count": 2
+    },
+    {
+      "market": "KRW-LM",
+      "type": "buy",
+      "time": "2025-12-22T06:26:17+09:00",
+      "price": 1.976,
+      "volume": 15803.86079336,
+      "funds": 31228.42892767936,
+      "cycle_status": "holding",
+      "profit": 0,
+      "buy_count": 1
     },
     {
       "market": "KRW-APM",
@@ -985,6 +1005,16 @@
       "funds": 28175.69999997576,
       "fee": 0.0,
       "uuid": "C0356000000124762051"
+    },
+    {
+      "market": "KRW-LM",
+      "type": "buy",
+      "time": "2025-12-22T06:26:17+09:00",
+      "price": 1.976,
+      "volume": 15803.86079336,
+      "funds": 31228.42892767936,
+      "fee": 12.49,
+      "uuid": "C0698000000109250356"
     },
     {
       "market": "KRW-YGG",
@@ -2889,7 +2919,7 @@
     }
   ],
   "realized_profit": -19958.796553359607,
-  "unrealized_profit": -293.98186534849935,
+  "unrealized_profit": -2367.5762069146595,
   "start_date": "2025-12-19",
   "today_date": "2025-12-22",
   "saved_avg_prices": {
@@ -2912,6 +2942,7 @@
     "KRW-YGG": 95.76,
     "KRW-SYRUP": 513.0,
     "KRW-SOON": 575.0,
-    "KRW-SAPIEN": 175.0
+    "KRW-SAPIEN": 175.0,
+    "KRW-LM": 1.976
   }
 }
