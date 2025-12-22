@@ -1,9 +1,9 @@
 {
   "last_update": "2025-12-23T07:17:50.898250",
-  "today_profit": 9914.62151611706,
-  "today_profit_percent": 2.8495559704085607,
-  "total_profit": 8506.761680032525,
-  "total_profit_percent": 2.4449237416450496,
+  "today_profit": 10181.640895152846,
+  "today_profit_percent": 2.9262998647175187,
+  "total_profit": 8773.781059068311,
+  "total_profit_percent": 2.521667635954008,
   "total_investment": 347935.6650325957,
   "holdings": [
     {
@@ -322,6 +322,34 @@
     }
   ],
   "raw_trades": [
+    {
+      "market": "KRW-BLY",
+      "type": "sell",
+      "time": "2025-12-23T07:20:15.540069",
+      "price": 0,
+      "volume": 0.0,
+      "funds": 0.0,
+      "fee": 0.0,
+      "cycle_status": "partial",
+      "profit": 0,
+      "profit_unknown": false,
+      "bot_trade": true,
+      "action": "sell",
+      "profit_rate": 0.019615384615384503
+    },
+    {
+      "market": "KRW-BLY",
+      "type": "sell",
+      "time": "2025-12-23T07:20:15.535839",
+      "price": 2.651,
+      "volume": 3752.82167043,
+      "funds": 9948.730248309928,
+      "fee": 0,
+      "cycle_status": "partial",
+      "profit": 267.0193790357862,
+      "profit_unknown": false,
+      "bot_trade": true
+    },
     {
       "market": "KRW-CSPR",
       "type": "buy",
@@ -736,7 +764,7 @@
     }
   ],
   "daily_profits": {
-    "2025-12-23": 9914.62151611706
+    "2025-12-23": 10181.640895152846
   },
   "trade_cycles": [
     {
