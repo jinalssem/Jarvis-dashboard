@@ -400,6 +400,18 @@
   ],
   "raw_trades": [
     {
+      "market": "KRW-POLYX",
+      "type": "buy",
+      "time": "2025-12-23T05:33:36.927894",
+      "price": 84.0,
+      "volume": 232.54458562,
+      "funds": 19533.745192079998,
+      "fee": 0,
+      "cycle_status": "holding",
+      "profit": 0,
+      "bot_trade": true
+    },
+    {
       "market": "KRW-LINK",
       "type": "buy",
       "time": "2025-12-23T05:27:20.243273",
