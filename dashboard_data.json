@@ -1,19 +1,19 @@
 {
-  "last_update": "2025-12-23T00:59:35.594645",
+  "last_update": "2025-12-23T01:05:12.915553",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": 8100.257335251199,
-  "total_profit_percent": 4.390161596800406,
-  "total_investment": 184509.320594366,
+  "total_profit": 8397.88797239284,
+  "total_profit_percent": 4.324929995752381,
+  "total_investment": 194173.9630616128,
   "holdings": [
     {
       "market": "KRW-LRC",
       "amount": 115.43802801,
       "avg_price": 84.6,
-      "current_price": 83.38,
-      "value": 9625.2227754738,
-      "profit": -140.83439417219986,
-      "profit_rate": -0.014420803782505898
+      "current_price": 83.55,
+      "value": 9644.8472402355,
+      "profit": -121.20992941049967,
+      "profit_rate": -0.012411347517730464
     },
     {
       "market": "KRW-AAVE",
@@ -34,13 +34,22 @@
       "profit_rate": 0.005341312676528986
     },
     {
+      "market": "KRW-BIOT",
+      "amount": 13612.17248908,
+      "avg_price": 0.71,
+      "current_price": 0.6981,
+      "value": 9502.657614626749,
+      "profit": -161.9848526200508,
+      "profit_rate": -0.016760563380281566
+    },
+    {
       "market": "KRW-YGG",
       "amount": 862.7275,
       "avg_price": 100.0,
-      "current_price": 97.31,
-      "value": 83952.013025,
-      "profit": -2320.736974999998,
-      "profit_rate": -0.026899999999999976
+      "current_price": 97.82,
+      "value": 84392.00404999999,
+      "profit": -1880.745950000006,
+      "profit_rate": -0.02180000000000007
     }
   ],
   "trades": [
