@@ -336,6 +336,34 @@
   ],
   "raw_trades": [
     {
+      "market": "KRW-LM",
+      "type": "sell",
+      "time": "2025-12-22T17:43:27.707822",
+      "price": 0,
+      "volume": 0.0,
+      "funds": 0.0,
+      "fee": 0.0,
+      "cycle_status": "partial",
+      "profit": 0,
+      "profit_unknown": true,
+      "bot_trade": true,
+      "action": "sell",
+      "profit_rate": -0.0509337860780984
+    },
+    {
+      "market": "KRW-LM",
+      "type": "sell",
+      "time": "2025-12-22T17:43:27.698097",
+      "price": 1.677,
+      "volume": 26664.52149196,
+      "funds": 44716.40254201692,
+      "fee": 0,
+      "cycle_status": "partial",
+      "profit": 0,
+      "profit_unknown": true,
+      "bot_trade": true
+    },
+    {
       "market": "KRW-BIOT",
       "type": "sell",
       "time": "2025-12-22T16:18:44.070795",
@@ -2369,26 +2397,6 @@
       "funds": 81353.9999712,
       "fee": 0.0,
       "uuid": "C1182000000000110054"
-    },
-    {
-      "market": "KRW-APM",
-      "type": "sell",
-      "time": "2025-12-19T19:56:16+09:00",
-      "price": 1.18,
-      "volume": 68560.64461407,
-      "funds": 80901.56064460259,
-      "fee": 0.0,
-      "uuid": "C0300000000363504577"
-    },
-    {
-      "market": "KRW-APM",
-      "type": "buy",
-      "time": "2025-12-19T19:14:11+09:00",
-      "price": 1.179,
-      "volume": 68560.64461407,
-      "funds": 80832.99999998853,
-      "fee": 0.0,
-      "uuid": "C0300000000363501095"
     }
   ],
   "daily_profits": {},
