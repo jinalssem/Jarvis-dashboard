@@ -182,6 +182,18 @@
   ],
   "raw_trades": [
     {
+      "market": "KRW-BIOT",
+      "type": "buy",
+      "time": "2025-12-23T00:08:56.214896",
+      "price": 0.71,
+      "volume": 13612.17248908,
+      "funds": 9664.6424672468,
+      "fee": 0,
+      "cycle_status": "holding",
+      "profit": 0,
+      "bot_trade": true
+    },
+    {
       "market": "KRW-CSPR",
       "type": "buy",
       "time": "2025-12-22T23:29:00.456957",
@@ -2301,16 +2313,6 @@
       "funds": 9966.0618279673,
       "fee": 0.0,
       "uuid": "C0409000000106950147"
-    },
-    {
-      "market": "KRW-DEXE",
-      "type": "sell",
-      "time": "2025-12-20T10:22:28+09:00",
-      "price": 5115.0,
-      "volume": 11.59905511,
-      "funds": 59329.16688765,
-      "fee": 0.0,
-      "uuid": "C1182000000000266954"
     }
   ],
   "daily_profits": {
