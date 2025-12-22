@@ -1,19 +1,19 @@
 {
-  "last_update": "2025-12-22T17:11:10.470980",
+  "last_update": "2025-12-22T17:14:15.483439",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": -869.6896474820562,
-  "total_profit_percent": -0.626494045994686,
-  "total_investment": 138818.50163495934,
+  "total_profit": -840.4316799168214,
+  "total_profit_percent": -0.48902395098395685,
+  "total_investment": 171859.00163495122,
   "holdings": [
     {
       "market": "KRW-LRC",
       "amount": 115.43802801,
       "avg_price": 84.6,
-      "current_price": 84.51,
-      "value": 9755.6677471251,
-      "profit": -10.389422520898753,
-      "profit_rate": -0.001063829787233915
+      "current_price": 84.67,
+      "value": 9774.1378316067,
+      "profit": 8.080661960700853,
+      "profit_rate": 0.0008274231678487872
     },
     {
       "market": "KRW-CTC",
@@ -28,31 +28,105 @@
       "market": "KRW-COMP",
       "amount": 1.92742108,
       "avg_price": 35759.0,
-      "current_price": 35590.0,
-      "value": 68596.9162372,
-      "profit": -325.73416252,
-      "profit_rate": -0.0047260829441539195
+      "current_price": 35530.0,
+      "value": 68481.2709724,
+      "profit": -441.37942732,
+      "profit_rate": -0.006403982214267737
+    },
+    {
+      "market": "KRW-BIOT",
+      "amount": 36609.97229916,
+      "avg_price": 0.9025,
+      "current_price": 0.8977,
+      "value": 32864.772132955935,
+      "profit": -175.7278670359649,
+      "profit_rate": -0.00531855955678661
     },
     {
       "market": "KRW-LM",
       "amount": 26664.52149196,
       "avg_price": 1.767,
-      "current_price": 1.746,
-      "value": 46556.25452496216,
-      "profit": -559.9549513311575,
-      "profit_rate": -0.011884550084889593
+      "current_price": 1.756,
+      "value": 46822.89973988176,
+      "profit": -293.3097364115573,
+      "profit_rate": -0.006225240520656423
     },
     {
       "market": "KRW-SAPIEN",
       "amount": 17.7579,
       "avg_price": 183.0,
-      "current_price": 183.0,
-      "value": 3249.6956999999998,
-      "profit": 0.0,
-      "profit_rate": 0.0
+      "current_price": 185.0,
+      "value": 3285.2115,
+      "profit": 35.5158,
+      "profit_rate": 0.01092896174863388
     }
   ],
   "trades": [
+    {
+      "market": "KRW-BIOT",
+      "type": "buy",
+      "time": "2025-12-22T16:21:46+09:00",
+      "price": 0.9025,
+      "volume": 36609.97229916,
+      "funds": 33040.499999991895,
+      "fee": 0.0,
+      "uuid": "C0368000000107000686",
+      "cycle_status": "external",
+      "profit": 0,
+      "bot_trade": false
+    },
+    {
+      "market": "KRW-BIOT",
+      "type": "buy",
+      "time": "2025-12-22T16:03:07+09:00",
+      "price": 0.9068,
+      "volume": 64252.3158359,
+      "funds": 58263.99999999412,
+      "fee": 0.0,
+      "uuid": "C0368000000106994520",
+      "cycle_status": "external",
+      "profit": 0,
+      "bot_trade": false
+    },
+    {
+      "market": "KRW-BIOT",
+      "type": "buy",
+      "time": "2025-12-22T15:54:43+09:00",
+      "price": 0.914,
+      "volume": 96388.40262582,
+      "funds": 88098.99999999949,
+      "fee": 0.0,
+      "uuid": "C0368000000106992906",
+      "cycle_status": "external",
+      "profit": 0,
+      "bot_trade": false
+    },
+    {
+      "market": "KRW-BIOT",
+      "type": "buy",
+      "time": "2025-12-22T15:43:15+09:00",
+      "price": 0.9084,
+      "volume": 96208.71862615,
+      "funds": 87395.99999999466,
+      "fee": 0.0,
+      "uuid": "C0368000000106988031",
+      "cycle_status": "external",
+      "profit": 0,
+      "bot_trade": false
+    },
+    {
+      "market": "KRW-BIOT",
+      "type": "buy",
+      "time": "2025-12-22T15:41:14+09:00",
+      "price": 0.9166,
+      "volume": 95346.38882827,
+      "funds": 87394.49999999229,
+      "fee": 0.0,
+      "uuid": "C0368000000106986452",
+      "cycle_status": "external",
+      "profit": 0,
+      "bot_trade": false
+    },
     {
       "market": "KRW-KSM",
       "type": "buy",
@@ -66,6 +140,19 @@
       "bot_trade": true
     },
     {
+      "market": "KRW-BIOT",
+      "type": "buy",
+      "time": "2025-12-22T15:29:48+09:00",
+      "price": 0.9146,
+      "volume": 66230.31926525,
+      "funds": 60574.24999999765,
+      "fee": 0.0,
+      "uuid": "C0368000000106981208",
+      "cycle_status": "external",
+      "profit": 0,
+      "bot_trade": false
+    },
+    {
       "market": "KRW-LM",
       "type": "buy",
       "time": "2025-12-22T14:47:34+09:00",
@@ -74,6 +161,84 @@
       "funds": 47116.20947629332,
       "fee": 18.84,
       "uuid": "C0698000000109365475",
+      "cycle_status": "external",
+      "profit": 0,
+      "bot_trade": false
+    },
+    {
+      "market": "KRW-BIOT",
+      "type": "buy",
+      "time": "2025-12-22T14:44:57+09:00",
+      "price": 0.901,
+      "volume": 157691.45394006,
+      "funds": 142079.99999999406,
+      "fee": 0.0,
+      "uuid": "C0368000000106966205",
+      "cycle_status": "external",
+      "profit": 0,
+      "bot_trade": false
+    },
+    {
+      "market": "KRW-BIOT",
+      "type": "buy",
+      "time": "2025-12-22T14:43:22+09:00",
+      "price": 0.9006,
+      "volume": 156925.24916943,
+      "funds": 141326.87940198864,
+      "fee": 0.0,
+      "uuid": "C0368000000106965986",
+      "cycle_status": "external",
+      "profit": 0,
+      "bot_trade": false
+    },
+    {
+      "market": "KRW-BIOT",
+      "type": "buy",
+      "time": "2025-12-22T13:44:13+09:00",
+      "price": 0.8846,
+      "volume": 109226.7691612,
+      "funds": 96621.99999999753,
+      "fee": 0.0,
+      "uuid": "C0368000000106951816",
+      "cycle_status": "external",
+      "profit": 0,
+      "bot_trade": false
+    },
+    {
+      "market": "KRW-BIOT",
+      "type": "buy",
+      "time": "2025-12-22T13:38:30+09:00",
+      "price": 0.9002,
+      "volume": 164794.83532115,
+      "funds": 148348.31075609924,
+      "fee": 0.0,
+      "uuid": "C0368000000106949845",
+      "cycle_status": "external",
+      "profit": 0,
+      "bot_trade": false
+    },
+    {
+      "market": "KRW-BIOT",
+      "type": "buy",
+      "time": "2025-12-22T13:31:23+09:00",
+      "price": 0.9057,
+      "volume": 124417.57756431,
+      "funds": 112684.99999999556,
+      "fee": 0.0,
+      "uuid": "C0368000000106947747",
+      "cycle_status": "external",
+      "profit": 0,
+      "bot_trade": false
+    },
+    {
+      "market": "KRW-BIOT",
+      "type": "buy",
+      "time": "2025-12-22T13:31:12+09:00",
+      "price": 0.9039,
+      "volume": 124665.89224471,
+      "funds": 112685.49999999338,
+      "fee": 0.0,
+      "uuid": "C0368000000106947687",
       "cycle_status": "external",
       "profit": 0,
       "bot_trade": false
