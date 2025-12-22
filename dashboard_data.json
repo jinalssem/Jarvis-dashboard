@@ -1,10 +1,10 @@
 {
-  "last_update": "2025-12-23T05:44:00.902717",
+  "last_update": "2025-12-23T05:47:08.231744",
   "today_profit": 509.79184978045123,
-  "today_profit_percent": 0.1650522838361528,
-  "total_profit": -1995.1610090329332,
-  "total_profit_percent": -0.6459614474094648,
-  "total_investment": 308866.8862567942,
+  "today_profit_percent": 0.1599928858109391,
+  "total_profit": -1824.6311706929496,
+  "total_profit_percent": -0.5726415725662933,
+  "total_investment": 318634.0737567942,
   "holdings": [
     {
       "market": "KRW-LRC",
@@ -28,10 +28,19 @@
       "market": "KRW-SWAP",
       "amount": 366.20748353,
       "avg_price": 80.04,
-      "current_price": 79.02,
-      "value": 28937.715348540598,
-      "profit": -373.5316332006037,
-      "profit_rate": -0.012743628185907173
+      "current_price": 79.17,
+      "value": 28992.6464710701,
+      "profit": -318.60051067110163,
+      "profit_rate": -0.01086956521739136
+    },
+    {
+      "market": "KRW-CSPR",
+      "amount": 1484.375,
+      "avg_price": 6.58,
+      "current_price": 6.505,
+      "value": 9655.859375,
+      "profit": -111.32812500000027,
+      "profit_rate": -0.01139817629179334
     },
     {
       "market": "KRW-YGG",
@@ -46,22 +55,46 @@
       "market": "KRW-POLYX",
       "amount": 1791.62941935,
       "avg_price": 87.38,
-      "current_price": 86.51,
-      "value": 154993.8610679685,
-      "profit": -1558.7175948344827,
-      "profit_rate": -0.009956511787594305
+      "current_price": 86.74,
+      "value": 155405.93583441898,
+      "profit": -1146.642828384001,
+      "profit_rate": -0.007324330510414289
     },
     {
       "market": "KRW-SAPIEN",
       "amount": 185.14792564,
       "avg_price": 176.0,
-      "current_price": 176.0,
-      "value": 32586.034912640003,
-      "profit": 0.0,
-      "profit_rate": 0.0
+      "current_price": 175.0,
+      "value": 32400.886987,
+      "profit": -185.14792564,
+      "profit_rate": -0.005681818181818182
     }
   ],
   "trades": [
+    {
+      "market": "KRW-SAPIEN",
+      "type": "buy",
+      "time": "2025-12-23T05:45:54.710206",
+      "price": 171.0,
+      "volume": 114.0,
+      "funds": 19494.0,
+      "cycle_status": "holding",
+      "profit": 0,
+      "buy_count": 1,
+      "bot_trade": true
+    },
+    {
+      "market": "KRW-LRC",
+      "type": "sell",
+      "time": "2025-12-23T05:45:54.023734",
+      "price": 0.0,
+      "volume": 0.0,
+      "funds": 0.0,
+      "cycle_status": "completed",
+      "profit": 0.0,
+      "avg_buy_price": 81.7,
+      "bot_trade": true
+    },
     {
       "market": "KRW-MTL",
       "type": "buy",
@@ -284,8 +317,8 @@
       "type": "buy",
       "time": "2025-12-22T22:48:44.840098",
       "price": 81.7,
-      "volume": 119.57564133,
-      "funds": 9769.329896661,
+      "volume": 4.13761332,
+      "funds": 338.0430082439998,
       "cycle_status": "holding",
       "profit": 0,
       "buy_count": 1,
@@ -300,32 +333,6 @@
       "funds": 86272.75,
       "fee": 0.0,
       "uuid": "C0860000000069863825",
-      "cycle_status": "external",
-      "profit": 0,
-      "bot_trade": false
-    },
-    {
-      "market": "KRW-SAPIEN",
-      "type": "buy",
-      "time": "2025-12-22T19:36:01+09:00",
-      "price": 180.0,
-      "volume": 162.92989747,
-      "funds": 29327.381544599997,
-      "fee": 11.69,
-      "uuid": "C1208000000001170666",
-      "cycle_status": "external",
-      "profit": 0,
-      "bot_trade": false
-    },
-    {
-      "market": "KRW-SAPIEN",
-      "type": "buy",
-      "time": "2025-12-22T19:34:49+09:00",
-      "price": 176.0,
-      "volume": 185.14792564,
-      "funds": 32586.034912640003,
-      "fee": 13.01,
-      "uuid": "C1208000000001170584",
       "cycle_status": "external",
       "profit": 0,
       "bot_trade": false
@@ -547,6 +554,16 @@
       "market": "KRW-XPLA",
       "profit": 0.0,
       "sell_time": "2025-12-23T05:24:16.764664"
+    },
+    {
+      "market": "KRW-LRC",
+      "profit": 106.20298576919959,
+      "sell_time": "2025-12-23T05:45:54.020240"
+    },
+    {
+      "market": "KRW-LRC",
+      "profit": 0.0,
+      "sell_time": "2025-12-23T05:45:54.023734"
     }
   ],
   "start_date": "2025-12-23"
