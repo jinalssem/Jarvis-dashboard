@@ -321,6 +321,18 @@
   ],
   "raw_trades": [
     {
+      "market": "KRW-MTL",
+      "type": "buy",
+      "time": "2025-12-23T05:42:53.202335",
+      "price": 502.0,
+      "volume": 38.88888889,
+      "funds": 19522.222222779998,
+      "fee": 0,
+      "cycle_status": "holding",
+      "profit": 0,
+      "bot_trade": true
+    },
+    {
       "market": "KRW-POLYX",
       "type": "buy",
       "time": "2025-12-23T05:33:36.927894",
