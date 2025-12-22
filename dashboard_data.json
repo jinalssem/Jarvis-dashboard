@@ -338,6 +338,18 @@
   ],
   "raw_trades": [
     {
+      "market": "KRW-XPR",
+      "type": "buy",
+      "time": "2025-12-22T19:00:39.093777",
+      "price": 3.93,
+      "volume": 2485.05231689,
+      "funds": 9766.2556053777,
+      "fee": 0,
+      "cycle_status": "holding",
+      "profit": 0,
+      "bot_trade": true
+    },
+    {
       "market": "KRW-SWAP",
       "type": "buy",
       "time": "2025-12-22T18:57:41.579304",
@@ -2419,16 +2431,6 @@
       "funds": 6722.924253,
       "fee": 2.68,
       "uuid": "C1239000000014928091"
-    },
-    {
-      "market": "KRW-AGI",
-      "type": "buy",
-      "time": "2025-12-20T00:51:09+09:00",
-      "price": 20.3,
-      "volume": 479.7979798,
-      "funds": 9739.89898994,
-      "fee": 3.89,
-      "uuid": "C0777000000130209191"
     }
   ],
   "daily_profits": {},
