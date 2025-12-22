@@ -1,10 +1,10 @@
 {
-  "last_update": "2025-12-22T18:20:51.907237",
+  "last_update": "2025-12-22T18:23:57.173217",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": -294.0236760041008,
-  "total_profit_percent": -0.16051755019226133,
-  "total_investment": 183172.2921586651,
+  "total_profit": -3192.278029179999,
+  "total_profit_percent": -0.6682453341651489,
+  "total_investment": 477710.48535163666,
   "holdings": [
     {
       "market": "KRW-LRC",
@@ -37,10 +37,19 @@
       "market": "KRW-BIOT",
       "amount": 110711.69208424,
       "avg_price": 0.8262,
-      "current_price": 0.8229,
-      "value": 91104.6514161211,
-      "profit": -365.3485838780009,
-      "profit_rate": -0.00399419026870017
+      "current_price": 0.8407,
+      "value": 93075.31953522057,
+      "profit": 1605.3195352214752,
+      "profit_rate": 0.01755022996853057
+    },
+    {
+      "market": "KRW-POLYX",
+      "amount": 3161.63796901,
+      "avg_price": 93.16,
+      "current_price": 91.62,
+      "value": 289669.2707206962,
+      "profit": -4868.922472275374,
+      "profit_rate": -0.016530699871189266
     },
     {
       "market": "KRW-SAPIEN",
@@ -53,6 +62,45 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-POLYX",
+      "type": "buy",
+      "time": "2025-12-22T18:19:31+09:00",
+      "price": 93.76,
+      "volume": 1570.73378839,
+      "funds": 147271.99999944642,
+      "fee": 0.0,
+      "uuid": "C0925000000016118880",
+      "cycle_status": "external",
+      "profit": 0,
+      "bot_trade": false
+    },
+    {
+      "market": "KRW-POLYX",
+      "type": "buy",
+      "time": "2025-12-22T18:17:54+09:00",
+      "price": 92.57,
+      "volume": 1590.90418062,
+      "funds": 147269.9999999934,
+      "fee": 0.0,
+      "uuid": "C0925000000016117615",
+      "cycle_status": "external",
+      "profit": 0,
+      "bot_trade": false
+    },
+    {
+      "market": "KRW-POLYX",
+      "type": "buy",
+      "time": "2025-12-22T18:16:11+09:00",
+      "price": 87.54,
+      "volume": 1620.22503998,
+      "funds": 141834.4999998492,
+      "fee": 0.0,
+      "uuid": "C0925000000016114716",
+      "cycle_status": "external",
+      "profit": 0,
+      "bot_trade": false
+    },
     {
       "market": "KRW-BIOT",
       "type": "buy",
