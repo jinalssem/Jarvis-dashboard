@@ -108,6 +108,18 @@
   ],
   "raw_trades": [
     {
+      "market": "KRW-LRC",
+      "type": "buy",
+      "time": "2025-12-22T22:48:44.930408",
+      "price": 81.7,
+      "volume": 119.57564133,
+      "funds": 9769.329896661,
+      "fee": 0,
+      "cycle_status": "holding",
+      "profit": 0,
+      "bot_trade": true
+    },
+    {
       "market": "KRW-CTC",
       "type": "sell",
       "time": "2025-12-22T19:52:38.351627",
@@ -2211,16 +2223,6 @@
       "funds": 40490.4999895,
       "fee": 0.0,
       "uuid": "C1182000000000234671"
-    },
-    {
-      "market": "KRW-DEXE",
-      "type": "buy",
-      "time": "2025-12-20T05:58:25+09:00",
-      "price": 5025.0,
-      "volume": 3.58113432,
-      "funds": 17995.199958,
-      "fee": 0.0,
-      "uuid": "C1182000000000234186"
     }
   ],
   "daily_profits": {},
