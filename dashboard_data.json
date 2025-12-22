@@ -1,9 +1,9 @@
 {
   "last_update": "2025-12-23T05:50:18.131721",
-  "today_profit": 509.79184978045123,
-  "today_profit_percent": 0.1599928858109391,
-  "total_profit": -1046.8708229045478,
-  "total_profit_percent": -0.3285495523318072,
+  "today_profit": 9709.238715722651,
+  "today_profit_percent": 3.0471438918153746,
+  "total_profit": 8152.576043037652,
+  "total_profit_percent": 2.5586014536726287,
   "total_investment": 318634.0737567942,
   "holdings": [
     {
@@ -340,6 +340,34 @@
   ],
   "raw_trades": [
     {
+      "market": "KRW-LRC",
+      "type": "sell",
+      "time": "2025-12-23T05:52:13.687329",
+      "price": 0,
+      "volume": 0.0,
+      "funds": 0.0,
+      "fee": 0.0,
+      "cycle_status": "partial",
+      "profit": 0,
+      "profit_unknown": true,
+      "bot_trade": true,
+      "action": "sell",
+      "profit_rate": -0.023404255319148817
+    },
+    {
+      "market": "KRW-LRC",
+      "type": "sell",
+      "time": "2025-12-23T05:52:13.683009",
+      "price": 82.62,
+      "volume": 115.43802801,
+      "funds": 9537.4898741862,
+      "fee": 0,
+      "cycle_status": "completed",
+      "profit": 9199.4468659422,
+      "profit_unknown": false,
+      "bot_trade": true
+    },
+    {
       "market": "KRW-SAPIEN",
       "type": "buy",
       "time": "2025-12-23T05:45:54.712336",
@@ -537,7 +565,7 @@
     }
   ],
   "daily_profits": {
-    "2025-12-23": 509.79184978045123
+    "2025-12-23": 9709.238715722651
   },
   "trade_cycles": [
     {
