@@ -1,10 +1,10 @@
 {
-  "last_update": "2025-12-23T08:47:10.012893",
+  "last_update": "2025-12-23T08:51:10.501343",
   "today_profit": 10448.738306568279,
-  "today_profit_percent": 2.885258824617559,
-  "total_profit": 10808.229604215356,
-  "total_profit_percent": 2.9845268327231333,
-  "total_investment": 362142.148822758,
+  "today_profit_percent": 2.697151548261425,
+  "total_profit": 9735.479391563116,
+  "total_profit_percent": 2.513036746026583,
+  "total_investment": 387399.0066781194,
   "holdings": [
     {
       "market": "KRW-LRC",
@@ -28,19 +28,19 @@
       "market": "KRW-BLY",
       "amount": 3752.82167043,
       "avg_price": 2.6,
-      "current_price": 2.686,
-      "value": 10080.079006774979,
-      "profit": 322.74266365697946,
-      "profit_rate": 0.03307692307692302
+      "current_price": 2.655,
+      "value": 9963.741534991648,
+      "profit": 206.40519187364893,
+      "profit_rate": 0.021153846153846044
     },
     {
       "market": "KRW-SWAP",
       "amount": 617.72034283,
       "avg_price": 79.09,
-      "current_price": 77.99,
-      "value": 48176.0095373117,
-      "profit": -679.4923771130053,
-      "profit_rate": -0.01390820584144656
+      "current_price": 77.87,
+      "value": 48101.8830961721,
+      "profit": -753.6188182525993,
+      "profit_rate": -0.015425464660513324
     },
     {
       "market": "KRW-CSPR",
@@ -52,53 +52,86 @@
       "profit_rate": -0.017933130699088196
     },
     {
+      "market": "KRW-FITFI",
+      "amount": 20500.69631117,
+      "avg_price": 1.232,
+      "current_price": 1.213,
+      "value": 24867.344625449212,
+      "profit": -389.51322991222804,
+      "profit_rate": -0.015422077922077846
+    },
+    {
       "market": "KRW-YGG",
       "amount": 122.68115199,
       "avg_price": 95.6,
-      "current_price": 96.66,
-      "value": 11858.3601513534,
-      "profit": 130.04202110940028,
-      "profit_rate": 0.011087866108786636
+      "current_price": 96.8,
+      "value": 11875.535512632,
+      "profit": 147.21738238800035,
+      "profit_rate": 0.012552301255230157
     },
     {
       "market": "KRW-POLYX",
       "amount": 1791.62941935,
       "avg_price": 87.38,
-      "current_price": 86.91,
-      "value": 155710.5128357085,
-      "profit": -842.065827094498,
-      "profit_rate": -0.005378805218585476
+      "current_price": 86.84,
+      "value": 155585.09877635402,
+      "profit": -967.4798864489858,
+      "profit_rate": -0.00617990386816196
     },
     {
       "market": "KRW-PUMPBTC",
       "amount": 355.96301153,
       "avg_price": 39.91,
-      "current_price": 40.62,
-      "value": 14459.2175283486,
-      "profit": 252.73373818630031,
-      "profit_rate": 0.017790027562014556
+      "current_price": 40.58,
+      "value": 14444.9790078874,
+      "profit": 238.49521772510062,
+      "profit_rate": 0.016787772488098266
     },
     {
       "market": "KRW-SAPIEN",
       "amount": 185.14792564,
       "avg_price": 176.0,
-      "current_price": 179.0,
-      "value": 33141.478689560005,
-      "profit": 555.44377692,
-      "profit_rate": 0.017045454545454544
+      "current_price": 177.0,
+      "value": 32771.18283828,
+      "profit": 185.14792564,
+      "profit_rate": 0.005681818181818182
     }
   ],
   "trades": [
     {
+      "market": "KRW-LRC",
+      "type": "buy",
+      "time": "2025-12-23T08:49:59.912596",
+      "price": 81.1,
+      "volume": 120.48556589,
+      "funds": 9771.379393678999,
+      "cycle_status": "holding",
+      "profit": 0,
+      "buy_count": 1,
+      "bot_trade": true
+    },
+    {
       "market": "KRW-BLY",
       "type": "sell",
-      "time": "2025-12-23T07:20:15.538741",
+      "time": "2025-12-23T08:49:59.176183",
       "price": 0.0,
       "volume": 0.0,
       "funds": 0.0,
       "cycle_status": "completed",
       "profit": 0.0,
       "avg_buy_price": 2.579848369977252,
+      "bot_trade": true
+    },
+    {
+      "market": "KRW-SWAP",
+      "type": "sell",
+      "time": "2025-12-23T08:49:58.377425",
+      "price": 0.0,
+      "volume": 0.0,
+      "funds": 0.0,
+      "cycle_status": "completed",
+      "profit": 0.0,
+      "avg_buy_price": 77.89417478147742,
       "bot_trade": true
     },
     {
@@ -118,8 +151,8 @@
       "type": "buy",
       "time": "2025-12-23T06:45:15.718235",
       "price": 2.579848369977252,
-      "volume": 3810.16042781,
-      "funds": 9829.636169037458,
+      "volume": 57.33875738000006,
+      "funds": 147.9252997633139,
       "cycle_status": "holding",
       "profit": 0,
       "buy_count": 2,
@@ -151,12 +184,25 @@
       "bot_trade": true
     },
     {
+      "market": "KRW-FITFI",
+      "type": "buy",
+      "time": "2025-12-23T06:40:55+09:00",
+      "price": 1.232,
+      "volume": 20500.69631117,
+      "funds": 25256.85785536144,
+      "fee": 10.1,
+      "uuid": "C0689000000225129541",
+      "cycle_status": "external",
+      "profit": 0,
+      "bot_trade": false
+    },
+    {
       "market": "KRW-SWAP",
       "type": "buy",
       "time": "2025-12-23T06:32:19.206740",
       "price": 77.89417478147742,
-      "volume": 627.25182546,
-      "funds": 48859.263324382,
+      "volume": 9.531482629999914,
+      "funds": 742.4469739078268,
       "cycle_status": "holding",
       "profit": 0,
       "buy_count": 4,
@@ -913,6 +959,26 @@
       "market": "KRW-BLY",
       "profit": 0.0,
       "sell_time": "2025-12-23T07:20:15.538741"
+    },
+    {
+      "market": "KRW-SWAP",
+      "profit": -14.933254302071873,
+      "sell_time": "2025-12-23T08:49:58.372989"
+    },
+    {
+      "market": "KRW-SWAP",
+      "profit": 0.0,
+      "sell_time": "2025-12-23T08:49:58.377425"
+    },
+    {
+      "market": "KRW-BLY",
+      "profit": 282.03066571750423,
+      "sell_time": "2025-12-23T08:49:59.170274"
+    },
+    {
+      "market": "KRW-BLY",
+      "profit": 0.0,
+      "sell_time": "2025-12-23T08:49:59.176183"
     }
   ],
   "start_date": "2025-12-23"
