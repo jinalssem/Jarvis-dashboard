@@ -215,6 +215,34 @@
   ],
   "raw_trades": [
     {
+      "market": "KRW-POLYX",
+      "type": "sell",
+      "time": "2025-12-23T00:29:29.665418",
+      "price": 0,
+      "volume": 0.0,
+      "funds": 0.0,
+      "fee": 0.0,
+      "cycle_status": "partial",
+      "profit": 0,
+      "profit_unknown": true,
+      "bot_trade": true,
+      "action": "sell",
+      "profit_rate": 0.006185111552904661
+    },
+    {
+      "market": "KRW-POLYX",
+      "type": "sell",
+      "time": "2025-12-23T00:29:29.651160",
+      "price": 91.1,
+      "volume": 445.44400265,
+      "funds": 40579.948641415,
+      "fee": 0,
+      "cycle_status": "partial",
+      "profit": 0,
+      "profit_unknown": true,
+      "bot_trade": true
+    },
+    {
       "market": "KRW-LM",
       "type": "buy",
       "time": "2025-12-23T00:15:42.032298",
@@ -2328,26 +2356,6 @@
       "funds": 15665.63591015262,
       "fee": 6.26,
       "uuid": "C1059000000084073927"
-    },
-    {
-      "market": "KRW-IN",
-      "type": "buy",
-      "time": "2025-12-20T13:30:13+09:00",
-      "price": 119.0,
-      "volume": 162.52561872,
-      "funds": 19340.54862768,
-      "fee": 7.73,
-      "uuid": "C1227000000002848278"
-    },
-    {
-      "market": "KRW-F",
-      "type": "sell",
-      "time": "2025-12-20T12:46:48+09:00",
-      "price": 10.7,
-      "volume": 942.81663516,
-      "funds": 10088.137996211999,
-      "fee": 4.03,
-      "uuid": "C0993000000089616919"
     }
   ],
   "daily_profits": {
