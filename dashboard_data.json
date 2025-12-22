@@ -160,6 +160,34 @@
   ],
   "raw_trades": [
     {
+      "market": "KRW-SAPIEN",
+      "type": "sell",
+      "time": "2025-12-22T11:40:50.788798",
+      "price": 0,
+      "volume": 0.0,
+      "funds": 0.0,
+      "fee": 0.0,
+      "cycle_status": "partial",
+      "profit": 0,
+      "profit_unknown": true,
+      "bot_trade": true,
+      "action": "sell",
+      "profit_rate": 0.04
+    },
+    {
+      "market": "KRW-SAPIEN",
+      "type": "sell",
+      "time": "2025-12-22T11:40:50.780940",
+      "price": 182.0,
+      "volume": 487.04809405,
+      "funds": 88642.7531171,
+      "fee": 0,
+      "cycle_status": "partial",
+      "profit": 0,
+      "profit_unknown": true,
+      "bot_trade": true
+    },
+    {
       "market": "KRW-LM",
       "type": "sell",
       "time": "2025-12-22T11:37:42.254008",
