@@ -326,6 +326,18 @@
   ],
   "raw_trades": [
     {
+      "market": "KRW-XPLA",
+      "type": "buy",
+      "time": "2025-12-23T04:12:47.435095",
+      "price": 28.6,
+      "volume": 340.67622951,
+      "funds": 9743.340163986,
+      "fee": 0,
+      "cycle_status": "holding",
+      "profit": 0,
+      "bot_trade": true
+    },
+    {
       "market": "KRW-YGG",
       "type": "sell",
       "time": "2025-12-23T03:44:54.325040",
@@ -2511,16 +2523,6 @@
       "funds": 118389.05667892161,
       "fee": 47.35,
       "uuid": "C0720000000082756230"
-    },
-    {
-      "market": "KRW-XPLA",
-      "type": "buy",
-      "time": "2025-12-20T17:52:55+09:00",
-      "price": 35.45,
-      "volume": 2139.8970838,
-      "funds": 75859.35162071,
-      "fee": 30.34,
-      "uuid": "C0720000000082752885"
     }
   ],
   "daily_profits": {
