@@ -153,6 +153,18 @@
   ],
   "raw_trades": [
     {
+      "market": "KRW-BTC",
+      "type": "buy",
+      "time": "2025-12-23T00:47:01.240546",
+      "price": 130426000.0,
+      "volume": 8.994e-05,
+      "funds": 11730.514439999999,
+      "fee": 0,
+      "cycle_status": "holding",
+      "profit": 0,
+      "bot_trade": true
+    },
+    {
       "market": "KRW-BLY",
       "type": "buy",
       "time": "2025-12-23T00:41:19.742736",
@@ -2294,16 +2306,6 @@
       "funds": 23145.885286709996,
       "fee": 9.25,
       "uuid": "C0720000000082721725"
-    },
-    {
-      "market": "KRW-WET",
-      "type": "buy",
-      "time": "2025-12-20T16:14:28+09:00",
-      "price": 428.0,
-      "volume": 31.12522432,
-      "funds": 13321.596008960001,
-      "fee": 5.32,
-      "uuid": "C1271000000001047463"
     }
   ],
   "daily_profits": {
