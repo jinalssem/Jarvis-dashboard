@@ -332,6 +332,18 @@
   ],
   "raw_trades": [
     {
+      "market": "KRW-BLY",
+      "type": "buy",
+      "time": "2025-12-23T06:45:15.721864",
+      "price": 2.56,
+      "volume": 3810.16042781,
+      "funds": 9754.0106951936,
+      "fee": 0,
+      "cycle_status": "holding",
+      "profit": 0,
+      "bot_trade": true
+    },
+    {
       "market": "KRW-BIOT",
       "type": "sell",
       "time": "2025-12-23T06:41:55.874435",
