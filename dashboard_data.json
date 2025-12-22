@@ -1,9 +1,9 @@
 {
   "last_update": "2025-12-23T05:03:47.261250",
-  "today_profit": 0,
-  "today_profit_percent": 0.0,
-  "total_profit": -1856.6320852342378,
-  "total_profit_percent": -0.5863662757020591,
+  "today_profit": 32.68348623855127,
+  "today_profit_percent": 0.01032218189865062,
+  "total_profit": -1823.9485989956866,
+  "total_profit_percent": -0.5760440938034084,
   "total_investment": 316633.5040348771,
   "holdings": [
     {
@@ -347,6 +347,34 @@
   ],
   "raw_trades": [
     {
+      "market": "KRW-LM",
+      "type": "sell",
+      "time": "2025-12-23T05:05:43.563719",
+      "price": 0,
+      "volume": 0.0,
+      "funds": 0.0,
+      "fee": 0.0,
+      "cycle_status": "partial",
+      "profit": 0,
+      "profit_unknown": true,
+      "bot_trade": true,
+      "action": "sell",
+      "profit_rate": 0.0033557046979866547
+    },
+    {
+      "market": "KRW-LM",
+      "type": "sell",
+      "time": "2025-12-23T05:05:43.558321",
+      "price": 1.495,
+      "volume": 6536.69724771,
+      "funds": 9772.36238532645,
+      "fee": 0,
+      "cycle_status": "completed",
+      "profit": 32.68348623855127,
+      "profit_unknown": false,
+      "bot_trade": true
+    },
+    {
       "market": "KRW-UNI",
       "type": "buy",
       "time": "2025-12-23T04:59:28.294693",
@@ -371,7 +399,9 @@
       "bot_trade": true
     }
   ],
-  "daily_profits": {},
+  "daily_profits": {
+    "2025-12-23": 32.68348623855127
+  },
   "trade_cycles": [],
   "start_date": "2025-12-23"
 }
