@@ -1,28 +1,28 @@
 {
-  "last_update": "2025-12-23T03:29:14.551630",
+  "last_update": "2025-12-23T03:34:58.737642",
   "today_profit": 355.89244523870184,
-  "today_profit_percent": 0.13057542898132535,
-  "total_profit": 9875.2397002865,
-  "total_profit_percent": 3.623183569669381,
-  "total_investment": 272556.9795291279,
+  "today_profit_percent": 0.12184732906496934,
+  "total_profit": 10545.503074915314,
+  "total_profit_percent": 3.610476705857088,
+  "total_investment": 292080.6290706126,
   "holdings": [
     {
       "market": "KRW-LRC",
       "amount": 115.43802801,
       "avg_price": 84.6,
-      "current_price": 83.33,
-      "value": 9619.4508740733,
-      "profit": -146.60629557269954,
-      "profit_rate": -0.015011820330969221
+      "current_price": 83.53,
+      "value": 9642.5384796753,
+      "profit": -123.51868997069921,
+      "profit_rate": -0.012647754137115759
     },
     {
       "market": "KRW-AAVE",
       "amount": 0.0846686,
       "avg_price": 230875.0,
-      "current_price": 234100.0,
-      "value": 19820.91926,
-      "profit": 273.056235,
-      "profit_rate": 0.01396859772604223
+      "current_price": 232600.0,
+      "value": 19693.91636,
+      "profit": 146.053335,
+      "profit_rate": 0.0074715755278830535
     },
     {
       "market": "KRW-COMP",
@@ -35,30 +35,39 @@
     },
     {
       "market": "KRW-SWAP",
-      "amount": 119.56130888,
-      "avg_price": 81.7,
-      "current_price": 81.21,
-      "value": 9709.5738941448,
-      "profit": -58.585041351201085,
-      "profit_rate": -0.005997552019583955
+      "amount": 241.51998353,
+      "avg_price": 80.89,
+      "current_price": 80.29,
+      "value": 19391.6394776237,
+      "profit": -144.9119901179986,
+      "profit_rate": -0.007417480529113541
+    },
+    {
+      "market": "KRW-XPLA",
+      "amount": 332.94392523,
+      "avg_price": 29.3,
+      "current_price": 29.12,
+      "value": 9695.3271026976,
+      "profit": -59.9299065413999,
+      "profit_rate": -0.006143344709897601
     },
     {
       "market": "KRW-YGG",
       "amount": 862.7275,
       "avg_price": 100.0,
-      "current_price": 97.21,
-      "value": 83865.74027499999,
-      "profit": -2407.0097250000053,
-      "profit_rate": -0.027900000000000064
+      "current_price": 97.76,
+      "value": 84340.2404,
+      "profit": -1932.5095999999955,
+      "profit_rate": -0.022399999999999948
     },
     {
       "market": "KRW-POLYX",
       "amount": 891.87079867,
       "avg_price": 87.77,
-      "current_price": 88.26,
-      "value": 78716.51669061421,
-      "profit": 437.0166913483081,
-      "profit_rate": 0.005582773157115291
+      "current_price": 88.76,
+      "value": 79162.4520899492,
+      "profit": 882.9520906833081,
+      "profit_rate": 0.011279480460294054
     }
   ],
   "trades": [
