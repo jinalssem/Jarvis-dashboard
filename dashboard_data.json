@@ -1,10 +1,10 @@
 {
-  "last_update": "2025-12-22T19:56:52.526582",
+  "last_update": "2025-12-22T20:02:45.707136",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": 1150.305591451507,
-  "total_profit_percent": 0.5947529162338278,
-  "total_investment": 193408.9871699365,
+  "total_profit": 462.88258316000093,
+  "total_profit_percent": 0.3539019592191926,
+  "total_investment": 130794.01543332801,
   "holdings": [
     {
       "market": "KRW-LRC",
@@ -37,44 +37,22 @@
       "market": "KRW-XPLA",
       "amount": 302.27272727,
       "avg_price": 32.3,
-      "current_price": 32.25,
-      "value": 9748.2954544575,
-      "profit": -15.113636363499142,
-      "profit_rate": -0.0015479876160989833
-    },
-    {
-      "market": "KRW-AI16Z",
-      "amount": 2647.56751529,
-      "avg_price": 23.65,
-      "current_price": 23.78,
-      "value": 62959.1555135962,
-      "profit": 344.1837769877068,
-      "profit_rate": 0.005496828752642815
+      "current_price": 32.31,
+      "value": 9766.4318180937,
+      "profit": 3.0227272727015464,
+      "profit_rate": 0.00030959752321997266
     },
     {
       "market": "KRW-SAPIEN",
       "amount": 180.68779747,
       "avg_price": 180.3,
-      "current_price": 183.0,
-      "value": 33065.866937009996,
-      "profit": 487.85705316899794,
-      "profit_rate": 0.014975041597337707
+      "current_price": 181.0,
+      "value": 32704.49134207,
+      "profit": 126.48145822899794,
+      "profit_rate": 0.0038824181919023216
     }
   ],
   "trades": [
-    {
-      "market": "KRW-AI16Z",
-      "type": "buy",
-      "time": "2025-12-22T19:44:46+09:00",
-      "price": 23.06,
-      "volume": 1145.20723343,
-      "funds": 26408.4788028958,
-      "fee": 10.55,
-      "uuid": "C1100000000056273389",
-      "cycle_status": "external",
-      "profit": 0,
-      "bot_trade": false
-    },
     {
       "market": "KRW-SAPIEN",
       "type": "buy",
@@ -84,19 +62,6 @@
       "funds": 29327.381544599997,
       "fee": 11.69,
       "uuid": "C1208000000001170666",
-      "cycle_status": "external",
-      "profit": 0,
-      "bot_trade": false
-    },
-    {
-      "market": "KRW-AI16Z",
-      "type": "buy",
-      "time": "2025-12-22T19:34:00+09:00",
-      "price": 24.1,
-      "volume": 1502.36028186,
-      "funds": 36206.882792826,
-      "fee": 14.48,
-      "uuid": "C1100000000056271621",
       "cycle_status": "external",
       "profit": 0,
       "bot_trade": false
