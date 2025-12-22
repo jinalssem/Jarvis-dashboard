@@ -1,9 +1,9 @@
 {
   "last_update": "2025-12-23T03:40:37.027724",
-  "today_profit": 10233.514965238703,
-  "today_profit_percent": 3.75496682975946,
-  "total_profit": 20399.159188717706,
-  "total_profit_percent": 7.485029959775035,
+  "today_profit": 83052.49183499471,
+  "today_profit_percent": 30.474314351285965,
+  "total_profit": 93218.13605847371,
+  "total_profit_percent": 34.20437748130154,
   "total_investment": 272532.7660456126,
   "holdings": [
     {
@@ -334,6 +334,34 @@
     }
   ],
   "raw_trades": [
+    {
+      "market": "KRW-YGG",
+      "type": "sell",
+      "time": "2025-12-23T03:44:54.325040",
+      "price": 0,
+      "volume": 0.0,
+      "funds": 0.0,
+      "fee": 0.0,
+      "cycle_status": "partial",
+      "profit": 0,
+      "profit_unknown": true,
+      "bot_trade": true,
+      "action": "sell",
+      "profit_rate": -0.02
+    },
+    {
+      "market": "KRW-YGG",
+      "type": "sell",
+      "time": "2025-12-23T03:44:54.314129",
+      "price": 98.0,
+      "volume": 862.7275,
+      "funds": 84547.295,
+      "fee": 0,
+      "cycle_status": "completed",
+      "profit": 72818.976869756,
+      "profit_unknown": false,
+      "bot_trade": true
+    },
     {
       "market": "KRW-SWAP",
       "type": "buy",
@@ -2502,31 +2530,11 @@
       "funds": 75859.35162071,
       "fee": 30.34,
       "uuid": "C0720000000082752885"
-    },
-    {
-      "market": "KRW-XPLA",
-      "type": "sell",
-      "time": "2025-12-20T17:49:42+09:00",
-      "price": 36.9,
-      "volume": 4123.60112835,
-      "funds": 152160.881636115,
-      "fee": 60.86,
-      "uuid": "C0720000000082751384"
-    },
-    {
-      "market": "KRW-XPLA",
-      "type": "buy",
-      "time": "2025-12-20T17:46:02+09:00",
-      "price": 35.18,
-      "volume": 1119.71350758,
-      "funds": 39391.5211966644,
-      "fee": 15.75,
-      "uuid": "C0720000000082749477"
     }
   ],
   "daily_profits": {
     "2025-12-22": 10301.643743143397,
-    "2025-12-23": 10233.514965238703
+    "2025-12-23": 83052.49183499471
   },
   "trade_cycles": [
     {
