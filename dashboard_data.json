@@ -50,6 +50,18 @@
   ],
   "raw_trades": [
     {
+      "market": "KRW-KSM",
+      "type": "buy",
+      "time": "2025-12-22T15:30:33.412325",
+      "price": 10240.0,
+      "volume": 0.95454545,
+      "funds": 9774.545408,
+      "fee": 0,
+      "cycle_status": "holding",
+      "profit": 0,
+      "bot_trade": true
+    },
+    {
       "market": "KRW-BIOT",
       "type": "sell",
       "time": "2025-12-22T15:09:37.512735",
@@ -2083,16 +2095,6 @@
       "funds": 79896.4999965,
       "fee": 0.0,
       "uuid": "C1182000000000059227"
-    },
-    {
-      "market": "KRW-APM",
-      "type": "sell",
-      "time": "2025-12-19T17:33:22+09:00",
-      "price": 1.22,
-      "volume": 7500.0,
-      "funds": 9150.0,
-      "fee": 0.0,
-      "uuid": "C0300000000363489487"
     }
   ],
   "daily_profits": {},
