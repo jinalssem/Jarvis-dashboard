@@ -1,10 +1,10 @@
 {
-  "last_update": "2025-12-23T00:03:10.575888",
+  "last_update": "2025-12-23T00:10:14.081824",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": 11121.12581411949,
-  "total_profit_percent": 5.171032515591552,
-  "total_investment": 215065.865097297,
+  "total_profit": 10434.350196498392,
+  "total_profit_percent": 4.641335642124304,
+  "total_investment": 224813.523542604,
   "holdings": [
     {
       "market": "KRW-LRC",
@@ -19,40 +19,61 @@
       "market": "KRW-AAVE",
       "amount": 0.04189416,
       "avg_price": 233300.0,
-      "current_price": 233400.0,
-      "value": 9778.096944,
-      "profit": 4.189416,
-      "profit_rate": 0.0004286326618088298
+      "current_price": 233800.0,
+      "value": 9794.854608,
+      "profit": 20.94708,
+      "profit_rate": 0.0021431633090441492
     },
     {
       "market": "KRW-COMP",
       "amount": 1.92742108,
       "avg_price": 35759.0,
-      "current_price": 35850.0,
-      "value": 69098.045718,
-      "profit": 175.39531828,
-      "profit_rate": 0.0025448138930059564
+      "current_price": 35960.0,
+      "value": 69310.0620368,
+      "profit": 387.41163708,
+      "profit_rate": 0.005620962554881289
+    },
+    {
+      "market": "KRW-XPLA",
+      "amount": 311.42678739,
+      "avg_price": 31.3,
+      "current_price": 31.71,
+      "value": 9875.343428136901,
+      "profit": 127.68498282990005,
+      "profit_rate": 0.013099041533546331
     },
     {
       "market": "KRW-YGG",
       "amount": 862.7275,
       "avg_price": 100.0,
-      "current_price": 99.57,
-      "value": 85901.777175,
-      "profit": -370.97282500000586,
-      "profit_rate": -0.0043000000000000685
+      "current_price": 98.02,
+      "value": 84564.54955,
+      "profit": -1708.2004500000035,
+      "profit_rate": -0.01980000000000004
     },
     {
       "market": "KRW-POLYX",
       "amount": 445.44400265,
       "avg_price": 90.54,
-      "current_price": 93.04,
-      "value": 41444.110006556,
-      "profit": 1113.610006625,
-      "profit_rate": 0.0276121051468964
+      "current_price": 93.7,
+      "value": 41738.103048305005,
+      "profit": 1407.6030483739985,
+      "profit_rate": 0.034901700905677006
     }
   ],
   "trades": [
+    {
+      "market": "KRW-BIOT",
+      "type": "buy",
+      "time": "2025-12-23T00:08:56.211224",
+      "price": 0.71,
+      "volume": 13612.17248908,
+      "funds": 9664.6424672468,
+      "cycle_status": "holding",
+      "profit": 0,
+      "buy_count": 1,
+      "bot_trade": true
+    },
     {
       "market": "KRW-CSPR",
       "type": "buy",
