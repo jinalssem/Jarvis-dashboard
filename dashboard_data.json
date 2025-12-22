@@ -1,9 +1,9 @@
 {
-  "last_update": "2025-12-23T06:43:07.220200",
+  "last_update": "2025-12-23T06:46:25.262972",
   "today_profit": 9914.62151611706,
   "today_profit_percent": 2.772050360582373,
-  "total_profit": 8938.14993742806,
-  "total_profit_percent": 2.499036571059182,
+  "total_profit": 9228.749212856525,
+  "total_profit_percent": 2.5802858476883452,
   "total_investment": 357663.8309714591,
   "holdings": [
     {
@@ -28,37 +28,37 @@
       "market": "KRW-BLY",
       "amount": 3752.82167043,
       "avg_price": 2.6,
-      "current_price": 2.608,
-      "value": 9787.35891648144,
-      "profit": 30.022573363440024,
-      "profit_rate": 0.0030769230769230795
+      "current_price": 2.618,
+      "value": 9824.887133185739,
+      "profit": 67.55079006773923,
+      "profit_rate": 0.0069230769230768435
     },
     {
       "market": "KRW-BIOT",
       "amount": 14519.65065502,
       "avg_price": 0.67,
-      "current_price": 0.6971,
-      "value": 10121.648471614442,
-      "profit": 393.4825327510422,
-      "profit_rate": 0.04044776119402987
+      "current_price": 0.6959,
+      "value": 10104.224890828416,
+      "profit": 376.0589519650169,
+      "profit_rate": 0.03865671641791033
     },
     {
       "market": "KRW-SWAP",
       "amount": 617.72034283,
       "avg_price": 79.09,
-      "current_price": 77.33,
-      "value": 47768.3141110439,
-      "profit": -1087.1878033808032,
-      "profit_rate": -0.02225312934631439
+      "current_price": 77.72,
+      "value": 48009.2250447476,
+      "profit": -846.2768696771029,
+      "profit_rate": -0.017322038184347004
     },
     {
       "market": "KRW-CSPR",
       "amount": 1484.375,
       "avg_price": 6.58,
-      "current_price": 6.602,
-      "value": 9799.84375,
-      "profit": 32.656250000000355,
-      "profit_rate": 0.0033434650455927417
+      "current_price": 6.634,
+      "value": 9847.34375,
+      "profit": 80.1562500000004,
+      "profit_rate": 0.008206686930091226
     },
     {
       "market": "KRW-YGG",
@@ -73,10 +73,10 @@
       "market": "KRW-POLYX",
       "amount": 1791.62941935,
       "avg_price": 87.38,
-      "current_price": 87.01,
-      "value": 155889.6757776435,
-      "profit": -662.9028851594827,
-      "profit_rate": -0.004234378576333147
+      "current_price": 87.0,
+      "value": 155871.75948345,
+      "profit": -680.8191793529919,
+      "profit_rate": -0.004348821240558428
     },
     {
       "market": "KRW-SAPIEN",
@@ -89,6 +89,18 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-BLY",
+      "type": "buy",
+      "time": "2025-12-23T06:45:15.718235",
+      "price": 2.579848369977252,
+      "volume": 7562.98209824,
+      "funds": 19511.3470383116,
+      "cycle_status": "holding",
+      "profit": 0,
+      "buy_count": 2,
+      "bot_trade": true
+    },
     {
       "market": "KRW-BIOT",
       "type": "sell",
@@ -300,18 +312,6 @@
       "price": 130426000.0,
       "volume": 8.994e-05,
       "funds": 11730.514439999999,
-      "cycle_status": "holding",
-      "profit": 0,
-      "buy_count": 1,
-      "bot_trade": true
-    },
-    {
-      "market": "KRW-BLY",
-      "type": "buy",
-      "time": "2025-12-23T00:41:19.739704",
-      "price": 2.6,
-      "volume": 3752.82167043,
-      "funds": 9757.336343118,
       "cycle_status": "holding",
       "profit": 0,
       "buy_count": 1,
