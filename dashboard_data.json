@@ -139,6 +139,34 @@
     {
       "market": "KRW-BIOT",
       "type": "sell",
+      "time": "2025-12-22T15:09:37.512735",
+      "price": 0,
+      "volume": 0.0,
+      "funds": 0.0,
+      "fee": 0.0,
+      "cycle_status": "partial",
+      "profit": 0,
+      "profit_unknown": true,
+      "bot_trade": true,
+      "action": "sell",
+      "profit_rate": 0.022313499111900538
+    },
+    {
+      "market": "KRW-BIOT",
+      "type": "sell",
+      "time": "2025-12-22T15:09:37.503748",
+      "price": 0.9209,
+      "volume": 157308.35155475,
+      "funds": 144865.2609467693,
+      "fee": 0,
+      "cycle_status": "partial",
+      "profit": 0,
+      "profit_unknown": true,
+      "bot_trade": true
+    },
+    {
+      "market": "KRW-BIOT",
+      "type": "sell",
       "time": "2025-12-22T14:15:46.548674",
       "price": 0,
       "volume": 0.0,
@@ -2152,26 +2180,6 @@
       "funds": 9150.0,
       "fee": 0.0,
       "uuid": "C0300000000363489487"
-    },
-    {
-      "market": "KRW-POLA",
-      "type": "sell",
-      "time": "2025-12-19T17:22:53+09:00",
-      "price": 10.0,
-      "volume": 989.58333333,
-      "funds": 9895.8333333,
-      "fee": 0.0,
-      "uuid": "C0340000000107382405"
-    },
-    {
-      "market": "KRW-APM",
-      "type": "buy",
-      "time": "2025-12-19T16:58:40+09:00",
-      "price": 1.3,
-      "volume": 7500.0,
-      "funds": 9750.0,
-      "fee": 0.0,
-      "uuid": "C0300000000363483877"
     }
   ],
   "daily_profits": {},
