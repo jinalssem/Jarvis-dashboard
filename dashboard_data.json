@@ -332,6 +332,34 @@
   ],
   "raw_trades": [
     {
+      "market": "KRW-LRC",
+      "type": "sell",
+      "time": "2025-12-23T06:35:27.654221",
+      "price": 0,
+      "volume": 0.0,
+      "funds": 0.0,
+      "fee": 0.0,
+      "cycle_status": "partial",
+      "profit": 0,
+      "profit_unknown": true,
+      "bot_trade": true,
+      "action": "sell",
+      "profit_rate": -0.01914893617021265
+    },
+    {
+      "market": "KRW-LRC",
+      "type": "sell",
+      "time": "2025-12-23T06:35:27.650752",
+      "price": 82.98,
+      "volume": 115.43802801,
+      "funds": 9579.0475642698,
+      "fee": 0,
+      "cycle_status": "partial",
+      "profit": 0,
+      "profit_unknown": true,
+      "bot_trade": true
+    },
+    {
       "market": "KRW-SWAP",
       "type": "buy",
       "time": "2025-12-23T06:32:19.210060",
