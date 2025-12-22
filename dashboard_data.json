@@ -375,6 +375,46 @@
   ],
   "raw_trades": [
     {
+      "market": "KRW-AAVE",
+      "type": "buy",
+      "time": "2025-12-22T18:28:56.361371",
+      "price": 234400.0,
+      "volume": 0.04170151,
+      "funds": 9774.833944,
+      "fee": 0,
+      "cycle_status": "holding",
+      "profit": 0,
+      "bot_trade": true
+    },
+    {
+      "market": "KRW-BIOT",
+      "type": "sell",
+      "time": "2025-12-22T18:28:55.802083",
+      "price": 0,
+      "volume": 0.0,
+      "funds": 0.0,
+      "fee": 0.0,
+      "cycle_status": "partial",
+      "profit": 0,
+      "profit_unknown": true,
+      "bot_trade": true,
+      "action": "sell",
+      "profit_rate": 0.03013798111837318
+    },
+    {
+      "market": "KRW-BIOT",
+      "type": "sell",
+      "time": "2025-12-22T18:28:55.791388",
+      "price": 0.8511,
+      "volume": 110711.69208424,
+      "funds": 94226.72113289667,
+      "fee": 0,
+      "cycle_status": "partial",
+      "profit": 0,
+      "profit_unknown": true,
+      "bot_trade": true
+    },
+    {
       "market": "KRW-XPR",
       "type": "sell",
       "time": "2025-12-22T18:10:38.016266",
@@ -2422,36 +2462,6 @@
       "funds": 10375.62465315,
       "fee": 4.15,
       "uuid": "C1099000000022236406"
-    },
-    {
-      "market": "KRW-HOOK",
-      "type": "sell",
-      "time": "2025-12-20T00:12:50+09:00",
-      "price": 50.9,
-      "volume": 1134.11050077,
-      "funds": 57726.224489193,
-      "fee": 23.09,
-      "uuid": "C0709000000059712397"
-    },
-    {
-      "market": "KRW-ICX",
-      "type": "sell",
-      "time": "2025-12-20T00:12:49+09:00",
-      "price": 79.2,
-      "volume": 289.50696427,
-      "funds": 22928.951570184003,
-      "fee": 0.0,
-      "uuid": "C0115000000187884379"
-    },
-    {
-      "market": "KRW-SIX",
-      "type": "sell",
-      "time": "2025-12-19T22:26:38+09:00",
-      "price": 18.7,
-      "volume": 649.82581713,
-      "funds": 12151.742780331,
-      "fee": 4.85,
-      "uuid": "C0474000000103722574"
     }
   ],
   "daily_profits": {},
