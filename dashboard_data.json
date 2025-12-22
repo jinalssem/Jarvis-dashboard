@@ -1,49 +1,61 @@
 {
-  "last_update": "2025-12-23T02:39:20.532949",
+  "last_update": "2025-12-23T02:44:58.724838",
   "today_profit": 355.89244523870184,
   "today_profit_percent": 0.192885890041898,
-  "total_profit": 9193.812502248098,
-  "total_profit_percent": 4.982844483211886,
+  "total_profit": 9714.808844768493,
+  "total_profit_percent": 5.265213059954834,
   "total_investment": 184509.320594366,
   "holdings": [
     {
       "market": "KRW-LRC",
       "amount": 115.43802801,
       "avg_price": 84.6,
-      "current_price": 83.2,
-      "value": 9604.443930432,
-      "profit": -161.613239213999,
-      "profit_rate": -0.016548463356973894
+      "current_price": 83.24,
+      "value": 9609.0614515524,
+      "profit": -156.99571809359992,
+      "profit_rate": -0.016075650118203305
     },
     {
       "market": "KRW-AAVE",
       "amount": 0.0846686,
       "avg_price": 230875.0,
-      "current_price": 235000.0,
-      "value": 19897.121,
-      "profit": 349.257975,
-      "profit_rate": 0.017866811044937737
+      "current_price": 235100.0,
+      "value": 19905.58786,
+      "profit": 357.724835,
+      "profit_rate": 0.01829994585814835
     },
     {
       "market": "KRW-COMP",
       "amount": 1.92742108,
       "avg_price": 35759.0,
-      "current_price": 36160.0,
-      "value": 69695.5462528,
-      "profit": 772.89585308,
-      "profit_rate": 0.011213960121927347
+      "current_price": 36240.0,
+      "value": 69849.7399392,
+      "profit": 927.08953948,
+      "profit_rate": 0.01345115914874577
     },
     {
       "market": "KRW-YGG",
       "amount": 862.7275,
       "avg_price": 100.0,
-      "current_price": 97.19,
-      "value": 83848.48572499999,
-      "profit": -2424.264275000002,
-      "profit_rate": -0.028100000000000024
+      "current_price": 97.6,
+      "value": 84202.204,
+      "profit": -2070.546000000005,
+      "profit_rate": -0.024000000000000056
     }
   ],
   "trades": [
+    {
+      "market": "KRW-AZIT",
+      "type": "buy",
+      "time": "2025-12-23T02:43:44.590128",
+      "price": 8.82,
+      "volume": 1107.59493671,
+      "funds": 9768.9873417822,
+      "cycle_status": "holding",
+      "profit": 0,
+      "buy_count": 1,
+      "bot_trade": true
+    },
     {
       "market": "KRW-ETH",
       "type": "buy",
