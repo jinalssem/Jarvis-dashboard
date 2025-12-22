@@ -1,58 +1,70 @@
 {
-  "last_update": "2025-12-23T00:36:52.630665",
+  "last_update": "2025-12-23T00:42:34.308296",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": 6878.036320880304,
-  "total_profit_percent": 3.728276016296608,
+  "total_profit": 7261.803735190295,
+  "total_profit_percent": 3.936299175794112,
   "total_investment": 184483.023542673,
   "holdings": [
     {
       "market": "KRW-LRC",
       "amount": 115.43802801,
       "avg_price": 84.6,
-      "current_price": 83.25,
-      "value": 9610.2158318325,
-      "profit": -155.84133781349934,
-      "profit_rate": -0.01595744680851057
+      "current_price": 83.54,
+      "value": 9643.692859955401,
+      "profit": -122.36430969059862,
+      "profit_rate": -0.012529550827423028
     },
     {
       "market": "KRW-AAVE",
       "amount": 0.04189416,
       "avg_price": 233300.0,
-      "current_price": 229300.0,
-      "value": 9606.330888,
-      "profit": -167.57664,
-      "profit_rate": -0.017145306472353194
+      "current_price": 231600.0,
+      "value": 9702.687456,
+      "profit": -71.220072,
+      "profit_rate": -0.007286755250750107
     },
     {
       "market": "KRW-COMP",
       "amount": 1.92742108,
       "avg_price": 35759.0,
-      "current_price": 35740.0,
-      "value": 68886.0293992,
-      "profit": -36.62100052,
-      "profit_rate": -0.0005313347688693756
+      "current_price": 35800.0,
+      "value": 69001.674664,
+      "profit": 79.02426428,
+      "profit_rate": 0.0011465645012444419
     },
     {
       "market": "KRW-XPLA",
       "amount": 311.42678739,
       "avg_price": 31.3,
-      "current_price": 30.66,
-      "value": 9548.3453013774,
-      "profit": -199.3131439296002,
-      "profit_rate": -0.02044728434504794
+      "current_price": 30.55,
+      "value": 9514.0883547645,
+      "profit": -233.5700905425,
+      "profit_rate": -0.023961661341853034
     },
     {
       "market": "KRW-YGG",
       "amount": 862.7275,
       "avg_price": 100.0,
-      "current_price": 96.68,
-      "value": 83408.4947,
-      "profit": -2864.255299999994,
-      "profit_rate": -0.03319999999999993
+      "current_price": 96.88,
+      "value": 83581.04019999999,
+      "profit": -2691.7098000000037,
+      "profit_rate": -0.031200000000000047
     }
   ],
   "trades": [
+    {
+      "market": "KRW-BLY",
+      "type": "buy",
+      "time": "2025-12-23T00:41:19.739704",
+      "price": 2.6,
+      "volume": 3752.82167043,
+      "funds": 9757.336343118,
+      "cycle_status": "holding",
+      "profit": 0,
+      "buy_count": 1,
+      "bot_trade": true
+    },
     {
       "market": "KRW-LM",
       "type": "buy",
