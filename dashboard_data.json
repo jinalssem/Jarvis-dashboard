@@ -328,6 +328,18 @@
   ],
   "raw_trades": [
     {
+      "market": "KRW-YGG",
+      "type": "buy",
+      "time": "2025-12-23T06:07:57.394645",
+      "price": 93.2,
+      "volume": 104.84549086,
+      "funds": 9771.599748152,
+      "fee": 0,
+      "cycle_status": "holding",
+      "profit": 0,
+      "bot_trade": true
+    },
+    {
       "market": "KRW-LRC",
       "type": "sell",
       "time": "2025-12-23T05:52:13.687329",
