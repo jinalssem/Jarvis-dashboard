@@ -1,9 +1,9 @@
 {
-  "last_update": "2025-12-22T18:55:49.196505",
+  "last_update": "2025-12-22T18:58:49.193790",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": 1803.4192975554454,
-  "total_profit_percent": 0.9845480865595715,
+  "total_profit": 818.0852380057073,
+  "total_profit_percent": 0.4466206260590309,
   "total_investment": 183172.2921586651,
   "holdings": [
     {
@@ -37,10 +37,10 @@
       "market": "KRW-BIOT",
       "amount": 110711.69208424,
       "avg_price": 0.8262,
-      "current_price": 0.8393,
-      "value": 92920.32316630264,
-      "profit": 1450.323166303544,
-      "profit_rate": 0.015855725006051802
+      "current_price": 0.8304,
+      "value": 91934.9891067529,
+      "profit": 464.98910675380597,
+      "profit_rate": 0.005083514887436433
     },
     {
       "market": "KRW-SAPIEN",
@@ -53,6 +53,18 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-SWAP",
+      "type": "buy",
+      "time": "2025-12-22T18:57:41.576970",
+      "price": 81.7,
+      "volume": 119.56130888,
+      "funds": 9768.158935496,
+      "cycle_status": "holding",
+      "profit": 0,
+      "buy_count": 1,
+      "bot_trade": true
+    },
     {
       "market": "KRW-AAVE",
       "type": "buy",
