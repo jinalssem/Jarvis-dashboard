@@ -179,6 +179,18 @@
   ],
   "raw_trades": [
     {
+      "market": "KRW-ETH",
+      "type": "buy",
+      "time": "2025-12-23T02:32:28.161348",
+      "price": 4418000.0,
+      "volume": 0.00398204,
+      "funds": 17592.652720000002,
+      "fee": 0,
+      "cycle_status": "holding",
+      "profit": 0,
+      "bot_trade": true
+    },
+    {
       "market": "KRW-CRTS",
       "type": "buy",
       "time": "2025-12-23T01:54:03.436700",
@@ -2336,16 +2348,6 @@
       "funds": 53462.34413960401,
       "fee": 21.38,
       "uuid": "C0720000000082734097"
-    },
-    {
-      "market": "KRW-XPLA",
-      "type": "buy",
-      "time": "2025-12-20T17:12:55+09:00",
-      "price": 38.96,
-      "volume": 2689.93332994,
-      "funds": 104799.8025344624,
-      "fee": 41.91,
-      "uuid": "C0720000000082730339"
     }
   ],
   "daily_profits": {
