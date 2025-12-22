@@ -328,6 +328,18 @@
     {
       "market": "KRW-AAVE",
       "type": "buy",
+      "time": "2025-12-22T18:54:41.405588",
+      "price": 233300.0,
+      "volume": 0.04189416,
+      "funds": 9773.907528,
+      "fee": 0,
+      "cycle_status": "holding",
+      "profit": 0,
+      "bot_trade": true
+    },
+    {
+      "market": "KRW-AAVE",
+      "type": "buy",
       "time": "2025-12-22T18:28:56.361371",
       "price": 234400.0,
       "volume": 0.04170151,
@@ -2403,16 +2415,6 @@
       "funds": 9757.12250719,
       "fee": 3.9,
       "uuid": "C0777000000130205186"
-    },
-    {
-      "market": "KRW-HAEDAL",
-      "type": "sell",
-      "time": "2025-12-20T00:12:51+09:00",
-      "price": 56.2,
-      "volume": 184.61965575,
-      "funds": 10375.62465315,
-      "fee": 4.15,
-      "uuid": "C1099000000022236406"
     }
   ],
   "daily_profits": {},
