@@ -1,19 +1,19 @@
 {
-  "last_update": "2025-12-22T19:41:35.566796",
+  "last_update": "2025-12-22T19:44:38.203326",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": 75.31183331320086,
-  "total_profit_percent": 0.05470358084515514,
-  "total_investment": 137672.584042313,
+  "total_profit": -1061.2005550760023,
+  "total_profit_percent": -0.6354460163674782,
+  "total_investment": 167000.898226154,
   "holdings": [
     {
       "market": "KRW-LRC",
       "amount": 115.43802801,
       "avg_price": 84.6,
-      "current_price": 84.42,
-      "value": 9745.2783246042,
-      "profit": -20.778845041799148,
-      "profit_rate": -0.002127659574467998
+      "current_price": 84.66,
+      "value": 9772.9834513266,
+      "profit": 6.926281680600262,
+      "profit_rate": 0.0007092198581560553
     },
     {
       "market": "KRW-CTC",
@@ -28,40 +28,53 @@
       "market": "KRW-COMP",
       "amount": 1.92742108,
       "avg_price": 35759.0,
-      "current_price": 35940.0,
-      "value": 69271.5136152,
-      "profit": 348.86321548,
-      "profit_rate": 0.0050616627981766825
+      "current_price": 35860.0,
+      "value": 69117.3199288,
+      "profit": 194.66952908,
+      "profit_rate": 0.0028244637713582595
     },
     {
       "market": "KRW-XPLA",
       "amount": 302.27272727,
       "avg_price": 32.3,
-      "current_price": 32.3,
-      "value": 9763.409090821,
-      "profit": 0.0,
-      "profit_rate": 0.0
+      "current_price": 32.2,
+      "value": 9733.181818094,
+      "profit": -30.227272726998283,
+      "profit_rate": -0.0030959752321979665
     },
     {
       "market": "KRW-AI16Z",
       "amount": 1502.36028186,
       "avg_price": 24.1,
-      "current_price": 23.85,
-      "value": 35831.292722361,
-      "profit": -375.590070465,
-      "profit_rate": -0.01037344398340249
+      "current_price": 23.09,
+      "value": 34689.4989081474,
+      "profit": -1517.3838846786023,
+      "profit_rate": -0.04190871369294612
     },
     {
       "market": "KRW-SAPIEN",
-      "amount": 17.7579,
-      "avg_price": 183.0,
+      "amount": 180.68779747,
+      "avg_price": 180.3,
       "current_price": 181.0,
-      "value": 3214.1799,
-      "profit": -35.5158,
-      "profit_rate": -0.01092896174863388
+      "value": 32704.49134207,
+      "profit": 126.48145822899794,
+      "profit_rate": 0.0038824181919023216
     }
   ],
   "trades": [
+    {
+      "market": "KRW-SAPIEN",
+      "type": "buy",
+      "time": "2025-12-22T19:36:01+09:00",
+      "price": 180.0,
+      "volume": 162.92989747,
+      "funds": 29327.381544599997,
+      "fee": 11.69,
+      "uuid": "C1208000000001170666",
+      "cycle_status": "external",
+      "profit": 0,
+      "bot_trade": false
+    },
     {
       "market": "KRW-AI16Z",
       "type": "buy",
