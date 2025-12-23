@@ -1,11 +1,48 @@
 {
-  "last_update": "",
+  "last_update": "2025-12-23T09:43:09.662369",
   "today_profit": 0,
-  "today_profit_percent": 0,
+  "today_profit_percent": 0.0,
   "total_profit": 0,
-  "total_profit_percent": 0,
-  "total_investment": 0,
-  "holdings": [],
+  "total_profit_percent": 0.0,
+  "total_investment": 122994.33978572201,
+  "holdings": [
+    {
+      "market": "KRW-COMP",
+      "amount": 1.92742108,
+      "avg_price": 35759.0,
+      "current_price": 36400.0,
+      "value": 70158.127312,
+      "profit": 1235.47691228,
+      "profit_rate": 0.017925557202382616
+    },
+    {
+      "market": "KRW-BLY",
+      "amount": 3752.82167043,
+      "avg_price": 2.6,
+      "current_price": 2.64,
+      "value": 9907.4492099352,
+      "profit": 150.1128668172001,
+      "profit_rate": 0.015384615384615398
+    },
+    {
+      "market": "KRW-YGG",
+      "amount": 122.68115199,
+      "avg_price": 95.6,
+      "current_price": 97.35,
+      "value": 11943.0101462265,
+      "profit": 214.6920159825,
+      "profit_rate": 0.018305439330543936
+    },
+    {
+      "market": "KRW-SAPIEN",
+      "amount": 185.14792564,
+      "avg_price": 176.0,
+      "current_price": 175.0,
+      "value": 32400.886987,
+      "profit": -185.14792564,
+      "profit_rate": -0.005681818181818182
+    }
+  ],
   "trades": [],
   "daily_profits": {},
   "trade_cycles": [],
