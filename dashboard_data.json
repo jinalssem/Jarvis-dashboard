@@ -1,28 +1,28 @@
 {
-  "last_update": "2025-12-23T09:30:30.545879",
+  "last_update": "2025-12-23T09:34:59.763224",
   "today_profit": 210674.5626637077,
-  "today_profit_percent": 147.81318540459773,
-  "total_profit": 211506.95823221674,
-  "total_profit_percent": 148.3972095931012,
-  "total_investment": 142527.584455368,
+  "today_profit_percent": 158.68780712860723,
+  "total_profit": 211755.06673341573,
+  "total_profit_percent": 159.5016824216069,
+  "total_investment": 132760.396955368,
   "holdings": [
     {
       "market": "KRW-LRC",
       "amount": 115.43802801,
       "avg_price": 84.6,
-      "current_price": 83.19,
-      "value": 9603.2895501519,
-      "profit": -162.7676194940996,
-      "profit_rate": -0.01666666666666663
+      "current_price": 83.09,
+      "value": 9591.7457473509,
+      "profit": -174.31142229509894,
+      "profit_rate": -0.017848699763593275
     },
     {
       "market": "KRW-COMP",
       "amount": 1.92742108,
       "avg_price": 35759.0,
-      "current_price": 36350.0,
-      "value": 70061.756258,
-      "profit": 1139.10585828,
-      "profit_rate": 0.016527307810621103
+      "current_price": 36400.0,
+      "value": 70158.127312,
+      "profit": 1235.47691228,
+      "profit_rate": 0.017925557202382616
     },
     {
       "market": "KRW-BLY",
@@ -32,15 +32,6 @@
       "value": 9986.258465014229,
       "profit": 228.92212189622978,
       "profit_rate": 0.02346153846153844
-    },
-    {
-      "market": "KRW-CSPR",
-      "amount": 1484.375,
-      "avg_price": 6.58,
-      "current_price": 6.47,
-      "value": 9603.90625,
-      "profit": -163.28125000000048,
-      "profit_rate": -0.016717325227963573
     },
     {
       "market": "KRW-YGG",
@@ -62,6 +53,18 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-LRC",
+      "type": "sell",
+      "time": "2025-12-23T09:33:49.730040",
+      "price": 0.0,
+      "volume": 0.0,
+      "funds": 0.0,
+      "cycle_status": "completed",
+      "profit": 0.0,
+      "avg_buy_price": 81.1,
+      "bot_trade": true
+    },
     {
       "market": "KRW-CSPR",
       "type": "sell",
@@ -139,8 +142,8 @@
       "type": "buy",
       "time": "2025-12-23T08:49:59.912596",
       "price": 81.1,
-      "volume": 120.48556589,
-      "funds": 9771.379393678999,
+      "volume": 5.047537880000007,
+      "funds": 409.35532206800053,
       "cycle_status": "holding",
       "profit": 0,
       "buy_count": 1,
@@ -180,18 +183,6 @@
       "cycle_status": "holding",
       "profit": 0,
       "buy_count": 1,
-      "bot_trade": true
-    },
-    {
-      "market": "KRW-LRC",
-      "type": "sell",
-      "time": "2025-12-23T05:52:13.679892",
-      "price": 82.62,
-      "volume": 115.43802801,
-      "funds": 9537.4898741862,
-      "cycle_status": "completed",
-      "profit": 9199.4468659422,
-      "avg_buy_price": 81.7,
       "bot_trade": true
     },
     {
@@ -1230,6 +1221,16 @@
       "market": "KRW-CSPR",
       "profit": 0.0,
       "sell_time": "2025-12-23T09:21:33.183326"
+    },
+    {
+      "market": "KRW-LRC",
+      "profit": 241.2654785409013,
+      "sell_time": "2025-12-23T09:33:49.726320"
+    },
+    {
+      "market": "KRW-LRC",
+      "profit": 0.0,
+      "sell_time": "2025-12-23T09:33:49.730040"
     }
   ],
   "start_date": "2025-12-23"
