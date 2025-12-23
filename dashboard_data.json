@@ -1,9 +1,9 @@
 {
   "last_update": "2025-12-23T09:30:30.545879",
-  "today_profit": 210433.2971851668,
-  "today_profit_percent": 147.6439090645385,
-  "total_profit": 211265.69275367583,
-  "total_profit_percent": 148.22793325304193,
+  "today_profit": 210674.5626637077,
+  "today_profit_percent": 147.81318540459773,
+  "total_profit": 211506.95823221674,
+  "total_profit_percent": 148.3972095931012,
   "total_investment": 142527.584455368,
   "holdings": [
     {
@@ -352,6 +352,34 @@
     }
   ],
   "raw_trades": [
+    {
+      "market": "KRW-LRC",
+      "type": "sell",
+      "time": "2025-12-23T09:33:49.731107",
+      "price": 0,
+      "volume": 0.0,
+      "funds": 0.0,
+      "fee": 0.0,
+      "cycle_status": "partial",
+      "profit": 0,
+      "profit_unknown": false,
+      "bot_trade": true,
+      "action": "sell",
+      "profit_rate": -0.01666666666666663
+    },
+    {
+      "market": "KRW-LRC",
+      "type": "sell",
+      "time": "2025-12-23T09:33:49.727471",
+      "price": 83.19,
+      "volume": 115.43802801,
+      "funds": 9603.2895501519,
+      "fee": 0,
+      "cycle_status": "partial",
+      "profit": 241.2654785409013,
+      "profit_unknown": false,
+      "bot_trade": true
+    },
     {
       "market": "KRW-BLY",
       "type": "sell",
@@ -1110,7 +1138,7 @@
     }
   ],
   "daily_profits": {
-    "2025-12-23": 210433.2971851668
+    "2025-12-23": 210674.5626637077
   },
   "trade_cycles": [
     {
