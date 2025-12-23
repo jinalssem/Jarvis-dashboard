@@ -1,10 +1,10 @@
 {
-  "last_update": "2025-12-23T09:18:52.805901",
+  "last_update": "2025-12-23T09:22:42.981194",
   "today_profit": 210433.2971851668,
-  "today_profit_percent": 102.35601787651154,
-  "total_profit": 211432.56737955703,
-  "total_profit_percent": 102.84206889243262,
-  "total_investment": 205589.570159955,
+  "today_profit_percent": 134.26136355722898,
+  "total_profit": 211860.47736172818,
+  "total_profit_percent": 135.17193787750094,
+  "total_investment": 156734.0682455303,
   "holdings": [
     {
       "market": "KRW-LRC",
@@ -19,67 +19,70 @@
       "market": "KRW-COMP",
       "amount": 1.92742108,
       "avg_price": 35759.0,
-      "current_price": 36460.0,
-      "value": 70273.7725768,
-      "profit": 1351.12217708,
-      "profit_rate": 0.019603456472496436
+      "current_price": 36370.0,
+      "value": 70100.3046796,
+      "profit": 1177.65427988,
+      "profit_rate": 0.017086607567325707
     },
     {
       "market": "KRW-BLY",
       "amount": 3752.82167043,
       "avg_price": 2.6,
-      "current_price": 2.665,
-      "value": 10001.269751695949,
-      "profit": 243.9334085779498,
-      "profit_rate": 0.024999999999999977
-    },
-    {
-      "market": "KRW-SWAP",
-      "amount": 617.72034283,
-      "avg_price": 79.09,
-      "current_price": 78.11,
-      "value": 48250.135978451304,
-      "profit": -605.3659359734025,
-      "profit_rate": -0.012390947022379617
+      "current_price": 2.663,
+      "value": 9993.764108355088,
+      "profit": 236.42776523708895,
+      "profit_rate": 0.024230769230769122
     },
     {
       "market": "KRW-CSPR",
       "amount": 1484.375,
       "avg_price": 6.58,
-      "current_price": 6.46,
-      "value": 9589.0625,
-      "profit": -178.12500000000017,
-      "profit_rate": -0.018237082066869317
+      "current_price": 6.517,
+      "value": 9673.671875,
+      "profit": -93.51562499999959,
+      "profit_rate": -0.009574468085106341
     },
     {
       "market": "KRW-YGG",
       "amount": 122.68115199,
       "avg_price": 95.6,
-      "current_price": 96.57,
-      "value": 11847.3188476743,
-      "profit": 119.00071743029986,
-      "profit_rate": 0.01014644351464434
+      "current_price": 97.07,
+      "value": 11908.6594236693,
+      "profit": 180.34129342529985,
+      "profit_rate": 0.015376569037656893
     },
     {
       "market": "KRW-PUMPBTC",
       "amount": 355.96301153,
       "avg_price": 39.91,
-      "current_price": 40.57,
-      "value": 14441.419377772101,
-      "profit": 234.93558760980133,
-      "profit_rate": 0.016537208719619237
+      "current_price": 40.69,
+      "value": 14484.1349391557,
+      "profit": 277.6511489934004,
+      "profit_rate": 0.019543973941368108
     },
     {
       "market": "KRW-SAPIEN",
       "amount": 185.14792564,
       "avg_price": 176.0,
-      "current_price": 176.0,
-      "value": 32586.034912640003,
-      "profit": 0.0,
-      "profit_rate": 0.0
+      "current_price": 175.0,
+      "value": 32400.886987,
+      "profit": -185.14792564,
+      "profit_rate": -0.005681818181818182
     }
   ],
   "trades": [
+    {
+      "market": "KRW-CSPR",
+      "type": "sell",
+      "time": "2025-12-23T09:21:33.183326",
+      "price": 0.0,
+      "volume": 0.0,
+      "funds": 0.0,
+      "cycle_status": "completed",
+      "profit": 0.0,
+      "avg_buy_price": 6.490483093278472,
+      "bot_trade": true
+    },
     {
       "market": "KRW-ADA",
       "type": "buy",
@@ -157,8 +160,8 @@
       "type": "buy",
       "time": "2025-12-23T06:57:51.685601",
       "price": 6.490483093278472,
-      "volume": 2806.75326364,
-      "funds": 18217.184604659597,
+      "volume": 1322.3782636400001,
+      "funds": 8582.873763074364,
       "cycle_status": "holding",
       "profit": 0,
       "buy_count": 2,
@@ -1155,6 +1158,16 @@
       "market": "KRW-SWAP",
       "profit": 47544.752225113276,
       "sell_time": "2025-12-23T09:13:51.927002"
+    },
+    {
+      "market": "KRW-CSPR",
+      "profit": 39.36103341476701,
+      "sell_time": "2025-12-23T09:21:33.179193"
+    },
+    {
+      "market": "KRW-CSPR",
+      "profit": 0.0,
+      "sell_time": "2025-12-23T09:21:33.183326"
     }
   ],
   "start_date": "2025-12-23"
