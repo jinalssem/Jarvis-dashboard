@@ -360,6 +360,18 @@
   ],
   "raw_trades": [
     {
+      "market": "KRW-DOGE",
+      "type": "buy",
+      "time": "2025-12-23T09:09:50.910017",
+      "price": 194.0,
+      "volume": 90.68181818,
+      "funds": 17592.27272692,
+      "fee": 0,
+      "cycle_status": "holding",
+      "profit": 0,
+      "bot_trade": true
+    },
+    {
       "market": "KRW-FITFI",
       "type": "sell",
       "time": "2025-12-23T09:05:58.584641",
