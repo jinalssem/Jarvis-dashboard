@@ -1,37 +1,46 @@
 {
-  "last_update": "2025-12-24T06:12:44.561244",
+  "last_update": "2025-12-24T06:19:59.030338",
   "today_profit": 0,
   "today_profit_percent": 0.0,
   "total_profit": 0,
   "total_profit_percent": 0.0,
-  "total_investment": 227572.5878535072,
+  "total_investment": 366397.281953028,
   "holdings": [
     {
       "market": "KRW-BTC",
       "amount": 8.994e-05,
       "avg_price": 130426000.0,
-      "current_price": 130593000.0,
-      "value": 11745.53442,
-      "profit": 15.019979999999999,
-      "profit_rate": 0.001280419548249582
+      "current_price": 130868000.0,
+      "value": 11770.26792,
+      "profit": 39.753479999999996,
+      "profit_rate": 0.003388894852253385
     },
     {
       "market": "KRW-ETH",
       "amount": 0.00803692,
       "avg_price": 4378142.0,
-      "current_price": 4414000.0,
-      "value": 35474.96488,
-      "profit": 288.18787735999996,
-      "profit_rate": 0.008190232294886735
+      "current_price": 4426000.0,
+      "value": 35571.40792,
+      "profit": 384.63091735999996,
+      "profit_rate": 0.010931121009779948
     },
     {
       "market": "KRW-MAY",
       "amount": 9142.47451472,
       "avg_price": 19.76,
-      "current_price": 19.55,
-      "value": 178735.376762776,
-      "profit": -1919.9196480912076,
-      "profit_rate": -0.010627530364372513
+      "current_price": 19.53,
+      "value": 178552.5272724816,
+      "profit": -2102.7691383856036,
+      "profit_rate": -0.011639676113360345
+    },
+    {
+      "market": "KRW-THQ",
+      "amount": 1485.07374946,
+      "avg_price": 93.48,
+      "current_price": 97.49,
+      "value": 144779.8398348554,
+      "profit": 5955.145735334587,
+      "profit_rate": 0.04289687633718432
     }
   ],
   "trades": [],
