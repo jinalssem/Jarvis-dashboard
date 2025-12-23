@@ -1,9 +1,9 @@
 {
-  "last_update": "2025-12-23T09:07:09.654179",
+  "last_update": "2025-12-23T09:11:07.192769",
   "today_profit": 162849.18392663874,
   "today_profit_percent": 79.21081979009784,
-  "total_profit": 163880.04766478244,
-  "total_profit_percent": 79.71223809519068,
+  "total_profit": 164135.0341553127,
+  "total_profit_percent": 79.83626505352902,
   "total_investment": 205589.570159955,
   "holdings": [
     {
@@ -19,28 +19,28 @@
       "market": "KRW-COMP",
       "amount": 1.92742108,
       "avg_price": 35759.0,
-      "current_price": 36440.0,
-      "value": 70235.2241552,
-      "profit": 1312.57375548,
-      "profit_rate": 0.019044156715791828
+      "current_price": 36460.0,
+      "value": 70273.7725768,
+      "profit": 1351.12217708,
+      "profit_rate": 0.019603456472496436
     },
     {
       "market": "KRW-BLY",
       "amount": 3752.82167043,
       "avg_price": 2.6,
-      "current_price": 2.66,
-      "value": 9982.5056433438,
-      "profit": 225.16930022580019,
-      "profit_rate": 0.023076923076923096
+      "current_price": 2.645,
+      "value": 9926.21331828735,
+      "profit": 168.87697516934972,
+      "profit_rate": 0.01730769230769228
     },
     {
       "market": "KRW-SWAP",
       "amount": 617.72034283,
       "avg_price": 79.09,
-      "current_price": 77.82,
-      "value": 48070.997079030596,
-      "profit": -784.5048353941064,
-      "profit_rate": -0.01605765583512467
+      "current_price": 78.36,
+      "value": 48404.566064158804,
+      "profit": -450.9358502659025,
+      "profit_rate": -0.009229991149323605
     },
     {
       "market": "KRW-CSPR",
@@ -55,19 +55,19 @@
       "market": "KRW-YGG",
       "amount": 122.68115199,
       "avg_price": 95.6,
-      "current_price": 96.74,
-      "value": 11868.1746435126,
-      "profit": 139.85651326860008,
-      "profit_rate": 0.011924686192468626
+      "current_price": 96.07,
+      "value": 11785.9782716793,
+      "profit": 57.66014143529986,
+      "profit_rate": 0.004916317991631788
     },
     {
       "market": "KRW-PUMPBTC",
       "amount": 355.96301153,
       "avg_price": 39.91,
-      "current_price": 40.47,
-      "value": 14405.8230766191,
-      "profit": 199.3392864568008,
-      "profit_rate": 0.014031571034828423
+      "current_price": 40.53,
+      "value": 14427.180857310901,
+      "profit": 220.69706714860163,
+      "profit_rate": 0.015534953645702947
     },
     {
       "market": "KRW-SAPIEN",
@@ -80,6 +80,18 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-DOGE",
+      "type": "buy",
+      "time": "2025-12-23T09:09:50.908074",
+      "price": 194.0,
+      "volume": 90.68181818,
+      "funds": 17592.27272692,
+      "cycle_status": "holding",
+      "profit": 0,
+      "buy_count": 1,
+      "bot_trade": true
+    },
     {
       "market": "KRW-POLYX",
       "type": "sell",
