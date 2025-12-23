@@ -1,9 +1,9 @@
 {
   "last_update": "2025-12-23T09:18:52.805901",
-  "today_profit": 210393.93615175202,
-  "today_profit_percent": 102.3368724337811,
-  "total_profit": 211393.20634614225,
-  "total_profit_percent": 102.82292344970216,
+  "today_profit": 210433.2971851668,
+  "today_profit_percent": 102.35601787651154,
+  "total_profit": 211432.56737955703,
+  "total_profit_percent": 102.84206889243262,
   "total_investment": 205589.570159955,
   "holdings": [
     {
@@ -371,6 +371,62 @@
     }
   ],
   "raw_trades": [
+    {
+      "market": "KRW-CSPR",
+      "type": "sell",
+      "time": "2025-12-23T09:21:33.184351",
+      "price": 0,
+      "volume": 0.0,
+      "funds": 0.0,
+      "fee": 0.0,
+      "cycle_status": "partial",
+      "profit": 0,
+      "profit_unknown": false,
+      "bot_trade": true,
+      "action": "sell",
+      "profit_rate": -0.009574468085106341
+    },
+    {
+      "market": "KRW-CSPR",
+      "type": "sell",
+      "time": "2025-12-23T09:21:33.180619",
+      "price": 6.517,
+      "volume": 1484.375,
+      "funds": 9673.671875,
+      "fee": 0,
+      "cycle_status": "partial",
+      "profit": 39.36103341476701,
+      "profit_unknown": false,
+      "bot_trade": true
+    },
+    {
+      "market": "KRW-BLY",
+      "type": "sell",
+      "time": "2025-12-23T09:21:32.458350",
+      "price": 0,
+      "volume": 0.0,
+      "funds": 0.0,
+      "fee": 0.0,
+      "cycle_status": "partial",
+      "profit": 0,
+      "profit_unknown": true,
+      "bot_trade": true,
+      "action": "sell",
+      "profit_rate": 0.024999999999999977
+    },
+    {
+      "market": "KRW-BLY",
+      "type": "sell",
+      "time": "2025-12-23T09:21:32.451550",
+      "price": 2.665,
+      "volume": 3752.82167043,
+      "funds": 10001.269751695949,
+      "fee": 0,
+      "cycle_status": "partial",
+      "profit": 0,
+      "profit_unknown": true,
+      "bot_trade": true
+    },
     {
       "market": "KRW-ADA",
       "type": "buy",
@@ -1017,7 +1073,7 @@
     }
   ],
   "daily_profits": {
-    "2025-12-23": 210393.93615175202
+    "2025-12-23": 210433.2971851668
   },
   "trade_cycles": [
     {
