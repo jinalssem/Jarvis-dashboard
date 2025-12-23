@@ -1,10 +1,10 @@
 {
-  "last_update": "2025-12-23T14:39:29.754735",
+  "last_update": "2025-12-23T14:42:49.498532",
   "today_profit": 0,
   "today_profit_percent": 0.0,
   "total_profit": 0,
   "total_profit_percent": 0.0,
-  "total_investment": 84695.41289011748,
+  "total_investment": 94438.75305410348,
   "holdings": [
     {
       "market": "KRW-CHR",
@@ -19,19 +19,19 @@
       "market": "KRW-GHX",
       "amount": 1982.06715112,
       "avg_price": 18.37,
-      "current_price": 17.82,
-      "value": 35320.4366329584,
-      "profit": -1090.1369331160015,
-      "profit_rate": -0.02994011976047908
+      "current_price": 17.85,
+      "value": 35379.898647492,
+      "profit": -1030.6749185823992,
+      "profit_rate": -0.028307022318998343
     },
     {
       "market": "KRW-MVC",
       "amount": 5533.14393939,
       "avg_price": 3.432,
-      "current_price": 3.42,
-      "value": 18923.3522727138,
-      "profit": -66.39772727268006,
-      "profit_rate": -0.0034965034965034995
+      "current_price": 3.5,
+      "value": 19366.003787865,
+      "profit": 376.2537878785203,
+      "profit_rate": 0.019813519813519833
     },
     {
       "market": "KRW-BLY",
@@ -41,6 +41,15 @@
       "value": 9757.820855621409,
       "profit": 3.8101604278095804,
       "profit_rate": 0.000390624999999957
+    },
+    {
+      "market": "KRW-XPLA",
+      "amount": 340.67622951,
+      "avg_price": 28.6,
+      "current_price": 28.59,
+      "value": 9739.9334016909,
+      "profit": -3.4067622951005325,
+      "profit_rate": -0.0003496503496504043
     }
   ],
   "trades": [],
