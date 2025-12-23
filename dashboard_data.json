@@ -1,11 +1,20 @@
 {
-  "last_update": "2025-12-23T13:53:05.176122",
+  "last_update": "2025-12-23T13:56:20.912616",
   "today_profit": 0,
   "today_profit_percent": 0.0,
   "total_profit": 0,
   "total_profit_percent": 0.0,
-  "total_investment": 19522.998036975798,
+  "total_investment": 39064.0766658388,
   "holdings": [
+    {
+      "market": "KRW-CHR",
+      "amount": 335.18145161,
+      "avg_price": 58.3,
+      "current_price": 58.3,
+      "value": 19541.078628863,
+      "profit": 0.0,
+      "profit_rate": 0.0
+    },
     {
       "market": "KRW-BLY",
       "amount": 3810.16042781,
@@ -19,10 +28,10 @@
       "market": "KRW-AZIT",
       "amount": 1107.59493671,
       "avg_price": 8.82,
-      "current_price": 8.704,
-      "value": 9640.50632912384,
-      "profit": -128.48101265835962,
-      "profit_rate": -0.013151927437641684
+      "current_price": 8.741,
+      "value": 9681.487341782109,
+      "profit": -87.5000000000907,
+      "profit_rate": -0.008956916099773313
     }
   ],
   "trades": [],
