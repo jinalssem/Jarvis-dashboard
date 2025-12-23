@@ -1,28 +1,28 @@
 {
-  "last_update": "2025-12-23T20:42:40.537735",
+  "last_update": "2025-12-23T20:46:01.975405",
   "today_profit": 0,
   "today_profit_percent": 0.0,
   "total_profit": 0,
   "total_profit_percent": 0.0,
-  "total_investment": 96228.8300472566,
+  "total_investment": 127671.3300472502,
   "holdings": [
     {
       "market": "KRW-BTC",
       "amount": 8.994e-05,
       "avg_price": 130426000.0,
-      "current_price": 130847000.0,
-      "value": 11768.37918,
-      "profit": 37.86474,
-      "profit_rate": 0.003227884010856731
+      "current_price": 130875000.0,
+      "value": 11770.8975,
+      "profit": 40.38306,
+      "profit_rate": 0.0034425651327189364
     },
     {
       "market": "KRW-ETH",
       "amount": 0.00398204,
       "avg_price": 4418000.0,
-      "current_price": 4431000.0,
-      "value": 17644.41924,
-      "profit": 51.76652,
-      "profit_rate": 0.0029425079221367134
+      "current_price": 4433000.0,
+      "value": 17652.38332,
+      "profit": 59.7306,
+      "profit_rate": 0.0033952014486192846
     },
     {
       "market": "KRW-CHR",
@@ -37,19 +37,28 @@
       "market": "KRW-BLY",
       "amount": 3810.16042781,
       "avg_price": 2.56,
-      "current_price": 2.547,
-      "value": 9704.47860963207,
-      "profit": -49.53208556152962,
-      "profit_rate": -0.005078124999999961
+      "current_price": 2.539,
+      "value": 9673.99732620959,
+      "profit": -80.01336898400965,
+      "profit_rate": -0.008203124999999964
+    },
+    {
+      "market": "KRW-MED",
+      "amount": 7278.35648148,
+      "avg_price": 4.32,
+      "current_price": 4.318,
+      "value": 31427.943287030637,
+      "profit": -14.55671296296486,
+      "profit_rate": -0.00046296296296311753
     },
     {
       "market": "KRW-AVNT",
       "amount": 85.47857628,
       "avg_price": 440.0,
-      "current_price": 441.0,
-      "value": 37696.05213948,
-      "profit": 85.47857628,
-      "profit_rate": 0.0022727272727272726
+      "current_price": 444.0,
+      "value": 37952.48786832,
+      "profit": 341.91430512,
+      "profit_rate": 0.00909090909090909
     }
   ],
   "trades": [],
