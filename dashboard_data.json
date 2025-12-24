@@ -1,5 +1,5 @@
 {
-  "last_update": "2025-12-24T12:00:25.095886",
+  "last_update": "2025-12-24T12:06:46.683136",
   "today_profit": 0,
   "today_profit_percent": 0.0,
   "total_profit": 0,
@@ -53,6 +53,18 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-XRP",
+      "type": "buy",
+      "time": "2025-12-24T12:06:46.681425",
+      "price": 2685.0,
+      "volume": 6.550529,
+      "funds": 17588.170365,
+      "cycle_status": "holding",
+      "profit": 0,
+      "buy_count": 1,
+      "bot_trade": true
+    },
     {
       "market": "KRW-BLY",
       "type": "sell",
