@@ -1,5 +1,5 @@
 {
-  "last_update": "2025-12-24T13:56:53.002422",
+  "last_update": "2025-12-24T14:03:19.941522",
   "today_profit": 0,
   "today_profit_percent": 0.0,
   "total_profit": 0,
@@ -80,6 +80,18 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-DOGE",
+      "type": "buy",
+      "time": "2025-12-24T14:03:19.939598",
+      "price": 184.0,
+      "volume": 95.50531915,
+      "funds": 17572.9787236,
+      "cycle_status": "holding",
+      "profit": 0,
+      "buy_count": 1,
+      "bot_trade": true
+    },
     {
       "market": "KRW-SOL",
       "type": "buy",
