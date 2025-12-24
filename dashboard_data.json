@@ -1,19 +1,19 @@
 {
-  "last_update": "2025-12-25T01:21:39.439324",
+  "last_update": "2025-12-25T01:22:11.769941",
   "today_profit": 0,
   "today_profit_percent": 0.0,
   "total_profit": 0,
   "total_profit_percent": 0.0,
-  "total_investment": 325923.9019323118,
+  "total_investment": 395630.9019323098,
   "holdings": [
     {
       "market": "KRW-BTC",
       "amount": 0.00022728,
       "avg_price": 129029517.0,
-      "current_price": 128652000.0,
-      "value": 29240.026560000002,
-      "profit": -85.80206376,
-      "profit_rate": -0.0029258189039024305
+      "current_price": 128651000.0,
+      "value": 29239.79928,
+      "profit": -86.02934376,
+      "profit_rate": -0.002933569068541115
     },
     {
       "market": "KRW-ETH",
@@ -43,6 +43,15 @@
       "profit_rate": -0.005681818181818182
     },
     {
+      "market": "KRW-OBSR",
+      "amount": 54586.53093187,
+      "avg_price": 1.277,
+      "current_price": 1.292,
+      "value": 70525.79796397605,
+      "profit": 818.7979639780568,
+      "profit_rate": 0.011746280344557655
+    },
+    {
       "market": "KRW-DOGE",
       "amount": 51.68393782,
       "avg_price": 189.0,
@@ -55,10 +64,10 @@
       "market": "KRW-SOL",
       "amount": 0.09752852,
       "avg_price": 180400.0,
-      "current_price": 181500.0,
-      "value": 17701.426379999997,
-      "profit": 107.28137199999999,
-      "profit_rate": 0.006097560975609756
+      "current_price": 181300.0,
+      "value": 17681.920675999998,
+      "profit": 87.775668,
+      "profit_rate": 0.004988913525498891
     },
     {
       "market": "KRW-MAY",
@@ -83,7 +92,7 @@
     {
       "market": "KRW-THQ",
       "type": "buy",
-      "time": "2025-12-24T23:47:05.032491",
+      "time": "2025-12-24T23:47:11.052001",
       "price": 86.2,
       "volume": 113.36515513,
       "funds": 9772.076372206,
@@ -95,7 +104,7 @@
     {
       "market": "KRW-THQ",
       "type": "buy",
-      "time": "2025-12-24T22:43:54.709906",
+      "time": "2025-12-24T22:43:57.252281",
       "price": 88.7,
       "volume": 110.16013252,
       "funds": 9771.203754524,
@@ -107,7 +116,7 @@
     {
       "market": "KRW-RESOLV",
       "type": "buy",
-      "time": "2025-12-24T22:17:29.671202",
+      "time": "2025-12-24T22:17:30.987554",
       "price": 104.0,
       "volume": 93.22429907,
       "funds": 9695.32710328,
