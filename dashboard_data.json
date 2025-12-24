@@ -1,19 +1,19 @@
 {
-  "last_update": "2025-12-24T20:20:38.068225",
-  "today_profit": 0,
-  "today_profit_percent": 0.0,
-  "total_profit": 0,
-  "total_profit_percent": 0.0,
-  "total_investment": 1045973.5694477451,
+  "last_update": "2025-12-24T20:24:21.050720",
+  "today_profit": 311554.95944509906,
+  "today_profit_percent": 34.48678590201784,
+  "total_profit": 311554.95944509906,
+  "total_profit_percent": 34.48678590201784,
+  "total_investment": 903403.8728058732,
   "holdings": [
     {
       "market": "KRW-BTC",
       "amount": 8.994e-05,
       "avg_price": 130426000.0,
-      "current_price": 128899000.0,
-      "value": 11593.17606,
-      "profit": -137.33838,
-      "profit_rate": -0.011707788324413843
+      "current_price": 128937000.0,
+      "value": 11596.59378,
+      "profit": -133.92066,
+      "profit_rate": -0.011416435373315137
     },
     {
       "market": "KRW-ETH",
@@ -37,10 +37,10 @@
       "market": "KRW-ADA",
       "amount": 18.50649351,
       "avg_price": 528.0,
-      "current_price": 531.0,
-      "value": 9826.94805381,
-      "profit": 55.519480529999996,
-      "profit_rate": 0.005681818181818182
+      "current_price": 530.0,
+      "value": 9808.4415603,
+      "profit": 37.01298702,
+      "profit_rate": 0.003787878787878788
     },
     {
       "market": "KRW-DOGE",
@@ -55,19 +55,19 @@
       "market": "KRW-SOL",
       "amount": 0.09752852,
       "avg_price": 180400.0,
-      "current_price": 180500.0,
-      "value": 17603.897859999997,
-      "profit": 9.752851999999999,
-      "profit_rate": 0.0005543237250554324
+      "current_price": 180400.0,
+      "value": 17594.145008,
+      "profit": 0.0,
+      "profit_rate": 0.0
     },
     {
       "market": "KRW-MAY",
       "amount": 9142.47451472,
       "avg_price": 19.76,
-      "current_price": 19.54,
-      "value": 178643.95201762876,
-      "profit": -2011.3443932384218,
-      "profit_rate": -0.011133603238866517
+      "current_price": 19.65,
+      "value": 179649.62421424798,
+      "profit": -1005.6721966192272,
+      "profit_rate": -0.005566801619433349
     },
     {
       "market": "KRW-RESOLV",
@@ -89,15 +89,39 @@
     },
     {
       "market": "KRW-THQ",
-      "amount": 7885.57092665,
+      "amount": 6346.93832745,
       "avg_price": 92.66,
-      "current_price": 93.01,
-      "value": 733436.9518877165,
-      "profit": 2759.949824327567,
-      "profit_rate": 0.0037772501618822418
+      "current_price": 93.18,
+      "value": 591407.713351791,
+      "profit": 3300.4079302740647,
+      "profit_rate": 0.005611914526225019
     }
   ],
   "trades": [
+    {
+      "market": "KRW-THQ",
+      "type": "sell",
+      "time": "2025-12-24T18:48:06.542808",
+      "price": 91.5,
+      "volume": 3597.24441641,
+      "funds": 329147.86410151504,
+      "cycle_status": "completed",
+      "profit": 311554.95944509906,
+      "avg_buy_price": 92.8,
+      "bot_trade": true
+    },
+    {
+      "market": "KRW-D",
+      "type": "sell",
+      "time": "2025-12-24T18:31:37.930062",
+      "price": 22.44,
+      "volume": 3707.63326226,
+      "funds": 83199.2904051144,
+      "cycle_status": "external",
+      "profit": 0,
+      "avg_buy_price": 0,
+      "bot_trade": false
+    },
     {
       "market": "KRW-RESOLV",
       "type": "buy",
@@ -267,8 +291,16 @@
       "bot_trade": true
     }
   ],
-  "daily_profits": {},
-  "trade_cycles": [],
+  "daily_profits": {
+    "2025-12-24": 311554.95944509906
+  },
+  "trade_cycles": [
+    {
+      "market": "KRW-THQ",
+      "profit": 311554.95944509906,
+      "sell_time": "2025-12-24T18:48:06.542808"
+    }
+  ],
   "start_date": "2025-12-24",
   "today_date": "2025-12-24"
 }
