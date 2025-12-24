@@ -1,5 +1,5 @@
 {
-  "last_update": "2025-12-24T11:12:09.254734",
+  "last_update": "2025-12-24T11:18:28.352070",
   "today_profit": 0,
   "today_profit_percent": 0.0,
   "total_profit": 0,
@@ -62,6 +62,18 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-BLY",
+      "type": "sell",
+      "time": "2025-12-24T11:18:28.329221",
+      "price": 2.51,
+      "volume": 7071.68176447,
+      "funds": 17749.9212288197,
+      "cycle_status": "external",
+      "profit": 0,
+      "avg_buy_price": 0,
+      "bot_trade": false
+    },
     {
       "market": "KRW-BLY",
       "type": "sell",
