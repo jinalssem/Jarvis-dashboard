@@ -1,5 +1,5 @@
 {
-  "last_update": "2025-12-24T13:49:00.634342",
+  "last_update": "2025-12-24T13:55:30.318101",
   "today_profit": 0,
   "today_profit_percent": 0.0,
   "total_profit": 0,
@@ -80,6 +80,18 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-SOL",
+      "type": "buy",
+      "time": "2025-12-24T13:55:30.316633",
+      "price": 176400.0,
+      "volume": 0.09975,
+      "funds": 17595.9,
+      "cycle_status": "holding",
+      "profit": 0,
+      "buy_count": 1,
+      "bot_trade": true
+    },
     {
       "market": "KRW-MAY",
       "type": "buy",
