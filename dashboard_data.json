@@ -1,5 +1,5 @@
 {
-  "last_update": "2025-12-24T17:01:25.967692",
+  "last_update": "2025-12-24T17:08:04.877190",
   "today_profit": 0,
   "today_profit_percent": 0.0,
   "total_profit": 0,
@@ -116,6 +116,18 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-RESOLV",
+      "type": "buy",
+      "time": "2025-12-24T17:08:04.875433",
+      "price": 103.0,
+      "volume": 169.38679245,
+      "funds": 17446.83962235,
+      "cycle_status": "holding",
+      "profit": 0,
+      "buy_count": 1,
+      "bot_trade": true
+    },
     {
       "market": "KRW-THQ",
       "type": "buy",
