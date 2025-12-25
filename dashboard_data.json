@@ -1,5 +1,5 @@
 {
-  "last_update": "2025-12-25T13:15:29.384084",
+  "last_update": "2025-12-25T13:23:18.415457",
   "today_profit": 0,
   "today_profit_percent": 0.0,
   "total_profit": 0,
@@ -89,6 +89,18 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-METIS",
+      "type": "sell",
+      "time": "2025-12-25T13:23:18.407857",
+      "price": 9385.0,
+      "volume": 8.69157948,
+      "funds": 81570.4734198,
+      "cycle_status": "external",
+      "profit": 0,
+      "avg_buy_price": 0,
+      "bot_trade": false
+    },
     {
       "market": "KRW-OBSR",
       "type": "sell",
