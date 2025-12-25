@@ -1,37 +1,37 @@
 {
-  "last_update": "2025-12-25T16:08:13.968816",
+  "last_update": "2025-12-25T16:13:46.534209",
   "today_profit": 0,
   "today_profit_percent": 0.0,
   "total_profit": 0,
   "total_profit_percent": 0.0,
-  "total_investment": 539643.2241779823,
+  "total_investment": 583193.8476193706,
   "holdings": [
     {
       "market": "KRW-BTC",
       "amount": 0.00022728,
       "avg_price": 129029517.0,
-      "current_price": 129290000.0,
-      "value": 29385.0312,
-      "profit": 59.20257624,
-      "profit_rate": 0.0020187861355785747
+      "current_price": 129291000.0,
+      "value": 29385.25848,
+      "profit": 59.42985624,
+      "profit_rate": 0.0020265363002172597
     },
     {
       "market": "KRW-ETH",
       "amount": 0.00806643,
       "avg_price": 4342626.0,
-      "current_price": 4334000.0,
-      "value": 34959.90762,
-      "profit": -69.58102518,
-      "profit_rate": -0.001986355721169633
+      "current_price": 4333000.0,
+      "value": 34951.84119,
+      "profit": -77.64745518,
+      "profit_rate": -0.0022166311351702866
     },
     {
       "market": "KRW-XRP",
       "amount": 5.99628713,
       "avg_price": 2770.0,
-      "current_price": 2759.0,
-      "value": 16543.75619167,
-      "profit": -65.95915843,
-      "profit_rate": -0.003971119133574007
+      "current_price": 2761.0,
+      "value": 16555.74876593,
+      "profit": -53.96658417,
+      "profit_rate": -0.003249097472924188
     },
     {
       "market": "KRW-ADA",
@@ -46,10 +46,10 @@
       "market": "KRW-EL",
       "amount": 10673.46761688,
       "avg_price": 3.305,
-      "current_price": 3.279,
-      "value": 34998.30031574952,
-      "profit": -277.5101580388826,
-      "profit_rate": -0.007866868381240618
+      "current_price": 3.308,
+      "value": 35307.83087663904,
+      "profit": 32.02040285063647,
+      "profit_rate": 0.0009077155824507321
     },
     {
       "market": "KRW-GHX",
@@ -64,55 +64,64 @@
       "market": "KRW-GRACY",
       "amount": 6658.53915685,
       "avg_price": 11.59,
-      "current_price": 11.84,
-      "value": 78837.103617104,
-      "profit": 1664.6347892125,
-      "profit_rate": 0.021570319240724764
+      "current_price": 12.0,
+      "value": 79902.4698822,
+      "profit": 2730.001054308501,
+      "profit_rate": 0.035375323554788625
     },
     {
       "market": "KRW-DOGE",
       "amount": 51.68393782,
       "avg_price": 189.0,
-      "current_price": 189.0,
-      "value": 9768.26424798,
-      "profit": 0.0,
-      "profit_rate": 0.0
+      "current_price": 188.0,
+      "value": 9716.58031016,
+      "profit": -51.68393782,
+      "profit_rate": -0.005291005291005291
     },
     {
       "market": "KRW-SOL",
       "amount": 0.09752852,
       "avg_price": 180400.0,
-      "current_price": 180200.0,
-      "value": 17574.639304,
-      "profit": -19.505703999999998,
-      "profit_rate": -0.0011086474501108647
+      "current_price": 180100.0,
+      "value": 17564.886452,
+      "profit": -29.258556,
+      "profit_rate": -0.0016629711751662971
     },
     {
       "market": "KRW-FANC",
       "amount": 30404.12417121,
       "avg_price": 3.621,
-      "current_price": 3.687,
-      "value": 112100.00581925127,
-      "profit": 2006.672195299855,
-      "profit_rate": 0.01822700911350451
+      "current_price": 3.685,
+      "value": 112039.19757090886,
+      "profit": 1945.8639469574418,
+      "profit_rate": 0.017674675504004433
+    },
+    {
+      "market": "KRW-MEW",
+      "amount": 33042.9616399,
+      "avg_price": 1.318,
+      "current_price": 1.317,
+      "value": 43517.5804797483,
+      "profit": -33.0429616399037,
+      "profit_rate": -0.0007587253414264886
     },
     {
       "market": "KRW-RESOLV",
       "amount": 160.3125,
       "avg_price": 109.0,
-      "current_price": 110.0,
-      "value": 17634.375,
-      "profit": 160.3125,
-      "profit_rate": 0.009174311926605505
+      "current_price": 111.0,
+      "value": 17794.6875,
+      "profit": 320.625,
+      "profit_rate": 0.01834862385321101
     },
     {
       "market": "KRW-MON",
       "amount": 1716.18927401,
       "avg_price": 34.81,
-      "current_price": 34.79,
-      "value": 59706.2248428079,
-      "profit": -34.323785480205366,
-      "profit_rate": -0.00057454754380934
+      "current_price": 35.27,
+      "value": 60529.995694332705,
+      "profit": 789.4470660446015,
+      "profit_rate": 0.013214593507612778
     }
   ],
   "trades": [
