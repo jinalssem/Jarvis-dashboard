@@ -1,5 +1,5 @@
 {
-  "last_update": "2025-12-25T16:43:18.726600",
+  "last_update": "2025-12-25T16:47:51.293287",
   "today_profit": 0,
   "today_profit_percent": 0.0,
   "total_profit": 0,
@@ -116,6 +116,18 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-AVNT",
+      "type": "sell",
+      "time": "2025-12-25T16:47:51.290343",
+      "price": 579.0,
+      "volume": 84.00994042,
+      "funds": 48641.75550318,
+      "cycle_status": "external",
+      "profit": 0,
+      "avg_buy_price": 0,
+      "bot_trade": false
+    },
     {
       "market": "KRW-GRACY",
       "type": "sell",
