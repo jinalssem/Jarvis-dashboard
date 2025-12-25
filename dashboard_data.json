@@ -1,28 +1,28 @@
 {
-  "last_update": "2025-12-26T07:29:14.047861",
+  "last_update": "2025-12-26T07:37:57.123424",
   "today_profit": 0,
   "today_profit_percent": 0.0,
   "total_profit": 0,
   "total_profit_percent": 0.0,
-  "total_investment": 151235.29197200452,
+  "total_investment": 182053.5419719909,
   "holdings": [
     {
       "market": "KRW-BTC",
       "amount": 8.994e-05,
       "avg_price": 129029517.0,
-      "current_price": 129051000.0,
-      "value": 11606.84694,
-      "profit": 1.9321810199999998,
-      "profit_rate": 0.00016649678693286902
+      "current_price": 129064000.0,
+      "value": 11608.01616,
+      "profit": 3.10140102,
+      "profit_rate": 0.0002672489272357735
     },
     {
       "market": "KRW-ETH",
       "amount": 0.00806643,
       "avg_price": 4342626.0,
-      "current_price": 4320000.0,
-      "value": 34846.9776,
-      "profit": -182.51104518,
-      "profit_rate": -0.0052102115171787765
+      "current_price": 4319000.0,
+      "value": 34838.91117,
+      "profit": -190.57747518,
+      "profit_rate": -0.005440486931179429
     },
     {
       "market": "KRW-XRP",
@@ -34,13 +34,22 @@
       "profit_rate": -0.01263537906137184
     },
     {
+      "market": "KRW-APM",
+      "amount": 19273.45215759,
+      "avg_price": 1.599,
+      "current_price": 1.615,
+      "value": 31126.62523450785,
+      "profit": 308.3752345214403,
+      "profit_rate": 0.010006253908692942
+    },
+    {
       "market": "KRW-DOGE",
       "amount": 51.68393782,
       "avg_price": 189.0,
-      "current_price": 185.0,
-      "value": 9561.528496699999,
-      "profit": -206.73575128,
-      "profit_rate": -0.021164021164021163
+      "current_price": 186.0,
+      "value": 9613.212434519999,
+      "profit": -155.05181346,
+      "profit_rate": -0.015873015873015872
     },
     {
       "market": "KRW-MAY",
@@ -55,10 +64,10 @@
       "market": "KRW-AHT",
       "amount": 6735.1319417,
       "avg_price": 2.539,
-      "current_price": 2.535,
-      "value": 17073.5594722095,
-      "profit": -26.940527766800027,
-      "profit_rate": -0.0015754233950374175
+      "current_price": 2.562,
+      "value": 17255.4080346354,
+      "profit": 154.9080346590979,
+      "profit_rate": 0.00905868452146502
     },
     {
       "market": "KRW-MEW",
