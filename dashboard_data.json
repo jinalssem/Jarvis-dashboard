@@ -1,5 +1,5 @@
 {
-  "last_update": "2025-12-26T08:23:30.010417",
+  "last_update": "2025-12-26T08:30:43.807099",
   "today_profit": 18.522567312007595,
   "today_profit_percent": 0.010281465148953856,
   "total_profit": 18.522567312007595,
@@ -80,6 +80,18 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-XYO",
+      "type": "sell",
+      "time": "2025-12-26T08:30:43.801788",
+      "price": 8.265,
+      "volume": 2639.0,
+      "funds": 21811.335000000003,
+      "cycle_status": "external",
+      "profit": 0,
+      "avg_buy_price": 0,
+      "bot_trade": false
+    },
     {
       "market": "KRW-XRP",
       "type": "buy",
