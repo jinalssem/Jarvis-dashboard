@@ -1,5 +1,5 @@
 {
-  "last_update": "2025-12-26T07:55:39.135019",
+  "last_update": "2025-12-26T08:02:59.227450",
   "today_profit": 18.522567312007595,
   "today_profit_percent": 0.011646268220359805,
   "total_profit": 18.522567312007595,
@@ -71,6 +71,18 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-ADA",
+      "type": "buy",
+      "time": "2025-12-26T08:02:59.223901",
+      "price": 497.0,
+      "volume": 19.63582677,
+      "funds": 9759.00590469,
+      "cycle_status": "holding",
+      "profit": 0,
+      "buy_count": 1,
+      "bot_trade": true
+    },
     {
       "market": "KRW-DOGE",
       "type": "sell",
