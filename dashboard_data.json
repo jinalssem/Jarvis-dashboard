@@ -1,5 +1,5 @@
 {
-  "last_update": "2025-12-25T17:33:52.391633",
+  "last_update": "2025-12-25T17:45:13.007899",
   "today_profit": 0,
   "today_profit_percent": 0.0,
   "total_profit": 0,
@@ -107,6 +107,18 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-GHX",
+      "type": "sell",
+      "time": "2025-12-25T17:45:13.002171",
+      "price": 17.22,
+      "volume": 7159.79598329,
+      "funds": 123291.68683225379,
+      "cycle_status": "external",
+      "profit": 0,
+      "avg_buy_price": 0,
+      "bot_trade": false
+    },
     {
       "market": "KRW-RESOLV",
       "type": "sell",
