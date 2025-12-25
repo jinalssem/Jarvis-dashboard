@@ -1,5 +1,5 @@
 {
-  "last_update": "2025-12-26T07:02:49.629294",
+  "last_update": "2025-12-26T07:10:15.126046",
   "today_profit": 0,
   "today_profit_percent": 0.0,
   "total_profit": 0,
@@ -71,6 +71,18 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-ADA",
+      "type": "buy",
+      "time": "2025-12-26T07:10:15.122923",
+      "price": 510.0,
+      "volume": 34.46257198,
+      "funds": 17575.9117098,
+      "cycle_status": "holding",
+      "profit": 0,
+      "buy_count": 1,
+      "bot_trade": true
+    },
     {
       "market": "KRW-ETH",
       "type": "buy",
