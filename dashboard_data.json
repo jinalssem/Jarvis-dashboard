@@ -1,5 +1,5 @@
 {
-  "last_update": "2025-12-25T11:34:09.108149",
+  "last_update": "2025-12-25T11:45:25.725168",
   "today_profit": 0,
   "today_profit_percent": 0.0,
   "total_profit": 0,
@@ -97,8 +97,22 @@
       "profit_rate": -0.009174311926605505
     }
   ],
-  "trades": [],
+  "trades": [
+    {
+      "market": "KRW-OBSR",
+      "type": "sell",
+      "time": "2025-12-25T11:45:25.718774",
+      "price": 1.181,
+      "volume": 77354.66210436,
+      "funds": 91355.85594524916,
+      "cycle_status": "external",
+      "profit": 0,
+      "avg_buy_price": 0,
+      "bot_trade": false
+    }
+  ],
   "daily_profits": {},
   "trade_cycles": [],
-  "start_date": "2025-12-24"
+  "start_date": "2025-12-24",
+  "today_date": "2025-12-25"
 }
