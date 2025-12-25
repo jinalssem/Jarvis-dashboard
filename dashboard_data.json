@@ -1,5 +1,5 @@
 {
-  "last_update": "2025-12-25T16:13:46.534209",
+  "last_update": "2025-12-25T16:18:08.659019",
   "today_profit": 0,
   "today_profit_percent": 0.0,
   "total_profit": 0,
@@ -125,6 +125,30 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-GRACY",
+      "type": "sell",
+      "time": "2025-12-25T16:18:08.656755",
+      "price": 11.95,
+      "volume": 6658.53915685,
+      "funds": 79569.54292435749,
+      "cycle_status": "external",
+      "profit": 0,
+      "avg_buy_price": 0,
+      "bot_trade": false
+    },
+    {
+      "market": "KRW-FANC",
+      "type": "sell",
+      "time": "2025-12-25T16:18:07.474253",
+      "price": 3.641,
+      "volume": 30404.12417121,
+      "funds": 110701.41610737561,
+      "cycle_status": "external",
+      "profit": 0,
+      "avg_buy_price": 0,
+      "bot_trade": false
+    },
     {
       "market": "KRW-BLY",
       "type": "sell",
