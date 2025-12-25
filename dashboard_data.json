@@ -1,19 +1,19 @@
 {
-  "last_update": "2025-12-25T13:49:35.152284",
+  "last_update": "2025-12-25T13:57:51.339597",
   "today_profit": 0,
   "today_profit_percent": 0.0,
   "total_profit": 0,
   "total_profit_percent": 0.0,
-  "total_investment": 257361.0626240629,
+  "total_investment": 399435.6859936508,
   "holdings": [
     {
       "market": "KRW-BTC",
       "amount": 0.00022728,
       "avg_price": 129029517.0,
-      "current_price": 129370000.0,
-      "value": 29403.2136,
-      "profit": 77.38497624,
-      "profit_rate": 0.0026387993066733714
+      "current_price": 129350000.0,
+      "value": 29398.668,
+      "profit": 72.83937624,
+      "profit_rate": 0.002483796013899672
     },
     {
       "market": "KRW-ETH",
@@ -28,10 +28,10 @@
       "market": "KRW-XRP",
       "amount": 5.99628713,
       "avg_price": 2770.0,
-      "current_price": 2760.0,
-      "value": 16549.7524788,
-      "profit": -59.962871299999996,
-      "profit_rate": -0.0036101083032490976
+      "current_price": 2762.0,
+      "value": 16561.74505306,
+      "profit": -47.97029704,
+      "profit_rate": -0.002888086642599278
     },
     {
       "market": "KRW-ADA",
@@ -46,10 +46,19 @@
       "market": "KRW-GHX",
       "amount": 7159.79598329,
       "avg_price": 17.01,
-      "current_price": 17.14,
-      "value": 122718.9031535906,
-      "profit": 930.7734778276929,
-      "profit_rate": 0.007642563198118695
+      "current_price": 17.21,
+      "value": 123220.0888724209,
+      "profit": 1431.9591966579949,
+      "profit_rate": 0.01175778953556727
+    },
+    {
+      "market": "KRW-BLY",
+      "amount": 14496.51604621,
+      "avg_price": 3.895,
+      "current_price": 3.784,
+      "value": 54854.81671885864,
+      "profit": -1609.113281129313,
+      "profit_rate": -0.02849807445442881
     },
     {
       "market": "KRW-DOGE",
@@ -64,10 +73,19 @@
       "market": "KRW-SOL",
       "amount": 0.09752852,
       "avg_price": 180400.0,
-      "current_price": 180800.0,
-      "value": 17633.156415999998,
-      "profit": 39.011407999999996,
-      "profit_rate": 0.0022172949002217295
+      "current_price": 181000.0,
+      "value": 17652.662119999997,
+      "profit": 58.517112,
+      "profit_rate": 0.0033259423503325942
+    },
+    {
+      "market": "KRW-METIS",
+      "amount": 9.02590336,
+      "avg_price": 9485.0,
+      "current_price": 9505.0,
+      "value": 85791.21143679999,
+      "profit": 180.5180672,
+      "profit_rate": 0.0021085925144965737
     },
     {
       "market": "KRW-RESOLV",
