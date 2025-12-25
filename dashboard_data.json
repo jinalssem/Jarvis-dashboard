@@ -1,5 +1,5 @@
 {
-  "last_update": "2025-12-25T15:57:10.584303",
+  "last_update": "2025-12-25T16:01:16.363657",
   "today_profit": 0,
   "today_profit_percent": 0.0,
   "total_profit": 0,
@@ -107,6 +107,18 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-BLY",
+      "type": "sell",
+      "time": "2025-12-25T16:01:16.361390",
+      "price": 3.437,
+      "volume": 17919.93716081,
+      "funds": 61590.82402170397,
+      "cycle_status": "external",
+      "profit": 0,
+      "avg_buy_price": 0,
+      "bot_trade": false
+    },
     {
       "market": "KRW-METIS",
       "type": "sell",
