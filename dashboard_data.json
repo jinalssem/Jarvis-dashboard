@@ -1,5 +1,5 @@
 {
-  "last_update": "2025-12-26T04:11:31.648303",
+  "last_update": "2025-12-26T04:16:03.105253",
   "today_profit": 0,
   "today_profit_percent": 0.0,
   "total_profit": 0,
@@ -71,6 +71,18 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-UOS",
+      "type": "sell",
+      "time": "2025-12-26T04:16:03.100779",
+      "price": 15.45,
+      "volume": 1380.12350553,
+      "funds": 21322.9081604385,
+      "cycle_status": "external",
+      "profit": 0,
+      "avg_buy_price": 0,
+      "bot_trade": false
+    },
     {
       "market": "KRW-XRP",
       "type": "buy",
