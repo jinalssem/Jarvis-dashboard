@@ -1,5 +1,5 @@
 {
-  "last_update": "2025-12-25T22:05:29.829940",
+  "last_update": "2025-12-25T22:18:27.984642",
   "today_profit": 0,
   "today_profit_percent": 0.0,
   "total_profit": 0,
@@ -89,6 +89,18 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-METIS",
+      "type": "sell",
+      "time": "2025-12-25T22:18:27.970176",
+      "price": 9080.0,
+      "volume": 7.06792352,
+      "funds": 64176.7455616,
+      "cycle_status": "external",
+      "profit": 0,
+      "avg_buy_price": 0,
+      "bot_trade": false
+    },
     {
       "market": "KRW-ADA",
       "type": "buy",
