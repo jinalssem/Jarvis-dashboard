@@ -1,5 +1,5 @@
 {
-  "last_update": "2025-12-25T19:37:22.602507",
+  "last_update": "2025-12-25T19:44:41.659320",
   "today_profit": 0,
   "today_profit_percent": 0.0,
   "total_profit": 0,
@@ -98,6 +98,18 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-ADA",
+      "type": "buy",
+      "time": "2025-12-25T19:44:41.657047",
+      "price": 506.0,
+      "volume": 34.72920696,
+      "funds": 17572.97872176,
+      "cycle_status": "holding",
+      "profit": 0,
+      "buy_count": 1,
+      "bot_trade": true
+    },
     {
       "market": "KRW-GHX",
       "type": "sell",
