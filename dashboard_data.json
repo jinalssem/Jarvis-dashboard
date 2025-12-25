@@ -1,5 +1,5 @@
 {
-  "last_update": "2025-12-26T07:37:57.123424",
+  "last_update": "2025-12-26T07:45:17.620632",
   "today_profit": 0,
   "today_profit_percent": 0.0,
   "total_profit": 0,
@@ -80,6 +80,30 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-DOGE",
+      "type": "buy",
+      "time": "2025-12-26T07:45:17.614826",
+      "price": 181.0,
+      "volume": 53.91891892,
+      "funds": 9759.324324520001,
+      "cycle_status": "holding",
+      "profit": 0,
+      "buy_count": 1,
+      "bot_trade": true
+    },
+    {
+      "market": "KRW-APM",
+      "type": "sell",
+      "time": "2025-12-26T07:45:15.766958",
+      "price": 1.729,
+      "volume": 19273.45215759,
+      "funds": 33323.79878047311,
+      "cycle_status": "external",
+      "profit": 0,
+      "avg_buy_price": 0,
+      "bot_trade": false
+    },
     {
       "market": "KRW-MEW",
       "type": "buy",
