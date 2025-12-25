@@ -1,8 +1,8 @@
 {
-  "last_update": "2025-12-25T10:02:22.935125",
-  "today_profit": 0,
+  "last_update": "2025-12-25T10:07:29.542011",
+  "today_profit": 126170.651991155,
   "today_profit_percent": 0.0,
-  "total_profit": 0,
+  "total_profit": 126170.651991155,
   "total_profit_percent": 0.0,
   "total_investment": 493319.01994700154,
   "holdings": [
@@ -89,6 +89,18 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-GHX",
+      "type": "buy",
+      "time": "2025-12-25T10:07:29.540072",
+      "price": 16.4,
+      "volume": 594.45768772,
+      "funds": 9749.106078607998,
+      "cycle_status": "holding",
+      "profit": 0,
+      "buy_count": 1,
+      "bot_trade": true
+    },
     {
       "market": "KRW-MAY",
       "type": "buy",
@@ -294,7 +306,9 @@
       "bot_trade": true
     }
   ],
-  "daily_profits": {},
+  "daily_profits": {
+    "2025-12-25": 126170.651991155
+  },
   "trade_cycles": [],
   "start_date": "2025-12-24",
   "today_date": "2025-12-25"
