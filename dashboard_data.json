@@ -1,5 +1,5 @@
 {
-  "last_update": "2025-12-26T21:00:08.921977",
+  "last_update": "2025-12-26T21:06:34.100168",
   "today_profit": 817.8696078368375,
   "today_profit_percent": 0.3791630258371833,
   "total_profit": 817.8696078368375,
@@ -89,6 +89,30 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-XRP",
+      "type": "buy",
+      "time": "2025-12-26T21:06:34.097999",
+      "price": 2680.0,
+      "volume": 6.5625,
+      "funds": 17587.5,
+      "cycle_status": "holding",
+      "profit": 0,
+      "buy_count": 1,
+      "bot_trade": true
+    },
+    {
+      "market": "KRW-OAS",
+      "type": "sell",
+      "time": "2025-12-26T21:06:32.401257",
+      "price": 2.815,
+      "volume": 10943.38751385,
+      "funds": 30805.63585148775,
+      "cycle_status": "external",
+      "profit": 0,
+      "avg_buy_price": 0,
+      "bot_trade": false
+    },
     {
       "market": "KRW-ZKP",
       "type": "sell",
