@@ -1,5 +1,5 @@
 {
-  "last_update": "2025-12-26T14:46:47.758970",
+  "last_update": "2025-12-26T15:00:30.968922",
   "today_profit": 817.8696078368375,
   "today_profit_percent": 0.6181101281966614,
   "total_profit": 817.8696078368375,
@@ -62,6 +62,18 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-YB",
+      "type": "sell",
+      "time": "2025-12-26T15:00:30.918248",
+      "price": 896.0,
+      "volume": 50.25457992,
+      "funds": 45028.10360832,
+      "cycle_status": "external",
+      "profit": 0,
+      "avg_buy_price": 0,
+      "bot_trade": false
+    },
     {
       "market": "KRW-MAY",
       "type": "buy",
