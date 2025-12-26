@@ -1,5 +1,5 @@
 {
-  "last_update": "2025-12-26T22:28:06.593286",
+  "last_update": "2025-12-26T22:35:43.763207",
   "today_profit": 817.8696078368375,
   "today_profit_percent": 0.1343952305264022,
   "total_profit": 817.8696078368375,
@@ -89,6 +89,18 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-AZIT",
+      "type": "sell",
+      "time": "2025-12-26T22:35:43.713714",
+      "price": 9.391,
+      "volume": 901.39710719,
+      "funds": 8465.02023362129,
+      "cycle_status": "external",
+      "profit": 0,
+      "avg_buy_price": 0,
+      "bot_trade": false
+    },
     {
       "market": "KRW-OAS",
       "type": "sell",
