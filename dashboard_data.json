@@ -1,82 +1,100 @@
 {
-  "last_update": "2025-12-26T17:14:18.331610",
+  "last_update": "2025-12-26T17:37:31.601036",
   "today_profit": 817.8696078368375,
-  "today_profit_percent": 0.5167135269964472,
+  "today_profit_percent": 0.42267763097243977,
   "total_profit": 817.8696078368375,
-  "total_profit_percent": 0.5167135269964472,
-  "total_investment": 158282.9875948769,
+  "total_profit_percent": 0.42267763097243977,
+  "total_investment": 193497.2536765651,
   "holdings": [
     {
       "market": "KRW-BTC",
       "amount": 8.994e-05,
       "avg_price": 129029517.0,
-      "current_price": 129553000.0,
-      "value": 11651.99682,
-      "profit": 47.08206102,
-      "profit_rate": 0.00405707943555272
+      "current_price": 129608000.0,
+      "value": 11656.943519999999,
+      "profit": 52.02876102,
+      "profit_rate": 0.004483338490680392
     },
     {
       "market": "KRW-ETH",
       "amount": 0.00398204,
       "avg_price": 4342626.0,
-      "current_price": 4329000.0,
-      "value": 17238.25116,
-      "profit": -54.25927704,
-      "profit_rate": -0.0031377327911728987
+      "current_price": 4327000.0,
+      "value": 17230.287080000002,
+      "profit": -62.22335704,
+      "profit_rate": -0.003598283619174205
     },
     {
       "market": "KRW-ADA",
       "amount": 34.46257198,
       "avg_price": 510.0,
-      "current_price": 515.0,
-      "value": 17748.2245697,
-      "profit": 172.3128599,
-      "profit_rate": 0.00980392156862745
+      "current_price": 516.0,
+      "value": 17782.68714168,
+      "profit": 206.77543187999999,
+      "profit_rate": 0.011764705882352941
+    },
+    {
+      "market": "KRW-EGG",
+      "amount": 11446.20481927,
+      "avg_price": 1.66,
+      "current_price": 1.622,
+      "value": 18565.744216855943,
+      "profit": -434.95578313225786,
+      "profit_rate": -0.02289156626506013
     },
     {
       "market": "KRW-MAY",
       "amount": 1942.28025381,
       "avg_price": 18.64,
-      "current_price": 18.31,
-      "value": 35563.151447261094,
-      "profit": -640.9524837573035,
-      "profit_rate": -0.017703862660944304
+      "current_price": 18.19,
+      "value": 35330.0778168039,
+      "profit": -874.0261142144986,
+      "profit_rate": -0.024141630901287514
     },
     {
       "market": "KRW-AZIT",
       "amount": 901.39710719,
       "avg_price": 9.834,
-      "current_price": 9.84,
-      "value": 8869.7475347496,
-      "profit": 5.408382643140206,
-      "profit_rate": 0.0006101281269066736
+      "current_price": 9.8,
+      "value": 8833.691650462,
+      "profit": -30.647501644459027,
+      "profit_rate": -0.003457392719137576
     },
     {
       "market": "KRW-OAS",
       "amount": 10943.38751385,
       "avg_price": 2.707,
-      "current_price": 2.733,
-      "value": 29908.278075352053,
-      "profit": 284.5280753601027,
-      "profit_rate": 0.009604728481714165
+      "current_price": 2.718,
+      "value": 29744.127262644302,
+      "profit": 120.37726265235133,
+      "profit_rate": 0.004063538973032923
     },
     {
       "market": "KRW-AHT",
       "amount": 6735.1319417,
       "avg_price": 2.539,
-      "current_price": 2.505,
-      "value": 16871.505513958502,
-      "profit": -228.9944860178017,
-      "profit_rate": -0.013391098857818137
+      "current_price": 2.498,
+      "value": 16824.359590366603,
+      "profit": -276.14040960969953,
+      "profit_rate": -0.016148089799133486
     },
     {
       "market": "KRW-CPOOL",
       "amount": 356.74492258,
       "avg_price": 56.11,
-      "current_price": 56.54,
-      "value": 20170.3579226732,
-      "profit": 153.4003167093999,
-      "profit_rate": 0.007663518089467113
+      "current_price": 56.02,
+      "value": 19984.8505629316,
+      "profit": -32.10704303219868,
+      "profit_rate": -0.0016039921582604937
+    },
+    {
+      "market": "KRW-YB",
+      "amount": 26.5361147,
+      "avg_price": 611.0,
+      "current_price": 608.0,
+      "value": 16133.9577376,
+      "profit": -79.6083441,
+      "profit_rate": -0.004909983633387889
     }
   ],
   "trades": [
