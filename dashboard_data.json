@@ -1,5 +1,5 @@
 {
-  "last_update": "2025-12-26T20:42:40.745416",
+  "last_update": "2025-12-26T20:50:13.170862",
   "today_profit": 817.8696078368375,
   "today_profit_percent": 0.284383297624682,
   "total_profit": 817.8696078368375,
@@ -89,6 +89,18 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-OAS",
+      "type": "sell",
+      "time": "2025-12-26T20:50:13.166523",
+      "price": 2.812,
+      "volume": 10943.38751385,
+      "funds": 30772.8056889462,
+      "cycle_status": "external",
+      "profit": 0,
+      "avg_buy_price": 0,
+      "bot_trade": false
+    },
     {
       "market": "KRW-ETH",
       "type": "buy",
