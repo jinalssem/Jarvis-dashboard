@@ -1,5 +1,5 @@
 {
-  "last_update": "2025-12-26T17:50:31.212860",
+  "last_update": "2025-12-26T17:55:27.348843",
   "today_profit": 817.8696078368375,
   "today_profit_percent": 0.21351602526537747,
   "total_profit": 817.8696078368375,
@@ -98,6 +98,18 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-EGG",
+      "type": "sell",
+      "time": "2025-12-26T17:55:27.277105",
+      "price": 1.576,
+      "volume": 11446.20481927,
+      "funds": 18039.21879516952,
+      "cycle_status": "external",
+      "profit": 0,
+      "avg_buy_price": 0,
+      "bot_trade": false
+    },
     {
       "market": "KRW-APM",
       "type": "sell",
