@@ -1,8 +1,8 @@
 {
-  "last_update": "2025-12-26T11:08:02.473239",
-  "today_profit": 18.522567312007595,
+  "last_update": "2025-12-26T11:15:24.009160",
+  "today_profit": 354.7748878449747,
   "today_profit_percent": 0.0067985343552944884,
-  "total_profit": 18.522567312007595,
+  "total_profit": 354.7748878449747,
   "total_profit_percent": 0.0067985343552944884,
   "total_investment": 272449.4184188801,
   "holdings": [
@@ -89,6 +89,18 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-XRP",
+      "type": "sell",
+      "time": "2025-12-26T11:15:23.939787",
+      "price": 2736.0,
+      "volume": 5.99628713,
+      "funds": 16405.84158768,
+      "cycle_status": "completed",
+      "profit": 336.25232053296713,
+      "avg_buy_price": 2679.9232456280047,
+      "bot_trade": true
+    },
     {
       "market": "KRW-BTC",
       "type": "buy",
@@ -415,13 +427,18 @@
     }
   ],
   "daily_profits": {
-    "2025-12-26": 18.522567312007595
+    "2025-12-26": 354.7748878449747
   },
   "trade_cycles": [
     {
       "market": "KRW-DOGE",
       "profit": 18.522567312007595,
       "sell_time": "2025-12-26T07:54:14.950488"
+    },
+    {
+      "market": "KRW-XRP",
+      "profit": 336.25232053296713,
+      "sell_time": "2025-12-26T11:15:23.939787"
     }
   ],
   "start_date": "2025-12-24",
