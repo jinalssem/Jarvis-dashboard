@@ -1,28 +1,28 @@
 {
-  "last_update": "2025-12-26T13:53:38.462137",
+  "last_update": "2025-12-26T14:06:25.350744",
   "today_profit": 817.8696078368375,
-  "today_profit_percent": 0.8196898041566631,
+  "today_profit_percent": 0.6181101281966614,
   "total_profit": 817.8696078368375,
-  "total_profit_percent": 0.8196898041566631,
-  "total_investment": 99777.9408368147,
+  "total_profit_percent": 0.6181101281966614,
+  "total_investment": 132317.7813350147,
   "holdings": [
     {
       "market": "KRW-BTC",
       "amount": 8.994e-05,
       "avg_price": 129029517.0,
-      "current_price": 129797000.0,
-      "value": 11673.94218,
-      "profit": 69.02742101999999,
-      "profit_rate": 0.0059481196073918495
+      "current_price": 129821000.0,
+      "value": 11676.10074,
+      "profit": 71.18598102,
+      "profit_rate": 0.006134123558720289
     },
     {
       "market": "KRW-ETH",
       "amount": 0.00398204,
       "avg_price": 4342626.0,
-      "current_price": 4332000.0,
-      "value": 17250.19728,
-      "profit": -42.31315704,
-      "profit_rate": -0.0024469065491709396
+      "current_price": 4334000.0,
+      "value": 17258.161360000002,
+      "profit": -34.34907704,
+      "profit_rate": -0.001986355721169633
     },
     {
       "market": "KRW-ADA",
@@ -37,10 +37,10 @@
       "market": "KRW-MAY",
       "amount": 1942.28025381,
       "avg_price": 18.64,
-      "current_price": 18.43,
-      "value": 35796.2250777183,
-      "profit": -407.87885330010164,
-      "profit_rate": -0.011266094420600904
+      "current_price": 18.38,
+      "value": 35699.1110650278,
+      "profit": -504.99286599060304,
+      "profit_rate": -0.013948497854077337
     },
     {
       "market": "KRW-AHT",
@@ -50,6 +50,15 @@
       "value": 16777.2136667747,
       "profit": -323.2863332016003,
       "profit_rate": -0.018905080740449012
+    },
+    {
+      "market": "KRW-YB",
+      "amount": 50.25457992,
+      "avg_price": 647.5,
+      "current_price": 646.0,
+      "value": 32464.458628319997,
+      "profit": -75.38186988,
+      "profit_rate": -0.0023166023166023165
     }
   ],
   "trades": [
