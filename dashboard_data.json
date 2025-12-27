@@ -43,34 +43,7 @@
       "profit_rate": 0.01679687499999999
     }
   ],
-  "trades": [
-    {
-      "market": "KRW-WIKEN",
-      "type": "sell",
-      "time": "2025-12-28T06:16:12.100169",
-      "price": 3.499,
-      "volume": 15296.96612665,
-      "funds": 53524.08447714835,
-      "cycle_status": "human",
-      "profit": 1590.884477171603,
-      "avg_buy_price": 3.395,
-      "bot_trade": false,
-      "source": "human"
-    },
-    {
-      "market": "KRW-WIKEN",
-      "type": "sell",
-      "time": "2025-12-28T05:50:03.919398",
-      "price": 3.51,
-      "volume": 15296.96612665,
-      "funds": 53692.3511045415,
-      "cycle_status": "human",
-      "profit": 1759.1511045647494,
-      "avg_buy_price": 3.395,
-      "bot_trade": false,
-      "source": "human"
-    }
-  ],
+  "trades": [],
   "daily_profits": {
     "2025-12-28": 1590.884477171603
   },
