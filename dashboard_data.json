@@ -1,19 +1,28 @@
 {
-  "last_update": "2025-12-27T15:08:21.372384",
+  "last_update": "2025-12-27T15:18:02.839952",
   "today_profit": 0,
   "today_profit_percent": 0.0,
   "total_profit": 817.8696078368375,
-  "total_profit_percent": 1.5343320229817445,
-  "total_investment": 53304.6039309947,
+  "total_profit_percent": 0.37636091751708145,
+  "total_investment": 217309.9197526847,
   "holdings": [
+    {
+      "market": "KRW-SWAP",
+      "amount": 2012.82910925,
+      "avg_price": 81.48,
+      "current_price": 81.54,
+      "value": 164126.08556824503,
+      "profit": 120.76974655500459,
+      "profit_rate": 0.0007363770250368467
+    },
     {
       "market": "KRW-MAY",
       "amount": 1942.28025381,
       "avg_price": 18.64,
-      "current_price": 18.21,
-      "value": 35368.9234218801,
-      "profit": -835.1805091382994,
-      "profit_rate": -0.02306866952789698
+      "current_price": 18.15,
+      "value": 35252.3866066515,
+      "profit": -951.7173243669039,
+      "profit_rate": -0.026287553648068774
     },
     {
       "market": "KRW-AHT",
