@@ -1,5 +1,5 @@
 {
-  "last_update": "2025-12-27T19:46:42.704811",
+  "last_update": "2025-12-27T19:54:00.260095",
   "today_profit": 8794.983741166085,
   "today_profit_percent": 10.332233038284885,
   "total_profit": 9612.853349002922,
@@ -26,6 +26,18 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-XRP",
+      "type": "buy",
+      "time": "2025-12-27T19:54:00.258254",
+      "price": 2645.0,
+      "volume": 6.64016272,
+      "funds": 17563.2303944,
+      "cycle_status": "holding",
+      "profit": 0,
+      "buy_count": 1,
+      "bot_trade": true
+    },
     {
       "market": "KRW-BTC",
       "type": "buy",
