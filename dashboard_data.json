@@ -1,8 +1,8 @@
 {
-  "last_update": "2025-12-28T06:27:17.767304",
-  "today_profit": 1590.884477171603,
+  "last_update": "2025-12-28T06:31:33.191537",
+  "today_profit": 0,
   "today_profit_percent": 0.9946732048249011,
-  "total_profit": 1590.884477171603,
+  "total_profit": 0,
   "total_profit_percent": 0.9946732048249011,
   "total_investment": 159940.41756173145,
   "holdings": [
@@ -10,43 +10,41 @@
       "market": "KRW-BLY",
       "amount": 14874.60041695,
       "avg_price": 2.878,
-      "current_price": 2.832,
-      "value": 42124.86838080239,
-      "profit": -684.2316191797039,
-      "profit_rate": -0.015983321751216212
+      "current_price": 2.814,
+      "value": 41857.1255732973,
+      "profit": -951.9744266848008,
+      "profit_rate": -0.022237665045170277
     },
     {
       "market": "KRW-WIKEN",
       "amount": 15296.96612665,
       "avg_price": 3.395,
-      "current_price": 3.472,
-      "value": 53111.066391728804,
-      "profit": 1177.8663917520494,
-      "profit_rate": 0.02268041237113401
+      "current_price": 3.414,
+      "value": 52223.8423563831,
+      "profit": 290.64235640635195,
+      "profit_rate": 0.005596465390279861
     },
     {
       "market": "KRW-XPLA",
       "amount": 1928.27003449,
       "avg_price": 27.34,
-      "current_price": 27.34,
-      "value": 52718.9027429566,
-      "profit": 0.0,
-      "profit_rate": 0.0
+      "current_price": 27.41,
+      "value": 52853.8816453709,
+      "profit": 134.97890241430053,
+      "profit_rate": 0.0025603511338697983
     },
     {
       "market": "KRW-XAN",
       "amount": 487.46932886,
       "avg_price": 25.6,
-      "current_price": 26.03,
-      "value": 12688.826630225802,
-      "profit": 209.61181140979986,
-      "profit_rate": 0.01679687499999999
+      "current_price": 26.2,
+      "value": 12771.696416132,
+      "profit": 292.48159731599895,
+      "profit_rate": 0.023437499999999917
     }
   ],
   "trades": [],
-  "daily_profits": {
-    "2025-12-28": 1590.884477171603
-  },
+  "daily_profits": {},
   "trade_cycles": [
     {
       "market": "KRW-DOGE",
@@ -66,12 +64,10 @@
   ],
   "start_date": "2025-12-24",
   "bot_profits": {},
-  "human_profits": {
-    "2025-12-28": 1590.884477171603
-  },
+  "human_profits": {},
   "today_bot_profit": 0,
-  "today_human_profit": 1590.884477171603,
+  "today_human_profit": 0,
   "total_bot_profit": 0,
-  "total_human_profit": 1590.884477171603,
+  "total_human_profit": 0,
   "today_date": "2025-12-28"
 }
