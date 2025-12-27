@@ -1,5 +1,5 @@
 {
-  "last_update": "2025-12-27T12:38:20.873022",
+  "last_update": "2025-12-27T12:45:22.683815",
   "today_profit": 0,
   "today_profit_percent": 0.0,
   "total_profit": 817.8696078368375,
@@ -19,19 +19,19 @@
       "market": "KRW-AHT",
       "amount": 6735.1319417,
       "avg_price": 2.539,
-      "current_price": 2.498,
-      "value": 16824.359590366603,
-      "profit": -276.14040960969953,
-      "profit_rate": -0.016148089799133486
+      "current_price": 2.491,
+      "value": 16777.2136667747,
+      "profit": -323.2863332016003,
+      "profit_rate": -0.018905080740449012
     },
     {
       "market": "KRW-YB",
       "amount": 88.41163068,
       "avg_price": 593.5,
-      "current_price": 593.0,
-      "value": 52428.096993240004,
-      "profit": -44.20581534,
-      "profit_rate": -0.0008424599831508003
+      "current_price": 595.0,
+      "value": 52604.9202546,
+      "profit": 132.61744602,
+      "profit_rate": 0.002527379949452401
     }
   ],
   "trades": [
@@ -621,5 +621,11 @@
     }
   ],
   "start_date": "2025-12-24",
+  "bot_profits": {},
+  "human_profits": {},
+  "today_bot_profit": 0,
+  "today_human_profit": 0,
+  "total_bot_profit": 0,
+  "total_human_profit": 0,
   "today_date": "2025-12-27"
 }

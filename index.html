@@ -1266,23 +1266,36 @@
         </div>
         </div><!-- center-column 끝 -->
 
-        <!-- 오른쪽: 오늘 손익 + 누적 손익 + 차트 -->
+        <!-- 오른쪽: 손익 현황 + 차트 -->
         <div class="right-column">
         <div class="profit-card">
-            <h3>🌅 오늘 손익</h3>
-            <div class="profit-date" id="todayProfitDate">2025.12.08부터</div>
-            <div class="profit-amount">
-                <span id="todayProfitAmount">0원</span>
-                <span id="todayProfitPercent" style="color: #95a5a6; margin-left: 5px;">(0.00%)</span>
+            <h3>📊 손익 현황</h3>
+            <div class="profit-date" id="totalProfitDate">2025.12.24부터</div>
+            
+            <!-- 오늘 손익 -->
+            <div class="profit-section" style="margin-top: 15px; padding: 10px; background: rgba(255,255,255,0.05); border-radius: 8px;">
+                <div style="font-size: 0.9em; color: #aaa; margin-bottom: 8px;">🌅 오늘</div>
+                <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+                    <span style="color: #4dabf7;">🤖 봇:</span>
+                    <span id="todayBotProfit" style="font-weight: bold;">+0원</span>
+                </div>
+                <div style="display: flex; justify-content: space-between;">
+                    <span style="color: #ffd43b;">👤 수동:</span>
+                    <span id="todayHumanProfit" style="font-weight: bold;">+0원</span>
+                </div>
             </div>
-        </div>
-
-        <div class="profit-card">
-            <h3>📊 누적 손익</h3>
-            <div class="profit-date" id="totalProfitDate">2025.12.08부터</div>
-            <div class="profit-amount">
-                <span id="totalProfitAmount">0원</span>
-                <span id="totalProfitPercent" style="color: #95a5a6; margin-left: 5px;">(0.00%)</span>
+            
+            <!-- 누적 손익 -->
+            <div class="profit-section" style="margin-top: 10px; padding: 10px; background: rgba(255,255,255,0.05); border-radius: 8px;">
+                <div style="font-size: 0.9em; color: #aaa; margin-bottom: 8px;">📈 누적</div>
+                <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+                    <span style="color: #4dabf7;">🤖 봇:</span>
+                    <span id="totalBotProfit" style="font-weight: bold;">+0원</span>
+                </div>
+                <div style="display: flex; justify-content: space-between;">
+                    <span style="color: #ffd43b;">👤 수동:</span>
+                    <span id="totalHumanProfit" style="font-weight: bold;">+0원</span>
+                </div>
             </div>
         </div>
 
@@ -2132,43 +2145,31 @@
                     ? dailyProfits[todayDateKey] 
                     : (data.today_profit || 0);
                 
-                let todayPercent = data.today_profit_percent || 0;
                 const totalProfit = data.total_profit || 0;
-                let totalPercent = data.total_profit_percent || 0;
 
-                // 백분율 변환: 소수(0.0736)를 퍼센트(7.36)로 변환
-                // JSON에 -0.0736으로 저장되어 있으면 -7.36%로 표시되도록
-                if (Math.abs(todayPercent) < 1 && todayPercent !== 0) {
-                    todayPercent = todayPercent * 100;
-                }
-                if (Math.abs(totalPercent) < 1 && totalPercent !== 0) {
-                    totalPercent = totalPercent * 100;
-                }
+                // 🆕 봇/수동 손익 분리
+                const todayBotProfit = data.today_bot_profit || 0;
+                const todayHumanProfit = data.today_human_profit || 0;
+                const totalBotProfit = data.total_bot_profit || 0;
+                const totalHumanProfit = data.total_human_profit || 0;
 
-                // 오늘 손익 업데이트
-                const todayAmountText = (todayProfit >= 0 ? '+' : '') + formatNumber(todayProfit) + '원';
-                const todayPercentText = '(' + formatPercent(todayPercent) + ')';
+                // 🆕 봇/수동 손익 업데이트
+                const updateProfitElement = (elementId, profit) => {
+                    const el = document.getElementById(elementId);
+                    if (el) {
+                        el.textContent = (profit >= 0 ? '+' : '') + formatNumber(profit) + '원';
+                        el.style.color = profit >= 0 ? '#2ecc71' : '#e74c3c';
+                    }
+                };
                 
-                document.getElementById('todayProfitAmount').textContent = todayAmountText;
-                document.getElementById('todayProfitAmount').style.color = todayProfit >= 0 ? '#ff6b6b' : '#5dade2'; // 양수는 붉은색
-                document.getElementById('todayProfitPercent').textContent = todayPercentText;
-                document.getElementById('todayProfitPercent').style.color = '#95a5a6'; // 퍼센트는 항상 회색
-
-                // 누적 손익 업데이트
-                const totalAmountText = (totalProfit >= 0 ? '+' : '') + formatNumber(totalProfit) + '원';
-                const totalPercentText = '(' + formatPercent(totalPercent) + ')';
-                
-                document.getElementById('totalProfitAmount').textContent = totalAmountText;
-                document.getElementById('totalProfitAmount').style.color = totalProfit >= 0 ? '#ff6b6b' : '#5dade2'; // 양수는 붉은색
-                document.getElementById('totalProfitPercent').textContent = totalPercentText;
-                document.getElementById('totalProfitPercent').style.color = '#95a5a6'; // 퍼센트는 항상 회색
+                updateProfitElement('todayBotProfit', todayBotProfit);
+                updateProfitElement('todayHumanProfit', todayHumanProfit);
+                updateProfitElement('totalBotProfit', totalBotProfit);
+                updateProfitElement('totalHumanProfit', totalHumanProfit);
                 
                 // 날짜 업데이트
-                // 오늘 손익: 오늘 날짜만 표시
-                const todayDate = new Date().toLocaleDateString('ko-KR', {year: 'numeric', month: '2-digit', day: '2-digit'}).replace(/\. /g, '.').replace(/\.$/, '');
-                document.getElementById('todayProfitDate').textContent = todayDate;
-                
                 // 누적 손익: 시작일부터 표시 (JSON의 start_date 사용)
+                const todayDate = new Date().toLocaleDateString('ko-KR', {year: 'numeric', month: '2-digit', day: '2-digit'}).replace(/\. /g, '.').replace(/\.$/, '');
                 let startDateStr = todayDate;
                 if (data.start_date) {
                     // start_date가 있으면 포맷팅 (YYYY-MM-DD → YYYY.MM.DD)
@@ -2578,32 +2579,27 @@
                     
                     document.getElementById('lastUpdate').textContent = `데모 모드 - 샘플 데이터`;
                     
-                    const todayProfit = data.today_profit || 0;
-                    const todayPercent = data.today_profit_percent || 0;
-                    const totalProfit = data.total_profit || 0;
-                    const totalPercent = data.total_profit_percent || 0;
+                    // 🆕 봇/수동 손익 분리
+                    const todayBotProfit2 = data.today_bot_profit || 0;
+                    const todayHumanProfit2 = data.today_human_profit || 0;
+                    const totalBotProfit2 = data.total_bot_profit || 0;
+                    const totalHumanProfit2 = data.total_human_profit || 0;
                     
-                    // 오늘 손익 업데이트
-                    const todayAmountText2 = (todayProfit >= 0 ? '+' : '') + formatNumber(todayProfit) + '원';
-                    const todayPercentText2 = '(' + formatPercent(todayPercent) + ')';
+                    const updateProfitElement2 = (elementId, profit) => {
+                        const el = document.getElementById(elementId);
+                        if (el) {
+                            el.textContent = (profit >= 0 ? '+' : '') + formatNumber(profit) + '원';
+                            el.style.color = profit >= 0 ? '#2ecc71' : '#e74c3c';
+                        }
+                    };
                     
-                    document.getElementById('todayProfitAmount').textContent = todayAmountText2;
-                    document.getElementById('todayProfitAmount').style.color = todayProfit >= 0 ? '#ff6b6b' : '#5dade2';
-                    document.getElementById('todayProfitPercent').textContent = todayPercentText2;
-                    document.getElementById('todayProfitPercent').style.color = '#95a5a6';
-                    
-                    // 누적 손익 업데이트
-                    const totalAmountText2 = (totalProfit >= 0 ? '+' : '') + formatNumber(totalProfit) + '원';
-                    const totalPercentText2 = '(' + formatPercent(totalPercent) + ')';
-                    
-                    document.getElementById('totalProfitAmount').textContent = totalAmountText2;
-                    document.getElementById('totalProfitAmount').style.color = totalProfit >= 0 ? '#ff6b6b' : '#5dade2';
-                    document.getElementById('totalProfitPercent').textContent = totalPercentText2;
-                    document.getElementById('totalProfitPercent').style.color = '#95a5a6';
+                    updateProfitElement2('todayBotProfit', todayBotProfit2);
+                    updateProfitElement2('todayHumanProfit', todayHumanProfit2);
+                    updateProfitElement2('totalBotProfit', totalBotProfit2);
+                    updateProfitElement2('totalHumanProfit', totalHumanProfit2);
                     
                     // 날짜 업데이트
                     const todayDate2 = new Date().toLocaleDateString('ko-KR', {year: 'numeric', month: '2-digit', day: '2-digit'}).replace(/\. /g, '.').replace(/\.$/, '');
-                    document.getElementById('todayProfitDate').textContent = todayDate2;
                     
                     // 샘플 데이터에서는 시작일이 없으므로 오늘로 표시
                     const startDate2 = data.start_date ? data.start_date.replace(/-/g, '.') : todayDate2;
