@@ -1,5 +1,5 @@
 {
-  "last_update": "2025-12-27T19:29:25.266083",
+  "last_update": "2025-12-27T19:36:46.305435",
   "today_profit": 8794.983741166085,
   "today_profit_percent": 8.603781082472848,
   "total_profit": 9612.853349002922,
@@ -35,6 +35,18 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-DOGE",
+      "type": "buy",
+      "time": "2025-12-27T19:36:46.303232",
+      "price": 175.0,
+      "volume": 94.73463687,
+      "funds": 16578.56145225,
+      "cycle_status": "holding",
+      "profit": 0,
+      "buy_count": 1,
+      "bot_trade": true
+    },
     {
       "market": "KRW-MAY",
       "type": "buy",
