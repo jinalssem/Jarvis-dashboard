@@ -1,8 +1,8 @@
 {
-  "last_update": "2025-12-27T19:20:43.152477",
-  "today_profit": 9077.859282717487,
+  "last_update": "2025-12-27T19:28:04.026869",
+  "today_profit": 8794.983741166085,
   "today_profit_percent": 8.880506919008791,
-  "total_profit": 9895.728890554325,
+  "total_profit": 9612.853349002922,
   "total_profit_percent": 9.680596068338259,
   "total_investment": 102222.30966665046,
   "holdings": [
@@ -35,6 +35,31 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-MAY",
+      "type": "buy",
+      "time": "2025-12-27T19:28:04.024771",
+      "price": 17.8,
+      "volume": 986.53846154,
+      "funds": 17560.384615412,
+      "cycle_status": "holding",
+      "profit": 0,
+      "buy_count": 1,
+      "bot_trade": true
+    },
+    {
+      "market": "KRW-AHT",
+      "type": "sell",
+      "time": "2025-12-27T19:28:02.152709",
+      "price": 2.497,
+      "volume": 6735.1319417,
+      "funds": 16817.6244584249,
+      "cycle_status": "human",
+      "profit": -282.8755415514024,
+      "avg_buy_price": 2.539,
+      "bot_trade": false,
+      "source": "human"
+    },
     {
       "market": "KRW-SWAP",
       "type": "sell",
@@ -627,7 +652,7 @@
   ],
   "daily_profits": {
     "2025-12-26": 817.8696078368375,
-    "2025-12-27": 9077.859282717487
+    "2025-12-27": 8794.983741166085
   },
   "trade_cycles": [
     {
@@ -651,11 +676,11 @@
     "2025-12-26": 817.8696078368375
   },
   "human_profits": {
-    "2025-12-27": 9077.859282717487
+    "2025-12-27": 8794.983741166085
   },
   "today_bot_profit": 0,
-  "today_human_profit": 9077.859282717487,
+  "today_human_profit": 8794.983741166085,
   "total_bot_profit": 817.8696078368375,
-  "total_human_profit": 9077.859282717487,
+  "total_human_profit": 8794.983741166085,
   "today_date": "2025-12-27"
 }
