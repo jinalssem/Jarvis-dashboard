@@ -1,8 +1,8 @@
 {
-  "last_update": "2025-12-28T08:18:40.826312",
+  "last_update": "2025-12-28T08:25:53.376727",
   "today_profit": 0,
   "today_profit_percent": 0.0,
-  "total_profit": 0,
+  "total_profit": 9612.853349002922,
   "total_profit_percent": 0.0,
   "total_investment": 36854.4,
   "holdings": [
@@ -1218,7 +1218,10 @@
       "source": "human"
     }
   ],
-  "daily_profits": {},
+  "daily_profits": {
+    "2025-12-26": 817.8696078368375,
+    "2025-12-27": 8794.983741166085
+  },
   "trade_cycles": [
     {
       "market": "KRW-DOGE",
@@ -1237,11 +1240,15 @@
     }
   ],
   "start_date": "2025-12-24",
-  "bot_profits": {},
-  "human_profits": {},
+  "bot_profits": {
+    "2025-12-26": 817.8696078368375
+  },
+  "human_profits": {
+    "2025-12-27": 8794.983741166085
+  },
   "today_bot_profit": 0,
   "today_human_profit": 0,
-  "total_bot_profit": 0,
-  "total_human_profit": 0,
+  "total_bot_profit": 817.8696078368375,
+  "total_human_profit": 8794.983741166085,
   "today_date": "2025-12-28"
 }
