@@ -1,22 +1,46 @@
 {
-  "last_update": "2025-12-28T08:10:32.311706",
+  "last_update": "2025-12-28T08:11:47.208048",
   "today_profit": 0,
   "today_profit_percent": 0.0,
   "total_profit": 0,
   "total_profit_percent": 0.0,
-  "total_investment": 81334.4019270786,
+  "total_investment": 36854.4,
   "holdings": [
     {
-      "market": "KRW-BLY",
-      "amount": 28669.15824007,
-      "avg_price": 2.837,
-      "current_price": 2.783,
-      "value": 79786.2673821148,
-      "profit": -1548.1345449637877,
-      "profit_rate": -0.019034191046880602
+      "market": "KRW-STORJ",
+      "amount": 147.4176,
+      "avg_price": 250.0,
+      "current_price": 252.0,
+      "value": 37149.235199999996,
+      "profit": 294.8352,
+      "profit_rate": 0.008
     }
   ],
   "trades": [
+    {
+      "market": "KRW-STORJ",
+      "type": "buy",
+      "time": "2025-12-28T08:08:30",
+      "price": 250.0,
+      "volume": 147.4176,
+      "funds": 36854.4,
+      "profit": 0,
+      "avg_buy_price": 0,
+      "bot_trade": false,
+      "source": "human"
+    },
+    {
+      "market": "KRW-BLY",
+      "type": "sell",
+      "time": "2025-12-28T08:10:32",
+      "price": 2.73,
+      "volume": 28669.15824007,
+      "funds": 78266.8019953911,
+      "profit": 0,
+      "avg_buy_price": 0,
+      "bot_trade": false,
+      "source": "human"
+    },
     {
       "market": "KRW-XYO",
       "type": "buy",
@@ -1188,30 +1212,6 @@
       "price": 27.43,
       "volume": 1928.27003449,
       "funds": 52892.4470460607,
-      "profit": 0,
-      "avg_buy_price": 0,
-      "bot_trade": false,
-      "source": "human"
-    },
-    {
-      "market": "KRW-XAN",
-      "type": "sell",
-      "time": "2025-12-28T07:08:42",
-      "price": 26.7,
-      "volume": 487.46932886,
-      "funds": 13015.431080562,
-      "profit": 0,
-      "avg_buy_price": 0,
-      "bot_trade": false,
-      "source": "human"
-    },
-    {
-      "market": "KRW-WIKEN",
-      "type": "sell",
-      "time": "2025-12-28T07:10:14",
-      "price": 3.4,
-      "volume": 15296.96612665,
-      "funds": 52009.68483061,
       "profit": 0,
       "avg_buy_price": 0,
       "bot_trade": false,
