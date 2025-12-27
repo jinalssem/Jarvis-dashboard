@@ -1,5 +1,5 @@
 {
-  "last_update": "2025-12-27T11:22:07.145839",
+  "last_update": "2025-12-27T11:29:43.710882",
   "today_profit": 0,
   "today_profit_percent": 0.0,
   "total_profit": 817.8696078368375,
@@ -44,6 +44,18 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-INIT",
+      "type": "sell",
+      "time": "2025-12-27T11:29:43.705331",
+      "price": 149.0,
+      "volume": 338.38802816,
+      "funds": 50419.816195839994,
+      "cycle_status": "external",
+      "profit": 0,
+      "avg_buy_price": 0,
+      "bot_trade": false
+    },
     {
       "market": "KRW-INIT",
       "type": "sell",
