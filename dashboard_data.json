@@ -1,5 +1,5 @@
 {
-  "last_update": "2025-12-27T20:30:06.148966",
+  "last_update": "2025-12-27T20:37:27.091273",
   "today_profit": 8794.983741166085,
   "today_profit_percent": 10.332233038284885,
   "total_profit": 9612.853349002922,
@@ -26,6 +26,18 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-SOL",
+      "type": "buy",
+      "time": "2025-12-27T20:37:27.089549",
+      "price": 176200.0,
+      "volume": 0.09986096,
+      "funds": 17595.501152,
+      "cycle_status": "holding",
+      "profit": 0,
+      "buy_count": 1,
+      "bot_trade": true
+    },
     {
       "market": "KRW-ETH",
       "type": "buy",
