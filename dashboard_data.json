@@ -1,5 +1,5 @@
 {
-  "last_update": "2025-12-28T13:03:14.460696",
+  "last_update": "2025-12-28T13:10:42.858694",
   "today_profit": 9623.958373682348,
   "today_profit_percent": 4.489593802284817,
   "total_profit": 9949.90093368235,
@@ -7,6 +7,18 @@
   "total_investment": 0,
   "holdings": [],
   "trades": [
+    {
+      "market": "KRW-ETH",
+      "type": "buy",
+      "time": "2025-12-28T13:10:42.857095",
+      "price": 4212000.0,
+      "volume": 0.00417752,
+      "funds": 17595.714239999998,
+      "cycle_status": "holding",
+      "profit": 0,
+      "buy_count": 1,
+      "bot_trade": true
+    },
     {
       "market": "KRW-CPOOL",
       "type": "sell",
@@ -1190,18 +1202,6 @@
       "price": 649.0,
       "volume": 25.12728996,
       "funds": 16307.611184039999,
-      "profit": 0,
-      "avg_buy_price": 0,
-      "bot_trade": false,
-      "source": "human"
-    },
-    {
-      "market": "KRW-YB",
-      "type": "sell",
-      "time": "2025-12-26T15:00:31",
-      "price": 904.0,
-      "volume": 50.25457992,
-      "funds": 45430.14024768,
       "profit": 0,
       "avg_buy_price": 0,
       "bot_trade": false,
