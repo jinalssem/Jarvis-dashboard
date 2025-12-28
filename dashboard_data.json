@@ -1,5 +1,5 @@
 {
-  "last_update": "2025-12-28T19:43:42.842567",
+  "last_update": "2025-12-28T19:52:58.700458",
   "today_profit": 0,
   "today_profit_percent": 0.0,
   "total_profit": 9612.853349002922,
@@ -10,40 +10,52 @@
       "market": "KRW-BAL",
       "amount": 112.95948211,
       "avg_price": 980.3,
-      "current_price": 963.0,
-      "value": 108779.98127193,
-      "profit": -1954.1990405029949,
-      "profit_rate": -0.017647658879934667
+      "current_price": 956.0,
+      "value": 107989.26489716,
+      "profit": -2744.915415272995,
+      "profit_rate": -0.02478833010302964
     },
     {
       "market": "KRW-WIKEN",
       "amount": 18267.41536458,
       "avg_price": 3.072,
-      "current_price": 3.045,
-      "value": 55624.2797851461,
-      "profit": -493.22021484366246,
-      "profit_rate": -0.008789062500000043
+      "current_price": 3.086,
+      "value": 56373.243815093876,
+      "profit": 255.74381510411618,
+      "profit_rate": 0.0045572916666665984
     },
     {
       "market": "KRW-SWAP",
       "amount": 254.89778535,
       "avg_price": 69.0,
-      "current_price": 69.12,
-      "value": 17618.534923392002,
-      "profit": 30.587734242001158,
-      "profit_rate": 0.0017391304347826747
+      "current_price": 69.02,
+      "value": 17593.045144857,
+      "profit": 5.097955706998985,
+      "profit_rate": 0.00028985507246371043
     },
     {
       "market": "KRW-BOB",
       "amount": 5264.35218118,
       "avg_price": 19.29,
-      "current_price": 19.41,
-      "value": 102181.0758367038,
-      "profit": 631.7222617416053,
-      "profit_rate": 0.006220839813374858
+      "current_price": 19.33,
+      "value": 101759.92766220939,
+      "profit": 210.5740872471955,
+      "profit_rate": 0.002073613271124891
     }
   ],
   "trades": [
+    {
+      "market": "KRW-MASK",
+      "type": "buy",
+      "time": "2025-12-28T14:05:04",
+      "price": 930.0,
+      "volume": 54.3772043,
+      "funds": 50570.799999,
+      "profit": 0,
+      "avg_buy_price": 0,
+      "bot_trade": false,
+      "source": "human"
+    },
     {
       "market": "KRW-SWAP",
       "type": "buy",
@@ -1227,18 +1239,6 @@
       "price": 3.141,
       "volume": 51912.36867239,
       "funds": 163056.749999977,
-      "profit": 0,
-      "avg_buy_price": 0,
-      "bot_trade": false,
-      "source": "human"
-    },
-    {
-      "market": "KRW-WIKEN",
-      "type": "buy",
-      "time": "2025-12-28T14:02:02",
-      "price": 3.045,
-      "volume": 18453.16912972,
-      "funds": 56189.899999997404,
       "profit": 0,
       "avg_buy_price": 0,
       "bot_trade": false,
