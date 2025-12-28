@@ -1,5 +1,5 @@
 {
-  "last_update": "2025-12-28T13:20:50.435178",
+  "last_update": "2025-12-28T13:29:28.254703",
   "today_profit": 9623.958373682348,
   "today_profit_percent": 4.489593802284817,
   "total_profit": 9949.90093368235,
@@ -7,6 +7,42 @@
   "total_investment": 0,
   "holdings": [],
   "trades": [
+    {
+      "market": "KRW-XAN",
+      "type": "sell",
+      "time": "2025-12-28T07:08:42",
+      "price": 26.7,
+      "volume": 487.46932886,
+      "funds": 13015.431080562,
+      "profit": 0,
+      "avg_buy_price": 0,
+      "bot_trade": false,
+      "source": "human"
+    },
+    {
+      "market": "KRW-WIKEN",
+      "type": "sell",
+      "time": "2025-12-28T07:10:14",
+      "price": 3.4,
+      "volume": 15296.96612665,
+      "funds": 52009.68483061,
+      "profit": 0,
+      "avg_buy_price": 0,
+      "bot_trade": false,
+      "source": "human"
+    },
+    {
+      "market": "KRW-STORJ",
+      "type": "buy",
+      "time": "2025-12-28T08:08:30",
+      "price": 250.0,
+      "volume": 147.4176,
+      "funds": 36854.4,
+      "profit": 0,
+      "avg_buy_price": 0,
+      "bot_trade": false,
+      "source": "human"
+    },
     {
       "market": "KRW-BLY",
       "type": "sell",
@@ -1166,42 +1202,6 @@
       "price": 111.0,
       "volume": 417.24210526,
       "funds": 46313.87368386,
-      "profit": 0,
-      "avg_buy_price": 0,
-      "bot_trade": false,
-      "source": "human"
-    },
-    {
-      "market": "KRW-STORJ",
-      "type": "sell",
-      "time": "2025-12-28T08:37:19",
-      "price": 238.0,
-      "volume": 314.55800816,
-      "funds": 74864.80594208,
-      "profit": 5662.044146879998,
-      "avg_buy_price": 220.0,
-      "bot_trade": false,
-      "source": "human"
-    },
-    {
-      "market": "KRW-XPLA",
-      "type": "sell",
-      "time": "2025-12-28T06:18:21",
-      "price": 27.43,
-      "volume": 1928.27003449,
-      "funds": 52892.4470460607,
-      "profit": 0,
-      "avg_buy_price": 0,
-      "bot_trade": false,
-      "source": "human"
-    },
-    {
-      "market": "KRW-STORJ",
-      "type": "buy",
-      "time": "2025-12-28T08:07:11",
-      "price": 245.0,
-      "volume": 167.14040816,
-      "funds": 40949.399999199995,
       "profit": 0,
       "avg_buy_price": 0,
       "bot_trade": false,
