@@ -1,10 +1,10 @@
 {
-  "last_update": "2025-12-28T17:27:35.440384",
+  "last_update": "2025-12-28T17:36:16.344529",
   "today_profit": 0,
   "today_profit_percent": 0.0,
   "total_profit": 0,
   "total_profit_percent": 0.0,
-  "total_investment": 128322.12750158299,
+  "total_investment": 235082.8275005804,
   "holdings": [
     {
       "market": "KRW-BAL",
@@ -16,16 +16,70 @@
       "profit_rate": -0.018667754768948237
     },
     {
+      "market": "KRW-WIKEN",
+      "amount": 18453.16912972,
+      "avg_price": 3.045,
+      "current_price": 3.03,
+      "value": 55913.102463051604,
+      "profit": -276.79753694580234,
+      "profit_rate": -0.004926108374384277
+    },
+    {
       "market": "KRW-SWAP",
       "amount": 254.89778535,
       "avg_price": 69.0,
-      "current_price": 68.9,
-      "value": 17562.457410615,
-      "profit": -25.48977853499855,
-      "profit_rate": -0.0014492753623187582
+      "current_price": 68.92,
+      "value": 17567.555366322,
+      "profit": -20.391822827999565,
+      "profit_rate": -0.0011594202898550477
+    },
+    {
+      "market": "KRW-MASK",
+      "amount": 54.3772043,
+      "avg_price": 930.0,
+      "current_price": 931.0,
+      "value": 50625.1772033,
+      "profit": 54.3772043,
+      "profit_rate": 0.001075268817204301
     }
   ],
   "trades": [
+    {
+      "market": "KRW-WIKEN",
+      "type": "buy",
+      "time": "2025-12-28T10:40:21",
+      "price": 3.141,
+      "volume": 51912.36867239,
+      "funds": 163056.749999977,
+      "profit": 0,
+      "avg_buy_price": 0,
+      "bot_trade": false,
+      "source": "human"
+    },
+    {
+      "market": "KRW-WIKEN",
+      "type": "buy",
+      "time": "2025-12-28T14:02:02",
+      "price": 3.045,
+      "volume": 18453.16912972,
+      "funds": 56189.899999997404,
+      "profit": 0,
+      "avg_buy_price": 0,
+      "bot_trade": false,
+      "source": "human"
+    },
+    {
+      "market": "KRW-MASK",
+      "type": "buy",
+      "time": "2025-12-28T14:05:04",
+      "price": 930.0,
+      "volume": 54.3772043,
+      "funds": 50570.799999,
+      "profit": 0,
+      "avg_buy_price": 0,
+      "bot_trade": false,
+      "source": "human"
+    },
     {
       "market": "KRW-SWAP",
       "type": "buy",
@@ -1185,42 +1239,6 @@
       "price": 3.4,
       "volume": 15296.96612665,
       "funds": 52009.68483061,
-      "profit": 0,
-      "avg_buy_price": 0,
-      "bot_trade": false,
-      "source": "human"
-    },
-    {
-      "market": "KRW-STORJ",
-      "type": "buy",
-      "time": "2025-12-28T08:08:30",
-      "price": 250.0,
-      "volume": 147.4176,
-      "funds": 36854.4,
-      "profit": 0,
-      "avg_buy_price": 0,
-      "bot_trade": false,
-      "source": "human"
-    },
-    {
-      "market": "KRW-BLY",
-      "type": "sell",
-      "time": "2025-12-28T08:10:32",
-      "price": 2.73,
-      "volume": 28669.15824007,
-      "funds": 78266.8019953911,
-      "profit": 0,
-      "avg_buy_price": 0,
-      "bot_trade": false,
-      "source": "human"
-    },
-    {
-      "market": "KRW-STORJ",
-      "type": "buy",
-      "time": "2025-12-28T10:39:32",
-      "price": 220.0,
-      "volume": 329.405,
-      "funds": 72469.09999999999,
       "profit": 0,
       "avg_buy_price": 0,
       "bot_trade": false,
