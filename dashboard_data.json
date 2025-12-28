@@ -1,5 +1,5 @@
 {
-  "last_update": "2025-12-28T12:19:38.079321",
+  "last_update": "2025-12-28T12:27:07.273495",
   "today_profit": 9623.958373682348,
   "today_profit_percent": 4.489593802284817,
   "total_profit": 9623.958373682348,
@@ -7,6 +7,18 @@
   "total_investment": 0,
   "holdings": [],
   "trades": [
+    {
+      "market": "KRW-BTC",
+      "type": "buy",
+      "time": "2025-12-28T12:27:07.272024",
+      "price": 125733000.0,
+      "volume": 0.00014772,
+      "funds": 18573.27876,
+      "cycle_status": "holding",
+      "profit": 0,
+      "buy_count": 1,
+      "bot_trade": true
+    },
     {
       "market": "KRW-ZKP",
       "type": "buy",
@@ -1190,18 +1202,6 @@
       "price": 229.0,
       "volume": 754.62032668,
       "funds": 172808.05480972,
-      "profit": 0,
-      "avg_buy_price": 0,
-      "bot_trade": false,
-      "source": "human"
-    },
-    {
-      "market": "KRW-ZKP",
-      "type": "buy",
-      "time": "2025-12-26T23:06:29",
-      "price": 221.0,
-      "volume": 1019.18626856,
-      "funds": 225240.16535176002,
       "profit": 0,
       "avg_buy_price": 0,
       "bot_trade": false,
