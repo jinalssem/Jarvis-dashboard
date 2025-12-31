@@ -1,67 +1,124 @@
 {
-  "last_update": "2026-01-01T07:45:01.428559",
+  "last_update": "2026-01-01T08:14:07.848251",
   "today_profit": -9313.625429304433,
-  "today_profit_percent": -0.366579844645755,
-  "total_profit": 31929.354192125076,
-  "total_profit_percent": 2.001420962433741,
-  "total_investment": 2540681.263669766,
+  "today_profit_percent": -0.3592687626176147,
+  "total_profit": 32675.622848841438,
+  "total_profit_percent": 1.2316599651614963,
+  "total_investment": 2592383.863669586,
   "holdings": [
+    {
+      "market": "KRW-CBK",
+      "amount": 111.91038961,
+      "avg_price": 462.0,
+      "current_price": 465.0,
+      "value": 52038.331168649995,
+      "profit": 335.73116883,
+      "profit_rate": 0.006493506493506494
+    },
     {
       "market": "KRW-CSPR",
       "amount": 11455.45352021,
       "avg_price": 6.207,
-      "current_price": 6.159,
-      "value": 70554.13823097339,
-      "profit": -549.8617689700804,
-      "profit_rate": -0.007733204446592564
+      "current_price": 6.223,
+      "value": 71287.28725626682,
+      "profit": 183.28725632336017,
+      "profit_rate": 0.0025777348155308546
     },
     {
       "market": "KRW-NEAR",
       "amount": 2.4368231,
       "avg_price": 2216.0,
-      "current_price": 2215.0,
-      "value": 5397.563166499999,
-      "profit": -2.4368231,
-      "profit_rate": -0.0004512635379061372
+      "current_price": 2198.0,
+      "value": 5356.1371738,
+      "profit": -43.86281579999999,
+      "profit_rate": -0.008122743682310469
     },
     {
       "market": "KRW-ATH",
       "amount": 32267.49420378,
       "avg_price": 12.5,
-      "current_price": 12.51,
-      "value": 403666.3524892878,
-      "profit": 322.67494203779313,
-      "profit_rate": 0.0007999999999999829
+      "current_price": 12.56,
+      "value": 405279.7271994768,
+      "profit": 1936.049652226816,
+      "profit_rate": 0.0048000000000000395
     },
     {
       "market": "KRW-A8",
       "amount": 7313.6198557200005,
       "avg_price": 67.68,
-      "current_price": 66.35,
-      "value": 485258.677427022,
-      "profit": -9727.114408107693,
-      "profit_rate": -0.019651300236406804
+      "current_price": 66.09,
+      "value": 483357.13626453484,
+      "profit": -11628.655570594825,
+      "profit_rate": -0.023492907801418488
     },
     {
       "market": "KRW-BOB",
       "amount": 90062.31369538,
       "avg_price": 16.75,
-      "current_price": 15.94,
-      "value": 1435593.2803043572,
-      "profit": -72950.47409325784,
-      "profit_rate": -0.048358208955223914
+      "current_price": 15.9,
+      "value": 1431990.787756542,
+      "profit": -76552.96664107297,
+      "profit_rate": -0.050746268656716394
     },
     {
       "market": "KRW-IRYS",
       "amount": 1612.8353476,
       "avg_price": 35.53,
-      "current_price": 35.55,
-      "value": 57336.29660718,
-      "profit": 32.25670695199358,
-      "profit_rate": 0.0005629045876722775
+      "current_price": 35.52,
+      "value": 57287.911546752,
+      "profit": -16.12835347599679,
+      "profit_rate": -0.00028145229383613876
     }
   ],
   "trades": [
+    {
+      "market": "KRW-MASK",
+      "type": "buy",
+      "time": "2025-12-28T10:42:52",
+      "price": 924.0,
+      "volume": 52.93993506,
+      "funds": 48916.499995440005,
+      "profit": 0,
+      "avg_buy_price": 0,
+      "bot_trade": false,
+      "source": "human"
+    },
+    {
+      "market": "KRW-BOB",
+      "type": "buy",
+      "time": "2025-12-28T20:28:19",
+      "price": 18.13,
+      "volume": 9677.62112869,
+      "funds": 175455.27106314967,
+      "profit": 0,
+      "avg_buy_price": 0,
+      "bot_trade": false,
+      "source": "human"
+    },
+    {
+      "market": "KRW-BIOT",
+      "type": "sell",
+      "time": "2025-12-31T23:24:36",
+      "price": 0.7263,
+      "volume": 276395.79878385,
+      "funds": 200746.26865671022,
+      "profit": 746.2686567163619,
+      "avg_buy_price": 0.7236,
+      "bot_trade": false,
+      "source": "human"
+    },
+    {
+      "market": "KRW-PIEVERSE",
+      "type": "buy",
+      "time": "2025-12-31T23:25:29",
+      "price": 711.0,
+      "volume": 281.64048388,
+      "funds": 200246.38403867997,
+      "profit": 0,
+      "avg_buy_price": 0,
+      "bot_trade": false,
+      "source": "human"
+    },
     {
       "market": "KRW-BOB",
       "type": "buy",
@@ -1213,61 +1270,13 @@
       "avg_buy_price": 946.7874181068496,
       "bot_trade": false,
       "source": "human"
-    },
-    {
-      "market": "KRW-WIKEN",
-      "type": "sell",
-      "time": "2025-12-28T18:10:54",
-      "price": 3.101,
-      "volume": 18453.16912972,
-      "funds": 57223.277471261725,
-      "profit": -579.6911201388721,
-      "avg_buy_price": 3.1324141769396805,
-      "bot_trade": false,
-      "source": "human"
-    },
-    {
-      "market": "KRW-PIEVERSE",
-      "type": "buy",
-      "time": "2025-12-31T23:39:55",
-      "price": 661.0,
-      "volume": 211.27212226,
-      "funds": 139650.87281386,
-      "profit": 0,
-      "avg_buy_price": 0,
-      "bot_trade": false,
-      "source": "human"
-    },
-    {
-      "market": "KRW-WIKEN",
-      "type": "sell",
-      "time": "2025-12-28T07:10:14",
-      "price": 3.4,
-      "volume": 15296.96612665,
-      "funds": 52009.68483061,
-      "profit": 4093.251271325469,
-      "avg_buy_price": 3.1324141769396805,
-      "bot_trade": false,
-      "source": "human"
-    },
-    {
-      "market": "KRW-STORJ",
-      "type": "buy",
-      "time": "2025-12-28T08:08:30",
-      "price": 250.0,
-      "volume": 147.4176,
-      "funds": 36854.4,
-      "profit": 0,
-      "avg_buy_price": 0,
-      "bot_trade": false,
-      "source": "human"
     }
   ],
   "daily_profits": {
     "2025-12-26": 817.8696078368375,
     "2025-12-27": 8794.983741166085,
     "2025-12-28": 19562.726509971555,
-    "2025-12-31": -60535.403183144444,
+    "2025-12-31": -59789.13452642808,
     "2025-12-30": 68823.45169254387,
     "2025-12-29": 3779.351253055611,
     "2026-01-01": -9313.625429304433
@@ -1297,7 +1306,7 @@
   "human_profits": {
     "2025-12-27": 8794.983741166085,
     "2025-12-28": 15159.332797837462,
-    "2025-12-31": -60535.403183144444,
+    "2025-12-31": -59789.13452642808,
     "2025-12-30": 68823.45169254387,
     "2025-12-29": 3779.351253055611,
     "2026-01-01": -9313.625429304433
@@ -1305,6 +1314,6 @@
   "today_bot_profit": 0,
   "today_human_profit": -9313.625429304433,
   "total_bot_profit": 5221.263319970931,
-  "total_human_profit": 26708.090872154145,
+  "total_human_profit": 27454.359528870507,
   "today_date": "2026-01-01"
 }
