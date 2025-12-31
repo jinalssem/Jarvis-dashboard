@@ -2158,7 +2158,7 @@
                     const el = document.getElementById(elementId);
                     if (el) {
                         el.textContent = (profit >= 0 ? '+' : '') + formatNumber(profit) + '원';
-                        el.style.color = profit >= 0 ? '#2ecc71' : '#e74c3c';
+                        el.style.color = profit >= 0 ? '#ff6b6b' : '#4dabf7';  // 이익: 빨강, 손실: 파랑
                     }
                 };
                 
@@ -2589,7 +2589,7 @@
                         const el = document.getElementById(elementId);
                         if (el) {
                             el.textContent = (profit >= 0 ? '+' : '') + formatNumber(profit) + '원';
-                            el.style.color = profit >= 0 ? '#2ecc71' : '#e74c3c';
+                            el.style.color = profit >= 0 ? '#ff6b6b' : '#4dabf7';  // 이익: 빨강, 손실: 파랑
                         }
                     };
                     
