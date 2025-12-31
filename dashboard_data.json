@@ -1,40 +1,148 @@
 {
-  "last_update": "2026-01-01T01:10:01.877514",
+  "last_update": "2026-01-01T01:20:53.085870",
   "today_profit": -19539.231089534383,
   "today_profit_percent": -1.0234546683881127,
-  "total_profit": -1245.2434245715922,
-  "total_profit_percent": -1.3854160652125822,
+  "total_profit": 3138.64211968163,
+  "total_profit_percent": -0.06522519695465491,
   "total_investment": 1909144.751892885,
   "holdings": [
     {
       "market": "KRW-NEAR",
       "amount": 2.4368231,
       "avg_price": 2216.0,
-      "current_price": 2188.0,
-      "value": 5331.768942799999,
-      "profit": -68.2310468,
-      "profit_rate": -0.01263537906137184
+      "current_price": 2189.0,
+      "value": 5334.205765899999,
+      "profit": -65.79422369999999,
+      "profit_rate": -0.012184115523465704
     },
     {
       "market": "KRW-A8",
       "amount": 5779.48226829,
       "avg_price": 68.38,
-      "current_price": 66.39,
-      "value": 383699.82779177313,
-      "profit": -11501.16971389707,
-      "profit_rate": -0.02910207663059367
+      "current_price": 66.9,
+      "value": 386647.36374860106,
+      "profit": -8553.633757069141,
+      "profit_rate": -0.02164375548405952
     },
     {
       "market": "KRW-BOB",
       "amount": 90062.31369538,
       "avg_price": 16.75,
-      "current_price": 16.41,
-      "value": 1477922.567741186,
-      "profit": -30621.186656429185,
-      "profit_rate": -0.02029850746268656
+      "current_price": 16.37,
+      "value": 1474320.0751933707,
+      "profit": -34223.67920424431,
+      "profit_rate": -0.022686567164179047
     }
   ],
   "trades": [
+    {
+      "market": "KRW-PIEVERSE",
+      "type": "buy",
+      "time": "2025-12-30T08:45:45",
+      "price": 969.0,
+      "volume": 45.35328345,
+      "funds": 43947.33166305,
+      "profit": 0,
+      "avg_buy_price": 0,
+      "bot_trade": false,
+      "source": "human"
+    },
+    {
+      "market": "KRW-ZKP",
+      "type": "buy",
+      "time": "2025-12-30T11:25:59",
+      "price": 184.0,
+      "volume": 537.40783909,
+      "funds": 98883.04239256,
+      "profit": 0,
+      "avg_buy_price": 0,
+      "bot_trade": false,
+      "source": "human"
+    },
+    {
+      "market": "KRW-BIGTIME",
+      "type": "buy",
+      "time": "2025-12-30T12:01:01",
+      "price": 29.23,
+      "volume": 5074.39918848,
+      "funds": 148324.6882792704,
+      "profit": 0,
+      "avg_buy_price": 0,
+      "bot_trade": false,
+      "source": "human"
+    },
+    {
+      "market": "KRW-BOB",
+      "type": "buy",
+      "time": "2025-12-30T16:22:26",
+      "price": 16.73,
+      "volume": 2216.44036948,
+      "funds": 37081.0473814004,
+      "profit": 0,
+      "avg_buy_price": 0,
+      "bot_trade": false,
+      "source": "human"
+    },
+    {
+      "market": "KRW-BOB",
+      "type": "buy",
+      "time": "2025-12-30T16:22:55",
+      "price": 16.74,
+      "volume": 2216.44036948,
+      "funds": 37103.21178509519,
+      "profit": 0,
+      "avg_buy_price": 0,
+      "bot_trade": false,
+      "source": "human"
+    },
+    {
+      "market": "KRW-FIDA",
+      "type": "buy",
+      "time": "2025-12-30T16:25:43",
+      "price": 54.37,
+      "volume": 1363.64991512,
+      "funds": 74141.6458850744,
+      "profit": 0,
+      "avg_buy_price": 0,
+      "bot_trade": false,
+      "source": "human"
+    },
+    {
+      "market": "KRW-FIDA",
+      "type": "sell",
+      "time": "2025-12-30T16:26:04",
+      "price": 55.35,
+      "volume": 1363.64991512,
+      "funds": 75478.022801892,
+      "profit": 1103.7853584175173,
+      "avg_buy_price": 54.540565447789156,
+      "bot_trade": false,
+      "source": "human"
+    },
+    {
+      "market": "KRW-FIDA",
+      "type": "buy",
+      "time": "2025-12-30T16:28:09",
+      "price": 54.71,
+      "volume": 1372.75163398,
+      "funds": 75103.2418950458,
+      "profit": 0,
+      "avg_buy_price": 0,
+      "bot_trade": false,
+      "source": "human"
+    },
+    {
+      "market": "KRW-FIDA",
+      "type": "sell",
+      "time": "2025-12-30T16:45:09",
+      "price": 56.93,
+      "volume": 1372.75163398,
+      "funds": 78150.7505224814,
+      "profit": 3280.100185835705,
+      "avg_buy_price": 54.540565447789156,
+      "bot_trade": false,
+      "source": "human"
+    },
     {
       "market": "KRW-PIEVERSE",
       "type": "buy",
@@ -1126,114 +1234,6 @@
       "avg_buy_price": 0,
       "bot_trade": false,
       "source": "human"
-    },
-    {
-      "market": "KRW-BOB",
-      "type": "buy",
-      "time": "2025-12-29T16:31:06",
-      "price": 16.77,
-      "volume": 10191.48610287,
-      "funds": 170911.2219451299,
-      "profit": 0,
-      "avg_buy_price": 0,
-      "bot_trade": false,
-      "source": "human"
-    },
-    {
-      "market": "KRW-ZKP",
-      "type": "sell",
-      "time": "2025-12-29T18:47:57",
-      "price": 202.0,
-      "volume": 283.66583541,
-      "funds": 57300.49875282,
-      "profit": -6479.668631041131,
-      "avg_buy_price": 224.84261205328326,
-      "bot_trade": false,
-      "source": "human"
-    },
-    {
-      "market": "KRW-BOB",
-      "type": "buy",
-      "time": "2025-12-29T21:20:39",
-      "price": 16.62,
-      "volume": 6828.25590308,
-      "funds": 113485.61310918961,
-      "profit": 0,
-      "avg_buy_price": 0,
-      "bot_trade": false,
-      "source": "human"
-    },
-    {
-      "market": "KRW-BOB",
-      "type": "buy",
-      "time": "2025-12-29T21:22:21",
-      "price": 16.58,
-      "volume": 6894.09007601,
-      "funds": 114304.0134602458,
-      "profit": 0,
-      "avg_buy_price": 0,
-      "bot_trade": false,
-      "source": "human"
-    },
-    {
-      "market": "KRW-BOB",
-      "type": "sell",
-      "time": "2025-12-30T03:31:42",
-      "price": 16.78,
-      "volume": 13722.34597909,
-      "funds": 230260.96552913022,
-      "profit": -1783.9049772816652,
-      "avg_buy_price": 16.91,
-      "bot_trade": false,
-      "source": "human"
-    },
-    {
-      "market": "KRW-AI16Z",
-      "type": "buy",
-      "time": "2025-12-30T03:43:43",
-      "price": 17.86,
-      "volume": 12248.66166051,
-      "funds": 218761.0972567086,
-      "profit": 0,
-      "avg_buy_price": 0,
-      "bot_trade": false,
-      "source": "human"
-    },
-    {
-      "market": "KRW-PIEVERSE",
-      "type": "buy",
-      "time": "2025-12-30T05:03:57",
-      "price": 970.0,
-      "volume": 139.94601126,
-      "funds": 135747.6309222,
-      "profit": 0,
-      "avg_buy_price": 0,
-      "bot_trade": false,
-      "source": "human"
-    },
-    {
-      "market": "KRW-AI16Z",
-      "type": "sell",
-      "time": "2025-12-30T05:38:34",
-      "price": 18.06,
-      "volume": 16901.32937872,
-      "funds": 305238.00857968314,
-      "profit": 3380.265875743993,
-      "avg_buy_price": 17.86,
-      "bot_trade": false,
-      "source": "human"
-    },
-    {
-      "market": "KRW-PIEVERSE",
-      "type": "sell",
-      "time": "2025-12-30T06:37:33",
-      "price": 975.0,
-      "volume": 139.94601126,
-      "funds": 136447.36097850002,
-      "profit": 4886.408551049448,
-      "avg_buy_price": 940.0836168387024,
-      "bot_trade": false,
-      "source": "human"
     }
   ],
   "daily_profits": {
@@ -1241,7 +1241,7 @@
     "2025-12-27": 8794.983741166085,
     "2025-12-28": 20572.679824042927,
     "2025-12-31": -41615.02997555635,
-    "2025-12-30": 32079.06392928603,
+    "2025-12-30": 36462.94947353925,
     "2025-12-29": -2355.57946181274,
     "2026-01-01": -19539.231089534383
   },
@@ -1271,13 +1271,13 @@
     "2025-12-27": 8794.983741166085,
     "2025-12-28": 16169.286111908834,
     "2025-12-31": -41615.02997555635,
-    "2025-12-30": 32079.06392928603,
+    "2025-12-30": 36462.94947353925,
     "2025-12-29": -2355.57946181274,
     "2026-01-01": -19539.231089534383
   },
   "today_bot_profit": 0,
   "today_human_profit": -19539.231089534383,
   "total_bot_profit": 5221.263319970931,
-  "total_human_profit": -6466.506744542523,
+  "total_human_profit": -2082.6212002893008,
   "today_date": "2026-01-01"
 }
