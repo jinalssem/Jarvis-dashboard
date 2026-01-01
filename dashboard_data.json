@@ -1,9 +1,9 @@
 {
-  "last_update": "2026-01-01T14:21:11.696433",
+  "last_update": "2026-01-01T14:34:25.014191",
   "today_profit": -8994.208578545622,
   "today_profit_percent": -0.36946812488417136,
   "total_profit": 88643.53483099844,
-  "total_profit_percent": 3.316272419683207,
+  "total_profit_percent": 3.6413387916349174,
   "total_investment": 2434366.586120336,
   "holdings": [
     {
@@ -19,10 +19,10 @@
       "market": "KRW-GMX",
       "amount": 8.04387755,
       "avg_price": 11270.0,
-      "current_price": 11280.0,
-      "value": 90734.93876399999,
-      "profit": 80.43877549999999,
-      "profit_rate": 0.0008873114463176575
+      "current_price": 11250.0,
+      "value": 90493.62243749999,
+      "profit": -160.87755099999998,
+      "profit_rate": -0.001774622892635315
     },
     {
       "market": "KRW-IOTA",
@@ -37,31 +37,67 @@
       "market": "KRW-A8",
       "amount": 7313.6198557200005,
       "avg_price": 67.68,
-      "current_price": 66.34,
-      "value": 485185.54122846486,
-      "profit": -9800.250606664826,
-      "profit_rate": -0.019799054373522508
+      "current_price": 65.95,
+      "value": 482333.22948473407,
+      "profit": -12652.56235039563,
+      "profit_rate": -0.025561465721040247
     },
     {
       "market": "KRW-BOB",
       "amount": 90062.31369538,
       "avg_price": 16.75,
-      "current_price": 15.6,
-      "value": 1404972.093647928,
-      "profit": -103571.66074968703,
-      "profit_rate": -0.06865671641791046
+      "current_price": 15.63,
+      "value": 1407673.9630587895,
+      "profit": -100869.79133882553,
+      "profit_rate": -0.066865671641791
     },
     {
       "market": "KRW-IRYS",
       "amount": 1612.8353476,
       "avg_price": 35.53,
-      "current_price": 35.42,
-      "value": 57126.628011992005,
-      "profit": -177.41188823599907,
-      "profit_rate": -0.003095975232198126
+      "current_price": 35.39,
+      "value": 57078.242951564,
+      "profit": -225.79694866400092,
+      "profit_rate": -0.003940332113706742
     }
   ],
   "trades": [
+    {
+      "market": "KRW-BOB",
+      "type": "buy",
+      "time": "2025-12-31T07:34:25",
+      "price": 16.56,
+      "volume": 8233.46223812,
+      "funds": 136346.1346632672,
+      "profit": 0,
+      "avg_buy_price": 0,
+      "bot_trade": false,
+      "source": "human"
+    },
+    {
+      "market": "KRW-BOB",
+      "type": "buy",
+      "time": "2025-12-31T07:36:01",
+      "price": 16.5,
+      "volume": 12395.16360613,
+      "funds": 204520.199501145,
+      "profit": 0,
+      "avg_buy_price": 0,
+      "bot_trade": false,
+      "source": "human"
+    },
+    {
+      "market": "KRW-BOB",
+      "type": "buy",
+      "time": "2025-12-31T09:55:35",
+      "price": 16.47,
+      "volume": 23455.81098861,
+      "funds": 386317.2069824067,
+      "profit": 0,
+      "avg_buy_price": 0,
+      "bot_trade": false,
+      "source": "human"
+    },
     {
       "market": "KRW-BOB",
       "type": "sell",
@@ -1221,42 +1257,6 @@
       "price": 7.967,
       "volume": 16715.57675411,
       "funds": 133172.99999999435,
-      "profit": 0,
-      "avg_buy_price": 0,
-      "bot_trade": false,
-      "source": "human"
-    },
-    {
-      "market": "KRW-REZ",
-      "type": "sell",
-      "time": "2026-01-01T09:37:15",
-      "price": 7.97,
-      "volume": 33812.00622355,
-      "funds": 269481.6896016935,
-      "profit": 879.1121618122561,
-      "avg_buy_price": 7.944,
-      "bot_trade": false,
-      "source": "human"
-    },
-    {
-      "market": "KRW-REZ",
-      "type": "buy",
-      "time": "2026-01-01T09:38:32",
-      "price": 7.91,
-      "volume": 16836.28318584,
-      "funds": 133174.99999999438,
-      "profit": 0,
-      "avg_buy_price": 0,
-      "bot_trade": false,
-      "source": "human"
-    },
-    {
-      "market": "KRW-A8",
-      "type": "buy",
-      "time": "2025-12-31T06:16:02",
-      "price": 69.1,
-      "volume": 1299.19918005,
-      "funds": 89774.66334145499,
       "profit": 0,
       "avg_buy_price": 0,
       "bot_trade": false,
