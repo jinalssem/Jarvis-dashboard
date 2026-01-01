@@ -1,8 +1,8 @@
 {
-  "last_update": "2026-01-02T02:45:10.469600",
-  "today_profit": 11145.657809961238,
+  "last_update": "2026-01-02T02:59:30.312297",
+  "today_profit": 11313.881955479781,
   "today_profit_percent": 2.248602717763057,
-  "total_profit": 281073.69146378146,
+  "total_profit": 281241.9156093,
   "total_profit_percent": 18.353280003288774,
   "total_investment": 1428207.380992449,
   "holdings": [
@@ -10,28 +10,19 @@
       "market": "KRW-GMX",
       "amount": 8.04387755,
       "avg_price": 11270.0,
-      "current_price": 11310.0,
-      "value": 90976.2550905,
-      "profit": 321.75510199999997,
-      "profit_rate": 0.00354924578527063
+      "current_price": 11320.0,
+      "value": 91056.693866,
+      "profit": 402.1938775,
+      "profit_rate": 0.0044365572315882874
     },
     {
       "market": "KRW-REZ",
       "amount": 54936.07221802,
       "avg_price": 7.735,
-      "current_price": 7.602,
-      "value": 417624.0210013881,
-      "profit": -7306.497604996661,
-      "profit_rate": -0.017194570135746608
-    },
-    {
-      "market": "KRW-NEIRO",
-      "amount": 420560.36379639,
-      "avg_price": 0.17,
-      "current_price": 0.1704,
-      "value": 71663.48599090485,
-      "profit": 168.22414551854914,
-      "profit_rate": 0.002352941176470492
+      "current_price": 7.572,
+      "value": 415975.9388348475,
+      "profit": -8954.579771537274,
+      "profit_rate": -0.0210730446024564
     },
     {
       "market": "KRW-BOB",
@@ -46,13 +37,23 @@
       "market": "KRW-IRYS",
       "amount": 483.85060428,
       "avg_price": 35.53,
-      "current_price": 35.26,
-      "value": 17060.5723069128,
-      "profit": -130.6396631556015,
-      "profit_rate": -0.007599211933577346
+      "current_price": 35.32,
+      "value": 17089.6033431696,
+      "profit": -101.60862689880042,
+      "profit_rate": -0.005910498170560114
     }
   ],
   "trades": [
+    {
+      "market": "KRW-NEIRO",
+      "type": "sell",
+      "time": "2026-01-02T02:54:51",
+      "price": 0.1704,
+      "volume": 420560.36379639,
+      "funds": 71663.48599090485,
+      "profit": 168.22414551854308,
+      "cycle_completed": true
+    },
     {
       "market": "KRW-NEIRO",
       "type": "buy",
@@ -1042,16 +1043,6 @@
       "funds": 139650.87281386,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-PIEVERSE",
-      "type": "buy",
-      "time": "2025-12-31T23:25:29",
-      "price": 711.0,
-      "volume": 281.64048388,
-      "funds": 200246.38403867997,
-      "profit": 0,
-      "cycle_completed": false
     }
   ],
   "daily_profits": {
@@ -1062,7 +1053,7 @@
     "2025-12-30": 255560.99047449103,
     "2025-12-29": 24882.269947601933,
     "2026-01-01": 39799.44899205268,
-    "2026-01-02": 11145.657809961238
+    "2026-01-02": 11313.881955479781
   },
   "trade_cycles": [
     {
@@ -1095,8 +1086,8 @@
     "2026-01-01": 23168
   },
   "today_bot_profit": 0,
-  "today_human_profit": 11145.657809961238,
+  "today_human_profit": 11313.881955479781,
   "total_bot_profit": 0,
-  "total_human_profit": 281073.69146378146,
+  "total_human_profit": 281241.9156093,
   "today_date": "2026-01-01"
 }
