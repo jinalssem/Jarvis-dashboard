@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-01-01T17:33:28.306965",
+  "last_update": "2026-01-01T17:41:51.547009",
   "today_profit": -3075.937484201295,
   "today_profit_percent": -0.18755923585825784,
   "total_profit": 158933.9744967356,
@@ -62,6 +62,18 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-GMX",
+      "type": "buy",
+      "time": "2026-01-01T17:41:51.544854",
+      "price": 10950.0,
+      "volume": 1.60599284,
+      "funds": 17585.621598,
+      "cycle_status": "holding",
+      "profit": 0,
+      "buy_count": 1,
+      "bot_trade": true
+    },
     {
       "market": "KRW-WIKEN",
       "type": "sell",
@@ -1245,18 +1257,6 @@
       "price": 0.7236,
       "volume": 276395.79878385,
       "funds": 199999.99999999386,
-      "profit": 0,
-      "avg_buy_price": 0,
-      "bot_trade": false,
-      "source": "human"
-    },
-    {
-      "market": "KRW-WIKEN",
-      "type": "buy",
-      "time": "2025-12-28T18:20:33",
-      "price": 3.072,
-      "volume": 18267.41536458,
-      "funds": 56117.49999998976,
       "profit": 0,
       "avg_buy_price": 0,
       "bot_trade": false,
