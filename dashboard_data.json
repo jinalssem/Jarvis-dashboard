@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-01-02T05:18:18.610775",
+  "last_update": "2026-01-02T05:27:09.140268",
   "today_profit": 11313.881955479781,
   "today_profit_percent": 2.248602717763057,
   "total_profit": 281241.9156093,
@@ -44,6 +44,16 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-YB",
+      "type": "buy",
+      "time": "2026-01-02T05:27:09.140136",
+      "price": 580.0,
+      "volume": 60.65878378,
+      "funds": 35182.0945924,
+      "profit": 0,
+      "cycle_completed": false
+    },
     {
       "market": "KRW-WNCG",
       "type": "buy",
@@ -1033,16 +1043,6 @@
       "funds": 395200.9975056702,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-A8",
-      "type": "sell",
-      "time": "2026-01-01T00:01:42",
-      "price": 68.62,
-      "volume": 5788.13615143,
-      "funds": 397181.9027111266,
-      "profit": 2848.1371262428,
-      "cycle_completed": true
     }
   ],
   "daily_profits": {
