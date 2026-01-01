@@ -1,8 +1,8 @@
 {
-  "last_update": "2026-01-02T01:38:56.490518",
-  "today_profit": 4326.02182899609,
+  "last_update": "2026-01-02T01:52:17.124120",
+  "today_profit": 5325.9275982266845,
   "today_profit_percent": 2.248602717763057,
-  "total_profit": 274254.0554828163,
+  "total_profit": 275253.9612520469,
   "total_profit_percent": 18.353280003288774,
   "total_investment": 1428207.380992449,
   "holdings": [
@@ -16,34 +16,83 @@
       "profit_rate": 0.001774622892635315
     },
     {
+      "market": "KRW-XPLA",
+      "amount": 7369.83746833,
+      "avg_price": 25.29,
+      "current_price": 25.13,
+      "value": 185204.0155791329,
+      "profit": -1179.173994932801,
+      "profit_rate": -0.006326611308817721
+    },
+    {
       "market": "KRW-REZ",
       "amount": 54936.07221802,
       "avg_price": 7.735,
-      "current_price": 7.478,
-      "value": 410811.9480463536,
-      "profit": -14118.570560031172,
-      "profit_rate": -0.033225597931480354
+      "current_price": 7.447,
+      "value": 409108.929807595,
+      "profit": -15821.588798789775,
+      "profit_rate": -0.03723335488041374
     },
     {
       "market": "KRW-BOB",
       "amount": 45031.15684769,
       "avg_price": 16.75,
-      "current_price": 16.38,
-      "value": 737610.3491651622,
-      "profit": -16661.528033645343,
-      "profit_rate": -0.02208955223880603
+      "current_price": 16.71,
+      "value": 752470.6309249,
+      "profit": -1801.2462739075615,
+      "profit_rate": -0.0023880597014924866
     },
     {
       "market": "KRW-IRYS",
       "amount": 483.85060428,
       "avg_price": 35.53,
-      "current_price": 35.25,
-      "value": 17055.733800870003,
-      "profit": -135.47816919840056,
-      "profit_rate": -0.007880664227413485
+      "current_price": 35.1,
+      "value": 16983.156210228,
+      "profit": -208.05575984039987,
+      "profit_rate": -0.012102448634956367
     }
   ],
   "trades": [
+    {
+      "market": "KRW-XPLA",
+      "type": "buy",
+      "time": "2026-01-02T01:50:58",
+      "price": 24.63,
+      "volume": 3353.1827801,
+      "funds": 82588.891873863,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
+      "market": "KRW-XPLA",
+      "type": "buy",
+      "time": "2026-01-02T01:45:53",
+      "price": 25.85,
+      "volume": 4016.65468823,
+      "funds": 103830.5236907455,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
+      "market": "KRW-COS",
+      "type": "sell",
+      "time": "2026-01-02T01:42:48",
+      "price": 2.086,
+      "volume": 49995.28846153,
+      "funds": 104290.17173075156,
+      "profit": 999.9057692305942,
+      "cycle_completed": true
+    },
+    {
+      "market": "KRW-COS",
+      "type": "buy",
+      "time": "2026-01-02T01:41:16",
+      "price": 2.066,
+      "volume": 49995.28846153,
+      "funds": 103290.26596152097,
+      "profit": 0,
+      "cycle_completed": false
+    },
     {
       "market": "KRW-CSPR",
       "type": "sell",
@@ -1003,46 +1052,6 @@
       "funds": 29398.635587039596,
       "profit": 144.9994356943971,
       "cycle_completed": true
-    },
-    {
-      "market": "KRW-WNCG",
-      "type": "buy",
-      "time": "2025-12-31T02:40:23",
-      "price": 16.15,
-      "volume": 906.24647309,
-      "funds": 14635.8805404035,
-      "profit": 0,
-      "cycle_completed": false
-    },
-    {
-      "market": "KRW-WNCG",
-      "type": "buy",
-      "time": "2025-12-31T02:39:58",
-      "price": 16.13,
-      "volume": 906.24647309,
-      "funds": 14617.755610941698,
-      "profit": 0,
-      "cycle_completed": false
-    },
-    {
-      "market": "KRW-PIEVERSE",
-      "type": "sell",
-      "time": "2025-12-30T20:13:10",
-      "price": 911.0,
-      "volume": 179.18111653,
-      "funds": 163233.99715883,
-      "profit": -1024.556443139998,
-      "cycle_completed": true
-    },
-    {
-      "market": "KRW-BOB",
-      "type": "buy",
-      "time": "2025-12-30T19:11:44",
-      "price": 16.68,
-      "volume": 9687.05334983,
-      "funds": 161580.04987516438,
-      "profit": 0,
-      "cycle_completed": false
     }
   ],
   "daily_profits": {
@@ -1053,7 +1062,7 @@
     "2025-12-30": 255560.99047449103,
     "2025-12-29": 24882.269947601933,
     "2026-01-01": 39799.44899205268,
-    "2026-01-02": 4326.02182899609
+    "2026-01-02": 5325.9275982266845
   },
   "trade_cycles": [
     {
@@ -1086,8 +1095,8 @@
     "2026-01-01": 23168
   },
   "today_bot_profit": 0,
-  "today_human_profit": 4326.02182899609,
+  "today_human_profit": 5325.9275982266845,
   "total_bot_profit": 0,
-  "total_human_profit": 274254.0554828163,
+  "total_human_profit": 275253.9612520469,
   "today_date": "2026-01-01"
 }
