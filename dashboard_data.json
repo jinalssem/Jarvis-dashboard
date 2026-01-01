@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-01-02T00:08:47.639199",
+  "last_update": "2026-01-02T00:15:20.465241",
   "today_profit": 0,
   "today_profit_percent": 2.248602717763057,
   "total_profit": 269928.0336538202,
@@ -62,6 +62,16 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-TEMCO",
+      "type": "sell",
+      "time": "2026-01-02T00:15:20.464985",
+      "price": 1.388,
+      "volume": 29025.271903323,
+      "funds": 40287.07740181232,
+      "profit": 0,
+      "cycle_completed": false
+    },
     {
       "market": "KRW-XAUT",
       "type": "sell",
@@ -1049,16 +1059,6 @@
       "price": 16.62,
       "volume": 6828.25590308,
       "funds": 113485.61310918961,
-      "profit": 0,
-      "cycle_completed": false
-    },
-    {
-      "market": "KRW-ZKP",
-      "type": "sell",
-      "time": "2025-12-29T18:47:57",
-      "price": 202.0,
-      "volume": 283.66583541,
-      "funds": 57300.49875282,
       "profit": 0,
       "cycle_completed": false
     }
