@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-01-02T00:16:38.880263",
+  "last_update": "2026-01-02T00:23:53.940044",
   "today_profit": 0,
   "today_profit_percent": 2.248602717763057,
   "total_profit": 269928.0336538202,
@@ -62,6 +62,16 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-TEMCO",
+      "type": "sell",
+      "time": "2026-01-02T00:23:53.939906",
+      "price": 1.39,
+      "volume": 20317.690332327,
+      "funds": 28241.589561934532,
+      "profit": 0,
+      "cycle_completed": false
+    },
     {
       "market": "KRW-TEMCO",
       "type": "sell",
@@ -1049,16 +1059,6 @@
       "price": 16.58,
       "volume": 6894.09007601,
       "funds": 114304.0134602458,
-      "profit": 0,
-      "cycle_completed": false
-    },
-    {
-      "market": "KRW-BOB",
-      "type": "buy",
-      "time": "2025-12-29T21:20:39",
-      "price": 16.62,
-      "volume": 6828.25590308,
-      "funds": 113485.61310918961,
       "profit": 0,
       "cycle_completed": false
     }
