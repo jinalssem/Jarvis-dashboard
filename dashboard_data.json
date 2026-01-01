@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-01-01T23:51:39.372604",
-  "today_profit": 39799.44899205268,
+  "last_update": "2026-01-02T00:00:08.817972",
+  "today_profit": 0,
   "today_profit_percent": 2.248602717763057,
   "total_profit": 269928.0336538202,
   "total_profit_percent": 18.353280003288774,
@@ -10,10 +10,10 @@
       "market": "KRW-CSPR",
       "amount": 11455.45352021,
       "avg_price": 6.207,
-      "current_price": 6.205,
-      "value": 71081.08909290304,
-      "profit": -22.910907040417477,
-      "profit_rate": -0.00032221685194132104
+      "current_price": 6.242,
+      "value": 71504.94087315082,
+      "profit": 400.9408732073516,
+      "profit_rate": 0.0056387949089737625
     },
     {
       "market": "KRW-GMX",
@@ -28,28 +28,28 @@
       "market": "KRW-REZ",
       "amount": 54936.07221802,
       "avg_price": 7.735,
-      "current_price": 7.734,
-      "value": 424875.5825341667,
-      "profit": -54.93607221803835,
-      "profit_rate": -0.00012928248222370187
+      "current_price": 7.856,
+      "value": 431577.78334476514,
+      "profit": 6647.264738380396,
+      "profit_rate": 0.015643180349062643
     },
     {
       "market": "KRW-BOB",
       "amount": 45031.15684769,
       "avg_price": 16.75,
-      "current_price": 16.17,
-      "value": 728153.8062271473,
-      "profit": -26118.070971660123,
-      "profit_rate": -0.034626865671641686
+      "current_price": 16.12,
+      "value": 725902.2483847628,
+      "profit": -28369.628814044656,
+      "profit_rate": -0.0376119402985074
     },
     {
       "market": "KRW-IRYS",
       "amount": 483.85060428,
       "avg_price": 35.53,
-      "current_price": 35.41,
-      "value": 17133.1498975548,
-      "profit": -58.0620725136022,
-      "profit_rate": -0.0033774275260344652
+      "current_price": 35.5,
+      "value": 17176.696451940003,
+      "profit": -14.51551812840055,
+      "profit_rate": -0.0008443568815086163
     }
   ],
   "trades": [
@@ -1094,7 +1094,7 @@
     "2026-01-01": 23168
   },
   "today_bot_profit": 0,
-  "today_human_profit": 39799.44899205268,
+  "today_human_profit": 0,
   "total_bot_profit": 0,
   "total_human_profit": 269928.0336538202,
   "today_date": "2026-01-01"
