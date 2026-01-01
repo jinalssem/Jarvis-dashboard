@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-01-02T00:56:25.217359",
+  "last_update": "2026-01-02T01:09:45.427861",
   "today_profit": 0,
   "today_profit_percent": 2.248602717763057,
   "total_profit": 269928.0336538202,
@@ -62,6 +62,16 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-CSPR",
+      "type": "sell",
+      "time": "2026-01-02T01:09:45.427776",
+      "price": 6.38,
+      "volume": 3436.6360560629996,
+      "funds": 21925.73803768194,
+      "profit": 0,
+      "cycle_completed": false
+    },
     {
       "market": "KRW-TEMCO",
       "type": "sell",
@@ -1051,16 +1061,6 @@
       "funds": 43947.33166305,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-PIEVERSE",
-      "type": "sell",
-      "time": "2025-12-30T06:37:33",
-      "price": 975.0,
-      "volume": 139.94601126,
-      "funds": 136447.36097850002,
-      "profit": 699.7300563000026,
-      "cycle_completed": true
     }
   ],
   "daily_profits": {
