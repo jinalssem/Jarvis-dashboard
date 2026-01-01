@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-01-02T05:58:28.062380",
+  "last_update": "2026-01-02T06:07:16.906714",
   "today_profit": 11313.881955479781,
   "today_profit_percent": 2.248602717763057,
   "total_profit": 281241.9156093,
@@ -44,6 +44,16 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-LPT",
+      "type": "buy",
+      "time": "2026-01-02T06:07:16.906644",
+      "price": 4275.0,
+      "volume": 4.11340206,
+      "funds": 17584.7938065,
+      "profit": 0,
+      "cycle_completed": false
+    },
     {
       "market": "KRW-YB",
       "type": "buy",
@@ -1033,16 +1043,6 @@
       "funds": 226585.91882804778,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-PIEVERSE",
-      "type": "sell",
-      "time": "2026-01-01T00:27:56",
-      "price": 704.0,
-      "volume": 492.91260614,
-      "funds": 347010.47472256,
-      "profit": 7113.217870020017,
-      "cycle_completed": true
     }
   ],
   "daily_profits": {
