@@ -2533,13 +2533,11 @@
                             profitText = '-';
                             profitColor = '#95a5a6';
                         } else {
-                            // 매도
-                            // 🔧 비정상적인 손익 필터링 (매수 기록 없이 계산된 경우)
-                            // 손실이 10만원 이상이면 계산 오류로 간주
-                            const isAbnormalProfit = profit < -100000;
+                            // 매도 - 사이클 완료된 경우에만 손익 표시
+                            const cycleCompleted = t.cycle_completed === true;
                             
-                            if (profit === 0 || isAbnormalProfit) {
-                                profitText = '-'; // 손익 정보 없음 또는 계산 오류
+                            if (!cycleCompleted || profit === 0) {
+                                profitText = '-'; // 사이클 미완료 또는 손익 정보 없음
                                 profitColor = '#95a5a6';
                             } else if (profit > 0) {
                                 profitText = '+' + formatNumber(profit) + '원';
