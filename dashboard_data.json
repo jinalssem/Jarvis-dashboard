@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-01-01T19:38:20.093067",
+  "last_update": "2026-01-01T19:46:34.731582",
   "today_profit": 57484.57183205271,
   "today_profit_percent": 2.248602717763057,
   "total_profit": 287613.15649382025,
@@ -19,49 +19,59 @@
       "market": "KRW-GMX",
       "amount": 8.04387755,
       "avg_price": 11270.0,
-      "current_price": 11180.0,
-      "value": 89930.55100899999,
-      "profit": -723.9489795,
-      "profit_rate": -0.007985803016858917
+      "current_price": 11220.0,
+      "value": 90252.306111,
+      "profit": -402.1938775,
+      "profit_rate": -0.0044365572315882874
+    },
+    {
+      "market": "KRW-REZ",
+      "amount": 8778.36234687,
+      "avg_price": 7.755,
+      "current_price": 7.782,
+      "value": 68313.21578334234,
+      "profit": 237.01578336549122,
+      "profit_rate": 0.0034816247582205202
     },
     {
       "market": "KRW-A8",
       "amount": 7313.61985572,
       "avg_price": 67.68,
-      "current_price": 67.72,
-      "value": 495278.33662935835,
-      "profit": 292.5447942287418,
-      "profit_rate": 0.0005910165484632393
-    },
-    {
-      "market": "KRW-COOKIE",
-      "amount": 1816.7566864799999,
-      "avg_price": 63.3,
-      "current_price": 63.98,
-      "value": 116236.09280099039,
-      "profit": 1235.3945468063994,
-      "profit_rate": 0.010742496050552918
+      "current_price": 67.75,
+      "value": 495497.74522503,
+      "profit": 511.9533899003501,
+      "profit_rate": 0.0010342789598107738
     },
     {
       "market": "KRW-BOB",
       "amount": 45031.15684769,
       "avg_price": 16.75,
-      "current_price": 16.08,
-      "value": 724101.0021108551,
-      "profit": -30170.875087952376,
-      "profit_rate": -0.040000000000000105
+      "current_price": 16.11,
+      "value": 725451.9368162858,
+      "profit": -28819.940382521625,
+      "profit_rate": -0.03820895522388063
     },
     {
       "market": "KRW-IRYS",
       "amount": 483.85060428,
       "avg_price": 35.53,
-      "current_price": 35.4,
-      "value": 17128.311391512,
-      "profit": -62.90057855640124,
-      "profit_rate": -0.003658879819870604
+      "current_price": 35.43,
+      "value": 17142.8269096404,
+      "profit": -48.38506042800069,
+      "profit_rate": -0.0028145229383619874
     }
   ],
   "trades": [
+    {
+      "market": "KRW-COOKIE",
+      "type": "sell",
+      "time": "2026-01-01T19:38:28",
+      "price": 64.0,
+      "volume": 1816.75668648,
+      "funds": 116272.42793472,
+      "profit": 0,
+      "cycle_completed": false
+    },
     {
       "market": "KRW-COOKIE",
       "type": "sell",
@@ -69,6 +79,16 @@
       "price": 64.29,
       "volume": 545.027005944,
       "funds": 35039.78621213977,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
+      "market": "KRW-REZ",
+      "type": "buy",
+      "time": "2026-01-01T19:21:14",
+      "price": 7.755,
+      "volume": 8778.36234687,
+      "funds": 68076.19999997686,
       "profit": 0,
       "cycle_completed": false
     },
@@ -1039,26 +1059,6 @@
       "price": 2.929,
       "volume": 18267.41536458,
       "funds": 53505.259602854814,
-      "profit": 0,
-      "cycle_completed": false
-    },
-    {
-      "market": "KRW-ZKP",
-      "type": "buy",
-      "time": "2025-12-28T21:19:07",
-      "price": 205.0,
-      "volume": 438.13782616,
-      "funds": 89818.2543628,
-      "profit": 0,
-      "cycle_completed": false
-    },
-    {
-      "market": "KRW-SWAP",
-      "type": "sell",
-      "time": "2025-12-28T21:10:11",
-      "price": 70.5,
-      "volume": 254.89778535,
-      "funds": 17970.293867174998,
       "profit": 0,
       "cycle_completed": false
     }
