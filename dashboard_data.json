@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-01-02T01:11:13.047531",
+  "last_update": "2026-01-02T01:23:09.535852",
   "today_profit": 0,
   "today_profit_percent": 2.248602717763057,
   "total_profit": 269928.0336538202,
@@ -53,6 +53,16 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-CSPR",
+      "type": "sell",
+      "time": "2026-01-02T01:23:09.535608",
+      "price": 6.38,
+      "volume": 2405.6452392449996,
+      "funds": 15348.016626383098,
+      "profit": 0,
+      "cycle_completed": false
+    },
     {
       "market": "KRW-CSPR",
       "type": "sell",
@@ -1040,16 +1050,6 @@
       "price": 29.23,
       "volume": 5074.39918848,
       "funds": 148324.6882792704,
-      "profit": 0,
-      "cycle_completed": false
-    },
-    {
-      "market": "KRW-ZKP",
-      "type": "buy",
-      "time": "2025-12-30T11:25:59",
-      "price": 184.0,
-      "volume": 537.40783909,
-      "funds": 98883.04239256,
       "profit": 0,
       "cycle_completed": false
     }
