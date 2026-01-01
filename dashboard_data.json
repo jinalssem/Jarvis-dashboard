@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-01-02T04:58:16.879225",
+  "last_update": "2026-01-02T05:06:49.462807",
   "today_profit": 11313.881955479781,
   "today_profit_percent": 2.248602717763057,
   "total_profit": 281241.9156093,
@@ -44,6 +44,16 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-WNCG",
+      "type": "buy",
+      "time": "2026-01-02T05:06:49.462723",
+      "price": 11.7,
+      "volume": 3000.0,
+      "funds": 35100.0,
+      "profit": 0,
+      "cycle_completed": false
+    },
     {
       "market": "KRW-NEIRO",
       "type": "sell",
@@ -1033,16 +1043,6 @@
       "funds": 397181.9027111266,
       "profit": 2848.1371262428,
       "cycle_completed": true
-    },
-    {
-      "market": "KRW-PIEVERSE",
-      "type": "buy",
-      "time": "2025-12-31T23:39:55",
-      "price": 661.0,
-      "volume": 211.27212226,
-      "funds": 139650.87281386,
-      "profit": 0,
-      "cycle_completed": false
     }
   ],
   "daily_profits": {
