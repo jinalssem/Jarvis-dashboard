@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-01-01T19:29:37.582554",
+  "last_update": "2026-01-01T19:36:41.203677",
   "today_profit": 57484.57183205271,
   "today_profit_percent": 2.248602717763057,
   "total_profit": 287613.15649382025,
@@ -62,6 +62,16 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-COOKIE",
+      "type": "sell",
+      "time": "2026-01-01T19:36:41.203564",
+      "price": 64.29,
+      "volume": 545.027005944,
+      "funds": 35039.78621213977,
+      "profit": 0,
+      "cycle_completed": false
+    },
     {
       "market": "KRW-COOKIE",
       "type": "buy",
@@ -1049,16 +1059,6 @@
       "price": 70.5,
       "volume": 254.89778535,
       "funds": 17970.293867174998,
-      "profit": 0,
-      "cycle_completed": false
-    },
-    {
-      "market": "KRW-BOB",
-      "type": "buy",
-      "time": "2025-12-28T21:08:43",
-      "price": 17.01,
-      "volume": 5867.02555779,
-      "funds": 99798.10473800791,
       "profit": 0,
       "cycle_completed": false
     }
