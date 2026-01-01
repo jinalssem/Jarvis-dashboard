@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-01-01T21:10:23.028668",
+  "last_update": "2026-01-01T21:15:17.054961",
   "today_profit": 57484.57183205271,
   "today_profit_percent": 2.248602717763057,
   "total_profit": 287613.15649382025,
@@ -71,6 +71,16 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-IRYS",
+      "type": "buy",
+      "time": "2026-01-01T21:15:17.054912",
+      "price": 34.3,
+      "volume": 512.41438356,
+      "funds": 17575.813356108,
+      "profit": 0,
+      "cycle_completed": false
+    },
     {
       "market": "KRW-COOKIE",
       "type": "sell",
@@ -1060,16 +1070,6 @@
       "funds": 68252.3690772256,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-GMT",
-      "type": "sell",
-      "time": "2025-12-29T06:45:23",
-      "price": 25.49,
-      "volume": 5456.45942672,
-      "funds": 139085.1507870928,
-      "profit": 3928.65078723841,
-      "cycle_completed": true
     }
   ],
   "daily_profits": {
