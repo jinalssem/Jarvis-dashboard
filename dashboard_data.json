@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-01-02T06:28:35.168694",
+  "last_update": "2026-01-02T06:38:39.142242",
   "today_profit": 11313.881955479781,
   "today_profit_percent": 2.248602717763057,
   "total_profit": 281241.9156093,
@@ -17,12 +17,12 @@
     },
     {
       "market": "KRW-REZ",
-      "amount": 67582.14502772,
-      "avg_price": 7.69,
-      "current_price": 7.419,
-      "value": 501391.9339606547,
-      "profit": -18314.761302512175,
-      "profit_rate": -0.0352405721716516
+      "amount": 164178.24838441,
+      "avg_price": 7.523,
+      "current_price": 7.391,
+      "value": 1213441.4338091742,
+      "profit": -21671.528786742067,
+      "profit_rate": -0.017546191678851478
     },
     {
       "market": "KRW-BOB",
@@ -37,13 +37,33 @@
       "market": "KRW-IRYS",
       "amount": 483.85060428,
       "avg_price": 35.53,
-      "current_price": 35.44,
-      "value": 17147.6654156832,
-      "profit": -43.54655438520165,
-      "profit_rate": -0.0025330706445258486
+      "current_price": 35.42,
+      "value": 17137.988403597603,
+      "profit": -53.223566470799724,
+      "profit_rate": -0.003095975232198126
     }
   ],
   "trades": [
+    {
+      "market": "KRW-REZ",
+      "type": "buy",
+      "time": "2026-01-02T06:35:18",
+      "price": 7.394,
+      "volume": 48379.63213416,
+      "funds": 357718.99999997905,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
+      "market": "KRW-REZ",
+      "type": "buy",
+      "time": "2026-01-02T06:28:40",
+      "price": 7.419,
+      "volume": 48216.47122253,
+      "funds": 357717.99999995006,
+      "profit": 0,
+      "cycle_completed": false
+    },
     {
       "market": "KRW-LPT",
       "type": "buy",
@@ -1021,26 +1041,6 @@
       "price": 17.0,
       "volume": 11016.48224794,
       "funds": 187280.19821498002,
-      "profit": 0,
-      "cycle_completed": false
-    },
-    {
-      "market": "KRW-BOB",
-      "type": "sell",
-      "time": "2026-01-01T00:32:18",
-      "price": 16.79,
-      "volume": 12240.53583104,
-      "funds": 205518.5966031616,
-      "profit": 0,
-      "cycle_completed": false
-    },
-    {
-      "market": "KRW-BOB",
-      "type": "sell",
-      "time": "2026-01-01T00:31:28",
-      "price": 16.66,
-      "volume": 13600.59536783,
-      "funds": 226585.91882804778,
       "profit": 0,
       "cycle_completed": false
     }
