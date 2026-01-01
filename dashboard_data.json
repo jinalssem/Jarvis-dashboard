@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-01-02T02:05:33.687678",
+  "last_update": "2026-01-02T02:18:16.173818",
   "today_profit": 5682.939946337472,
   "today_profit_percent": 2.248602717763057,
   "total_profit": 275610.9736001577,
@@ -10,40 +10,60 @@
       "market": "KRW-GMX",
       "amount": 8.04387755,
       "avg_price": 11270.0,
-      "current_price": 11290.0,
-      "value": 90815.3775395,
-      "profit": 160.87755099999998,
-      "profit_rate": 0.001774622892635315
+      "current_price": 11310.0,
+      "value": 90976.2550905,
+      "profit": 321.75510199999997,
+      "profit_rate": 0.00354924578527063
     },
     {
       "market": "KRW-REZ",
       "amount": 54936.07221802,
       "avg_price": 7.735,
-      "current_price": 7.533,
-      "value": 413833.4320183447,
-      "profit": -11097.086588040038,
-      "profit_rate": -0.02611506140917905
+      "current_price": 7.547,
+      "value": 414602.5370293969,
+      "profit": -10327.981576987793,
+      "profit_rate": -0.02430510665804791
     },
     {
       "market": "KRW-BOB",
       "amount": 45031.15684769,
       "avg_price": 16.75,
-      "current_price": 16.46,
-      "value": 741212.8417129774,
-      "profit": -13059.035485830062,
-      "profit_rate": -0.017313432835820843
+      "current_price": 16.59,
+      "value": 747066.892103177,
+      "profit": -7204.985095630406,
+      "profit_rate": -0.009552238805970158
     },
     {
       "market": "KRW-IRYS",
       "amount": 483.85060428,
       "avg_price": 35.53,
-      "current_price": 35.05,
-      "value": 16958.963680014,
-      "profit": -232.24829005440193,
-      "profit_rate": -0.01350971010413746
+      "current_price": 35.14,
+      "value": 17002.5102343992,
+      "profit": -188.70173566920027,
+      "profit_rate": -0.01097663945961161
     }
   ],
   "trades": [
+    {
+      "market": "KRW-MAY",
+      "type": "sell",
+      "time": "2026-01-02T02:15:13",
+      "price": 20.89,
+      "volume": 4602.48679788,
+      "funds": 96145.9492077132,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
+      "market": "KRW-MAY",
+      "type": "buy",
+      "time": "2026-01-02T02:09:33",
+      "price": 20.83,
+      "volume": 4602.48679788,
+      "funds": 95869.7999998404,
+      "profit": 0,
+      "cycle_completed": false
+    },
     {
       "market": "KRW-MAY",
       "type": "sell",
@@ -1021,26 +1041,6 @@
       "price": 2250.0,
       "volume": 2.4368231,
       "funds": 5482.851975,
-      "profit": 0,
-      "cycle_completed": false
-    },
-    {
-      "market": "KRW-BOB",
-      "type": "buy",
-      "time": "2025-12-31T07:36:01",
-      "price": 16.5,
-      "volume": 12395.16360613,
-      "funds": 204520.199501145,
-      "profit": 0,
-      "cycle_completed": false
-    },
-    {
-      "market": "KRW-BOB",
-      "type": "buy",
-      "time": "2025-12-31T07:34:25",
-      "price": 16.56,
-      "volume": 8233.46223812,
-      "funds": 136346.1346632672,
       "profit": 0,
       "cycle_completed": false
     }
