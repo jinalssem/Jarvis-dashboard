@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-01-01T21:48:22.492100",
+  "last_update": "2026-01-01T21:53:30.880799",
   "today_profit": 57484.57183205271,
   "today_profit_percent": 2.248602717763057,
   "total_profit": 287613.15649382025,
@@ -71,6 +71,16 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-A8",
+      "type": "sell",
+      "time": "2026-01-01T21:53:30.880739",
+      "price": 68.71,
+      "volume": 2194.0859567159996,
+      "funds": 150755.6460859563,
+      "profit": 0,
+      "cycle_completed": false
+    },
     {
       "market": "KRW-IRYS",
       "type": "buy",
@@ -1058,16 +1068,6 @@
       "price": 982.0,
       "volume": 112.95948211,
       "funds": 110926.21143201999,
-      "profit": 0,
-      "cycle_completed": false
-    },
-    {
-      "market": "KRW-BOB",
-      "type": "buy",
-      "time": "2025-12-29T07:07:20",
-      "price": 16.84,
-      "volume": 4052.99103784,
-      "funds": 68252.3690772256,
       "profit": 0,
       "cycle_completed": false
     }
