@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-01-02T00:23:53.940044",
+  "last_update": "2026-01-02T00:25:13.435674",
   "today_profit": 0,
   "today_profit_percent": 2.248602717763057,
   "total_profit": 269928.0336538202,
@@ -8,21 +8,21 @@
   "holdings": [
     {
       "market": "KRW-TEMCO",
-      "amount": 96750.90634441,
+      "amount": 67725.63444108999,
       "avg_price": 1.324,
-      "current_price": 1.394,
-      "value": 134870.76344410752,
-      "profit": 6772.563444108685,
-      "profit_rate": 0.05287009063444097
+      "current_price": 1.386,
+      "value": 93867.72933535073,
+      "profit": 4198.989335347568,
+      "profit_rate": 0.04682779456193341
     },
     {
       "market": "KRW-CSPR",
       "amount": 11455.45352021,
       "avg_price": 6.207,
-      "current_price": 6.245,
-      "value": 71539.30723371144,
-      "profit": 435.3072337679829,
-      "profit_rate": 0.006122120186885816
+      "current_price": 6.22,
+      "value": 71252.9208957062,
+      "profit": 148.92089576272886,
+      "profit_rate": 0.0020944095376188017
     },
     {
       "market": "KRW-GMX",
@@ -37,28 +37,28 @@
       "market": "KRW-REZ",
       "amount": 54936.07221802,
       "avg_price": 7.735,
-      "current_price": 7.695,
-      "value": 422733.0757176639,
-      "profit": -2197.442888720802,
-      "profit_rate": -0.005171299288946352
+      "current_price": 7.737,
+      "value": 425040.39075082075,
+      "profit": 109.87214443602791,
+      "profit_rate": 0.0002585649644472889
     },
     {
       "market": "KRW-BOB",
       "amount": 45031.15684769,
       "avg_price": 16.75,
-      "current_price": 16.28,
-      "value": 733107.2334803932,
-      "profit": -21164.64371841425,
-      "profit_rate": -0.028059701492537246
+      "current_price": 16.25,
+      "value": 731756.2987749625,
+      "profit": -22515.578423845,
+      "profit_rate": -0.029850746268656716
     },
     {
       "market": "KRW-IRYS",
       "amount": 483.85060428,
       "avg_price": 35.53,
-      "current_price": 35.33,
-      "value": 17094.4418492124,
-      "profit": -96.77012085600138,
-      "profit_rate": -0.005629045876723975
+      "current_price": 35.2,
+      "value": 17031.541270656002,
+      "profit": -159.6706994123992,
+      "profit_rate": -0.009287925696594378
     }
   ],
   "trades": [
@@ -79,6 +79,16 @@
       "price": 1.388,
       "volume": 29025.271903323,
       "funds": 40287.07740181232,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
+      "market": "KRW-TEMCO",
+      "type": "sell",
+      "time": "2026-01-02T00:15:20",
+      "price": 1.4,
+      "volume": 29025.27190332,
+      "funds": 40635.380664648,
       "profit": 0,
       "cycle_completed": false
     },
@@ -1049,16 +1059,6 @@
       "price": 16.78,
       "volume": 13722.34597909,
       "funds": 230260.96552913022,
-      "profit": 0,
-      "cycle_completed": false
-    },
-    {
-      "market": "KRW-BOB",
-      "type": "buy",
-      "time": "2025-12-29T21:22:21",
-      "price": 16.58,
-      "volume": 6894.09007601,
-      "funds": 114304.0134602458,
       "profit": 0,
       "cycle_completed": false
     }
