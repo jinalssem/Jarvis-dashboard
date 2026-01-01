@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-01-01T19:11:55.687563",
+  "last_update": "2026-01-01T19:20:53.623168",
   "today_profit": 57484.57183205271,
   "today_profit_percent": 2.248602717763057,
   "total_profit": 287613.15649382025,
@@ -10,10 +10,10 @@
       "market": "KRW-CSPR",
       "amount": 11455.45352021,
       "avg_price": 6.207,
-      "current_price": 6.2,
-      "value": 71023.811825302,
-      "profit": -80.18817464146625,
-      "profit_rate": -0.0011277589817946952
+      "current_price": 6.179,
+      "value": 70783.24730137759,
+      "profit": -320.75269856587516,
+      "profit_rate": -0.004511035927178924
     },
     {
       "market": "KRW-GMX",
@@ -28,31 +28,50 @@
       "market": "KRW-A8",
       "amount": 7313.61985572,
       "avg_price": 67.68,
-      "current_price": 67.13,
-      "value": 490963.30091448355,
-      "profit": -4022.490920646083,
-      "profit_rate": -0.008126477541371326
+      "current_price": 67.03,
+      "value": 490231.9389289116,
+      "profit": -4753.852906218041,
+      "profit_rate": -0.009604018912529634
+    },
+    {
+      "market": "KRW-COOKIE",
+      "amount": 1816.75668648,
+      "avg_price": 63.3,
+      "current_price": 63.51,
+      "value": 115382.2171583448,
+      "profit": 381.5189041608016,
+      "profit_rate": 0.00331753554502371
     },
     {
       "market": "KRW-BOB",
       "amount": 45031.15684769,
       "avg_price": 16.75,
-      "current_price": 16.13,
-      "value": 726352.5599532396,
-      "profit": -27919.317245567843,
-      "profit_rate": -0.03701492537313439
+      "current_price": 16.19,
+      "value": 729054.4293641011,
+      "profit": -25217.44783470634,
+      "profit_rate": -0.03343283582089544
     },
     {
       "market": "KRW-IRYS",
       "amount": 483.85060428,
       "avg_price": 35.53,
-      "current_price": 35.6,
-      "value": 17225.081512368,
-      "profit": 33.86954229960014,
-      "profit_rate": 0.001970166056853371
+      "current_price": 35.57,
+      "value": 17210.5659942396,
+      "profit": 19.354024171199587,
+      "profit_rate": 0.001125809175344755
     }
   ],
   "trades": [
+    {
+      "market": "KRW-COOKIE",
+      "type": "buy",
+      "time": "2026-01-01T19:13:34",
+      "price": 63.3,
+      "volume": 1816.75668648,
+      "funds": 115000.698254184,
+      "profit": 0,
+      "cycle_completed": false
+    },
     {
       "market": "KRW-IOTA",
       "type": "sell",
