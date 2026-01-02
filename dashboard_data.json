@@ -2,21 +2,21 @@
   "holdings": [
     {
       "market": "KRW-COS",
-      "amount": 26483.26867119,
+      "amount": 18538.28806983,
       "avg_price": 2.062,
-      "current_price": 2.074,
-      "value": 54926.29922404805,
-      "profit": 317.7992240542803,
-      "profit_rate": 0.005819592628516009
+      "current_price": 2.125,
+      "value": 39393.86214838875,
+      "profit": 1167.912148399293,
+      "profit_rate": 0.030552861299709105
     },
     {
       "market": "KRW-REZ",
       "amount": 172304.09884073,
       "avg_price": 7.463,
-      "current_price": 7.381,
-      "value": 1271776.5535434282,
-      "profit": -14128.936104939834,
-      "profit_rate": -0.010987538523381997
+      "current_price": 7.397,
+      "value": 1274533.4191248799,
+      "profit": -11372.070523488152,
+      "profit_rate": -0.008843628567600138
     }
   ],
   "trades": [
@@ -27,6 +27,16 @@
       "price": 2.139,
       "volume": 7944.980601357,
       "funds": 16994.31350630262,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
+      "market": "KRW-COS",
+      "type": "sell",
+      "time": "2026-01-02T14:51:37",
+      "price": 2.16,
+      "volume": 7944.98060136,
+      "funds": 17161.1580989376,
       "profit": 0,
       "cycle_completed": false
     },
@@ -1009,16 +1019,6 @@
       "funds": 51702.59999982,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-IRYS",
-      "type": "buy",
-      "time": "2026-01-01T07:35:19",
-      "price": 35.53,
-      "volume": 1612.8353476,
-      "funds": 57304.039900228,
-      "profit": 0,
-      "cycle_completed": false
     }
   ],
   "daily_profits": {
@@ -1028,5 +1028,5 @@
   "today_profit": 36029.44815953437,
   "total_profit": 99960.94811486025,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-02T14:51:37.193878"
+  "last_update": "2026-01-02T14:53:08.426549"
 }
