@@ -1,31 +1,40 @@
 {
   "holdings": [
     {
+      "market": "KRW-MAY",
+      "amount": 13236.65304823,
+      "avg_price": 23.5,
+      "current_price": 23.37,
+      "value": 309340.58173713513,
+      "profit": -1720.7648962698868,
+      "profit_rate": -0.005531914893616979
+    },
+    {
       "market": "KRW-ZTX",
       "amount": 78955.6778679,
       "avg_price": 0.6904,
-      "current_price": 0.6901,
-      "value": 54487.31329663779,
-      "profit": -23.686703360367392,
-      "profit_rate": -0.0004345307068365686
+      "current_price": 0.6914,
+      "value": 54589.95567786606,
+      "profit": 78.95567786790006,
+      "profit_rate": 0.0014484356894553894
     },
     {
       "market": "KRW-REZ",
       "amount": 65628.79549382,
       "avg_price": 7.599,
-      "current_price": 7.539,
-      "value": 494775.48922790895,
-      "profit": -3937.7277296292327,
-      "profit_rate": -0.007895775759968483
+      "current_price": 7.581,
+      "value": 497531.89863864944,
+      "profit": -1181.3183188887465,
+      "profit_rate": -0.002368732727990498
     },
     {
       "market": "KRW-POPCAT",
       "amount": 1218.44630847,
       "avg_price": 132.0,
-      "current_price": 129.0,
-      "value": 157179.57379263002,
-      "profit": -3655.3389254100002,
-      "profit_rate": -0.022727272727272728
+      "current_price": 128.0,
+      "value": 155961.12748416,
+      "profit": -4873.78523388,
+      "profit_rate": -0.030303030303030304
     }
   ],
   "trades": [
@@ -146,6 +155,16 @@
       "price": 37.71,
       "volume": 8248.74964537,
       "funds": 311060.3491269027,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
+      "market": "KRW-MAY",
+      "type": "buy",
+      "time": "2026-01-02T19:14:03",
+      "price": 23.5,
+      "volume": 13236.65304823,
+      "funds": 311061.346633405,
       "profit": 0,
       "cycle_completed": false
     },
@@ -1018,16 +1037,6 @@
       "funds": 68076.19999997686,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-REZ",
-      "type": "buy",
-      "time": "2026-01-01T19:18:10",
-      "price": 7.752,
-      "volume": 9757.53353973,
-      "funds": 75640.39999998696,
-      "profit": 0,
-      "cycle_completed": false
     }
   ],
   "daily_profits": {
@@ -1037,5 +1046,5 @@
   "today_profit": 39081.4855283213,
   "total_profit": 103012.98548364718,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-02T20:43:05.339957"
+  "last_update": "2026-01-02T20:52:42.246090"
 }
