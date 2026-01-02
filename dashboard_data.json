@@ -1,34 +1,35 @@
 {
   "holdings": [
     {
-      "market": "KRW-COS",
-      "amount": 6358.63280795,
-      "avg_price": 2.062,
-      "current_price": 2.254,
-      "value": 14332.3583491193,
-      "profit": 1220.857499126401,
-      "profit_rate": 0.09311348205625615
-    },
-    {
       "market": "KRW-REZ",
       "amount": 172304.09884073,
       "avg_price": 7.463,
-      "current_price": 7.373,
-      "value": 1270398.1207527022,
-      "profit": -15507.368895665675,
-      "profit_rate": -0.012059493501272927
+      "current_price": 7.382,
+      "value": 1271948.8576422688,
+      "profit": -13956.6320060992,
+      "profit_rate": -0.010853544151145707
     },
     {
       "market": "KRW-NEIRO",
       "amount": 301246.32800645,
       "avg_price": 0.1791,
-      "current_price": 0.1749,
-      "value": 52687.98276832811,
-      "profit": -1265.234577627093,
-      "profit_rate": -0.023450586264656667
+      "current_price": 0.1766,
+      "value": 53200.10152593908,
+      "profit": -753.1158200161258,
+      "profit_rate": -0.013958682300390855
     }
   ],
   "trades": [
+    {
+      "market": "KRW-COS",
+      "type": "sell",
+      "time": "2026-01-02T16:46:48",
+      "price": 2.222,
+      "volume": 6358.63280795,
+      "funds": 14128.8820992649,
+      "profit": 0,
+      "cycle_completed": false
+    },
     {
       "market": "KRW-COS",
       "type": "sell",
@@ -1018,16 +1019,6 @@
       "funds": 92102.3979475,
       "profit": 1447.8979589999944,
       "cycle_completed": true
-    },
-    {
-      "market": "KRW-GMX",
-      "type": "buy",
-      "time": "2026-01-01T08:58:36",
-      "price": 11270.0,
-      "volume": 8.04387755,
-      "funds": 90654.4999885,
-      "profit": 0,
-      "cycle_completed": false
     }
   ],
   "daily_profits": {
@@ -1037,5 +1028,5 @@
   "today_profit": 36029.44815953437,
   "total_profit": 99960.94811486025,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-02T16:44:39.965787"
+  "last_update": "2026-01-02T16:54:09.728239"
 }
