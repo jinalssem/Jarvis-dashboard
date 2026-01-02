@@ -30,6 +30,16 @@
   ],
   "trades": [
     {
+      "market": "KRW-LPT",
+      "type": "buy",
+      "time": "2026-01-02T21:31:31.442356",
+      "price": 4280.0,
+      "volume": 4.10869565,
+      "funds": 17585.217382,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
       "market": "KRW-MAY",
       "type": "sell",
       "time": "2026-01-02T21:21:19",
@@ -1018,16 +1028,6 @@
       "funds": 105790.69999999875,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-TEMCO",
-      "type": "sell",
-      "time": "2026-01-02T01:00:52",
-      "price": 1.373,
-      "volume": 14222.38323263,
-      "funds": 19527.33217840099,
-      "profit": 5973.497708610259,
-      "cycle_completed": true
     }
   ],
   "daily_profits": {
@@ -1037,5 +1037,5 @@
   "today_profit": 36644.5929113813,
   "total_profit": 100576.09286670719,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-02T21:21:53.773247"
+  "last_update": "2026-01-02T21:31:31.442416"
 }
