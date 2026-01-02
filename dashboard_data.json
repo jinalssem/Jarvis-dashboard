@@ -32,6 +32,16 @@
     {
       "market": "KRW-UOS",
       "type": "sell",
+      "time": "2026-01-03T05:16:12.742959",
+      "price": 14.23,
+      "volume": 13025.465663449999,
+      "funds": 185352.37639089348,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
+      "market": "KRW-UOS",
+      "type": "sell",
       "time": "2026-01-03T05:06:31.975172",
       "price": 14.64,
       "volume": 5582.342427191999,
@@ -1018,16 +1028,6 @@
       "funds": 188029.2918802361,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-XPLA",
-      "type": "buy",
-      "time": "2026-01-02T01:50:58",
-      "price": 24.63,
-      "volume": 3353.1827801,
-      "funds": 82588.891873863,
-      "profit": 0,
-      "cycle_completed": false
     }
   ],
   "daily_profits": {
@@ -1038,5 +1038,5 @@
   "today_profit": 20351.322995213366,
   "total_profit": 92327.62753196085,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-03T05:08:02.485883"
+  "last_update": "2026-01-03T05:16:12.743031"
 }
