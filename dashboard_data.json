@@ -12,6 +12,16 @@
   ],
   "trades": [
     {
+      "market": "KRW-WNCG",
+      "type": "sell",
+      "time": "2026-01-03T02:05:00.582727",
+      "price": 12.66,
+      "volume": 575.480769232,
+      "funds": 7285.58653847712,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
       "market": "KRW-SWAP",
       "type": "buy",
       "time": "2026-01-03T01:55:01.359497",
@@ -1000,16 +1010,6 @@
       "funds": 68076.19999997686,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-REZ",
-      "type": "buy",
-      "time": "2026-01-01T19:18:10",
-      "price": 7.752,
-      "volume": 9757.53353973,
-      "funds": 75640.39999998696,
-      "profit": 0,
-      "cycle_completed": false
     }
   ],
   "daily_profits": {
@@ -1019,5 +1019,5 @@
   "today_profit": 0,
   "total_profit": 71976.30453674748,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-03T01:56:31.274383"
+  "last_update": "2026-01-03T02:05:00.582791"
 }
