@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-01-02T10:12:24.709503",
+  "last_update": "2026-01-02T10:20:24.882740",
   "today_profit": 13649.203827577527,
   "today_profit_percent": 2.248602717763057,
   "total_profit": 285025.1354403978,
@@ -26,6 +26,16 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-MASK",
+      "type": "buy",
+      "time": "2026-01-02T10:20:24.882665",
+      "price": 880.0,
+      "volume": 16.70573497,
+      "funds": 14701.046773600001,
+      "profit": 0,
+      "cycle_completed": false
+    },
     {
       "market": "KRW-COS",
       "type": "sell",
@@ -1013,16 +1023,6 @@
       "price": 470.0,
       "volume": 33.57311688,
       "funds": 15779.3649336,
-      "profit": 0,
-      "cycle_completed": false
-    },
-    {
-      "market": "KRW-REZ",
-      "type": "sell",
-      "time": "2026-01-01T08:39:46",
-      "price": 8.005,
-      "volume": 28851.08799729,
-      "funds": 230952.95941830648,
       "profit": 0,
       "cycle_completed": false
     }
