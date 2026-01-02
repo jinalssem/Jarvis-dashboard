@@ -2,21 +2,21 @@
   "holdings": [
     {
       "market": "KRW-MAY",
-      "amount": 2952.10918114,
+      "amount": 2066.4764268,
       "avg_price": 24.18,
-      "current_price": 24.7,
-      "value": 72917.096774158,
-      "profit": 1535.0967741927989,
-      "profit_rate": 0.021505376344086002
+      "current_price": 25.16,
+      "value": 51992.546898288,
+      "profit": 2025.1468982640008,
+      "profit_rate": 0.040529363110008286
     },
     {
       "market": "KRW-REZ",
       "amount": 172304.09884073,
       "avg_price": 7.463,
-      "current_price": 7.418,
-      "value": 1278151.805200535,
-      "profit": -7753.684447832838,
-      "profit_rate": -0.0060297467506364635
+      "current_price": 7.397,
+      "value": 1274533.4191248799,
+      "profit": -11372.070523488152,
+      "profit_rate": -0.008843628567600138
     }
   ],
   "trades": [
@@ -37,6 +37,16 @@
       "price": 24.6,
       "volume": 885.632754342,
       "funds": 21786.5657568132,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
+      "market": "KRW-MAY",
+      "type": "sell",
+      "time": "2026-01-02T13:42:25",
+      "price": 24.8,
+      "volume": 885.63275434,
+      "funds": 21963.692307632,
       "profit": 0,
       "cycle_completed": false
     },
@@ -1009,16 +1019,6 @@
       "funds": 403343.67754725,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-ARKM",
-      "type": "buy",
-      "time": "2026-01-01T02:50:58",
-      "price": 252.0,
-      "volume": 356.24826821,
-      "funds": 89774.56358891999,
-      "profit": 0,
-      "cycle_completed": false
     }
   ],
   "daily_profits": {
@@ -1028,5 +1028,5 @@
   "today_profit": 36029.44815953437,
   "total_profit": 99960.94811486025,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-02T13:52:33.228102"
+  "last_update": "2026-01-02T13:53:58.048062"
 }
