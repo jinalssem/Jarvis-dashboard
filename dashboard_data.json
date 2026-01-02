@@ -4,31 +4,41 @@
       "market": "KRW-MAY",
       "amount": 19658.91284937,
       "avg_price": 23.43,
-      "current_price": 23.34,
-      "value": 458839.0259042958,
-      "profit": -1769.3021564432972,
-      "profit_rate": -0.003841229193341863
+      "current_price": 23.1,
+      "value": 454120.88682044705,
+      "profit": -6487.441240292067,
+      "profit_rate": -0.014084507042253449
     },
     {
       "market": "KRW-XPLA",
       "amount": 2124.03455288,
       "avg_price": 34.79,
-      "current_price": 34.69,
-      "value": 73682.75863940718,
-      "profit": -212.40345528800302,
-      "profit_rate": -0.002874389192296678
+      "current_price": 34.85,
+      "value": 74022.604167868,
+      "profit": 127.44207317280483,
+      "profit_rate": 0.0017246335153780475
     },
     {
       "market": "KRW-ZTX",
       "amount": 78955.6778679,
       "avg_price": 0.6904,
-      "current_price": 0.6974,
-      "value": 55063.68974507346,
-      "profit": 552.6897450753005,
-      "profit_rate": 0.010139049826187727
+      "current_price": 0.697,
+      "value": 55032.1074739263,
+      "profit": 521.1074739281352,
+      "profit_rate": 0.009559675550405473
     }
   ],
   "trades": [
+    {
+      "market": "KRW-MAY",
+      "type": "sell",
+      "time": "2026-01-02T21:21:19",
+      "price": 23.04,
+      "volume": 19658.91284937,
+      "funds": 452941.3520494848,
+      "profit": 0,
+      "cycle_completed": false
+    },
     {
       "market": "KRW-WNCG",
       "type": "buy",
@@ -1018,16 +1028,6 @@
       "funds": 19527.33217840099,
       "profit": 5973.497708610259,
       "cycle_completed": true
-    },
-    {
-      "market": "KRW-TEMCO",
-      "type": "sell",
-      "time": "2026-01-02T00:45:17",
-      "price": 1.37,
-      "volume": 33185.56087613,
-      "funds": 45464.21840029811,
-      "profit": 0,
-      "cycle_completed": false
     }
   ],
   "daily_profits": {
@@ -1037,5 +1037,5 @@
   "today_profit": 36644.5929113813,
   "total_profit": 100576.09286670719,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-02T21:20:22.706949"
+  "last_update": "2026-01-02T21:21:53.773247"
 }
