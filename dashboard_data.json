@@ -32,6 +32,16 @@
     {
       "market": "KRW-COS",
       "type": "sell",
+      "time": "2026-01-02T16:33:32.084744",
+      "price": 2.2,
+      "volume": 3893.040494664,
+      "funds": 8564.6890882608,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
+      "market": "KRW-COS",
+      "type": "sell",
       "time": "2026-01-02T16:23:58.408892",
       "price": 2.183,
       "volume": 5561.486420949,
@@ -1018,16 +1028,6 @@
       "funds": 15779.3649336,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-REZ",
-      "type": "sell",
-      "time": "2026-01-01T08:39:46",
-      "price": 8.005,
-      "volume": 28851.08799729,
-      "funds": 230952.95941830648,
-      "profit": 0,
-      "cycle_completed": false
     }
   ],
   "daily_profits": {
@@ -1037,5 +1037,5 @@
   "today_profit": 36029.44815953437,
   "total_profit": 99960.94811486025,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-02T16:25:30.837348"
+  "last_update": "2026-01-02T16:33:32.084828"
 }
