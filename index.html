@@ -2162,17 +2162,6 @@
                     document.getElementById('lastUpdate').textContent = `데모 모드 - 샘플 데이터`;
                 }
 
-                // 🆕 오늘 손익: daily_profits에서 오늘 날짜 값 사용
-                const todayDateKey = new Date().toISOString().split('T')[0]; // YYYY-MM-DD
-                const dailyProfits = data.daily_profits || {};
-                
-                // daily_profits에 오늘 날짜가 있으면 그 값 사용, 없으면 today_profit 사용
-                const todayProfit = dailyProfits[todayDateKey] !== undefined 
-                    ? dailyProfits[todayDateKey] 
-                    : (data.today_profit || 0);
-                
-                const totalProfit = data.total_profit || 0;
-
                 // 통합 손익
                 const todayProfit = data.today_profit || 0;
                 const totalProfitVal = data.total_profit || 0;
