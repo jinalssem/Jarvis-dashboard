@@ -2,12 +2,12 @@
   "holdings": [
     {
       "market": "KRW-WNCG",
-      "amount": 1438.70192308,
+      "amount": 575.48076923,
       "avg_price": 12.2,
-      "current_price": 12.56,
-      "value": 18070.0961538848,
-      "profit": 517.9326923088017,
-      "profit_rate": 0.029508196721311577
+      "current_price": 12.48,
+      "value": 7181.999999990399,
+      "profit": 161.13461538440063,
+      "profit_rate": 0.022950819672131244
     }
   ],
   "trades": [
@@ -20,6 +20,16 @@
       "funds": 10773.000000048,
       "profit": 506.42307694912233,
       "cycle_completed": true
+    },
+    {
+      "market": "KRW-WNCG",
+      "type": "sell",
+      "time": "2026-01-03T02:14:34",
+      "price": 12.4,
+      "volume": 863.22115385,
+      "funds": 10703.942307739999,
+      "profit": 0,
+      "cycle_completed": false
     },
     {
       "market": "KRW-WNCG",
@@ -1000,16 +1010,6 @@
       "funds": 498788.87416010397,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-COOKIE",
-      "type": "sell",
-      "time": "2026-01-01T19:38:28",
-      "price": 64.0,
-      "volume": 1816.75668648,
-      "funds": 116272.42793472,
-      "profit": 0,
-      "cycle_completed": false
     }
   ],
   "daily_profits": {
@@ -1020,5 +1020,5 @@
   "today_profit": 506.42307694912233,
   "total_profit": 72482.72761369661,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-03T02:14:34.422235"
+  "last_update": "2026-01-03T02:16:01.377273"
 }
