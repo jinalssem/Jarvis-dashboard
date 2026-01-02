@@ -23,6 +23,16 @@
     {
       "market": "KRW-MAY",
       "type": "sell",
+      "time": "2026-01-02T13:52:33.227958",
+      "price": 25.35,
+      "volume": 619.94292804,
+      "funds": 15715.553225814,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
+      "market": "KRW-MAY",
+      "type": "sell",
       "time": "2026-01-02T13:42:25.153504",
       "price": 24.6,
       "volume": 885.632754342,
@@ -1009,16 +1019,6 @@
       "funds": 89774.56358891999,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-A8",
-      "type": "buy",
-      "time": "2026-01-01T02:50:25",
-      "price": 65.02,
-      "volume": 1534.13758743,
-      "funds": 99749.62593469859,
-      "profit": 0,
-      "cycle_completed": false
     }
   ],
   "daily_profits": {
@@ -1028,5 +1028,5 @@
   "today_profit": 36029.44815953437,
   "total_profit": 99960.94811486025,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-02T13:44:02.831605"
+  "last_update": "2026-01-02T13:52:33.228102"
 }
