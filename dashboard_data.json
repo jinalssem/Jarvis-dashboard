@@ -4,19 +4,10 @@
       "market": "KRW-BCH",
       "amount": 0.2994138,
       "avg_price": 885500.0,
-      "current_price": 887500.0,
-      "value": 265729.7475,
-      "profit": 598.8276,
-      "profit_rate": 0.002258610954263128
-    },
-    {
-      "market": "KRW-UOS",
-      "amount": 7822.17464872,
-      "avg_price": 14.06,
-      "current_price": 14.68,
-      "value": 114829.5238432096,
-      "profit": 4849.748282206394,
-      "profit_rate": 0.044096728307254564
+      "current_price": 888500.0,
+      "value": 266029.1613,
+      "profit": 898.2414,
+      "profit_rate": 0.0033879164313946925
     },
     {
       "market": "KRW-WNCG",
@@ -46,6 +37,16 @@
       "price": 14.18,
       "volume": 7822.17464872,
       "funds": 110918.4365188496,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
+      "market": "KRW-UOS",
+      "type": "sell",
+      "time": "2026-01-03T04:08:51",
+      "price": 14.1,
+      "volume": 7822.17464872,
+      "funds": 110292.662546952,
       "profit": 0,
       "cycle_completed": false
     },
@@ -1018,16 +1019,6 @@
       "funds": 103290.26596152097,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-CSPR",
-      "type": "sell",
-      "time": "2026-01-02T01:35:15",
-      "price": 6.497,
-      "volume": 5613.17222491,
-      "funds": 36468.77994524027,
-      "profit": 0,
-      "cycle_completed": false
     }
   ],
   "daily_profits": {
@@ -1038,5 +1029,5 @@
   "today_profit": 20351.322995213366,
   "total_profit": 92327.62753196085,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-03T04:08:57.096792"
+  "last_update": "2026-01-03T04:10:22.221843"
 }
