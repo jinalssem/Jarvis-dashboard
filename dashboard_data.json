@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-01-02T10:35:05.426886",
+  "last_update": "2026-01-02T10:40:41.105433",
   "today_profit": 13649.203827577527,
   "today_profit_percent": 2.248602717763057,
   "total_profit": 295250.7411006277,
@@ -10,22 +10,23 @@
       "market": "KRW-REZ",
       "amount": 116991.3775114,
       "avg_price": 7.52,
-      "current_price": 7.356,
-      "value": 860588.5729738584,
-      "profit": -19186.585911869566,
-      "profit_rate": -0.021808510638297834
-    },
-    {
-      "market": "KRW-BOB",
-      "amount": 45031.15684769,
-      "avg_price": 16.75,
-      "current_price": 16.76,
-      "value": 754722.1887672845,
-      "profit": 450.31156847697036,
-      "profit_rate": 0.0005970149253732277
+      "current_price": 7.342,
+      "value": 858950.6936886988,
+      "profit": -20824.465197029192,
+      "profit_rate": -0.02367021276595744
     }
   ],
   "trades": [
+    {
+      "market": "KRW-BOB",
+      "type": "sell",
+      "time": "2026-01-02T10:37:55",
+      "price": 16.7,
+      "volume": 45031.15684769,
+      "funds": 752020.319356423,
+      "profit": 0,
+      "cycle_completed": false
+    },
     {
       "market": "KRW-MASK",
       "type": "buy",
@@ -1013,16 +1014,6 @@
       "price": 8.032,
       "volume": 15699.70119521,
       "funds": 126099.99999992672,
-      "profit": 0,
-      "cycle_completed": false
-    },
-    {
-      "market": "KRW-CBK",
-      "type": "sell",
-      "time": "2026-01-01T08:51:55",
-      "price": 470.0,
-      "volume": 33.57311688,
-      "funds": 15779.3649336,
       "profit": 0,
       "cycle_completed": false
     }
