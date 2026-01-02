@@ -1,6 +1,15 @@
 {
   "holdings": [
     {
+      "market": "KRW-BCH",
+      "amount": 0.2994138,
+      "avg_price": 885500.0,
+      "current_price": 890500.0,
+      "value": 266627.9889,
+      "profit": 1497.069,
+      "profit_rate": 0.00564652738565782
+    },
+    {
       "market": "KRW-WNCG",
       "amount": 575.48076923,
       "avg_price": 12.2,
@@ -11,6 +20,16 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-BCH",
+      "type": "buy",
+      "time": "2026-01-03T02:34:32",
+      "price": 885500.0,
+      "volume": 0.2994138,
+      "funds": 265130.9199,
+      "profit": 0,
+      "cycle_completed": false
+    },
     {
       "market": "KRW-WNCG",
       "type": "sell",
@@ -1000,16 +1019,6 @@
       "funds": 40635.380664648,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-XAUT",
-      "type": "sell",
-      "time": "2026-01-01T23:48:03",
-      "price": 6282000.0,
-      "volume": 0.02258613,
-      "funds": 141886.06866,
-      "profit": 0,
-      "cycle_completed": false
     }
   ],
   "daily_profits": {
@@ -1020,5 +1029,5 @@
   "today_profit": 506.42307694912233,
   "total_profit": 72482.72761369661,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-03T02:34:57.867855"
+  "last_update": "2026-01-03T02:44:41.341042"
 }
