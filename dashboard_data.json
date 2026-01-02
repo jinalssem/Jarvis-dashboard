@@ -30,6 +30,16 @@
   ],
   "trades": [
     {
+      "market": "KRW-WNCG",
+      "type": "buy",
+      "time": "2026-01-02T21:20:22.706906",
+      "price": 12.2,
+      "volume": 1438.70192308,
+      "funds": 17552.163461575998,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
       "market": "KRW-MASK",
       "type": "buy",
       "time": "2026-01-02T21:00:51.554947",
@@ -1018,16 +1028,6 @@
       "funds": 45464.21840029811,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-TEMCO",
-      "type": "sell",
-      "time": "2026-01-02T00:23:54",
-      "price": 1.4,
-      "volume": 20317.69033233,
-      "funds": 28444.766465261997,
-      "profit": 0,
-      "cycle_completed": false
     }
   ],
   "daily_profits": {
@@ -1037,5 +1037,5 @@
   "today_profit": 36644.5929113813,
   "total_profit": 100576.09286670719,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-02T21:12:10.777777"
+  "last_update": "2026-01-02T21:20:22.706949"
 }
