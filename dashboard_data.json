@@ -21,6 +21,16 @@
   ],
   "trades": [
     {
+      "market": "KRW-REZ",
+      "type": "buy",
+      "time": "2026-01-03T06:51:31.233654",
+      "price": 7.54,
+      "volume": 2331.81818182,
+      "funds": 17581.9090909228,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
       "market": "KRW-BCH",
       "type": "buy",
       "time": "2026-01-03T06:23:10.396796",
@@ -1009,16 +1019,6 @@
       "funds": 94832.89999994029,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-MAY",
-      "type": "sell",
-      "time": "2026-01-02T02:03:24",
-      "price": 21.1,
-      "volume": 3522.31064613,
-      "funds": 74320.75463334301,
-      "profit": 0,
-      "cycle_completed": false
     }
   ],
   "daily_profits": {
@@ -1029,5 +1029,5 @@
   "today_profit": 20351.322995213366,
   "total_profit": 92327.62753196085,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-03T06:43:30.305734"
+  "last_update": "2026-01-03T06:51:31.233702"
 }
