@@ -4,22 +4,42 @@
       "market": "KRW-BCH",
       "amount": 0.2994138,
       "avg_price": 885500.0,
-      "current_price": 885000.0,
-      "value": 264981.213,
-      "profit": -149.7069,
-      "profit_rate": -0.000564652738565782
+      "current_price": 886000.0,
+      "value": 265280.6268,
+      "profit": 149.7069,
+      "profit_rate": 0.000564652738565782
     },
     {
       "market": "KRW-WNCG",
       "amount": 9814.70315525,
       "avg_price": 12.64,
-      "current_price": 12.54,
-      "value": 123076.37756683498,
-      "profit": -981.4703155250139,
-      "profit_rate": -0.007911392405063403
+      "current_price": 12.48,
+      "value": 122487.49537752,
+      "profit": -1570.3525048400013,
+      "profit_rate": -0.012658227848101276
     }
   ],
   "trades": [
+    {
+      "market": "KRW-WIKEN",
+      "type": "sell",
+      "time": "2026-01-03T03:11:07",
+      "price": 3.599,
+      "volume": 149802.35246386,
+      "funds": 539138.6665174322,
+      "profit": 5093.279983771266,
+      "cycle_completed": true
+    },
+    {
+      "market": "KRW-WIKEN",
+      "type": "buy",
+      "time": "2026-01-03T03:03:34",
+      "price": 3.565,
+      "volume": 149802.35246386,
+      "funds": 534045.3865336609,
+      "profit": 0,
+      "cycle_completed": false
+    },
     {
       "market": "KRW-WIKEN",
       "type": "sell",
@@ -999,35 +1019,15 @@
       "funds": 96493.19999998691,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-COS",
-      "type": "sell",
-      "time": "2026-01-02T01:18:58",
-      "price": 2.221,
-      "volume": 48639.40229885,
-      "funds": 108028.11250574586,
-      "profit": 2237.41250574711,
-      "cycle_completed": true
-    },
-    {
-      "market": "KRW-CSPR",
-      "type": "sell",
-      "time": "2026-01-02T01:09:45",
-      "price": 6.44,
-      "volume": 3436.63605606,
-      "funds": 22131.9362010264,
-      "profit": 0,
-      "cycle_completed": false
     }
   ],
   "daily_profits": {
     "2026-01-01": 36947,
     "2026-01-02": 35029.30453674748,
-    "2026-01-03": 15258.0430114421
+    "2026-01-03": 20351.322995213366
   },
-  "today_profit": 15258.0430114421,
-  "total_profit": 87234.34754818959,
+  "today_profit": 20351.322995213366,
+  "total_profit": 92327.62753196085,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-03T03:03:48.779042"
+  "last_update": "2026-01-03T03:13:13.851269"
 }
