@@ -39,6 +39,16 @@
   ],
   "trades": [
     {
+      "market": "KRW-HOLO",
+      "type": "sell",
+      "time": "2026-01-02T19:33:41.414038",
+      "price": 122.0,
+      "volume": 518.071695759,
+      "funds": 63204.746882598,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
       "market": "KRW-MON",
       "type": "buy",
       "time": "2026-01-02T19:20:13",
@@ -1027,16 +1037,6 @@
       "funds": 18817.39628139,
       "profit": 858.4645986899995,
       "cycle_completed": true
-    },
-    {
-      "market": "KRW-CBK",
-      "type": "sell",
-      "time": "2026-01-01T09:52:26",
-      "price": 468.0,
-      "volume": 38.38526364,
-      "funds": 17964.30338352,
-      "profit": 0,
-      "cycle_completed": false
     }
   ],
   "daily_profits": {
@@ -1046,5 +1046,5 @@
   "today_profit": 36029.44815953437,
   "total_profit": 99960.94811486025,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-02T19:25:19.344739"
+  "last_update": "2026-01-02T19:33:41.414102"
 }
