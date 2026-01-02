@@ -48,6 +48,16 @@
   ],
   "trades": [
     {
+      "market": "KRW-NEIRO",
+      "type": "sell",
+      "time": "2026-01-02T20:03:35.144465",
+      "price": 0.1827,
+      "volume": 90373.898401935,
+      "funds": 16511.311238033526,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
       "market": "KRW-HOLO",
       "type": "sell",
       "time": "2026-01-02T19:53:56.055842",
@@ -1036,16 +1046,6 @@
       "funds": 141976.41318,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-IOTA",
-      "type": "sell",
-      "time": "2026-01-01T17:33:36",
-      "price": 117.0,
-      "volume": 1825.64224137,
-      "funds": 213600.14224029,
-      "profit": 1825.6422413700202,
-      "cycle_completed": true
     }
   ],
   "daily_profits": {
@@ -1055,5 +1055,5 @@
   "today_profit": 36029.44815953437,
   "total_profit": 99960.94811486025,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-02T19:55:27.251677"
+  "last_update": "2026-01-02T20:03:35.144551"
 }
