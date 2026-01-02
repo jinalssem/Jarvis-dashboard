@@ -30,6 +30,16 @@
   ],
   "trades": [
     {
+      "market": "KRW-WNCG",
+      "type": "buy",
+      "time": "2026-01-03T04:56:57.784342",
+      "price": 12.2,
+      "volume": 2870.50359712,
+      "funds": 35020.143884863995,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
       "market": "KRW-ETH",
       "type": "buy",
       "time": "2026-01-03T04:28:21.443991",
@@ -1018,16 +1028,6 @@
       "funds": 93275.84430562159,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-XPLA",
-      "type": "buy",
-      "time": "2026-01-02T01:45:53",
-      "price": 25.85,
-      "volume": 4016.65468823,
-      "funds": 103830.5236907455,
-      "profit": 0,
-      "cycle_completed": false
     }
   ],
   "daily_profits": {
@@ -1038,5 +1038,5 @@
   "today_profit": 20351.322995213366,
   "total_profit": 92327.62753196085,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-03T04:48:49.903998"
+  "last_update": "2026-01-03T04:56:57.784415"
 }
