@@ -2,15 +2,35 @@
   "holdings": [
     {
       "market": "KRW-MAY",
-      "amount": 17117.39331081,
-      "avg_price": 23.02,
-      "current_price": 22.51,
-      "value": 385312.5234263331,
-      "profit": -8729.870588513066,
-      "profit_rate": -0.022154648132058995
+      "amount": 16730.18858895,
+      "avg_price": 22.67,
+      "current_price": 22.6,
+      "value": 378102.26211027004,
+      "profit": -1171.1132012265048,
+      "profit_rate": -0.0030877812086458
     }
   ],
   "trades": [
+    {
+      "market": "KRW-MAY",
+      "type": "sell",
+      "time": "2026-01-02T22:00:59",
+      "price": 22.47,
+      "volume": 16730.18858895,
+      "funds": 375927.3375937065,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
+      "market": "KRW-MAY",
+      "type": "buy",
+      "time": "2026-01-02T21:55:41",
+      "price": 22.31,
+      "volume": 16342.98386709,
+      "funds": 364611.9700747779,
+      "profit": 0,
+      "cycle_completed": false
+    },
     {
       "market": "KRW-XPLA",
       "type": "sell",
@@ -990,26 +1010,6 @@
       "funds": 103759.29999999312,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-COOKIE",
-      "type": "buy",
-      "time": "2026-01-01T19:13:34",
-      "price": 63.3,
-      "volume": 1816.75668648,
-      "funds": 115000.698254184,
-      "profit": 0,
-      "cycle_completed": false
-    },
-    {
-      "market": "KRW-TEMCO",
-      "type": "buy",
-      "time": "2026-01-01T19:12:27",
-      "price": 1.324,
-      "volume": 96750.90634441,
-      "funds": 128098.19999999885,
-      "profit": 0,
-      "cycle_completed": false
     }
   ],
   "daily_profits": {
@@ -1019,5 +1019,5 @@
   "today_profit": 58497.503245071646,
   "total_profit": 96716.23292560765,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-02T21:59:19.785549"
+  "last_update": "2026-01-02T22:13:01.878663"
 }
