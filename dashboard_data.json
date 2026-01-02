@@ -21,6 +21,16 @@
   ],
   "trades": [
     {
+      "market": "KRW-COS",
+      "type": "sell",
+      "time": "2026-01-02T14:51:37.193788",
+      "price": 2.139,
+      "volume": 7944.980601357,
+      "funds": 16994.31350630262,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
       "market": "KRW-MAY",
       "type": "sell",
       "time": "2026-01-02T14:21:41",
@@ -1009,16 +1019,6 @@
       "funds": 57304.039900228,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-ARKM",
-      "type": "sell",
-      "time": "2026-01-01T06:03:42",
-      "price": 259.0,
-      "volume": 356.24826821,
-      "funds": 92268.30146639,
-      "profit": 2493.7378774700046,
-      "cycle_completed": true
     }
   ],
   "daily_profits": {
@@ -1028,5 +1028,5 @@
   "today_profit": 36029.44815953437,
   "total_profit": 99960.94811486025,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-02T14:42:02.879222"
+  "last_update": "2026-01-02T14:51:37.193878"
 }
