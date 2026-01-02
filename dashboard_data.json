@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-01-02T10:02:57.245447",
+  "last_update": "2026-01-02T10:11:02.398133",
   "today_profit": 13649.203827577527,
   "today_profit_percent": 2.248602717763057,
   "total_profit": 285025.1354403978,
@@ -35,6 +35,16 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-COS",
+      "type": "sell",
+      "time": "2026-01-02T10:11:02.398048",
+      "price": 2.049,
+      "volume": 10958.176412289,
+      "funds": 22453.30346878016,
+      "profit": 0,
+      "cycle_completed": false
+    },
     {
       "market": "KRW-DOOD",
       "type": "sell",
@@ -1022,16 +1032,6 @@
       "price": 462.0,
       "volume": 111.91038961,
       "funds": 51702.59999982,
-      "profit": 0,
-      "cycle_completed": false
-    },
-    {
-      "market": "KRW-IRYS",
-      "type": "buy",
-      "time": "2026-01-01T07:35:19",
-      "price": 35.53,
-      "volume": 1612.8353476,
-      "funds": 57304.039900228,
       "profit": 0,
       "cycle_completed": false
     }
