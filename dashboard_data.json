@@ -4,22 +4,41 @@
       "market": "KRW-ZTX",
       "amount": 78955.6778679,
       "avg_price": 0.6904,
-      "current_price": 0.6979,
-      "value": 55103.16758400741,
-      "profit": 592.1675840092462,
-      "profit_rate": 0.01086326767091534
+      "current_price": 0.6999,
+      "value": 55261.07893974321,
+      "profit": 750.0789397450462,
+      "profit_rate": 0.01376013904982612
     },
     {
       "market": "KRW-NEIRO",
       "amount": 301246.32800645,
       "avg_price": 0.1791,
-      "current_price": 0.1784,
-      "value": 53742.34491635069,
-      "profit": -210.87242960451687,
-      "profit_rate": -0.00390843104410947
+      "current_price": 0.1799,
+      "value": 54194.21440836036,
+      "profit": 240.99706240515857,
+      "profit_rate": 0.004466778336125042
+    },
+    {
+      "market": "KRW-HOLO",
+      "amount": 1726.90565253,
+      "avg_price": 120.0,
+      "current_price": 119.0,
+      "value": 205501.77265107,
+      "profit": -1726.90565253,
+      "profit_rate": -0.008333333333333333
     }
   ],
   "trades": [
+    {
+      "market": "KRW-HOLO",
+      "type": "buy",
+      "time": "2026-01-02T19:12:25",
+      "price": 120.0,
+      "volume": 1726.90565253,
+      "funds": 207228.6783036,
+      "profit": 0,
+      "cycle_completed": false
+    },
     {
       "market": "KRW-REZ",
       "type": "sell",
@@ -1009,16 +1028,6 @@
       "funds": 134639.75663716247,
       "profit": 1464.7566371680878,
       "cycle_completed": true
-    },
-    {
-      "market": "KRW-REZ",
-      "type": "buy",
-      "time": "2026-01-01T09:38:32",
-      "price": 7.91,
-      "volume": 16836.28318584,
-      "funds": 133174.99999999438,
-      "profit": 0,
-      "cycle_completed": false
     }
   ],
   "daily_profits": {
@@ -1028,5 +1037,5 @@
   "today_profit": 36029.44815953437,
   "total_profit": 99960.94811486025,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-02T19:05:34.222734"
+  "last_update": "2026-01-02T19:15:34.911287"
 }
