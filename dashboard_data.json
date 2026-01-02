@@ -1,31 +1,22 @@
 {
   "holdings": [
     {
-      "market": "KRW-MAY",
-      "amount": 19658.91284937,
-      "avg_price": 23.43,
-      "current_price": 23.1,
-      "value": 454120.88682044705,
-      "profit": -6487.441240292067,
-      "profit_rate": -0.014084507042253449
-    },
-    {
       "market": "KRW-XPLA",
       "amount": 2124.03455288,
       "avg_price": 34.79,
-      "current_price": 34.85,
-      "value": 74022.604167868,
-      "profit": 127.44207317280483,
-      "profit_rate": 0.0017246335153780475
+      "current_price": 34.45,
+      "value": 73172.990346716,
+      "profit": -722.1717479791921,
+      "profit_rate": -0.00977292325380846
     },
     {
       "market": "KRW-ZTX",
       "amount": 78955.6778679,
       "avg_price": 0.6904,
-      "current_price": 0.697,
-      "value": 55032.1074739263,
-      "profit": 521.1074739281352,
-      "profit_rate": 0.009559675550405473
+      "current_price": 0.695,
+      "value": 54874.19611819049,
+      "profit": 363.19611819233506,
+      "profit_rate": 0.006662804171494695
     }
   ],
   "trades": [
@@ -1037,5 +1028,5 @@
   "today_profit": 36644.5929113813,
   "total_profit": 100576.09286670719,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-02T21:31:31.442416"
+  "last_update": "2026-01-02T21:33:07.793520"
 }
