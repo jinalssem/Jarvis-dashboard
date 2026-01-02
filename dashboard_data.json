@@ -2,15 +2,25 @@
   "holdings": [
     {
       "market": "KRW-MAY",
-      "amount": 16730.18858895,
+      "amount": 8175.03404275,
       "avg_price": 22.67,
-      "current_price": 22.6,
-      "value": 378102.26211027004,
-      "profit": -1171.1132012265048,
-      "profit_rate": -0.0030877812086458
+      "current_price": 22.5,
+      "value": 183938.265961875,
+      "profit": -1389.7557872675138,
+      "profit_rate": -0.007498897220996987
     }
   ],
   "trades": [
+    {
+      "market": "KRW-MAY",
+      "type": "sell",
+      "time": "2026-01-02T22:21:27",
+      "price": 22.5,
+      "volume": 8175.03404275,
+      "funds": 183938.265961875,
+      "profit": 0,
+      "cycle_completed": false
+    },
     {
       "market": "KRW-MAY",
       "type": "sell",
@@ -1000,16 +1010,6 @@
       "funds": 93383.39999994224,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-REZ",
-      "type": "buy",
-      "time": "2026-01-01T19:15:05",
-      "price": 7.707,
-      "volume": 13462.99468016,
-      "funds": 103759.29999999312,
-      "profit": 0,
-      "cycle_completed": false
     }
   ],
   "daily_profits": {
@@ -1019,5 +1019,5 @@
   "today_profit": 58497.503245071646,
   "total_profit": 96716.23292560765,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-02T22:13:01.878663"
+  "last_update": "2026-01-02T22:25:16.386453"
 }
