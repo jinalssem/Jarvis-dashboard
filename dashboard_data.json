@@ -50,6 +50,16 @@
     {
       "market": "KRW-HOLO",
       "type": "sell",
+      "time": "2026-01-02T19:53:56.055842",
+      "price": 122.0,
+      "volume": 253.855130922,
+      "funds": 30970.325972484,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
+      "market": "KRW-HOLO",
+      "type": "sell",
       "time": "2026-01-02T19:44:10.603995",
       "price": 123.0,
       "volume": 362.650187031,
@@ -1036,16 +1046,6 @@
       "funds": 213600.14224029,
       "profit": 1825.6422413700202,
       "cycle_completed": true
-    },
-    {
-      "market": "KRW-IRYS",
-      "type": "sell",
-      "time": "2026-01-01T16:43:31",
-      "price": 35.6,
-      "volume": 1128.98474332,
-      "funds": 40191.856862192,
-      "profit": 0,
-      "cycle_completed": false
     }
   ],
   "daily_profits": {
@@ -1055,5 +1055,5 @@
   "today_profit": 36029.44815953437,
   "total_profit": 99960.94811486025,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-02T19:45:41.967129"
+  "last_update": "2026-01-02T19:53:56.055913"
 }
