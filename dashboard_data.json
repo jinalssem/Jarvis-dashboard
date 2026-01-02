@@ -39,6 +39,16 @@
   ],
   "trades": [
     {
+      "market": "KRW-MASK",
+      "type": "buy",
+      "time": "2026-01-02T21:00:51.554947",
+      "price": 882.0,
+      "volume": 19.95,
+      "funds": 17595.899999999998,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
       "market": "KRW-NEIRO",
       "type": "sell",
       "time": "2026-01-02T20:08:21",
@@ -1027,16 +1037,6 @@
       "funds": 116272.42793472,
       "profit": 1271.7296805360093,
       "cycle_completed": true
-    },
-    {
-      "market": "KRW-REZ",
-      "type": "buy",
-      "time": "2026-01-01T19:21:14",
-      "price": 7.755,
-      "volume": 8778.36234687,
-      "funds": 68076.19999997686,
-      "profit": 0,
-      "cycle_completed": false
     }
   ],
   "daily_profits": {
@@ -1046,5 +1046,5 @@
   "today_profit": 39081.4855283213,
   "total_profit": 103012.98548364718,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-02T20:52:42.246090"
+  "last_update": "2026-01-02T21:00:51.555008"
 }
