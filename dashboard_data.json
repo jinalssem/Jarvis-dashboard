@@ -4,19 +4,28 @@
       "market": "KRW-BCH",
       "amount": 0.2994138,
       "avg_price": 885500.0,
-      "current_price": 873500.0,
-      "value": 261537.9543,
-      "profit": -3592.9656,
-      "profit_rate": -0.01355166572557877
+      "current_price": 875500.0,
+      "value": 262136.7819,
+      "profit": -2994.138,
+      "profit_rate": -0.01129305477131564
     },
     {
       "market": "KRW-WNCG",
       "amount": 9814.70315525,
       "avg_price": 12.64,
-      "current_price": 12.27,
-      "value": 120426.40771491748,
-      "profit": -3631.4401674425094,
-      "profit_rate": -0.029272151898734253
+      "current_price": 12.28,
+      "value": 120524.55474646999,
+      "profit": -3533.2931358900114,
+      "profit_rate": -0.02848101265822794
+    },
+    {
+      "market": "KRW-CAMP",
+      "amount": 11276.09206648,
+      "avg_price": 10.45,
+      "current_price": 10.45,
+      "value": 117835.16209471598,
+      "profit": 0.0,
+      "profit_rate": 0.0
     }
   ],
   "trades": [
@@ -247,6 +256,16 @@
       "price": 885500.0,
       "volume": 0.2994138,
       "funds": 265130.9199,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
+      "market": "KRW-CAMP",
+      "type": "buy",
+      "time": "2026-01-03T02:33:34",
+      "price": 10.45,
+      "volume": 11276.09206648,
+      "funds": 117835.16209471598,
       "profit": 0,
       "cycle_completed": false
     },
@@ -1009,16 +1028,6 @@
       "funds": 95869.7999998404,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-REZ",
-      "type": "buy",
-      "time": "2026-01-02T02:07:45",
-      "price": 7.499,
-      "volume": 12646.0728097,
-      "funds": 94832.89999994029,
-      "profit": 0,
-      "cycle_completed": false
     }
   ],
   "daily_profits": {
@@ -1029,5 +1038,5 @@
   "today_profit": 20351.322995213366,
   "total_profit": 92327.62753196085,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-03T06:51:31.233702"
+  "last_update": "2026-01-03T06:53:00.952378"
 }
