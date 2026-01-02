@@ -1,25 +1,45 @@
 {
   "holdings": [
     {
-      "market": "KRW-XPLA",
-      "amount": 2124.03455288,
-      "avg_price": 34.79,
-      "current_price": 34.45,
-      "value": 73172.990346716,
-      "profit": -722.1717479791921,
-      "profit_rate": -0.00977292325380846
+      "market": "KRW-MAY",
+      "amount": 17117.39331081,
+      "avg_price": 23.02,
+      "current_price": 22.76,
+      "value": 389591.8717540356,
+      "profit": -4450.522260810566,
+      "profit_rate": -0.0112945264986967
     },
     {
-      "market": "KRW-ZTX",
-      "amount": 78955.6778679,
-      "avg_price": 0.6904,
-      "current_price": 0.695,
-      "value": 54874.19611819049,
-      "profit": 363.19611819233506,
-      "profit_rate": 0.006662804171494695
+      "market": "KRW-XPLA",
+      "amount": 4108.208096079999,
+      "avg_price": 33.99,
+      "current_price": 32.99,
+      "value": 135529.78508967918,
+      "profit": -4108.208096079999,
+      "profit_rate": -0.02942041776993233
     }
   ],
   "trades": [
+    {
+      "market": "KRW-XPLA",
+      "type": "buy",
+      "time": "2026-01-02T21:41:14",
+      "price": 33.14,
+      "volume": 1984.1735432,
+      "funds": 65755.511221648,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
+      "market": "KRW-MAY",
+      "type": "buy",
+      "time": "2026-01-02T21:36:26",
+      "price": 23.02,
+      "volume": 17117.39331081,
+      "funds": 394042.3940148462,
+      "profit": 0,
+      "cycle_completed": false
+    },
     {
       "market": "KRW-LPT",
       "type": "buy",
@@ -89,6 +109,16 @@
       "funds": 499172.6185259949,
       "profit": 0,
       "cycle_completed": false
+    },
+    {
+      "market": "KRW-ZTX",
+      "type": "sell",
+      "time": "2026-01-02T20:55:01",
+      "price": 0.699,
+      "volume": 78955.6778679,
+      "funds": 55190.0188296621,
+      "profit": 679.018829663939,
+      "cycle_completed": true
     },
     {
       "market": "KRW-POPCAT",
@@ -989,44 +1019,14 @@
       "funds": 96493.19999998691,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-COS",
-      "type": "sell",
-      "time": "2026-01-02T01:18:58",
-      "price": 2.221,
-      "volume": 48639.40229885,
-      "funds": 108028.11250574586,
-      "profit": 2237.41250574711,
-      "cycle_completed": true
-    },
-    {
-      "market": "KRW-CSPR",
-      "type": "sell",
-      "time": "2026-01-02T01:09:45",
-      "price": 6.44,
-      "volume": 3436.63605606,
-      "funds": 22131.9362010264,
-      "profit": 0,
-      "cycle_completed": false
-    },
-    {
-      "market": "KRW-COS",
-      "type": "buy",
-      "time": "2026-01-02T01:09:26",
-      "price": 2.175,
-      "volume": 48639.40229885,
-      "funds": 105790.69999999875,
-      "profit": 0,
-      "cycle_completed": false
     }
   ],
   "daily_profits": {
     "2026-01-01": 63931.49995532588,
-    "2026-01-02": 36644.5929113813
+    "2026-01-02": 37323.61174104524
   },
-  "today_profit": 36644.5929113813,
-  "total_profit": 100576.09286670719,
+  "today_profit": 37323.61174104524,
+  "total_profit": 101255.11169637112,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-02T21:33:07.793520"
+  "last_update": "2026-01-02T21:45:32.553427"
 }
