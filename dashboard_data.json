@@ -4,31 +4,32 @@
       "market": "KRW-ZTX",
       "amount": 78955.6778679,
       "avg_price": 0.6904,
-      "current_price": 0.7011,
-      "value": 55355.82575318468,
-      "profit": 844.8257531865246,
-      "profit_rate": 0.015498261877172554
-    },
-    {
-      "market": "KRW-REZ",
-      "amount": 120612.86918851,
-      "avg_price": 7.463,
-      "current_price": 7.594,
-      "value": 915934.128617545,
-      "profit": 15800.285863694837,
-      "profit_rate": 0.017553262762963987
+      "current_price": 0.6937,
+      "value": 54771.553736962225,
+      "profit": 260.5537369640676,
+      "profit_rate": 0.0047798377752027365
     },
     {
       "market": "KRW-NEIRO",
       "amount": 301246.32800645,
       "avg_price": 0.1791,
-      "current_price": 0.1778,
-      "value": 53561.59711954682,
-      "profit": -391.6202264083837,
-      "profit_rate": -0.007258514796203213
+      "current_price": 0.1783,
+      "value": 53712.220283550036,
+      "profit": -240.99706240516693,
+      "profit_rate": -0.004466778336125197
     }
   ],
   "trades": [
+    {
+      "market": "KRW-REZ",
+      "type": "sell",
+      "time": "2026-01-02T18:52:42",
+      "price": 7.552,
+      "volume": 120612.86918851,
+      "funds": 910868.3881116274,
+      "profit": 0,
+      "cycle_completed": false
+    },
     {
       "market": "KRW-SWAP",
       "type": "buy",
@@ -1018,16 +1019,6 @@
       "funds": 133174.99999999438,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-REZ",
-      "type": "sell",
-      "time": "2026-01-01T09:37:15",
-      "price": 7.97,
-      "volume": 33812.00622355,
-      "funds": 269481.6896016935,
-      "profit": 3103.9860079062637,
-      "cycle_completed": true
     }
   ],
   "daily_profits": {
@@ -1037,5 +1028,5 @@
   "today_profit": 36029.44815953437,
   "total_profit": 99960.94811486025,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-02T18:45:29.864353"
+  "last_update": "2026-01-02T18:55:35.700644"
 }
