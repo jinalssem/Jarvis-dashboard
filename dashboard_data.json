@@ -22,6 +22,16 @@
   "trades": [
     {
       "market": "KRW-MAY",
+      "type": "sell",
+      "time": "2026-01-02T13:42:25.153504",
+      "price": 24.6,
+      "volume": 885.632754342,
+      "funds": 21786.5657568132,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
+      "market": "KRW-MAY",
       "type": "buy",
       "time": "2026-01-02T13:25:48",
       "price": 24.18,
@@ -1009,16 +1019,6 @@
       "funds": 99749.62593469859,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-CSPR",
-      "type": "buy",
-      "time": "2026-01-01T02:18:03",
-      "price": 6.207,
-      "volume": 11455.45352021,
-      "funds": 71103.99999994347,
-      "profit": 0,
-      "cycle_completed": false
     }
   ],
   "daily_profits": {
@@ -1028,5 +1028,5 @@
   "today_profit": 36029.44815953437,
   "total_profit": 99960.94811486025,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-02T13:33:44.767951"
+  "last_update": "2026-01-02T13:42:25.153583"
 }
