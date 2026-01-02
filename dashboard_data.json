@@ -4,28 +4,28 @@
       "market": "KRW-BCH",
       "amount": 0.2994138,
       "avg_price": 885500.0,
-      "current_price": 888000.0,
-      "value": 265879.4544,
-      "profit": 748.5345,
-      "profit_rate": 0.00282326369282891
+      "current_price": 885500.0,
+      "value": 265130.9199,
+      "profit": 0.0,
+      "profit_rate": 0.0
     },
     {
       "market": "KRW-UOS",
-      "amount": 3765.0,
+      "amount": 11174.53521246,
       "avg_price": 14.06,
-      "current_price": 14.06,
-      "value": 52935.9,
-      "profit": 0.0,
-      "profit_rate": 0.0
+      "current_price": 14.3,
+      "value": 159795.853538178,
+      "profit": 2681.8884509904024,
+      "profit_rate": 0.01706970128022761
     },
     {
       "market": "KRW-WNCG",
       "amount": 9814.70315525,
       "avg_price": 12.64,
-      "current_price": 12.43,
-      "value": 121996.76021975749,
-      "profit": -2061.0876626025083,
-      "profit_rate": -0.01661392405063298
+      "current_price": 12.47,
+      "value": 122389.3483459675,
+      "profit": -1668.4995363924993,
+      "profit_rate": -0.013449367088607589
     }
   ],
   "trades": [
@@ -116,6 +116,16 @@
       "price": 12.79,
       "volume": 575.48076923,
       "funds": 7360.399038451699,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
+      "market": "KRW-UOS",
+      "type": "buy",
+      "time": "2026-01-03T02:25:26",
+      "price": 14.06,
+      "volume": 11174.53521246,
+      "funds": 157113.9650871876,
       "profit": 0,
       "cycle_completed": false
     },
@@ -1018,16 +1028,6 @@
       "funds": 96820.72441956811,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-COS",
-      "type": "buy",
-      "time": "2026-01-02T01:19:26",
-      "price": 2.089,
-      "volume": 46191.09621828,
-      "funds": 96493.19999998691,
-      "profit": 0,
-      "cycle_completed": false
     }
   ],
   "daily_profits": {
@@ -1038,5 +1038,5 @@
   "today_profit": 20351.322995213366,
   "total_profit": 92327.62753196085,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-03T03:22:39.673703"
+  "last_update": "2026-01-03T03:32:06.905178"
 }
