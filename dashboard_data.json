@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-01-02T09:14:34.779453",
+  "last_update": "2026-01-02T09:24:26.643173",
   "today_profit": 13649.203827577527,
   "today_profit_percent": 2.248602717763057,
   "total_profit": 285025.1354403978,
@@ -10,37 +10,28 @@
       "market": "KRW-COS",
       "amount": 36527.25470763,
       "avg_price": 2.018,
-      "current_price": 2.014,
-      "value": 73565.89098116681,
-      "profit": -146.10901883052014,
-      "profit_rate": -0.0019821605550049575
+      "current_price": 2.006,
+      "value": 73273.67294350578,
+      "profit": -438.3270564915604,
+      "profit_rate": -0.005946481665014872
     },
     {
       "market": "KRW-REZ",
       "amount": 114636.69234889,
       "avg_price": 7.523,
-      "current_price": 7.464,
-      "value": 855648.271692115,
-      "profit": -6763.564848584428,
-      "profit_rate": -0.007842615977668388
+      "current_price": 7.408,
+      "value": 849228.6169205772,
+      "profit": -13183.219620122274,
+      "profit_rate": -0.015286454871726616
     },
     {
       "market": "KRW-BOB",
       "amount": 45031.15684769,
       "avg_price": 16.75,
-      "current_price": 16.51,
-      "value": 743464.399555362,
-      "profit": -10807.477643445529,
-      "profit_rate": -0.01432835820895513
-    },
-    {
-      "market": "KRW-IRYS",
-      "amount": 483.85060428,
-      "avg_price": 35.53,
-      "current_price": 35.63,
-      "value": 17239.597030496403,
-      "profit": 48.38506042800069,
-      "profit_rate": 0.0028145229383619874
+      "current_price": 16.44,
+      "value": 740312.2185760236,
+      "profit": -13959.658622783842,
+      "profit_rate": -0.018507462686567087
     }
   ],
   "trades": [
@@ -61,6 +52,16 @@
       "price": 8.372,
       "volume": 10022.84065278,
       "funds": 83911.22194507415,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
+      "market": "KRW-IRYS",
+      "type": "sell",
+      "time": "2026-01-02T08:28:44",
+      "price": 35.8,
+      "volume": 483.85060428,
+      "funds": 17321.851633224,
       "profit": 0,
       "cycle_completed": false
     },
@@ -1033,16 +1034,6 @@
       "funds": 57304.039900228,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-ARKM",
-      "type": "sell",
-      "time": "2026-01-01T06:03:42",
-      "price": 259.0,
-      "volume": 356.24826821,
-      "funds": 92268.30146639,
-      "profit": 2493.7378774700046,
-      "cycle_completed": true
     }
   ],
   "daily_profits": {
