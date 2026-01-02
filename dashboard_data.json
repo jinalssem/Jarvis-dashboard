@@ -1,22 +1,31 @@
 {
   "holdings": [
     {
+      "market": "KRW-ZTX",
+      "amount": 78955.6778679,
+      "avg_price": 0.6904,
+      "current_price": 0.6916,
+      "value": 54605.74681343964,
+      "profit": 94.74681344147832,
+      "profit_rate": 0.0017381228273464352
+    },
+    {
       "market": "KRW-REZ",
       "amount": 172304.09884073,
       "avg_price": 7.463,
-      "current_price": 7.382,
-      "value": 1271948.8576422688,
-      "profit": -13956.6320060992,
-      "profit_rate": -0.010853544151145707
+      "current_price": 7.399,
+      "value": 1274878.0273225612,
+      "profit": -11027.46232580673,
+      "profit_rate": -0.008575639823127435
     },
     {
       "market": "KRW-NEIRO",
       "amount": 301246.32800645,
       "avg_price": 0.1791,
-      "current_price": 0.1766,
-      "value": 53200.10152593908,
-      "profit": -753.1158200161258,
-      "profit_rate": -0.013958682300390855
+      "current_price": 0.1762,
+      "value": 53079.602994736495,
+      "profit": -873.6143512187092,
+      "profit_rate": -0.016192071468453452
     }
   ],
   "trades": [
@@ -87,6 +96,16 @@
       "price": 2.2,
       "volume": 5561.48642095,
       "funds": 12235.270126090001,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
+      "market": "KRW-ZTX",
+      "type": "buy",
+      "time": "2026-01-02T16:10:08",
+      "price": 0.6904,
+      "volume": 78955.6778679,
+      "funds": 54510.99999999816,
       "profit": 0,
       "cycle_completed": false
     },
@@ -1009,16 +1028,6 @@
       "funds": 126963.48356566326,
       "profit": 3004.662385971984,
       "cycle_completed": true
-    },
-    {
-      "market": "KRW-GMX",
-      "type": "sell",
-      "time": "2026-01-01T09:00:13",
-      "price": 11450.0,
-      "volume": 8.04387755,
-      "funds": 92102.3979475,
-      "profit": 1447.8979589999944,
-      "cycle_completed": true
     }
   ],
   "daily_profits": {
@@ -1028,5 +1037,5 @@
   "today_profit": 36029.44815953437,
   "total_profit": 99960.94811486025,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-02T16:54:09.728239"
+  "last_update": "2026-01-02T17:04:27.935369"
 }
