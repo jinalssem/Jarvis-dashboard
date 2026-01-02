@@ -30,6 +30,16 @@
   ],
   "trades": [
     {
+      "market": "KRW-SAND",
+      "type": "buy",
+      "time": "2026-01-03T08:44:19.099440",
+      "price": 170.0,
+      "volume": 57.32758621,
+      "funds": 9745.6896557,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
       "market": "KRW-WNCG",
       "type": "buy",
       "time": "2026-01-03T07:50:34.736757",
@@ -1018,16 +1028,6 @@
       "funds": 79354.26506939,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-SOON",
-      "type": "buy",
-      "time": "2026-01-02T02:20:13",
-      "price": 544.0,
-      "volume": 144.01862989,
-      "funds": 78346.13466016,
-      "profit": 0,
-      "cycle_completed": false
     }
   ],
   "daily_profits": {
@@ -1038,5 +1038,5 @@
   "today_profit": 21704.45404319098,
   "total_profit": 94037.77092804926,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-03T08:35:57.866337"
+  "last_update": "2026-01-03T08:44:19.099482"
 }
