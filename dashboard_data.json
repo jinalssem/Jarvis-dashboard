@@ -4,31 +4,50 @@
       "market": "KRW-ZTX",
       "amount": 78955.6778679,
       "avg_price": 0.6904,
-      "current_price": 0.6999,
-      "value": 55261.07893974321,
-      "profit": 750.0789397450462,
-      "profit_rate": 0.01376013904982612
+      "current_price": 0.6958,
+      "value": 54937.36066048482,
+      "profit": 426.36066048665685,
+      "profit_rate": 0.007821552723059039
     },
     {
       "market": "KRW-NEIRO",
       "amount": 301246.32800645,
       "avg_price": 0.1791,
-      "current_price": 0.1799,
-      "value": 54194.21440836036,
-      "profit": 240.99706240515857,
-      "profit_rate": 0.004466778336125042
+      "current_price": 0.1797,
+      "value": 54133.96514275907,
+      "profit": 180.74779680386683,
+      "profit_rate": 0.003350083752093743
     },
     {
       "market": "KRW-HOLO",
       "amount": 1726.90565253,
       "avg_price": 120.0,
-      "current_price": 119.0,
-      "value": 205501.77265107,
-      "profit": -1726.90565253,
-      "profit_rate": -0.008333333333333333
+      "current_price": 121.0,
+      "value": 208955.58395613,
+      "profit": 1726.90565253,
+      "profit_rate": 0.008333333333333333
+    },
+    {
+      "market": "KRW-MON",
+      "amount": 8248.74964537,
+      "avg_price": 37.71,
+      "current_price": 37.76,
+      "value": 311472.7866091712,
+      "profit": 412.4374822684766,
+      "profit_rate": 0.0013259082471492219
     }
   ],
   "trades": [
+    {
+      "market": "KRW-MON",
+      "type": "buy",
+      "time": "2026-01-02T19:20:13",
+      "price": 37.71,
+      "volume": 8248.74964537,
+      "funds": 311060.3491269027,
+      "profit": 0,
+      "cycle_completed": false
+    },
     {
       "market": "KRW-HOLO",
       "type": "buy",
@@ -1018,16 +1037,6 @@
       "funds": 17964.30338352,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-REZ",
-      "type": "sell",
-      "time": "2026-01-01T09:50:59",
-      "price": 7.997,
-      "volume": 16836.28318584,
-      "funds": 134639.75663716247,
-      "profit": 1464.7566371680878,
-      "cycle_completed": true
     }
   ],
   "daily_profits": {
@@ -1037,5 +1046,5 @@
   "today_profit": 36029.44815953437,
   "total_profit": 99960.94811486025,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-02T19:15:34.911287"
+  "last_update": "2026-01-02T19:25:19.344739"
 }
