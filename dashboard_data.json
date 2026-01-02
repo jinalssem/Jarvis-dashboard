@@ -50,6 +50,16 @@
     {
       "market": "KRW-HOLO",
       "type": "sell",
+      "time": "2026-01-02T19:44:10.603995",
+      "price": 123.0,
+      "volume": 362.650187031,
+      "funds": 44605.97300481299,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
+      "market": "KRW-HOLO",
+      "type": "sell",
       "time": "2026-01-02T19:33:41.414038",
       "price": 122.0,
       "volume": 518.071695759,
@@ -1036,16 +1046,6 @@
       "funds": 40191.856862192,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-IOTA",
-      "type": "buy",
-      "time": "2026-01-01T12:54:29",
-      "price": 116.0,
-      "volume": 1825.64224137,
-      "funds": 211774.49999892,
-      "profit": 0,
-      "cycle_completed": false
     }
   ],
   "daily_profits": {
@@ -1055,5 +1055,5 @@
   "today_profit": 36029.44815953437,
   "total_profit": 99960.94811486025,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-02T19:35:35.250791"
+  "last_update": "2026-01-02T19:44:10.604051"
 }
