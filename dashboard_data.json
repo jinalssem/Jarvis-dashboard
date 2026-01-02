@@ -4,19 +4,28 @@
       "market": "KRW-BCH",
       "amount": 0.2994138,
       "avg_price": 885500.0,
-      "current_price": 886000.0,
-      "value": 265280.6268,
-      "profit": 149.7069,
-      "profit_rate": 0.000564652738565782
+      "current_price": 888000.0,
+      "value": 265879.4544,
+      "profit": 748.5345,
+      "profit_rate": 0.00282326369282891
+    },
+    {
+      "market": "KRW-UOS",
+      "amount": 3765.0,
+      "avg_price": 14.06,
+      "current_price": 14.06,
+      "value": 52935.9,
+      "profit": 0.0,
+      "profit_rate": 0.0
     },
     {
       "market": "KRW-WNCG",
       "amount": 9814.70315525,
       "avg_price": 12.64,
-      "current_price": 12.48,
-      "value": 122487.49537752,
-      "profit": -1570.3525048400013,
-      "profit_rate": -0.012658227848101276
+      "current_price": 12.43,
+      "value": 121996.76021975749,
+      "profit": -2061.0876626025083,
+      "profit_rate": -0.01661392405063298
     }
   ],
   "trades": [
@@ -1029,5 +1038,5 @@
   "today_profit": 20351.322995213366,
   "total_profit": 92327.62753196085,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-03T03:13:13.851269"
+  "last_update": "2026-01-03T03:22:35.707666"
 }
