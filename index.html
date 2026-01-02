@@ -2103,20 +2103,56 @@
                 showLoading();
                 
                 let data;
-                try {
-                    console.log('[UPDATE] dashboard_data.json 로드 시도...');
-                    const response = await fetch('dashboard_data.json?t=' + new Date().getTime());
-                    console.log('[UPDATE] Response status:', response.status);
-                    data = await response.json();
-                    console.log('[UPDATE] 데이터 로드 성공:', {
-                        last_update: data.last_update,
-                        holdings: data.holdings?.length || 0,
-                        trades: data.trades?.length || 0
-                    });
-                } catch (fetchError) {
-                    console.error('[UPDATE] dashboard_data.json 로드 실패:', fetchError);
-                    console.log('[UPDATE] 샘플 데이터 사용');
-                    data = generateSampleData();
+                const connectionType = document.getElementById('connectionType').value;
+                const scriptUrl = document.getElementById('googleScriptUrl')?.value?.trim();
+                
+                // 연결 방식에 따라 데이터 소스 결정
+                if (connectionType === 'google' && scriptUrl) {
+                    // Google Apps Script에서 데이터 가져오기
+                    try {
+                        console.log('[UPDATE] Google Apps Script에서 데이터 로드 시도...');
+                        const response = await fetch(`${scriptUrl}?action=getData&t=${new Date().getTime()}`, {
+                            method: 'GET',
+                            mode: 'cors'
+                        });
+                        console.log('[UPDATE] GAS Response status:', response.status);
+                        data = await response.json();
+                        console.log('[UPDATE] GAS 데이터 로드 성공:', {
+                            last_update: data.last_update,
+                            holdings: data.holdings?.length || 0,
+                            trades: data.trades?.length || 0,
+                            today_profit: data.today_profit,
+                            total_profit: data.total_profit
+                        });
+                    } catch (gasError) {
+                        console.error('[UPDATE] GAS 로드 실패:', gasError);
+                        console.log('[UPDATE] 로컬 파일 시도...');
+                        // GAS 실패시 로컬 파일 시도
+                        try {
+                            const response = await fetch('dashboard_data.json?t=' + new Date().getTime());
+                            data = await response.json();
+                        } catch (localError) {
+                            console.log('[UPDATE] 샘플 데이터 사용');
+                            data = generateSampleData();
+                        }
+                    }
+                } else {
+                    // 로컬 파일에서 데이터 가져오기
+                    try {
+                        console.log('[UPDATE] dashboard_data.json 로드 시도...');
+                        const response = await fetch('dashboard_data.json?t=' + new Date().getTime());
+                        console.log('[UPDATE] Response status:', response.status);
+                        data = await response.json();
+                        console.log('[UPDATE] 데이터 로드 성공:', {
+                            last_update: data.last_update,
+                            holdings: data.holdings?.length || 0,
+                            trades: data.trades?.length || 0
+                        });
+                    } catch (fetchError) {
+                        console.error('[UPDATE] dashboard_data.json 로드 실패:', fetchError);
+                        console.log('[UPDATE] 샘플 데이터 사용');
+                        data = generateSampleData();
+                    }
                 }
 
                 if (data.last_update) {
@@ -2137,9 +2173,9 @@
                 
                 const totalProfit = data.total_profit || 0;
 
-                // 통합 손익 (봇/수동 구분 없음)
+                // 통합 손익
                 const todayProfit = data.today_profit || 0;
-                const totalProfit = data.total_profit || 0;
+                const totalProfitVal = data.total_profit || 0;
 
                 // 손익 업데이트
                 const updateProfitElement = (elementId, profit) => {
@@ -2151,7 +2187,7 @@
                 };
                 
                 updateProfitElement('todayProfit', todayProfit);
-                updateProfitElement('totalProfit', totalProfit);
+                updateProfitElement('totalProfit', totalProfitVal);
                 
                 // 날짜 업데이트
                 // 누적 손익: 시작일부터 표시 (JSON의 start_date 사용)
