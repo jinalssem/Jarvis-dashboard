@@ -4,19 +4,28 @@
       "market": "KRW-BCH",
       "amount": 0.2994138,
       "avg_price": 885500.0,
-      "current_price": 890500.0,
-      "value": 266627.9889,
-      "profit": 1497.069,
-      "profit_rate": 0.00564652738565782
+      "current_price": 885000.0,
+      "value": 264981.213,
+      "profit": -149.7069,
+      "profit_rate": -0.000564652738565782
+    },
+    {
+      "market": "KRW-WIKEN",
+      "amount": 152866.52781858,
+      "avg_price": 3.446,
+      "current_price": 3.463,
+      "value": 529376.7858357426,
+      "profit": 2598.7309729158455,
+      "profit_rate": 0.004933255948926263
     },
     {
       "market": "KRW-WNCG",
       "amount": 575.48076923,
       "avg_price": 12.2,
-      "current_price": 12.79,
-      "value": 7360.399038451699,
-      "profit": 339.5336538456999,
-      "profit_rate": 0.048360655737704906
+      "current_price": 12.67,
+      "value": 7291.3413461441,
+      "profit": 270.47596153810036,
+      "profit_rate": 0.03852459016393448
     }
   ],
   "trades": [
@@ -27,6 +36,26 @@
       "price": 12.79,
       "volume": 575.48076923,
       "funds": 7360.399038451699,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
+      "market": "KRW-WIKEN",
+      "type": "buy",
+      "time": "2026-01-03T02:47:43",
+      "price": 3.446,
+      "volume": 152866.52781858,
+      "funds": 526778.0548628267,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
+      "market": "KRW-WNCG",
+      "type": "buy",
+      "time": "2026-01-03T02:38:51",
+      "price": 12.67,
+      "volume": 9239.22238602,
+      "funds": 117060.94763087339,
       "profit": 0,
       "cycle_completed": false
     },
@@ -999,26 +1028,6 @@
       "funds": 19527.33217840099,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-TEMCO",
-      "type": "sell",
-      "time": "2026-01-02T00:45:17",
-      "price": 1.37,
-      "volume": 33185.56087613,
-      "funds": 45464.21840029811,
-      "profit": 0,
-      "cycle_completed": false
-    },
-    {
-      "market": "KRW-TEMCO",
-      "type": "sell",
-      "time": "2026-01-02T00:23:54",
-      "price": 1.4,
-      "volume": 20317.69033233,
-      "funds": 28444.766465261997,
-      "profit": 0,
-      "cycle_completed": false
     }
   ],
   "daily_profits": {
@@ -1029,5 +1038,5 @@
   "today_profit": 506.42307694912233,
   "total_profit": 72482.72761369661,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-03T02:52:45.845300"
+  "last_update": "2026-01-03T02:54:16.126333"
 }
