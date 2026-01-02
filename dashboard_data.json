@@ -4,19 +4,28 @@
       "market": "KRW-ZTX",
       "amount": 78955.6778679,
       "avg_price": 0.6904,
-      "current_price": 0.6918,
-      "value": 54621.53794901322,
-      "profit": 110.53794901505658,
-      "profit_rate": 0.002027809965237481
+      "current_price": 0.6902,
+      "value": 54495.20886442458,
+      "profit": -15.791135573578261,
+      "profit_rate": -0.0002896871378910457
     },
     {
       "market": "KRW-REZ",
       "amount": 65628.79549382,
       "avg_price": 7.599,
-      "current_price": 7.564,
-      "value": 496416.20911525446,
-      "profit": -2297.007842283709,
-      "profit_rate": -0.004605869193314929
+      "current_price": 7.57,
+      "value": 496809.9818882174,
+      "profit": -1903.2350693207743,
+      "profit_rate": -0.0038162916173180568
+    },
+    {
+      "market": "KRW-POPCAT",
+      "amount": 1218.44630847,
+      "avg_price": 132.0,
+      "current_price": 132.0,
+      "value": 160834.91271804,
+      "profit": 0.0,
+      "profit_rate": 0.0
     }
   ],
   "trades": [
@@ -117,6 +126,16 @@
       "price": 123.0,
       "volume": 518.07169576,
       "funds": 63722.81857848,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
+      "market": "KRW-POPCAT",
+      "type": "buy",
+      "time": "2026-01-02T19:27:03",
+      "price": 132.0,
+      "volume": 1218.44630847,
+      "funds": 160834.91271804,
       "profit": 0,
       "cycle_completed": false
     },
@@ -1009,16 +1028,6 @@
       "funds": 75640.39999998696,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-REZ",
-      "type": "buy",
-      "time": "2026-01-01T19:17:10",
-      "price": 7.747,
-      "volume": 10848.71563185,
-      "funds": 84044.99999994195,
-      "profit": 0,
-      "cycle_completed": false
     }
   ],
   "daily_profits": {
@@ -1028,5 +1037,5 @@
   "today_profit": 39081.4855283213,
   "total_profit": 103012.98548364718,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-02T20:14:34.519483"
+  "last_update": "2026-01-02T20:24:03.782178"
 }
