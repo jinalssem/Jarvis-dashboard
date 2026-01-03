@@ -1,15 +1,6 @@
 {
   "holdings": [
     {
-      "market": "KRW-VIRTUAL",
-      "amount": 8.17939353,
-      "avg_price": 1266.0,
-      "current_price": 1284.0,
-      "value": 10502.341292520001,
-      "profit": 147.22908354,
-      "profit_rate": 0.014218009478672985
-    },
-    {
       "market": "KRW-XPL",
       "amount": 19.7132,
       "avg_price": 277.0,
@@ -20,6 +11,16 @@
     }
   ],
   "trades": [
+    {
+      "market": "KRW-VIRTUAL",
+      "type": "sell",
+      "time": "2026-01-03T15:24:37",
+      "price": 1260.0,
+      "volume": 8.17939353,
+      "funds": 10306.0358478,
+      "profit": 0,
+      "cycle_completed": false
+    },
     {
       "market": "KRW-VIRTUAL",
       "type": "sell",
@@ -1009,16 +1010,6 @@
       "funds": 98674.4108439446,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-REZ",
-      "type": "sell",
-      "time": "2026-01-02T07:18:53",
-      "price": 7.437,
-      "volume": 14776.04235459,
-      "funds": 109889.42699108583,
-      "profit": 0,
-      "cycle_completed": false
     }
   ],
   "daily_profits": {
@@ -1029,5 +1020,5 @@
   "today_profit": 23671.998676144984,
   "total_profit": 96005.31556100326,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-03T15:24:36.652722"
+  "last_update": "2026-01-03T15:26:07.299112"
 }
