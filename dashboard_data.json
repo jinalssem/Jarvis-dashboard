@@ -4,19 +4,10 @@
       "market": "KRW-WNCG",
       "amount": 9814.70315525,
       "avg_price": 12.64,
-      "current_price": 12.57,
-      "value": 123370.81866149249,
-      "profit": -687.0292208675028,
-      "profit_rate": -0.005537974683544326
-    },
-    {
-      "market": "KRW-HOLO",
-      "amount": 558.87005176,
-      "avg_price": 119.0,
-      "current_price": 121.0,
-      "value": 67623.27626296,
-      "profit": 1117.74010352,
-      "profit_rate": 0.01680672268907563
+      "current_price": 12.61,
+      "value": 123763.40678770248,
+      "profit": -294.44109465751114,
+      "profit_rate": -0.002373417721519077
     }
   ],
   "trades": [
@@ -29,6 +20,16 @@
       "funds": 9763.458401999998,
       "profit": 0,
       "cycle_completed": false
+    },
+    {
+      "market": "KRW-HOLO",
+      "type": "sell",
+      "time": "2026-01-03T09:50:01",
+      "price": 122.0,
+      "volume": 558.87005176,
+      "funds": 68182.14631472,
+      "profit": 1676.6101552799955,
+      "cycle_completed": true
     },
     {
       "market": "KRW-YB",
@@ -1009,25 +1010,15 @@
       "funds": 357717.99999995006,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-NEIRO",
-      "type": "sell",
-      "time": "2026-01-02T02:54:51",
-      "price": 0.1704,
-      "volume": 420560.36379639,
-      "funds": 71663.48599090485,
-      "profit": 168.22414551854308,
-      "cycle_completed": true
     }
   ],
   "daily_profits": {
     "2026-01-01": 36947,
     "2026-01-02": 35386.316884858265,
-    "2026-01-03": 22028.10609498499
+    "2026-01-03": 23704.716250264984
   },
-  "today_profit": 22028.10609498499,
-  "total_profit": 94361.42297984326,
+  "today_profit": 23704.716250264984,
+  "total_profit": 96038.03313512326,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-03T10:21:26.843760"
+  "last_update": "2026-01-03T10:30:43.214739"
 }
