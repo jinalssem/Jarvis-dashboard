@@ -1,52 +1,54 @@
 {
   "holdings": [
     {
-      "market": "KRW-BCH",
-      "amount": 0.2994138,
-      "avg_price": 885500.0,
-      "current_price": 892000.0,
-      "value": 267077.1096,
-      "profit": 1946.1897000000001,
-      "profit_rate": 0.007340485601355167
-    },
-    {
       "market": "KRW-UOS",
       "amount": 11151.75130355,
       "avg_price": 14.08,
-      "current_price": 14.09,
-      "value": 157128.17586701948,
-      "profit": 111.51751303549761,
-      "profit_rate": 0.0007102272727272576
+      "current_price": 14.15,
+      "value": 157797.2809452325,
+      "profit": 780.6225912485031,
+      "profit_rate": 0.004971590909090929
     },
     {
       "market": "KRW-WNCG",
       "amount": 9814.70315525,
       "avg_price": 12.64,
-      "current_price": 12.62,
-      "value": 123861.55381925499,
-      "profit": -196.29406310501324,
-      "profit_rate": -0.0015822784810127649
+      "current_price": 12.7,
+      "value": 124646.73007167499,
+      "profit": 588.8821893149874,
+      "profit_rate": 0.004746835443037873
     },
     {
       "market": "KRW-HOLO",
       "amount": 558.87005176,
       "avg_price": 119.0,
-      "current_price": 123.0,
-      "value": 68741.01636648,
-      "profit": 2235.48020704,
-      "profit_rate": 0.03361344537815126
-    },
-    {
-      "market": "KRW-YB",
-      "amount": 30.32939189,
-      "avg_price": 580.0,
-      "current_price": 610.0,
-      "value": 18500.9290529,
-      "profit": 909.8817567,
-      "profit_rate": 0.05172413793103448
+      "current_price": 120.0,
+      "value": 67064.4062112,
+      "profit": 558.87005176,
+      "profit_rate": 0.008403361344537815
     }
   ],
   "trades": [
+    {
+      "market": "KRW-YB",
+      "type": "sell",
+      "time": "2026-01-03T09:49:35",
+      "price": 607.0,
+      "volume": 30.32939189,
+      "funds": 18409.94087723,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
+      "market": "KRW-BCH",
+      "type": "sell",
+      "time": "2026-01-03T09:48:42",
+      "price": 908000.0,
+      "volume": 0.2994138,
+      "funds": 271867.7304,
+      "profit": 0,
+      "cycle_completed": false
+    },
     {
       "market": "KRW-PUMPBTC",
       "type": "sell",
@@ -1026,26 +1028,6 @@
       "funds": 158708.53013878,
       "profit": 1008.1304092300124,
       "cycle_completed": true
-    },
-    {
-      "market": "KRW-H",
-      "type": "sell",
-      "time": "2026-01-02T02:32:12",
-      "price": 290.0,
-      "volume": 306.51926521,
-      "funds": 88890.5869109,
-      "profit": 1839.115591260008,
-      "cycle_completed": true
-    },
-    {
-      "market": "KRW-XPLA",
-      "type": "sell",
-      "time": "2026-01-02T02:27:54",
-      "price": 23.33,
-      "volume": 20121.65294337,
-      "funds": 469438.1631688221,
-      "profit": 1272.1781317905406,
-      "cycle_completed": true
     }
   ],
   "daily_profits": {
@@ -1056,5 +1038,5 @@
   "today_profit": 22028.10609498499,
   "total_profit": 94361.42297984326,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-03T09:44:16.709152"
+  "last_update": "2026-01-03T09:54:03.140964"
 }
