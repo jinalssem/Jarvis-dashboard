@@ -21,6 +21,16 @@
   ],
   "trades": [
     {
+      "market": "KRW-YB",
+      "type": "buy",
+      "time": "2026-01-03T19:06:36.828253",
+      "price": 588.0,
+      "volume": 16.625,
+      "funds": 9775.5,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
       "market": "KRW-VIRTUAL",
       "type": "buy",
       "time": "2026-01-03T18:08:15",
@@ -1009,16 +1019,6 @@
       "funds": 31224.18110316,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-HOLO",
-      "type": "sell",
-      "time": "2026-01-02T19:33:41",
-      "price": 123.0,
-      "volume": 518.07169576,
-      "funds": 63722.81857848,
-      "profit": 0,
-      "cycle_completed": false
     }
   ],
   "daily_profits": {
@@ -1029,5 +1029,5 @@
   "today_profit": 23671.998676144984,
   "total_profit": 96005.31556100326,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-03T18:58:31.256752"
+  "last_update": "2026-01-03T19:06:36.828306"
 }
