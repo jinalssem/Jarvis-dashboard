@@ -4,10 +4,19 @@
       "market": "KRW-VIRTUAL",
       "amount": 8.17939353,
       "avg_price": 1266.0,
-      "current_price": 1264.0,
-      "value": 10338.75342192,
-      "profit": -16.35878706,
-      "profit_rate": -0.001579778830963665
+      "current_price": 1272.0,
+      "value": 10404.18857016,
+      "profit": 49.076361180000006,
+      "profit_rate": 0.004739336492890996
+    },
+    {
+      "market": "KRW-XPL",
+      "amount": 19.7132,
+      "avg_price": 277.0,
+      "current_price": 278.0,
+      "value": 5480.2696000000005,
+      "profit": 19.7132,
+      "profit_rate": 0.0036101083032490976
     }
   ],
   "trades": [
@@ -1020,5 +1029,5 @@
   "today_profit": 23704.716250264984,
   "total_profit": 96038.03313512326,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-03T14:26:37.799239"
+  "last_update": "2026-01-03T14:36:15.544444"
 }
