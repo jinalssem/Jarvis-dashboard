@@ -1,6 +1,15 @@
 {
   "holdings": [
     {
+      "market": "KRW-EGG",
+      "amount": 63071.251353,
+      "avg_price": 1.689,
+      "current_price": 1.689,
+      "value": 106527.343535217,
+      "profit": 0.0,
+      "profit_rate": 0.0
+    },
+    {
       "market": "KRW-SWAP",
       "amount": 108.13292029,
       "avg_price": 68.7,
@@ -13,10 +22,10 @@
       "market": "KRW-RENDER",
       "amount": 79.69902102,
       "avg_price": 2368.0,
-      "current_price": 2381.0,
-      "value": 189763.36904862002,
-      "profit": 1036.08727326,
-      "profit_rate": 0.005489864864864865
+      "current_price": 2394.0,
+      "value": 190799.45632188002,
+      "profit": 2072.17454652,
+      "profit_rate": 0.01097972972972973
     },
     {
       "market": "KRW-REZ",
@@ -31,10 +40,10 @@
       "market": "KRW-NEIRO",
       "amount": 691012.42876743,
       "avg_price": 0.1992,
-      "current_price": 0.1992,
-      "value": 137649.67581047205,
-      "profit": 0.0,
-      "profit_rate": 0.0
+      "current_price": 0.1981,
+      "value": 136889.5621388279,
+      "profit": -760.1136716441661,
+      "profit_rate": -0.0055220883534136045
     },
     {
       "market": "KRW-TRUMP",
@@ -1056,5 +1065,5 @@
   "today_profit": 0,
   "total_profit": 113653.59151425929,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-04T04:16:36.046543"
+  "last_update": "2026-01-04T04:18:00.579949"
 }
