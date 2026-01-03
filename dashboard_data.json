@@ -4,13 +4,32 @@
       "market": "KRW-REZ",
       "amount": 2331.81818182,
       "avg_price": 7.54,
-      "current_price": 7.58,
-      "value": 17675.1818181956,
-      "profit": 93.27272727280008,
-      "profit_rate": 0.005305039787798413
+      "current_price": 7.584,
+      "value": 17684.50909092288,
+      "profit": 102.60000000007906,
+      "profit_rate": 0.005835543766578195
+    },
+    {
+      "market": "KRW-VIRTUAL",
+      "amount": 228.52741563,
+      "avg_price": 1185.0,
+      "current_price": 1178.0,
+      "value": 269205.29561214003,
+      "profit": -1599.69190941,
+      "profit_rate": -0.00590717299578059
     }
   ],
   "trades": [
+    {
+      "market": "KRW-VIRTUAL",
+      "type": "buy",
+      "time": "2026-01-03T18:08:15",
+      "price": 1185.0,
+      "volume": 228.52741563,
+      "funds": 270804.98752155004,
+      "profit": 0,
+      "cycle_completed": false
+    },
     {
       "market": "KRW-ETH",
       "type": "buy",
@@ -1000,16 +1019,6 @@
       "funds": 63722.81857848,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-POPCAT",
-      "type": "buy",
-      "time": "2026-01-02T19:27:03",
-      "price": 132.0,
-      "volume": 1218.44630847,
-      "funds": 160834.91271804,
-      "profit": 0,
-      "cycle_completed": false
     }
   ],
   "daily_profits": {
@@ -1020,5 +1029,5 @@
   "today_profit": 23671.998676144984,
   "total_profit": 96005.31556100326,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-03T18:01:20.700076"
+  "last_update": "2026-01-03T18:10:43.023113"
 }
