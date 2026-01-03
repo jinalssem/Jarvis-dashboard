@@ -40,6 +40,16 @@
   "trades": [
     {
       "market": "KRW-UOS",
+      "type": "sell",
+      "time": "2026-01-03T20:04:44.743659",
+      "price": 14.88,
+      "volume": 14393.621882727,
+      "funds": 214177.09361497778,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
+      "market": "KRW-UOS",
       "type": "buy",
       "time": "2026-01-03T19:50:59",
       "price": 14.56,
@@ -1027,16 +1037,6 @@
       "funds": 55190.0188296621,
       "profit": 679.018829663939,
       "cycle_completed": true
-    },
-    {
-      "market": "KRW-POPCAT",
-      "type": "sell",
-      "time": "2026-01-02T20:53:43",
-      "price": 130.0,
-      "volume": 1218.44630847,
-      "funds": 158398.0201011,
-      "profit": -2436.892616939993,
-      "cycle_completed": true
     }
   ],
   "daily_profits": {
@@ -1047,5 +1047,5 @@
   "today_profit": 23671.998676144984,
   "total_profit": 96005.31556100326,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-03T19:56:22.439337"
+  "last_update": "2026-01-03T20:04:44.743749"
 }
