@@ -30,6 +30,26 @@
   ],
   "trades": [
     {
+      "market": "KRW-MASK",
+      "type": "buy",
+      "time": "2026-01-03T20:50:34.996425",
+      "price": 908.0,
+      "volume": 19.36893204,
+      "funds": 17586.99029232,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
+      "market": "KRW-REZ",
+      "type": "sell",
+      "time": "2026-01-03T20:50:30.764588",
+      "price": 7.783,
+      "volume": 2331.81818182,
+      "funds": 18148.54090910506,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
       "market": "KRW-REZ",
       "type": "sell",
       "time": "2026-01-03T20:34:23.571914",
@@ -1008,26 +1028,6 @@
       "funds": 452941.3520494848,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-WNCG",
-      "type": "buy",
-      "time": "2026-01-02T21:20:23",
-      "price": 12.2,
-      "volume": 1438.70192308,
-      "funds": 17552.163461575998,
-      "profit": 0,
-      "cycle_completed": false
-    },
-    {
-      "market": "KRW-MAY",
-      "type": "buy",
-      "time": "2026-01-02T20:58:12",
-      "price": 23.3,
-      "volume": 6422.25980114,
-      "funds": 149638.653366562,
-      "profit": 0,
-      "cycle_completed": false
     }
   ],
   "daily_profits": {
@@ -1038,5 +1038,5 @@
   "today_profit": 23671.998676144984,
   "total_profit": 96005.31556100326,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-03T20:45:02.227416"
+  "last_update": "2026-01-03T20:50:34.996485"
 }
