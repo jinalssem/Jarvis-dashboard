@@ -23,6 +23,16 @@
     {
       "market": "KRW-SWAP",
       "type": "sell",
+      "time": "2026-01-04T03:35:09.225961",
+      "price": 70.67,
+      "volume": 108.13292029,
+      "funds": 7641.753476894301,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
+      "market": "KRW-SWAP",
+      "type": "sell",
       "time": "2026-01-04T03:23:59.644406",
       "price": 70.66,
       "volume": 108.13292029,
@@ -1009,16 +1019,6 @@
       "funds": 271867.7304,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-PUMPBTC",
-      "type": "sell",
-      "time": "2026-01-03T09:34:45",
-      "price": 43.35,
-      "volume": 1618.26025897,
-      "funds": 70151.5822263495,
-      "profit": 323.652051794008,
-      "cycle_completed": true
     }
   ],
   "daily_profits": {
@@ -1029,5 +1029,5 @@
   "today_profit": 0,
   "total_profit": 113653.59151425929,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-04T03:31:00.351430"
+  "last_update": "2026-01-04T03:35:09.226002"
 }
