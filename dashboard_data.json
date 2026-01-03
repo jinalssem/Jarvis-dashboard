@@ -21,6 +21,16 @@
   ],
   "trades": [
     {
+      "market": "KRW-WNCG",
+      "type": "buy",
+      "time": "2026-01-03T19:35:23.314503",
+      "price": 12.1,
+      "volume": 805.73505654,
+      "funds": 9749.394184133998,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
       "market": "KRW-MASK",
       "type": "buy",
       "time": "2026-01-03T19:16:13.982479",
@@ -1009,16 +1019,6 @@
       "funds": 16267.301712349199,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-HOLO",
-      "type": "sell",
-      "time": "2026-01-02T20:02:12",
-      "price": 122.0,
-      "volume": 954.97882585,
-      "funds": 116507.4167537,
-      "profit": 4225.738131740014,
-      "cycle_completed": true
     }
   ],
   "daily_profits": {
@@ -1029,5 +1029,5 @@
   "today_profit": 23671.998676144984,
   "total_profit": 96005.31556100326,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-03T19:27:14.435238"
+  "last_update": "2026-01-03T19:35:23.314565"
 }
