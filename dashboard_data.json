@@ -1,31 +1,22 @@
 {
   "holdings": [
     {
-      "market": "KRW-UOS",
-      "amount": 11151.75130355,
-      "avg_price": 14.08,
-      "current_price": 14.29,
-      "value": 159358.52612772948,
-      "profit": 2341.8677737454896,
-      "profit_rate": 0.014914772727272662
-    },
-    {
       "market": "KRW-WNCG",
       "amount": 9814.70315525,
       "avg_price": 12.64,
-      "current_price": 12.65,
-      "value": 124155.9949139125,
-      "profit": 98.14703155249791,
-      "profit_rate": 0.0007911392405063122
+      "current_price": 12.57,
+      "value": 123370.81866149249,
+      "profit": -687.0292208675028,
+      "profit_rate": -0.005537974683544326
     },
     {
       "market": "KRW-HOLO",
       "amount": 558.87005176,
       "avg_price": 119.0,
-      "current_price": 120.0,
-      "value": 67064.4062112,
-      "profit": 558.87005176,
-      "profit_rate": 0.008403361344537815
+      "current_price": 121.0,
+      "value": 67623.27626296,
+      "profit": 1117.74010352,
+      "profit_rate": 0.01680672268907563
     }
   ],
   "trades": [
@@ -68,6 +59,16 @@
       "funds": 70151.5822263495,
       "profit": 323.652051794008,
       "cycle_completed": true
+    },
+    {
+      "market": "KRW-UOS",
+      "type": "sell",
+      "time": "2026-01-03T09:19:56",
+      "price": 14.3,
+      "volume": 11151.75130355,
+      "funds": 159470.043640765,
+      "profit": 0,
+      "cycle_completed": false
     },
     {
       "market": "KRW-SAND",
@@ -1018,16 +1019,6 @@
       "funds": 71663.48599090485,
       "profit": 168.22414551854308,
       "cycle_completed": true
-    },
-    {
-      "market": "KRW-NEIRO",
-      "type": "buy",
-      "time": "2026-01-02T02:40:37",
-      "price": 0.17,
-      "volume": 420560.36379639,
-      "funds": 71495.26184538631,
-      "profit": 0,
-      "cycle_completed": false
     }
   ],
   "daily_profits": {
@@ -1038,5 +1029,5 @@
   "today_profit": 22028.10609498499,
   "total_profit": 94361.42297984326,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-03T10:12:26.608410"
+  "last_update": "2026-01-03T10:21:26.843760"
 }
