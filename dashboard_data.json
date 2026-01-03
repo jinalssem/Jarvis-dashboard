@@ -1,31 +1,22 @@
 {
   "holdings": [
     {
-      "market": "KRW-UOS",
-      "amount": 22339.7492185,
-      "avg_price": 14.2,
-      "current_price": 14.18,
-      "value": 316777.64391833,
-      "profit": -446.7949843699905,
-      "profit_rate": -0.0014084507042253223
-    },
-    {
       "market": "KRW-SWAP",
       "amount": 213.32335329,
       "avg_price": 68.7,
-      "current_price": 68.61,
-      "value": 14636.1152692269,
-      "profit": -19.199101796100727,
-      "profit_rate": -0.0013100436681223204
+      "current_price": 68.84,
+      "value": 14685.1796404836,
+      "profit": 29.86526946060012,
+      "profit_rate": 0.002037845705967985
     },
     {
       "market": "KRW-REZ",
       "amount": 932.72727273,
       "avg_price": 7.54,
-      "current_price": 7.737,
-      "value": 7216.51090911201,
-      "profit": 183.74727272781004,
-      "profit_rate": 0.02612732095490717
+      "current_price": 7.763,
+      "value": 7240.76181820299,
+      "profit": 207.99818181878987,
+      "profit_rate": 0.02957559681697611
     }
   ],
   "trades": [
@@ -36,6 +27,16 @@
       "price": 127655000.0,
       "volume": 0.00013784,
       "funds": 17595.9652,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
+      "market": "KRW-UOS",
+      "type": "sell",
+      "time": "2026-01-04T00:42:02",
+      "price": 14.1,
+      "volume": 22339.7492185,
+      "funds": 314990.46398085,
       "profit": 0,
       "cycle_completed": false
     },
@@ -1018,16 +1019,6 @@
       "funds": 17531.32628148,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-UOS",
-      "type": "sell",
-      "time": "2026-01-03T05:16:13",
-      "price": 14.2,
-      "volume": 13025.46566345,
-      "funds": 184961.61242099,
-      "profit": 0,
-      "cycle_completed": false
     }
   ],
   "daily_profits": {
@@ -1038,5 +1029,5 @@
   "today_profit": 0,
   "total_profit": 113653.59151425929,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-04T00:46:45.054430"
+  "last_update": "2026-01-04T00:48:04.486133"
 }
