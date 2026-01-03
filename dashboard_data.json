@@ -12,6 +12,16 @@
   ],
   "trades": [
     {
+      "market": "KRW-XPL",
+      "type": "sell",
+      "time": "2026-01-03T15:44:03.003540",
+      "price": 277.0,
+      "volume": 629.83047795,
+      "funds": 174463.04239215,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
       "market": "KRW-VIRTUAL",
       "type": "sell",
       "time": "2026-01-03T15:24:37",
@@ -1000,16 +1010,6 @@
       "funds": 37536.12987745824,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-REZ",
-      "type": "sell",
-      "time": "2026-01-02T07:21:29",
-      "price": 7.42,
-      "volume": 13298.43811913,
-      "funds": 98674.4108439446,
-      "profit": 0,
-      "cycle_completed": false
     }
   ],
   "daily_profits": {
@@ -1020,5 +1020,5 @@
   "today_profit": 23671.998676144984,
   "total_profit": 96005.31556100326,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-03T15:35:47.467972"
+  "last_update": "2026-01-03T15:44:03.003637"
 }
