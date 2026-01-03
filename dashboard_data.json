@@ -1,22 +1,31 @@
 {
   "holdings": [
     {
+      "market": "KRW-UOS",
+      "amount": 15557.14656012,
+      "avg_price": 13.95,
+      "current_price": 13.81,
+      "value": 214844.1939952572,
+      "profit": -2178.0005184167812,
+      "profit_rate": -0.010035842293906723
+    },
+    {
       "market": "KRW-SWAP",
       "amount": 213.32335329,
       "avg_price": 68.7,
-      "current_price": 69.88,
-      "value": 14907.035927905199,
-      "profit": 251.72155688219843,
-      "profit_rate": 0.017176128093158553
+      "current_price": 70.4,
+      "value": 15017.964071616001,
+      "profit": 362.6497005930006,
+      "profit_rate": 0.024745269286754044
     },
     {
       "market": "KRW-REZ",
       "amount": 932.72727273,
       "avg_price": 7.54,
-      "current_price": 7.803,
-      "value": 7278.07090911219,
-      "profit": 245.3072727279899,
-      "profit_rate": 0.03488063660477452
+      "current_price": 7.79,
+      "value": 7265.9454545666995,
+      "profit": 233.1818181825,
+      "profit_rate": 0.033156498673740056
     }
   ],
   "trades": [
@@ -277,6 +286,16 @@
       "price": 588.0,
       "volume": 28.2625,
       "funds": 16618.35,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
+      "market": "KRW-UOS",
+      "type": "buy",
+      "time": "2026-01-03T21:46:05",
+      "price": 13.95,
+      "volume": 15557.14656012,
+      "funds": 217022.19451367398,
       "profit": 0,
       "cycle_completed": false
     },
@@ -1009,16 +1028,6 @@
       "funds": 17581.9090909228,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-REZ",
-      "type": "buy",
-      "time": "2026-01-03T06:51:31",
-      "price": 7.54,
-      "volume": 2331.81818182,
-      "funds": 17581.9090909228,
-      "profit": 0,
-      "cycle_completed": false
     }
   ],
   "daily_profits": {
@@ -1029,5 +1038,5 @@
   "today_profit": 0,
   "total_profit": 113653.59151425929,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-04T01:14:52.363593"
+  "last_update": "2026-01-04T01:16:10.010681"
 }
