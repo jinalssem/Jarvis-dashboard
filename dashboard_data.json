@@ -30,6 +30,16 @@
   ],
   "trades": [
     {
+      "market": "KRW-ADA",
+      "type": "buy",
+      "time": "2026-01-04T00:40:36.128442",
+      "price": 548.0,
+      "volume": 32.0625,
+      "funds": 17570.25,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
       "market": "KRW-REZ",
       "type": "sell",
       "time": "2026-01-04T00:34:32.840200",
@@ -1018,16 +1028,6 @@
       "funds": 185352.37639089348,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-UOS",
-      "type": "sell",
-      "time": "2026-01-03T05:06:32",
-      "price": 14.7,
-      "volume": 5582.34242719,
-      "funds": 82060.433679693,
-      "profit": 0,
-      "cycle_completed": false
     }
   ],
   "daily_profits": {
@@ -1038,5 +1038,5 @@
   "today_profit": 0,
   "total_profit": 113653.59151425929,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-04T00:35:52.663156"
+  "last_update": "2026-01-04T00:40:36.128481"
 }
