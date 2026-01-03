@@ -1,22 +1,13 @@
 {
   "holdings": [
     {
-      "market": "KRW-UOS",
-      "amount": 34655.678331899995,
-      "avg_price": 14.37,
-      "current_price": 14.62,
-      "value": 506666.0172123779,
-      "profit": 8663.919582974999,
-      "profit_rate": 0.017397355601948505
-    },
-    {
       "market": "KRW-REZ",
       "amount": 2331.81818182,
       "avg_price": 7.54,
-      "current_price": 7.567,
-      "value": 17644.868181831942,
-      "profit": 62.959090909140315,
-      "profit_rate": 0.0035809018567639437
+      "current_price": 7.563,
+      "value": 17635.54090910466,
+      "profit": 53.63181818185927,
+      "profit_rate": 0.0030503978779840434
     }
   ],
   "trades": [
@@ -27,6 +18,16 @@
       "price": 7.41,
       "volume": 1318.92106307,
       "funds": 9773.205077348699,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
+      "market": "KRW-UOS",
+      "type": "sell",
+      "time": "2026-01-03T17:12:26",
+      "price": 14.4,
+      "volume": 34655.6783319,
+      "funds": 499041.76797936007,
       "profit": 0,
       "cycle_completed": false
     },
@@ -1009,16 +1010,6 @@
       "funds": 311061.346633405,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-HOLO",
-      "type": "buy",
-      "time": "2026-01-02T19:12:25",
-      "price": 120.0,
-      "volume": 1726.90565253,
-      "funds": 207228.6783036,
-      "profit": 0,
-      "cycle_completed": false
     }
   ],
   "daily_profits": {
@@ -1029,5 +1020,5 @@
   "today_profit": 23671.998676144984,
   "total_profit": 96005.31556100326,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-03T17:12:31.272083"
+  "last_update": "2026-01-03T17:13:56.105033"
 }
