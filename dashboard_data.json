@@ -2,12 +2,12 @@
   "holdings": [
     {
       "market": "KRW-UOS",
-      "amount": 75199.83917898,
-      "avg_price": 14.39,
-      "current_price": 14.49,
-      "value": 1089645.66970342,
-      "profit": 7519.983917897973,
-      "profit_rate": 0.00694927032661568
+      "amount": 61398.74451801,
+      "avg_price": 14.5,
+      "current_price": 14.38,
+      "value": 882913.9461689838,
+      "profit": -7367.849342161152,
+      "profit_rate": -0.008275862068965464
     },
     {
       "market": "KRW-REZ",
@@ -21,12 +21,42 @@
   ],
   "trades": [
     {
+      "market": "KRW-UOS",
+      "type": "buy",
+      "time": "2026-01-03T16:53:33",
+      "price": 14.49,
+      "volume": 15349.62593516,
+      "funds": 222416.0798004684,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
+      "market": "KRW-UOS",
+      "type": "buy",
+      "time": "2026-01-03T16:53:03",
+      "price": 14.5,
+      "volume": 46049.11858285,
+      "funds": 667712.219451325,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
       "market": "KRW-SAND",
       "type": "buy",
       "time": "2026-01-03T16:52:45.451871",
       "price": 165.0,
       "volume": 59.02366864,
       "funds": 9738.905325599999,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
+      "market": "KRW-UOS",
+      "type": "sell",
+      "time": "2026-01-03T16:48:46",
+      "price": 14.69,
+      "volume": 75199.83917898,
+      "funds": 1104685.637539216,
       "profit": 0,
       "cycle_completed": false
     },
@@ -989,36 +1019,6 @@
       "funds": 8642.549898145202,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-COS",
-      "type": "sell",
-      "time": "2026-01-02T16:23:58",
-      "price": 2.2,
-      "volume": 5561.48642095,
-      "funds": 12235.270126090001,
-      "profit": 0,
-      "cycle_completed": false
-    },
-    {
-      "market": "KRW-ZTX",
-      "type": "buy",
-      "time": "2026-01-02T16:10:08",
-      "price": 0.6904,
-      "volume": 78955.6778679,
-      "funds": 54510.99999999816,
-      "profit": 0,
-      "cycle_completed": false
-    },
-    {
-      "market": "KRW-NEIRO",
-      "type": "buy",
-      "time": "2026-01-02T16:07:07",
-      "price": 0.1791,
-      "volume": 301246.32800645,
-      "funds": 53953.2173459552,
-      "profit": 0,
-      "cycle_completed": false
     }
   ],
   "daily_profits": {
@@ -1029,5 +1029,5 @@
   "today_profit": 23671.998676144984,
   "total_profit": 96005.31556100326,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-03T16:52:45.451935"
+  "last_update": "2026-01-03T16:54:30.630024"
 }
