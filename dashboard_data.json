@@ -4,19 +4,28 @@
       "market": "KRW-UOS",
       "amount": 22339.7492185,
       "avg_price": 14.2,
-      "current_price": 14.22,
-      "value": 317671.23388707003,
-      "profit": 446.7949843700302,
-      "profit_rate": 0.0014084507042254472
+      "current_price": 14.28,
+      "value": 319011.61884018,
+      "profit": 1787.1799374800016,
+      "profit_rate": 0.005633802816901414
+    },
+    {
+      "market": "KRW-SWAP",
+      "amount": 213.32335329,
+      "avg_price": 68.7,
+      "current_price": 68.57,
+      "value": 14627.582335095298,
+      "profit": -27.73203592770206,
+      "profit_rate": -0.0018922852983989762
     },
     {
       "market": "KRW-REZ",
       "amount": 932.72727273,
       "avg_price": 7.54,
-      "current_price": 7.748,
-      "value": 7226.7709091120405,
-      "profit": 194.00727272784016,
-      "profit_rate": 0.027586206896551748
+      "current_price": 7.749,
+      "value": 7227.703636384769,
+      "profit": 194.94000000056965,
+      "profit_rate": 0.027718832891246634
     }
   ],
   "trades": [
@@ -54,6 +63,16 @@
       "market": "KRW-SWAP",
       "type": "buy",
       "time": "2026-01-03T23:22:09.272650",
+      "price": 68.7,
+      "volume": 213.32335329,
+      "funds": 14655.314371023002,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
+      "market": "KRW-SWAP",
+      "type": "buy",
+      "time": "2026-01-03T23:22:09",
       "price": 68.7,
       "volume": 213.32335329,
       "funds": 14655.314371023002,
@@ -1009,16 +1028,6 @@
       "funds": 35020.143884863995,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-ETH",
-      "type": "buy",
-      "time": "2026-01-03T04:28:21.443991",
-      "price": 4417000.0,
-      "volume": 0.00398292,
-      "funds": 17592.55764,
-      "profit": 0,
-      "cycle_completed": false
     }
   ],
   "daily_profits": {
@@ -1029,5 +1038,5 @@
   "today_profit": 0,
   "total_profit": 113653.59151425929,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-04T00:23:11.258964"
+  "last_update": "2026-01-04T00:24:25.638886"
 }
