@@ -4,22 +4,60 @@
       "market": "KRW-SWAP",
       "amount": 108.13292029,
       "avg_price": 68.7,
-      "current_price": 69.88,
-      "value": 7556.3284698652,
-      "profit": 127.59684594219921,
-      "profit_rate": 0.017176128093158553
+      "current_price": 69.9,
+      "value": 7558.491128271001,
+      "profit": 129.75950434800032,
+      "profit_rate": 0.017467248908296984
+    },
+    {
+      "market": "KRW-RENDER",
+      "amount": 79.69902102,
+      "avg_price": 2368.0,
+      "current_price": 2365.0,
+      "value": 188488.18471230002,
+      "profit": -239.09706306,
+      "profit_rate": -0.001266891891891892
     },
     {
       "market": "KRW-REZ",
       "amount": 932.72727273,
       "avg_price": 7.54,
-      "current_price": 7.706,
-      "value": 7187.596363657381,
-      "profit": 154.83272727318035,
-      "profit_rate": 0.022015915119363443
+      "current_price": 7.71,
+      "value": 7191.3272727483,
+      "profit": 158.56363636409992,
+      "profit_rate": 0.022546419098143228
+    },
+    {
+      "market": "KRW-TRUMP",
+      "amount": 21.9927592,
+      "avg_price": 7725.0,
+      "current_price": 7730.0,
+      "value": 170004.028616,
+      "profit": 109.96379599999999,
+      "profit_rate": 0.0006472491909385113
     }
   ],
   "trades": [
+    {
+      "market": "KRW-TRUMP",
+      "type": "buy",
+      "time": "2026-01-04T03:57:56",
+      "price": 7725.0,
+      "volume": 21.9927592,
+      "funds": 169894.06482,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
+      "market": "KRW-RENDER",
+      "type": "buy",
+      "time": "2026-01-04T03:56:07",
+      "price": 2368.0,
+      "volume": 79.69902102,
+      "funds": 188727.28177536,
+      "profit": 0,
+      "cycle_completed": false
+    },
     {
       "market": "KRW-REZ",
       "type": "sell",
@@ -999,26 +1037,6 @@
       "funds": 9763.458401999998,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-WNCG",
-      "type": "sell",
-      "time": "2026-01-03T09:58:36",
-      "price": 12.8,
-      "volume": 9814.70315525,
-      "funds": 125628.20038719999,
-      "profit": 0,
-      "cycle_completed": false
-    },
-    {
-      "market": "KRW-HOLO",
-      "type": "sell",
-      "time": "2026-01-03T09:50:01",
-      "price": 122.0,
-      "volume": 558.87005176,
-      "funds": 68182.14631472,
-      "profit": 1676.6101552799955,
-      "cycle_completed": true
     }
   ],
   "daily_profits": {
@@ -1029,5 +1047,5 @@
   "today_profit": 0,
   "total_profit": 113653.59151425929,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-04T03:53:02.077859"
+  "last_update": "2026-01-04T03:58:55.662004"
 }
