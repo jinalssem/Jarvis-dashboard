@@ -21,6 +21,16 @@
   ],
   "trades": [
     {
+      "market": "KRW-SAND",
+      "type": "buy",
+      "time": "2026-01-03T16:52:45.451871",
+      "price": 165.0,
+      "volume": 59.02366864,
+      "funds": 9738.905325599999,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
       "market": "KRW-UOS",
       "type": "buy",
       "time": "2026-01-03T16:34:55",
@@ -1009,16 +1019,6 @@
       "funds": 53953.2173459552,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-COS",
-      "type": "sell",
-      "time": "2026-01-02T14:51:37",
-      "price": 2.16,
-      "volume": 7944.98060136,
-      "funds": 17161.1580989376,
-      "profit": 0,
-      "cycle_completed": false
     }
   ],
   "daily_profits": {
@@ -1029,5 +1029,5 @@
   "today_profit": 23671.998676144984,
   "total_profit": 96005.31556100326,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-03T16:44:16.209731"
+  "last_update": "2026-01-03T16:52:45.451935"
 }
