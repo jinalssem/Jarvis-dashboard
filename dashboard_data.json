@@ -21,6 +21,16 @@
   ],
   "trades": [
     {
+      "market": "KRW-UOS",
+      "type": "sell",
+      "time": "2026-01-04T00:23:11.258921",
+      "price": 14.24,
+      "volume": 22339.7492185,
+      "funds": 318118.02887144004,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
       "market": "KRW-ETH",
       "type": "buy",
       "time": "2026-01-04T00:11:55.901216",
@@ -1009,16 +1019,6 @@
       "funds": 17592.55764,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-YB",
-      "type": "buy",
-      "time": "2026-01-03T04:08:57.096572",
-      "price": 580.0,
-      "volume": 30.32939189,
-      "funds": 17591.0472962,
-      "profit": 0,
-      "cycle_completed": false
     }
   ],
   "daily_profits": {
@@ -1029,5 +1029,5 @@
   "today_profit": 0,
   "total_profit": 113653.59151425929,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-04T00:18:38.308971"
+  "last_update": "2026-01-04T00:23:11.258964"
 }
