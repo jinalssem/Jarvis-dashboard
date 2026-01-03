@@ -4,10 +4,10 @@
       "market": "KRW-YB",
       "amount": 16.27243067,
       "avg_price": 600.0,
-      "current_price": 603.0,
-      "value": 9812.275694009999,
-      "profit": 48.817292009999996,
-      "profit_rate": 0.005
+      "current_price": 600.0,
+      "value": 9763.458401999998,
+      "profit": 0.0,
+      "profit_rate": 0.0
     }
   ],
   "trades": [
@@ -18,6 +18,26 @@
       "price": 601.0,
       "volume": 16.27243067,
       "funds": 9779.730832669999,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
+      "market": "KRW-UOS",
+      "type": "sell",
+      "time": "2026-01-03T16:13:13",
+      "price": 15.5,
+      "volume": 27827.39320786,
+      "funds": 431324.59472183004,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
+      "market": "KRW-UOS",
+      "type": "buy",
+      "time": "2026-01-03T16:09:44",
+      "price": 15.14,
+      "volume": 27827.39320786,
+      "funds": 421306.7331670004,
       "profit": 0,
       "cycle_completed": false
     },
@@ -990,26 +1010,6 @@
       "funds": 52621.16313180972,
       "profit": 1483.0065411297837,
       "cycle_completed": true
-    },
-    {
-      "market": "KRW-COS",
-      "type": "sell",
-      "time": "2026-01-02T10:11:02",
-      "price": 2.06,
-      "volume": 10958.17641229,
-      "funds": 22573.8434093174,
-      "profit": 0,
-      "cycle_completed": false
-    },
-    {
-      "market": "KRW-REZ",
-      "type": "buy",
-      "time": "2026-01-02T09:50:59",
-      "price": 7.353,
-      "volume": 2354.68516251,
-      "funds": 17313.99999993603,
-      "profit": 0,
-      "cycle_completed": false
     }
   ],
   "daily_profits": {
@@ -1020,5 +1020,5 @@
   "today_profit": 23671.998676144984,
   "total_profit": 96005.31556100326,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-03T16:13:23.276844"
+  "last_update": "2026-01-03T16:14:51.301788"
 }
