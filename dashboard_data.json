@@ -31,6 +31,16 @@
   "trades": [
     {
       "market": "KRW-YB",
+      "type": "buy",
+      "time": "2026-01-03T10:10:58.026737",
+      "price": 600.0,
+      "volume": 16.27243067,
+      "funds": 9763.458401999998,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
+      "market": "KRW-YB",
       "type": "sell",
       "time": "2026-01-03T09:49:35",
       "price": 607.0,
@@ -1018,16 +1028,6 @@
       "funds": 71495.26184538631,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-SOON",
-      "type": "sell",
-      "time": "2026-01-02T02:35:42",
-      "price": 551.0,
-      "volume": 288.03725978,
-      "funds": 158708.53013878,
-      "profit": 1008.1304092300124,
-      "cycle_completed": true
     }
   ],
   "daily_profits": {
@@ -1038,5 +1038,5 @@
   "today_profit": 22028.10609498499,
   "total_profit": 94361.42297984326,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-03T10:03:18.347131"
+  "last_update": "2026-01-03T10:10:58.026885"
 }
