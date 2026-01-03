@@ -1,20 +1,20 @@
 {
-  "holdings": [
-    {
-      "market": "KRW-XPL",
-      "amount": 19.7132,
-      "avg_price": 277.0,
-      "current_price": 280.0,
-      "value": 5519.696,
-      "profit": 59.1396,
-      "profit_rate": 0.010830324909747292
-    }
-  ],
+  "holdings": [],
   "trades": [
     {
       "market": "KRW-XPL",
       "type": "sell",
       "time": "2026-01-03T15:44:03.003540",
+      "price": 277.0,
+      "volume": 629.83047795,
+      "funds": 174463.04239215,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
+      "market": "KRW-XPL",
+      "type": "sell",
+      "time": "2026-01-03T15:44:03",
       "price": 277.0,
       "volume": 629.83047795,
       "funds": 174463.04239215,
@@ -168,6 +168,16 @@
       "price": 14.08,
       "volume": 11151.75130355,
       "funds": 157016.658353984,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
+      "market": "KRW-XPL",
+      "type": "buy",
+      "time": "2026-01-03T06:52:12",
+      "price": 277.0,
+      "volume": 629.83047795,
+      "funds": 174463.04239215,
       "profit": 0,
       "cycle_completed": false
     },
@@ -990,26 +1000,6 @@
       "funds": 73711.99999999734,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-MAY",
-      "type": "buy",
-      "time": "2026-01-02T07:56:03",
-      "price": 21.55,
-      "volume": 3420.48723897,
-      "funds": 73711.4999998035,
-      "profit": 0,
-      "cycle_completed": false
-    },
-    {
-      "market": "KRW-REZ",
-      "type": "sell",
-      "time": "2026-01-02T07:34:10",
-      "price": 7.434,
-      "volume": 5049.25072336,
-      "funds": 37536.12987745824,
-      "profit": 0,
-      "cycle_completed": false
     }
   ],
   "daily_profits": {
@@ -1020,5 +1010,5 @@
   "today_profit": 23671.998676144984,
   "total_profit": 96005.31556100326,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-03T15:44:03.003637"
+  "last_update": "2026-01-03T15:45:26.700016"
 }
