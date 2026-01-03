@@ -4,37 +4,28 @@
       "market": "KRW-UOS",
       "amount": 36584.61830275,
       "avg_price": 14.47,
-      "current_price": 14.56,
-      "value": 532672.04248804,
-      "profit": 3292.615647247495,
-      "profit_rate": 0.006219765031098815
+      "current_price": 14.51,
+      "value": 530842.8115729025,
+      "profit": 1463.3847321099688,
+      "profit_rate": 0.002764340013821641
     },
     {
       "market": "KRW-WIKEN",
       "amount": 188347.67494618,
       "avg_price": 3.22,
-      "current_price": 3.228,
-      "value": 607986.2947262691,
-      "profit": 1506.7813995694412,
-      "profit_rate": 0.0024844720496894433
+      "current_price": 3.222,
+      "value": 606856.208676592,
+      "profit": 376.6953498923185,
+      "profit_rate": 0.0006211180124222919
     },
     {
       "market": "KRW-REZ",
       "amount": 932.72727273,
       "avg_price": 7.54,
-      "current_price": 7.826,
-      "value": 7299.52363638498,
-      "profit": 266.7600000007796,
-      "profit_rate": 0.037931034482758565
-    },
-    {
-      "market": "KRW-VIRTUAL",
-      "amount": 228.52741563,
-      "avg_price": 1185.0,
-      "current_price": 1181.0,
-      "value": 269890.87785903004,
-      "profit": -914.10966252,
-      "profit_rate": -0.0033755274261603376
+      "current_price": 7.829,
+      "value": 7302.32181820317,
+      "profit": 269.55818181896973,
+      "profit_rate": 0.03832891246684346
     }
   ],
   "trades": [
@@ -115,6 +106,16 @@
       "price": 3.224,
       "volume": 54904.61191933,
       "funds": 177012.46882791992,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
+      "market": "KRW-VIRTUAL",
+      "type": "sell",
+      "time": "2026-01-03T20:39:17",
+      "price": 1186.0,
+      "volume": 228.52741563,
+      "funds": 271033.51493718004,
       "profit": 0,
       "cycle_completed": false
     },
@@ -1027,16 +1028,6 @@
       "funds": 7285.58653847712,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-SWAP",
-      "type": "buy",
-      "time": "2026-01-03T01:55:01.359497",
-      "price": 65.6,
-      "volume": 148.88059701,
-      "funds": 9766.567163856,
-      "profit": 0,
-      "cycle_completed": false
     }
   ],
   "daily_profits": {
@@ -1047,5 +1038,5 @@
   "today_profit": 23671.998676144984,
   "total_profit": 104711.20779564549,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-03T21:26:21.484127"
+  "last_update": "2026-01-03T21:31:17.195405"
 }
