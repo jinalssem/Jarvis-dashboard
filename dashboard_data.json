@@ -1,16 +1,44 @@
 {
   "holdings": [
     {
+      "market": "KRW-UOS",
+      "amount": 28023.2448787,
+      "avg_price": 15.38,
+      "current_price": 15.03,
+      "value": 421189.370526861,
+      "profit": -9808.13570754504,
+      "profit_rate": -0.022756827048114527
+    },
+    {
+      "market": "KRW-REZ",
+      "amount": 2331.81818182,
+      "avg_price": 7.54,
+      "current_price": 7.57,
+      "value": 17651.863636377402,
+      "profit": 69.95454545460058,
+      "profit_rate": 0.003978779840848839
+    },
+    {
       "market": "KRW-YB",
       "amount": 16.27243067,
       "avg_price": 600.0,
-      "current_price": 600.0,
-      "value": 9763.458401999998,
-      "profit": 0.0,
-      "profit_rate": 0.0
+      "current_price": 599.0,
+      "value": 9747.18597133,
+      "profit": -16.27243067,
+      "profit_rate": -0.0016666666666666668
     }
   ],
   "trades": [
+    {
+      "market": "KRW-UOS",
+      "type": "buy",
+      "time": "2026-01-03T16:22:03",
+      "price": 15.38,
+      "volume": 28023.2448787,
+      "funds": 430997.506234406,
+      "profit": 0,
+      "cycle_completed": false
+    },
     {
       "market": "KRW-YB",
       "type": "sell",
@@ -265,6 +293,16 @@
       "market": "KRW-REZ",
       "type": "buy",
       "time": "2026-01-03T06:51:31.233654",
+      "price": 7.54,
+      "volume": 2331.81818182,
+      "funds": 17581.9090909228,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
+      "market": "KRW-REZ",
+      "type": "buy",
+      "time": "2026-01-03T06:51:31",
       "price": 7.54,
       "volume": 2331.81818182,
       "funds": 17581.9090909228,
@@ -990,26 +1028,6 @@
       "funds": 406105.99999994086,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-BOB",
-      "type": "sell",
-      "time": "2026-01-02T10:37:55",
-      "price": 16.7,
-      "volume": 45031.15684769,
-      "funds": 752020.319356423,
-      "profit": 0,
-      "cycle_completed": false
-    },
-    {
-      "market": "KRW-COS",
-      "type": "sell",
-      "time": "2026-01-02T10:12:01",
-      "price": 2.058,
-      "volume": 25569.07829534,
-      "funds": 52621.16313180972,
-      "profit": 1483.0065411297837,
-      "cycle_completed": true
     }
   ],
   "daily_profits": {
@@ -1020,5 +1038,5 @@
   "today_profit": 23671.998676144984,
   "total_profit": 96005.31556100326,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-03T16:14:51.301788"
+  "last_update": "2026-01-03T16:24:23.546401"
 }
