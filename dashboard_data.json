@@ -30,6 +30,26 @@
   ],
   "trades": [
     {
+      "market": "KRW-REZ",
+      "type": "sell",
+      "time": "2026-01-03T21:52:26.614032",
+      "price": 7.791,
+      "volume": 932.72727273,
+      "funds": 7266.87818183943,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
+      "market": "KRW-WIKEN",
+      "type": "sell",
+      "time": "2026-01-03T21:52:22.652495",
+      "price": 3.228,
+      "volume": 52123.37357073999,
+      "funds": 168254.2498863487,
+      "profit": 0,
+      "cycle_completed": false
+    },
+    {
       "market": "KRW-YB",
       "type": "buy",
       "time": "2026-01-03T21:46:57.995088",
@@ -1008,26 +1028,6 @@
       "funds": 7360.399038451699,
       "profit": 0,
       "cycle_completed": false
-    },
-    {
-      "market": "KRW-UOS",
-      "type": "buy",
-      "time": "2026-01-03T02:25:26",
-      "price": 14.06,
-      "volume": 11174.53521246,
-      "funds": 157113.9650871876,
-      "profit": 0,
-      "cycle_completed": false
-    },
-    {
-      "market": "KRW-PUMPBTC",
-      "type": "buy",
-      "time": "2026-01-03T02:22:06",
-      "price": 43.15,
-      "volume": 1618.26025897,
-      "funds": 69827.9301745555,
-      "profit": 0,
-      "cycle_completed": false
     }
   ],
   "daily_profits": {
@@ -1038,5 +1038,5 @@
   "today_profit": 23671.998676144984,
   "total_profit": 106951.2848470966,
   "start_date": "2026-01-01",
-  "last_update": "2026-01-03T21:48:15.158249"
+  "last_update": "2026-01-03T21:52:26.614074"
 }
